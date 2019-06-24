@@ -10,8 +10,14 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -55,6 +61,7 @@
       <property role="IQ2ns" value="3840659476812055817" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="environment" />
+      <ref role="20lvS9" node="3lcKR8aBGmn" resolve="Environment" />
     </node>
     <node concept="1TJgyj" id="3lcKR8aBGkb" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055819" />
@@ -89,6 +96,7 @@
       <property role="IQ2ns" value="3840659476812055830" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="color" />
+      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Color" />
     </node>
     <node concept="1TJgyj" id="3lcKR8aBGkq" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055834" />
@@ -102,6 +110,11 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="3lcKR8aBGkw" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="3lcKR8aBGmy" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055970" />
+      <property role="TrG5h" value="Stability" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGky">
@@ -294,6 +307,291 @@
       <property role="20kJfa" value="attribute" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGlN">
+    <property role="EcuMT" value="3840659476812055923" />
+    <property role="TrG5h" value="Shape" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGlO">
+    <property role="EcuMT" value="3840659476812055924" />
+    <property role="TrG5h" value="Color" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGlP">
+    <property role="EcuMT" value="3840659476812055925" />
+    <property role="TrG5h" value="DefaultShape" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlN" resolve="Shape" />
+    <node concept="1TJgyi" id="3lcKR8aBGlR" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055927" />
+      <property role="TrG5h" value="Shapeid" />
+      <ref role="AX2Wp" to="tpck:Fg1jLUVynG" resolve="SideTransformSide" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="3lcKR8aBGlT">
+    <property role="TrG5h" value="Shapeenumeration" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="3lcKR8aBGlU" role="M5hS2" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGlV">
+    <property role="EcuMT" value="3840659476812055931" />
+    <property role="TrG5h" value="MoreShapes" />
+    <property role="R4oN_" value="constrainted to have 2 children at least" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlN" resolve="Shape" />
+    <node concept="1TJgyj" id="3lcKR8aBGlW" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055932" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ShapeInstance" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3lcKR8aBGlY" resolve="ShapeInstance" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGlY">
+    <property role="EcuMT" value="3840659476812055934" />
+    <property role="TrG5h" value="ShapeInstance" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3lcKR8aBGlZ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="3lcKR8aBGm1" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055937" />
+      <property role="TrG5h" value="ShapeID" />
+      <ref role="AX2Wp" node="3lcKR8aBGlT" resolve="Shapeenumeration" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGm3" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055939" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Conditional" />
+      <property role="20lbJX" value="0..n" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGm5">
+    <property role="EcuMT" value="3840659476812055941" />
+    <property role="TrG5h" value="DefaultColor" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Color" />
+    <node concept="1TJgyi" id="3lcKR8aBGm6" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055942" />
+      <property role="TrG5h" value="ColorID" />
+      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
+    </node>
+  </node>
+  <node concept="AxPO7" id="3lcKR8aBGm8">
+    <property role="TrG5h" value="Colorenumeration" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="3lcKR8aBGm9" role="M5hS2" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGma">
+    <property role="EcuMT" value="3840659476812055946" />
+    <property role="TrG5h" value="MoreColors" />
+    <property role="R4oN_" value="there should be at least 2 conditional colors" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Color" />
+    <node concept="1TJgyj" id="3lcKR8aBGmb" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055947" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ConditionalColor" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3lcKR8aBGmd" resolve="ConditionalColor" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmd">
+    <property role="EcuMT" value="3840659476812055949" />
+    <property role="TrG5h" value="ConditionalColor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3lcKR8aBGme" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055950" />
+      <property role="TrG5h" value="Color" />
+      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGmg" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055952" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Conditional" />
+      <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmi">
+    <property role="EcuMT" value="3840659476812055954" />
+    <property role="TrG5h" value="ColorShade" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Color" />
+    <node concept="1TJgyi" id="3lcKR8aBGmj" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055955" />
+      <property role="TrG5h" value="ColorID" />
+      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGml" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055957" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmn">
+    <property role="EcuMT" value="3840659476812055959" />
+    <property role="TrG5h" value="Environment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3lcKR8aBGmo" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055960" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attributes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGmq" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055962" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="entities" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3lcKR8aBGmn" resolve="Environment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGm$">
+    <property role="EcuMT" value="3840659476812055972" />
+    <property role="TrG5h" value="EnvironmentEntity" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="3lcKR8aBGm_" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGmC" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055976" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="SpecificLocation" />
+      <ref role="20lvS9" node="3lcKR8aBGn6" resolve="SpecificLocation" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmE">
+    <property role="EcuMT" value="3840659476812055978" />
+    <property role="TrG5h" value="EnvironmentColor" />
+    <ref role="1TJDcQ" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <node concept="1TJgyj" id="3lcKR8aBGmF" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055979" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="EnvironmentConditionalColor" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3lcKR8aBGmH" resolve="EnvironmentConditionalColor" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmH">
+    <property role="EcuMT" value="3840659476812055981" />
+    <property role="TrG5h" value="EnvironmentConditionalColor" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3lcKR8aBGmI" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055982" />
+      <property role="TrG5h" value="ColorID" />
+      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGmK" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055984" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Conditional" />
+      <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmM">
+    <property role="EcuMT" value="3840659476812055986" />
+    <property role="TrG5h" value="EnvironmentColorShade" />
+    <ref role="1TJDcQ" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <node concept="1TJgyi" id="3lcKR8aBGmN" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055987" />
+      <property role="TrG5h" value="ColorID" />
+      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGmP" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055989" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Definition" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Definition" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGmR">
+    <property role="EcuMT" value="3840659476812055991" />
+    <property role="TrG5h" value="EnvironmentAttribute" />
+    <property role="R4oN_" value="the string should be the name of the attribute so it should include all the environment attributes . alternatively it could be dealt with a list" />
+    <ref role="1TJDcQ" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <node concept="1TJgyi" id="3lcKR8aBGmS" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812055992" />
+      <property role="TrG5h" value="attribute" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="3lcKR8aBGmY" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812055998" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Conditional" />
+      <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGn0">
+    <property role="EcuMT" value="3840659476812056000" />
+    <property role="TrG5h" value="Conditional" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3lcKR8aBGn1" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812056001" />
+      <property role="TrG5h" value="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGn3">
+    <property role="EcuMT" value="3840659476812056003" />
+    <property role="TrG5h" value="Definition" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3lcKR8aBGn4" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812056004" />
+      <property role="TrG5h" value="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGn6">
+    <property role="EcuMT" value="3840659476812056006" />
+    <property role="TrG5h" value="SpecificLocation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGn7">
+    <property role="EcuMT" value="3840659476812056007" />
+    <property role="TrG5h" value="Location" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn6" resolve="SpecificLocation" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGn8">
+    <property role="EcuMT" value="3840659476812056008" />
+    <property role="TrG5h" value="Area" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn7" resolve="Location" />
+    <node concept="1TJgyi" id="3lcKR8aBGn9" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812056009" />
+      <property role="TrG5h" value="selectlocations" />
+      <ref role="AX2Wp" to="tpck:Fg1jLUVynG" resolve="SideTransformSide" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGnb">
+    <property role="EcuMT" value="3840659476812056011" />
+    <property role="TrG5h" value="SpecificXY" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn7" resolve="Location" />
+    <node concept="1TJgyj" id="3lcKR8aBGne" role="1TKVEi">
+      <property role="IQ2ns" value="3840659476812056014" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Coordinates" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="3lcKR8aBGng" resolve="Coordinates" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGng">
+    <property role="EcuMT" value="3840659476812056016" />
+    <property role="TrG5h" value="Coordinates" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3lcKR8aBGnh" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812056017" />
+      <property role="TrG5h" value="x" />
+    </node>
+    <node concept="1TJgyi" id="3lcKR8aBGnj" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812056019" />
+      <property role="TrG5h" value="y" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGnm">
+    <property role="EcuMT" value="3840659476812056022" />
+    <property role="TrG5h" value="Density" />
+    <property role="R4oN_" value="percentage should be a number between 0 and 100" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn6" resolve="SpecificLocation" />
+    <node concept="1TJgyi" id="3lcKR8aBGnn" role="1TKVEl">
+      <property role="IQ2nx" value="3840659476812056023" />
+      <property role="TrG5h" value="percentage" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
