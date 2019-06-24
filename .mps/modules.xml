@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/formalodd/formalodd.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/formalodd/runtime/formalodd.runtime.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/formalodd/sandbox/formalodd.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
