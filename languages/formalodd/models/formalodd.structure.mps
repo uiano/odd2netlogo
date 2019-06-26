@@ -55,6 +55,12 @@
     <property role="TrG5h" value="ODD" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6AuNKydYHYW" role="1TKVEi">
+      <property role="IQ2ns" value="7610748055951433660" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="EntitiesStateScale" />
+      <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGk8">
     <property role="EcuMT" value="3840659476812055816" />
@@ -78,9 +84,6 @@
     <property role="EcuMT" value="3840659476812055822" />
     <property role="TrG5h" value="Entity" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3lcKR8aBGkf" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="3lcKR8aBGkh" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055825" />
       <property role="20lmBu" value="aggregation" />
