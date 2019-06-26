@@ -101,12 +101,17 @@
             <property role="3F0ifm" value="MoreShapes" />
           </node>
         </node>
-        <node concept="3F2HdR" id="6AuNKydYPng" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3lcKR8aBGkj" resolve="statistics" />
-          <node concept="2iRkQZ" id="6AuNKydYPni" role="2czzBx" />
-          <node concept="3F0ifn" id="6AuNKydYWpQ" role="2czzBI">
-            <property role="3F0ifm" value="statistics" />
-          </node>
+        <node concept="3F1sOY" id="6AuNKydZCAt" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZCrp" resolve="Min" />
+        </node>
+        <node concept="3F1sOY" id="6AuNKydZCBm" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZCrC" resolve="Max" />
+        </node>
+        <node concept="3F1sOY" id="6AuNKydZCCj" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZCrT" resolve="Sum" />
+        </node>
+        <node concept="3F1sOY" id="6AuNKydZCDk" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZCsc" resolve="Avrage" />
         </node>
         <node concept="3F2HdR" id="6AuNKydYPof" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3lcKR8aBGkh" resolve="attributes" />
