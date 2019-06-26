@@ -10,11 +10,16 @@
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="7610748055951433660" name="EntitiesStateScale" index="3$p12O" />
       </concept>
-      <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU" />
+      <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
+        <child id="3840659476812055819" name="entity" index="ZOwpT" />
+      </concept>
+      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW" />
     </language>
   </registry>
   <node concept="ZOwpP" id="6AuNKydYohQ">
-    <node concept="ZOwpU" id="6AuNKydYMAn" role="3$p12O" />
+    <node concept="ZOwpU" id="6AuNKydZ2CK" role="3$p12O">
+      <node concept="ZOwpW" id="6AuNKydZcWX" role="ZOwpT" />
+    </node>
   </node>
 </model>
 

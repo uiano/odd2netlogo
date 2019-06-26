@@ -98,17 +98,40 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGlj" resolve="AgentStatistic" />
     </node>
-    <node concept="1TJgyj" id="3lcKR8aBGkm" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055830" />
+    <node concept="1TJgyj" id="6AuNKydZ5Jb" role="1TKVEi">
+      <property role="IQ2ns" value="7610748055951530955" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="color" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Color" />
+      <property role="20kJfa" value="DefaultColor" />
+      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="DefaultColor" />
+    </node>
+    <node concept="1TJgyj" id="6AuNKydZ5Jv" role="1TKVEi">
+      <property role="IQ2ns" value="7610748055951530975" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="MoreColors" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3lcKR8aBGma" resolve="MoreColors" />
+    </node>
+    <node concept="1TJgyj" id="6AuNKydZ5JQ" role="1TKVEi">
+      <property role="IQ2ns" value="7610748055951530998" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ColorShade" />
+      <ref role="20lvS9" node="3lcKR8aBGmi" resolve="ColorShade" />
     </node>
     <node concept="1TJgyj" id="3lcKR8aBGkq" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055834" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="shape" />
-      <ref role="20lvS9" node="3lcKR8aBGkz" resolve="String" />
+      <ref role="20lvS9" node="3lcKR8aBGlP" resolve="DefaultShape" />
+    </node>
+    <node concept="1TJgyj" id="6AuNKydZ9lb" role="1TKVEi">
+      <property role="IQ2ns" value="7610748055951545675" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="MoreShapes" />
+      <ref role="20lvS9" node="3lcKR8aBGlV" resolve="MoreShapes" />
+    </node>
+    <node concept="PrWs8" id="6AuNKydYOIT" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkv">

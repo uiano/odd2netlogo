@@ -7,13 +7,16 @@
   </languages>
   <imports>
     <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
@@ -30,6 +33,7 @@
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
+      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
@@ -58,14 +62,79 @@
   </node>
   <node concept="24kQdi" id="6AuNKydYHXu">
     <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateScales" />
-    <node concept="3EZMnI" id="6AuNKydYHXB" role="2wV5jI">
-      <node concept="l2Vlx" id="6AuNKydYHXE" role="2iSdaV" />
-      <node concept="3F1sOY" id="6AuNKydYHYw" role="3EZMnx">
+    <node concept="3EZMnI" id="6AuNKydYTkS" role="2wV5jI">
+      <node concept="2iRkQZ" id="6AuNKydYTkT" role="2iSdaV" />
+      <node concept="3F1sOY" id="6AuNKydYTlh" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:3lcKR8aBGk9" resolve="environment" />
       </node>
-      <node concept="3F2HdR" id="6AuNKydYOHU" role="3EZMnx">
+      <node concept="3F2HdR" id="6AuNKydYTlp" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:3lcKR8aBGkb" resolve="entity" />
-        <node concept="l2Vlx" id="6AuNKydYOHW" role="2czzBx" />
+        <node concept="2iRkQZ" id="6AuNKydYTlr" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6AuNKydYPla">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <node concept="3EZMnI" id="6AuNKydYPlc" role="2wV5jI">
+      <node concept="3EZMnI" id="6AuNKydYPlY" role="3EZMnx">
+        <node concept="VPM3Z" id="6AuNKydYPm0" role="3F10Kt" />
+        <node concept="3F1sOY" id="6AuNKydZ5Ky" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZ5Jb" resolve="DefaultColor" />
+        </node>
+        <node concept="3F2HdR" id="6AuNKydZ5L7" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZ5Jv" resolve="MoreColors" />
+          <node concept="2iRkQZ" id="6AuNKydZ5L9" role="2czzBx" />
+          <node concept="3F0ifn" id="6AuNKydZcXv" role="2czzBI">
+            <property role="3F0ifm" value="MoreColors" />
+          </node>
+        </node>
+        <node concept="3F1sOY" id="6AuNKydZ5LS" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZ5JQ" resolve="ColorShade" />
+        </node>
+        <node concept="3F1sOY" id="6AuNKydYPmV" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3lcKR8aBGkq" resolve="shape" />
+        </node>
+        <node concept="3F2HdR" id="6AuNKydZ9lN" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydZ9lb" resolve="MoreShapes" />
+          <node concept="2iRkQZ" id="6AuNKydZ9lP" role="2czzBx" />
+          <node concept="3F0ifn" id="6AuNKydZcXy" role="2czzBI">
+            <property role="3F0ifm" value="MoreShapes" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="6AuNKydYPng" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3lcKR8aBGkj" resolve="statistics" />
+          <node concept="2iRkQZ" id="6AuNKydYPni" role="2czzBx" />
+          <node concept="3F0ifn" id="6AuNKydYWpQ" role="2czzBI">
+            <property role="3F0ifm" value="statistics" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="6AuNKydYPof" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3lcKR8aBGkh" resolve="attributes" />
+          <node concept="2iRkQZ" id="6AuNKydYPoh" role="2czzBx" />
+          <node concept="3F0ifn" id="6AuNKydYWpT" role="2czzBI">
+            <property role="3F0ifm" value="attributes" />
+          </node>
+        </node>
+        <node concept="2iRkQZ" id="6AuNKydYPm3" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="6AuNKydYPlf" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6AuNKydYPoA">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <node concept="3F0A7n" id="6AuNKydYPoC" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6AuNKydZ5It">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="DefaultColor" />
+    <node concept="3EZMnI" id="6AuNKydZ5Iz" role="2wV5jI">
+      <node concept="2iRfu4" id="6AuNKydZ5I$" role="2iSdaV" />
+      <node concept="3F0ifn" id="6AuNKydZ5ID" role="3EZMnx">
+        <property role="3F0ifm" value="DefaultColor" />
+      </node>
+      <node concept="3F0A7n" id="6AuNKydZ5IL" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3lcKR8aBGm6" resolve="ColorID" />
       </node>
     </node>
   </node>
