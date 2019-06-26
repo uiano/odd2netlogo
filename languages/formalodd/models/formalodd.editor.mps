@@ -161,16 +161,6 @@
       <node concept="l2Vlx" id="5oUGABTKPUe" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5oUGABTKPVo">
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    <node concept="3EZMnI" id="5oUGABTKPWk" role="2wV5jI">
-      <node concept="l2Vlx" id="5oUGABTKPWl" role="2iSdaV" />
-      <node concept="3F2HdR" id="5oUGABTKPWq" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:4uZwTti3__2" resolve="smodelAttribute" />
-        <node concept="l2Vlx" id="5oUGABTKPWr" role="2czzBx" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="5oUGABTKPWW">
     <ref role="1XX52x" to="86kt:3lcKR8aBGn6" resolve="SpecificLocation" />
     <node concept="3EZMnI" id="5oUGABTKPWY" role="2wV5jI">
