@@ -472,9 +472,9 @@
     <node concept="1TJgyj" id="3lcKR8aBGmq" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055962" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="entities" />
+      <property role="20kJfa" value="EnvironmentEntity" />
       <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="3lcKR8aBGmn" resolve="Environment" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGm$">
@@ -489,6 +489,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="SpecificLocation" />
       <ref role="20lvS9" node="3lcKR8aBGn6" resolve="SpecificLocation" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTKQ3F" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142661867" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="EnvironmentAttribute" />
+      <ref role="20lvS9" node="3lcKR8aBGmR" resolve="EnvironmentAttribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGmE">
@@ -567,11 +573,35 @@
     <property role="EcuMT" value="3840659476812056006" />
     <property role="TrG5h" value="SpecificLocation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5oUGABTKPWw" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142661408" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Location" />
+      <ref role="20lvS9" node="3lcKR8aBGn7" resolve="Location" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTKPYI" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142661550" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Density" />
+      <ref role="20lvS9" node="3lcKR8aBGnm" resolve="Density" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGn7">
     <property role="EcuMT" value="3840659476812056007" />
     <property role="TrG5h" value="Location" />
     <ref role="1TJDcQ" node="3lcKR8aBGn6" resolve="SpecificLocation" />
+    <node concept="1TJgyj" id="5oUGABTKPXK" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142661488" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Area" />
+      <ref role="20lvS9" node="3lcKR8aBGn8" resolve="Area" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTKPXN" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142661491" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="SpexificXY" />
+      <ref role="20lvS9" node="3lcKR8aBGnb" resolve="SpecificXY" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGn8">
     <property role="EcuMT" value="3840659476812056008" />
