@@ -7,27 +7,9 @@
   <imports />
   <registry>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
-      <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
-        <child id="7610748055951433660" name="EntitiesStateScale" index="3$p12O" />
-      </concept>
-      <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
-        <child id="3840659476812055819" name="entity" index="ZOwpT" />
-      </concept>
-      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW" />
-    </language>
-    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
-        <property id="1169194664001" name="name" index="TrG5h" />
-      </concept>
+      <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP" />
     </language>
   </registry>
-  <node concept="ZOwpP" id="6AuNKydYohQ">
-    <property role="TrG5h" value="Test Project" />
-    <node concept="ZOwpU" id="5JxfqxAtKCB" role="3$p12O">
-      <node concept="ZOwpW" id="5JxfqxAtKCD" role="ZOwpT">
-        <property role="TrG5h" value="Entity1" />
-      </node>
-    </node>
-  </node>
+  <node concept="ZOwpP" id="6AuNKydYohQ" />
 </model>
 

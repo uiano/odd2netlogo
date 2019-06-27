@@ -55,6 +55,13 @@
     <property role="TrG5h" value="ODD" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5JxfqxAubY6" role="1TKVEi">
+      <property role="IQ2ns" value="6620640720694329222" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="UserComment" />
+    </node>
     <node concept="1TJgyj" id="6AuNKydYHYW" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951433660" />
       <property role="20lmBu" value="aggregation" />
@@ -669,6 +676,16 @@
       <property role="IQ2nx" value="3840659476812056023" />
       <property role="TrG5h" value="percentage" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5JxfqxAu5tR">
+    <property role="EcuMT" value="6620640720694302583" />
+    <property role="TrG5h" value="UserComment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="5JxfqxAu5tS" role="1TKVEl">
+      <property role="IQ2nx" value="6620640720694302584" />
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

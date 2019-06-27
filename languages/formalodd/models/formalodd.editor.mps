@@ -22,6 +22,10 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -51,6 +55,19 @@
         <node concept="VPM3Z" id="5JxfqxAtDtE" role="3F10Kt" />
         <node concept="3F0A7n" id="5JxfqxAtDu5" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
+          <property role="3F0ifm" value="purpose" />
+        </node>
+        <node concept="3F2HdR" id="5JxfqxAuiuD" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5JxfqxAubY6" resolve="text" />
+          <node concept="2iRkQZ" id="5JxfqxAuiuF" role="2czzBx" />
+          <node concept="3F0ifn" id="5JxfqxAup2L" role="2czzBI">
+            <property role="3F0ifm" value="&lt;The purpose of the model is …&gt;" />
+            <node concept="VechU" id="5JxfqxAupi4" role="3F10Kt">
+              <property role="Vb096" value="gray" />
+            </node>
+          </node>
         </node>
         <node concept="3F1sOY" id="5JxfqxAtDtV" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
