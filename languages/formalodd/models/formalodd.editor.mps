@@ -80,13 +80,30 @@
   <node concept="24kQdi" id="6AuNKydYHXu">
     <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateScales" />
     <node concept="3EZMnI" id="6AuNKydYTkS" role="2wV5jI">
-      <node concept="2iRkQZ" id="6AuNKydYTkT" role="2iSdaV" />
-      <node concept="3F1sOY" id="6AuNKydYTlh" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3lcKR8aBGk9" resolve="environment" />
+      <node concept="3EZMnI" id="5JxfqxAuXBm" role="3EZMnx">
+        <node concept="VPM3Z" id="5JxfqxAuXBo" role="3F10Kt" />
+        <node concept="3F0ifn" id="5JxfqxAuXBq" role="3EZMnx">
+          <property role="3F0ifm" value="The model contains the following entities " />
+        </node>
+        <node concept="3F2HdR" id="5JxfqxAuXCn" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5JxfqxAuXCg" resolve="entityName" />
+          <node concept="2iRfu4" id="5JxfqxAuXCp" role="2czzBx" />
+          <node concept="3F0ifn" id="5JxfqxAuXCw" role="2czzBI">
+            <property role="3F0ifm" value="(fill first with the plural form of the name of the entity and then with the singular form leaving a gap between them) " />
+            <node concept="VechU" id="5JxfqxAuXCz" role="3F10Kt">
+              <property role="Vb096" value="gray" />
+            </node>
+          </node>
+        </node>
+        <node concept="2iRfu4" id="5JxfqxAuXBr" role="2iSdaV" />
       </node>
+      <node concept="2iRkQZ" id="6AuNKydYTkT" role="2iSdaV" />
       <node concept="3F2HdR" id="6AuNKydYTlp" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:3lcKR8aBGkb" resolve="entity" />
         <node concept="2iRkQZ" id="6AuNKydYTlr" role="2czzBx" />
+      </node>
+      <node concept="3F1sOY" id="5JxfqxAuSiI" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3lcKR8aBGk9" resolve="environment" />
       </node>
     </node>
   </node>
@@ -285,6 +302,12 @@
         <ref role="1NtTu8" to="86kt:3lcKR8aBGnj" resolve="y" />
       </node>
       <node concept="l2Vlx" id="5oUGABTKQ2N" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5JxfqxAuKIm">
+    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="UserComment" />
+    <node concept="3F0A7n" id="5JxfqxAuKIo" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:5JxfqxAu5tS" resolve="text" />
     </node>
   </node>
 </model>
