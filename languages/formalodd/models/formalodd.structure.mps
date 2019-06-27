@@ -61,6 +61,9 @@
       <property role="20kJfa" value="EntitiesStateScale" />
       <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
     </node>
+    <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGk8">
     <property role="EcuMT" value="3840659476812055816" />

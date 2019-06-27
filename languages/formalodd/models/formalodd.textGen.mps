@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -32,6 +33,9 @@
       <concept id="1237305334312" name="jetbrains.mps.lang.textGen.structure.NodeAppendPart" flags="ng" index="l9hG8">
         <child id="1237305790512" name="value" index="lb14g" />
       </concept>
+      <concept id="1237305491868" name="jetbrains.mps.lang.textGen.structure.CollectionAppendPart" flags="ng" index="l9S2W">
+        <child id="1237305945551" name="list" index="lbANJ" />
+      </concept>
       <concept id="1237305557638" name="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" flags="ng" index="la8eA">
         <property id="1237305576108" name="value" index="lacIc" />
       </concept>
@@ -47,8 +51,14 @@
       <concept id="1233749247888" name="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" flags="in" index="11bSqf" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
+        <reference id="1138056395725" name="property" index="3TsBF5" />
+      </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
   </registry>
@@ -65,6 +75,16 @@
     </node>
     <node concept="11bSqf" id="6AuNKydZqDH" role="11c4hB">
       <node concept="3clFbS" id="6AuNKydZqDI" role="2VODD2">
+        <node concept="lc7rE" id="5JxfqxAtDK4" role="3cqZAp">
+          <node concept="l9hG8" id="5JxfqxAtDOI" role="lcghm">
+            <node concept="2OqwBi" id="5JxfqxAtE3P" role="lb14g">
+              <node concept="117lpO" id="5JxfqxAtDPA" role="2Oq$k0" />
+              <node concept="3TrcHB" id="5JxfqxAtEd1" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="lc7rE" id="6AuNKydZqMM" role="3cqZAp">
           <node concept="l9hG8" id="6AuNKydZqNp" role="lcghm">
             <node concept="2OqwBi" id="6AuNKydZr8s" role="lb14g">
@@ -87,7 +107,39 @@
             <property role="lacIc" value="Test does this appair in the file" />
           </node>
         </node>
+        <node concept="lc7rE" id="5JxfqxAtKGI" role="3cqZAp">
+          <node concept="l9hG8" id="5JxfqxAtKH8" role="lcghm">
+            <node concept="2OqwBi" id="5JxfqxAtKR3" role="lb14g">
+              <node concept="117lpO" id="5JxfqxAtKI0" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5JxfqxAtL1J" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:3lcKR8aBGk9" resolve="environment" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="lc7rE" id="5JxfqxAtLaV" role="3cqZAp">
+          <node concept="l9S2W" id="5JxfqxAtMgD" role="lcghm">
+            <node concept="2OqwBi" id="5JxfqxAtMnP" role="lbANJ">
+              <node concept="117lpO" id="5JxfqxAtMgZ" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="5JxfqxAtMxX" role="2OqNvi">
+                <ref role="3TtcxE" to="86kt:3lcKR8aBGkb" resolve="entity" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="5JxfqxAtL68">
+    <ref role="WuzLi" to="86kt:3lcKR8aBGmn" resolve="Environment" />
+    <node concept="11bSqf" id="5JxfqxAtL69" role="11c4hB">
+      <node concept="3clFbS" id="5JxfqxAtL6a" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="5JxfqxAtM$m">
+    <ref role="WuzLi" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <node concept="11bSqf" id="5JxfqxAtM$n" role="11c4hB">
+      <node concept="3clFbS" id="5JxfqxAtM$o" role="2VODD2" />
     </node>
   </node>
 </model>

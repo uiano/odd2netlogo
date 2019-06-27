@@ -47,15 +47,15 @@
   <node concept="24kQdi" id="6AuNKydYrMg">
     <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
     <node concept="3EZMnI" id="6AuNKydYHWf" role="2wV5jI">
-      <node concept="3F0ifn" id="6AuNKydYHX0" role="3EZMnx">
-        <property role="3F0ifm" value="Chose name for Project" />
-      </node>
-      <node concept="3EZMnI" id="6AuNKydYHX6" role="3EZMnx">
-        <node concept="VPM3Z" id="6AuNKydYHX8" role="3F10Kt" />
-        <node concept="3F1sOY" id="6AuNKydYHYZ" role="3EZMnx">
+      <node concept="3EZMnI" id="5JxfqxAtDtC" role="3EZMnx">
+        <node concept="VPM3Z" id="5JxfqxAtDtE" role="3F10Kt" />
+        <node concept="3F0A7n" id="5JxfqxAtDu5" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F1sOY" id="5JxfqxAtDtV" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
         </node>
-        <node concept="2iRkQZ" id="6AuNKydYHXb" role="2iSdaV" />
+        <node concept="2iRkQZ" id="5JxfqxAtDtH" role="2iSdaV" />
       </node>
       <node concept="l2Vlx" id="6AuNKydYHWi" role="2iSdaV" />
     </node>
@@ -78,6 +78,9 @@
     <node concept="3EZMnI" id="6AuNKydYPlc" role="2wV5jI">
       <node concept="3EZMnI" id="6AuNKydYPlY" role="3EZMnx">
         <node concept="VPM3Z" id="6AuNKydYPm0" role="3F10Kt" />
+        <node concept="3F0A7n" id="5JxfqxAteNP" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
         <node concept="3F1sOY" id="6AuNKydZ5Ky" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6AuNKydZ5Jb" resolve="DefaultColor" />
         </node>
