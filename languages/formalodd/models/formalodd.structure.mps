@@ -496,12 +496,50 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
-    <node concept="1TJgyj" id="3lcKR8aBGmq" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055962" />
+    <node concept="1TJgyj" id="5oUGABTLhXD" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776169" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="EnvironmentEntity" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+      <property role="20kJfa" value="Coordinates" />
+      <ref role="20lvS9" node="3lcKR8aBGng" resolve="Coordinates" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTLhXG" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776172" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Area" />
+      <ref role="20lvS9" node="3lcKR8aBGn8" resolve="Area" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTLhXK" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776176" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Density" />
+      <ref role="20lvS9" node="3lcKR8aBGnm" resolve="Density" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTLhXP" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776181" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="DefaultColor" />
+      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="DefaultColor" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTLhXV" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776187" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Conditional" />
+      <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTLhY2" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776194" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ConditionalColor" />
+      <ref role="20lvS9" node="3lcKR8aBGmd" resolve="ConditionalColor" />
+    </node>
+    <node concept="1TJgyj" id="5oUGABTLi7a" role="1TKVEi">
+      <property role="IQ2ns" value="6213474804142776778" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="EnvironmentAttribute" />
+      <ref role="20lvS9" node="3lcKR8aBGmR" resolve="EnvironmentAttribute" />
+    </node>
+    <node concept="PrWs8" id="5oUGABTLied" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGm$">
