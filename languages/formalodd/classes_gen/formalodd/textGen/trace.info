@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debug-info version="2">
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1082113931046:jetbrains.mps.baseLanguage.structure.ContinueStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123155:jetbrains.mps.baseLanguage.structure.ExpressionStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1144226303539:jetbrains.mps.baseLanguage.structure.ForeachStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123159:jetbrains.mps.baseLanguage.structure.IfStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123165:jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242864:jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068581242878:jetbrains.mps.baseLanguage.structure.ReturnStatement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123157:jetbrains.mps.baseLanguage.structure.Statement" />
+  <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1081236700938:jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" />
+  <root>
+    <file name="TextGenAspectDescriptor.java">
+      <unit at="15,0,55,0" name="formalodd.textGen.TextGenAspectDescriptor" />
+    </file>
+  </root>
+  <root nodeRef="r:81e35141-d5ce-4dc8-82e0-87e66610f670(formalodd.textGen)/6620640720694219144">
+    <file name="Environment_TextGen.java">
+      <node id="6620640720694219144" at="16,54,17,55" concept="5" />
+      <node id="8486704421333572311" at="19,175,20,47" concept="1" />
+      <node id="8486704421333572758" at="20,47,21,192" concept="1" />
+      <node id="8486704421333581260" at="21,192,22,25" concept="1" />
+      <node id="6213474804142872840" at="22,25,23,0" concept="7" />
+      <node id="2466203598665895125" at="25,5,26,32" concept="1" />
+      <node id="2466203598665895302" at="26,32,27,18" concept="1" />
+      <node id="2466203598665980946" at="27,18,28,20" concept="1" />
+      <node id="2466203598665981003" at="28,20,29,18" concept="1" />
+      <node id="6213474804142801032" at="18,231,24,7" concept="3" />
+      <node id="6213474804142799474" at="17,55,25,5" concept="2" />
+      <node id="6620640720694219144" at="15,0,31,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6213474804142801034" at="19,175,23,0" />
+      <scope id="6213474804142799477" at="18,231,24,7" />
+      <scope id="6213474804142799474" at="17,55,25,5">
+        <var name="e" id="6213474804142799475" />
+      </scope>
+      <scope id="6620640720694219144" at="16,54,29,18">
+        <var name="tgs" id="6620640720694219144" />
+      </scope>
+      <scope id="6620640720694219144" at="15,0,31,0">
+        <var name="ctx" id="6620640720694219144" />
+      </scope>
+      <unit id="6620640720694219144" at="14,0,32,0" name="formalodd.textGen.Environment_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6620640720694219144" at="29,45,30,41" concept="6" />
+      <scope id="6620640720694219144" at="29,45,30,41" />
+    </file>
+  </root>
+  <root nodeRef="r:81e35141-d5ce-4dc8-82e0-87e66610f670(formalodd.textGen)/6620640720694225174">
+    <file name="Entity_TextGen.java">
+      <node id="6620640720694225174" at="11,54,12,55" concept="5" />
+      <node id="6620640720694225174" at="10,0,14,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6620640720694225174" at="11,54,12,55">
+        <var name="tgs" id="6620640720694225174" />
+      </scope>
+      <scope id="6620640720694225174" at="10,0,14,0">
+        <var name="ctx" id="6620640720694225174" />
+      </scope>
+      <unit id="6620640720694225174" at="9,0,15,0" name="formalodd.textGen.Entity_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="6620640720694225174" at="27,40,28,36" concept="6" />
+      <scope id="6620640720694225174" at="27,40,28,36" />
+    </file>
+  </root>
+  <root nodeRef="r:81e35141-d5ce-4dc8-82e0-87e66610f670(formalodd.textGen)/7610748055951614383">
+    <file name="ODD_TextGen.java">
+      <node id="7610748055951614383" at="14,54,15,55" concept="5" />
+      <node id="6620640720694189358" at="15,55,16,183" concept="1" />
+      <node id="7610748055951617241" at="16,183,17,214" concept="1" />
+      <node id="7610748055951614383" at="13,0,19,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="7610748055951614383" at="14,54,17,214">
+        <var name="tgs" id="7610748055951614383" />
+      </scope>
+      <scope id="7610748055951614383" at="13,0,19,0">
+        <var name="ctx" id="7610748055951614383" />
+      </scope>
+      <unit id="7610748055951614383" at="12,0,20,0" name="formalodd.textGen.ODD_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7610748055951614383" at="31,37,32,33" concept="6" />
+      <node id="7610748055951614383" at="40,158,41,45" concept="5" />
+      <node id="7610748055951614383" at="41,45,42,48" concept="5" />
+      <node id="7610748055951614383" at="42,48,43,84" concept="1" />
+      <node id="7610748055951614383" at="43,84,44,17" concept="0" />
+      <node id="7610748055951614383" at="48,53,49,26" concept="6" />
+      <node id="7610748055951614941" at="51,58,52,19" concept="6" />
+      <node id="7610748055951614383" at="48,0,51,0" concept="8" trace="getFileName_ODD#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7610748055951614383" at="51,0,54,0" concept="8" trace="getFileExtension_ODD#(Lorg/jetbrains/mps/openapi/model/SNode;)Ljava/lang/String;" />
+      <node id="7610748055951614383" at="39,58,45,7" concept="3" />
+      <scope id="7610748055951614383" at="31,37,32,33" />
+      <scope id="7610748055951614383" at="48,53,49,26" />
+      <scope id="7610748055951614383" at="51,58,52,19" />
+      <scope id="7610748055951614383" at="48,0,51,0">
+        <var name="node" id="7610748055951614383" />
+      </scope>
+      <scope id="7610748055951614383" at="51,0,54,0">
+        <var name="node" id="7610748055951614383" />
+      </scope>
+      <scope id="7610748055951614383" at="40,158,44,17">
+        <var name="ext" id="7610748055951614383" />
+        <var name="fname" id="7610748055951614383" />
+      </scope>
+    </file>
+  </root>
+  <root nodeRef="r:81e35141-d5ce-4dc8-82e0-87e66610f670(formalodd.textGen)/7610748055951619359">
+    <file name="EntitiesStateScales_TextGen.java">
+      <node id="7610748055951619359" at="14,54,15,55" concept="5" />
+      <node id="7610748055951623569" at="15,55,16,52" concept="1" />
+      <node id="6620640720694217544" at="16,52,17,207" concept="1" />
+      <node id="6620640720694223913" at="18,208,19,27" concept="1" />
+      <node id="6620640720694469267" at="20,5,21,0" concept="7" />
+      <node id="6620640720694223913" at="17,207,20,5" concept="2" />
+      <node id="7610748055951619359" at="13,0,23,0" concept="4" trace="generateText#(Ljetbrains/mps/text/rt/TextGenContext;)V" />
+      <scope id="6620640720694223913" at="18,208,19,27" />
+      <scope id="6620640720694223913" at="17,207,20,5">
+        <var name="item" id="6620640720694223913" />
+      </scope>
+      <scope id="7610748055951619359" at="14,54,21,0">
+        <var name="tgs" id="7610748055951619359" />
+      </scope>
+      <scope id="7610748055951619359" at="13,0,23,0">
+        <var name="ctx" id="7610748055951619359" />
+      </scope>
+      <unit id="7610748055951619359" at="12,0,24,0" name="formalodd.textGen.EntitiesStateScales_TextGen" />
+    </file>
+    <file name="TextGenAspectDescriptor.java">
+      <node id="7610748055951619359" at="25,53,26,49" concept="6" />
+      <scope id="7610748055951619359" at="25,53,26,49" />
+    </file>
+  </root>
+</debug-info>
+
