@@ -189,33 +189,11 @@
       <node concept="3EZMnI" id="5oUGABTLi7J" role="3EZMnx">
         <node concept="2iRkQZ" id="5oUGABTLi7K" role="2iSdaV" />
         <node concept="VPM3Z" id="5oUGABTLi7L" role="3F10Kt" />
-        <node concept="3F0A7n" id="5oUGABTLie8" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLiiZ" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLhXP" resolve="DefaultColor" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLij4" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLhXG" resolve="Area" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLije" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLhXD" resolve="Coordinates" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLim3" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLhXK" resolve="Density" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLijA" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLhY2" resolve="ConditionalColor" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLijO" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLhXV" resolve="Conditional" />
-        </node>
-        <node concept="3F2HdR" id="5oUGABTLikn" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3lcKR8aBGmo" resolve="attributes" />
-          <node concept="2iRkQZ" id="5oUGABTLikq" role="2czzBx" />
-          <node concept="VPM3Z" id="5oUGABTLikr" role="3F10Kt" />
-          <node concept="3F0ifn" id="5oUGABTLild" role="2czzBI">
-            <property role="3F0ifm" value="attributes" />
+        <node concept="3F2HdR" id="5oUGABTLnDi" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLnDc" resolve="EnvEntity" />
+          <node concept="2iRkQZ" id="5oUGABTLnDj" role="2czzBx" />
+          <node concept="3F0ifn" id="5oUGABTLnDm" role="2czzBI">
+            <property role="3F0ifm" value="EnvEntity" />
           </node>
         </node>
       </node>
@@ -223,11 +201,41 @@
   </node>
   <node concept="24kQdi" id="5oUGABTKPU9">
     <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    <node concept="3EZMnI" id="5oUGABTKPUb" role="2wV5jI">
-      <node concept="3F1sOY" id="5oUGABTKPUl" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3lcKR8aBGmC" resolve="SpecificLocation" />
+    <node concept="3EZMnI" id="5oUGABTLnAk" role="2wV5jI">
+      <node concept="l2Vlx" id="5oUGABTLnAl" role="2iSdaV" />
+      <node concept="3EZMnI" id="5oUGABTLnAq" role="3EZMnx">
+        <node concept="2iRkQZ" id="5oUGABTLnAr" role="2iSdaV" />
+        <node concept="VPM3Z" id="5oUGABTLnAs" role="3F10Kt" />
+        <node concept="3F0A7n" id="5oUGABTLnAw" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F1sOY" id="5oUGABTLnA_" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_z" resolve="DefaultColor" />
+        </node>
+        <node concept="3F1sOY" id="5oUGABTLnAH" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_q" resolve="Area" />
+        </node>
+        <node concept="3F1sOY" id="5oUGABTLnAR" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_n" resolve="Coordinates" />
+        </node>
+        <node concept="3F1sOY" id="5oUGABTLnBf" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_u" resolve="Density" />
+        </node>
+        <node concept="3F1sOY" id="5oUGABTLnBt" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_K" resolve="ConditionalColor" />
+        </node>
+        <node concept="3F1sOY" id="5oUGABTLnBH" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_D" resolve="Conditional" />
+        </node>
+        <node concept="3F2HdR" id="5oUGABTLnCh" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5oUGABTLn_l" resolve="attributes" />
+          <node concept="2iRkQZ" id="5oUGABTLnCk" role="2czzBx" />
+          <node concept="VPM3Z" id="5oUGABTLnCl" role="3F10Kt" />
+          <node concept="3F0ifn" id="5oUGABTLnCw" role="2czzBI">
+            <property role="3F0ifm" value="attributes" />
+          </node>
+        </node>
       </node>
-      <node concept="l2Vlx" id="5oUGABTKPUe" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPWW">
