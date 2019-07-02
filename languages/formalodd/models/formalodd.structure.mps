@@ -167,6 +167,16 @@
     <node concept="PrWs8" id="6AuNKydYOIT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyi" id="3mweh__t$yh" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261523101841" />
+      <property role="TrG5h" value="showColors" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3mweh__t$yj" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261523101843" />
+      <property role="TrG5h" value="showAttributes" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkv">
     <property role="EcuMT" value="3840659476812055839" />
