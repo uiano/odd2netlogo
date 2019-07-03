@@ -164,6 +164,12 @@
       <property role="20kJfa" value="MoreShapes" />
       <ref role="20lvS9" node="3lcKR8aBGlV" resolve="MoreShapes" />
     </node>
+    <node concept="1TJgyj" id="3mweh__yPZT" role="1TKVEi">
+      <property role="IQ2ns" value="3864151261524484089" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="colorOptions" />
+      <ref role="20lvS9" node="3mweh__xv2X" resolve="ColorOptions" />
+    </node>
     <node concept="PrWs8" id="6AuNKydYOIT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -736,6 +742,16 @@
     <node concept="1TJgyi" id="5JxfqxAuXCd" role="1TKVEl">
       <property role="IQ2nx" value="6620640720694532621" />
       <property role="TrG5h" value="name" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3mweh__xv2X">
+    <property role="EcuMT" value="3864151261524127933" />
+    <property role="TrG5h" value="ColorOptions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3mweh__xv2Y" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261524127934" />
+      <property role="TrG5h" value="Options" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

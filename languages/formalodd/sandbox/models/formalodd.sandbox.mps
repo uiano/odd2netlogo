@@ -20,9 +20,12 @@
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
-        <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
+        <child id="3864151261524484089" name="colorOptions" index="1gaQrw" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_" />
+      <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
+        <property id="3864151261524127934" name="Options" index="1g9sAB" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -33,16 +36,13 @@
   <node concept="ZOwpP" id="6AuNKydYohQ">
     <property role="TrG5h" value="test" />
     <node concept="ZOwpU" id="6UrRj0hURms" role="3$p12O">
-      <node concept="ZOwpW" id="3mweh__ueMa" role="ZOwpT">
-        <property role="1gPB6a" value="does" />
-        <property role="TrG5h" value="Entity 1" />
+      <node concept="ZOwpW" id="3mweh__ykb0" role="ZOwpT">
         <property role="1gPB68" value="is" />
+        <property role="TrG5h" value="a" />
+        <node concept="1g9sA$" id="3mweh__z8Z4" role="1gaQrw">
+          <property role="1g9sAB" value="a" />
+        </node>
       </node>
-      <node concept="ZOwpW" id="3mweh__ur6J" role="ZOwpT">
-        <property role="TrG5h" value="Entity 2" />
-        <property role="1gPB68" value="is" />
-      </node>
-      <node concept="ZOwpW" id="3mweh__vi9c" role="ZOwpT" />
       <node concept="XAmFv" id="3mweh__ueM1" role="XAo8I">
         <property role="XAmFg" value="e" />
       </node>
@@ -57,7 +57,13 @@
     </node>
     <node concept="ZOwpU" id="3mweh__vi9h" role="3$p12O">
       <node concept="ZOwpW" id="3mweh__vi9j" role="ZOwpT">
-        <property role="TrG5h" value="TestEntety" />
+        <property role="1gPB68" value="is" />
+        <node concept="1g9sA$" id="3mweh__$tQQ" role="1gaQrw">
+          <property role="1g9sAB" value="takes different colours" />
+        </node>
+      </node>
+      <node concept="ZOwpW" id="3mweh__y_nb" role="ZOwpT">
+        <property role="TrG5h" value="s" />
       </node>
       <node concept="ZOwr_" id="3mweh__vi9l" role="ZOwpV" />
     </node>
