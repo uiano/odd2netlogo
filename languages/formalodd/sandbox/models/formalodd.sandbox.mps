@@ -66,14 +66,17 @@
     <node concept="ZOwpU" id="3mweh__vi9h" role="3$p12O">
       <node concept="ZOwpW" id="3mweh__vi9j" role="ZOwpT">
         <property role="1gPB68" value="is" />
-        <property role="TrG5h" value="entety" />
+        <property role="TrG5h" value="Wolf" />
         <node concept="1g9sA$" id="3mweh__$tQQ" role="1gaQrw">
-          <property role="1g9sAB" value="has a default" />
+          <property role="1g9sAB" value="takes different shades" />
         </node>
         <node concept="1gdyix" id="3mweh__ADZF" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
+          <property role="1gdyiw" value="takes different shapes." />
         </node>
         <node concept="ZOwrR" id="3mweh__BctN" role="3$oDj3" />
+      </node>
+      <node concept="ZOwpW" id="3mweh__BNzR" role="ZOwpT">
+        <property role="TrG5h" value="Sheep" />
       </node>
       <node concept="ZOwr_" id="3mweh__vi9l" role="ZOwpV" />
     </node>
