@@ -325,6 +325,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/3840659476812055822");
     b.version(2);
+    b.property("showColors", 0x35a0391965764891L).type(PrimitiveTypeId.STRING).origin("3864151261523101841").done();
+    b.property("showAttributes", 0x35a0391965764893L).type(PrimitiveTypeId.STRING).origin("3864151261523101843").done();
     b.aggregate("attributes", 0x354cc3720a9ec511L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec51fL).optional(true).ordered(true).multiple(true).origin("3840659476812055825").done();
     b.aggregate("Min", 0x699ecf088dfe86d9L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec557L).optional(true).ordered(true).multiple(false).origin("7610748055951673049").done();
     b.aggregate("Max", 0x699ecf088dfe86e8L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec554L).optional(true).ordered(true).multiple(false).origin("7610748055951673064").done();

@@ -1,3 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="-2j7e4em5j8175daqwrufeqpkj3x8nsy" />
+<product version="3" modelHash="994vepxa1wdjel9dn5crllzun738tm6">
+  <files names="somthing.nlogo:test.nlogo" />
+</product>
 
