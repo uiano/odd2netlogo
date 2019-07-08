@@ -31,7 +31,10 @@ public class EntitiesStateScales_TextGen extends TextGenDescriptorBase {
     if (SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37b0L, "BackGround")) != null) {
       tgs.append("ask patches[ set pcolor ");
       tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37b0L, "BackGround")));
-      tgs.append(" ]");
+      tgs.append(" ");
+      tgs.append("]");
+      tgs.newLine();
+
     }
     tgs.append("ask patches [");
     tgs.newLine();
