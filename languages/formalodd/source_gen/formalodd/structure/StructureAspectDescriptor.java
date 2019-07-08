@@ -21,6 +21,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptAverage = createDescriptorForAverage();
   /*package*/ final ConceptDescriptor myConceptBoolean = createDescriptorForBoolean();
   /*package*/ final ConceptDescriptor myConceptColor = createDescriptorForColor();
+  /*package*/ final ConceptDescriptor myConceptColorOptions = createDescriptorForColorOptions();
   /*package*/ final ConceptDescriptor myConceptColorShade = createDescriptorForColorShade();
   /*package*/ final ConceptDescriptor myConceptConditional = createDescriptorForConditional();
   /*package*/ final ConceptDescriptor myConceptConditionalColor = createDescriptorForConditionalColor();
@@ -53,6 +54,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptPoisson = createDescriptorForPoisson();
   /*package*/ final ConceptDescriptor myConceptShape = createDescriptorForShape();
   /*package*/ final ConceptDescriptor myConceptShapeInstance = createDescriptorForShapeInstance();
+  /*package*/ final ConceptDescriptor myConceptShapeOptions = createDescriptorForShapeOptions();
   /*package*/ final ConceptDescriptor myConceptSpecificLocation = createDescriptorForSpecificLocation();
   /*package*/ final ConceptDescriptor myConceptSpecificXY = createDescriptorForSpecificXY();
   /*package*/ final ConceptDescriptor myConceptStatisticalDistribution = createDescriptorForStatisticalDistribution();
@@ -78,7 +80,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAgentStatistic, myConceptArea, myConceptAverage, myConceptBoolean, myConceptColor, myConceptColorShade, myConceptConditional, myConceptConditionalColor, myConceptCoordinates, myConceptCount, myConceptDefaultColor, myConceptDefaultShape, myConceptDefinition, myConceptDensity, myConceptEntitiesStateScales, myConceptEntity, myConceptEnvironment, myConceptEnvironmentAttribute, myConceptEnvironmentColor, myConceptEnvironmentColorShade, myConceptEnvironmentConditionalColor, myConceptEnvironmentEntity, myConceptExponential, myConceptFloat, myConceptGamma, myConceptInteger, myConceptLocation, myConceptMax, myConceptMin, myConceptMoreColors, myConceptMoreShapes, myConceptNames, myConceptNormal, myConceptODD, myConceptPoisson, myConceptShape, myConceptShapeInstance, myConceptSpecificLocation, myConceptSpecificXY, myConceptStatisticalDistribution, myConceptString, myConceptStringvalue, myConceptSum, myConceptType, myConceptUserComment, myConceptUserDefinedAttribute);
+    return Arrays.asList(myConceptAgentStatistic, myConceptArea, myConceptAverage, myConceptBoolean, myConceptColor, myConceptColorOptions, myConceptColorShade, myConceptConditional, myConceptConditionalColor, myConceptCoordinates, myConceptCount, myConceptDefaultColor, myConceptDefaultShape, myConceptDefinition, myConceptDensity, myConceptEntitiesStateScales, myConceptEntity, myConceptEnvironment, myConceptEnvironmentAttribute, myConceptEnvironmentColor, myConceptEnvironmentColorShade, myConceptEnvironmentConditionalColor, myConceptEnvironmentEntity, myConceptExponential, myConceptFloat, myConceptGamma, myConceptInteger, myConceptLocation, myConceptMax, myConceptMin, myConceptMoreColors, myConceptMoreShapes, myConceptNames, myConceptNormal, myConceptODD, myConceptPoisson, myConceptShape, myConceptShapeInstance, myConceptShapeOptions, myConceptSpecificLocation, myConceptSpecificXY, myConceptStatisticalDistribution, myConceptString, myConceptStringvalue, myConceptSum, myConceptType, myConceptUserComment, myConceptUserDefinedAttribute);
   }
 
   @Override
@@ -95,6 +97,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptBoolean;
       case LanguageConceptSwitch.Color:
         return myConceptColor;
+      case LanguageConceptSwitch.ColorOptions:
+        return myConceptColorOptions;
       case LanguageConceptSwitch.ColorShade:
         return myConceptColorShade;
       case LanguageConceptSwitch.Conditional:
@@ -159,6 +163,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptShape;
       case LanguageConceptSwitch.ShapeInstance:
         return myConceptShapeInstance;
+      case LanguageConceptSwitch.ShapeOptions:
+        return myConceptShapeOptions;
       case LanguageConceptSwitch.SpecificLocation:
         return myConceptSpecificLocation;
       case LanguageConceptSwitch.SpecificXY:
@@ -229,6 +235,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/3840659476812055924");
     b.version(2);
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForColorOptions() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("formalodd", "ColorOptions", 0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a039196585f0bdL);
+    b.class_(false, false, false);
+    b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/3864151261524127933");
+    b.version(2);
+    b.property("Options", 0x35a039196585f0beL).type(PrimitiveTypeId.STRING).origin("3864151261524127934").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForColorShade() {
@@ -337,6 +351,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("ColorShade", 0x699ecf088dfc5bf6L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec592L).optional(true).ordered(true).multiple(false).origin("7610748055951530998").done();
     b.aggregate("shape", 0x354cc3720a9ec51aL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec575L).optional(true).ordered(true).multiple(false).origin("3840659476812055834").done();
     b.aggregate("MoreShapes", 0x699ecf088dfc954bL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec57bL).optional(true).ordered(true).multiple(true).origin("7610748055951545675").done();
+    b.aggregate("colorOptions", 0x35a03919658b5ff9L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a039196585f0bdL).optional(true).ordered(true).multiple(false).origin("3864151261524484089").done();
+    b.aggregate("shapeOptions", 0x35a0391965971d6cL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965961db8L).optional(true).ordered(true).multiple(false).origin("3864151261525253484").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForEnvironment() {
@@ -344,6 +360,11 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.class_(false, false, false);
     b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/3840659476812055959");
     b.version(2);
+    b.property("WorldSize", 0x6086ffb5de6c37a2L).type(PrimitiveTypeId.STRING).origin("6955527831106107298").done();
+    b.property("PixelSize", 0x6086ffb5de6c37a4L).type(PrimitiveTypeId.STRING).origin("6955527831106107300").done();
+    b.property("WrapHorizontal", 0x6086ffb5de6c37a7L).type(PrimitiveTypeId.STRING).origin("6955527831106107303").done();
+    b.property("WrapVertical", 0x6086ffb5de6c37abL).type(PrimitiveTypeId.STRING).origin("6955527831106107307").done();
+    b.property("BackGround", 0x6086ffb5de6c37b0L).type(PrimitiveTypeId.STRING).origin("6955527831106107312").done();
     b.aggregate("EnvEntity", 0x563ab269f9c57a4cL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L).optional(true).ordered(true).multiple(true).origin("6213474804142799436").done();
     return b.create();
   }
@@ -390,6 +411,10 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.parent(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L);
     b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/3840659476812055972");
     b.version(2);
+    b.property("Distribution", 0x6086ffb5de71b932L).type(PrimitiveTypeId.STRING).origin("6955527831106468146").done();
+    b.property("Color", 0x6086ffb5de71b934L).type(PrimitiveTypeId.STRING).origin("6955527831106468148").done();
+    b.property("ChangeNeighbors", 0x6086ffb5de71b937L).type(PrimitiveTypeId.STRING).origin("6955527831106468151").done();
+    b.property("ChangeSelf", 0x6086ffb5de71b93bL).type(PrimitiveTypeId.STRING).origin("6955527831106468155").done();
     b.aggregate("attributes", 0x563ab269f9c57955L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec51fL).optional(true).ordered(true).multiple(true).origin("6213474804142799189").done();
     b.aggregate("Coordinates", 0x563ab269f9c57957L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5d0L).optional(true).ordered(true).multiple(false).origin("6213474804142799191").done();
     b.aggregate("Area", 0x563ab269f9c5795aL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5c8L).optional(true).ordered(true).multiple(false).origin("6213474804142799194").done();
@@ -538,6 +563,14 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.version(2);
     b.property("ShapeID", 0x354cc3720a9ec581L).type(MetaIdFactory.dataTypeId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec579L)).origin("3840659476812055937").done();
     b.aggregate("Conditional", 0x354cc3720a9ec583L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5c0L).optional(true).ordered(true).multiple(true).origin("3840659476812055939").done();
+    return b.create();
+  }
+  private static ConceptDescriptor createDescriptorForShapeOptions() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("formalodd", "ShapeOptions", 0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965961db8L);
+    b.class_(false, false, false);
+    b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/3864151261525188024");
+    b.version(2);
+    b.property("ShapeOption", 0x35a0391965961db9L).type(PrimitiveTypeId.STRING).origin("3864151261525188025").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForSpecificLocation() {

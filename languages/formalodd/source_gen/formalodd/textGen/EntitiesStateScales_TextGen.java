@@ -5,19 +5,423 @@ package formalodd.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.util.Objects;
 
 public class EntitiesStateScales_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("Test does this appair in the file");
-    tgs.appendNode(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")));
-    for (SNode item : SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec50bL, "entity"))) {
-      tgs.appendNode(item);
+    for (SNode e : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec50bL, "entity")))) {
+      tgs.append("breed[");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      tgs.append("s ]");
+      tgs.newLine();
     }
+    tgs.append("to setup");
+    tgs.newLine();
+    tgs.append("clear-all");
+    tgs.newLine();
+    if (SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37b0L, "BackGround")) != null) {
+      tgs.append("ask patches[ set pcolor ");
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37b0L, "BackGround")));
+      tgs.append(" ]");
+    }
+    tgs.append("ask patches [");
+    tgs.newLine();
+    for (SNode p : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x563ab269f9c57a4cL, "EnvEntity")))) {
+      if (Objects.equals(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b932L, "Distribution")), "random")) {
+        tgs.append("if (random 100) < ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        tgs.append("slider[");
+        tgs.newLine();
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.newLine();
+        tgs.append("]");
+        tgs.newLine();
+      }
+      if (Objects.equals(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b932L, "Distribution")), "left")) {
+        tgs.append("if pxcor = ");
+        tgs.append("min-pxcor[");
+        tgs.newLine();
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.newLine();
+        tgs.append("]");
+        tgs.newLine();
+      }
+      if (Objects.equals(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b932L, "Distribution")), "right")) {
+        tgs.append("if pxcor = ");
+        tgs.append("max-pxcor[");
+        tgs.newLine();
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.newLine();
+        tgs.append("]");
+        tgs.newLine();
+      }
+      if (Objects.equals(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b932L, "Distribution")), "bottom")) {
+        tgs.append("if pxcor = ");
+        tgs.append("min-pycor[");
+        tgs.newLine();
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.newLine();
+        tgs.append("]");
+        tgs.newLine();
+      }
+      if (SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b932L, "Distribution")) == "top") {
+        tgs.append("if pxcor = ");
+        tgs.append("max-pycor[");
+        tgs.newLine();
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.newLine();
+        tgs.append("]");
+        tgs.newLine();
+      }
+    }
+    tgs.append("]");
+    tgs.newLine();
+
+    for (SNode e : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec50bL, "entity")))) {
+      tgs.append("create-");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      tgs.append("slider");
+      tgs.append("[");
+      tgs.newLine();
+      tgs.append(" set color ");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x35a0391965764891L, "showColors")));
+      tgs.newLine();
+      tgs.append(" setxy");
+      tgs.append(" ");
+      tgs.append("random-xcor");
+      tgs.append(" ");
+      tgs.append("random-ycor");
+      tgs.newLine();
+      if (!(Objects.equals(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x354cc3720a9ec51aL, "shape")), null))) {
+        tgs.append("set shape \"");
+        tgs.appendNode(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x354cc3720a9ec51aL, "shape")));
+        tgs.append("\"");
+        tgs.newLine();
+      }
+      if (!(Objects.equals(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x35a0391965971d6cL, "shapeOptions")), null))) {
+        tgs.append("set size ");
+        tgs.appendNode(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x35a0391965971d6cL, "shapeOptions")));
+        tgs.newLine();
+      }
+      tgs.append("]");
+      tgs.newLine();
+
+
+    }
+    tgs.append("reset-ticks");
+    tgs.newLine();
+    tgs.append("end");
+    tgs.newLine();
+    tgs.append("to go");
+    tgs.newLine();
+    tgs.append("ask patches[");
+    tgs.newLine();
+    for (SNode p : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x563ab269f9c57a4cL, "EnvEntity")))) {
+      tgs.append("if pcolor = ");
+      tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+      tgs.append("[");
+      tgs.newLine();
+      if (SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b937L, "ChangeNeighbors")) != null) {
+        tgs.append("ask neighbors with [pcolor = ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b937L, "ChangeNeighbors")));
+        tgs.append("][");
+        tgs.newLine();
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append("]");
+        tgs.newLine();
+      }
+      if (SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b93bL, "ChangeSelf")) != null) {
+        tgs.append("set pcolor ");
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b93bL, "ChangeSelf")));
+      }
+      tgs.append("]");
+      tgs.newLine();
+    }
+    tgs.append("]");
+    tgs.newLine();
+    tgs.append("tick");
+    tgs.newLine();
+    tgs.append("end");
+    tgs.newLine();
+    String MinAmount = "0";
+    String MaxAmount = "0";
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("GRAPHICS-WINDOW");
+    tgs.newLine();
+    tgs.append("210");
+    tgs.newLine();
+    tgs.append("10");
+    tgs.newLine();
+    tgs.append("647");
+    tgs.newLine();
+    tgs.append("448");
+    tgs.newLine();
+    tgs.append("-1");
+    tgs.newLine();
+    tgs.append("-1");
+    tgs.newLine();
+    if (!(Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a4L, "PixelSize")), null))) {
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a4L, "PixelSize")));
+      tgs.newLine();
+    }
+    if (Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a4L, "PixelSize")), null)) {
+      tgs.append("2");
+    }
+
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("10");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("0");
+    tgs.newLine();
+    if (!(Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a7L, "WrapHorizontal")), null)) && !(Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37abL, "WrapVertical")), null))) {
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a7L, "WrapHorizontal")));
+      tgs.newLine();
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37abL, "WrapVertical")));
+      tgs.newLine();
+    }
+    if (Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a7L, "WrapHorizontal")), null) || Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37abL, "WrapVertical")), null)) {
+      tgs.append("0");
+      tgs.newLine();
+      tgs.append("0");
+      tgs.newLine();
+    }
+    tgs.append("1");
+    tgs.newLine();
+    if (!(Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a2L, "WorldSize")), null))) {
+      tgs.append("-");
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a2L, "WorldSize")));
+      tgs.newLine();
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a2L, "WorldSize")));
+      tgs.newLine();
+      tgs.append("-");
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a2L, "WorldSize")));
+      tgs.newLine();
+      tgs.append(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a2L, "WorldSize")));
+      tgs.newLine();
+    }
+    if (Objects.equals(SPropertyOperations.getString(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x6086ffb5de6c37a2L, "WorldSize")), null)) {
+      tgs.append("-16");
+      tgs.newLine();
+      tgs.append("16");
+      tgs.newLine();
+      tgs.append("-16");
+      tgs.newLine();
+      tgs.append("16");
+      tgs.newLine();
+    }
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("ticks");
+    tgs.newLine();
+    tgs.append("30.0");
+    tgs.newLine();
+    tgs.newLine();
+    tgs.append("BUTTON");
+    tgs.newLine();
+    tgs.append("9");
+    tgs.newLine();
+    tgs.append("12");
+    tgs.newLine();
+    tgs.append("72");
+    tgs.newLine();
+    tgs.append("45");
+    tgs.newLine();
+    tgs.append("setup");
+    tgs.newLine();
+    tgs.append("setup");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("T");
+    tgs.newLine();
+    tgs.append("OBSERVER");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.newLine();
+    tgs.append("BUTTON");
+    tgs.newLine();
+    tgs.append("89");
+    tgs.newLine();
+    tgs.append("11");
+    tgs.newLine();
+    tgs.append("152");
+    tgs.newLine();
+    tgs.append("44");
+    tgs.newLine();
+    tgs.append("go");
+    tgs.newLine();
+    tgs.append("go");
+    tgs.newLine();
+    tgs.append("T");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.append("T");
+    tgs.newLine();
+    tgs.append("OBSERVER");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("NIL");
+    tgs.newLine();
+    tgs.append("1");
+    tgs.newLine();
+    tgs.newLine();
+    int x = 71;
+    int y = 104;
+    for (SNode e : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec50bL, "entity")))) {
+      if (!(Objects.equals(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), null))) {
+        String xstring = "" + x;
+        String ystring = "" + y;
+        tgs.append("SLIDER");
+        tgs.newLine();
+        tgs.append("7");
+        tgs.newLine();
+        tgs.append(xstring);
+        tgs.newLine();
+        tgs.append("179");
+        tgs.newLine();
+        tgs.append(ystring);
+        tgs.newLine();
+        tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        tgs.append("slider");
+        tgs.newLine();
+        tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        tgs.append("slider");
+        tgs.newLine();
+        if (!(Objects.equals(MinAmount, null)) && !(Objects.equals(MaxAmount, null))) {
+          tgs.append(MinAmount);
+          tgs.newLine();
+          tgs.append(MaxAmount);
+          tgs.newLine();
+        }
+        if (Objects.equals(MinAmount, null) || Objects.equals(MaxAmount, null)) {
+          tgs.append("0");
+          tgs.newLine();
+          tgs.append("100");
+          tgs.newLine();
+        }
+        tgs.append("30.0");
+        tgs.newLine();
+        tgs.append("1");
+        tgs.newLine();
+        tgs.append("1");
+        tgs.newLine();
+        tgs.append("NIL");
+        tgs.newLine();
+        tgs.append("HORIZONTAL");
+        tgs.newLine();
+        tgs.newLine();
+        x += 42;
+        y += 42;
+      }
+    }
+    for (SNode p : ListSequence.fromList(SLinkOperations.getChildren(SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L, 0x354cc3720a9ec509L, "environment")), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x563ab269f9c57a4cL, "EnvEntity")))) {
+      if (Objects.equals(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b932L, "Distribution")), "random")) {
+        String xstring = "" + x;
+        String ystring = "" + y;
+        tgs.append("SLIDER");
+        tgs.newLine();
+        tgs.append("7");
+        tgs.newLine();
+        tgs.append(xstring);
+        tgs.newLine();
+        tgs.append("179");
+        tgs.newLine();
+        tgs.append(ystring);
+        tgs.newLine();
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        tgs.append("slider");
+        tgs.newLine();
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+        tgs.append("slider");
+        tgs.newLine();
+        tgs.append("1");
+        tgs.newLine();
+        tgs.append("100");
+        tgs.newLine();
+        tgs.append("30.0");
+        tgs.newLine();
+        tgs.append("1");
+        tgs.newLine();
+        tgs.append("1");
+        tgs.newLine();
+        tgs.append("NIL");
+        tgs.newLine();
+        tgs.append("HORIZONTAL");
+        tgs.newLine();
+        tgs.newLine();
+        x += 42;
+        y += 42;
+      }
+    }
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("NetLogo 6.0.4");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+    tgs.append("@#$#@#$#@");
+    tgs.newLine();
+
 
   }
 }

@@ -14,6 +14,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Average;
   private ConceptPresentation props_Boolean;
   private ConceptPresentation props_Color;
+  private ConceptPresentation props_ColorOptions;
   private ConceptPresentation props_ColorShade;
   private ConceptPresentation props_Conditional;
   private ConceptPresentation props_ConditionalColor;
@@ -46,6 +47,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Poisson;
   private ConceptPresentation props_Shape;
   private ConceptPresentation props_ShapeInstance;
+  private ConceptPresentation props_ShapeOptions;
   private ConceptPresentation props_SpecificLocation;
   private ConceptPresentation props_SpecificXY;
   private ConceptPresentation props_StatisticalDistribution;
@@ -96,6 +98,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Color = cpb.create();
         }
         return props_Color;
+      case LanguageConceptSwitch.ColorOptions:
+        if (props_ColorOptions == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("ColorOptions");
+          props_ColorOptions = cpb.create();
+        }
+        return props_ColorOptions;
       case LanguageConceptSwitch.ColorShade:
         if (props_ColorShade == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -324,6 +333,14 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_ShapeInstance = cpb.create();
         }
         return props_ShapeInstance;
+      case LanguageConceptSwitch.ShapeOptions:
+        if (props_ShapeOptions == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.shortDesc("the options aviable for shapes");
+          cpb.rawPresentation("ShapeOptions");
+          props_ShapeOptions = cpb.create();
+        }
+        return props_ShapeOptions;
       case LanguageConceptSwitch.SpecificLocation:
         if (props_SpecificLocation == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
