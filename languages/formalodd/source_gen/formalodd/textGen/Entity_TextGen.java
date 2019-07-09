@@ -5,75 +5,10 @@ package formalodd.textGen;
 import jetbrains.mps.text.rt.TextGenDescriptorBase;
 import jetbrains.mps.text.rt.TextGenContext;
 import jetbrains.mps.text.impl.TextGenSupport;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import java.util.Objects;
 
 public class Entity_TextGen extends TextGenDescriptorBase {
   @Override
   public void generateText(final TextGenContext ctx) {
     final TextGenSupport tgs = new TextGenSupport(ctx);
-    tgs.append("breed[");
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-    tgs.append(" ");
-    tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-    tgs.append("s ]");
-    tgs.newLine();
-
-
-    int x = 71;
-    int y = 104;
-    String MinAmount = "0";
-    String MaxAmount = "100";
-
-    if (!(Objects.equals(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")), null))) {
-      String xstring = "" + x;
-      String ystring = "" + y;
-      tgs.append("SLIDER");
-      tgs.newLine();
-      tgs.append("7");
-      tgs.newLine();
-      tgs.append(xstring);
-      tgs.newLine();
-      tgs.append("179");
-      tgs.newLine();
-      tgs.append(ystring);
-      tgs.newLine();
-      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-      tgs.append("slider");
-      tgs.newLine();
-      tgs.append(SPropertyOperations.getString(ctx.getPrimaryInput(), MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
-      tgs.append("slider");
-      tgs.newLine();
-      if (!(Objects.equals(MinAmount, null)) && !(Objects.equals(MaxAmount, null))) {
-        tgs.append(MinAmount);
-        tgs.newLine();
-        tgs.append(MaxAmount);
-        tgs.newLine();
-      }
-      if (Objects.equals(MinAmount, null) || Objects.equals(MaxAmount, null)) {
-        tgs.append("0");
-        tgs.newLine();
-        tgs.append("100");
-        tgs.newLine();
-      }
-      tgs.append("30.0");
-      tgs.newLine();
-      tgs.append("1");
-      tgs.newLine();
-      tgs.append("1");
-      tgs.newLine();
-      tgs.append("NIL");
-      tgs.newLine();
-      tgs.append("HORIZONTAL");
-      tgs.newLine();
-      tgs.newLine();
-      x += 42;
-      y += 42;
-
-    }
-
-
-
   }
 }

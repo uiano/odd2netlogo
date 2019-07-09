@@ -1,39 +1,36 @@
-breed[Wolf Wolfs ]
-breed[Sheep Sheeps ]
+breed[test tests ]
+create-test testslider[
+ set color 
+ setxy random-xcor random-ycor
+]
+ask patches [
+]
+SLIDER
+7
+71
+179
+104
+testslider
+testslider
+0
+0
+30.0
+1
+1
+NIL
+HORIZONTAL
+
 to setup
 clear-all
-breed[Wolf Wolfs ]
-SLIDER
-7
-71
-179
-104
-Wolfslider
-Wolfslider
-0
-100
-30.0
-1
-1
-NIL
-HORIZONTAL
-
-breed[Sheep Sheeps ]
-SLIDER
-7
-71
-179
-104
-Sheepslider
-Sheepslider
-0
-100
-30.0
-1
-1
-NIL
-HORIZONTAL
-
+ask patches [
+]
+reset-ticks
+end
+to go
+ask patches[
+]
+tick
+end
 @#$#@#$#@
 GRAPHICS-WINDOW
 210
@@ -42,8 +39,7 @@ GRAPHICS-WINDOW
 448
 -1
 -1
-1
-1
+21
 10
 1
 1
@@ -52,10 +48,10 @@ GRAPHICS-WINDOW
 0
 0
 1
--500
-500
--500
-500
+-16
+16
+-16
+16
 1
 1
 1

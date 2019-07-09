@@ -207,15 +207,11 @@
     <ref role="1XX52x" to="86kt:3lcKR8aBGmn" resolve="Environment" />
     <node concept="3EZMnI" id="5oUGABTLi7F" role="2wV5jI">
       <node concept="l2Vlx" id="5oUGABTLi7G" role="2iSdaV" />
-      <node concept="3EZMnI" id="5oUGABTLi7J" role="3EZMnx">
-        <node concept="2iRkQZ" id="5oUGABTLi7K" role="2iSdaV" />
-        <node concept="VPM3Z" id="5oUGABTLi7L" role="3F10Kt" />
-        <node concept="3F2HdR" id="5oUGABTLnDi" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLnDc" resolve="EnvEntity" />
-          <node concept="2iRkQZ" id="5oUGABTLnDj" role="2czzBx" />
-          <node concept="3F0ifn" id="5oUGABTLnDm" role="2czzBI">
-            <property role="3F0ifm" value="EnvEntity" />
-          </node>
+      <node concept="3F2HdR" id="5oUGABTLnDi" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5oUGABTLnDc" resolve="EnvEntity" />
+        <node concept="2iRkQZ" id="5oUGABTLnDj" role="2czzBx" />
+        <node concept="3F0ifn" id="5oUGABTLnDm" role="2czzBI">
+          <property role="3F0ifm" value="EnvEntity" />
         </node>
       </node>
     </node>
@@ -229,6 +225,18 @@
         <node concept="VPM3Z" id="5oUGABTLnAs" role="3F10Kt" />
         <node concept="3F0A7n" id="5oUGABTLnAw" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0A7n" id="626ZVnuurqk" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:626ZVnusr$M" resolve="Distribution" />
+        </node>
+        <node concept="3F0A7n" id="626ZVnuurpS" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:626ZVnusr$O" resolve="Color" />
+        </node>
+        <node concept="3F0A7n" id="626ZVnuurqM" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:626ZVnusr$R" resolve="ChangeNeighbors" />
+        </node>
+        <node concept="3F0A7n" id="626ZVnuurri" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:626ZVnusr$V" resolve="ChangeSelf" />
         </node>
         <node concept="3F1sOY" id="5oUGABTLnA_" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5oUGABTLn_z" resolve="DefaultColor" />
@@ -423,12 +431,11 @@
               <property role="Vbekb" value="BOLD" />
             </node>
           </node>
-          <node concept="3F2HdR" id="3mweh__zhd9" role="3EZMnx">
+          <node concept="3F1sOY" id="3mweh_Aa6tC" role="3EZMnx">
             <ref role="1NtTu8" to="86kt:6AuNKydZ5Jv" resolve="MoreColors" />
-            <node concept="2iRfu4" id="3mweh__zhdb" role="2czzBx" />
-            <node concept="pkWqt" id="3mweh__zhrf" role="pqm2j">
-              <node concept="3clFbS" id="3mweh__zhrg" role="2VODD2">
-                <node concept="3clFbF" id="3mweh__zhy_" role="3cqZAp">
+            <node concept="pkWqt" id="3mweh_Aa6EX" role="pqm2j">
+              <node concept="3clFbS" id="3mweh_Aa6EY" role="2VODD2">
+                <node concept="3clFbF" id="3mweh_Aa6Mi" role="3cqZAp">
                   <node concept="2OqwBi" id="3mweh__zkjA" role="3clFbG">
                     <node concept="2OqwBi" id="3mweh__ziUF" role="2Oq$k0">
                       <node concept="2OqwBi" id="3mweh__zhTs" role="2Oq$k0">
@@ -900,6 +907,75 @@
     <ref role="1XX52x" to="86kt:3mweh___xQS" resolve="ShapeOptions" />
     <node concept="3F0A7n" id="3mweh__ADZA" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:3mweh___xQT" resolve="ShapeOption" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3mweh_A8ICj">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="MoreColors" />
+    <node concept="3EZMnI" id="3mweh_A8ICK" role="2wV5jI">
+      <node concept="2iRfu4" id="3mweh_A8ICL" role="2iSdaV" />
+      <node concept="3F0ifn" id="3mweh_A8ICQ" role="3EZMnx">
+        <property role="3F0ifm" value="These colors are" />
+      </node>
+      <node concept="3F2HdR" id="3mweh_A8ICW" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3lcKR8aBGmb" resolve="ConditionalColor" />
+        <node concept="2iRfu4" id="3mweh_A8ICY" role="2czzBx" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="3mweh_A8IDa">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="ConditionalColor" />
+    <node concept="3F0A7n" id="3mweh_A8IDc" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:3lcKR8aBGme" resolve="Color" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3mweh_AdFTu">
+    <ref role="1XX52x" to="86kt:3mweh__FtkM" resolve="GraphicsWindow" />
+    <node concept="3EZMnI" id="3mweh_AdFTw" role="2wV5jI">
+      <node concept="2iRkQZ" id="3mweh_AdFTx" role="2iSdaV" />
+      <node concept="VPM3Z" id="3mweh_AdFTy" role="3F10Kt" />
+      <node concept="3EZMnI" id="3mweh_AeH91" role="3EZMnx">
+        <node concept="2iRfu4" id="3mweh_AeH92" role="2iSdaV" />
+        <node concept="3F0ifn" id="3mweh_AdFTz" role="3EZMnx">
+          <property role="3F0ifm" value="This is the Size of world for the simulation" />
+          <node concept="Vb9p2" id="3mweh_AeHgI" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="3mweh_AeH9j" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3mweh_AbNbf" resolve="WorldSize" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3mweh_AeH9z" role="3EZMnx">
+        <node concept="2iRfu4" id="3mweh_AeH9$" role="2iSdaV" />
+        <node concept="3F0ifn" id="3mweh_AdFT_" role="3EZMnx">
+          <property role="3F0ifm" value="In the simmulation the pixel size is " />
+          <node concept="Vb9p2" id="3mweh_AeHgE" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="3mweh_AeH9R" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3mweh_Abu1e" resolve="PixelSize" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3mweh_AeHcd" role="3EZMnx">
+        <node concept="2iRfu4" id="3mweh_AeHce" role="2iSdaV" />
+        <node concept="3F0ifn" id="3mweh_AeH9V" role="3EZMnx">
+          <property role="3F0ifm" value="The world should wrap " />
+          <node concept="Vb9p2" id="3mweh_AeHgC" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="3mweh_AeHcC" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3mweh_Abu1i" resolve="WrapHorizontal" />
+        </node>
+        <node concept="3F0A7n" id="3mweh_AeHcP" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3mweh_AbuOG" resolve="WrapVertical" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="3mweh_AeHeI" role="3EZMnx">
+        <node concept="2iRfu4" id="3mweh_AeHeJ" role="2iSdaV" />
+        <node concept="3F0ifn" id="3mweh_AdFTF" role="3EZMnx">
+          <property role="3F0ifm" value="the simulation uses the bacground color" />
+          <node concept="Vb9p2" id="3mweh_AeHg$" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="3mweh_AeHf5" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3mweh_Abu1b" resolve="BackGround" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

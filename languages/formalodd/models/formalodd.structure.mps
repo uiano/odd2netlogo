@@ -154,7 +154,7 @@
       <property role="IQ2ns" value="7610748055951530975" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="MoreColors" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3lcKR8aBGma" resolve="MoreColors" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZ5JQ" role="1TKVEi">
@@ -537,6 +537,31 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
+    <node concept="1TJgyi" id="626ZVnur3uy" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106107298" />
+      <property role="TrG5h" value="WorldSize" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnur3u$" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106107300" />
+      <property role="TrG5h" value="PixelSize" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnur3uB" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106107303" />
+      <property role="TrG5h" value="WrapHorizontal" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnur3uF" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106107307" />
+      <property role="TrG5h" value="WrapVertical" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnur3uK" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106107312" />
+      <property role="TrG5h" value="BackGround" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGm$">
     <property role="EcuMT" value="3840659476812055972" />
@@ -593,6 +618,26 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="EnvironmentAttribute" />
       <ref role="20lvS9" node="3lcKR8aBGmR" resolve="EnvironmentAttribute" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnusr$M" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106468146" />
+      <property role="TrG5h" value="Distribution" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnusr$O" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106468148" />
+      <property role="TrG5h" value="Color" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnusr$R" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106468151" />
+      <property role="TrG5h" value="ChangeNeighbors" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="626ZVnusr$V" role="1TKVEl">
+      <property role="IQ2nx" value="6955527831106468155" />
+      <property role="TrG5h" value="ChangeSelf" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGmE">
@@ -793,6 +838,31 @@
       <property role="TrG5h" value="test" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="3mweh_Abu1b" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261535133771" />
+      <property role="TrG5h" value="BackGround" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3mweh_Abu1i" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261535133778" />
+      <property role="TrG5h" value="WrapHorizontal" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3mweh_Abu1e" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261535133774" />
+      <property role="TrG5h" value="PixelSize" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3mweh_AbuOG" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261535137068" />
+      <property role="TrG5h" value="WrapVertical" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="3mweh_AbNbf" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261535220431" />
+      <property role="TrG5h" value="WorldSize" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="3mweh__P1MJ" role="1TKVEi">
       <property role="IQ2ns" value="3864151261529250991" />
       <property role="20lmBu" value="reference" />
@@ -803,6 +873,11 @@
   <node concept="1TIwiD" id="3mweh__RxAt">
     <property role="EcuMT" value="3864151261529905565" />
     <property role="TrG5h" value="test" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3mweh_A8dKi">
+    <property role="EcuMT" value="3864151261534280722" />
+    <property role="TrG5h" value="Action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
