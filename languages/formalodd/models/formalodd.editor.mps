@@ -124,6 +124,9 @@
         <node concept="3F1sOY" id="5JxfqxAtDtV" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
         </node>
+        <node concept="3F1sOY" id="3mweh__TStb" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3mweh__M7cP" resolve="graphicsWindow" />
+        </node>
         <node concept="2iRkQZ" id="5JxfqxAtDtH" role="2iSdaV" />
       </node>
       <node concept="l2Vlx" id="6AuNKydYHWi" role="2iSdaV" />
@@ -347,7 +350,7 @@
       </node>
       <node concept="2iRfu4" id="7wk$2803UF0" role="2iSdaV" />
       <node concept="3F2HdR" id="7wk$2803UFg" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5JxfqxAubY6" resolve="text" />
+        <ref role="1NtTu8" to="86kt:5JxfqxAuXCg" resolve="entityName" />
         <node concept="2iRfu4" id="7wk$2803UFi" role="2czzBx" />
       </node>
     </node>

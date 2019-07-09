@@ -70,6 +70,7 @@ public class Entity_TextGen extends TextGenDescriptorBase {
       tgs.newLine();
       x += 42;
       y += 42;
+
     }
 
 

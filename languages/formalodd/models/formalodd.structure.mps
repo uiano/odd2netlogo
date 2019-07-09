@@ -68,6 +68,18 @@
       <property role="20kJfa" value="EntitiesStateScale" />
       <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
     </node>
+    <node concept="1TJgyj" id="3mweh__M7cP" role="1TKVEi">
+      <property role="IQ2ns" value="3864151261528486709" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphicsWindow" />
+      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
+    </node>
+    <node concept="1TJgyj" id="3mweh__Scun" role="1TKVEi">
+      <property role="IQ2ns" value="3864151261530081175" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="test" />
+      <ref role="20lvS9" node="3mweh__RxAt" resolve="test" />
+    </node>
     <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -771,6 +783,27 @@
       <property role="TrG5h" value="ShapeOption" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="3mweh__FtkM">
+    <property role="EcuMT" value="3864151261526742322" />
+    <property role="TrG5h" value="GraphicsWindow" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="3mweh__OAr1" role="1TKVEl">
+      <property role="IQ2nx" value="3864151261529138881" />
+      <property role="TrG5h" value="test" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="3mweh__P1MJ" role="1TKVEi">
+      <property role="IQ2ns" value="3864151261529250991" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="entitiesStateScales" />
+      <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3mweh__RxAt">
+    <property role="EcuMT" value="3864151261529905565" />
+    <property role="TrG5h" value="test" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
