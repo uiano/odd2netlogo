@@ -193,6 +193,11 @@ public class GraphicsWindow_TextGen extends TextGenDescriptorBase {
     tgs.append("1");
     tgs.newLine();
     tgs.newLine();
+
+
+
+
+
     tgs.append("@#$#@#$#@");
     tgs.newLine();
     tgs.append("@#$#@#$#@");

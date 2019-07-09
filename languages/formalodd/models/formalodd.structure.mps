@@ -68,17 +68,23 @@
       <property role="20kJfa" value="EntitiesStateScale" />
       <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
     </node>
-    <node concept="1TJgyj" id="3mweh__M7cP" role="1TKVEi">
-      <property role="IQ2ns" value="3864151261528486709" />
+    <node concept="1TJgyj" id="215d$P5dE$g" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488108321040" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="graphicsWindow" />
-      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
+      <property role="20kJfa" value="action" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
     <node concept="1TJgyj" id="3mweh__Scun" role="1TKVEi">
       <property role="IQ2ns" value="3864151261530081175" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="test" />
       <ref role="20lvS9" node="3mweh__RxAt" resolve="test" />
+    </node>
+    <node concept="1TJgyj" id="215d$P5p_0S" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488111444024" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphicsWindow" />
+      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
     </node>
     <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -700,6 +706,33 @@
     <property role="EcuMT" value="3840659476812056000" />
     <property role="TrG5h" value="Conditional" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="215d$P5ch2g" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488107954320" />
+      <property role="TrG5h" value="EntitysEffected" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5ch2o" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488107954328" />
+      <property role="TrG5h" value="PatchesEffected" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5ch2v" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488107954335" />
+      <property role="TrG5h" value="attribute" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5ch2j" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488107954323" />
+      <property role="TrG5h" value="Condition" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="215d$P5cF7g" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488108061136" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="intention" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="215d$P5bQEV" resolve="Intentions" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGn3">
     <property role="EcuMT" value="3840659476812056003" />
@@ -833,6 +866,13 @@
     <property role="EcuMT" value="3864151261526742322" />
     <property role="TrG5h" value="GraphicsWindow" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="215d$P5kAte" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488110139214" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="entityReference" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="215d$P5kAta" resolve="EntityReference" />
+    </node>
     <node concept="1TJgyi" id="3mweh__OAr1" role="1TKVEl">
       <property role="IQ2nx" value="3864151261529138881" />
       <property role="TrG5h" value="test" />
@@ -863,12 +903,6 @@
       <property role="TrG5h" value="WorldSize" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyj" id="3mweh__P1MJ" role="1TKVEi">
-      <property role="IQ2ns" value="3864151261529250991" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="entitiesStateScales" />
-      <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3mweh__RxAt">
     <property role="EcuMT" value="3864151261529905565" />
@@ -879,6 +913,13 @@
     <property role="EcuMT" value="3864151261534280722" />
     <property role="TrG5h" value="Action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="215d$P5bQEZ" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488107846335" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20lbJX" value="0..n" />
+      <property role="20kJfa" value="intention" />
+      <ref role="20lvS9" node="215d$P5bQEV" resolve="Intentions" />
+    </node>
     <node concept="1TJgyi" id="6fs8Th0$FbW" role="1TKVEl">
       <property role="IQ2nx" value="7195665424276697852" />
       <property role="TrG5h" value="Who" />
@@ -923,6 +964,100 @@
       <property role="IQ2nx" value="1419788919117513227" />
       <property role="TrG5h" value="subAction" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="215d$P5bQrQ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="215d$P5bQEV">
+    <property role="EcuMT" value="2325324488107846331" />
+    <property role="TrG5h" value="Intentions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="215d$P5fPmo" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488108889496" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="entity" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+    </node>
+    <node concept="1TJgyj" id="215d$P5fPmv" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488108889503" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="environment" />
+      <ref role="20lvS9" node="3lcKR8aBGmn" resolve="Environment" />
+    </node>
+    <node concept="1TJgyj" id="215d$P5dem4" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488108205444" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="effectedAtributes" />
+      <ref role="20lvS9" node="215d$P5delF" resolve="IntentionEffect" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5dejZ" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205311" />
+      <property role="TrG5h" value="Entitys" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5dekj" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205331" />
+      <property role="TrG5h" value="Enviroment" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5dekE" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205354" />
+      <property role="TrG5h" value="Attribut" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7s1yruv1qeF" role="1TKVEl">
+      <property role="IQ2nx" value="8575286587230102443" />
+      <property role="TrG5h" value="Effect" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5dekR" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205367" />
+      <property role="TrG5h" value="EntitysEffected" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5del6" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205382" />
+      <property role="TrG5h" value="EnviromentEffected" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5deln" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205399" />
+      <property role="TrG5h" value="AttributEffected" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="215d$P5bQX$" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488107847524" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="conditional" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="215d$P5delF">
+    <property role="EcuMT" value="2325324488108205419" />
+    <property role="TrG5h" value="IntentionEffect" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="215d$P5delG" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205420" />
+      <property role="TrG5h" value="Who" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="215d$P5delJ" role="1TKVEl">
+      <property role="IQ2nx" value="2325324488108205423" />
+      <property role="TrG5h" value="What" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="215d$P5kAta">
+    <property role="EcuMT" value="2325324488110139210" />
+    <property role="TrG5h" value="EntityReference" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="215d$P5xpm4" role="1TKVEi">
+      <property role="IQ2ns" value="2325324488113493380" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="entity" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
     </node>
   </node>
 </model>

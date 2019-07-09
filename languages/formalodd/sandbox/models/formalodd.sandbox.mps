@@ -10,35 +10,29 @@
       <concept id="6620640720694302583" name="formalodd.structure.UserComment" flags="ng" index="XAmFv" />
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="6620640720694329222" name="text" index="XAo8I" />
-        <child id="3864151261528486709" name="graphicsWindow" index="1gq4CG" />
         <child id="7610748055951433660" name="EntitiesStateScale" index="3$p12O" />
+        <child id="2325324488111444024" name="graphicsWindow" index="1_8QpP" />
+        <child id="2325324488108321040" name="action" index="1_sTXt" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
         <child id="3840659476812055819" name="entity" index="ZOwpT" />
-        <child id="3840659476812055817" name="environment" index="ZOwpV" />
       </concept>
-      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
-        <property id="3864151261523101841" name="showColors" index="1gPB68" />
-        <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
-        <child id="3864151261524484089" name="colorOptions" index="1gaQrw" />
-        <child id="3864151261525253484" name="shapeOptions" index="1gdMhP" />
-      </concept>
-      <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm" />
-      <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
-        <child id="6213474804142799436" name="EnvEntity" index="2JZWw_" />
-      </concept>
+      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW" />
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
-        <property id="3864151261535137068" name="WrapVertical" index="1jztgP" />
-        <property id="3864151261535133778" name="WrapHorizontal" index="1jzt_b" />
-        <property id="3864151261535133771" name="BackGround" index="1jzt_i" />
-        <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
-        <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
+        <child id="2325324488110139214" name="entityReference" index="1_5P43" />
       </concept>
-      <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
-        <property id="3864151261524127934" name="Options" index="1g9sAB" />
+      <concept id="3864151261534280722" name="formalodd.structure.Action" flags="ng" index="1jwekb">
+        <child id="2325324488107846335" name="intention" index="1_q_NM" />
       </concept>
-      <concept id="3864151261525188024" name="formalodd.structure.ShapeOptions" flags="ng" index="1gdyix">
-        <property id="3864151261525188025" name="ShapeOption" index="1gdyiw" />
+      <concept id="2325324488110139210" name="formalodd.structure.EntityReference" flags="ng" index="1_5P47">
+        <reference id="2325324488113493380" name="entity" index="1_Kaf9" />
+      </concept>
+      <concept id="2325324488107846331" name="formalodd.structure.Intentions" flags="ng" index="1_q_NQ">
+        <reference id="2325324488108889496" name="entity" index="1_uAfl" />
+        <child id="2325324488108205444" name="effectedAtributes" index="1_stf9" />
+      </concept>
+      <concept id="2325324488108205419" name="formalodd.structure.IntentionEffect" flags="ng" index="1_stcA">
+        <property id="2325324488108205420" name="Who" index="1_stcx" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -47,31 +41,44 @@
       </concept>
     </language>
   </registry>
-  <node concept="ZOwpP" id="3mweh_A8buJ">
+  <node concept="ZOwpP" id="215d$P5tZ5m">
     <property role="TrG5h" value="test" />
-    <node concept="XAmFv" id="3mweh_AaAvy" role="XAo8I" />
-    <node concept="ZOwpU" id="3mweh_AaAvu" role="3$p12O">
-      <node concept="ZOwpW" id="3mweh_AaAvw" role="ZOwpT">
-        <property role="TrG5h" value="test" />
-        <property role="1gPB68" value="is" />
-        <property role="1gPB6a" value="does" />
-        <node concept="1g9sA$" id="215d$P57ZfW" role="1gaQrw">
-          <property role="1g9sAB" value="takes different colours" />
-        </node>
-        <node concept="1gdyix" id="215d$P57ZfZ" role="1gdMhP">
-          <property role="1gdyiw" value="takes different shapes." />
+    <node concept="XAmFv" id="215d$P5tZ5w" role="XAo8I" />
+    <node concept="1jwekb" id="215d$P5tZ5n" role="1_sTXt">
+      <node concept="1_q_NQ" id="215d$P5vteo" role="1_q_NM">
+        <ref role="1_uAfl" node="215d$P5tZ5z" resolve="test" />
+        <node concept="1_stcA" id="215d$P5vV$a" role="1_stf9">
+          <property role="1_stcx" value="The entity" />
         </node>
       </node>
-      <node concept="ZOwr_" id="215d$P57Zfx" role="ZOwpV">
-        <node concept="ZOwrm" id="215d$P57Zf$" role="2JZWw_" />
+      <node concept="1_q_NQ" id="215d$P5vteX" role="1_q_NM">
+        <ref role="1_uAfl" node="215d$P5tZ5z" resolve="test" />
+        <node concept="1_stcA" id="215d$P5vtf9" role="1_stf9">
+          <property role="1_stcx" value="The entity" />
+        </node>
+      </node>
+      <node concept="1_q_NQ" id="215d$P5wqaI" role="1_q_NM">
+        <ref role="1_uAfl" node="215d$P5xplD" resolve="entity2" />
+        <node concept="1_stcA" id="215d$P5wqaW" role="1_stf9">
+          <property role="1_stcx" value="The entity" />
+        </node>
       </node>
     </node>
-    <node concept="1g3uKF" id="3mweh_AedHQ" role="1gq4CG">
-      <property role="1jztgP" value="0" />
-      <property role="1jzt_b" value="0" />
-      <property role="1jzt_n" value="1" />
-      <property role="1jzKJm" value="500" />
-      <property role="1jzt_i" value="black" />
+    <node concept="1g3uKF" id="215d$P5tZ5q" role="1_8QpP">
+      <node concept="1_5P47" id="215d$P5xSlk" role="1_5P43">
+        <ref role="1_Kaf9" node="215d$P5tZ5z" resolve="test" />
+      </node>
+      <node concept="1_5P47" id="215d$P5xSlo" role="1_5P43">
+        <ref role="1_Kaf9" node="215d$P5xplD" resolve="entity2" />
+      </node>
+    </node>
+    <node concept="ZOwpU" id="215d$P5tZ5t" role="3$p12O">
+      <node concept="ZOwpW" id="215d$P5tZ5z" role="ZOwpT">
+        <property role="TrG5h" value="test" />
+      </node>
+      <node concept="ZOwpW" id="215d$P5xplD" role="ZOwpT">
+        <property role="TrG5h" value="entity2" />
+      </node>
     </node>
   </node>
 </model>
