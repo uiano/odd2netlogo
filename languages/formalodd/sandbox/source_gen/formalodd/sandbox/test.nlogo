@@ -1,7 +1,10 @@
 breed[test tests ]
 create-test testslider[
- set color 
+ set color is
  setxy random-xcor random-ycor
+set size <!TextGen not found for 'formalodd.structure.ShapeOptions'!>
+]
+if pcolor = [
 ]
 ask patches [
 ]
@@ -22,6 +25,7 @@ HORIZONTAL
 
 to setup
 clear-all
+ask patches[ set pcolor black ]
 ask patches [
 ]
 reset-ticks
@@ -39,7 +43,8 @@ GRAPHICS-WINDOW
 448
 -1
 -1
-21
+1
+1
 10
 1
 1
@@ -48,10 +53,10 @@ GRAPHICS-WINDOW
 0
 0
 1
--16
-16
--16
-16
+-500
+500
+-500
+500
 1
 1
 1

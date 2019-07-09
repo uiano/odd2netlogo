@@ -931,6 +931,9 @@
   <node concept="24kQdi" id="3mweh_AdFTu">
     <ref role="1XX52x" to="86kt:3mweh__FtkM" resolve="GraphicsWindow" />
     <node concept="3EZMnI" id="3mweh_AdFTw" role="2wV5jI">
+      <node concept="3F0ifn" id="215d$P59d5q" role="3EZMnx">
+        <property role="3F0ifm" value="User defined attributes" />
+      </node>
       <node concept="2iRkQZ" id="3mweh_AdFTx" role="2iSdaV" />
       <node concept="VPM3Z" id="3mweh_AdFTy" role="3F10Kt" />
       <node concept="3EZMnI" id="3mweh_AeH91" role="3EZMnx">

@@ -879,6 +879,51 @@
     <property role="EcuMT" value="3864151261534280722" />
     <property role="TrG5h" value="Action" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6fs8Th0$FbW" role="1TKVEl">
+      <property role="IQ2nx" value="7195665424276697852" />
+      <property role="TrG5h" value="Who" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6fs8Th0$FbY" role="1TKVEl">
+      <property role="IQ2nx" value="7195665424276697854" />
+      <property role="TrG5h" value="Conflict" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6fs8Th0Drqz" role="1TKVEl">
+      <property role="IQ2nx" value="7195665424277943971" />
+      <property role="TrG5h" value="Move" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7s1yruuKQjT" role="1TKVEl">
+      <property role="IQ2nx" value="8575286587225761017" />
+      <property role="TrG5h" value="TurnRate" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6fs8Th5c2lr" role="1TKVEl">
+      <property role="IQ2nx" value="7195665424354125147" />
+      <property role="TrG5h" value="ChangePatches" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7s1yruuLAhH" role="1TKVEl">
+      <property role="IQ2nx" value="8575286587225957485" />
+      <property role="TrG5h" value="ChangeTurtle" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7s1yruuLAhW" role="1TKVEl">
+      <property role="IQ2nx" value="8575286587225957500" />
+      <property role="TrG5h" value="TickTurtle" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7s1yruuLAhO" role="1TKVEl">
+      <property role="IQ2nx" value="8575286587225957492" />
+      <property role="TrG5h" value="EndTurtle" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="1eO6BZ$2g8b" role="1TKVEl">
+      <property role="IQ2nx" value="1419788919117513227" />
+      <property role="TrG5h" value="subAction" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
 </model>
 
