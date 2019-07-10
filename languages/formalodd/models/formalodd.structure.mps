@@ -629,6 +629,12 @@
       <property role="20kJfa" value="ConditionalColor" />
       <ref role="20lvS9" node="3lcKR8aBGmd" resolve="ConditionalColor" />
     </node>
+    <node concept="1TJgyj" id="4GvH3PCNgkg" role="1TKVEi">
+      <property role="IQ2ns" value="5413243452966896912" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ColorShade" />
+      <ref role="20lvS9" node="3lcKR8aBGmi" resolve="ColorShade" />
+    </node>
     <node concept="1TJgyj" id="5oUGABTLn_S" role="1TKVEi">
       <property role="IQ2ns" value="6213474804142799224" />
       <property role="20lmBu" value="aggregation" />
