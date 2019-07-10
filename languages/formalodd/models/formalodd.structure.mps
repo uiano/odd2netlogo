@@ -285,12 +285,12 @@
     <node concept="1TJgyi" id="3lcKR8aBGkR" role="1TKVEl">
       <property role="IQ2nx" value="3840659476812055863" />
       <property role="TrG5h" value="min" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3lcKR8aBGkT" role="1TKVEl">
       <property role="IQ2nx" value="3840659476812055865" />
       <property role="TrG5h" value="max" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="3lcKR8aBGkW" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055868" />
