@@ -602,6 +602,7 @@
       <property role="IQ2ns" value="6213474804142799191" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="Coordinates" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGng" resolve="Coordinates" />
     </node>
     <node concept="1TJgyj" id="5oUGABTLn_q" role="1TKVEi">
