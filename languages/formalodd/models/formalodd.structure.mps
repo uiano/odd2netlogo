@@ -220,11 +220,18 @@
       <property role="TrG5h" value="Stability" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
+    <node concept="1TJgyj" id="4GvH3PCF6rY" role="1TKVEi">
+      <property role="IQ2ns" value="5413243452964759294" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="type" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGky">
     <property role="EcuMT" value="3840659476812055842" />
     <property role="TrG5h" value="Type" />
-    <ref role="1TJDcQ" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkz">
     <property role="EcuMT" value="3840659476812055843" />
