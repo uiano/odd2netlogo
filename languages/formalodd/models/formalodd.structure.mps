@@ -338,6 +338,11 @@
     <property role="EcuMT" value="3840659476812055885" />
     <property role="TrG5h" value="Poisson" />
     <ref role="1TJDcQ" node="3lcKR8aBGkY" resolve="StatisticalDistribution" />
+    <node concept="1TJgyi" id="4GvH3PCE97M" role="1TKVEl">
+      <property role="IQ2nx" value="5413243452964508146" />
+      <property role="TrG5h" value="mean" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlg">
     <property role="EcuMT" value="3840659476812055888" />
