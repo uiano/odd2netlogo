@@ -154,6 +154,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGlq" resolve="Average" />
     </node>
+    <node concept="1TJgyj" id="4GvH3PCHYVn" role="1TKVEi">
+      <property role="IQ2ns" value="5413243452965514967" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Count" />
+      <ref role="20lvS9" node="3lcKR8aBGlt" resolve="Count" />
+    </node>
     <node concept="1TJgyj" id="6AuNKydZ5Jb" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951530955" />
       <property role="20lmBu" value="aggregation" />
