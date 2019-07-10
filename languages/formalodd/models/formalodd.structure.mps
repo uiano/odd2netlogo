@@ -416,13 +416,6 @@
     <property role="EcuMT" value="3840659476812055901" />
     <property role="TrG5h" value="Count" />
     <ref role="1TJDcQ" node="3lcKR8aBGlj" resolve="AgentStatistic" />
-    <node concept="1TJgyj" id="3lcKR8aBGlu" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055902" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="entity" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlw">
     <property role="EcuMT" value="3840659476812055904" />
