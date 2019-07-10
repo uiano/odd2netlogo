@@ -558,6 +558,13 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
+    <node concept="1TJgyj" id="4GvH3PCKovn" role="1TKVEi">
+      <property role="IQ2ns" value="5413243452966143959" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attributes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
     <node concept="1TJgyi" id="626ZVnur3uy" role="1TKVEl">
       <property role="IQ2nx" value="6955527831106107298" />
       <property role="TrG5h" value="WorldSize" />
