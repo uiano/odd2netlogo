@@ -672,23 +672,6 @@
       <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3lcKR8aBGmM">
-    <property role="EcuMT" value="3840659476812055986" />
-    <property role="TrG5h" value="EnvironmentColorShade" />
-    <ref role="1TJDcQ" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    <node concept="1TJgyi" id="3lcKR8aBGmN" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055987" />
-      <property role="TrG5h" value="ColorID" />
-      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-    </node>
-    <node concept="1TJgyj" id="3lcKR8aBGmP" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055989" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Definition" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3lcKR8aBGmR">
     <property role="EcuMT" value="3840659476812055991" />
     <property role="TrG5h" value="ConditionalAttribute" />
