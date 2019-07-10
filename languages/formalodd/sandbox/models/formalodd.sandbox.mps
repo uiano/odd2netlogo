@@ -45,15 +45,10 @@
     <property role="TrG5h" value="test" />
     <node concept="XAmFv" id="215d$P5tZ5w" role="XAo8I" />
     <node concept="1jwekb" id="215d$P5tZ5n" role="1_sTXt">
+      <property role="TrG5h" value="ignite" />
       <node concept="1_q_NQ" id="215d$P5vteo" role="1_q_NM">
-        <ref role="1_uAfl" node="215d$P5tZ5z" resolve="test" />
+        <ref role="1_uAfl" node="215d$P5tZ5z" resolve="tree" />
         <node concept="1_stcA" id="215d$P5vV$a" role="1_stf9">
-          <property role="1_stcx" value="The entity" />
-        </node>
-      </node>
-      <node concept="1_q_NQ" id="215d$P5vteX" role="1_q_NM">
-        <ref role="1_uAfl" node="215d$P5tZ5z" resolve="test" />
-        <node concept="1_stcA" id="215d$P5vtf9" role="1_stf9">
           <property role="1_stcx" value="The entity" />
         </node>
       </node>
@@ -65,16 +60,13 @@
       </node>
     </node>
     <node concept="1g3uKF" id="215d$P5tZ5q" role="1_8QpP">
-      <node concept="1_5P47" id="215d$P5xSlk" role="1_5P43">
-        <ref role="1_Kaf9" node="215d$P5tZ5z" resolve="test" />
-      </node>
-      <node concept="1_5P47" id="215d$P5xSlo" role="1_5P43">
-        <ref role="1_Kaf9" node="215d$P5xplD" resolve="entity2" />
+      <node concept="1_5P47" id="215d$P5zB47" role="1_5P43">
+        <ref role="1_Kaf9" node="215d$P5tZ5z" resolve="tree" />
       </node>
     </node>
     <node concept="ZOwpU" id="215d$P5tZ5t" role="3$p12O">
       <node concept="ZOwpW" id="215d$P5tZ5z" role="ZOwpT">
-        <property role="TrG5h" value="test" />
+        <property role="TrG5h" value="tree" />
       </node>
       <node concept="ZOwpW" id="215d$P5xplD" role="ZOwpT">
         <property role="TrG5h" value="entity2" />

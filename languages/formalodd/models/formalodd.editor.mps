@@ -1176,9 +1176,6 @@
     <ref role="1XX52x" to="86kt:215d$P5kAta" resolve="EntityReference" />
     <node concept="3EZMnI" id="215d$P5xSlN" role="2wV5jI">
       <node concept="2iRfu4" id="215d$P5xSlO" role="2iSdaV" />
-      <node concept="3F0ifn" id="215d$P5xSme" role="3EZMnx">
-        <property role="3F0ifm" value="heeeei" />
-      </node>
       <node concept="1iCGBv" id="215d$P5xpz5" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:215d$P5xpm4" resolve="entity" />
         <node concept="1sVBvm" id="215d$P5xpz6" role="1sWHZn">

@@ -8,6 +8,9 @@ import jetbrains.mps.text.impl.TextGenSupport;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import java.util.Objects;
+import org.jetbrains.mps.openapi.model.SNode;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GraphicsWindow_TextGen extends TextGenDescriptorBase {
   @Override
@@ -193,6 +196,40 @@ public class GraphicsWindow_TextGen extends TextGenDescriptorBase {
     tgs.append("1");
     tgs.newLine();
     tgs.newLine();
+
+    for (SNode e : Sequence.fromIterable(SLinkOperations.collect(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965add532L, 0x2045364d4552674eL, "entityReference")), MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4552674aL, 0x2045364d45859584L, "entity")))) {
+      tgs.append("create-");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      tgs.append(" ");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name")));
+      tgs.append("slider");
+      tgs.append("[");
+      tgs.newLine();
+      tgs.append(" set color ");
+      tgs.append(SPropertyOperations.getString(e, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x35a0391965764891L, "showColors")));
+      tgs.newLine();
+      tgs.append(" setxy");
+      tgs.append(" ");
+      tgs.append("random-xcor");
+      tgs.append(" ");
+      tgs.append("random-ycor");
+      tgs.newLine();
+      if (!(Objects.equals(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x354cc3720a9ec51aL, "shape")), null))) {
+        tgs.append("set shape \"");
+        tgs.appendNode(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x354cc3720a9ec51aL, "shape")));
+        tgs.append("\"");
+        tgs.newLine();
+      }
+      if (!(Objects.equals(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x35a0391965971d6cL, "shapeOptions")), null))) {
+        tgs.append("set size ");
+        tgs.appendNode(SLinkOperations.getTarget(e, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, 0x35a0391965971d6cL, "shapeOptions")));
+        tgs.newLine();
+      }
+      tgs.append("]");
+      tgs.newLine();
+
+
+    }
 
 
 
