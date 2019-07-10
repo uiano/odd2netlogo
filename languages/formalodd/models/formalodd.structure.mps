@@ -598,13 +598,6 @@
     <node concept="PrWs8" id="3lcKR8aBGm_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="1TJgyj" id="5oUGABTLn_l" role="1TKVEi">
-      <property role="IQ2ns" value="6213474804142799189" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="attributes" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
     <node concept="1TJgyj" id="5oUGABTLn_n" role="1TKVEi">
       <property role="IQ2ns" value="6213474804142799191" />
       <property role="20lmBu" value="aggregation" />
