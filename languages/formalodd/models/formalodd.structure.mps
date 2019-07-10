@@ -130,24 +130,28 @@
       <property role="IQ2ns" value="7610748055951673049" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="Min" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGln" resolve="Min" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZCrC" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951673064" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="Max" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGlk" resolve="Max" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZCrT" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951673081" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="Sum" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGlw" resolve="Sum" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZCsc" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951673100" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Avrage" />
+      <property role="20kJfa" value="Average" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGlq" resolve="Average" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZ5Jb" role="1TKVEi">
