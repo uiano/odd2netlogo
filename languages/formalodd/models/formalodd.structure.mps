@@ -468,6 +468,11 @@
     <property role="EcuMT" value="3840659476812055924" />
     <property role="TrG5h" value="Color" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="aIqcXnN$I4" role="1TKVEl">
+      <property role="IQ2nx" value="193207073764166532" />
+      <property role="TrG5h" value="color" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlP">
     <property role="EcuMT" value="3840659476812055925" />
@@ -528,6 +533,12 @@
       <property role="IQ2nx" value="3840659476812055942" />
       <property role="TrG5h" value="ColorID" />
       <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXnOmbz" role="1TKVEi">
+      <property role="IQ2ns" value="193207073764369123" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Defaultcolor" />
+      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Color" />
     </node>
   </node>
   <node concept="AxPO7" id="3lcKR8aBGm8">

@@ -857,5 +857,118 @@
       <node concept="17QB3L" id="aIqcXnF4FB" role="3ddBve" />
     </node>
   </node>
+  <node concept="3dkpOd" id="aIqcXnMuyn">
+    <property role="TrG5h" value="colors" />
+    <ref role="2ZfgGC" to="86kt:3lcKR8aBGlO" resolve="Color" />
+    <node concept="2S6ZIM" id="aIqcXnMuyo" role="2ZfVej">
+      <node concept="3clFbS" id="aIqcXnMuyp" role="2VODD2">
+        <node concept="3clFbF" id="aIqcXnN$gh" role="3cqZAp">
+          <node concept="38Zlrr" id="aIqcXnN$gg" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="aIqcXnMuyq" role="2ZfgGD">
+      <node concept="3clFbS" id="aIqcXnMuyr" role="2VODD2">
+        <node concept="3clFbF" id="aIqcXnN$th" role="3cqZAp">
+          <node concept="37vLTI" id="aIqcXnN_O_" role="3clFbG">
+            <node concept="38Zlrr" id="aIqcXnN_Vm" role="37vLTx" />
+            <node concept="2OqwBi" id="aIqcXnN$$4" role="37vLTJ">
+              <node concept="2Sf5sV" id="aIqcXnN$tg" role="2Oq$k0" />
+              <node concept="3TrcHB" id="aIqcXnN_fw" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:aIqcXnN$I4" resolve="color" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="38BcoT" id="aIqcXnMuFh" role="3dlsAV">
+      <node concept="3clFbS" id="aIqcXnMuFi" role="2VODD2">
+        <node concept="3clFbF" id="aIqcXnMv74" role="3cqZAp">
+          <node concept="2ShNRf" id="aIqcXnMv72" role="3clFbG">
+            <node concept="Tc6Ow" id="aIqcXnMvqD" role="2ShVmc">
+              <node concept="17QB3L" id="aIqcXnMwd7" role="HW$YZ" />
+              <node concept="Xl_RD" id="aIqcXnMwSm" role="HW$Y0">
+                <property role="Xl_RC" value="Red" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMAyb" role="HW$Y0">
+                <property role="Xl_RC" value="Orange" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMD$F" role="HW$Y0">
+                <property role="Xl_RC" value="Yellow" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMGkG" role="HW$Y0">
+                <property role="Xl_RC" value="Green" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMKZY" role="HW$Y0">
+                <property role="Xl_RC" value="Blue" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMOju" role="HW$Y0">
+                <property role="Xl_RC" value="Purple" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMQpe" role="HW$Y0">
+                <property role="Xl_RC" value="Brown" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMSUk" role="HW$Y0">
+                <property role="Xl_RC" value="Magenta" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMUQb" role="HW$Y0">
+                <property role="Xl_RC" value="Tan" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnMZHL" role="HW$Y0">
+                <property role="Xl_RC" value="Cyan" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnN2$N" role="HW$Y0">
+                <property role="Xl_RC" value="Olive" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnN4Yw" role="HW$Y0">
+                <property role="Xl_RC" value="Maroon" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnN7$x" role="HW$Y0">
+                <property role="Xl_RC" value="Navy" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnN90s" role="HW$Y0">
+                <property role="Xl_RC" value="Aquamarine" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNb1V" role="HW$Y0">
+                <property role="Xl_RC" value="Turquoise" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNeJc" role="HW$Y0">
+                <property role="Xl_RC" value="Silver" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNgIV" role="HW$Y0">
+                <property role="Xl_RC" value="Silver" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNhkF" role="HW$Y0">
+                <property role="Xl_RC" value="Lime" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNlEj" role="HW$Y0">
+                <property role="Xl_RC" value="Teal" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNn8c" role="HW$Y0">
+                <property role="Xl_RC" value="Indigo" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNpur" role="HW$Y0">
+                <property role="Xl_RC" value="Violet" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNrgk" role="HW$Y0">
+                <property role="Xl_RC" value="Pink" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNtll" role="HW$Y0">
+                <property role="Xl_RC" value="Black" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNwCn" role="HW$Y0">
+                <property role="Xl_RC" value="White" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnNzmS" role="HW$Y0">
+                <property role="Xl_RC" value="Gray" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="aIqcXnMuQK" role="3ddBve" />
+    </node>
+  </node>
 </model>
 

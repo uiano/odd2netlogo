@@ -212,7 +212,7 @@
   <node concept="24kQdi" id="6AuNKydZ5It">
     <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="DefaultColor" />
     <node concept="3F0A7n" id="3mweh__AVlC" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:3lcKR8aBGm6" resolve="ColorID" />
+      <ref role="1NtTu8" to="86kt:aIqcXnN$I4" resolve="color" />
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPRO">
@@ -504,6 +504,9 @@
             </node>
             <node concept="3F1sOY" id="3mweh__zbhV" role="3EZMnx">
               <ref role="1NtTu8" to="86kt:6AuNKydZ5Jb" resolve="DefaultColor" />
+              <node concept="Vb9p2" id="aIqcXnP6vZ" role="3F10Kt">
+                <property role="Vbekb" value="BOLD" />
+              </node>
             </node>
             <node concept="2iRfu4" id="3mweh__zaIf" role="2iSdaV" />
             <node concept="pkWqt" id="3mweh__zMbq" role="pqm2j">
@@ -1320,6 +1323,12 @@
     <ref role="1XX52x" to="86kt:aIqcXnEcvF" resolve="AttributeValueOptions" />
     <node concept="3F0A7n" id="aIqcXnFUq1" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXnEcvG" resolve="ValueOption" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnOmbI">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlO" resolve="Color" />
+    <node concept="3F0A7n" id="aIqcXnOmbK" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:aIqcXnN$I4" resolve="color" />
     </node>
   </node>
 </model>

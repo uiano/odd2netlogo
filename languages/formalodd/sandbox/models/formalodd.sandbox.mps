@@ -14,6 +14,9 @@
       <concept id="3840659476812055923" name="formalodd.structure.Shape" flags="ng" index="ZOwo1">
         <property id="193207073758741386" name="shape" index="1lPuH5" />
       </concept>
+      <concept id="3840659476812055924" name="formalodd.structure.Color" flags="ng" index="ZOwo6">
+        <property id="193207073764166532" name="color" index="1lo2db" />
+      </concept>
       <concept id="3840659476812055925" name="formalodd.structure.DefaultShape" flags="ng" index="ZOwo7" />
       <concept id="3840659476812055842" name="formalodd.structure.Type" flags="ng" index="ZOwpg" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
@@ -126,7 +129,9 @@
         <node concept="1g9sA$" id="aIqcXnuSdO" role="1gaQrw">
           <property role="1g9sAB" value="has a default" />
         </node>
-        <node concept="ZOwrR" id="aIqcXnuSdR" role="3$oDj3" />
+        <node concept="ZOwrR" id="aIqcXnuSdR" role="3$oDj3">
+          <property role="1lo2db" value="White" />
+        </node>
         <node concept="1gdyix" id="aIqcXnuSdU" role="1gdMhP">
           <property role="1gdyiw" value="has a default shape which is" />
         </node>
@@ -171,7 +176,9 @@
         <node concept="1g9sA$" id="aIqcXnI8Pc" role="1gaQrw">
           <property role="1g9sAB" value="has a default" />
         </node>
-        <node concept="ZOwrR" id="aIqcXnI8Pf" role="3$oDj3" />
+        <node concept="ZOwrR" id="aIqcXnP6n1" role="3$oDj3">
+          <property role="1lo2db" value="Black" />
+        </node>
         <node concept="1gdyix" id="aIqcXnI8Pi" role="1gdMhP">
           <property role="1gdyiw" value="has a default shape which is" />
         </node>
