@@ -133,6 +133,7 @@
         <node concept="3F1sOY" id="5JxfqxAtDtV" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
         </node>
+        <node concept="3F0ifn" id="aIqcXnQHFC" role="3EZMnx" />
         <node concept="3F1sOY" id="215d$P5qWaw" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:215d$P5p_0S" resolve="graphicsWindow" />
         </node>

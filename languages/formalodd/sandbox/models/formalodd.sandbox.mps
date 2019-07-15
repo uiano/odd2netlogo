@@ -29,6 +29,7 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
         <child id="6620640720694532624" name="entityName" index="XAIuS" />
         <child id="3840659476812055819" name="entity" index="ZOwpT" />
+        <child id="3840659476812055817" name="environment" index="ZOwpV" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
@@ -41,6 +42,15 @@
         <child id="193207073759411052" name="AgentOptions" index="1laXez" />
         <child id="193207073760214753" name="stabelOption" index="1lfToI" />
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
+      </concept>
+      <concept id="3840659476812056008" name="formalodd.structure.Area" flags="ng" index="ZOwqU">
+        <property id="3840659476812056009" name="selectlocations" index="ZOwqV" />
+      </concept>
+      <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
+        <child id="6213474804142799194" name="Area" index="2JZWGN" />
+      </concept>
+      <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
+        <child id="6213474804142799436" name="EnvEntity" index="2JZWw_" />
       </concept>
       <concept id="3840659476812055941" name="formalodd.structure.DefaultColor" flags="ng" index="ZOwrR" />
       <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
@@ -187,6 +197,17 @@
         </node>
         <node concept="1lOfep" id="aIqcXnI8Po" role="1laXez">
           <property role="1lOfeo" value="do not" />
+        </node>
+      </node>
+      <node concept="ZOwr_" id="aIqcXnPX5P" role="ZOwpV">
+        <node concept="ZOwrm" id="aIqcXnPX5S" role="2JZWw_">
+          <property role="TrG5h" value="t" />
+          <node concept="ZOwqU" id="aIqcXnPX5Y" role="2JZWGN">
+            <property role="ZOwqV" value="right" />
+          </node>
+          <node concept="ZOwqU" id="aIqcXnPX5V" role="2JZWGN">
+            <property role="ZOwqV" value="right" />
+          </node>
         </node>
       </node>
     </node>

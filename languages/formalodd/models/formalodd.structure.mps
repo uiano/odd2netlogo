@@ -86,6 +86,12 @@
       <property role="20kJfa" value="graphicsWindow" />
       <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
     </node>
+    <node concept="1TJgyj" id="aIqcXnQHFX" role="1TKVEi">
+      <property role="IQ2ns" value="193207073764989693" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="initialisation" />
+      <ref role="20lvS9" node="aIqcXnPX63" resolve="Initialisation" />
+    </node>
     <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1144,6 +1150,11 @@
       <property role="TrG5h" value="ValueOption" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="aIqcXnPX63">
+    <property role="EcuMT" value="193207073764790659" />
+    <property role="TrG5h" value="Initialisation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
