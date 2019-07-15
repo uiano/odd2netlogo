@@ -133,7 +133,9 @@
         <node concept="3F1sOY" id="5JxfqxAtDtV" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
         </node>
-        <node concept="3F0ifn" id="aIqcXnQHFC" role="3EZMnx" />
+        <node concept="3F1sOY" id="aIqcXnRuOp" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnQHFX" resolve="initialisation" />
+        </node>
         <node concept="3F1sOY" id="215d$P5qWaw" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:215d$P5p_0S" resolve="graphicsWindow" />
         </node>
@@ -1331,6 +1333,10 @@
     <node concept="3F0A7n" id="aIqcXnOmbK" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXnN$I4" resolve="color" />
     </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnSYPF">
+    <ref role="1XX52x" to="86kt:aIqcXnPX63" resolve="Initialisation" />
+    <node concept="3F0ifn" id="aIqcXnT9PY" role="2wV5jI" />
   </node>
 </model>
 

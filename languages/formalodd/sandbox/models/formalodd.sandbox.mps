@@ -24,6 +24,7 @@
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="6620640720694329222" name="text" index="XAo8I" />
+        <child id="193207073764989693" name="initialisation" index="1ltb8M" />
         <child id="7610748055951433660" name="EntitiesStateScale" index="3$p12O" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
@@ -72,6 +73,7 @@
       <concept id="193207073760134576" name="formalodd.structure.AttributeStabelOption" flags="ng" index="1lfEPZ">
         <property id="193207073760134577" name="option" index="1lfEPY" />
       </concept>
+      <concept id="193207073764790659" name="formalodd.structure.Initialisation" flags="ng" index="1lur_c" />
       <concept id="193207073758944086" name="formalodd.structure.AgentStatisticOptions" flags="ng" index="1lOfep">
         <property id="193207073758944087" name="Option" index="1lOfeo" />
       </concept>
@@ -202,6 +204,15 @@
       <node concept="ZOwr_" id="aIqcXnPX5P" role="ZOwpV">
         <node concept="ZOwrm" id="aIqcXnPX5S" role="2JZWw_">
           <property role="TrG5h" value="t" />
+          <node concept="ZOwqU" id="aIqcXnTUy3" role="2JZWGN">
+            <property role="ZOwqV" value="right" />
+          </node>
+          <node concept="ZOwqU" id="aIqcXnRuNu" role="2JZWGN">
+            <property role="ZOwqV" value="right" />
+          </node>
+          <node concept="ZOwqU" id="aIqcXnRuN_" role="2JZWGN">
+            <property role="ZOwqV" value="right" />
+          </node>
           <node concept="ZOwqU" id="aIqcXnPX5Y" role="2JZWGN">
             <property role="ZOwqV" value="right" />
           </node>
@@ -211,6 +222,7 @@
         </node>
       </node>
     </node>
+    <node concept="1lur_c" id="aIqcXnSYPw" role="1ltb8M" />
   </node>
   <node concept="ZOwpP" id="aIqcXnMtFk">
     <property role="TrG5h" value="seggregation" />
