@@ -692,28 +692,99 @@
     <property role="TrG5h" value="AgentStatistics" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6UrRj0hPEFb" role="2wV5jI">
-      <node concept="3EZMnI" id="6UrRj0hPEEb" role="3EZMnx">
-        <node concept="l2Vlx" id="6UrRj0hPEEe" role="2iSdaV" />
-        <node concept="3F0ifn" id="6UrRj0hPEEo" role="3EZMnx">
-          <property role="3F0ifm" value="Throughout the simulation we do " />
-          <node concept="Vb9p2" id="3mweh___1Tl" role="3F10Kt" />
+      <node concept="3EZMnI" id="aIqcXnxrKK" role="3EZMnx">
+        <node concept="2iRfu4" id="aIqcXnxrKL" role="2iSdaV" />
+        <node concept="3F0ifn" id="aIqcXnxrK_" role="3EZMnx">
+          <property role="3F0ifm" value="Throughout the simulation, we " />
+          <node concept="Vb9p2" id="aIqcXnxAwp" role="3F10Kt" />
         </node>
-        <node concept="3F0ifn" id="6UrRj0hPEEA" role="3EZMnx">
-          <property role="3F0ifm" value="&lt;fill in here TODO&gt;" />
-          <node concept="Vb9p2" id="3mweh___1Tn" role="3F10Kt" />
+        <node concept="3F1sOY" id="aIqcXnxrL7" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnxrHG" resolve="AgentOptions" />
         </node>
-        <node concept="3F0ifn" id="6UrRj0hPEEx" role="3EZMnx">
-          <property role="3F0ifm" value=" the following entity statistic: " />
-          <node concept="Vb9p2" id="3mweh___1Tp" role="3F10Kt" />
+        <node concept="3F0ifn" id="aIqcXnxrLk" role="3EZMnx">
+          <property role="3F0ifm" value=" track entity statistics " />
+          <node concept="pkWqt" id="aIqcXnxrLs" role="pqm2j">
+            <node concept="3clFbS" id="aIqcXnxrLt" role="2VODD2">
+              <node concept="3clFbF" id="aIqcXnxrSO" role="3cqZAp">
+                <node concept="2OqwBi" id="aIqcXnxt67" role="3clFbG">
+                  <node concept="2OqwBi" id="aIqcXnxuIH" role="2Oq$k0">
+                    <node concept="2OqwBi" id="aIqcXnxs63" role="2Oq$k0">
+                      <node concept="pncrf" id="aIqcXnxrSN" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="aIqcXnxsrT" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:aIqcXnxrHG" resolve="AgentOptions" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="aIqcXnxvh_" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:aIqcXnvDHn" resolve="Option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="aIqcXnxwBb" role="2OqNvi">
+                    <node concept="Xl_RD" id="aIqcXnxwIO" role="3y1jev">
+                      <property role="Xl_RC" value="do not" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="Vb9p2" id="aIqcXnxAwv" role="3F10Kt" />
         </node>
-      </node>
-      <node concept="3F0ifn" id="6UrRj0hPEFn" role="3EZMnx">
-        <property role="3F0ifm" value="Throughout the simulation, we do not track entity statistics/ track the following entity statistic: " />
-        <node concept="Vb9p2" id="3mweh___1Tr" role="3F10Kt" />
+        <node concept="3F0ifn" id="aIqcXnxxFP" role="3EZMnx">
+          <property role="3F0ifm" value="track the following entity statistic:" />
+          <node concept="pkWqt" id="aIqcXnxxRH" role="pqm2j">
+            <node concept="3clFbS" id="aIqcXnxxRI" role="2VODD2">
+              <node concept="3clFbF" id="aIqcXnxxZ5" role="3cqZAp">
+                <node concept="2OqwBi" id="aIqcXnx$Ck" role="3clFbG">
+                  <node concept="2OqwBi" id="aIqcXnxzkB" role="2Oq$k0">
+                    <node concept="2OqwBi" id="aIqcXnxyk8" role="2Oq$k0">
+                      <node concept="pncrf" id="aIqcXnxxZ4" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="aIqcXnxyLv" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:aIqcXnxrHG" resolve="AgentOptions" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="aIqcXnxzGj" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:aIqcXnvDHn" resolve="Option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="aIqcXnxA1U" role="2OqNvi">
+                    <node concept="Xl_RD" id="aIqcXnxA9z" role="3y1jev">
+                      <property role="Xl_RC" value="do" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="Vb9p2" id="aIqcXnxAFX" role="3F10Kt" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6UrRj0hPEFu" role="3EZMnx">
-        <property role="3F0ifm" value="To be more specfic we track the …." />
+        <property role="3F0ifm" value="To be more specfic we track the ….-" />
         <node concept="Vb9p2" id="3mweh___1Tt" role="3F10Kt" />
+        <node concept="pkWqt" id="aIqcXnxBAO" role="pqm2j">
+          <node concept="3clFbS" id="aIqcXnxBAP" role="2VODD2">
+            <node concept="3clFbF" id="aIqcXnxBYd" role="3cqZAp">
+              <node concept="2OqwBi" id="aIqcXnxBYf" role="3clFbG">
+                <node concept="2OqwBi" id="aIqcXnxBYg" role="2Oq$k0">
+                  <node concept="2OqwBi" id="aIqcXnxBYh" role="2Oq$k0">
+                    <node concept="pncrf" id="aIqcXnxBYi" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="aIqcXnxBYj" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:aIqcXnxrHG" resolve="AgentOptions" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="aIqcXnxBYk" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:aIqcXnvDHn" resolve="Option" />
+                  </node>
+                </node>
+                <node concept="3y1jeu" id="aIqcXnxBYl" role="2OqNvi">
+                  <node concept="Xl_RD" id="aIqcXnxBYm" role="3y1jev">
+                    <property role="Xl_RC" value="do" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2iRkQZ" id="6UrRj0hPEFe" role="2iSdaV" />
     </node>
@@ -781,13 +852,31 @@
           </node>
           <node concept="Vb9p2" id="3mweh___0ZY" role="3F10Kt" />
         </node>
+        <node concept="3F2HdR" id="aIqcXn$cb$" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3lcKR8aBGkh" resolve="attributes" />
+          <node concept="2iRfu4" id="aIqcXn$cbA" role="2czzBx" />
+        </node>
         <node concept="2iRfu4" id="6UrRj0hQEY6" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="6UrRj0hQion" role="3EZMnx">
-        <property role="3F0ifm" value="The parameter is/is not for all &lt;name of the entity plural&gt;." />
-        <node concept="pkWqt" id="6UrRj0hQsU9" role="pqm2j">
-          <node concept="3clFbS" id="6UrRj0hQsUa" role="2VODD2">
-            <node concept="3clFbF" id="6UrRj0hQt1v" role="3cqZAp">
+      <node concept="3EZMnI" id="aIqcXn$uJr" role="3EZMnx">
+        <node concept="2iRfu4" id="aIqcXn$uJs" role="2iSdaV" />
+        <node concept="3F0ifn" id="6UrRj0hQion" role="3EZMnx">
+          <property role="3F0ifm" value="The parameter" />
+          <node concept="Vb9p2" id="3mweh___19y" role="3F10Kt" />
+        </node>
+        <node concept="3F1sOY" id="aIqcXn$EBd" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXn$vVx" resolve="stabelOption" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXn$EUK" role="3EZMnx">
+          <property role="3F0ifm" value="stabel for all " />
+          <node concept="Vb9p2" id="aIqcXn$Foc" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="aIqcXn$Fen" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="pkWqt" id="aIqcXn$vif" role="pqm2j">
+          <node concept="3clFbS" id="aIqcXn$vig" role="2VODD2">
+            <node concept="3clFbF" id="aIqcXn$vpW" role="3cqZAp">
               <node concept="2OqwBi" id="6UrRj0hUd6q" role="3clFbG">
                 <node concept="2OqwBi" id="6UrRj0hUd6r" role="2Oq$k0">
                   <node concept="pncrf" id="6UrRj0hUd6s" role="2Oq$k0" />
@@ -804,7 +893,6 @@
             </node>
           </node>
         </node>
-        <node concept="Vb9p2" id="3mweh___19y" role="3F10Kt" />
       </node>
       <node concept="3F0ifn" id="6UrRj0hQioq" role="3EZMnx">
         <property role="3F0ifm" value="(Name of the Attribute) takes … values." />
@@ -1185,6 +1273,24 @@
     <ref role="1XX52x" to="86kt:5JxfqxAuXCc" resolve="Names" />
     <node concept="3F0A7n" id="aIqcXnugdj" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5JxfqxAuXCd" resolve="name" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnuSe8">
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlN" resolve="Shape" />
+    <node concept="3F0A7n" id="aIqcXnv1Pk" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:aIqcXnuSea" resolve="shape" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnyTSF">
+    <ref role="1XX52x" to="86kt:aIqcXnvDHm" resolve="AgentStatisticOptions" />
+    <node concept="3F0A7n" id="aIqcXnyTSH" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:aIqcXnvDHn" resolve="Option" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXn_lWt">
+    <ref role="1XX52x" to="86kt:aIqcXn$cmK" resolve="AttributeStabelOption" />
+    <node concept="3F0A7n" id="aIqcXn_lWv" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:aIqcXn$cmL" resolve="option" />
     </node>
   </node>
 </model>

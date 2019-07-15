@@ -204,6 +204,18 @@
       <property role="20kJfa" value="shapeOptions" />
       <ref role="20lvS9" node="3mweh___xQS" resolve="ShapeOptions" />
     </node>
+    <node concept="1TJgyj" id="aIqcXnxrHG" role="1TKVEi">
+      <property role="IQ2ns" value="193207073759411052" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="AgentOptions" />
+      <ref role="20lvS9" node="aIqcXnvDHm" resolve="AgentStatisticOptions" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXn$vVx" role="1TKVEi">
+      <property role="IQ2ns" value="193207073760214753" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="stabelOption" />
+      <ref role="20lvS9" node="aIqcXn$cmK" resolve="AttributeStabelOption" />
+    </node>
     <node concept="PrWs8" id="6AuNKydYOIT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -375,6 +387,12 @@
     <property role="EcuMT" value="3840659476812055891" />
     <property role="TrG5h" value="AgentStatistic" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="aIqcXnxrHD" role="1TKVEi">
+      <property role="IQ2ns" value="193207073759411049" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="Options" />
+      <ref role="20lvS9" node="aIqcXnvDHm" resolve="AgentStatisticOptions" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlk">
     <property role="EcuMT" value="3840659476812055892" />
@@ -433,6 +451,11 @@
     <property role="EcuMT" value="3840659476812055923" />
     <property role="TrG5h" value="Shape" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="aIqcXnuSea" role="1TKVEl">
+      <property role="IQ2nx" value="193207073758741386" />
+      <property role="TrG5h" value="shape" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlO">
     <property role="EcuMT" value="3840659476812055924" />
@@ -1036,6 +1059,26 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="entity" />
       <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="aIqcXnvDHm">
+    <property role="EcuMT" value="193207073758944086" />
+    <property role="TrG5h" value="AgentStatisticOptions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="aIqcXnvDHn" role="1TKVEl">
+      <property role="IQ2nx" value="193207073758944087" />
+      <property role="TrG5h" value="Option" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="aIqcXn$cmK">
+    <property role="EcuMT" value="193207073760134576" />
+    <property role="TrG5h" value="AttributeStabelOption" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="aIqcXn$cmL" role="1TKVEl">
+      <property role="IQ2nx" value="193207073760134577" />
+      <property role="TrG5h" value="option" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>
