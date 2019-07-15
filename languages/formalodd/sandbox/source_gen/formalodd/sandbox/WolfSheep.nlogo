@@ -1,7 +1,5 @@
 breed[sheep a-sheep sheep a-sheeps ]
 breed[wolves wolf wolves wolfs ]
-if pcolor = [
-]
 ask patches [
 ]
 SLIDER

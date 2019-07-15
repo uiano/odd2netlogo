@@ -24,7 +24,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
 
     for (SNode p : ListSequence.fromList(SLinkOperations.getChildren(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec597L, 0x563ab269f9c57a4cL, "EnvEntity")))) {
       tgs.append("if pcolor = ");
-      tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+      tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
       tgs.append("[");
       tgs.newLine();
       if (SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b937L, "ChangeNeighbors")) != null) {
@@ -33,7 +33,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
         tgs.append("][");
         tgs.newLine();
         tgs.append("set pcolor ");
-        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
         tgs.append("]");
         tgs.newLine();
       }
@@ -52,7 +52,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
         tgs.append("slider[");
         tgs.newLine();
         tgs.append("set pcolor ");
-        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
         tgs.newLine();
         tgs.append("]");
         tgs.newLine();
@@ -62,7 +62,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
         tgs.append("min-pxcor[");
         tgs.newLine();
         tgs.append("set pcolor ");
-        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
         tgs.newLine();
         tgs.append("]");
         tgs.newLine();
@@ -72,7 +72,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
         tgs.append("max-pxcor[");
         tgs.newLine();
         tgs.append("set pcolor ");
-        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
         tgs.newLine();
         tgs.append("]");
         tgs.newLine();
@@ -82,7 +82,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
         tgs.append("min-pycor[");
         tgs.newLine();
         tgs.append("set pcolor ");
-        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
         tgs.newLine();
         tgs.append("]");
         tgs.newLine();
@@ -92,7 +92,7 @@ public class Environment_TextGen extends TextGenDescriptorBase {
         tgs.append("max-pycor[");
         tgs.newLine();
         tgs.append("set pcolor ");
-        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "Color")));
+        tgs.append(SPropertyOperations.getString(p, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L, 0x6086ffb5de71b934L, "showColor")));
         tgs.newLine();
         tgs.append("]");
         tgs.newLine();
