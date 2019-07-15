@@ -90,6 +90,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1146253292180" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Simple" flags="nn" index="3y1jeu">
@@ -1226,15 +1227,47 @@
         </node>
         <node concept="2iRfu4" id="aIqcXnAOsT" role="2iSdaV" />
         <node concept="3F0ifn" id="aIqcXnAOsU" role="3EZMnx">
-          <property role="3F0ifm" value=" takes" />
+          <property role="3F0ifm" value="takes" />
           <node concept="Vb9p2" id="aIqcXnAOsV" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="aIqcXnEmT5" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:aIqcXnEmSY" resolve="ValueOption" />
+          <node concept="Vb9p2" id="aIqcXnGFZX" role="3F10Kt">
+            <property role="Vbekb" value="BOLD" />
+          </node>
         </node>
         <node concept="3F0ifn" id="aIqcXnEcvi" role="3EZMnx">
-          <property role="3F0ifm" value=" values." />
+          <property role="3F0ifm" value="values." />
           <node concept="Vb9p2" id="aIqcXnEcvj" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="aIqcXnKZHS" role="3EZMnx">
+        <node concept="2iRfu4" id="aIqcXnKZHT" role="2iSdaV" />
+        <node concept="3F0ifn" id="aIqcXnKZGn" role="3EZMnx">
+          <property role="3F0ifm" value="The estimated range of values for the " />
+          <node concept="Vb9p2" id="aIqcXnLIiB" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="aIqcXnKZJ_" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnKZJM" role="3EZMnx">
+          <property role="3F0ifm" value="is:" />
+          <node concept="Vb9p2" id="aIqcXnLIiE" role="3F10Kt" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnKZK3" role="3EZMnx">
+          <property role="3F0ifm" value="(" />
+        </node>
+        <node concept="3F0A7n" id="aIqcXnLIiH" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnKZM$" resolve="min" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnKZKL" role="3EZMnx">
+          <property role="3F0ifm" value="," />
+        </node>
+        <node concept="3F0A7n" id="aIqcXnLIj3" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnKZMB" resolve="max" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnKZLJ" role="3EZMnx">
+          <property role="3F0ifm" value=")" />
         </node>
       </node>
       <node concept="3EZMnI" id="aIqcXnAQ7D" role="3EZMnx">
@@ -1250,14 +1283,35 @@
           <property role="3F0ifm" value=" takes: …" />
           <node concept="Vb9p2" id="aIqcXnARRx" role="3F10Kt" />
         </node>
+        <node concept="pkWqt" id="aIqcXnIQeG" role="pqm2j">
+          <node concept="3clFbS" id="aIqcXnIQeH" role="2VODD2">
+            <node concept="3clFbF" id="aIqcXnIQm4" role="3cqZAp">
+              <node concept="3clFbT" id="aIqcXnIQm3" role="3clFbG" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="aIqcXnAOtg" role="3EZMnx">
         <property role="3F0ifm" value="The estimated range of values for the (name of the attribute) is: (…,….)" />
         <node concept="Vb9p2" id="aIqcXnAOtq" role="3F10Kt" />
+        <node concept="pkWqt" id="aIqcXnHq5L" role="pqm2j">
+          <node concept="3clFbS" id="aIqcXnHq5M" role="2VODD2">
+            <node concept="3clFbF" id="aIqcXnHqd9" role="3cqZAp">
+              <node concept="3clFbT" id="aIqcXnHqd8" role="3clFbG" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="3F0ifn" id="aIqcXnAOtr" role="3EZMnx">
         <property role="3F0ifm" value="It is estimated that the values of (name of the attribute) follow the … distribution with parameters …. ." />
         <node concept="Vb9p2" id="aIqcXnAOt_" role="3F10Kt" />
+        <node concept="pkWqt" id="aIqcXnHpJA" role="pqm2j">
+          <node concept="3clFbS" id="aIqcXnHpJB" role="2VODD2">
+            <node concept="3clFbF" id="aIqcXnHpQY" role="3cqZAp">
+              <node concept="3clFbT" id="aIqcXnHpQX" role="3clFbG" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="2iRkQZ" id="aIqcXnAOtA" role="2iSdaV" />
     </node>

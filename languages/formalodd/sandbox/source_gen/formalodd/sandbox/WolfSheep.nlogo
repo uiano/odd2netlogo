@@ -1,8 +1,5 @@
 breed[sheep a-sheep sheep a-sheeps ]
-breed[ s ]
-breed[ s ]
-breed[ s ]
-breed[sheep sheeps ]
+breed[wolves wolf wolves wolfs ]
 ???SLIDER
 7
 71
@@ -23,8 +20,8 @@ SLIDER
 113
 179
 146
-sheepslider
-sheepslider
+wolves wolfslider
+wolves wolfslider
 0
 100
 30.0

@@ -1092,6 +1092,16 @@
     <property role="EcuMT" value="193207073760647258" />
     <property role="TrG5h" value="Attribute" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="aIqcXnKZM$" role="1TKVEl">
+      <property role="IQ2nx" value="193207073763490980" />
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="aIqcXnKZMB" role="1TKVEl">
+      <property role="IQ2nx" value="193207073763490983" />
+      <property role="TrG5h" value="max" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="1TJgyj" id="aIqcXnA9xu" role="1TKVEi">
       <property role="IQ2ns" value="193207073760647262" />
       <property role="20lmBu" value="aggregation" />
