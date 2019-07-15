@@ -26,11 +26,11 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.openapi.editor.update.AttributeKind;
 
-/*package*/ class DefaultColor_EditorBuilder_a extends AbstractEditorBuilder {
+/*package*/ class Color_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
   private SNode myNode;
 
-  public DefaultColor_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
+  public Color_EditorBuilder_a(@NotNull EditorContext context, @NotNull SNode node) {
     super(context);
     myNode = node;
   }

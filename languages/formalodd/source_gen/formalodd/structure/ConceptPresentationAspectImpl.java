@@ -11,7 +11,11 @@ import jetbrains.mps.smodel.runtime.ConceptPresentationBuilder;
 public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase {
   private ConceptPresentation props_Action;
   private ConceptPresentation props_AgentStatistic;
+  private ConceptPresentation props_AgentStatisticOptions;
   private ConceptPresentation props_Area;
+  private ConceptPresentation props_Attribute;
+  private ConceptPresentation props_AttributeStabelOption;
+  private ConceptPresentation props_AttributeValueOptions;
   private ConceptPresentation props_Average;
   private ConceptPresentation props_Boolean;
   private ConceptPresentation props_Color;
@@ -82,6 +86,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_AgentStatistic = cpb.create();
         }
         return props_AgentStatistic;
+      case LanguageConceptSwitch.AgentStatisticOptions:
+        if (props_AgentStatisticOptions == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("AgentStatisticOptions");
+          props_AgentStatisticOptions = cpb.create();
+        }
+        return props_AgentStatisticOptions;
       case LanguageConceptSwitch.Area:
         if (props_Area == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
@@ -89,6 +100,27 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_Area = cpb.create();
         }
         return props_Area;
+      case LanguageConceptSwitch.Attribute:
+        if (props_Attribute == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.presentationByName();
+          props_Attribute = cpb.create();
+        }
+        return props_Attribute;
+      case LanguageConceptSwitch.AttributeStabelOption:
+        if (props_AttributeStabelOption == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("AttributeStabelOption");
+          props_AttributeStabelOption = cpb.create();
+        }
+        return props_AttributeStabelOption;
+      case LanguageConceptSwitch.AttributeValueOptions:
+        if (props_AttributeValueOptions == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("AttributeValueOptions");
+          props_AttributeValueOptions = cpb.create();
+        }
+        return props_AttributeValueOptions;
       case LanguageConceptSwitch.Average:
         if (props_Average == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

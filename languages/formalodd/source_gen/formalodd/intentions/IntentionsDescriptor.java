@@ -33,12 +33,40 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
     switch (conceptIndex.index(cncpt)) {
       case 0:
         if (true) {
+          // Concept: AgentStatisticOptions 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new AgentOption_Intention();
+        }
+        break;
+      case 1:
+        if (true) {
+          // Concept: AttributeStabelOption 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new AtrributeStabelOption_Intention();
+        }
+        break;
+      case 2:
+        if (true) {
+          // Concept: AttributeValueOptions 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new attributeValueOption_Intention();
+        }
+        break;
+      case 3:
+        if (true) {
+          // Concept: Color 
+          intentions = new IntentionFactory[1];
+          intentions[0] = new colors_Intention();
+        }
+        break;
+      case 4:
+        if (true) {
           // Concept: ColorOptions 
           intentions = new IntentionFactory[1];
           intentions[0] = new ColorOptions_Intention();
         }
         break;
-      case 1:
+      case 5:
         if (true) {
           // Concept: Entity 
           intentions = new IntentionFactory[2];
@@ -46,28 +74,28 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
           intentions[1] = new ShowAttribute_Intention();
         }
         break;
-      case 2:
+      case 6:
         if (true) {
           // Concept: IntentionEffect 
           intentions = new IntentionFactory[1];
           intentions[0] = new Intention_Intention();
         }
         break;
-      case 3:
+      case 7:
         if (true) {
           // Concept: Location 
           intentions = new IntentionFactory[1];
           intentions[0] = new EnvShowLocation_Intention();
         }
         break;
-      case 4:
+      case 8:
         if (true) {
           // Concept: ShapeOptions 
           intentions = new IntentionFactory[1];
           intentions[0] = new ShapeOptions_Intention();
         }
         break;
-      case 5:
+      case 9:
         if (true) {
           // Concept: SliderOption 
           intentions = new IntentionFactory[1];
@@ -83,15 +111,19 @@ public final class IntentionsDescriptor extends AbstractIntentionAspectDescripto
   @NotNull
   @Override
   public Collection<IntentionFactory> getAllIntentions() {
-    IntentionFactory[] rv = new IntentionFactory[7];
+    IntentionFactory[] rv = new IntentionFactory[11];
     rv[0] = new ShowColors_Intention();
     rv[1] = new ShowAttribute_Intention();
     rv[2] = new ColorOptions_Intention();
     rv[3] = new ShapeOptions_Intention();
     rv[4] = new Intention_Intention();
-    rv[5] = new EnvShowLocation_Intention();
-    rv[6] = new showSlider_Intention();
+    rv[5] = new showSlider_Intention();
+    rv[6] = new attributeValueOption_Intention();
+    rv[7] = new AtrributeStabelOption_Intention();
+    rv[8] = new AgentOption_Intention();
+    rv[9] = new EnvShowLocation_Intention();
+    rv[10] = new colors_Intention();
     return Arrays.asList(rv);
   }
-  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a039196585f0bdL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5c7L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965961db8L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x36f982e7b7b77a1eL)).seal();
+  private static final ConceptSwitchIndex conceptIndex = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2ae68cf577e9b56L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2ae68cf5790c5b0L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2ae68cf57a8c7ebL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec574L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a039196585f0bdL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5c7L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965961db8L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x36f982e7b7b77a1eL)).seal();
 }

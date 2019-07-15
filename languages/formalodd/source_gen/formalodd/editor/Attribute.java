@@ -16,6 +16,6 @@ public class Attribute implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Attribute_ComponentBuilder_a(editorContext, node).createCell();
+    return new Attribute_ComponentBuilder_a_0(editorContext, node).createCell();
   }
 }
