@@ -558,6 +558,15 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="aIqcXnrQyN" role="3cqZAp">
+          <node concept="3cpWsn" id="aIqcXnrQyQ" role="3cpWs9">
+            <property role="TrG5h" value="defaultColor" />
+            <node concept="17QB3L" id="aIqcXnrQyL" role="1tU5fm" />
+            <node concept="Xl_RD" id="aIqcXnrR2g" role="33vP2m">
+              <property role="Xl_RC" value="red" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="3mweh_AbYAp" role="3cqZAp" />
         <node concept="3clFbH" id="3mweh_AbXH0" role="3cqZAp" />
         <node concept="2Gpval" id="3mweh_Ab6UR" role="3cqZAp">
@@ -977,14 +986,9 @@
                   <node concept="la8eA" id="7n6PbjFkLFn" role="lcghm">
                     <property role="lacIc" value="ask patches[ set pcolor " />
                   </node>
-                  <node concept="l9hG8" id="7n6PbjFkLMm" role="lcghm">
-                    <node concept="2OqwBi" id="5oUGABTLDUi" role="lb14g">
-                      <node concept="2GrUjf" id="5oUGABTLDLS" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="5oUGABTLnDN" resolve="e" />
-                      </node>
-                      <node concept="3TrEf2" id="5oUGABTLHOq" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5oUGABTLn_z" resolve="DefaultColor" />
-                      </node>
+                  <node concept="l9hG8" id="aIqcXnrR2W" role="lcghm">
+                    <node concept="37vLTw" id="aIqcXnrR3U" role="lb14g">
+                      <ref role="3cqZAo" node="aIqcXnrQyQ" resolve="defaultColor" />
                     </node>
                   </node>
                   <node concept="la8eA" id="7n6PbjFkNRc" role="lcghm">

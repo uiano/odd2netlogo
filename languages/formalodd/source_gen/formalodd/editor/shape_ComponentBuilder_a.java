@@ -183,7 +183,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
       }
     }
     protected String getNoTargetText() {
-      return "<no shapeOptions>";
+      return "<press alt enter to select shape options>";
     }
   }
   private EditorCell createCollection_2() {

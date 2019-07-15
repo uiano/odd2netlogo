@@ -47,6 +47,7 @@
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
@@ -248,31 +249,19 @@
         <node concept="3F0A7n" id="626ZVnuurri" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:626ZVnusr$V" resolve="ChangeSelf" />
         </node>
-        <node concept="3F1sOY" id="5oUGABTLnA_" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLn_z" resolve="DefaultColor" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLnAH" role="3EZMnx">
+        <node concept="3F2HdR" id="aIqcXnrG2R" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5oUGABTLn_q" resolve="Area" />
+          <node concept="2iRkQZ" id="aIqcXnrG2T" role="2czzBx" />
         </node>
-        <node concept="3F1sOY" id="5oUGABTLnAR" role="3EZMnx">
+        <node concept="3F2HdR" id="aIqcXnrG3P" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5oUGABTLn_n" resolve="Coordinates" />
+          <node concept="2iRkQZ" id="aIqcXnrG3R" role="2czzBx" />
         </node>
         <node concept="3F1sOY" id="5oUGABTLnBf" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5oUGABTLn_u" resolve="Density" />
         </node>
         <node concept="3F1sOY" id="5oUGABTLnBt" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5oUGABTLn_K" resolve="ConditionalColor" />
-        </node>
-        <node concept="3F1sOY" id="5oUGABTLnBH" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLn_D" resolve="Conditional" />
-        </node>
-        <node concept="3F2HdR" id="5oUGABTLnCh" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLn_l" resolve="attributes" />
-          <node concept="2iRkQZ" id="5oUGABTLnCk" role="2czzBx" />
-          <node concept="VPM3Z" id="5oUGABTLnCl" role="3F10Kt" />
-          <node concept="3F0ifn" id="5oUGABTLnCw" role="2czzBI">
-            <property role="3F0ifm" value="attributes" />
-          </node>
         </node>
       </node>
     </node>
@@ -385,6 +374,7 @@
           </node>
           <node concept="3F0A7n" id="6UrRj0hUq2l" role="3EZMnx">
             <property role="1cu_pB" value="1" />
+            <property role="1$x2rV" value="&lt;Press alt enter to chose to include or not include color&gt;" />
             <ref role="1NtTu8" to="86kt:3mweh__t$yh" resolve="showColors" />
             <node concept="Vb9p2" id="3mweh___0Ce" role="3F10Kt">
               <property role="Vbekb" value="BOLD" />
@@ -436,6 +426,7 @@
         <node concept="3EZMnI" id="6UrRj0hPol_" role="3EZMnx">
           <node concept="VPM3Z" id="6UrRj0hPolA" role="3F10Kt" />
           <node concept="3F1sOY" id="3mweh__yQd3" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;alt enter to select color option&gt;" />
             <ref role="1NtTu8" to="86kt:3mweh__yPZT" resolve="colorOptions" />
             <node concept="Vb9p2" id="3mweh___0Cj" role="3F10Kt">
               <property role="Vbekb" value="BOLD" />
@@ -623,6 +614,7 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F1sOY" id="3mweh___LQA" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;press alt enter to select shape options&gt;" />
           <ref role="1NtTu8" to="86kt:3mweh___LPG" resolve="shapeOptions" />
         </node>
         <node concept="3EZMnI" id="3mweh___xMV" role="3EZMnx">
@@ -736,6 +728,7 @@
         </node>
         <node concept="3F0A7n" id="6UrRj0hQFgg" role="3EZMnx">
           <property role="1cu_pB" value="1" />
+          <property role="1$x2rV" value="&lt;press alt enter to show attributes&gt;" />
           <ref role="1NtTu8" to="86kt:3mweh__t$yj" resolve="showAttributes" />
           <node concept="Vb9p2" id="3mweh___1Tj" role="3F10Kt">
             <property role="Vbekb" value="BOLD" />

@@ -17,7 +17,9 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
         <child id="3840659476812055819" name="entity" index="ZOwpT" />
       </concept>
-      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW" />
+      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
+        <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
+      </concept>
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
         <child id="2325324488110139214" name="entityReference" index="1_5P43" />
       </concept>
@@ -67,6 +69,7 @@
     <node concept="ZOwpU" id="215d$P5tZ5t" role="3$p12O">
       <node concept="ZOwpW" id="215d$P5tZ5z" role="ZOwpT">
         <property role="TrG5h" value="tree" />
+        <property role="1gPB6a" value="does" />
       </node>
       <node concept="ZOwpW" id="215d$P5xplD" role="ZOwpT">
         <property role="TrG5h" value="entity2" />
