@@ -852,40 +852,23 @@
           </node>
           <node concept="Vb9p2" id="3mweh___0ZY" role="3F10Kt" />
         </node>
-        <node concept="3F2HdR" id="aIqcXn$cb$" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3lcKR8aBGkh" resolve="attributes" />
-          <node concept="2iRfu4" id="aIqcXn$cbA" role="2czzBx" />
-        </node>
         <node concept="2iRfu4" id="6UrRj0hQEY6" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="aIqcXn$uJr" role="3EZMnx">
-        <node concept="2iRfu4" id="aIqcXn$uJs" role="2iSdaV" />
-        <node concept="3F0ifn" id="6UrRj0hQion" role="3EZMnx">
-          <property role="3F0ifm" value="The parameter" />
-          <node concept="Vb9p2" id="3mweh___19y" role="3F10Kt" />
-        </node>
-        <node concept="3F1sOY" id="aIqcXn$EBd" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:aIqcXn$vVx" resolve="stabelOption" />
-        </node>
-        <node concept="3F0ifn" id="aIqcXn$EUK" role="3EZMnx">
-          <property role="3F0ifm" value="stabel for all " />
-          <node concept="Vb9p2" id="aIqcXn$Foc" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="aIqcXn$Fen" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="pkWqt" id="aIqcXn$vif" role="pqm2j">
-          <node concept="3clFbS" id="aIqcXn$vig" role="2VODD2">
-            <node concept="3clFbF" id="aIqcXn$vpW" role="3cqZAp">
-              <node concept="2OqwBi" id="6UrRj0hUd6q" role="3clFbG">
-                <node concept="2OqwBi" id="6UrRj0hUd6r" role="2Oq$k0">
-                  <node concept="pncrf" id="6UrRj0hUd6s" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3mweh__vyph" role="2OqNvi">
+      <node concept="3F2HdR" id="aIqcXnCHot" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:aIqcXnC0Yd" resolve="attribute" />
+        <node concept="2iRkQZ" id="aIqcXnCHov" role="2czzBx" />
+        <node concept="pkWqt" id="aIqcXnDrZA" role="pqm2j">
+          <node concept="3clFbS" id="aIqcXnDrZB" role="2VODD2">
+            <node concept="3clFbF" id="aIqcXnDs6Y" role="3cqZAp">
+              <node concept="2OqwBi" id="aIqcXnDuaa" role="3clFbG">
+                <node concept="2OqwBi" id="aIqcXnDt0T" role="2Oq$k0">
+                  <node concept="pncrf" id="aIqcXnDsNC" role="2Oq$k0" />
+                  <node concept="3TrcHB" id="aIqcXnDtqj" role="2OqNvi">
                     <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
                   </node>
                 </node>
-                <node concept="3y1jeu" id="6UrRj0hUd6u" role="2OqNvi">
-                  <node concept="Xl_RD" id="6UrRj0hUd6v" role="3y1jev">
+                <node concept="3y1jeu" id="aIqcXnDuKx" role="2OqNvi">
+                  <node concept="Xl_RD" id="aIqcXnDvaR" role="3y1jev">
                     <property role="Xl_RC" value="does" />
                   </node>
                 </node>
@@ -893,98 +876,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3F0ifn" id="6UrRj0hQioq" role="3EZMnx">
-        <property role="3F0ifm" value="(Name of the Attribute) takes … values." />
-        <node concept="pkWqt" id="6UrRj0hQXzH" role="pqm2j">
-          <node concept="3clFbS" id="6UrRj0hQXzI" role="2VODD2">
-            <node concept="3clFbF" id="6UrRj0hQXF3" role="3cqZAp">
-              <node concept="2OqwBi" id="6UrRj0hTonc" role="3clFbG">
-                <node concept="2OqwBi" id="6UrRj0hQXW1" role="2Oq$k0">
-                  <node concept="pncrf" id="6UrRj0hQXF2" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3mweh__tBGv" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="6UrRj0hTWVS" role="2OqNvi">
-                  <node concept="Xl_RD" id="6UrRj0hTXd4" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3mweh___1j6" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="6UrRj0hQiou" role="3EZMnx">
-        <property role="3F0ifm" value="This is the list of possible values the (name of attribute) takes: …" />
-        <node concept="pkWqt" id="6UrRj0hR1FM" role="pqm2j">
-          <node concept="3clFbS" id="6UrRj0hR1FN" role="2VODD2">
-            <node concept="3clFbF" id="6UrRj0hR1N7" role="3cqZAp">
-              <node concept="2OqwBi" id="6UrRj0hUdOR" role="3clFbG">
-                <node concept="2OqwBi" id="6UrRj0hUdOS" role="2Oq$k0">
-                  <node concept="pncrf" id="6UrRj0hUdOT" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3mweh__tCgX" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="6UrRj0hUdOV" role="2OqNvi">
-                  <node concept="Xl_RD" id="6UrRj0hUdOW" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3mweh___1sE" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="6UrRj0hQioz" role="3EZMnx">
-        <property role="3F0ifm" value="The estimated range of values for the (name of the attribute) is: (…,….)" />
-        <node concept="pkWqt" id="6UrRj0hR2qF" role="pqm2j">
-          <node concept="3clFbS" id="6UrRj0hR2qG" role="2VODD2">
-            <node concept="3clFbF" id="6UrRj0hR2y0" role="3cqZAp">
-              <node concept="2OqwBi" id="6UrRj0hUec1" role="3clFbG">
-                <node concept="2OqwBi" id="6UrRj0hUec2" role="2Oq$k0">
-                  <node concept="pncrf" id="6UrRj0hUec3" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3mweh__tCPr" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="6UrRj0hUec5" role="2OqNvi">
-                  <node concept="Xl_RD" id="6UrRj0hUec6" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3mweh___1Ae" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="6UrRj0hQioD" role="3EZMnx">
-        <property role="3F0ifm" value="It is estimated that the values of (name of the attribute) follow the … distribution with parameters …. ." />
-        <node concept="pkWqt" id="6UrRj0hR46W" role="pqm2j">
-          <node concept="3clFbS" id="6UrRj0hR46X" role="2VODD2">
-            <node concept="3clFbF" id="6UrRj0hR4eh" role="3cqZAp">
-              <node concept="2OqwBi" id="6UrRj0hUezb" role="3clFbG">
-                <node concept="2OqwBi" id="6UrRj0hUezc" role="2Oq$k0">
-                  <node concept="pncrf" id="6UrRj0hUezd" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3mweh__tDpT" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="6UrRj0hUezf" role="2OqNvi">
-                  <node concept="Xl_RD" id="6UrRj0hUezg" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3mweh___1JM" role="3F10Kt" />
       </node>
       <node concept="2iRkQZ" id="6UrRj0hQiog" role="2iSdaV" />
     </node>
@@ -1291,6 +1182,90 @@
     <ref role="1XX52x" to="86kt:aIqcXn$cmK" resolve="AttributeStabelOption" />
     <node concept="3F0A7n" id="aIqcXn_lWv" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXn$cmL" resolve="option" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnAOkV">
+    <ref role="1XX52x" to="86kt:aIqcXnA9xq" resolve="Attribute" />
+    <node concept="3EZMnI" id="aIqcXnAOs8" role="2wV5jI">
+      <node concept="3EZMnI" id="aIqcXnDv$d" role="3EZMnx">
+        <node concept="2iRfu4" id="aIqcXnDv$e" role="2iSdaV" />
+        <node concept="3F0ifn" id="aIqcXnDvu9" role="3EZMnx">
+          <property role="3F0ifm" value="The attribute is named " />
+          <node concept="Vb9p2" id="aIqcXnDv_p" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="aIqcXnDv_g" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="aIqcXnAOsB" role="3EZMnx">
+        <node concept="2iRfu4" id="aIqcXnAOsC" role="2iSdaV" />
+        <node concept="3F0ifn" id="aIqcXnAOsD" role="3EZMnx">
+          <property role="3F0ifm" value="The parameter" />
+          <node concept="Vb9p2" id="aIqcXnAOsE" role="3F10Kt" />
+        </node>
+        <node concept="3F1sOY" id="aIqcXnBePx" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnA9xu" resolve="StabelOption" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnAOsG" role="3EZMnx">
+          <property role="3F0ifm" value="stabel for all " />
+          <node concept="Vb9p2" id="aIqcXnAOsH" role="3F10Kt" />
+        </node>
+        <node concept="1iCGBv" id="aIqcXnAPt8" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnAOXl" resolve="entity" />
+          <node concept="1sVBvm" id="aIqcXnAPta" role="1sWHZn">
+            <node concept="3F0A7n" id="aIqcXnAPAS" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="aIqcXnAOsS" role="3EZMnx">
+        <node concept="3F0A7n" id="aIqcXnAPX9" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="2iRfu4" id="aIqcXnAOsT" role="2iSdaV" />
+        <node concept="3F0ifn" id="aIqcXnAOsU" role="3EZMnx">
+          <property role="3F0ifm" value=" takes" />
+          <node concept="Vb9p2" id="aIqcXnAOsV" role="3F10Kt" />
+        </node>
+        <node concept="3F1sOY" id="aIqcXnEmT5" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnEmSY" resolve="ValueOption" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnEcvi" role="3EZMnx">
+          <property role="3F0ifm" value=" values." />
+          <node concept="Vb9p2" id="aIqcXnEcvj" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="3EZMnI" id="aIqcXnAQ7D" role="3EZMnx">
+        <node concept="2iRfu4" id="aIqcXnAQ7E" role="2iSdaV" />
+        <node concept="3F0ifn" id="aIqcXnAOt5" role="3EZMnx">
+          <property role="3F0ifm" value="This is the list of possible values the" />
+          <node concept="Vb9p2" id="aIqcXnAOtf" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="aIqcXnARgO" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="aIqcXnARRw" role="3EZMnx">
+          <property role="3F0ifm" value=" takes: …" />
+          <node concept="Vb9p2" id="aIqcXnARRx" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="aIqcXnAOtg" role="3EZMnx">
+        <property role="3F0ifm" value="The estimated range of values for the (name of the attribute) is: (…,….)" />
+        <node concept="Vb9p2" id="aIqcXnAOtq" role="3F10Kt" />
+      </node>
+      <node concept="3F0ifn" id="aIqcXnAOtr" role="3EZMnx">
+        <property role="3F0ifm" value="It is estimated that the values of (name of the attribute) follow the … distribution with parameters …. ." />
+        <node concept="Vb9p2" id="aIqcXnAOt_" role="3F10Kt" />
+      </node>
+      <node concept="2iRkQZ" id="aIqcXnAOtA" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnFUpZ">
+    <ref role="1XX52x" to="86kt:aIqcXnEcvF" resolve="AttributeValueOptions" />
+    <node concept="3F0A7n" id="aIqcXnFUq1" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:aIqcXnEcvG" resolve="ValueOption" />
     </node>
   </node>
 </model>

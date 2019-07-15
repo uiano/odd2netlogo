@@ -1,5 +1,7 @@
 breed[sheep a-sheep sheep a-sheeps ]
 breed[ s ]
+breed[ s ]
+breed[ s ]
 breed[sheep sheeps ]
 ???SLIDER
 7

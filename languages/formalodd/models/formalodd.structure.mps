@@ -216,6 +216,13 @@
       <property role="20kJfa" value="stabelOption" />
       <ref role="20lvS9" node="aIqcXn$cmK" resolve="AttributeStabelOption" />
     </node>
+    <node concept="1TJgyj" id="aIqcXnC0Yd" role="1TKVEi">
+      <property role="IQ2ns" value="193207073761136525" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="aIqcXnA9xq" resolve="Attribute" />
+    </node>
     <node concept="PrWs8" id="6AuNKydYOIT" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1078,6 +1085,42 @@
     <node concept="1TJgyi" id="aIqcXn$cmL" role="1TKVEl">
       <property role="IQ2nx" value="193207073760134577" />
       <property role="TrG5h" value="option" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="aIqcXnA9xq">
+    <property role="EcuMT" value="193207073760647258" />
+    <property role="TrG5h" value="Attribute" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="aIqcXnA9xu" role="1TKVEi">
+      <property role="IQ2ns" value="193207073760647262" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="StabelOption" />
+      <ref role="20lvS9" node="aIqcXn$cmK" resolve="AttributeStabelOption" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXnEmSY" role="1TKVEi">
+      <property role="IQ2ns" value="193207073761750590" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ValueOption" />
+      <ref role="20lvS9" node="aIqcXnEcvF" resolve="AttributeValueOptions" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXnAOXl" role="1TKVEi">
+      <property role="IQ2ns" value="193207073760825173" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="entity" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+    </node>
+    <node concept="PrWs8" id="aIqcXnAPKw" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="aIqcXnEcvF">
+    <property role="EcuMT" value="193207073761708011" />
+    <property role="TrG5h" value="AttributeValueOptions" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="aIqcXnEcvG" role="1TKVEl">
+      <property role="IQ2nx" value="193207073761708012" />
+      <property role="TrG5h" value="ValueOption" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

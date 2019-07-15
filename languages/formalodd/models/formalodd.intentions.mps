@@ -807,5 +807,55 @@
       <node concept="17QB3L" id="aIqcXn$cF_" role="3ddBve" />
     </node>
   </node>
+  <node concept="3dkpOd" id="aIqcXnF4ne">
+    <property role="TrG5h" value="attributeValueOption" />
+    <ref role="2ZfgGC" to="86kt:aIqcXnEcvF" resolve="AttributeValueOptions" />
+    <node concept="2S6ZIM" id="aIqcXnF4nf" role="2ZfVej">
+      <node concept="3clFbS" id="aIqcXnF4ng" role="2VODD2">
+        <node concept="3clFbF" id="aIqcXnFaio" role="3cqZAp">
+          <node concept="38Zlrr" id="aIqcXnFain" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="aIqcXnF4nh" role="2ZfgGD">
+      <node concept="3clFbS" id="aIqcXnF4ni" role="2VODD2">
+        <node concept="3clFbF" id="aIqcXnFare" role="3cqZAp">
+          <node concept="37vLTI" id="aIqcXnFbx3" role="3clFbG">
+            <node concept="38Zlrr" id="aIqcXnFbBO" role="37vLTx" />
+            <node concept="2OqwBi" id="aIqcXnFay1" role="37vLTJ">
+              <node concept="2Sf5sV" id="aIqcXnFard" role="2Oq$k0" />
+              <node concept="3TrcHB" id="aIqcXnFaRO" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:aIqcXnEcvG" resolve="ValueOption" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="38BcoT" id="aIqcXnF4w8" role="3dlsAV">
+      <node concept="3clFbS" id="aIqcXnF4w9" role="2VODD2">
+        <node concept="3clFbF" id="aIqcXnF4VV" role="3cqZAp">
+          <node concept="2ShNRf" id="aIqcXnF4VT" role="3clFbG">
+            <node concept="Tc6Ow" id="aIqcXnF5iy" role="2ShVmc">
+              <node concept="17QB3L" id="aIqcXnF682" role="HW$YZ" />
+              <node concept="Xl_RD" id="aIqcXnF6It" role="HW$Y0">
+                <property role="Xl_RC" value="integer" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnF7NO" role="HW$Y0">
+                <property role="Xl_RC" value="float" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnF8Tz" role="HW$Y0">
+                <property role="Xl_RC" value="bolean" />
+              </node>
+              <node concept="Xl_RD" id="aIqcXnF9JK" role="HW$Y0">
+                <property role="Xl_RC" value="string" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="aIqcXnF4FB" role="3ddBve" />
+    </node>
+  </node>
 </model>
 
