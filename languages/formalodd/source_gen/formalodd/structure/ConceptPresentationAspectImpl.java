@@ -39,6 +39,7 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
   private ConceptPresentation props_Float;
   private ConceptPresentation props_Gamma;
   private ConceptPresentation props_GraphicsWindow;
+  private ConceptPresentation props_Initialisation;
   private ConceptPresentation props_Integer;
   private ConceptPresentation props_IntentionEffect;
   private ConceptPresentation props_Intentions;
@@ -284,6 +285,13 @@ public class ConceptPresentationAspectImpl extends ConceptPresentationAspectBase
           props_GraphicsWindow = cpb.create();
         }
         return props_GraphicsWindow;
+      case LanguageConceptSwitch.Initialisation:
+        if (props_Initialisation == null) {
+          ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();
+          cpb.rawPresentation("Initialisation");
+          props_Initialisation = cpb.create();
+        }
+        return props_Initialisation;
       case LanguageConceptSwitch.Integer:
         if (props_Integer == null) {
           ConceptPresentationBuilder cpb = new ConceptPresentationBuilder();

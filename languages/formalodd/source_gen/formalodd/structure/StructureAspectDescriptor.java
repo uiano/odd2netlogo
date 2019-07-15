@@ -46,6 +46,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
   /*package*/ final ConceptDescriptor myConceptFloat = createDescriptorForFloat();
   /*package*/ final ConceptDescriptor myConceptGamma = createDescriptorForGamma();
   /*package*/ final ConceptDescriptor myConceptGraphicsWindow = createDescriptorForGraphicsWindow();
+  /*package*/ final ConceptDescriptor myConceptInitialisation = createDescriptorForInitialisation();
   /*package*/ final ConceptDescriptor myConceptInteger = createDescriptorForInteger();
   /*package*/ final ConceptDescriptor myConceptIntentionEffect = createDescriptorForIntentionEffect();
   /*package*/ final ConceptDescriptor myConceptIntentions = createDescriptorForIntentions();
@@ -89,7 +90,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
 
   @Override
   public Collection<ConceptDescriptor> getDescriptors() {
-    return Arrays.asList(myConceptAction, myConceptAgentStatistic, myConceptAgentStatisticOptions, myConceptArea, myConceptAttribute, myConceptAttributeStabelOption, myConceptAttributeValueOptions, myConceptAverage, myConceptBoolean, myConceptColor, myConceptColorOptions, myConceptColorShade, myConceptConditional, myConceptConditionalAttribute, myConceptConditionalColor, myConceptCoordinates, myConceptCount, myConceptDefaultColor, myConceptDefaultShape, myConceptDensity, myConceptEntitiesStateScales, myConceptEntity, myConceptEntityReference, myConceptEnvironment, myConceptEnvironmentEntity, myConceptExponential, myConceptExpression, myConceptFloat, myConceptGamma, myConceptGraphicsWindow, myConceptInteger, myConceptIntentionEffect, myConceptIntentions, myConceptLocation, myConceptMax, myConceptMin, myConceptMoreColors, myConceptMoreShapes, myConceptNames, myConceptNormal, myConceptODD, myConceptPoisson, myConceptShape, myConceptShapeInstance, myConceptShapeOptions, myConceptSlider, myConceptSliderOption, myConceptSpecificLocation, myConceptSpecificXY, myConceptStatisticalDistribution, myConceptString, myConceptStringvalue, myConceptSum, myConceptType, myConceptUserComment, myConceptUserDefinedAttribute, myConcepttest);
+    return Arrays.asList(myConceptAction, myConceptAgentStatistic, myConceptAgentStatisticOptions, myConceptArea, myConceptAttribute, myConceptAttributeStabelOption, myConceptAttributeValueOptions, myConceptAverage, myConceptBoolean, myConceptColor, myConceptColorOptions, myConceptColorShade, myConceptConditional, myConceptConditionalAttribute, myConceptConditionalColor, myConceptCoordinates, myConceptCount, myConceptDefaultColor, myConceptDefaultShape, myConceptDensity, myConceptEntitiesStateScales, myConceptEntity, myConceptEntityReference, myConceptEnvironment, myConceptEnvironmentEntity, myConceptExponential, myConceptExpression, myConceptFloat, myConceptGamma, myConceptGraphicsWindow, myConceptInitialisation, myConceptInteger, myConceptIntentionEffect, myConceptIntentions, myConceptLocation, myConceptMax, myConceptMin, myConceptMoreColors, myConceptMoreShapes, myConceptNames, myConceptNormal, myConceptODD, myConceptPoisson, myConceptShape, myConceptShapeInstance, myConceptShapeOptions, myConceptSlider, myConceptSliderOption, myConceptSpecificLocation, myConceptSpecificXY, myConceptStatisticalDistribution, myConceptString, myConceptStringvalue, myConceptSum, myConceptType, myConceptUserComment, myConceptUserDefinedAttribute, myConcepttest);
   }
 
   @Override
@@ -156,6 +157,8 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
         return myConceptGamma;
       case LanguageConceptSwitch.GraphicsWindow:
         return myConceptGraphicsWindow;
+      case LanguageConceptSwitch.Initialisation:
+        return myConceptInitialisation;
       case LanguageConceptSwitch.Integer:
         return myConceptInteger;
       case LanguageConceptSwitch.IntentionEffect:
@@ -554,6 +557,13 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("entityReference", 0x2045364d4552674eL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4552674aL).optional(true).ordered(true).multiple(true).origin("2325324488110139214").done();
     return b.create();
   }
+  private static ConceptDescriptor createDescriptorForInitialisation() {
+    ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("formalodd", "Initialisation", 0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2ae68cf57d7d183L);
+    b.class_(false, false, false);
+    b.origin("r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)/193207073764790659");
+    b.version(2);
+    return b.create();
+  }
   private static ConceptDescriptor createDescriptorForInteger() {
     ConceptDescriptorBuilder2 b = new ConceptDescriptorBuilder2("formalodd", "Integer", 0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec52eL);
     b.class_(false, false, false);
@@ -668,6 +678,7 @@ public class StructureAspectDescriptor extends BaseStructureAspectDescriptor {
     b.aggregate("action", 0x2045364d4536a910L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a039196620dc12L).optional(true).ordered(true).multiple(false).origin("2325324488108321040").done();
     b.aggregate("test", 0x35a0391965e0c797L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965de199dL).optional(true).ordered(true).multiple(false).origin("3864151261530081175").done();
     b.aggregate("graphicsWindow", 0x2045364d45665038L).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a0391965add532L).optional(true).ordered(true).multiple(false).origin("2325324488111444024").done();
+    b.aggregate("initialisation", 0x2ae68cf57dadafdL).target(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2ae68cf57d7d183L).optional(true).ordered(true).multiple(false).origin("193207073764989693").done();
     return b.create();
   }
   private static ConceptDescriptor createDescriptorForPoisson() {

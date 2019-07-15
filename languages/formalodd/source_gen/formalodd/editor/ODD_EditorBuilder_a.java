@@ -82,6 +82,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
     editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNodeList_0());
     editorCell.addEditorCell(createRefNode_0());
+    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createRefNode_1());
     editorCell.addEditorCell(createRefNode_2());
     return editorCell;
@@ -241,15 +242,21 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
       return "<no EntitiesStateScale>";
     }
   }
+  private EditorCell createConstant_2() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_guz78e_e0a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new ODD_EditorBuilder_a.graphicsWindowSingleRoleHandler_guz78e_e0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec507L, 0x2045364d45665038L, "graphicsWindow"), getEditorContext());
+    SingleRoleCellProvider provider = new ODD_EditorBuilder_a.graphicsWindowSingleRoleHandler_guz78e_f0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec507L, 0x2045364d45665038L, "graphicsWindow"), getEditorContext());
     return provider.createCell();
   }
-  private static class graphicsWindowSingleRoleHandler_guz78e_e0a extends SingleRoleCellProvider {
+  private static class graphicsWindowSingleRoleHandler_guz78e_f0a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public graphicsWindowSingleRoleHandler_guz78e_e0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public graphicsWindowSingleRoleHandler_guz78e_f0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -297,14 +304,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
     }
   }
   private EditorCell createRefNode_2() {
-    SingleRoleCellProvider provider = new ODD_EditorBuilder_a.actionSingleRoleHandler_guz78e_f0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec507L, 0x2045364d4536a910L, "action"), getEditorContext());
+    SingleRoleCellProvider provider = new ODD_EditorBuilder_a.actionSingleRoleHandler_guz78e_g0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec507L, 0x2045364d4536a910L, "action"), getEditorContext());
     return provider.createCell();
   }
-  private static class actionSingleRoleHandler_guz78e_f0a extends SingleRoleCellProvider {
+  private static class actionSingleRoleHandler_guz78e_g0a extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public actionSingleRoleHandler_guz78e_f0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public actionSingleRoleHandler_guz78e_g0a(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

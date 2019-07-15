@@ -16,6 +16,6 @@ public class Color implements ConceptEditorComponent {
     return Collections.emptyList();
   }
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return new Color_ComponentBuilder_a_0(editorContext, node).createCell();
+    return new Color_ComponentBuilder_a(editorContext, node).createCell();
   }
 }
