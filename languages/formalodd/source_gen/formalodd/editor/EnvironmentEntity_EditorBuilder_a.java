@@ -125,7 +125,7 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
     }
   }
   private EditorCell createComponent_0() {
-    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "formalodd.editor.Color");
+    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "formalodd.editor.EnvironmentColor");
     return editorCell;
   }
   private EditorCell createComponent_1() {
@@ -133,7 +133,7 @@ import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
     return editorCell;
   }
   private EditorCell createComponent_2() {
-    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "formalodd.editor.Attribute");
+    EditorCell editorCell = getCellFactory().createEditorComponentCell(myNode, "formalodd.editor.EnvironmentAttribute");
     return editorCell;
   }
   private EditorCell createRefNode_0() {

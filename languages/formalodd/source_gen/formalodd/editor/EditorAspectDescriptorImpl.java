@@ -122,9 +122,9 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
         if (true) {
           switch (Arrays.binarySearch(stringSwitchCases_xbvbvu_a0a0a0c1a2, editorComponentId)) {
             case 0:
-              return Collections.<ConceptEditorComponent>singletonList(new Attribute());
+              return Collections.<ConceptEditorComponent>singletonList(new EnvironmentAttribute());
             case 1:
-              return Collections.<ConceptEditorComponent>singletonList(new Color());
+              return Collections.<ConceptEditorComponent>singletonList(new EnvironmentColor());
             case 2:
               return Collections.<ConceptEditorComponent>singletonList(new Location());
             default:
@@ -171,6 +171,6 @@ public class EditorAspectDescriptorImpl extends EditorAspectDescriptorBase {
   private static final ConceptSwitchIndex conceptIndex1 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec508L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec5a4L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL)).seal();
   private static final ConceptSwitchIndex conceptIndex2 = new ConceptSwitchIndexBuilder().put(MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec55aL), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec554L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec557L), MetaIdFactory.conceptId(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec560L)).seal();
   private static String[] stringSwitchCases_xbvbvu_a0a0a0b1a2 = new String[]{"formalodd.editor.AgentStatistics", "formalodd.editor.Attribute", "formalodd.editor.Color", "formalodd.editor.EntityMain", "formalodd.editor.shape"};
-  private static String[] stringSwitchCases_xbvbvu_a0a0a0c1a2 = new String[]{"formalodd.editor.Attribute", "formalodd.editor.Color", "formalodd.editor.Location"};
+  private static String[] stringSwitchCases_xbvbvu_a0a0a0c1a2 = new String[]{"formalodd.editor.EnvironmentAttribute", "formalodd.editor.EnvironmentColor", "formalodd.editor.Location"};
   private static String[] stringSwitchCases_xbvbvu_a0a0a0d1a2 = new String[]{"formalodd.editor.What", "formalodd.editor.Who"};
 }

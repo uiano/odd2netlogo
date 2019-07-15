@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<product version="3" modelHash="5gy1jblh615axw81qag5pm260x230tw">
-  <files names="AgentOption_Intention.java:AtrributeStabelOption_Intention.java:ColorOptions_Intention.java:EnvShowLocation_Intention.java:Intention_Intention.java:IntentionsDescriptor.java:ShapeOptions_Intention.java:ShowAttribute_Intention.java:ShowColors_Intention.java:attributeValueOption_Intention.java:colors_Intention.java:showSlider_Intention.java" />
+<product version="3" modelHash="-54gdgufbo2b9vickmu9me1nn97fg820">
+  <files names="AgentOption_Intention.java:AtrributeStabelOption_Intention.java:ColorOptions_Intention.java:EnvShowLocation_Intention.java:Intention_Intention.java:IntentionsDescriptor.java:ShapeOptions_Intention.java:ShowAttribute_Intention.java:ShowColors_Intention.java:ShowEnvAttribute_Intention.java:ShowEnvColors_Intention.java:attributeValueOption_Intention.java:colors_Intention.java:showSlider_Intention.java" />
 </product>
 

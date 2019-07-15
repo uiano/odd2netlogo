@@ -246,13 +246,13 @@
           <node concept="2iRfu4" id="3rTwIuRByPr" role="2iSdaV" />
         </node>
         <node concept="PMmxH" id="3rTwIuRC8jV" role="3EZMnx">
-          <ref role="PMmxG" node="3rTwIuRB$iX" resolve="Color" />
+          <ref role="PMmxG" node="3rTwIuRB$iX" resolve="EnvironmentColor" />
         </node>
         <node concept="PMmxH" id="3rTwIuRCgk0" role="3EZMnx">
           <ref role="PMmxG" node="3rTwIuRCfPJ" resolve="Location" />
         </node>
         <node concept="PMmxH" id="3rTwIuRCfn8" role="3EZMnx">
-          <ref role="PMmxG" node="3rTwIuRCbzM" resolve="Attribute" />
+          <ref role="PMmxG" node="3rTwIuRCbzM" resolve="EnvironmentAttribute" />
         </node>
         <node concept="3F1sOY" id="3rTwIuRI2QA" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3rTwIuRI2Pi" resolve="Slider" />
@@ -1302,7 +1302,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="3rTwIuRCbzM">
-    <property role="TrG5h" value="Attribute" />
+    <property role="TrG5h" value="EnvironmentAttribute" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
     <node concept="3EZMnI" id="3rTwIuRCb_D" role="2wV5jI">
       <node concept="3EZMnI" id="3rTwIuRCb_E" role="3EZMnx">
@@ -1628,10 +1628,15 @@
           <node concept="3clFbS" id="3rTwIuRH8Kj" role="2VODD2">
             <node concept="3clFbF" id="3rTwIuRH8RC" role="3cqZAp">
               <node concept="2OqwBi" id="3rTwIuRHbEY" role="3clFbG">
-                <node concept="2OqwBi" id="3rTwIuRH94R" role="2Oq$k0">
-                  <node concept="pncrf" id="3rTwIuRH8RB" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3rTwIuRHaNm" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3rTwIuRCGPW" resolve="showLocation" />
+                <node concept="2OqwBi" id="3rTwIuRNQ_x" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3rTwIuRH94R" role="2Oq$k0">
+                    <node concept="pncrf" id="3rTwIuRH8RB" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="3rTwIuRNPQ4" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:3rTwIuRGrDe" resolve="Location" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="3rTwIuRNR8_" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:3rTwIuRFIe3" resolve="showLocation" />
                   </node>
                 </node>
                 <node concept="3y1jeu" id="3rTwIuRHcPK" role="2OqNvi">
@@ -1758,7 +1763,7 @@
     </node>
   </node>
   <node concept="PKFIW" id="3rTwIuRB$iX">
-    <property role="TrG5h" value="Color" />
+    <property role="TrG5h" value="EnvironmentColor" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
     <node concept="3EZMnI" id="3rTwIuRB$iZ" role="2wV5jI">
       <node concept="3EZMnI" id="3rTwIuRB$j0" role="3EZMnx">

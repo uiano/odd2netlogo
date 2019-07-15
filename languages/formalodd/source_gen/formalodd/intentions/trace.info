@@ -12,7 +12,7 @@
   <concept fqn="c:f3061a53-9226-4cc5-a443-f952ceaf5816/1070475587102:jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation" />
   <root>
     <file name="IntentionsDescriptor.java">
-      <unit at="18,0,130,0" name="formalodd.intentions.IntentionsDescriptor" />
+      <unit at="18,0,140,0" name="formalodd.intentions.IntentionsDescriptor" />
     </file>
   </root>
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/193207073759108060">
@@ -113,7 +113,7 @@
     </file>
     <file name="IntentionsDescriptor.java">
       <node id="193207073759108060" at="37,47,38,54" concept="1" />
-      <node id="193207073759108060" at="122,50,123,40" concept="1" />
+      <node id="193207073759108060" at="130,50,131,40" concept="1" />
     </file>
   </root>
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/193207073760134580">
@@ -210,13 +210,13 @@
     </file>
     <file name="IntentionsDescriptor.java">
       <node id="193207073760134580" at="44,47,45,64" concept="1" />
-      <node id="193207073760134580" at="121,49,122,50" concept="1" />
+      <node id="193207073760134580" at="129,49,130,50" concept="1" />
     </file>
   </root>
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/193207073761936846">
     <file name="IntentionsDescriptor.java">
       <node id="193207073761936846" at="51,47,52,63" concept="1" />
-      <node id="193207073761936846" at="120,39,121,49" concept="1" />
+      <node id="193207073761936846" at="128,39,129,49" concept="1" />
     </file>
     <file name="attributeValueOption_Intention.java">
       <node id="193207073761936846" at="23,43,24,134" concept="9" />
@@ -301,7 +301,7 @@
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/193207073763879063">
     <file name="IntentionsDescriptor.java">
       <node id="193207073763879063" at="58,47,59,49" concept="1" />
-      <node id="193207073763879063" at="124,44,125,36" concept="1" />
+      <node id="193207073763879063" at="132,44,133,36" concept="1" />
     </file>
     <file name="colors_Intention.java">
       <node id="193207073763879063" at="23,29,24,134" concept="9" />
@@ -465,14 +465,14 @@
       <unit id="2325324488108266179" at="22,0,74,0" name="formalodd.intentions.Intention_Intention" />
     </file>
     <file name="IntentionsDescriptor.java">
-      <node id="2325324488108266179" at="80,47,81,52" concept="1" />
-      <node id="2325324488108266179" at="118,41,119,38" concept="1" />
+      <node id="2325324488108266179" at="88,47,89,52" concept="1" />
+      <node id="2325324488108266179" at="126,41,127,38" concept="1" />
     </file>
   </root>
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/3864151261523658478">
     <file name="IntentionsDescriptor.java">
       <node id="3864151261523658478" at="72,47,73,53" concept="1" />
-      <node id="3864151261523658478" at="114,53,115,39" concept="1" />
+      <node id="3864151261523658478" at="122,53,123,39" concept="1" />
     </file>
     <file name="ShowColors_Intention.java">
       <node id="3864151261523658478" at="23,33,24,135" concept="9" />
@@ -567,7 +567,7 @@
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/3864151261523824439">
     <file name="IntentionsDescriptor.java">
       <node id="3864151261523824439" at="73,53,74,56" concept="1" />
-      <node id="3864151261523824439" at="115,39,116,42" concept="1" />
+      <node id="3864151261523824439" at="123,39,124,42" concept="1" />
     </file>
     <file name="ShowAttribute_Intention.java">
       <node id="3864151261523824439" at="23,36,24,135" concept="9" />
@@ -754,13 +754,13 @@
     </file>
     <file name="IntentionsDescriptor.java">
       <node id="3864151261524690405" at="65,47,66,55" concept="1" />
-      <node id="3864151261524690405" at="116,42,117,41" concept="1" />
+      <node id="3864151261524690405" at="124,42,125,41" concept="1" />
     </file>
   </root>
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/3864151261525299857">
     <file name="IntentionsDescriptor.java">
-      <node id="3864151261525299857" at="94,47,95,55" concept="1" />
-      <node id="3864151261525299857" at="117,41,118,41" concept="1" />
+      <node id="3864151261525299857" at="102,47,103,55" concept="1" />
+      <node id="3864151261525299857" at="125,41,126,41" concept="1" />
     </file>
     <file name="ShapeOptions_Intention.java">
       <node id="3864151261525299857" at="23,35,24,135" concept="9" />
@@ -960,14 +960,14 @@
       <unit id="3961341278978904866" at="22,0,97,0" name="formalodd.intentions.EnvShowLocation_Intention" />
     </file>
     <file name="IntentionsDescriptor.java">
-      <node id="3961341278978904866" at="87,47,88,58" concept="1" />
-      <node id="3961341278978904866" at="123,40,124,44" concept="1" />
+      <node id="3961341278978904866" at="95,47,96,58" concept="1" />
+      <node id="3961341278978904866" at="131,40,132,44" concept="1" />
     </file>
   </root>
   <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/3961341278980373080">
     <file name="IntentionsDescriptor.java">
-      <node id="3961341278980373080" at="101,47,102,53" concept="1" />
-      <node id="3961341278980373080" at="119,38,120,39" concept="1" />
+      <node id="3961341278980373080" at="109,47,110,53" concept="1" />
+      <node id="3961341278980373080" at="127,38,128,39" concept="1" />
     </file>
     <file name="showSlider_Intention.java">
       <node id="3961341278980373080" at="23,33,24,135" concept="9" />
@@ -1056,6 +1056,196 @@
       </scope>
       <unit id="3961341278980373080" at="51,0,79,0" name="formalodd.intentions.showSlider_Intention$IntentionImplementation" />
       <unit id="3961341278980373080" at="22,0,80,0" name="formalodd.intentions.showSlider_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/3961341278982415820">
+    <file name="IntentionsDescriptor.java">
+      <node id="3961341278982415820" at="80,47,81,56" concept="1" />
+      <node id="3961341278982415820" at="133,36,134,43" concept="1" />
+    </file>
+    <file name="ShowEnvColors_Intention.java">
+      <node id="3961341278982415820" at="23,36,24,135" concept="9" />
+      <node id="3961341278982415820" at="27,35,28,27" concept="7" />
+      <node id="3961341278982415820" at="31,84,32,16" concept="7" />
+      <node id="3961341278982415820" at="35,35,36,17" concept="7" />
+      <node id="3961341278982415820" at="38,99,39,97" concept="6" />
+      <node id="3961341278982415820" at="39,97,40,54" concept="6" />
+      <node id="3961341278982415820" at="42,38,43,107" concept="1" />
+      <node id="3961341278982415820" at="45,5,46,16" concept="7" />
+      <node id="3961341278982415858" at="48,87,49,82" concept="7" />
+      <node id="3961341278982415820" at="52,0,53,0" concept="2" trace="myParameter" />
+      <node id="3961341278982415820" at="53,54,54,30" concept="1" />
+      <node id="3961341278982415823" at="57,87,58,30" concept="6" />
+      <node id="3961341278982415829" at="59,32,60,36" concept="1" />
+      <node id="3961341278982415833" at="60,36,61,0" concept="8" />
+      <node id="3961341278982415839" at="63,36,64,43" concept="1" />
+      <node id="3961341278982415846" at="65,7,66,25" concept="7" />
+      <node id="3961341278982415850" at="69,78,70,181" concept="1" />
+      <node id="3961341278982415820" at="73,48,74,42" concept="7" />
+      <node id="3961341278982415820" at="76,34,77,25" concept="7" />
+      <node id="3961341278982415820" at="23,0,26,0" concept="0" trace="ShowEnvColors_Intention#()V" />
+      <node id="3961341278982415820" at="41,28,44,7" concept="3" />
+      <node id="3961341278982415820" at="48,0,51,0" concept="5" trace="parameter#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
+      <node id="3961341278982415820" at="53,0,56,0" concept="0" trace="IntentionImplementation#(Ljava/lang/String;)V" />
+      <node id="3961341278982415837" at="62,7,65,7" concept="4" />
+      <node id="3961341278982415820" at="76,0,79,0" concept="5" trace="getParameter#()Ljava/lang/Object;" />
+      <node id="3961341278982415820" at="26,0,30,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="3961341278982415820" at="30,0,34,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="3961341278982415820" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="3961341278982415827" at="58,30,62,7" concept="4" />
+      <node id="3961341278982415820" at="68,0,72,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="3961341278982415820" at="72,0,76,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="3961341278982415820" at="40,54,45,5" concept="4" />
+      <node id="3961341278982415820" at="38,0,48,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="3961341278982415820" at="56,0,68,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <scope id="3961341278982415820" at="23,36,24,135" />
+      <scope id="3961341278982415820" at="27,35,28,27" />
+      <scope id="3961341278982415820" at="31,84,32,16" />
+      <scope id="3961341278982415820" at="35,35,36,17" />
+      <scope id="3961341278982415820" at="42,38,43,107" />
+      <scope id="3961341278982415820" at="48,87,49,82" />
+      <scope id="3961341278982415820" at="53,54,54,30" />
+      <scope id="3961341278982415838" at="63,36,64,43" />
+      <scope id="3961341278982415849" at="69,78,70,181" />
+      <scope id="3961341278982415820" at="73,48,74,42" />
+      <scope id="3961341278982415820" at="76,34,77,25" />
+      <scope id="3961341278982415828" at="59,32,61,0" />
+      <scope id="3961341278982415820" at="23,0,26,0" />
+      <scope id="3961341278982415820" at="41,28,44,7" />
+      <scope id="3961341278982415820" at="41,28,44,7">
+        <var name="param" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415820" at="48,0,51,0">
+        <var name="editorContext" id="3961341278982415820" />
+        <var name="node" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415820" at="53,0,56,0">
+        <var name="parameter" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415820" at="76,0,79,0" />
+      <scope id="3961341278982415820" at="26,0,30,0" />
+      <scope id="3961341278982415820" at="30,0,34,0">
+        <var name="editorContext" id="3961341278982415820" />
+        <var name="node" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415820" at="34,0,38,0" />
+      <scope id="3961341278982415820" at="68,0,72,0">
+        <var name="editorContext" id="3961341278982415820" />
+        <var name="node" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415820" at="72,0,76,0" />
+      <scope id="3961341278982415820" at="38,99,46,16">
+        <var name="list" id="3961341278982415820" />
+        <var name="paramList" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415822" at="57,87,66,25">
+        <var name="description" id="3961341278982415824" />
+      </scope>
+      <scope id="3961341278982415820" at="38,0,48,0">
+        <var name="context" id="3961341278982415820" />
+        <var name="node" id="3961341278982415820" />
+      </scope>
+      <scope id="3961341278982415820" at="56,0,68,0">
+        <var name="editorContext" id="3961341278982415820" />
+        <var name="node" id="3961341278982415820" />
+      </scope>
+      <unit id="3961341278982415820" at="51,0,80,0" name="formalodd.intentions.ShowEnvColors_Intention$IntentionImplementation" />
+      <unit id="3961341278982415820" at="22,0,81,0" name="formalodd.intentions.ShowEnvColors_Intention" />
+    </file>
+  </root>
+  <root nodeRef="r:19ee0bc9-3d94-4a65-a903-b8377d6d858c(formalodd.intentions)/3961341278982426545">
+    <file name="IntentionsDescriptor.java">
+      <node id="3961341278982426545" at="81,56,82,59" concept="1" />
+      <node id="3961341278982426545" at="134,43,135,46" concept="1" />
+    </file>
+    <file name="ShowEnvAttribute_Intention.java">
+      <node id="3961341278982426545" at="23,39,24,135" concept="9" />
+      <node id="3961341278982426545" at="27,35,28,30" concept="7" />
+      <node id="3961341278982426545" at="31,84,32,16" concept="7" />
+      <node id="3961341278982426545" at="35,35,36,17" concept="7" />
+      <node id="3961341278982426545" at="38,99,39,97" concept="6" />
+      <node id="3961341278982426545" at="39,97,40,54" concept="6" />
+      <node id="3961341278982426545" at="42,38,43,110" concept="1" />
+      <node id="3961341278982426545" at="45,5,46,16" concept="7" />
+      <node id="3961341278982426583" at="48,87,49,86" concept="7" />
+      <node id="3961341278982426545" at="52,0,53,0" concept="2" trace="myParameter" />
+      <node id="3961341278982426545" at="53,54,54,30" concept="1" />
+      <node id="3961341278982426548" at="57,87,58,30" concept="6" />
+      <node id="3961341278982426554" at="59,34,60,40" concept="1" />
+      <node id="3961341278982426563" at="62,38,63,47" concept="1" />
+      <node id="3961341278982426567" at="63,47,64,0" concept="8" />
+      <node id="3961341278982426571" at="65,7,66,25" concept="7" />
+      <node id="3961341278982426575" at="69,78,70,186" concept="1" />
+      <node id="3961341278982426545" at="73,48,74,45" concept="7" />
+      <node id="3961341278982426545" at="76,34,77,25" concept="7" />
+      <node id="3961341278982426545" at="23,0,26,0" concept="0" trace="ShowEnvAttribute_Intention#()V" />
+      <node id="3961341278982426545" at="41,28,44,7" concept="3" />
+      <node id="3961341278982426545" at="48,0,51,0" concept="5" trace="parameter#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/List;" />
+      <node id="3961341278982426545" at="53,0,56,0" concept="0" trace="IntentionImplementation#(Ljava/lang/String;)V" />
+      <node id="3961341278982426552" at="58,30,61,7" concept="4" />
+      <node id="3961341278982426545" at="76,0,79,0" concept="5" trace="getParameter#()Ljava/lang/Object;" />
+      <node id="3961341278982426545" at="26,0,30,0" concept="5" trace="getPresentation#()Ljava/lang/String;" />
+      <node id="3961341278982426545" at="30,0,34,0" concept="5" trace="isApplicable#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Z" />
+      <node id="3961341278982426545" at="34,0,38,0" concept="5" trace="isSurroundWith#()Z" />
+      <node id="3961341278982426561" at="61,7,65,7" concept="4" />
+      <node id="3961341278982426545" at="68,0,72,0" concept="5" trace="execute#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)V" />
+      <node id="3961341278982426545" at="72,0,76,0" concept="5" trace="getDescriptor#()Ljetbrains/mps/openapi/intentions/IntentionDescriptor;" />
+      <node id="3961341278982426545" at="40,54,45,5" concept="4" />
+      <node id="3961341278982426545" at="38,0,48,0" concept="5" trace="instances#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/util/Collection;" />
+      <node id="3961341278982426545" at="56,0,68,0" concept="5" trace="getDescription#(Lorg/jetbrains/mps/openapi/model/SNode;Ljetbrains/mps/openapi/editor/EditorContext;)Ljava/lang/String;" />
+      <scope id="3961341278982426545" at="23,39,24,135" />
+      <scope id="3961341278982426545" at="27,35,28,30" />
+      <scope id="3961341278982426545" at="31,84,32,16" />
+      <scope id="3961341278982426545" at="35,35,36,17" />
+      <scope id="3961341278982426545" at="42,38,43,110" />
+      <scope id="3961341278982426545" at="48,87,49,86" />
+      <scope id="3961341278982426545" at="53,54,54,30" />
+      <scope id="3961341278982426553" at="59,34,60,40" />
+      <scope id="3961341278982426574" at="69,78,70,186" />
+      <scope id="3961341278982426545" at="73,48,74,45" />
+      <scope id="3961341278982426545" at="76,34,77,25" />
+      <scope id="3961341278982426562" at="62,38,64,0" />
+      <scope id="3961341278982426545" at="23,0,26,0" />
+      <scope id="3961341278982426545" at="41,28,44,7" />
+      <scope id="3961341278982426545" at="41,28,44,7">
+        <var name="param" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426545" at="48,0,51,0">
+        <var name="editorContext" id="3961341278982426545" />
+        <var name="node" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426545" at="53,0,56,0">
+        <var name="parameter" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426545" at="76,0,79,0" />
+      <scope id="3961341278982426545" at="26,0,30,0" />
+      <scope id="3961341278982426545" at="30,0,34,0">
+        <var name="editorContext" id="3961341278982426545" />
+        <var name="node" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426545" at="34,0,38,0" />
+      <scope id="3961341278982426545" at="68,0,72,0">
+        <var name="editorContext" id="3961341278982426545" />
+        <var name="node" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426545" at="72,0,76,0" />
+      <scope id="3961341278982426545" at="38,99,46,16">
+        <var name="list" id="3961341278982426545" />
+        <var name="paramList" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426547" at="57,87,66,25">
+        <var name="description" id="3961341278982426549" />
+      </scope>
+      <scope id="3961341278982426545" at="38,0,48,0">
+        <var name="context" id="3961341278982426545" />
+        <var name="node" id="3961341278982426545" />
+      </scope>
+      <scope id="3961341278982426545" at="56,0,68,0">
+        <var name="editorContext" id="3961341278982426545" />
+        <var name="node" id="3961341278982426545" />
+      </scope>
+      <unit id="3961341278982426545" at="51,0,80,0" name="formalodd.intentions.ShowEnvAttribute_Intention$IntentionImplementation" />
+      <unit id="3961341278982426545" at="22,0,81,0" name="formalodd.intentions.ShowEnvAttribute_Intention" />
     </file>
   </root>
 </debug-info>
