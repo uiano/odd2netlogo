@@ -1,12 +1,12 @@
-breed[tree trees ]
-breed[entity2 entity2s ]
+breed[wolf wolfs ]
+breed[sheep sheeps ]
 ???SLIDER
 7
 71
 179
 104
-treeslider
-treeslider
+wolfslider
+wolfslider
 0
 100
 30.0
@@ -20,8 +20,8 @@ SLIDER
 113
 179
 146
-entity2slider
-entity2slider
+sheepslider
+sheepslider
 0
 100
 30.0

@@ -354,6 +354,7 @@
     <node concept="3EZMnI" id="7wk$2803UEX" role="2wV5jI">
       <node concept="3F0ifn" id="7wk$2803UF4" role="3EZMnx">
         <property role="3F0ifm" value="The model contains the following entities  " />
+        <node concept="Vb9p2" id="aIqcXnsRvR" role="3F10Kt" />
       </node>
       <node concept="2iRfu4" id="7wk$2803UF0" role="2iSdaV" />
       <node concept="3F2HdR" id="7wk$2803UFg" role="3EZMnx">
@@ -1178,6 +1179,12 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="aIqcXnugdh">
+    <ref role="1XX52x" to="86kt:5JxfqxAuXCc" resolve="Names" />
+    <node concept="3F0A7n" id="aIqcXnugdj" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:5JxfqxAuXCd" resolve="name" />
     </node>
   </node>
 </model>
