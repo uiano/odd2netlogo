@@ -26,7 +26,6 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
         <child id="6620640720694532624" name="entityName" index="XAIuS" />
         <child id="3840659476812055819" name="entity" index="ZOwpT" />
-        <child id="3840659476812055817" name="environment" index="ZOwpV" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
@@ -38,7 +37,6 @@
         <child id="193207073759411052" name="AgentOptions" index="1laXez" />
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
-      <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_" />
       <concept id="3840659476812055941" name="formalodd.structure.DefaultColor" flags="ng" index="ZOwrR" />
       <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
         <property id="3864151261524127934" name="Options" index="1g9sAB" />
@@ -197,7 +195,6 @@
       <node concept="XAIu$" id="aIqcXnVMZm" role="XAIuS">
         <property role="XAIu_" value="wolves wolf" />
       </node>
-      <node concept="ZOwr_" id="aIqcXoqknP" role="ZOwpV" />
     </node>
     <node concept="1lur_c" id="aIqcXo7OnH" role="1ltb8M">
       <node concept="1llqSK" id="aIqcXo7OnJ" role="1llqph">
@@ -249,9 +246,7 @@
   </node>
   <node concept="ZOwpP" id="aIqcXnMtFk">
     <property role="TrG5h" value="seggregation" />
-    <node concept="ZOwpU" id="aIqcXnMtFl" role="3$p12O">
-      <node concept="ZOwpW" id="aIqcXnMtGj" role="ZOwpT" />
-    </node>
+    <node concept="ZOwpU" id="5PcPtDkvdyi" role="3$p12O" />
   </node>
 </model>
 

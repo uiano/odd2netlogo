@@ -1,8 +1,6 @@
 breed[sheep a-sheep sheep a-sheeps ]
 breed[wolves wolf wolves wolfs ]
-ask patches [
-]
-SLIDER
+???SLIDER
 7
 71
 179

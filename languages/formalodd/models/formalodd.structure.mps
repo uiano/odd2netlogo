@@ -74,12 +74,6 @@
       <property role="20kJfa" value="action" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
-    <node concept="1TJgyj" id="3mweh__Scun" role="1TKVEi">
-      <property role="IQ2ns" value="3864151261530081175" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="test" />
-      <ref role="20lvS9" node="3mweh__RxAt" resolve="test" />
-    </node>
     <node concept="1TJgyj" id="215d$P5p_0S" role="1TKVEi">
       <property role="IQ2ns" value="2325324488111444024" />
       <property role="20lmBu" value="aggregation" />
@@ -999,11 +993,6 @@
       <property role="TrG5h" value="WorldSize" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3mweh__RxAt">
-    <property role="EcuMT" value="3864151261529905565" />
-    <property role="TrG5h" value="test" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3mweh_A8dKi">
     <property role="EcuMT" value="3864151261534280722" />
