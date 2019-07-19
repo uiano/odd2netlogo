@@ -1042,11 +1042,6 @@
       <property role="TrG5h" value="Move" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="7s1yruuKQjT" role="1TKVEl">
-      <property role="IQ2nx" value="8575286587225761017" />
-      <property role="TrG5h" value="TurnRate" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="6fs8Th5c2lr" role="1TKVEl">
       <property role="IQ2nx" value="7195665424354125147" />
       <property role="TrG5h" value="ChangePatches" />
@@ -1055,6 +1050,16 @@
     <node concept="1TJgyi" id="7s1yruuLAhH" role="1TKVEl">
       <property role="IQ2nx" value="8575286587225957485" />
       <property role="TrG5h" value="UpdateValue" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6lHESjKLkZF" role="1TKVEl">
+      <property role="IQ2nx" value="7308686357755678699" />
+      <property role="TrG5h" value="EntitiesDie" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6lHESjKLkZL" role="1TKVEl">
+      <property role="IQ2nx" value="7308686357755678705" />
+      <property role="TrG5h" value="CreateNewEntities" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="PrWs8" id="215d$P5bQrQ" role="PzmwI">

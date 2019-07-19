@@ -279,6 +279,7 @@
   <node concept="24kQdi" id="5oUGABTKPX$">
     <ref role="1XX52x" to="86kt:3lcKR8aBGn7" resolve="Location" />
     <node concept="3F0A7n" id="3rTwIuRFJsX" role="2wV5jI">
+      <property role="1$x2rV" value="&lt;Press alt enter to choose location&gt;" />
       <ref role="1NtTu8" to="86kt:3rTwIuRFIe3" resolve="showLocation" />
     </node>
   </node>
@@ -1769,6 +1770,7 @@
   <node concept="24kQdi" id="aIqcXnOmbI">
     <ref role="1XX52x" to="86kt:3lcKR8aBGlO" resolve="Color" />
     <node concept="3F0A7n" id="aIqcXnOmbK" role="2wV5jI">
+      <property role="1$x2rV" value="&lt;Press alt enter to select color&gt;" />
       <ref role="1NtTu8" to="86kt:aIqcXnN$I4" resolve="color" />
     </node>
   </node>
