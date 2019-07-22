@@ -1039,7 +1039,7 @@
             <node concept="3clFbF" id="3rTwIuRCt9d" role="3cqZAp">
               <node concept="37vLTI" id="3rTwIuRCt9e" role="3clFbG">
                 <node concept="Xl_RD" id="3rTwIuRCt9f" role="37vLTx">
-                  <property role="Xl_RC" value="upper" />
+                  <property role="Xl_RC" value="top" />
                 </node>
                 <node concept="37vLTw" id="3rTwIuRCt9g" role="37vLTJ">
                   <ref role="3cqZAo" node="3rTwIuRCrv9" resolve="description" />
@@ -1050,7 +1050,7 @@
           </node>
           <node concept="3clFbC" id="3rTwIuRCt9i" role="3clFbw">
             <node concept="Xl_RD" id="3rTwIuRCt9j" role="3uHU7w">
-              <property role="Xl_RC" value="upper" />
+              <property role="Xl_RC" value="top" />
             </node>
             <node concept="38Zlrr" id="3rTwIuRCt9k" role="3uHU7B" />
           </node>
@@ -1136,7 +1136,7 @@
                 <property role="Xl_RC" value="rightside" />
               </node>
               <node concept="Xl_RD" id="3rTwIuRComv" role="HW$Y0">
-                <property role="Xl_RC" value="upper" />
+                <property role="Xl_RC" value="top" />
               </node>
               <node concept="Xl_RD" id="3rTwIuRCpu2" role="HW$Y0">
                 <property role="Xl_RC" value="bottom" />

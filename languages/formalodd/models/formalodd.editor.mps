@@ -1580,7 +1580,7 @@
                   </node>
                   <node concept="3y1jeu" id="3rTwIuRCSCg" role="2OqNvi">
                     <node concept="Xl_RD" id="3rTwIuRCSCh" role="3y1jev">
-                      <property role="Xl_RC" value="upper" />
+                      <property role="Xl_RC" value="top" />
                     </node>
                   </node>
                 </node>
