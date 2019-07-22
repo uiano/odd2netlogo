@@ -7,6 +7,9 @@
   <imports />
   <registry>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
+      <concept id="6400669868571328617" name="formalodd.structure.EndConditionOption" flags="ng" index="8rzWW">
+        <property id="6400669868571328652" name="option" index="8rzZp" />
+      </concept>
       <concept id="6400669868564061737" name="formalodd.structure.OptionYesNo" flags="ng" index="8Bi5W">
         <property id="6400669868564061738" name="option" index="8Bi5Z" />
       </concept>
@@ -19,6 +22,13 @@
       </concept>
       <concept id="6400669868562064491" name="formalodd.structure.CompoundActionSelect" flags="ng" index="8STGY">
         <property id="6400669868562064492" name="option" index="8STGT" />
+      </concept>
+      <concept id="7308686357753541364" name="formalodd.structure.Move" flags="ng" index="2lMh_K" />
+      <concept id="7308686357753541206" name="formalodd.structure.EndCondition" flags="ng" index="2lMhBi">
+        <child id="6400669868571328618" name="endConditionOption" index="8rzWZ" />
+      </concept>
+      <concept id="7308686357753541200" name="formalodd.structure.Overview" flags="ng" index="2lMhBk">
+        <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
       </concept>
       <concept id="7308686357753541216" name="formalodd.structure.Condition" flags="ng" index="2lMhB$" />
       <concept id="7308686357753326564" name="formalodd.structure.Who" flags="ng" index="2lNc1w">
@@ -33,6 +43,7 @@
         <reference id="6400669868564336839" name="procedure" index="8wmYi" />
         <child id="6400669868564101782" name="optionYesNo" index="8B8n3" />
         <child id="6400669868562289985" name="changeEnvironment" index="8S2Ck" />
+        <child id="6400669868562182685" name="move" index="8S$P8" />
         <child id="6400669868562179748" name="compoundActionSelect" index="8S_BL" />
         <child id="7308686357753541219" name="condition" index="2lMhBB" />
       </concept>
@@ -41,6 +52,7 @@
         <property id="193207073764166532" name="color" index="1lo2db" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
+        <child id="6400669868571328367" name="overview" index="8rG0U" />
         <child id="6400669868561619628" name="procedure" index="8YInT" />
         <child id="193207073764989693" name="initialisation" index="1ltb8M" />
         <child id="7610748055951433660" name="EntitiesStateScale" index="3$p12O" />
@@ -198,7 +210,10 @@
         <node concept="2lMhB$" id="5zjJPlgsXhu" role="2lMhBB" />
       </node>
       <node concept="2lNc1y" id="5zjJPlg$Ad9" role="2lMhBq">
-        <node concept="8STGY" id="5zjJPlg_RmL" role="8S_BL" />
+        <node concept="8STGY" id="5zjJPlg_RmL" role="8S_BL">
+          <property role="8STGT" value="Move" />
+        </node>
+        <node concept="2lMh_K" id="5zjJPlgCKef" role="8S$P8" />
       </node>
       <node concept="2lNc1y" id="5zjJPlg_RmO" role="2lMhBq">
         <node concept="8STGY" id="5zjJPlg_Rn3" role="8S_BL" />
@@ -219,6 +234,33 @@
       </node>
     </node>
     <node concept="2lNc1x" id="5zjJPlg_Rn9" role="8YInT" />
+    <node concept="2lMhBk" id="5zjJPlgR6hv" role="8rG0U">
+      <node concept="2lMhBi" id="5zjJPlgR6hy" role="2lMhBt">
+        <node concept="8rzWW" id="5zjJPlgR6h_" role="8rzWZ">
+          <property role="8rzZp" value="All Entity is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="5zjJPlgSA9H" role="2lMhBt">
+        <node concept="8rzWW" id="5zjJPlgSA9O" role="8rzWZ">
+          <property role="8rzZp" value="All Environment is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="5zjJPlgVQCF" role="2lMhBt">
+        <node concept="8rzWW" id="5zjJPlgVQCQ" role="8rzWZ">
+          <property role="8rzZp" value="All Environment is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="5zjJPlgYR5u" role="2lMhBt">
+        <node concept="8rzWW" id="5zjJPlgYR5L" role="8rzWZ">
+          <property role="8rzZp" value="All Environment is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="5zjJPlgYR5c" role="2lMhBt">
+        <node concept="8rzWW" id="5zjJPlgYR5r" role="8rzWZ">
+          <property role="8rzZp" value="No Environment is" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
