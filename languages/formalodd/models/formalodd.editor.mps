@@ -140,8 +140,15 @@
             </node>
           </node>
         </node>
-        <node concept="3F1sOY" id="5JxfqxAtDtV" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+        <node concept="3F1sOY" id="5EtG2rPwDm6" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPwDl9" resolve="entityName" />
+        </node>
+        <node concept="3F2HdR" id="5EtG2rPwDmy" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPwDiO" resolve="entity" />
+          <node concept="2iRkQZ" id="5EtG2rPwDm$" role="2czzBx" />
+        </node>
+        <node concept="3F1sOY" id="5EtG2rPwDn6" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPwDiF" resolve="environment" />
         </node>
         <node concept="3F1sOY" id="aIqcXnRuOp" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:aIqcXnQHFX" resolve="initialisation" />
@@ -150,10 +157,10 @@
           <ref role="1NtTu8" to="86kt:215d$P5p_0S" resolve="graphicsWindow" />
         </node>
         <node concept="3F1sOY" id="5zjJPlgJnZE" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgJnXJ" resolve="overview" />
+          <ref role="1NtTu8" to="86kt:5EtG2rPwnoa" resolve="overview" />
         </node>
         <node concept="3F2HdR" id="5zjJPlgnNRz" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgalEG" resolve="procedure" />
+          <ref role="1NtTu8" to="86kt:5EtG2rPwnoh" resolve="procedure" />
           <node concept="2iRkQZ" id="5zjJPlgnNR_" role="2czzBx" />
         </node>
         <node concept="2iRkQZ" id="5JxfqxAtDtH" role="2iSdaV" />
@@ -3077,6 +3084,66 @@
           <property role="1$x2rV" value="&lt;Press alt enter to chose options&gt;" />
           <ref role="1NtTu8" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
         </node>
+        <node concept="3F0ifn" id="5EtG2rPkcWz" role="3EZMnx">
+          <property role="3F0ifm" value="what environment" />
+          <node concept="pkWqt" id="5EtG2rPkcX4" role="pqm2j">
+            <node concept="3clFbS" id="5EtG2rPkcX5" role="2VODD2">
+              <node concept="3clFbF" id="5EtG2rPkd4q" role="3cqZAp">
+                <node concept="2OqwBi" id="5EtG2rPkg7F" role="3clFbG">
+                  <node concept="2OqwBi" id="5EtG2rPkeev" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5EtG2rPkdgR" role="2Oq$k0">
+                      <node concept="pncrf" id="5EtG2rPkd4p" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5EtG2rPkdNW" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="5EtG2rPkeWw" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5zjJPlgcAv9" resolve="option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="5EtG2rPkhwy" role="2OqNvi">
+                    <node concept="Xl_RD" id="5zjJPlgcGEx" role="3y1jev">
+                      <property role="Xl_RC" value="Change Neighbors" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1iCGBv" id="5EtG2rPkcWO" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPkcWJ" resolve="environment" />
+          <node concept="1sVBvm" id="5EtG2rPkcWQ" role="1sWHZn">
+            <node concept="3F0A7n" id="5EtG2rPkcX1" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="pkWqt" id="5EtG2rPkjVU" role="pqm2j">
+            <node concept="3clFbS" id="5EtG2rPkjVV" role="2VODD2">
+              <node concept="3clFbF" id="5EtG2rPkk3f" role="3cqZAp">
+                <node concept="2OqwBi" id="5EtG2rPkk3g" role="3clFbG">
+                  <node concept="2OqwBi" id="5EtG2rPkk3h" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5EtG2rPkk3i" role="2Oq$k0">
+                      <node concept="pncrf" id="5EtG2rPkk3j" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5EtG2rPkk3k" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="5EtG2rPkk3l" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5zjJPlgcAv9" resolve="option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="5EtG2rPkk3m" role="2OqNvi">
+                    <node concept="Xl_RD" id="5EtG2rPkk3n" role="3y1jev">
+                      <property role="Xl_RC" value="Change Neighbors" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3F0ifn" id="5zjJPlgcTNk" role="3EZMnx">
           <property role="3F0ifm" value="change color" />
         </node>
@@ -3084,8 +3151,13 @@
           <ref role="1NtTu8" to="86kt:5zjJPlgcScN" resolve="color" />
         </node>
         <node concept="2iRfu4" id="5zjJPlgcAtr" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rPNt84" role="3EZMnx">
+          <property role="3F0ifm" value="Dim self:" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rPNtT1" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPNtGS" resolve="dimSelf" />
+        </node>
       </node>
-      <node concept="3F0ifn" id="5zjJPlgD6v5" role="3EZMnx" />
       <node concept="2iRkQZ" id="5zjJPlgcAtf" role="2iSdaV" />
     </node>
   </node>
