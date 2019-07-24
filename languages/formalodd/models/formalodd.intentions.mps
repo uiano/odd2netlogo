@@ -525,7 +525,7 @@
     </node>
   </node>
   <node concept="3dkpOd" id="215d$P5dtb3">
-    <property role="TrG5h" value="who" />
+    <property role="TrG5h" value="SelectingType" />
     <ref role="2ZfgGC" to="86kt:215d$P5delF" resolve="SelectingType" />
     <node concept="2S6ZIM" id="215d$P5dtb4" role="2ZfVej">
       <node concept="3clFbS" id="215d$P5dtb5" role="2VODD2">

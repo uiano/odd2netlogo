@@ -33,7 +33,9 @@
       <concept id="7308686357753541200" name="formalodd.structure.Overview" flags="ng" index="2lMhBk">
         <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
       </concept>
-      <concept id="7308686357753541216" name="formalodd.structure.Condition" flags="ng" index="2lMhB$" />
+      <concept id="7308686357753541216" name="formalodd.structure.Condition" flags="ng" index="2lMhB$">
+        <child id="7777943843989251283" name="base" index="k6ED$" />
+      </concept>
       <concept id="7308686357753326564" name="formalodd.structure.Who" flags="ng" index="2lNc1w">
         <property id="6400669868561525719" name="option" index="8X5i2" />
         <reference id="6400669868561546218" name="entity" index="8YSiZ" />
@@ -140,7 +142,7 @@
       <concept id="2325324488110139210" name="formalodd.structure.EntityReference" flags="ng" index="1_5P47">
         <reference id="2325324488113493380" name="entity" index="1_Kaf9" />
       </concept>
-      <concept id="2325324488108205419" name="formalodd.structure.IntentionEffect" flags="ng" index="1_stcA">
+      <concept id="2325324488108205419" name="formalodd.structure.SelectingType" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
       </concept>
     </language>
@@ -165,7 +167,11 @@
         <node concept="8Bi5W" id="6JKNFtZyOg_" role="8B8n3">
           <property role="8Bi5Z" value="Yes" />
         </node>
-        <node concept="2lMhB$" id="6JKNFtZyOgB" role="2lMhBB" />
+        <node concept="2lMhB$" id="6JKNFtZyOgB" role="2lMhBB">
+          <node concept="1_stcA" id="6JKNFu00QzR" role="k6ED$">
+            <property role="1_stcx" value="The Enviroment" />
+          </node>
+        </node>
         <node concept="8shMO" id="6JKNFtZyOgD" role="8shMR" />
         <node concept="8StHo" id="6JKNFtZyOgF" role="8S2Ck">
           <node concept="8Styt" id="6JKNFtZUAgQ" role="8Sc1Y">
@@ -173,6 +179,7 @@
           </node>
         </node>
       </node>
+      <node concept="2lNc1y" id="6JKNFu00QzT" role="2lMhBq" />
       <node concept="2lNc1y" id="6JKNFtZUAiD" role="2lMhBq">
         <node concept="8STGY" id="6JKNFtZUAjd" role="8S_BL">
           <property role="8STGT" value="Kill Entity" />
