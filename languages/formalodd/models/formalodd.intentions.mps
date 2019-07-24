@@ -559,7 +559,7 @@
                 <property role="Xl_RC" value="The entity" />
               </node>
               <node concept="Xl_RD" id="215d$P5dB1R" role="HW$Y0">
-                <property role="Xl_RC" value="The Enviroment" />
+                <property role="Xl_RC" value="The enviroment" />
               </node>
               <node concept="Xl_RD" id="215d$P5dD8j" role="HW$Y0">
                 <property role="Xl_RC" value="The attribute" />
@@ -1992,7 +1992,7 @@
           </node>
           <node concept="3clFbC" id="5zjJPlgjHdr" role="3clFbw">
             <node concept="Xl_RD" id="5zjJPlgjHds" role="3uHU7w">
-              <property role="Xl_RC" value="Yes" />
+              <property role="Xl_RC" value="The condition for this action is that:" />
             </node>
             <node concept="38Zlrr" id="5zjJPlgjHdt" role="3uHU7B" />
           </node>
@@ -2012,7 +2012,7 @@
           </node>
           <node concept="3clFbC" id="5zjJPlgjHd$" role="3clFbw">
             <node concept="Xl_RD" id="5zjJPlgjHd_" role="3uHU7w">
-              <property role="Xl_RC" value="No" />
+              <property role="Xl_RC" value="There is no conditions for the action" />
             </node>
             <node concept="38Zlrr" id="5zjJPlgjHdA" role="3uHU7B" />
           </node>
@@ -2046,10 +2046,10 @@
             <node concept="Tc6Ow" id="5zjJPlgjFhQ" role="2ShVmc">
               <node concept="17QB3L" id="5zjJPlgjFhR" role="HW$YZ" />
               <node concept="Xl_RD" id="5zjJPlgjFhS" role="HW$Y0">
-                <property role="Xl_RC" value="Yes" />
+                <property role="Xl_RC" value="The condition for this action is that:" />
               </node>
               <node concept="Xl_RD" id="5zjJPlgjFhT" role="HW$Y0">
-                <property role="Xl_RC" value="No" />
+                <property role="Xl_RC" value="There is no conditions for the action" />
               </node>
             </node>
           </node>
@@ -2560,6 +2560,56 @@
         </node>
       </node>
       <node concept="17QB3L" id="5EtG2rOEckc" role="3ddBve" />
+    </node>
+  </node>
+  <node concept="3dkpOd" id="6JKNFu0hGqo">
+    <property role="TrG5h" value="conditions" />
+    <ref role="2ZfgGC" to="86kt:6lHESjKDb9w" resolve="Condition" />
+    <node concept="2S6ZIM" id="6JKNFu0hGqp" role="2ZfVej">
+      <node concept="3clFbS" id="6JKNFu0hGqq" role="2VODD2">
+        <node concept="3clFbF" id="6JKNFu0hMTU" role="3cqZAp">
+          <node concept="38Zlrr" id="6JKNFu0hMTT" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="6JKNFu0hGqr" role="2ZfgGD">
+      <node concept="3clFbS" id="6JKNFu0hGqs" role="2VODD2">
+        <node concept="3clFbF" id="6JKNFu0hLCe" role="3cqZAp">
+          <node concept="37vLTI" id="6JKNFu0hM$9" role="3clFbG">
+            <node concept="38Zlrr" id="6JKNFu0hMNf" role="37vLTx" />
+            <node concept="2OqwBi" id="6JKNFu0hLKj" role="37vLTJ">
+              <node concept="2Sf5sV" id="6JKNFu0hLCd" role="2Oq$k0" />
+              <node concept="3TrcHB" id="6JKNFu0hLTe" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:6lHESjKDbc_" resolve="ifcondition" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="38BcoT" id="6JKNFu0hGzu" role="3dlsAV">
+      <node concept="3clFbS" id="6JKNFu0hGzv" role="2VODD2">
+        <node concept="3clFbF" id="6JKNFu0hGZe" role="3cqZAp">
+          <node concept="2ShNRf" id="6JKNFu0hGZc" role="3clFbG">
+            <node concept="Tc6Ow" id="6JKNFu0hIhZ" role="2ShVmc">
+              <node concept="17QB3L" id="6JKNFu0hJ4r" role="HW$YZ" />
+              <node concept="Xl_RD" id="6JKNFu0hKfW" role="HW$Y0">
+                <property role="Xl_RC" value="collides" />
+              </node>
+              <node concept="Xl_RD" id="6JKNFu0hKM9" role="HW$Y0">
+                <property role="Xl_RC" value="&gt;" />
+              </node>
+              <node concept="Xl_RD" id="6JKNFu0hLmW" role="HW$Y0">
+                <property role="Xl_RC" value="&lt;" />
+              </node>
+              <node concept="Xl_RD" id="6JKNFu0hQgZ" role="HW$Y0">
+                <property role="Xl_RC" value="==" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="6JKNFu0hGIV" role="3ddBve" />
     </node>
   </node>
 </model>

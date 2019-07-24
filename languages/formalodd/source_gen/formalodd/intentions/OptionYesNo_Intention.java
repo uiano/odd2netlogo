@@ -46,7 +46,7 @@ public final class OptionYesNo_Intention extends AbstractIntentionDescriptor imp
     return list;
   }
   private List<String> parameter(final SNode node, final EditorContext editorContext) {
-    return ListSequence.fromListAndArray(new ArrayList<String>(), "Yes", "No");
+    return ListSequence.fromListAndArray(new ArrayList<String>(), "The condition for this action is that:", "There is no conditions for the action");
   }
   /*package*/ final class IntentionImplementation extends AbstractIntentionExecutable implements ParameterizedIntentionExecutable {
     private String myParameter;
@@ -56,11 +56,11 @@ public final class OptionYesNo_Intention extends AbstractIntentionDescriptor imp
     @Override
     public String getDescription(final SNode node, final EditorContext editorContext) {
       String option = "";
-      if (myParameter == "Yes") {
+      if (myParameter == "The condition for this action is that:") {
         option = "Yes";
 
       }
-      if (myParameter == "No") {
+      if (myParameter == "There is no conditions for the action") {
         option = "No";
       }
       return option;

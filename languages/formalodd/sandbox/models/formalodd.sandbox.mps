@@ -10,9 +10,7 @@
       <concept id="6400669868571328617" name="formalodd.structure.EndConditionOption" flags="ng" index="8rzWW">
         <property id="6400669868571328652" name="option" index="8rzZp" />
       </concept>
-      <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
-        <child id="6400669868569569336" name="who" index="8shtH" />
-      </concept>
+      <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO" />
       <concept id="6400669868564061737" name="formalodd.structure.OptionYesNo" flags="ng" index="8Bi5W">
         <property id="6400669868564061738" name="option" index="8Bi5Z" />
       </concept>
@@ -20,6 +18,7 @@
         <property id="6400669868562212809" name="option" index="8Stys" />
       </concept>
       <concept id="6400669868562211853" name="formalodd.structure.ChangeEnvironment" flags="ng" index="8StHo">
+        <child id="6400669868562285363" name="color" index="8S3LA" />
         <child id="6400669868562284331" name="changeEnvironmentOption" index="8Sc1Y" />
       </concept>
       <concept id="6400669868562064491" name="formalodd.structure.CompoundActionSelect" flags="ng" index="8STGY">
@@ -34,6 +33,9 @@
         <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
       </concept>
       <concept id="7308686357753541216" name="formalodd.structure.Condition" flags="ng" index="2lMhB$">
+        <reference id="7777943843990223145" name="targetEntity" index="k2vuu" />
+        <reference id="7777943843990223135" name="baseEntity" index="k2vuC" />
+        <child id="7777943843989740986" name="target" index="k0hcd" />
         <child id="7777943843989251283" name="base" index="k6ED$" />
       </concept>
       <concept id="7308686357753326564" name="formalodd.structure.Who" flags="ng" index="2lNc1w">
@@ -168,8 +170,13 @@
           <property role="8Bi5Z" value="Yes" />
         </node>
         <node concept="2lMhB$" id="6JKNFtZyOgB" role="2lMhBB">
-          <node concept="1_stcA" id="6JKNFu00QzR" role="k6ED$">
-            <property role="1_stcx" value="The Enviroment" />
+          <ref role="k2vuu" node="5EtG2rOxcs0" resolve="wolf" />
+          <ref role="k2vuC" node="5EtG2rOxcs3" resolve="sheep" />
+          <node concept="1_stcA" id="6JKNFu0bcoG" role="k6ED$">
+            <property role="1_stcx" value="The entity" />
+          </node>
+          <node concept="1_stcA" id="6JKNFu02h6t" role="k0hcd">
+            <property role="1_stcx" value="The entity" />
           </node>
         </node>
         <node concept="8shMO" id="6JKNFtZyOgD" role="8shMR" />
@@ -177,15 +184,46 @@
           <node concept="8Styt" id="6JKNFtZUAgQ" role="8Sc1Y">
             <property role="8Stys" value="Change Current Pixel" />
           </node>
+          <node concept="ZOwo6" id="6JKNFu08v5V" role="8S3LA">
+            <property role="1lo2db" value="Cyan" />
+          </node>
         </node>
       </node>
-      <node concept="2lNc1y" id="6JKNFu00QzT" role="2lMhBq" />
-      <node concept="2lNc1y" id="6JKNFtZUAiD" role="2lMhBq">
-        <node concept="8STGY" id="6JKNFtZUAjd" role="8S_BL">
-          <property role="8STGT" value="Kill Entity" />
+      <node concept="2lNc1y" id="6JKNFu0grqa" role="2lMhBq">
+        <node concept="2lMhB$" id="6JKNFu0hGq3" role="2lMhBB">
+          <ref role="k2vuC" node="5EtG2rOxcs3" resolve="sheep" />
+          <node concept="1_stcA" id="6JKNFu0hGq5" role="k6ED$">
+            <property role="1_stcx" value="The entity" />
+          </node>
+          <node concept="1_stcA" id="6JKNFu0hGql" role="k0hcd">
+            <property role="1_stcx" value="The attribute" />
+          </node>
         </node>
-        <node concept="8shMO" id="6JKNFtZUAjf" role="8shMR">
-          <node concept="2lNc1w" id="6JKNFtZUAjh" role="8shtH" />
+        <node concept="8Bi5W" id="6JKNFu0hGq1" role="8B8n3">
+          <property role="8Bi5Z" value="The condition for this action is that:" />
+        </node>
+      </node>
+      <node concept="2lNc1y" id="6JKNFu0ctfs" role="2lMhBq">
+        <node concept="8STGY" id="6JKNFu0ctfM" role="8S_BL">
+          <property role="8STGT" value="Change Environment" />
+        </node>
+        <node concept="8Bi5W" id="6JKNFu0grq7" role="8B8n3">
+          <property role="8Bi5Z" value="There is no conditions for the action" />
+        </node>
+        <node concept="8StHo" id="6JKNFu0dLmH" role="8S2Ck">
+          <node concept="8Styt" id="6JKNFu0dLmJ" role="8Sc1Y">
+            <property role="8Stys" value="Change Current Pixel" />
+          </node>
+        </node>
+      </node>
+      <node concept="2lNc1y" id="6JKNFu0dLmN" role="2lMhBq">
+        <node concept="8Bi5W" id="6JKNFu0dLnr" role="8B8n3">
+          <property role="8Bi5Z" value="Yes" />
+        </node>
+      </node>
+      <node concept="2lNc1y" id="6JKNFu09PGi" role="2lMhBq">
+        <node concept="8Bi5W" id="6JKNFu0dLmo" role="8B8n3">
+          <property role="8Bi5Z" value="n" />
         </node>
       </node>
     </node>

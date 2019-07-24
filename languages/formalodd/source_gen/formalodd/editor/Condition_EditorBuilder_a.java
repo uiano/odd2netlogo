@@ -12,7 +12,6 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -71,64 +70,57 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     editorCell.setCellId("Collection_2lgv54_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
-    editorCell.addEditorCell(createConstant_0());
     editorCell.addEditorCell(createRefNode_0());
-    if (nodeCondition_2lgv54_a2a()) {
+    if (nodeCondition_2lgv54_a1a()) {
       editorCell.addEditorCell(createRefCell_0());
     }
-    if (nodeCondition_2lgv54_a3a()) {
+    if (nodeCondition_2lgv54_a2a()) {
       editorCell.addEditorCell(createRefCell_1());
     }
-    if (nodeCondition_2lgv54_a4a()) {
+    if (nodeCondition_2lgv54_a3a()) {
       editorCell.addEditorCell(createRefCell_2());
     }
     editorCell.addEditorCell(createProperty_3());
     editorCell.addEditorCell(createRefNode_1());
-    if (nodeCondition_2lgv54_a7a()) {
+    if (nodeCondition_2lgv54_a6a()) {
       editorCell.addEditorCell(createRefCell_3());
     }
-    if (nodeCondition_2lgv54_a8a()) {
+    if (nodeCondition_2lgv54_a7a()) {
       editorCell.addEditorCell(createRefCell_4());
     }
-    if (nodeCondition_2lgv54_a9a()) {
+    if (nodeCondition_2lgv54_a8a()) {
       editorCell.addEditorCell(createRefCell_5());
     }
     editorCell.addEditorCell(createProperty_7());
     return editorCell;
   }
+  private boolean nodeCondition_2lgv54_a1a() {
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "The entity");
+  }
   private boolean nodeCondition_2lgv54_a2a() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "the entity");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "The enviroment");
   }
   private boolean nodeCondition_2lgv54_a3a() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "the enviroment");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "The attribute");
   }
-  private boolean nodeCondition_2lgv54_a4a() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "the attribute");
+  private boolean nodeCondition_2lgv54_a6a() {
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "The entity");
   }
   private boolean nodeCondition_2lgv54_a7a() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "the entity");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "The enviroment");
   }
   private boolean nodeCondition_2lgv54_a8a() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "the enviroment");
-  }
-  private boolean nodeCondition_2lgv54_a9a() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "the attribute");
-  }
-  private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "If");
-    editorCell.setCellId("Constant_2lgv54_a0");
-    editorCell.setDefaultText("");
-    return editorCell;
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x2045364d4534e56bL, 0x2045364d4534e56cL, "Who"), "The attribute");
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new Condition_EditorBuilder_a.baseSingleRoleHandler_2lgv54_b0(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base"), getEditorContext());
+    SingleRoleCellProvider provider = new Condition_EditorBuilder_a.baseSingleRoleHandler_2lgv54_a0(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77fea64d3L, "base"), getEditorContext());
     return provider.createCell();
   }
-  private static class baseSingleRoleHandler_2lgv54_b0 extends SingleRoleCellProvider {
+  private static class baseSingleRoleHandler_2lgv54_a0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public baseSingleRoleHandler_2lgv54_b0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public baseSingleRoleHandler_2lgv54_a0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }
@@ -447,14 +439,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     }
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new Condition_EditorBuilder_a.targetSingleRoleHandler_2lgv54_g0(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target"), getEditorContext());
+    SingleRoleCellProvider provider = new Condition_EditorBuilder_a.targetSingleRoleHandler_2lgv54_f0(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b260L, 0x6bf0ceb77ff1ddbaL, "target"), getEditorContext());
     return provider.createCell();
   }
-  private static class targetSingleRoleHandler_2lgv54_g0 extends SingleRoleCellProvider {
+  private static class targetSingleRoleHandler_2lgv54_f0 extends SingleRoleCellProvider {
     @NotNull
     private SNode myNode;
 
-    public targetSingleRoleHandler_2lgv54_g0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
+    public targetSingleRoleHandler_2lgv54_f0(SNode ownerNode, SContainmentLink containmentLink, EditorContext context) {
       super(containmentLink, context);
       myNode = ownerNode;
     }

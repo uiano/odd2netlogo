@@ -1504,6 +1504,7 @@
       <property role="IQ2ns" value="7308686357753541219" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6lHESjKDb9w" resolve="Condition" />
     </node>
     <node concept="1TJgyj" id="6lHESjKDb9_" role="1TKVEi">
