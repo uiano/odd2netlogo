@@ -2534,22 +2534,6 @@
           <ref role="1NtTu8" to="86kt:6lHESjKDbc5" resolve="MoveSpeed" />
         </node>
       </node>
-      <node concept="3EZMnI" id="5zjJPlgD5lC" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgD5lD" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgD5lE" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgD5lF" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgESPF" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgD5lG" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgD5lH" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgD5lT" role="2iSdaV" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlg9BSQ">
@@ -3022,6 +3006,9 @@
           <node concept="3F2HdR" id="5zjJPlg$Anv" role="3EZMnx">
             <ref role="1NtTu8" to="86kt:6lHESjKDb9u" resolve="compoundAction" />
             <node concept="2iRkQZ" id="5zjJPlg$Anw" role="2czzBx" />
+            <node concept="3F0ifn" id="5EtG2rP1o9C" role="2czzBI">
+              <property role="3F0ifm" value="enter to add new action" />
+            </node>
           </node>
         </node>
       </node>
@@ -3065,22 +3052,6 @@
           <ref role="1NtTu8" to="86kt:5zjJPlgcScN" resolve="color" />
         </node>
         <node concept="2iRfu4" id="5zjJPlgcAtr" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgD6vk" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgD6vl" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgD6vm" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgDQK$" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgDz2v" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgDQKA" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgDQKM" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgD6v_" role="2iSdaV" />
       </node>
       <node concept="3F0ifn" id="5zjJPlgD6v5" role="3EZMnx" />
       <node concept="2iRkQZ" id="5zjJPlgcAtf" role="2iSdaV" />
@@ -3128,22 +3099,6 @@
         <ref role="1NtTu8" to="86kt:5zjJPlgHXqB" resolve="changeAttribute" />
         <node concept="2iRkQZ" id="5zjJPlgHXqO" role="2czzBx" />
       </node>
-      <node concept="3EZMnI" id="5zjJPlgD5yu" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgD5yv" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgD5yw" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgD5yx" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgDyQJ" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgD5yy" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgD5yz" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgD5yJ" role="2iSdaV" />
-      </node>
       <node concept="2iRkQZ" id="5zjJPlgCE4a" role="2iSdaV" />
     </node>
   </node>
@@ -3168,22 +3123,6 @@
           <ref role="1NtTu8" to="86kt:5zjJPlgDzVZ" resolve="conflictOption" />
         </node>
       </node>
-      <node concept="3EZMnI" id="5zjJPlgD4Im" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgD4In" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgD4Io" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgD4I$" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgDyR2" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgD4I_" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgD4IA" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgD4IN" role="2iSdaV" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD5J8">
@@ -3203,22 +3142,6 @@
         </node>
         <node concept="2iRfu4" id="5zjJPlgDscX" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="5zjJPlgD5Jk" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgD5Jl" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgD5Jm" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgD5Jn" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgDyQv" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgD5Jo" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgD5Jp" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgD5J_" role="2iSdaV" />
-      </node>
       <node concept="2iRkQZ" id="5zjJPlgD5Jd" role="2iSdaV" />
     </node>
   </node>
@@ -3229,22 +3152,6 @@
       <node concept="3F2HdR" id="5zjJPlgHXrf" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:5zjJPlgHXoT" resolve="changeAttribute" />
         <node concept="2iRkQZ" id="5zjJPlgHXrh" role="2czzBx" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgD6iO" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgD6iP" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgD6iQ" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgD6iR" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgDyR7" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgD6iS" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgD6iT" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgD6j5" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="5zjJPlgD6iH" role="2iSdaV" />
     </node>
