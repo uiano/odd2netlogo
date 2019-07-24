@@ -233,7 +233,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
       getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(compoundActionListHandler_mslv0s_a0b0.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x656dab84f0a4b25eL, "compoundAction")));
       try {
         EditorCell emptyCell = null;
-        emptyCell = super.createEmptyCell();
+        emptyCell = createConstant_2();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -252,6 +252,12 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
           elementCell.setSubstituteInfo((isEmptyCell ? new SEmptyContainmentSubstituteInfo(elementCell) : new SChildSubstituteInfo(elementCell)));
         }
       }
+    }
+    private EditorCell createConstant_2() {
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "enter to add new action");
+      editorCell.setCellId("Constant_mslv0s_a0a1a");
+      editorCell.setDefaultText("");
+      return editorCell;
     }
   }
 }

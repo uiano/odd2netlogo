@@ -10,11 +10,18 @@
       <concept id="6400669868571328617" name="formalodd.structure.EndConditionOption" flags="ng" index="8rzWW">
         <property id="6400669868571328652" name="option" index="8rzZp" />
       </concept>
-      <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO" />
+      <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
+        <child id="6400669868569569336" name="who" index="8shtH" />
+      </concept>
       <concept id="6400669868564061737" name="formalodd.structure.OptionYesNo" flags="ng" index="8Bi5W">
         <property id="6400669868564061738" name="option" index="8Bi5Z" />
       </concept>
-      <concept id="6400669868562211853" name="formalodd.structure.ChangeEnvironment" flags="ng" index="8StHo" />
+      <concept id="6400669868562212808" name="formalodd.structure.ChangeEnvironmentOption" flags="ng" index="8Styt">
+        <property id="6400669868562212809" name="option" index="8Stys" />
+      </concept>
+      <concept id="6400669868562211853" name="formalodd.structure.ChangeEnvironment" flags="ng" index="8StHo">
+        <child id="6400669868562284331" name="changeEnvironmentOption" index="8Sc1Y" />
+      </concept>
       <concept id="6400669868562064491" name="formalodd.structure.CompoundActionSelect" flags="ng" index="8STGY">
         <property id="6400669868562064492" name="option" index="8STGT" />
       </concept>
@@ -81,6 +88,9 @@
       <concept id="3840659476812056007" name="formalodd.structure.Location" flags="ng" index="ZOwqP">
         <property id="3961341278979810179" name="showLocation" index="21lQ5$" />
       </concept>
+      <concept id="3840659476812056008" name="formalodd.structure.Area" flags="ng" index="ZOwqU">
+        <property id="3840659476812056009" name="selectlocations" index="ZOwqV" />
+      </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <property id="6955527831106468148" name="showColor" index="2YXOq1" />
         <child id="3961341278979996238" name="Location" index="21i3yD" />
@@ -96,6 +106,8 @@
         <property id="3864151261535133771" name="BackGround" index="1jzt_i" />
         <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
+        <child id="7777943843983741036" name="color" index="kpDVr" />
+        <child id="2325324488110139214" name="entityReference" index="1_5P43" />
       </concept>
       <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
         <property id="3864151261524127934" name="Options" index="1g9sAB" />
@@ -125,6 +137,9 @@
         <property id="193207073772188501" name="Options" index="1qTHIq" />
         <reference id="193207073772240675" name="attribute" index="1qTLvG" />
       </concept>
+      <concept id="2325324488110139210" name="formalodd.structure.EntityReference" flags="ng" index="1_5P47">
+        <reference id="2325324488113493380" name="entity" index="1_Kaf9" />
+      </concept>
       <concept id="2325324488108205419" name="formalodd.structure.IntentionEffect" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
       </concept>
@@ -152,9 +167,20 @@
         </node>
         <node concept="2lMhB$" id="6JKNFtZyOgB" role="2lMhBB" />
         <node concept="8shMO" id="6JKNFtZyOgD" role="8shMR" />
-        <node concept="8StHo" id="6JKNFtZyOgF" role="8S2Ck" />
+        <node concept="8StHo" id="6JKNFtZyOgF" role="8S2Ck">
+          <node concept="8Styt" id="6JKNFtZUAgQ" role="8Sc1Y">
+            <property role="8Stys" value="Change Current Pixel" />
+          </node>
+        </node>
       </node>
-      <node concept="2lNc1y" id="6JKNFtZyOgx" role="2lMhBq" />
+      <node concept="2lNc1y" id="6JKNFtZUAiD" role="2lMhBq">
+        <node concept="8STGY" id="6JKNFtZUAjd" role="8S_BL">
+          <property role="8STGT" value="Kill Entity" />
+        </node>
+        <node concept="8shMO" id="6JKNFtZUAjf" role="8shMR">
+          <node concept="2lNc1w" id="6JKNFtZUAjh" role="8shtH" />
+        </node>
+      </node>
     </node>
     <node concept="ZOwpU" id="5EtG2rOxcrP" role="3$p12O">
       <node concept="ZOwpW" id="5EtG2rOxcs0" role="ZOwpT">
@@ -234,6 +260,12 @@
       <property role="1jzt_n" value="30" />
       <property role="1jzt_b" value="0" />
       <property role="1jztgP" value="0" />
+      <node concept="1_5P47" id="6JKNFtZQWvo" role="1_5P43">
+        <ref role="1_Kaf9" node="5EtG2rOxcs0" resolve="wolf" />
+      </node>
+      <node concept="1_5P47" id="6JKNFtZQWwt" role="1_5P43">
+        <ref role="1_Kaf9" node="5EtG2rOxcs3" resolve="sheep" />
+      </node>
     </node>
     <node concept="1lur_c" id="5EtG2rOxctk" role="1ltb8M">
       <node concept="1llqSK" id="5EtG2rOxctn" role="1llqph">
@@ -253,6 +285,10 @@
         <property role="1qym4F" value="10" />
         <property role="1qFuL8" value="100" />
         <ref role="1llqZf" node="5EtG2rOxcs3" resolve="sheep" />
+        <node concept="1qTHIr" id="6JKNFtZQWvf" role="1qXBHY">
+          <property role="1qTHIq" value="1" />
+          <ref role="1qTLvG" node="6JKNFtZyQf0" resolve="test" />
+        </node>
         <node concept="1qTHIr" id="5EtG2rOM9AF" role="1qXBHY">
           <property role="1qTHIq" value="1" />
           <ref role="1qTLvG" node="5EtG2rOPxMo" resolve="willpower" />
@@ -300,30 +336,9 @@
   </node>
   <node concept="ZOwpP" id="6JKNFtZ_znF">
     <property role="TrG5h" value="Fire" />
+    <node concept="2lNc1x" id="6JKNFtZBUzq" role="8YInT" />
+    <node concept="2lNc1x" id="6JKNFtZUAhf" role="8YInT" />
     <node concept="ZOwpU" id="6JKNFtZ_znG" role="3$p12O">
-      <node concept="ZOwpW" id="6JKNFtZ_znN" role="ZOwpT">
-        <property role="TrG5h" value="Fire" />
-        <property role="1gPB68" value="is" />
-        <property role="1gPB6a" value="does not" />
-        <node concept="1g9sA$" id="6JKNFtZ_znP" role="1gaQrw">
-          <property role="1g9sAB" value="has a default" />
-        </node>
-        <node concept="ZOwrR" id="6JKNFtZ_znR" role="3$oDj3">
-          <property role="1lo2db" value="Red" />
-        </node>
-        <node concept="1gdyix" id="6JKNFtZ_znT" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
-        </node>
-        <node concept="2IdgYl" id="6JKNFtZ_znV" role="2Id2n4">
-          <property role="2IdgYi" value="1" />
-        </node>
-        <node concept="ZOwo7" id="6JKNFtZ_znX" role="ZOwpC">
-          <property role="1lPuH5" value="square" />
-        </node>
-        <node concept="1lOfep" id="6JKNFtZ_znZ" role="1laXez">
-          <property role="1lOfeo" value="do not" />
-        </node>
-      </node>
       <node concept="XAIu$" id="6JKNFtZ_znI" role="XAIuS">
         <property role="XAIu_" value="Tree" />
       </node>
@@ -341,6 +356,16 @@
             <property role="1lo2db" value="Green" />
           </node>
         </node>
+        <node concept="ZOwrm" id="6JKNFtZBUyf" role="2JZWw_">
+          <property role="TrG5h" value="Fire" />
+          <property role="2YXOq1" value="is" />
+          <node concept="ZOwqU" id="6JKNFtZBUym" role="21i3yD">
+            <property role="ZOwqV" value="left" />
+          </node>
+          <node concept="ZOwo6" id="6JKNFtZBUyp" role="2lOSUS">
+            <property role="1lo2db" value="Red" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="1g3uKF" id="6JKNFtZ_zon" role="1_8QpP">
@@ -349,6 +374,17 @@
       <property role="1jzt_b" value="0" />
       <property role="1jztgP" value="0" />
       <property role="1jzt_i" value="black" />
+      <node concept="ZOwrR" id="6JKNFtZBUzi" role="kpDVr" />
+    </node>
+    <node concept="2lMhBk" id="6JKNFtZBUyt" role="8rG0U">
+      <node concept="2lMhBi" id="6JKNFtZBUyS" role="2lMhBt">
+        <node concept="8rzWW" id="6JKNFtZBUyY" role="8rzWZ">
+          <property role="8rzZp" value="No Environment Attribute is" />
+        </node>
+      </node>
+    </node>
+    <node concept="1lur_c" id="6JKNFtZBUz3" role="1ltb8M">
+      <node concept="1llqSK" id="6JKNFtZBUzg" role="1llqph" />
     </node>
   </node>
 </model>
