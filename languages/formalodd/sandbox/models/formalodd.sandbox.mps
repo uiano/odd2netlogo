@@ -106,6 +106,7 @@
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
         <property id="3864151261535137068" name="WrapVertical" index="1jztgP" />
         <property id="3864151261535133778" name="WrapHorizontal" index="1jzt_b" />
+        <property id="3864151261535133771" name="BackGround" index="1jzt_i" />
         <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
       </concept>
@@ -322,7 +323,7 @@
     <node concept="2lMhBk" id="5EtG2rOxcuL" role="8rG0U">
       <node concept="2lMhBi" id="5EtG2rOznyF" role="2lMhBt">
         <ref role="2I6lkX" node="5EtG2rOxcs3" resolve="sheep" />
-        <node concept="8rzWW" id="5EtG2rOznyN" role="8rzWZ">
+        <node concept="8rzWW" id="6JKNFtZ$nJ_" role="8rzWZ">
           <property role="8rzZp" value="All Entity is" />
         </node>
       </node>
@@ -348,6 +349,59 @@
           <property role="1lo2db" value="Green" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="ZOwpP" id="6JKNFtZ_znF">
+    <property role="TrG5h" value="Fire" />
+    <node concept="ZOwpU" id="6JKNFtZ_znG" role="3$p12O">
+      <node concept="ZOwpW" id="6JKNFtZ_znN" role="ZOwpT">
+        <property role="TrG5h" value="Fire" />
+        <property role="1gPB68" value="is" />
+        <property role="1gPB6a" value="does not" />
+        <node concept="1g9sA$" id="6JKNFtZ_znP" role="1gaQrw">
+          <property role="1g9sAB" value="has a default" />
+        </node>
+        <node concept="ZOwrR" id="6JKNFtZ_znR" role="3$oDj3">
+          <property role="1lo2db" value="Red" />
+        </node>
+        <node concept="1gdyix" id="6JKNFtZ_znT" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
+        </node>
+        <node concept="2IdgYl" id="6JKNFtZ_znV" role="2Id2n4">
+          <property role="2IdgYi" value="1" />
+        </node>
+        <node concept="ZOwo7" id="6JKNFtZ_znX" role="ZOwpC">
+          <property role="1lPuH5" value="square" />
+        </node>
+        <node concept="1lOfep" id="6JKNFtZ_znZ" role="1laXez">
+          <property role="1lOfeo" value="do not" />
+        </node>
+      </node>
+      <node concept="XAIu$" id="6JKNFtZ_znI" role="XAIuS">
+        <property role="XAIu_" value="Tree" />
+      </node>
+      <node concept="XAIu$" id="6JKNFtZ_znK" role="XAIuS">
+        <property role="XAIu_" value="Fire" />
+      </node>
+      <node concept="ZOwr_" id="6JKNFtZ_zo1" role="ZOwpV">
+        <node concept="ZOwrm" id="6JKNFtZ_zo3" role="2JZWw_">
+          <property role="TrG5h" value="Tree" />
+          <property role="2YXOq1" value="is" />
+          <node concept="ZOwqP" id="6JKNFtZ_zob" role="21i3yD">
+            <property role="21lQ5$" value="random" />
+          </node>
+          <node concept="ZOwo6" id="6JKNFtZ_zod" role="2lOSUS">
+            <property role="1lo2db" value="Green" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1g3uKF" id="6JKNFtZ_zon" role="1_8QpP">
+      <property role="1jzKJm" value="100" />
+      <property role="1jzt_n" value="2" />
+      <property role="1jzt_b" value="0" />
+      <property role="1jztgP" value="0" />
+      <property role="1jzt_i" value="black" />
     </node>
   </node>
 </model>
