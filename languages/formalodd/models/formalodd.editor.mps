@@ -1033,8 +1033,8 @@
           <property role="3F0ifm" value="the simulation uses the bacground color" />
           <node concept="Vb9p2" id="3mweh_AeHg$" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="3mweh_AeHf5" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3mweh_Abu1b" resolve="BackGround" />
+        <node concept="3F1sOY" id="6JKNFtZ__1P" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6JKNFtZ__1G" resolve="color" />
         </node>
       </node>
     </node>

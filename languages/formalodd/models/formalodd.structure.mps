@@ -1023,6 +1023,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="215d$P5kAta" resolve="EntityReference" />
     </node>
+    <node concept="1TJgyj" id="6JKNFtZ__1G" role="1TKVEi">
+      <property role="IQ2ns" value="7777943843983741036" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="color" />
+      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="DefaultColor" />
+    </node>
     <node concept="1TJgyi" id="3mweh__OAr1" role="1TKVEl">
       <property role="IQ2nx" value="3864151261529138881" />
       <property role="TrG5h" value="test" />
