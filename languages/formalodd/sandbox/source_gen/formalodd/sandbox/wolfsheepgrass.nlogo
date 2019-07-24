@@ -10,7 +10,7 @@ willpower
 to setup
 clear-all
 ask patches [
-if (random 100) < grassslider[
+if pxcor = 1 and pycor = 1[
 set pcolor Green
 ]
 ]
@@ -117,21 +117,6 @@ SLIDER
 sheepslider
 sheepslider
 0
-100
-30.0
-1
-1
-NIL
-HORIZONTAL
-
-SLIDER
-7
-155
-179
-188
-grassslider
-grassslider
-1
 100
 30.0
 1
