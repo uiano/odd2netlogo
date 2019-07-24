@@ -856,12 +856,17 @@
                 <property role="lacIc" value=" set color " />
               </node>
               <node concept="l9hG8" id="3mweh_Ab6Tv" role="lcghm">
-                <node concept="2OqwBi" id="3mweh_Ab6Tw" role="lb14g">
-                  <node concept="2GrUjf" id="3mweh_Ab6Tx" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="3mweh_Ab6Ta" resolve="e" />
+                <node concept="2OqwBi" id="5EtG2rOCnQL" role="lb14g">
+                  <node concept="2OqwBi" id="3mweh_Ab6Tw" role="2Oq$k0">
+                    <node concept="2GrUjf" id="3mweh_Ab6Tx" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="3mweh_Ab6Ta" resolve="e" />
+                    </node>
+                    <node concept="3TrEf2" id="5EtG2rOC49V" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:6AuNKydZ5Jb" resolve="DefaultColor" />
+                    </node>
                   </node>
-                  <node concept="3TrcHB" id="3mweh_Ab6Ty" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="showColors" />
+                  <node concept="3TrcHB" id="5EtG2rOCobB" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:aIqcXnN$I4" resolve="color" />
                   </node>
                 </node>
               </node>
@@ -936,12 +941,17 @@
                     <property role="lacIc" value="set shape &quot;" />
                   </node>
                   <node concept="l9hG8" id="3mweh_Ab6TN" role="lcghm">
-                    <node concept="2OqwBi" id="3mweh_Ab6TO" role="lb14g">
-                      <node concept="2GrUjf" id="3mweh_Ab6TP" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="3mweh_Ab6Ta" resolve="e" />
+                    <node concept="2OqwBi" id="5EtG2rOEb_z" role="lb14g">
+                      <node concept="2OqwBi" id="3mweh_Ab6TO" role="2Oq$k0">
+                        <node concept="2GrUjf" id="3mweh_Ab6TP" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="3mweh_Ab6Ta" resolve="e" />
+                        </node>
+                        <node concept="3TrEf2" id="3mweh_Ab6TQ" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:3lcKR8aBGkq" resolve="shape" />
+                        </node>
                       </node>
-                      <node concept="3TrEf2" id="3mweh_Ab6TQ" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:3lcKR8aBGkq" resolve="shape" />
+                      <node concept="3TrcHB" id="5EtG2rOEbUq" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:aIqcXnuSea" resolve="shape" />
                       </node>
                     </node>
                   </node>
@@ -970,12 +980,17 @@
                     <property role="lacIc" value="set size " />
                   </node>
                   <node concept="l9hG8" id="3mweh_Ab6U2" role="lcghm">
-                    <node concept="2OqwBi" id="3mweh_Ab6U3" role="lb14g">
-                      <node concept="2GrUjf" id="3mweh_Ab6U4" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="3mweh_Ab6Ta" resolve="e" />
+                    <node concept="2OqwBi" id="5EtG2rOED3d" role="lb14g">
+                      <node concept="2OqwBi" id="3mweh_Ab6U3" role="2Oq$k0">
+                        <node concept="2GrUjf" id="3mweh_Ab6U4" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="3mweh_Ab6Ta" resolve="e" />
+                        </node>
+                        <node concept="3TrEf2" id="5EtG2rOEsS_" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rOEpny" resolve="shapeSize" />
+                        </node>
                       </node>
-                      <node concept="3TrEf2" id="3mweh_Ab6U5" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:3mweh___LPG" resolve="shapeOptions" />
+                      <node concept="3TrcHB" id="5EtG2rOEDmE" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5EtG2rOEbYO" resolve="option" />
                       </node>
                     </node>
                   </node>
@@ -2249,12 +2264,17 @@
                 <node concept="Xl_RD" id="3mweh_Ab743" role="3uHU7w">
                   <property role="Xl_RC" value="random" />
                 </node>
-                <node concept="2OqwBi" id="3mweh_Ab744" role="3uHU7B">
-                  <node concept="2GrUjf" id="3mweh_Ab745" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="3mweh_Ab72K" resolve="p" />
+                <node concept="2OqwBi" id="5EtG2rOKAmG" role="3uHU7B">
+                  <node concept="2OqwBi" id="3mweh_Ab744" role="2Oq$k0">
+                    <node concept="2GrUjf" id="3mweh_Ab745" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="3mweh_Ab72K" resolve="p" />
+                    </node>
+                    <node concept="3TrEf2" id="5EtG2rOJx3u" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:3rTwIuRGrDe" resolve="Location" />
+                    </node>
                   </node>
-                  <node concept="3TrcHB" id="3mweh_Ab746" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="Distribution" />
+                  <node concept="3TrcHB" id="5EtG2rOKABZ" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:3rTwIuRFIe3" resolve="showLocation" />
                   </node>
                 </node>
               </node>

@@ -24,9 +24,20 @@ import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
+import org.jetbrains.mps.openapi.language.SReferenceLink;
+import jetbrains.mps.lang.editor.cellProviders.SReferenceCellProvider;
+import jetbrains.mps.util.Computable;
+import jetbrains.mps.editor.runtime.impl.CellUtil;
+import jetbrains.mps.nodeEditor.cellMenu.SReferenceSubstituteInfo;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import java.util.Objects;
+import jetbrains.mps.lang.core.behavior.LinkAttribute__BehaviorDescriptor;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.openapi.editor.update.AttributeKind;
 import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
@@ -34,14 +45,7 @@ import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
 import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.AttributeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.IAttributeDescriptor;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import java.util.Objects;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
-import jetbrains.mps.openapi.editor.update.AttributeKind;
 import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyOrNode;
 
 /*package*/ class EndCondition_EditorBuilder_a extends AbstractEditorBuilder {
@@ -87,7 +91,9 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     if (nodeCondition_h0ow06_a3a0()) {
       editorCell.addEditorCell(createProperty_1());
     }
-    editorCell.addEditorCell(createProperty_2());
+    if (nodeCondition_h0ow06_a4a0()) {
+      editorCell.addEditorCell(createProperty_2());
+    }
     return editorCell;
   }
   private boolean nodeCondition_h0ow06_a1a0() {
@@ -95,11 +101,13 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
 
   }
   private boolean nodeCondition_h0ow06_a2a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "All Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550c322d4L, "option2"), "No Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
-
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "All Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
   }
   private boolean nodeCondition_h0ow06_a3a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550c322d4L, "option2"), "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
+  }
+  private boolean nodeCondition_h0ow06_a4a0() {
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new EndCondition_EditorBuilder_a.endConditionOptionSingleRoleHandler_h0ow06_a0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption"), getEditorContext());
@@ -212,27 +220,38 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     }
   }
   private EditorCell createRefCell_0() {
-    CellProviderWithRole provider = new RefCellCellProvider(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33cdbL, "entity"), MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x354cc3720a9ec50eL, "formalodd.structure.Entity"), "entity", getEditorContext()) {
-
-      @Override
-      protected EditorCell createRefCell(EditorContext context, SNode effectiveNode, SNode node) {
-        EditorCell cell = new EndCondition_EditorBuilder_a.Inline_Builder0(getEditorContext(), myNode, effectiveNode).createCell();
-        installDeleteActions_nullable_aggregation(cell);
+    final SReferenceLink referenceLink = MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity");
+    SReferenceCellProvider provider = new SReferenceCellProvider(getNode(), referenceLink, getEditorContext()) {
+      protected EditorCell createReferenceCell(final SNode targetNode) {
+        EditorCell cell = getUpdateSession().updateReferencedNodeCell(new Computable<EditorCell>() {
+          public EditorCell compute() {
+            return new EndCondition_EditorBuilder_a.Inline_Builder0(getEditorContext(), getNode(), targetNode).createCell();
+          }
+        }, targetNode, MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity"));
+        CellUtil.setupIDeprecatableStyles(targetNode, cell);
+        setSemanticNodeToCells(cell, getNode());
+        installDeleteActions_nullable_reference(cell);
         return cell;
       }
     };
+
     provider.setNoTargetText("<no entity>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(getEditorContext());
+    EditorCell editorCell = provider.createCell();
+
     if (editorCell.getSRole() == null) {
       editorCell.setReferenceCell(true);
-      editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33cdbL, "entity"));
+      editorCell.setSRole(MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity"));
     }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    if (attributeConcept != null) {
+    editorCell.setSubstituteInfo(new SReferenceSubstituteInfo(editorCell, referenceLink));
+    Iterable<SNode> referenceAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute"));
+    Iterable<SNode> currentReferenceAttributes = Sequence.fromIterable(referenceAttributes).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return Objects.equals(LinkAttribute__BehaviorDescriptor.getLink_id1avfQ4BEFo6.invoke(it), referenceLink);
+      }
+    });
+    if (Sequence.fromIterable(currentReferenceAttributes).isNotEmpty()) {
       EditorManager manager = EditorManager.getInstanceFromContext(getEditorContext());
-      return manager.createNodeRoleAttributeCell(attributeConcept, provider.getRoleAttributeKind(), editorCell);
+      return manager.createNodeRoleAttributeCell(Sequence.fromIterable(currentReferenceAttributes).first(), AttributeKind.REFERENCE, editorCell);
     } else
     return editorCell;
   }
