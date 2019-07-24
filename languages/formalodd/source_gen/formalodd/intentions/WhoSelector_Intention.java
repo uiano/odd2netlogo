@@ -46,7 +46,7 @@ public final class WhoSelector_Intention extends AbstractIntentionDescriptor imp
     return list;
   }
   private List<String> parameter(final SNode node, final EditorContext editorContext) {
-    return ListSequence.fromListAndArray(new ArrayList<String>(), "Entity", "Environment");
+    return ListSequence.fromListAndArray(new ArrayList<String>(), "Entity", "Environment", "All");
   }
   /*package*/ final class IntentionImplementation extends AbstractIntentionExecutable implements ParameterizedIntentionExecutable {
     private String myParameter;
@@ -62,6 +62,10 @@ public final class WhoSelector_Intention extends AbstractIntentionDescriptor imp
       if (myParameter == "Environment") {
         option = "Environment";
       }
+      if (myParameter == "All") {
+        option = "All";
+      }
+
       return option;
 
     }
