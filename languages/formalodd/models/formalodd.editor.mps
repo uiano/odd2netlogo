@@ -2220,6 +2220,10 @@
     <property role="3GE5qa" value="Initialisation" />
     <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXoibdx" role="2wV5jI">
+      <node concept="3F0ifn" id="3OPyh9IeREp" role="3EZMnx">
+        <property role="3F0ifm" value="For this entity" />
+        <node concept="Vb9p2" id="3OPyh9Igb7i" role="3F10Kt" />
+      </node>
       <node concept="3F0ifn" id="aIqcXophjT" role="3EZMnx">
         <property role="3F0ifm" value="chose attribute option with alt enter" />
         <node concept="pkWqt" id="aIqcXophwX" role="pqm2j">
@@ -2359,7 +2363,7 @@
     <property role="3GE5qa" value="Initialisation" />
     <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
     <node concept="3F0ifn" id="aIqcXoibfp" role="2wV5jI">
-      <property role="3F0ifm" value="For this entity shape is initialised" />
+      <property role="3F0ifm" value="shape is initialised" />
       <node concept="Vb9p2" id="aIqcXoibfs" role="3F10Kt" />
     </node>
   </node>
@@ -2368,7 +2372,7 @@
     <property role="3GE5qa" value="Initialisation" />
     <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
     <node concept="3F0ifn" id="aIqcXoinRa" role="2wV5jI">
-      <property role="3F0ifm" value="For this entity color is initialised" />
+      <property role="3F0ifm" value=" color is initialised" />
       <node concept="Vb9p2" id="aIqcXon36Q" role="3F10Kt" />
     </node>
   </node>
@@ -2378,10 +2382,6 @@
     <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXoinT3" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXoinT4" role="2iSdaV" />
-      <node concept="3F0ifn" id="aIqcXoinT5" role="3EZMnx">
-        <property role="3F0ifm" value="For this Entity" />
-        <node concept="Vb9p2" id="aIqcXoinT6" role="3F10Kt" />
-      </node>
       <node concept="3F0ifn" id="aIqcXoinT7" role="3EZMnx">
         <property role="3F0ifm" value="the attribute" />
       </node>
@@ -2405,10 +2405,6 @@
     <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXoinUV" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXoinUW" role="2iSdaV" />
-      <node concept="3F0ifn" id="aIqcXoinUX" role="3EZMnx">
-        <property role="3F0ifm" value="For this Entity" />
-        <node concept="Vb9p2" id="aIqcXoinUY" role="3F10Kt" />
-      </node>
       <node concept="3F0ifn" id="aIqcXoinUZ" role="3EZMnx">
         <property role="3F0ifm" value="the attribute" />
       </node>
@@ -2444,10 +2440,6 @@
     <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXon3vS" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXon3vT" role="2iSdaV" />
-      <node concept="3F0ifn" id="aIqcXon3vU" role="3EZMnx">
-        <property role="3F0ifm" value="For this Entity" />
-        <node concept="Vb9p2" id="aIqcXon3vV" role="3F10Kt" />
-      </node>
       <node concept="3F0ifn" id="aIqcXon3vW" role="3EZMnx">
         <property role="3F0ifm" value="the attribute" />
       </node>
