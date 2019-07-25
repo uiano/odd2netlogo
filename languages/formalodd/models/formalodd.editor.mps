@@ -187,10 +187,6 @@
         <node concept="3F1sOY" id="5zjJPlgJnZE" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5EtG2rPwnoa" resolve="overview" />
         </node>
-        <node concept="3F2HdR" id="5zjJPlgnNRz" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rPwnoh" resolve="procedure" />
-          <node concept="2iRkQZ" id="5zjJPlgnNR_" role="2czzBx" />
-        </node>
         <node concept="2iRkQZ" id="5JxfqxAtDtH" role="2iSdaV" />
       </node>
       <node concept="l2Vlx" id="6AuNKydYHWi" role="2iSdaV" />
@@ -3883,6 +3879,10 @@
         <node concept="3F0ifn" id="3OPyh9HQ0JO" role="3EZMnx">
           <property role="3F0ifm" value="Scheduling" />
         </node>
+        <node concept="3F2HdR" id="5zjJPlgnNRz" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQ5Lu$" resolve="procedure" />
+          <node concept="2iRkQZ" id="5zjJPlgnNR_" role="2czzBx" />
+        </node>
         <node concept="3F0ifn" id="3OPyh9HQ0JX" role="3EZMnx" />
         <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
           <node concept="VPM3Z" id="5zjJPlgJo0J" role="3F10Kt" />
@@ -3891,7 +3891,6 @@
           </node>
           <node concept="2iRfu4" id="5zjJPlgJo0M" role="2iSdaV" />
         </node>
-        <node concept="3F0ifn" id="3OPyh9HQ0Jt" role="3EZMnx" />
         <node concept="VPM3Z" id="5zjJPlgJo18" role="3F10Kt" />
         <node concept="VPXOz" id="3OPyh9HQ0Ka" role="3F10Kt">
           <property role="VOm3f" value="true" />

@@ -31,6 +31,7 @@
       </concept>
       <concept id="7308686357753541200" name="formalodd.structure.Overview" flags="ng" index="2lMhBk">
         <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
+        <child id="6529568716141041572" name="procedure" index="2GyEu2" />
       </concept>
       <concept id="7308686357753541216" name="formalodd.structure.Condition" flags="ng" index="2lMhB$">
         <property id="7308686357753541413" name="ifcondition" index="2lMhyx" />
@@ -253,7 +254,9 @@
       </node>
     </node>
     <node concept="1g3uKF" id="3OPyh9HNrAb" role="1_8QpP" />
-    <node concept="2lMhBk" id="3OPyh9HWvCh" role="2J7coG" />
+    <node concept="2lMhBk" id="3OPyh9HWvCh" role="2J7coG">
+      <node concept="2lNc1x" id="5EtG2rQ9Jan" role="2GyEu2" />
+    </node>
   </node>
 </model>
 

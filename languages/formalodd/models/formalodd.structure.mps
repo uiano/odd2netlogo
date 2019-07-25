@@ -98,13 +98,6 @@
       <property role="20kJfa" value="overview" />
       <ref role="20lvS9" node="6lHESjKDb9g" resolve="Overview" />
     </node>
-    <node concept="1TJgyj" id="5EtG2rPwnoh" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716131235345" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="procedure" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
-    </node>
     <node concept="1TJgyj" id="5EtG2rPwDiF" role="1TKVEi">
       <property role="IQ2ns" value="6529568716131308715" />
       <property role="20lmBu" value="aggregation" />
@@ -1600,6 +1593,13 @@
       <property role="20kJfa" value="endCondition" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6lHESjKDb9m" resolve="EndCondition" />
+    </node>
+    <node concept="1TJgyj" id="5EtG2rQ5Lu$" role="1TKVEi">
+      <property role="IQ2ns" value="6529568716141041572" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="procedure" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9j">
