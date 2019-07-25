@@ -127,6 +127,9 @@
   </registry>
   <node concept="ZOwpP" id="5EtG2rP$WiP">
     <property role="TrG5h" value="Fire" />
+    <node concept="XAmFv" id="3OPyh9I2YQz" role="XAo8I">
+      <property role="XAmFg" value="The purpose of this model is to se how tree densety effects how widespread forest fires become." />
+    </node>
     <node concept="2lNc1x" id="5EtG2rP$Wjh" role="2J7coR">
       <property role="TrG5h" value="burn" />
       <node concept="2lNc1y" id="5EtG2rP$Wj$" role="2lMhBq">
@@ -205,7 +208,10 @@
     <property role="TrG5h" value="WolfSheep" />
     <node concept="2lNc1x" id="3OPyh9HWvCf" role="2J7coR" />
     <node concept="XAmFv" id="3OPyh9HTVpo" role="XAo8I">
-      <property role="XAmFg" value="t" />
+      <property role="XAmFg" value="The purpose of this odd" />
+    </node>
+    <node concept="XAmFv" id="3OPyh9I2YQw" role="XAo8I">
+      <property role="XAmFg" value="is to see how predators and herbivores balance echother out " />
     </node>
     <node concept="ZOwpW" id="3OPyh9HM8Z5" role="2J7Mii">
       <property role="TrG5h" value="Wolf" />
