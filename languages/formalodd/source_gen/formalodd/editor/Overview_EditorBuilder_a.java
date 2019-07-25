@@ -9,11 +9,11 @@ import jetbrains.mps.openapi.editor.EditorContext;
 import jetbrains.mps.openapi.editor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -50,46 +50,86 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     editorCell.setCellId("Collection_360pyx_a");
     editorCell.setBig(true);
     setCellContext(editorCell);
-    editorCell.addEditorCell(createCollection_1());
-    editorCell.addEditorCell(createCollection_2());
-    return editorCell;
-  }
-  private EditorCell createCollection_1() {
-    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
-    editorCell.setCellId("Collection_360pyx_a0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createConstant_0());
+    editorCell.addEditorCell(createConstant_1());
+    editorCell.addEditorCell(createCollection_1());
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "The following end conditions is wanted:");
-    editorCell.setCellId("Constant_360pyx_a0a");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Overview");
+    editorCell.setCellId("Constant_360pyx_a0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    style.set(StyleAttributes.FONT_SIZE, 20);
+    editorCell.getStyle().putAll(style);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_1() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_360pyx_b0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createCollection_1() {
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
+    editorCell.setCellId("Collection_360pyx_c0");
+    Style style = new StyleImpl();
+    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.DRAW_BORDER, true);
+    editorCell.getStyle().putAll(style);
+    editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createConstant_3());
+    editorCell.addEditorCell(createCollection_2());
+    editorCell.addEditorCell(createConstant_5());
+    editorCell.addEditorCell(createRefNodeList_0());
+    return editorCell;
+  }
+  private EditorCell createConstant_2() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Scheduling");
+    editorCell.setCellId("Constant_360pyx_a2a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_3() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_360pyx_b2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createCollection_2() {
-    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
-    editorCell.setCellId("Collection_360pyx_b0");
+    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
+    editorCell.setCellId("Collection_360pyx_c2a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createRefNodeList_0());
+    editorCell.addEditorCell(createConstant_4());
+    return editorCell;
+  }
+  private EditorCell createConstant_4() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "The following end conditions is wanted:");
+    editorCell.setCellId("Constant_360pyx_a2c0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+  private EditorCell createConstant_5() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_360pyx_d2a");
+    editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new Overview_EditorBuilder_a.endConditionListHandler_360pyx_a1a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new Overview_EditorBuilder_a.endConditionListHandler_360pyx_e2a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_endCondition");
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class endConditionListHandler_360pyx_a1a extends RefNodeListHandler {
+  private static class endConditionListHandler_360pyx_e2a extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public endConditionListHandler_360pyx_a1a(SNode ownerNode, EditorContext context) {
+    public endConditionListHandler_360pyx_e2a(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -112,7 +152,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_a1a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x656dab84f0a4b259L, "endCondition")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_e2a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x656dab84f0a4b259L, "endCondition")));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();

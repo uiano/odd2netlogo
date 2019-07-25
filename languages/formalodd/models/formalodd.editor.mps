@@ -25,6 +25,7 @@
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -44,6 +45,9 @@
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
       <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1186415722038" name="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" flags="ln" index="VSNWy">
+        <property id="1221209241505" name="value" index="1lJzqX" />
+      </concept>
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -144,13 +148,21 @@
         <node concept="3F1sOY" id="5EtG2rPwDm6" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5EtG2rPwDl9" resolve="entityName" />
         </node>
-        <node concept="3F2HdR" id="5EtG2rPwDmy" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rPwDiO" resolve="entity" />
-          <node concept="2iRkQZ" id="5EtG2rPwDm$" role="2czzBx" />
+        <node concept="3EZMnI" id="3OPyh9HNrCe" role="3EZMnx">
+          <node concept="3F2HdR" id="5EtG2rPwDmy" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rPwDiO" resolve="entity" />
+            <node concept="2iRkQZ" id="5EtG2rPwDm$" role="2czzBx" />
+          </node>
+          <node concept="3F0ifn" id="3OPyh9HNrEx" role="3EZMnx" />
+          <node concept="3F1sOY" id="5EtG2rPwDn6" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rPwDiF" resolve="environment" />
+          </node>
+          <node concept="2iRkQZ" id="3OPyh9HNrCf" role="2iSdaV" />
+          <node concept="VPXOz" id="3OPyh9HNrFb" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
-        <node concept="3F1sOY" id="5EtG2rPwDn6" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rPwDiF" resolve="environment" />
-        </node>
+        <node concept="3F0ifn" id="3OPyh9HNrE9" role="3EZMnx" />
         <node concept="3F1sOY" id="aIqcXnRuOp" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:aIqcXnQHFX" resolve="initialisation" />
         </node>
@@ -1859,6 +1871,9 @@
       <node concept="3F2HdR" id="aIqcXo00O$" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:aIqcXnYWUu" resolve="InitalisationObject" />
         <node concept="2iRkQZ" id="aIqcXo00OA" role="2czzBx" />
+      </node>
+      <node concept="VPXOz" id="3OPyh9HOIfO" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>
@@ -3827,15 +3842,33 @@
     <property role="3GE5qa" value="Scheduling" />
     <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="Overview" />
     <node concept="3EZMnI" id="5zjJPlgJo0v" role="2wV5jI">
-      <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgJo0J" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgJo0L" role="3EZMnx">
-          <property role="3F0ifm" value="The following end conditions is wanted:" />
+      <node concept="3F0ifn" id="3OPyh9HQ0IL" role="3EZMnx">
+        <property role="3F0ifm" value="Overview" />
+        <node concept="pVoyu" id="3OPyh9HRjHy" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
-        <node concept="2iRfu4" id="5zjJPlgJo0M" role="2iSdaV" />
+        <node concept="VSNWy" id="3OPyh9HRjHB" role="3F10Kt">
+          <property role="1lJzqX" value="20" />
+        </node>
       </node>
+      <node concept="3F0ifn" id="3OPyh9HQ0IW" role="3EZMnx" />
       <node concept="3EZMnI" id="5zjJPlgJo16" role="3EZMnx">
+        <node concept="3F0ifn" id="3OPyh9HQ0JO" role="3EZMnx">
+          <property role="3F0ifm" value="Scheduling" />
+        </node>
+        <node concept="3F0ifn" id="3OPyh9HQ0JX" role="3EZMnx" />
+        <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
+          <node concept="VPM3Z" id="5zjJPlgJo0J" role="3F10Kt" />
+          <node concept="3F0ifn" id="5zjJPlgJo0L" role="3EZMnx">
+            <property role="3F0ifm" value="The following end conditions is wanted:" />
+          </node>
+          <node concept="2iRfu4" id="5zjJPlgJo0M" role="2iSdaV" />
+        </node>
+        <node concept="3F0ifn" id="3OPyh9HQ0Jt" role="3EZMnx" />
         <node concept="VPM3Z" id="5zjJPlgJo18" role="3F10Kt" />
+        <node concept="VPXOz" id="3OPyh9HQ0Ka" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="3F2HdR" id="5zjJPlgJo1s" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endCondition" />
           <node concept="2iRkQZ" id="5zjJPlgJo1u" role="2czzBx" />
