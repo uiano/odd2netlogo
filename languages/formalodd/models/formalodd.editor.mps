@@ -2565,20 +2565,6 @@
       <node concept="2iRkQZ" id="5zjJPlg9BSV" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5zjJPlga2Sv">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:5zjJPlga2RY" resolve="WhoEntity" />
-    <node concept="3F0A7n" id="5zjJPlga2Sx" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:5zjJPlga2RZ" resolve="Entity" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5zjJPlga2SY">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:5zjJPlga2S2" resolve="WhoEnvironment" />
-    <node concept="3F0A7n" id="5zjJPlga2T0" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:5zjJPlga2S3" resolve="Environment" />
-    </node>
-  </node>
   <node concept="PKFIW" id="5zjJPlga6Tp">
     <property role="TrG5h" value="InitialisationEnvironment" />
     <property role="3GE5qa" value="Initialisation" />

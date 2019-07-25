@@ -1840,28 +1840,6 @@
       <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5zjJPlga2RY">
-    <property role="EcuMT" value="6400669868561542654" />
-    <property role="3GE5qa" value="Scheduling" />
-    <property role="TrG5h" value="WhoEntity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5zjJPlga2RZ" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868561542655" />
-      <property role="TrG5h" value="Entity" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5zjJPlga2S2">
-    <property role="EcuMT" value="6400669868561542658" />
-    <property role="3GE5qa" value="Scheduling" />
-    <property role="TrG5h" value="WhoEnvironment" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5zjJPlga2S3" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868561542659" />
-      <property role="TrG5h" value="Environment" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="5zjJPlgc2hF">
     <property role="EcuMT" value="6400669868562064491" />
     <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />

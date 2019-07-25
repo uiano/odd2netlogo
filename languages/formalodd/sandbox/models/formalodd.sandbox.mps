@@ -158,6 +158,75 @@
       </concept>
     </language>
   </registry>
+  <node concept="ZOwpP" id="5EtG2rQfxRI">
+    <property role="TrG5h" value="Fire" />
+    <node concept="XAmFv" id="5EtG2rQfxRJ" role="XAo8I">
+      <property role="XAmFg" value="The purpose of this model is to simulate forest fires." />
+    </node>
+    <node concept="XAmFv" id="5EtG2rQfxRM" role="XAo8I">
+      <property role="XAmFg" value="We can use this model to simulate how the fire will spread depending on the density of the trees." />
+    </node>
+    <node concept="ZOwr_" id="5EtG2rQfxRU" role="2J7Mid">
+      <node concept="ZOwrm" id="5EtG2rQfxRX" role="2JZWw_">
+        <property role="TrG5h" value="Fire" />
+        <property role="2YXOq1" value="is" />
+        <node concept="ZOwqP" id="5EtG2rQfxS0" role="21i3yD">
+          <property role="21lQ5$" value="leftside" />
+        </node>
+        <node concept="ZOwo6" id="5EtG2rQfxSa" role="2lOSUS">
+          <property role="1lo2db" value="Red" />
+        </node>
+      </node>
+      <node concept="ZOwrm" id="5EtG2rQfxS3" role="2JZWw_">
+        <property role="TrG5h" value="Trees" />
+        <property role="2YXOq1" value="is" />
+        <node concept="ZOwqP" id="5EtG2rQfxSd" role="21i3yD">
+          <property role="21lQ5$" value="random" />
+        </node>
+        <node concept="ZOwo6" id="5EtG2rQfxSg" role="2lOSUS">
+          <property role="1lo2db" value="Green" />
+        </node>
+      </node>
+    </node>
+    <node concept="1g3uKF" id="5EtG2rQfxSj" role="1_8QpP">
+      <property role="1jzKJm" value="100" />
+      <property role="1jzt_n" value="2" />
+      <property role="1jzt_b" value="0" />
+      <property role="1jztgP" value="0" />
+    </node>
+    <node concept="2lMhBk" id="5EtG2rQfxSm" role="2J7coG">
+      <node concept="2lMhBi" id="5EtG2rQfxTn" role="2lMhBt">
+        <node concept="8rzWW" id="5EtG2rQfxTH" role="8rzWZ">
+          <property role="8rzZp" value="No Environment is" />
+        </node>
+        <node concept="ZOwo6" id="5EtG2rQfxTK" role="848cd">
+          <property role="1lo2db" value="Red" />
+        </node>
+      </node>
+      <node concept="2lNc1x" id="5EtG2rQfxSp" role="2GyEu2">
+        <property role="TrG5h" value="Burn" />
+        <node concept="2lNc1y" id="5EtG2rQfxSA" role="2lMhBq">
+          <node concept="8STGY" id="5EtG2rQfxSD" role="8S_BL">
+            <property role="8STGT" value="Change Environment" />
+          </node>
+          <node concept="8StHo" id="5EtG2rQfxSJ" role="8S2Ck">
+            <property role="2Jk6Gu" value="- 3.5" />
+            <ref role="2JNnW9" node="5EtG2rQfxS3" resolve="Trees" />
+            <node concept="8Styt" id="5EtG2rQfxSM" role="8Sc1Y">
+              <property role="8Stys" value="Change Neighbors" />
+            </node>
+            <node concept="ZOwo6" id="5EtG2rQfxTk" role="8S3LA">
+              <property role="1lo2db" value="Red" />
+            </node>
+          </node>
+        </node>
+        <node concept="2lNc1w" id="5EtG2rQfxSs" role="8Yoip">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="5EtG2rQfxRX" resolve="Fire" />
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="ZOwpP" id="3OPyh9I6TwF">
     <property role="TrG5h" value="wolfSheep" />
     <node concept="ZOwpW" id="3OPyh9I6TwM" role="2J7Mii">
@@ -190,11 +259,11 @@
       <node concept="ZOwrR" id="3OPyh9IeOsV" role="3$oDj3">
         <property role="1lo2db" value="White" />
       </node>
-      <node concept="2IdgYl" id="3OPyh9IeOsZ" role="2Id2n4">
-        <property role="2IdgYi" value="2" />
-      </node>
       <node concept="1gdyix" id="3OPyh9IeOsT" role="1gdMhP">
         <property role="1gdyiw" value="has a default shape which is" />
+      </node>
+      <node concept="2IdgYl" id="3OPyh9IeOsZ" role="2Id2n4">
+        <property role="2IdgYi" value="2" />
       </node>
       <node concept="1ldJ2l" id="3OPyh9IeOsN" role="1l3At2">
         <property role="TrG5h" value="sheep-energy" />
@@ -330,75 +399,6 @@
         <property role="2YXOq1" value="is" />
         <node concept="ZOwo6" id="3OPyh9ImCoq" role="2lOSUS">
           <property role="1lo2db" value="Green" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="ZOwpP" id="5EtG2rQfxRI">
-    <property role="TrG5h" value="Fire" />
-    <node concept="XAmFv" id="5EtG2rQfxRJ" role="XAo8I">
-      <property role="XAmFg" value="The purpose of this model is to simulate forest fires." />
-    </node>
-    <node concept="XAmFv" id="5EtG2rQfxRM" role="XAo8I">
-      <property role="XAmFg" value="We can use this model to simulate how the fire will spread depending on the density of the trees." />
-    </node>
-    <node concept="ZOwr_" id="5EtG2rQfxRU" role="2J7Mid">
-      <node concept="ZOwrm" id="5EtG2rQfxRX" role="2JZWw_">
-        <property role="TrG5h" value="Fire" />
-        <property role="2YXOq1" value="is" />
-        <node concept="ZOwqP" id="5EtG2rQfxS0" role="21i3yD">
-          <property role="21lQ5$" value="leftside" />
-        </node>
-        <node concept="ZOwo6" id="5EtG2rQfxSa" role="2lOSUS">
-          <property role="1lo2db" value="Red" />
-        </node>
-      </node>
-      <node concept="ZOwrm" id="5EtG2rQfxS3" role="2JZWw_">
-        <property role="TrG5h" value="Trees" />
-        <property role="2YXOq1" value="is" />
-        <node concept="ZOwqP" id="5EtG2rQfxSd" role="21i3yD">
-          <property role="21lQ5$" value="random" />
-        </node>
-        <node concept="ZOwo6" id="5EtG2rQfxSg" role="2lOSUS">
-          <property role="1lo2db" value="Green" />
-        </node>
-      </node>
-    </node>
-    <node concept="1g3uKF" id="5EtG2rQfxSj" role="1_8QpP">
-      <property role="1jzKJm" value="100" />
-      <property role="1jzt_n" value="2" />
-      <property role="1jzt_b" value="0" />
-      <property role="1jztgP" value="0" />
-    </node>
-    <node concept="2lMhBk" id="5EtG2rQfxSm" role="2J7coG">
-      <node concept="2lMhBi" id="5EtG2rQfxTn" role="2lMhBt">
-        <node concept="8rzWW" id="5EtG2rQfxTH" role="8rzWZ">
-          <property role="8rzZp" value="No Environment is" />
-        </node>
-        <node concept="ZOwo6" id="5EtG2rQfxTK" role="848cd">
-          <property role="1lo2db" value="Red" />
-        </node>
-      </node>
-      <node concept="2lNc1x" id="5EtG2rQfxSp" role="2GyEu2">
-        <property role="TrG5h" value="Burn" />
-        <node concept="2lNc1y" id="5EtG2rQfxSA" role="2lMhBq">
-          <node concept="8STGY" id="5EtG2rQfxSD" role="8S_BL">
-            <property role="8STGT" value="Change Environment" />
-          </node>
-          <node concept="8StHo" id="5EtG2rQfxSJ" role="8S2Ck">
-            <property role="2Jk6Gu" value="- 3.5" />
-            <ref role="2JNnW9" node="5EtG2rQfxS3" resolve="Trees" />
-            <node concept="8Styt" id="5EtG2rQfxSM" role="8Sc1Y">
-              <property role="8Stys" value="Change Neighbors" />
-            </node>
-            <node concept="ZOwo6" id="5EtG2rQfxTk" role="8S3LA">
-              <property role="1lo2db" value="Red" />
-            </node>
-          </node>
-        </node>
-        <node concept="2lNc1w" id="5EtG2rQfxSs" role="8Yoip">
-          <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="5EtG2rQfxRX" resolve="Fire" />
         </node>
       </node>
     </node>
