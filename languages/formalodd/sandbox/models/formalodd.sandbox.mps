@@ -60,6 +60,7 @@
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
         <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
         <child id="3864151261524484089" name="colorOptions" index="1gaQrw" />
+        <child id="193207073761136525" name="attribute" index="1l3At2" />
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
       <concept id="3840659476812056007" name="formalodd.structure.Location" flags="ng" index="ZOwqP">
@@ -83,6 +84,14 @@
       <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
         <property id="3864151261524127934" name="Options" index="1g9sAB" />
       </concept>
+      <concept id="193207073761708011" name="formalodd.structure.AttributeValueOptions" flags="ng" index="1l1EW$" />
+      <concept id="193207073760647258" name="formalodd.structure.Attribute" flags="ng" index="1ldJ2l">
+        <property id="193207073763490983" name="max" index="1lrphC" />
+        <property id="193207073763490980" name="min" index="1lrphF" />
+        <child id="193207073761750590" name="ValueOption" index="1l1KrL" />
+        <child id="193207073760647262" name="StabelOption" index="1ldJ2h" />
+      </concept>
+      <concept id="193207073760134576" name="formalodd.structure.AttributeStabelOption" flags="ng" index="1lfEPZ" />
       <concept id="193207073767147263" name="formalodd.structure.InitalisationObject" flags="ng" index="1llqSK" />
       <concept id="193207073764790659" name="formalodd.structure.Initialisation" flags="ng" index="1lur_c">
         <child id="193207073767149214" name="InitalisationObject" index="1llqph" />
@@ -179,6 +188,14 @@
     <node concept="ZOwpW" id="3OPyh9I6Txc" role="2J7Mii">
       <property role="TrG5h" value="sheep" />
       <property role="1gPB68" value="is" />
+      <property role="1gPB6a" value="does" />
+      <node concept="1ldJ2l" id="5EtG2rQjnf4" role="1l3At2">
+        <property role="TrG5h" value="energy" />
+        <property role="1lrphF" value="0" />
+        <property role="1lrphC" value="100" />
+        <node concept="1lfEPZ" id="5EtG2rQjnf7" role="1ldJ2h" />
+        <node concept="1l1EW$" id="5EtG2rQjnfa" role="1l1KrL" />
+      </node>
       <node concept="1g9sA$" id="3OPyh9I6Tx_" role="1gaQrw">
         <property role="1g9sAB" value="has a default" />
       </node>
@@ -189,7 +206,9 @@
     </node>
     <node concept="1g3uKF" id="3OPyh9I6TwI" role="1_8QpP" />
     <node concept="1lur_c" id="3OPyh9I6TwK" role="1ltb8M">
-      <node concept="1llqSK" id="3OPyh9I6TwW" role="1llqph" />
+      <node concept="1llqSK" id="5EtG2rQjnfB" role="1llqph" />
+      <node concept="1llqSK" id="5EtG2rQjnfs" role="1llqph" />
+      <node concept="1llqSK" id="5EtG2rQjnfj" role="1llqph" />
     </node>
     <node concept="ZOwr_" id="3OPyh9I6TwO" role="2J7Mid">
       <node concept="ZOwrm" id="3OPyh9I6TwQ" role="2JZWw_">

@@ -1413,12 +1413,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="5EtG2rPS4sk" role="3cqZAp" />
-            <node concept="3clFbH" id="5EtG2rPS4k1" role="3cqZAp" />
-            <node concept="3clFbH" id="5EtG2rPS3Yr" role="3cqZAp" />
-            <node concept="3clFbH" id="5EtG2rPS3wt" role="3cqZAp" />
-            <node concept="3clFbH" id="5EtG2rPS2Am" role="3cqZAp" />
-            <node concept="3clFbH" id="5EtG2rPS23K" role="3cqZAp" />
           </node>
         </node>
         <node concept="3clFbH" id="5EtG2rPQIs7" role="3cqZAp" />
