@@ -39,7 +39,6 @@ import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
@@ -73,6 +72,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createCollection_1());
     editorCell.addEditorCell(createCollection_2());
+    editorCell.addEditorCell(createConstant_3());
     return editorCell;
   }
   private EditorCell createCollection_1() {
@@ -182,17 +182,8 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
     }
   }
   private EditorCell createCollection_2() {
-    EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Indent());
-    editorCell.setCellId("Collection_mslv0s_b0");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.SELECTABLE, false);
-    editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createCollection_3());
-    return editorCell;
-  }
-  private EditorCell createCollection_3() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
-    editorCell.setCellId("Collection_mslv0s_a1a");
+    editorCell.setCellId("Collection_mslv0s_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
@@ -200,17 +191,17 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new Procedure_EditorBuilder_a.compoundActionListHandler_mslv0s_a0b0(myNode, getEditorContext());
+    AbstractCellListHandler handler = new Procedure_EditorBuilder_a.compoundActionListHandler_mslv0s_a1a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_compoundAction");
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class compoundActionListHandler_mslv0s_a0b0 extends RefNodeListHandler {
+  private static class compoundActionListHandler_mslv0s_a1a extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public compoundActionListHandler_mslv0s_a0b0(SNode ownerNode, EditorContext context) {
+    public compoundActionListHandler_mslv0s_a1a(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -233,7 +224,7 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(compoundActionListHandler_mslv0s_a0b0.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x656dab84f0a4b25eL, "compoundAction")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(compoundActionListHandler_mslv0s_a1a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x656dab84f0a4b25eL, "compoundAction")));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_2();
@@ -258,9 +249,15 @@ import org.jetbrains.mps.openapi.language.SAbstractConcept;
     }
     private EditorCell createConstant_2() {
       EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "enter to add new action");
-      editorCell.setCellId("Constant_mslv0s_a0a1a");
+      editorCell.setCellId("Constant_mslv0s_a0b0");
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
+  private EditorCell createConstant_3() {
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+    editorCell.setCellId("Constant_mslv0s_c0");
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 }

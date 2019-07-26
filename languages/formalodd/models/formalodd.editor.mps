@@ -2961,21 +2961,18 @@
         </node>
         <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="5zjJPlgy3Tf" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgy3Th" role="3F10Kt" />
-        <node concept="l2Vlx" id="5zjJPlgy3Tk" role="2iSdaV" />
-        <node concept="3EZMnI" id="5zjJPlg$Anm" role="3EZMnx">
-          <node concept="2iRkQZ" id="5zjJPlg$Ann" role="2iSdaV" />
-          <node concept="VPM3Z" id="5zjJPlg$Ano" role="3F10Kt" />
-          <node concept="3F2HdR" id="5zjJPlg$Anv" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:6lHESjKDb9u" resolve="compoundAction" />
-            <node concept="2iRkQZ" id="5zjJPlg$Anw" role="2czzBx" />
-            <node concept="3F0ifn" id="5EtG2rP1o9C" role="2czzBI">
-              <property role="3F0ifm" value="enter to add new action" />
-            </node>
+      <node concept="3EZMnI" id="5zjJPlg$Anm" role="3EZMnx">
+        <node concept="2iRkQZ" id="5zjJPlg$Ann" role="2iSdaV" />
+        <node concept="VPM3Z" id="5zjJPlg$Ano" role="3F10Kt" />
+        <node concept="3F2HdR" id="5zjJPlg$Anv" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6lHESjKDb9u" resolve="compoundAction" />
+          <node concept="2iRkQZ" id="5zjJPlg$Anw" role="2czzBx" />
+          <node concept="3F0ifn" id="5EtG2rP1o9C" role="2czzBI">
+            <property role="3F0ifm" value="enter to add new action" />
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="3OPyh9InX4X" role="3EZMnx" />
       <node concept="2iRkQZ" id="5zjJPlgalCB" role="2iSdaV" />
       <node concept="VPXOz" id="3OPyh9HWvCj" role="3F10Kt">
         <property role="VOm3f" value="true" />
