@@ -131,6 +131,9 @@
         <node concept="VPM3Z" id="5JxfqxAtDtE" role="3F10Kt" />
         <node concept="3F0A7n" id="5JxfqxAtDu5" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="VSNWy" id="3OPyh9HVduP" role="3F10Kt">
+            <property role="1lJzqX" value="25" />
+          </node>
         </node>
         <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
           <property role="3F0ifm" value="purpose" />
@@ -145,8 +148,11 @@
             </node>
           </node>
         </node>
-        <node concept="3F1sOY" id="5EtG2rPwDm6" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rPwDl9" resolve="entityName" />
+        <node concept="3F0ifn" id="3OPyh9HTVpu" role="3EZMnx">
+          <property role="3F0ifm" value="Entity state Scales" />
+          <node concept="VSNWy" id="3OPyh9HTVpN" role="3F10Kt">
+            <property role="1lJzqX" value="20" />
+          </node>
         </node>
         <node concept="3EZMnI" id="3OPyh9HNrCe" role="3EZMnx">
           <node concept="3F2HdR" id="5EtG2rPwDmy" role="3EZMnx">
@@ -1017,6 +1023,9 @@
       </node>
       <node concept="2iRkQZ" id="3mweh_AdFTx" role="2iSdaV" />
       <node concept="VPM3Z" id="3mweh_AdFTy" role="3F10Kt" />
+      <node concept="VPXOz" id="3OPyh9HXLLs" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
       <node concept="3EZMnI" id="3mweh_AeH91" role="3EZMnx">
         <node concept="2iRfu4" id="3mweh_AeH92" role="2iSdaV" />
         <node concept="3F0ifn" id="3mweh_AdFTz" role="3EZMnx">
@@ -3071,6 +3080,9 @@
         </node>
       </node>
       <node concept="2iRkQZ" id="5zjJPlgalCB" role="2iSdaV" />
+      <node concept="VPXOz" id="3OPyh9HWvCj" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgc2i8">
