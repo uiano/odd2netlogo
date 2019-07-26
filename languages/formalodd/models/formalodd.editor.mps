@@ -43,6 +43,7 @@
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
       <concept id="1186414928363" name="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" flags="ln" index="VPM3Z" />
+      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
       <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
         <child id="1088186146602" name="editorComponent" index="1sWHZn" />
       </concept>
@@ -181,6 +182,9 @@
       <node concept="2iRkQZ" id="6AuNKydYTkT" role="2iSdaV" />
       <node concept="3F1sOY" id="5JxfqxAuSiI" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:3lcKR8aBGk9" resolve="environment" />
+      </node>
+      <node concept="VPXOz" id="3OPyh9HHltK" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>

@@ -2530,6 +2530,7 @@
           <node concept="l8MVK" id="5EtG2rPww1x" role="lcghm" />
           <node concept="l8MVK" id="5EtG2rPww1y" role="lcghm" />
         </node>
+        <node concept="3clFbH" id="3OPyh9HJWgt" role="3cqZAp" />
         <node concept="2Gpval" id="5EtG2rPww1z" role="3cqZAp">
           <node concept="2GrKxI" id="5EtG2rPww1$" role="2Gsz3X">
             <property role="TrG5h" value="e" />
@@ -3533,27 +3534,8 @@
   <node concept="WtQ9Q" id="3mweh_Ab6nh">
     <property role="3GE5qa" value="Environment" />
     <ref role="WuzLi" to="86kt:3mweh__FtkM" resolve="GraphicsWindow" />
-    <node concept="11bSqf" id="3mweh_Ab6Qs" role="11c4hB">
-      <node concept="3clFbS" id="3mweh_Ab6Qt" role="2VODD2">
-        <node concept="1X3_iC" id="3mweh_Ab6VL" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="lc7rE" id="3mweh_Ab6VM" role="8Wnug">
-            <node concept="la8eA" id="3mweh_Ab6VN" role="lcghm">
-              <property role="lacIc" value="setturtles" />
-            </node>
-            <node concept="l8MVK" id="3mweh_Ab6VO" role="lcghm" />
-          </node>
-        </node>
-        <node concept="3clFbH" id="215d$P5hSE$" role="3cqZAp" />
-        <node concept="3clFbH" id="215d$P5z0vh" role="3cqZAp" />
-        <node concept="3clFbH" id="215d$P5sTgO" role="3cqZAp" />
-        <node concept="3clFbH" id="215d$P5hTzZ" role="3cqZAp" />
-        <node concept="3clFbH" id="215d$P5hSXF" role="3cqZAp" />
-        <node concept="3clFbH" id="215d$P5hTgO" role="3cqZAp" />
-        <node concept="3clFbH" id="3mweh_Ab74C" role="3cqZAp" />
-        <node concept="3clFbH" id="3mweh_Ab74D" role="3cqZAp" />
-      </node>
+    <node concept="11bSqf" id="3OPyh9HJWfV" role="11c4hB">
+      <node concept="3clFbS" id="3OPyh9HJWfW" role="2VODD2" />
     </node>
   </node>
   <node concept="WtQ9Q" id="215d$P5glhi">
