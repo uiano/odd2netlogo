@@ -14,7 +14,6 @@ import jetbrains.mps.openapi.editor.style.Style;
 import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
@@ -96,10 +95,10 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     return editorCell;
   }
   private boolean nodeCondition_97n6ac_a1a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf555032640dL, 0x58d3bf5550337f2bL, "changeEnvironmentOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf55503267c8L, 0x58d3bf55503267c9L, "option"), "Change Neighbors");
+    return SPropertyOperations.hasValue(myNode, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf555032640dL, 0x5a9db026f72a0488L, "option"), "Change Neighbors");
   }
   private boolean nodeCondition_97n6ac_a2a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf555032640dL, 0x58d3bf5550337f2bL, "changeEnvironmentOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf55503267c8L, 0x58d3bf55503267c9L, "option"), "Change Neighbors");
+    return SPropertyOperations.hasValue(myNode, MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf555032640dL, 0x5a9db026f72a0488L, "option"), "Change Neighbors");
   }
   private EditorCell createRefNode_0() {
     SingleRoleCellProvider provider = new ChangeEnvironment_EditorBuilder_a.changeEnvironmentOptionSingleRoleHandler_97n6ac_a0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf555032640dL, 0x58d3bf5550337f2bL, "changeEnvironmentOption"), getEditorContext());

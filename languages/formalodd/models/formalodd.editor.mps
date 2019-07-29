@@ -21,7 +21,6 @@
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
-      <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
@@ -2461,38 +2460,177 @@
     </node>
   </node>
   <node concept="24kQdi" id="6lHESjKE0ft">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <ref role="1XX52x" to="86kt:6lHESjKDbbO" resolve="Move" />
     <node concept="3EZMnI" id="6lHESjKE0fv" role="2wV5jI">
       <node concept="2iRkQZ" id="6lHESjKE0fy" role="2iSdaV" />
-      <node concept="3EZMnI" id="6lHESjKE0fK" role="3EZMnx">
-        <node concept="2iRfu4" id="6lHESjKE0fL" role="2iSdaV" />
-        <node concept="VPM3Z" id="6lHESjKE0fM" role="3F10Kt" />
-        <node concept="3F0ifn" id="6lHESjKE0fQ" role="3EZMnx">
-          <property role="3F0ifm" value="Move Left" />
+      <node concept="3F0ifn" id="5EtG2rQQ_VC" role="3EZMnx" />
+      <node concept="3EZMnI" id="5EtG2rQDAcG" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQDAcI" role="3F10Kt" />
+        <node concept="3F0ifn" id="5EtG2rQDAcK" role="3EZMnx">
+          <property role="3F0ifm" value="Move Action" />
         </node>
-        <node concept="3F0A7n" id="6lHESjKE0fV" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDbbR" resolve="MoveLeft" />
+        <node concept="3F1sOY" id="5EtG2rQFF6i" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQD_XN" resolve="moveSelect" />
         </node>
-        <node concept="3F0ifn" id="6lHESjKE0g3" role="3EZMnx">
-          <property role="3F0ifm" value="Move Right" />
+        <node concept="2iRfu4" id="5EtG2rQDAcL" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="5EtG2rQFKeM" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFKeO" role="3F10Kt" />
+        <node concept="3F1sOY" id="5EtG2rQFMCC" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMCe" resolve="moveForward" />
         </node>
-        <node concept="3F0A7n" id="6lHESjKE0gd" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDbbT" resolve="MoveRight" />
-        </node>
-        <node concept="3F0ifn" id="6lHESjKE0gp" role="3EZMnx">
-          <property role="3F0ifm" value="Move Radius" />
-        </node>
-        <node concept="3F0A7n" id="6lHESjKE0gB" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDbc0" resolve="MoveRadius" />
-        </node>
-        <node concept="3F0ifn" id="6lHESjKE0gR" role="3EZMnx">
-          <property role="3F0ifm" value="Move Speed" />
-        </node>
-        <node concept="3F0A7n" id="6lHESjKE0h9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDbc5" resolve="MoveSpeed" />
+        <node concept="2iRfu4" id="5EtG2rQFKeR" role="2iSdaV" />
+        <node concept="pkWqt" id="5EtG2rQFMHh" role="pqm2j">
+          <node concept="3clFbS" id="5EtG2rQFMHi" role="2VODD2">
+            <node concept="3clFbF" id="5EtG2rQFMOB" role="3cqZAp">
+              <node concept="2OqwBi" id="5EtG2rQFPGP" role="3clFbG">
+                <node concept="2OqwBi" id="5EtG2rQFO7g" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5EtG2rQFN1Q" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rQFMOA" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5EtG2rQFNnz" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:5EtG2rQD_XN" resolve="moveSelect" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="5EtG2rQFO$j" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:5EtG2rQDhqU" resolve="option" />
+                  </node>
+                </node>
+                <node concept="3y1jeu" id="5EtG2rQFR5Y" role="2OqNvi">
+                  <node concept="Xl_RD" id="5EtG2rQFRw8" role="3y1jev">
+                    <property role="Xl_RC" value="Move Forward" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="5EtG2rQFMCR" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMCS" role="3F10Kt" />
+        <node concept="3F1sOY" id="5EtG2rQFMCT" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMCa" resolve="moveBack" />
+        </node>
+        <node concept="2iRfu4" id="5EtG2rQFMCU" role="2iSdaV" />
+        <node concept="pkWqt" id="5EtG2rQFSEJ" role="pqm2j">
+          <node concept="3clFbS" id="5EtG2rQFSEK" role="2VODD2">
+            <node concept="3clFbF" id="5EtG2rQFSM4" role="3cqZAp">
+              <node concept="2OqwBi" id="5EtG2rQFSM5" role="3clFbG">
+                <node concept="2OqwBi" id="5EtG2rQFSM6" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5EtG2rQFSM7" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rQFSM8" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5EtG2rQFSM9" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:5EtG2rQD_XN" resolve="moveSelect" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="5EtG2rQFSMa" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:5EtG2rQDhqU" resolve="option" />
+                  </node>
+                </node>
+                <node concept="3y1jeu" id="5EtG2rQFSMb" role="2OqNvi">
+                  <node concept="Xl_RD" id="5EtG2rQFSMc" role="3y1jev">
+                    <property role="Xl_RC" value="Move Back" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5EtG2rQFMDr" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMDs" role="3F10Kt" />
+        <node concept="3F1sOY" id="5EtG2rQFMDt" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMCw" resolve="turnLeft" />
+        </node>
+        <node concept="2iRfu4" id="5EtG2rQFMDu" role="2iSdaV" />
+        <node concept="pkWqt" id="5EtG2rQFUG3" role="pqm2j">
+          <node concept="3clFbS" id="5EtG2rQFUG4" role="2VODD2">
+            <node concept="3clFbF" id="5EtG2rQFUNo" role="3cqZAp">
+              <node concept="2OqwBi" id="5EtG2rQFUNp" role="3clFbG">
+                <node concept="2OqwBi" id="5EtG2rQFUNq" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5EtG2rQFUNr" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rQFUNs" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5EtG2rQFUNt" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:5EtG2rQD_XN" resolve="moveSelect" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="5EtG2rQFUNu" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:5EtG2rQDhqU" resolve="option" />
+                  </node>
+                </node>
+                <node concept="3y1jeu" id="5EtG2rQFUNv" role="2OqNvi">
+                  <node concept="Xl_RD" id="5EtG2rQFUNw" role="3y1jev">
+                    <property role="Xl_RC" value="Turn Left" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5EtG2rQFME9" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMEa" role="3F10Kt" />
+        <node concept="3F1sOY" id="5EtG2rQFMEb" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMCp" resolve="turnRight" />
+        </node>
+        <node concept="2iRfu4" id="5EtG2rQFMEc" role="2iSdaV" />
+        <node concept="pkWqt" id="5EtG2rQFWlu" role="pqm2j">
+          <node concept="3clFbS" id="5EtG2rQFWlv" role="2VODD2">
+            <node concept="3clFbF" id="5EtG2rQFWsN" role="3cqZAp">
+              <node concept="2OqwBi" id="5EtG2rQFWsO" role="3clFbG">
+                <node concept="2OqwBi" id="5EtG2rQFWsP" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5EtG2rQFWsQ" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rQFWsR" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5EtG2rQFWsS" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:5EtG2rQD_XN" resolve="moveSelect" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="5EtG2rQFWsT" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:5EtG2rQDhqU" resolve="option" />
+                  </node>
+                </node>
+                <node concept="3y1jeu" id="5EtG2rQFWsU" role="2OqNvi">
+                  <node concept="Xl_RD" id="5EtG2rQFWsV" role="3y1jev">
+                    <property role="Xl_RC" value="Turn Right" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3EZMnI" id="5EtG2rQFMF1" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMF2" role="3F10Kt" />
+        <node concept="3F1sOY" id="5EtG2rQFMF3" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMCj" resolve="turnRandom" />
+        </node>
+        <node concept="2iRfu4" id="5EtG2rQFMF4" role="2iSdaV" />
+        <node concept="pkWqt" id="5EtG2rQFX0_" role="pqm2j">
+          <node concept="3clFbS" id="5EtG2rQFX0A" role="2VODD2">
+            <node concept="3clFbF" id="5EtG2rQFX0G" role="3cqZAp">
+              <node concept="2OqwBi" id="5EtG2rQFX0H" role="3clFbG">
+                <node concept="2OqwBi" id="5EtG2rQFX0I" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5EtG2rQFX0J" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rQFX0K" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5EtG2rQFX0L" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:5EtG2rQD_XN" resolve="moveSelect" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="5EtG2rQFX0M" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:5EtG2rQDhqU" resolve="option" />
+                  </node>
+                </node>
+                <node concept="3y1jeu" id="5EtG2rQFX0N" role="2OqNvi">
+                  <node concept="Xl_RD" id="5EtG2rQFX0O" role="3y1jev">
+                    <property role="Xl_RC" value="Turn Random" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQDhqh" role="3EZMnx" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlg9BSQ">
@@ -2626,319 +2764,24 @@
   <node concept="24kQdi" id="5zjJPlgalBx">
     <property role="3GE5qa" value="Scheduling" />
     <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="CompoundAction" />
-    <node concept="3EZMnI" id="5zjJPlgalBz" role="2wV5jI">
-      <node concept="3EZMnI" id="6JKNFu06iQ2" role="3EZMnx">
-        <node concept="2iRfu4" id="6JKNFu06iQ3" role="2iSdaV" />
-        <node concept="3F1sOY" id="5zjJPlgcuqF" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
+    <node concept="3EZMnI" id="5EtG2rQW0Vd" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQW0Ve" role="3EZMnx">
+        <node concept="3F0ifn" id="5EtG2rQW0Vf" role="3EZMnx" />
+        <node concept="3F0ifn" id="5EtG2rQW0Wi" role="3EZMnx">
+          <property role="3F0ifm" value="Add compound actions" />
         </node>
+        <node concept="3F2HdR" id="5EtG2rQW0Wb" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQW0us" resolve="action" />
+          <node concept="2iRkQZ" id="5EtG2rQW0Wd" role="2czzBx" />
+        </node>
+        <node concept="VPM3Z" id="5EtG2rQW0Vn" role="3F10Kt" />
+        <node concept="ljvvj" id="5EtG2rQW0Vo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQW0VP" role="3EZMnx" />
+        <node concept="2iRkQZ" id="5EtG2rQW0Vu" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="6JKNFu06k8o" role="3EZMnx">
-        <node concept="2iRfu4" id="6JKNFu06k8p" role="2iSdaV" />
-        <node concept="3F1sOY" id="5zjJPlgjUR3" role="3EZMnx">
-          <property role="1$x2rV" value="Alt enter to chose if this action should contain conditional" />
-          <ref role="1NtTu8" to="86kt:5zjJPlgjNEm" resolve="optionYesNo" />
-        </node>
-      </node>
-      <node concept="3F2HdR" id="6JKNFu08zZN" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6lHESjKDb9z" resolve="condition" />
-        <node concept="2iRkQZ" id="6JKNFu08zZP" role="2czzBx" />
-        <node concept="pkWqt" id="6JKNFu08$ng" role="pqm2j">
-          <node concept="3clFbS" id="6JKNFu08$nh" role="2VODD2">
-            <node concept="3clFbF" id="6JKNFu08$nn" role="3cqZAp">
-              <node concept="2OqwBi" id="5zjJPlgjY$E" role="3clFbG">
-                <node concept="2OqwBi" id="5zjJPlgjWQS" role="2Oq$k0">
-                  <node concept="2OqwBi" id="5zjJPlgjVFm" role="2Oq$k0">
-                    <node concept="pncrf" id="5zjJPlgjVtd" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="5zjJPlgjW4t" role="2OqNvi">
-                      <ref role="3Tt5mk" to="86kt:5zjJPlgjNEm" resolve="optionYesNo" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="5zjJPlgjXkE" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:5zjJPlgjDSE" resolve="option" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="5zjJPlgjZfr" role="2OqNvi">
-                  <node concept="Xl_RD" id="5zjJPlgjZyF" role="3y1jev" />
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="6JKNFu0dMIx" role="3cqZAp">
-              <node concept="2OqwBi" id="6JKNFu0dMIz" role="3clFbG">
-                <node concept="2OqwBi" id="6JKNFu0dMI$" role="2Oq$k0">
-                  <node concept="2OqwBi" id="6JKNFu0dMI_" role="2Oq$k0">
-                    <node concept="pncrf" id="6JKNFu0dMIA" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="6JKNFu0dMIB" role="2OqNvi">
-                      <ref role="3Tt5mk" to="86kt:5zjJPlgjNEm" resolve="optionYesNo" />
-                    </node>
-                  </node>
-                  <node concept="3TrcHB" id="6JKNFu0dMIC" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:5zjJPlgjDSE" resolve="option" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="6JKNFu0dMID" role="2OqNvi">
-                  <node concept="Xl_RD" id="6JKNFu0dMIE" role="3y1jev">
-                    <property role="Xl_RC" value="The condition for this action is that:" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCKCj" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCKCl" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgcuqS" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgcv8t" resolve="move" />
-          <node concept="pkWqt" id="5zjJPlgcur0" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgcur1" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgcuyo" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgcz0i" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgcxxO" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgcuKw" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgcuyn" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgcwyX" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgcxZA" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgc$qm" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgc$xZ" role="3y1jev">
-                      <property role="Xl_RC" value="Move" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgCKCo" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCLNI" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCLNK" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgcTwT" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgcTl1" resolve="changeEnvironment" />
-          <node concept="pkWqt" id="5zjJPlgfQDU" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgfQDV" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgfQLi" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgfTyY" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgfS4w" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgfQZq" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgfQLh" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgfRnW" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgfSyi" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgfUX2" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgfUXd" role="3y1jev">
-                      <property role="Xl_RC" value="Change Environment" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgCLNN" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCNpB" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCNpD" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgCF0a" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgCEfy" resolve="killEntity" />
-          <node concept="pkWqt" id="5zjJPlgCFeo" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgCFep" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgCFlK" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgCI3n" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgCG_n" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgCFyZ" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgCFlJ" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgCFV9" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgCH2F" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgCJsX" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgCJRp" role="3y1jev">
-                      <property role="Xl_RC" value="Kill Entity" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgCNpG" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCVFS" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCVFU" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgCW01" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgCEfR" resolve="conflict" />
-          <node concept="pkWqt" id="5zjJPlgCW02" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgCW03" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgCW04" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgCW05" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgCW06" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgCW07" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgCW08" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgCW09" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgCW0a" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgCW0b" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgCW0c" role="3y1jev">
-                      <property role="Xl_RC" value="Conflict" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgCVFX" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCWH8" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCWH9" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgCWHa" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgCEeX" resolve="createNewEntity" />
-          <node concept="pkWqt" id="5zjJPlgCWHb" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgCWHc" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgCWHd" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgCWHe" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgCWHf" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgCWHg" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgCWHh" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgCWHi" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgCWHj" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgCWHk" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgCWHl" role="3y1jev">
-                      <property role="Xl_RC" value="Create New Entity" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgCWHm" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCXqm" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCXqn" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgCXqo" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgCEfe" resolve="updateValue" />
-          <node concept="pkWqt" id="5zjJPlgCXqp" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgCXqq" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgCXqr" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgCXqs" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgCXqt" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgCXqu" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgCXqv" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgCXqw" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgCXqx" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgCXqy" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgCXqz" role="3y1jev">
-                      <property role="Xl_RC" value="Update Value" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2iRfu4" id="5zjJPlgCXq$" role="2iSdaV" />
-      </node>
-      <node concept="3EZMnI" id="5zjJPlgCOza" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlgCOzc" role="3F10Kt" />
-        <node concept="3F0ifn" id="5zjJPlgk1qe" role="3EZMnx">
-          <property role="3F0ifm" value="Next Procedure" />
-          <node concept="pkWqt" id="5zjJPlgk1Oz" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgk1O$" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgk1VV" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgk51X" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgk3s7" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgk29W" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgk1VU" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgk2Q1" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgk3TH" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgk6rP" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgk6zu" role="3y1jev">
-                      <property role="Xl_RC" value="Go to Procedure" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgkIcc" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgkH37" resolve="procedure" />
-          <node concept="1sVBvm" id="5zjJPlgkIce" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgkICm" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-          <node concept="pkWqt" id="5zjJPlgCPcQ" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgCPcR" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgCPke" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgCRQk" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgCQ$q" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5zjJPlgCPxt" role="2Oq$k0">
-                      <node concept="pncrf" id="5zjJPlgCPkd" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5zjJPlgCPUc" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcuq$" resolve="compoundActionSelect" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5zjJPlgCR1I" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgCTfU" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgCTHX" role="3y1jev">
-                      <property role="Xl_RC" value="Go to Procedure" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3F0ifn" id="5zjJPlgCOze" role="3EZMnx" />
-        <node concept="2iRfu4" id="5zjJPlgCOzf" role="2iSdaV" />
-      </node>
-      <node concept="3F0ifn" id="5zjJPlgD3Dk" role="3EZMnx" />
-      <node concept="2iRkQZ" id="5zjJPlgalBA" role="2iSdaV" />
+      <node concept="l2Vlx" id="5EtG2rQW0Vv" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgalCy">
@@ -2964,12 +2807,9 @@
       <node concept="3EZMnI" id="5zjJPlg$Anm" role="3EZMnx">
         <node concept="2iRkQZ" id="5zjJPlg$Ann" role="2iSdaV" />
         <node concept="VPM3Z" id="5zjJPlg$Ano" role="3F10Kt" />
-        <node concept="3F2HdR" id="5zjJPlg$Anv" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDb9u" resolve="compoundAction" />
-          <node concept="2iRkQZ" id="5zjJPlg$Anw" role="2czzBx" />
-          <node concept="3F0ifn" id="5EtG2rP1o9C" role="2czzBI">
-            <property role="3F0ifm" value="enter to add new action" />
-          </node>
+        <node concept="3F2HdR" id="5EtG2rR1P9a" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQVSJ7" resolve="action" />
+          <node concept="2iRkQZ" id="5EtG2rR1P9b" role="2czzBx" />
         </node>
       </node>
       <node concept="3F0ifn" id="3OPyh9InX4X" role="3EZMnx" />
@@ -2980,27 +2820,39 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgc2i8">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgc2hF" resolve="CompoundActionSelect" />
-    <node concept="3EZMnI" id="5zjJPlguf6c" role="2wV5jI">
-      <node concept="2iRkQZ" id="5zjJPlguf6d" role="2iSdaV" />
-      <node concept="3EZMnI" id="5zjJPlguf6z" role="3EZMnx">
-        <node concept="VPM3Z" id="5zjJPlguf6_" role="3F10Kt" />
-        <node concept="lj46D" id="5zjJPlgvw$Z" role="3F10Kt">
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgc2hF" resolve="ActionSelect" />
+    <node concept="3EZMnI" id="5EtG2rQU7Sc" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQU7Sd" role="3EZMnx">
+        <node concept="3F0ifn" id="5EtG2rQU7Se" role="3EZMnx" />
+        <node concept="3EZMnI" id="5EtG2rQU7Sf" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQU7Sg" role="3F10Kt" />
+          <node concept="3F0ifn" id="5EtG2rQU7Sh" role="3EZMnx">
+            <property role="3F0ifm" value="Action" />
+            <node concept="VechU" id="5EtG2rQU7Si" role="3F10Kt">
+              <property role="Vb096" value="blue" />
+            </node>
+            <node concept="ljvvj" id="5EtG2rQU7Sj" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F0A7n" id="5EtG2rQU7Sk" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5zjJPlgc2hG" resolve="option" />
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQU7Sl" role="2iSdaV" />
+        </node>
+        <node concept="VPM3Z" id="5EtG2rQU7Sm" role="3F10Kt" />
+        <node concept="ljvvj" id="5EtG2rQU7Sn" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="3F0ifn" id="5zjJPlguf6B" role="3EZMnx">
-          <property role="3F0ifm" value="Action" />
-        </node>
-        <node concept="3F0A7n" id="5zjJPlguf6Q" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgc2hG" resolve="option" />
-        </node>
-        <node concept="2iRfu4" id="5zjJPlguf6C" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rQU7Ss" role="3EZMnx" />
+        <node concept="2iRkQZ" id="5EtG2rQU7St" role="2iSdaV" />
       </node>
+      <node concept="l2Vlx" id="5EtG2rQU7Su" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgcAta">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcAgd" resolve="ChangeEnvironment" />
     <node concept="3EZMnI" id="5zjJPlgcAtc" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgcAtm" role="3EZMnx">
@@ -3011,22 +2863,17 @@
         </node>
         <node concept="3F0ifn" id="5EtG2rPkcWz" role="3EZMnx">
           <property role="3F0ifm" value="what environment" />
-          <node concept="pkWqt" id="5EtG2rPkcX4" role="pqm2j">
-            <node concept="3clFbS" id="5EtG2rPkcX5" role="2VODD2">
-              <node concept="3clFbF" id="5EtG2rPkd4q" role="3cqZAp">
-                <node concept="2OqwBi" id="5EtG2rPkg7F" role="3clFbG">
-                  <node concept="2OqwBi" id="5EtG2rPkeev" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5EtG2rPkdgR" role="2Oq$k0">
-                      <node concept="pncrf" id="5EtG2rPkd4p" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5EtG2rPkdNW" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5EtG2rPkeWw" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgcAv9" resolve="option" />
+          <node concept="pkWqt" id="5EtG2rRe8yf" role="pqm2j">
+            <node concept="3clFbS" id="5EtG2rRe8yg" role="2VODD2">
+              <node concept="3clFbF" id="5EtG2rRe8D_" role="3cqZAp">
+                <node concept="2OqwBi" id="5EtG2rRea7$" role="3clFbG">
+                  <node concept="2OqwBi" id="5EtG2rRe8Q2" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rRe8D$" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5EtG2rRe9dD" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5EtG2rRawi8" resolve="option" />
                     </node>
                   </node>
-                  <node concept="3y1jeu" id="5EtG2rPkhwy" role="2OqNvi">
+                  <node concept="3y1jeu" id="5EtG2rReaHo" role="2OqNvi">
                     <node concept="Xl_RD" id="5zjJPlgcGEx" role="3y1jev">
                       <property role="Xl_RC" value="Change Neighbors" />
                     </node>
@@ -3044,22 +2891,17 @@
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             </node>
           </node>
-          <node concept="pkWqt" id="5EtG2rPkjVU" role="pqm2j">
-            <node concept="3clFbS" id="5EtG2rPkjVV" role="2VODD2">
-              <node concept="3clFbF" id="5EtG2rPkk3f" role="3cqZAp">
-                <node concept="2OqwBi" id="5EtG2rPkk3g" role="3clFbG">
-                  <node concept="2OqwBi" id="5EtG2rPkk3h" role="2Oq$k0">
-                    <node concept="2OqwBi" id="5EtG2rPkk3i" role="2Oq$k0">
-                      <node concept="pncrf" id="5EtG2rPkk3j" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="5EtG2rPkk3k" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="5EtG2rPkk3l" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgcAv9" resolve="option" />
+          <node concept="pkWqt" id="5EtG2rRebC6" role="pqm2j">
+            <node concept="3clFbS" id="5EtG2rRebC7" role="2VODD2">
+              <node concept="3clFbF" id="5EtG2rRebJs" role="3cqZAp">
+                <node concept="2OqwBi" id="5EtG2rReddr" role="3clFbG">
+                  <node concept="2OqwBi" id="5EtG2rRebVT" role="2Oq$k0">
+                    <node concept="pncrf" id="5EtG2rRebJr" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="5EtG2rRecjw" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5EtG2rRawi8" resolve="option" />
                     </node>
                   </node>
-                  <node concept="3y1jeu" id="5EtG2rPkk3m" role="2OqNvi">
+                  <node concept="3y1jeu" id="5EtG2rReenF" role="2OqNvi">
                     <node concept="Xl_RD" id="5EtG2rPkk3n" role="3y1jev">
                       <property role="Xl_RC" value="Change Neighbors" />
                     </node>
@@ -3087,14 +2929,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgcAv_">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcAv8" resolve="ChangeEnvironmentOption" />
     <node concept="3F0A7n" id="5zjJPlgcAvB" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5zjJPlgcAv9" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgjDT6">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgjDSD" resolve="OptionYesNo" />
     <node concept="3F0A7n" id="5zjJPlgjDT8" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5zjJPlgjDSE" resolve="option" />
@@ -3318,7 +3160,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgCE45">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgCE3s" resolve="CreateNewEntity" />
     <node concept="3EZMnI" id="5zjJPlgCE47" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgHXp_" role="3EZMnx">
@@ -3336,7 +3178,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgCEwu">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="KillEntity" />
     <node concept="3EZMnI" id="5zjJPlgCEww" role="2wV5jI">
       <node concept="2iRkQZ" id="5zjJPlgCEwz" role="2iSdaV" />
@@ -3359,7 +3201,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD5J8">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgCEeW" resolve="Conflict" />
     <node concept="3EZMnI" id="5zjJPlgD5Ja" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgDscS" role="3EZMnx">
@@ -3379,7 +3221,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD6iC">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="UpdateValue" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
       <node concept="3F2HdR" id="5zjJPlgHXrf" role="3EZMnx">
@@ -3390,14 +3232,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD73$">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgD73a" resolve="ConflictOption" />
     <node concept="3F0A7n" id="5zjJPlgD73D" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5zjJPlgD73A" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgHXnW">
-    <property role="3GE5qa" value="Scheduling.CompoundActionSelect" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgHXnq" resolve="ChangeAttribute" />
     <node concept="3EZMnI" id="5zjJPlgHXnY" role="2wV5jI">
       <node concept="3F0ifn" id="5zjJPlgHXo8" role="3EZMnx">
@@ -3799,6 +3641,482 @@
     <ref role="1XX52x" to="86kt:5EtG2rOEbYN" resolve="ShapeSizeOption" />
     <node concept="3F0A7n" id="5EtG2rOEbZi" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5EtG2rOEbYO" resolve="option" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQDhqS">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqu" resolve="MoveSelect" />
+    <node concept="3F0A7n" id="5EtG2rQDhqW" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:5EtG2rQDhqU" resolve="option" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQFMz_">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqd" resolve="TurnLeft" />
+    <node concept="3EZMnI" id="5EtG2rQFMzB" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQFMzI" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMzK" role="3F10Kt" />
+        <node concept="2iRfu4" id="5EtG2rQFMzN" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rQFM$2" role="3EZMnx">
+          <property role="3F0ifm" value="Should turn" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rQFM$7" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMza" resolve="turnLeft" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQFM$f" role="3EZMnx">
+          <property role="3F0ifm" value="degrees to the left." />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQJyle" role="3EZMnx" />
+      <node concept="2iRkQZ" id="5EtG2rQFMzE" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQFM$H">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqc" resolve="TurnRight" />
+    <node concept="3EZMnI" id="5EtG2rQFM$J" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQFM$K" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFM$L" role="3F10Kt" />
+        <node concept="2iRfu4" id="5EtG2rQFM$M" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rQFM$N" role="3EZMnx">
+          <property role="3F0ifm" value="Should turn" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rQFM$O" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMz8" resolve="turnRight" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQFM$P" role="3EZMnx">
+          <property role="3F0ifm" value="degrees to the right." />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQJyl6" role="3EZMnx" />
+      <node concept="2iRkQZ" id="5EtG2rQFM$Q" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQFMAa">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqf" resolve="MoveForward" />
+    <node concept="3EZMnI" id="5EtG2rQFMAc" role="2wV5jI">
+      <node concept="3F0ifn" id="5EtG2rQOOYc" role="3EZMnx" />
+      <node concept="3EZMnI" id="5EtG2rQFMAd" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMAe" role="3F10Kt" />
+        <node concept="2iRfu4" id="5EtG2rQFMAf" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rQFMAg" role="3EZMnx">
+          <property role="3F0ifm" value="Should move" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rQFMAh" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMz1" resolve="forward" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQFMAi" role="3EZMnx">
+          <property role="3F0ifm" value="pixels forward." />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQJylw" role="3EZMnx" />
+      <node concept="2iRkQZ" id="5EtG2rQFMAj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQFMAP">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqg" resolve="MoveBack" />
+    <node concept="3EZMnI" id="5EtG2rQFMAR" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQFMAS" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMAT" role="3F10Kt" />
+        <node concept="2iRfu4" id="5EtG2rQFMAU" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rQFMAV" role="3EZMnx">
+          <property role="3F0ifm" value="Should move" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rQFMAW" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMyZ" resolve="back" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQFMAX" role="3EZMnx">
+          <property role="3F0ifm" value="pixels backward." />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQJylC" role="3EZMnx" />
+      <node concept="2iRkQZ" id="5EtG2rQFMAY" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQFMBw">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TurnRandom" />
+    <node concept="3EZMnI" id="5EtG2rQFMBy" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQFMBz" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQFMB$" role="3F10Kt" />
+        <node concept="2iRfu4" id="5EtG2rQFMB_" role="2iSdaV" />
+        <node concept="3F0ifn" id="5EtG2rQFMBA" role="3EZMnx">
+          <property role="3F0ifm" value="Should randomly turn" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rQFMBB" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMz3" resolve="randomLeft" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQFMBC" role="3EZMnx">
+          <property role="3F0ifm" value="degrees to the left, and randomly turn" />
+        </node>
+        <node concept="3F0A7n" id="5EtG2rQFMBR" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQFMz5" resolve="randomRight" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQFMC3" role="3EZMnx">
+          <property role="3F0ifm" value="degrees to the right." />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQJylm" role="3EZMnx" />
+      <node concept="2iRkQZ" id="5EtG2rQFMBD" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="5EtG2rQVSKH">
+    <property role="3GE5qa" value="Scheduling" />
+    <ref role="1XX52x" to="86kt:3mweh_A8dKi" resolve="Action" />
+    <node concept="3EZMnI" id="5EtG2rQVT4X" role="2wV5jI">
+      <node concept="3EZMnI" id="5EtG2rQVT4Y" role="3EZMnx">
+        <node concept="VPM3Z" id="5EtG2rQVT57" role="3F10Kt" />
+        <node concept="ljvvj" id="5EtG2rQVT58" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQVTSV" role="3EZMnx" />
+        <node concept="3EZMnI" id="5EtG2rQVTv_" role="3EZMnx">
+          <node concept="2iRfu4" id="5EtG2rQVTvA" role="2iSdaV" />
+          <node concept="3F1sOY" id="5EtG2rQVTvB" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+          </node>
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTvC" role="3EZMnx">
+          <node concept="2iRfu4" id="5EtG2rQVTvD" role="2iSdaV" />
+          <node concept="3F1sOY" id="5EtG2rQVTvE" role="3EZMnx">
+            <property role="1$x2rV" value="Alt enter to chose if this action should contain conditional" />
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJh" resolve="optionYesNo" />
+          </node>
+        </node>
+        <node concept="3F2HdR" id="5EtG2rQVTvF" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rQVSJc" resolve="condition" />
+          <node concept="2iRkQZ" id="5EtG2rQVTvG" role="2czzBx" />
+          <node concept="pkWqt" id="5EtG2rQVTvH" role="pqm2j">
+            <node concept="3clFbS" id="5EtG2rQVTvI" role="2VODD2">
+              <node concept="3clFbF" id="5EtG2rQVTvJ" role="3cqZAp">
+                <node concept="2OqwBi" id="5EtG2rQVTvK" role="3clFbG">
+                  <node concept="2OqwBi" id="5EtG2rQVTvL" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5EtG2rQVTvM" role="2Oq$k0">
+                      <node concept="pncrf" id="5EtG2rQVTvN" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5EtG2rQVTvO" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:5EtG2rQVSJh" resolve="optionYesNo" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="5EtG2rQVTvP" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5zjJPlgjDSE" resolve="option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="5EtG2rQVTvQ" role="2OqNvi">
+                    <node concept="Xl_RD" id="5EtG2rQVTvR" role="3y1jev" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="5EtG2rQVTvS" role="3cqZAp">
+                <node concept="2OqwBi" id="5EtG2rQVTvT" role="3clFbG">
+                  <node concept="2OqwBi" id="5EtG2rQVTvU" role="2Oq$k0">
+                    <node concept="2OqwBi" id="5EtG2rQVTvV" role="2Oq$k0">
+                      <node concept="pncrf" id="5EtG2rQVTvW" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="5EtG2rQVTvX" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:5EtG2rQVSJh" resolve="optionYesNo" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="5EtG2rQVTvY" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5zjJPlgjDSE" resolve="option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="5EtG2rQVTvZ" role="2OqNvi">
+                    <node concept="Xl_RD" id="5EtG2rQVTw0" role="3y1jev">
+                      <property role="Xl_RC" value="The condition for this action is that:" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTw1" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTw2" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rQVTw3" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJf" resolve="move" />
+            <node concept="pkWqt" id="5EtG2rQVTw4" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTw5" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTw6" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTw7" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTw8" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTw9" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTwa" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTwb" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTwc" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTwd" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTwe" role="3y1jev">
+                        <property role="Xl_RC" value="Move" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQVTwf" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTwg" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTwh" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rQVTwi" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJg" resolve="changeEnvironment" />
+            <node concept="pkWqt" id="5EtG2rQVTwj" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTwk" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTwl" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTwm" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTwn" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTwo" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTwp" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTwq" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTwr" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTws" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTwt" role="3y1jev">
+                        <property role="Xl_RC" value="Change Environment" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQVTwu" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTwv" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTww" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rQVTwx" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJk" resolve="killEntity" />
+            <node concept="pkWqt" id="5EtG2rQVTwy" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTwz" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTw$" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTw_" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTwA" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTwB" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTwC" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTwD" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTwE" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTwF" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTwG" role="3y1jev">
+                        <property role="Xl_RC" value="Kill Entity" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQVTwH" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTwI" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTwJ" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rQVTwK" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJl" resolve="conflict" />
+            <node concept="pkWqt" id="5EtG2rQVTwL" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTwM" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTwN" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTwO" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTwP" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTwQ" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTwR" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTwS" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTwT" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTwU" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTwV" role="3y1jev">
+                        <property role="Xl_RC" value="Conflict" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQVTwW" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTwX" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTwY" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rQVTwZ" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJi" resolve="createNewEntity" />
+            <node concept="pkWqt" id="5EtG2rQVTx0" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTx1" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTx2" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTx3" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTx4" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTx5" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTx6" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTx7" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTx8" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTx9" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTxa" role="3y1jev">
+                        <property role="Xl_RC" value="Create New Entity" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQVTxb" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTxc" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTxd" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rQVTxe" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVSJj" resolve="updateValue" />
+            <node concept="pkWqt" id="5EtG2rQVTxf" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTxg" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTxh" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTxi" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTxj" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTxk" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTxl" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTxm" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTxn" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTxo" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTxp" role="3y1jev">
+                        <property role="Xl_RC" value="Update Value" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rQVTxq" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rR6uRN" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rR6uRP" role="3F10Kt" />
+          <node concept="3F1sOY" id="5EtG2rR6vd_" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVW3N" resolve="compoundAction" />
+            <node concept="pkWqt" id="5EtG2rR6vxQ" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rR6vxR" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rR6vDc" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rR6y8H" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rR6wRn" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rR6vPD" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rR6vDb" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rR6wf9" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rR6xk8" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rR6zx$" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rR6zDb" role="3y1jev">
+                        <property role="Xl_RC" value="Compound Action" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2iRfu4" id="5EtG2rR6uRS" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="5EtG2rQVTxr" role="3EZMnx">
+          <node concept="VPM3Z" id="5EtG2rQVTxs" role="3F10Kt" />
+          <node concept="3F0ifn" id="5EtG2rQVTxt" role="3EZMnx">
+            <property role="3F0ifm" value="Next Procedure" />
+            <node concept="pkWqt" id="5EtG2rQVTxu" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTxv" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTxw" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTxx" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTxy" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTxz" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTx$" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTx_" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTxA" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTxB" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTxC" role="3y1jev">
+                        <property role="Xl_RC" value="Go to Procedure" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1iCGBv" id="5EtG2rQVTxD" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5EtG2rQVV6U" resolve="procedure" />
+            <node concept="1sVBvm" id="5EtG2rQVTxE" role="1sWHZn">
+              <node concept="3F0A7n" id="5EtG2rQVTxF" role="2wV5jI">
+                <property role="1Intyy" value="true" />
+                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="pkWqt" id="5EtG2rQVTxG" role="pqm2j">
+              <node concept="3clFbS" id="5EtG2rQVTxH" role="2VODD2">
+                <node concept="3clFbF" id="5EtG2rQVTxI" role="3cqZAp">
+                  <node concept="2OqwBi" id="5EtG2rQVTxJ" role="3clFbG">
+                    <node concept="2OqwBi" id="5EtG2rQVTxK" role="2Oq$k0">
+                      <node concept="2OqwBi" id="5EtG2rQVTxL" role="2Oq$k0">
+                        <node concept="pncrf" id="5EtG2rQVTxM" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="5EtG2rQVTxN" role="2OqNvi">
+                          <ref role="3Tt5mk" to="86kt:5EtG2rQVSJe" resolve="compoundActionSelect" />
+                        </node>
+                      </node>
+                      <node concept="3TrcHB" id="5EtG2rQVTxO" role="2OqNvi">
+                        <ref role="3TsBF5" to="86kt:5zjJPlgc2hG" resolve="option" />
+                      </node>
+                    </node>
+                    <node concept="3y1jeu" id="5EtG2rQVTxP" role="2OqNvi">
+                      <node concept="Xl_RD" id="5EtG2rQVTxQ" role="3y1jev">
+                        <property role="Xl_RC" value="Go to Procedure" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3F0ifn" id="5EtG2rQVTxR" role="3EZMnx" />
+          <node concept="2iRfu4" id="5EtG2rQVTxS" role="2iSdaV" />
+        </node>
+        <node concept="3F0ifn" id="5EtG2rQVTxT" role="3EZMnx" />
+        <node concept="2iRkQZ" id="5EtG2rQVT5e" role="2iSdaV" />
+      </node>
+      <node concept="l2Vlx" id="5EtG2rQVT5f" role="2iSdaV" />
     </node>
   </node>
 </model>
