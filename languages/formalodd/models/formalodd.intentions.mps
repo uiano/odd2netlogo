@@ -630,6 +630,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh__vGrI">
     <property role="TrG5h" value="ShowColors" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="2ZfgGC" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="2S6ZIM" id="3mweh__vGrJ" role="2ZfVej">
       <node concept="3clFbS" id="3mweh__vGrK" role="2VODD2">
@@ -823,6 +824,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh__wkWR">
     <property role="TrG5h" value="ShowAttribute" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="2ZfgGC" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="2S6ZIM" id="3mweh__wkWS" role="2ZfVej">
       <node concept="3clFbS" id="3mweh__wkWT" role="2VODD2">

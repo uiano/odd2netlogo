@@ -211,6 +211,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydYPla">
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6AuNKydYPlc" role="2wV5jI">
       <node concept="3EZMnI" id="6AuNKydYPlY" role="3EZMnx">
@@ -409,7 +410,7 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hPolu">
     <property role="TrG5h" value="Color" />
-    <property role="3GE5qa" value="Color" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6UrRj0hPolw" role="2wV5jI">
       <node concept="3EZMnI" id="6UrRj0hPolx" role="3EZMnx">
@@ -558,6 +559,7 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hPot6">
     <property role="TrG5h" value="shape" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6UrRj0hPPtk" role="2wV5jI">
       <node concept="3EZMnI" id="3mweh___xM9" role="3EZMnx">
@@ -700,6 +702,7 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hPEE9">
     <property role="TrG5h" value="AgentStatistics" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6UrRj0hPEFb" role="2wV5jI">
       <node concept="3EZMnI" id="aIqcXnxrKK" role="3EZMnx">
@@ -801,7 +804,7 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hQiob">
     <property role="TrG5h" value="Attribute" />
-    <property role="3GE5qa" value="Attribute" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6UrRj0hQiod" role="2wV5jI">
       <node concept="3EZMnI" id="6UrRj0hQEY1" role="3EZMnx">
@@ -1134,12 +1137,14 @@
   </node>
   <node concept="PKFIW" id="215d$P5k6mk">
     <property role="TrG5h" value="EntityMain" />
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3F0A7n" id="215d$P5kAuv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="215d$P5kAtr">
+    <property role="3GE5qa" value="Entity" />
     <ref role="1XX52x" to="86kt:215d$P5kAta" resolve="EntityReference" />
     <node concept="3EZMnI" id="6JKNFtZQWwB" role="2wV5jI">
       <node concept="2iRfu4" id="6JKNFtZQWwC" role="2iSdaV" />
@@ -1195,15 +1200,6 @@
         <node concept="3F0ifn" id="aIqcXnAOsG" role="3EZMnx">
           <property role="3F0ifm" value="stabel for all " />
           <node concept="Vb9p2" id="aIqcXnAOsH" role="3F10Kt" />
-        </node>
-        <node concept="1iCGBv" id="aIqcXnAPt8" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:aIqcXnAOXl" resolve="entity" />
-          <node concept="1sVBvm" id="aIqcXnAPta" role="1sWHZn">
-            <node concept="3F0A7n" id="aIqcXnAPAS" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
         </node>
       </node>
       <node concept="3EZMnI" id="aIqcXnAOsS" role="3EZMnx">
@@ -2196,7 +2192,6 @@
         <ref role="1NtTu8" to="86kt:aIqcXodbjG" resolve="attribute" />
         <node concept="1sVBvm" id="5EtG2rOMfo4" role="1sWHZn">
           <node concept="3F0A7n" id="5EtG2rOMfoE" role="2wV5jI">
-            <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="86kt:aIqcXnKZM$" resolve="min" />
           </node>
         </node>
@@ -2208,7 +2203,6 @@
         <ref role="1NtTu8" to="86kt:aIqcXodbjG" resolve="attribute" />
         <node concept="1sVBvm" id="5EtG2rOMfr8" role="1sWHZn">
           <node concept="3F0A7n" id="5EtG2rOMfrQ" role="2wV5jI">
-            <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="86kt:aIqcXnKZMB" resolve="max" />
           </node>
         </node>
@@ -2426,7 +2420,6 @@
         <ref role="1NtTu8" to="86kt:aIqcXoinWz" resolve="attribute" />
         <node concept="1sVBvm" id="aIqcXoinWk" role="1sWHZn">
           <node concept="3F0A7n" id="aIqcXoinWV" role="2wV5jI">
-            <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="86kt:aIqcXoibdD" resolve="initialValue" />
           </node>
         </node>

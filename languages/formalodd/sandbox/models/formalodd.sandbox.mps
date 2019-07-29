@@ -122,7 +122,7 @@
       <concept id="193207073760647258" name="formalodd.structure.Attribute" flags="ng" index="1ldJ2l">
         <property id="193207073763490983" name="max" index="1lrphC" />
         <property id="193207073763490980" name="min" index="1lrphF" />
-        <reference id="193207073760825173" name="entity" index="1ldiuq" />
+        <property id="193207073772188521" name="initialValue" index="1qTHIA" />
         <child id="193207073761750590" name="ValueOption" index="1l1KrL" />
         <child id="193207073760647262" name="StabelOption" index="1ldJ2h" />
       </concept>
@@ -134,6 +134,7 @@
         <property id="193207073767705738" name="Distribution" index="1qEyh5" />
         <property id="193207073767654535" name="maximumNumberOfEntitys" index="1qFuL8" />
         <reference id="193207073767147264" name="entity" index="1llqZf" />
+        <reference id="193207073768239852" name="environment" index="1qCxCz" />
         <child id="6529568716119142756" name="initialisationAttribute" index="2Ilk52" />
         <child id="193207073767149194" name="whatisInitialised" index="1llqp5" />
         <child id="193207073773196209" name="attributeOptions" index="1qXBHY" />
@@ -268,15 +269,15 @@
       <property role="TrG5h" value="wolf" />
       <property role="1gPB68" value="is" />
       <property role="1gPB6a" value="does" />
-      <node concept="1ldJ2l" id="3OPyh9ImCoo" role="1l3At2">
+      <node concept="1ldJ2l" id="3okqQmmlcZ3" role="1l3At2">
         <property role="TrG5h" value="wolf-energy" />
         <property role="1lrphF" value="0" />
         <property role="1lrphC" value="100" />
-        <ref role="1ldiuq" node="3OPyh9I6TwM" resolve="wolf" />
-        <node concept="1lfEPZ" id="3OPyh9ImFfC" role="1ldJ2h">
+        <property role="1qTHIA" value="100" />
+        <node concept="1lfEPZ" id="3okqQmmlcZ9" role="1ldJ2h">
           <property role="1lfEPY" value="is not" />
         </node>
-        <node concept="1l1EW$" id="3OPyh9ImFfE" role="1l1KrL">
+        <node concept="1l1EW$" id="3okqQmmlcZg" role="1l1KrL">
           <property role="1l1EWz" value="float" />
         </node>
       </node>
@@ -303,6 +304,17 @@
       <property role="TrG5h" value="sheep" />
       <property role="1gPB68" value="is" />
       <property role="1gPB6a" value="does" />
+      <node concept="1ldJ2l" id="3okqQmmlcYU" role="1l3At2">
+        <property role="TrG5h" value="sheep-energy" />
+        <property role="1lrphF" value="1" />
+        <property role="1lrphC" value="100" />
+        <node concept="1lfEPZ" id="3okqQmmlcYX" role="1ldJ2h">
+          <property role="1lfEPY" value="is not" />
+        </node>
+        <node concept="1l1EW$" id="3okqQmmlcZ0" role="1l1KrL">
+          <property role="1l1EWz" value="float" />
+        </node>
+      </node>
       <node concept="1g9sA$" id="3OPyh9I6Tx_" role="1gaQrw">
         <property role="1g9sAB" value="has a default" />
       </node>
@@ -317,18 +329,6 @@
       </node>
       <node concept="2IdgYl" id="3OPyh9IeOsZ" role="2Id2n4">
         <property role="2IdgYi" value="2" />
-      </node>
-      <node concept="1ldJ2l" id="3OPyh9IeOsN" role="1l3At2">
-        <property role="TrG5h" value="sheep-energy" />
-        <property role="1lrphF" value="0" />
-        <property role="1lrphC" value="100" />
-        <ref role="1ldiuq" node="3OPyh9I6Txc" resolve="sheep" />
-        <node concept="1lfEPZ" id="3OPyh9InWRD" role="1ldJ2h">
-          <property role="1lfEPY" value="is not" />
-        </node>
-        <node concept="1l1EW$" id="3OPyh9InWRF" role="1l1KrL">
-          <property role="1l1EWz" value="float" />
-        </node>
       </node>
       <node concept="1lOfep" id="3OPyh9InWRB" role="1laXez">
         <property role="1lOfeo" value="do not" />
@@ -368,16 +368,13 @@
       </node>
     </node>
     <node concept="1lur_c" id="3OPyh9I6TwK" role="1ltb8M">
-      <node concept="1llqSK" id="3OPyh9IeOtk" role="1llqph">
+      <node concept="1llqSK" id="3okqQmmlcZC" role="1llqph">
         <property role="1qEyh5" value="random" />
         <property role="1qym4F" value="100" />
-        <node concept="1qTHIr" id="3OPyh9ImFfg" role="1qXBHY" />
-        <node concept="1_stcA" id="3OPyh9IeOtr" role="1llqp5">
+        <property role="1qFuL8" value="1000" />
+        <ref role="1qCxCz" node="3OPyh9I6TwQ" resolve="grass" />
+        <node concept="1_stcA" id="3okqQmmld02" role="1llqp5">
           <property role="1_stcx" value="The enviroment" />
-        </node>
-        <node concept="1qCxCG" id="3OPyh9IeOtu" role="2Ilk52">
-          <ref role="1qCxCF" node="3OPyh9I6Txc" resolve="sheep" />
-          <ref role="1qAHKz" node="3OPyh9IeOsN" resolve="sheep-energy" />
         </node>
       </node>
       <node concept="1llqSK" id="3OPyh9IeOtw" role="1llqph">
@@ -393,7 +390,7 @@
         </node>
         <node concept="1qTHIr" id="3OPyh9ImFfp" role="1qXBHY">
           <property role="1qTHIq" value="2" />
-          <ref role="1qTLvG" node="3OPyh9IeOsN" resolve="sheep-energy" />
+          <ref role="1qTLvG" node="3okqQmmlcYU" resolve="sheep-energy" />
         </node>
         <node concept="1_stcA" id="3OPyh9ImFfi" role="1llqp5">
           <property role="1_stcx" value="The entity" />
@@ -407,18 +404,25 @@
         <node concept="1_stcA" id="3OPyh9IaQwO" role="1llqp5">
           <property role="1_stcx" value="The entity" />
         </node>
-        <node concept="1qTHIr" id="3OPyh9IeO0B" role="1qXBHY">
-          <property role="1qTHIq" value="4" />
-          <ref role="1qTLvG" node="3OPyh9IeOsN" resolve="sheep-energy" />
-        </node>
         <node concept="1qTHIr" id="3OPyh9ImFfx" role="1qXBHY">
           <property role="1qTHIq" value="3" />
         </node>
         <node concept="1qTHIr" id="3OPyh9ImFf$" role="1qXBHY">
-          <property role="1qTHIq" value="1" />
-          <ref role="1qTLvG" node="3OPyh9ImCoo" resolve="wolf-energy" />
+          <property role="1qTHIq" value="2" />
+          <ref role="1qTLvG" node="3okqQmmlcZ3" resolve="wolf-energy" />
         </node>
       </node>
+      <node concept="1llqSK" id="3okqQmmmX7b" role="1llqph">
+        <node concept="1_stcA" id="3okqQmmmX7o" role="1llqp5">
+          <property role="1_stcx" value="The attribute" />
+        </node>
+        <node concept="1qCxCG" id="3okqQmmqtkI" role="2Ilk52">
+          <ref role="1qCxCF" node="3OPyh9I6Txc" resolve="sheep" />
+          <ref role="1qAHKz" node="3okqQmmlcYU" resolve="sheep-energy" />
+        </node>
+      </node>
+      <node concept="1llqSK" id="3okqQmmqtkK" role="1llqph" />
+      <node concept="1llqSK" id="3okqQmmmX7s" role="1llqph" />
     </node>
     <node concept="ZOwr_" id="3OPyh9I6TwO" role="2J7Mid">
       <node concept="ZOwrm" id="3OPyh9I6TwQ" role="2JZWw_">
