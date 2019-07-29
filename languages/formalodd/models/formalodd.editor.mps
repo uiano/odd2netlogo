@@ -14,7 +14,9 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
         <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
       </concept>
+      <concept id="1176897764478" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeFactory" flags="in" index="4$FPG" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <child id="1176897874615" name="nodeFactory" index="4_6I_" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
@@ -106,6 +108,9 @@
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1146253292180" name="jetbrains.mps.lang.smodel.structure.Property_HasValue_Simple" flags="nn" index="3y1jeu">
         <child id="1146253292181" name="value" index="3y1jev" />
+      </concept>
+      <concept id="1219352745532" name="jetbrains.mps.lang.smodel.structure.NodeRefExpression" flags="nn" index="3B5_sB">
+        <reference id="1219352800908" name="referentNode" index="3B5MYn" />
       </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
@@ -413,8 +418,18 @@
       </node>
       <node concept="2iRfu4" id="7wk$2803UF0" role="2iSdaV" />
       <node concept="3F2HdR" id="7wk$2803UFg" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5JxfqxAuXCg" resolve="entityName" />
+        <ref role="1NtTu8" to="86kt:3lcKR8aBGkb" resolve="entity" />
         <node concept="2iRfu4" id="7wk$2803UFi" role="2czzBx" />
+        <node concept="3F0ifn" id="3okqQmmumuR" role="2czzBI" />
+        <node concept="4$FPG" id="3okqQmmus0e" role="4_6I_">
+          <node concept="3clFbS" id="3okqQmmus0f" role="2VODD2">
+            <node concept="3clFbF" id="3okqQmmus3C" role="3cqZAp">
+              <node concept="3B5_sB" id="3okqQmmus3B" role="3clFbG">
+                <ref role="3B5MYn" node="5JxfqxAwGeV" resolve="entityName" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

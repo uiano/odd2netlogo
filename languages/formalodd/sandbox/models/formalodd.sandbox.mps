@@ -69,7 +69,6 @@
         <child id="6529568716131308724" name="entity" index="2J7Mii" />
         <child id="6620640720694329222" name="text" index="XAo8I" />
         <child id="193207073764989693" name="initialisation" index="1ltb8M" />
-        <child id="2325324488111444024" name="graphicsWindow" index="1_8QpP" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
@@ -91,17 +90,11 @@
         <child id="7308686357755209020" name="Color" index="2lOSUS" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
+        <child id="6529568716164071957" name="graphicsWindow" index="2HUN8N" />
         <child id="6213474804142799436" name="EnvEntity" index="2JZWw_" />
       </concept>
       <concept id="3840659476812055941" name="formalodd.structure.DefaultColor" flags="ng" index="ZOwrR" />
-      <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
-        <property id="3864151261535137068" name="WrapVertical" index="1jztgP" />
-        <property id="3864151261535133778" name="WrapHorizontal" index="1jzt_b" />
-        <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
-        <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
-        <child id="7777943843983741036" name="color" index="kpDVr" />
-        <child id="2325324488110139214" name="entityReference" index="1_5P43" />
-      </concept>
+      <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF" />
       <concept id="3864151261524127933" name="formalodd.structure.ColorOptions" flags="ng" index="1g9sA$">
         <property id="3864151261524127934" name="Options" index="1g9sAB" />
       </concept>
@@ -135,7 +128,6 @@
         <property id="193207073767654535" name="maximumNumberOfEntitys" index="1qFuL8" />
         <reference id="193207073767147264" name="entity" index="1llqZf" />
         <reference id="193207073768239852" name="environment" index="1qCxCz" />
-        <child id="6529568716119142756" name="initialisationAttribute" index="2Ilk52" />
         <child id="193207073767149194" name="whatisInitialised" index="1llqp5" />
         <child id="193207073773196209" name="attributeOptions" index="1qXBHY" />
       </concept>
@@ -145,16 +137,9 @@
       <concept id="193207073758944086" name="formalodd.structure.AgentStatisticOptions" flags="ng" index="1lOfep">
         <property id="193207073758944087" name="Option" index="1lOfeo" />
       </concept>
-      <concept id="193207073768239843" name="formalodd.structure.InitialisationAttribute" flags="ng" index="1qCxCG">
-        <reference id="193207073770878188" name="attribute" index="1qAHKz" />
-        <reference id="193207073768239844" name="entity" index="1qCxCF" />
-      </concept>
       <concept id="193207073772188500" name="formalodd.structure.AttributeOptions" flags="ng" index="1qTHIr">
         <property id="193207073772188501" name="Options" index="1qTHIq" />
         <reference id="193207073772240675" name="attribute" index="1qTLvG" />
-      </concept>
-      <concept id="2325324488110139210" name="formalodd.structure.EntityReference" flags="ng" index="1_5P47">
-        <reference id="2325324488113493380" name="entity" index="1_Kaf9" />
       </concept>
       <concept id="2325324488108205419" name="formalodd.structure.SelectingType" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
@@ -166,22 +151,22 @@
       </concept>
     </language>
   </registry>
-  <node concept="ZOwpP" id="5EtG2rQfxRI">
+  <node concept="ZOwpP" id="3okqQmmwcoZ">
     <property role="TrG5h" value="Fire" />
-    <node concept="XAmFv" id="5EtG2rQfxRJ" role="XAo8I">
+    <node concept="XAmFv" id="3okqQmmwcp0" role="XAo8I">
       <property role="XAmFg" value="The purpose of this model is to simulate forest fires." />
     </node>
-    <node concept="XAmFv" id="5EtG2rQfxRM" role="XAo8I">
+    <node concept="XAmFv" id="3okqQmmwcp2" role="XAo8I">
       <property role="XAmFg" value="We can use this model to simulate how the fire will spread depending on the density of the trees." />
     </node>
-    <node concept="ZOwr_" id="5EtG2rQfxRU" role="2J7Mid">
-      <node concept="ZOwrm" id="5EtG2rQfxRX" role="2JZWw_">
+    <node concept="ZOwr_" id="3okqQmmwcp7" role="2J7Mid">
+      <node concept="ZOwrm" id="3okqQmmwcpd" role="2JZWw_">
         <property role="TrG5h" value="Fire" />
         <property role="2YXOq1" value="is" />
-        <node concept="ZOwqP" id="5EtG2rQfxS0" role="21i3yD">
+        <node concept="ZOwqP" id="3okqQmmwcpe" role="21i3yD">
           <property role="21lQ5$" value="leftside" />
         </node>
-        <node concept="ZOwo6" id="5EtG2rQfxSa" role="2lOSUS">
+        <node concept="ZOwo6" id="3okqQmmwcpf" role="2lOSUS">
           <property role="1lo2db" value="Red" />
         </node>
       </node>
@@ -195,16 +180,11 @@
           <property role="1lo2db" value="Green" />
         </node>
       </node>
+      <node concept="1g3uKF" id="3okqQmmwcp9" role="2HUN8N" />
     </node>
-    <node concept="1g3uKF" id="5EtG2rQfxSj" role="1_8QpP">
-      <property role="1jzKJm" value="100" />
-      <property role="1jzt_n" value="2" />
-      <property role="1jzt_b" value="0" />
-      <property role="1jztgP" value="0" />
-    </node>
-    <node concept="2lMhBk" id="5EtG2rQfxSm" role="2J7coG">
-      <node concept="2lNc1x" id="5EtG2rRe8mn" role="2GyEu2">
-        <property role="TrG5h" value="Burn" />
+    <node concept="2lMhBk" id="3okqQmmwcqe" role="2J7coG">
+      <node concept="2lNc1x" id="3okqQmmwcqZ" role="2GyEu2">
+        <property role="TrG5h" value="burning" />
         <node concept="1jwekb" id="5EtG2rRe8mr" role="2GszJx">
           <node concept="2lMhB$" id="5EtG2rRiFJ1" role="2GszJE" />
           <node concept="8STGY" id="5EtG2rRe8mt" role="2GszJC">
@@ -230,7 +210,7 @@
             <property role="2HPVKK" value="==" />
             <node concept="2HPRmR" id="5EtG2rRnyMA" role="2HP6R$">
               <property role="2HPQs5" value="Environment" />
-              <ref role="2HPRmP" node="5EtG2rQfxRX" resolve="Fire" />
+              <ref role="2HPRmP" node="3okqQmmwcpd" resolve="Fire" />
             </node>
             <node concept="2HPRmR" id="5EtG2rRnyMC" role="2HP6Ry">
               <property role="2HPQs5" value="Color" />
@@ -243,11 +223,9 @@
             <property role="8Bi5Z" value="The condition for this action is that:" />
           </node>
         </node>
-        <node concept="1jwekb" id="5EtG2rRrsC7" role="2GszJx" />
-        <node concept="1jwekb" id="5EtG2rRrsBR" role="2GszJx" />
-        <node concept="2lNc1w" id="5EtG2rRe8mp" role="8Yoip">
+        <node concept="2lNc1w" id="3okqQmmwcrm" role="8Yoip">
           <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="5EtG2rQfxRX" resolve="Fire" />
+          <ref role="8YSiS" node="3okqQmmwcpd" resolve="Fire" />
         </node>
       </node>
       <node concept="2lMhBi" id="5EtG2rQfxTn" role="2lMhBt">
@@ -260,178 +238,155 @@
       </node>
     </node>
   </node>
-  <node concept="ZOwpP" id="3OPyh9I6TwF">
+  <node concept="ZOwpP" id="3okqQmmwcrJ">
     <property role="TrG5h" value="wolfSheep" />
-    <node concept="XAmFv" id="3OPyh9InWRz" role="XAo8I">
-      <property role="XAmFg" value="The purpose is to simulate how predators and herbivores interact" />
-    </node>
-    <node concept="ZOwpW" id="3OPyh9I6TwM" role="2J7Mii">
+    <node concept="ZOwpW" id="3okqQmmwcrO" role="2J7Mii">
       <property role="TrG5h" value="wolf" />
       <property role="1gPB68" value="is" />
       <property role="1gPB6a" value="does" />
-      <node concept="1ldJ2l" id="3okqQmmlcZ3" role="1l3At2">
+      <node concept="1ldJ2l" id="3okqQmmwcrP" role="1l3At2">
         <property role="TrG5h" value="wolf-energy" />
         <property role="1lrphF" value="0" />
         <property role="1lrphC" value="100" />
         <property role="1qTHIA" value="100" />
-        <node concept="1lfEPZ" id="3okqQmmlcZ9" role="1ldJ2h">
+        <node concept="1lfEPZ" id="3okqQmmwcrQ" role="1ldJ2h">
           <property role="1lfEPY" value="is not" />
         </node>
-        <node concept="1l1EW$" id="3okqQmmlcZg" role="1l1KrL">
+        <node concept="1l1EW$" id="3okqQmmwcrR" role="1l1KrL">
           <property role="1l1EWz" value="float" />
         </node>
       </node>
-      <node concept="1g9sA$" id="3OPyh9I6Txf" role="1gaQrw">
+      <node concept="1g9sA$" id="3okqQmmwcrS" role="1gaQrw">
         <property role="1g9sAB" value="has a default" />
       </node>
-      <node concept="ZOwrR" id="3OPyh9I6Txp" role="3$oDj3">
+      <node concept="ZOwrR" id="3okqQmmwcrT" role="3$oDj3">
         <property role="1lo2db" value="Gray" />
       </node>
-      <node concept="1gdyix" id="3OPyh9IaQwJ" role="1gdMhP">
+      <node concept="1gdyix" id="3okqQmmwcrU" role="1gdMhP">
         <property role="1gdyiw" value="has a default shape which is" />
       </node>
-      <node concept="1lOfep" id="3OPyh9InWR_" role="1laXez">
+      <node concept="1lOfep" id="3okqQmmwcrV" role="1laXez">
         <property role="1lOfeo" value="do not" />
       </node>
-      <node concept="ZOwo7" id="3OPyh9InWRY" role="ZOwpC">
+      <node concept="ZOwo7" id="3okqQmmwcrW" role="ZOwpC">
         <property role="1lPuH5" value="wolf" />
       </node>
-      <node concept="2IdgYl" id="3OPyh9InWS1" role="2Id2n4">
+      <node concept="2IdgYl" id="3okqQmmwcrX" role="2Id2n4">
         <property role="2IdgYi" value="3" />
       </node>
     </node>
-    <node concept="ZOwpW" id="3OPyh9I6Txc" role="2J7Mii">
+    <node concept="ZOwpW" id="3okqQmmwcsv" role="2J7Mii">
       <property role="TrG5h" value="sheep" />
       <property role="1gPB68" value="is" />
       <property role="1gPB6a" value="does" />
-      <node concept="1ldJ2l" id="3okqQmmlcYU" role="1l3At2">
+      <node concept="1ldJ2l" id="3okqQmmwcsw" role="1l3At2">
         <property role="TrG5h" value="sheep-energy" />
         <property role="1lrphF" value="1" />
         <property role="1lrphC" value="100" />
-        <node concept="1lfEPZ" id="3okqQmmlcYX" role="1ldJ2h">
+        <property role="1qTHIA" value="100" />
+        <node concept="1lfEPZ" id="3okqQmmwcsx" role="1ldJ2h">
           <property role="1lfEPY" value="is not" />
         </node>
-        <node concept="1l1EW$" id="3okqQmmlcZ0" role="1l1KrL">
+        <node concept="1l1EW$" id="3okqQmmwcsy" role="1l1KrL">
           <property role="1l1EWz" value="float" />
         </node>
       </node>
-      <node concept="1g9sA$" id="3OPyh9I6Tx_" role="1gaQrw">
+      <node concept="1g9sA$" id="3okqQmmwcsz" role="1gaQrw">
         <property role="1g9sAB" value="has a default" />
       </node>
-      <node concept="ZOwo7" id="3OPyh9IeOsX" role="ZOwpC">
+      <node concept="ZOwo7" id="3okqQmmwcs$" role="ZOwpC">
         <property role="1lPuH5" value="sheep" />
       </node>
-      <node concept="ZOwrR" id="3OPyh9IeOsV" role="3$oDj3">
+      <node concept="ZOwrR" id="3okqQmmwcs_" role="3$oDj3">
         <property role="1lo2db" value="White" />
       </node>
-      <node concept="1gdyix" id="3OPyh9IeOsT" role="1gdMhP">
+      <node concept="1gdyix" id="3okqQmmwcsA" role="1gdMhP">
         <property role="1gdyiw" value="has a default shape which is" />
       </node>
-      <node concept="2IdgYl" id="3OPyh9IeOsZ" role="2Id2n4">
+      <node concept="2IdgYl" id="3okqQmmwcsB" role="2Id2n4">
         <property role="2IdgYi" value="2" />
       </node>
-      <node concept="1lOfep" id="3OPyh9InWRB" role="1laXez">
+      <node concept="1lOfep" id="3okqQmmwcsC" role="1laXez">
         <property role="1lOfeo" value="do not" />
       </node>
     </node>
-    <node concept="2lMhBk" id="3OPyh9I6TwG" role="2J7coG">
-      <node concept="2lMhBi" id="3OPyh9InWRM" role="2lMhBt">
-        <ref role="2I6lkX" node="3OPyh9I6Txc" resolve="sheep" />
-        <node concept="8rzWW" id="3OPyh9InWRO" role="8rzWZ">
-          <property role="8rzZp" value="No Entity is" />
-        </node>
-      </node>
-      <node concept="2lMhBi" id="3OPyh9InWRQ" role="2lMhBt">
-        <ref role="2I6lkX" node="3OPyh9I6TwM" resolve="wolf" />
-        <node concept="8rzWW" id="3OPyh9InWRU" role="8rzWZ">
-          <property role="8rzZp" value="No Entity is" />
-        </node>
-      </node>
-      <node concept="2lMhBi" id="3OPyh9InWS3" role="2lMhBt" />
-      <node concept="2lMhBi" id="3OPyh9InWTk" role="2lMhBt" />
-      <node concept="2lMhBi" id="3OPyh9InWTb" role="2lMhBt" />
-      <node concept="2lMhBi" id="3OPyh9InWSo" role="2lMhBt" />
+    <node concept="XAmFv" id="3okqQmmwcrK" role="XAo8I">
+      <property role="XAmFg" value="The purpose is to simulate how predators and herbivores interact" />
     </node>
-    <node concept="1g3uKF" id="3OPyh9I6TwI" role="1_8QpP">
-      <property role="1jzKJm" value="500" />
-      <property role="1jzt_n" value="1" />
-      <property role="1jzt_b" value="0" />
-      <property role="1jztgP" value="0" />
-      <node concept="1_5P47" id="3OPyh9IeOt8" role="1_5P43">
-        <ref role="1_Kaf9" node="3OPyh9I6Txc" resolve="sheep" />
-      </node>
-      <node concept="1_5P47" id="3OPyh9ImFfI" role="1_5P43">
-        <ref role="1_Kaf9" node="3OPyh9I6TwM" resolve="wolf" />
-      </node>
-      <node concept="ZOwrR" id="3OPyh9ImFfG" role="kpDVr">
-        <property role="1lo2db" value="Black" />
-      </node>
-    </node>
-    <node concept="1lur_c" id="3OPyh9I6TwK" role="1ltb8M">
-      <node concept="1llqSK" id="3okqQmmlcZC" role="1llqph">
-        <property role="1qEyh5" value="random" />
-        <property role="1qym4F" value="100" />
-        <property role="1qFuL8" value="1000" />
-        <ref role="1qCxCz" node="3OPyh9I6TwQ" resolve="grass" />
-        <node concept="1_stcA" id="3okqQmmld02" role="1llqp5">
-          <property role="1_stcx" value="The enviroment" />
-        </node>
-      </node>
-      <node concept="1llqSK" id="3OPyh9IeOtw" role="1llqph">
-        <property role="1qEyh5" value="100" />
-        <property role="1qym4F" value="100" />
-        <property role="1qFuL8" value="1000" />
-        <ref role="1llqZf" node="3OPyh9I6Txc" resolve="sheep" />
-        <node concept="1qTHIr" id="3OPyh9ImFfm" role="1qXBHY">
-          <property role="1qTHIq" value="3" />
-        </node>
-        <node concept="1qTHIr" id="3OPyh9ImFfk" role="1qXBHY">
-          <property role="1qTHIq" value="4" />
-        </node>
-        <node concept="1qTHIr" id="3OPyh9ImFfp" role="1qXBHY">
-          <property role="1qTHIq" value="2" />
-          <ref role="1qTLvG" node="3okqQmmlcYU" resolve="sheep-energy" />
-        </node>
-        <node concept="1_stcA" id="3OPyh9ImFfi" role="1llqp5">
-          <property role="1_stcx" value="The entity" />
-        </node>
-      </node>
-      <node concept="1llqSK" id="3OPyh9I6TwW" role="1llqph">
-        <property role="1qEyh5" value="random" />
-        <property role="1qym4F" value="10" />
-        <property role="1qFuL8" value="100" />
-        <ref role="1llqZf" node="3OPyh9I6TwM" resolve="wolf" />
-        <node concept="1_stcA" id="3OPyh9IaQwO" role="1llqp5">
-          <property role="1_stcx" value="The entity" />
-        </node>
-        <node concept="1qTHIr" id="3OPyh9ImFfx" role="1qXBHY">
-          <property role="1qTHIq" value="3" />
-        </node>
-        <node concept="1qTHIr" id="3OPyh9ImFf$" role="1qXBHY">
-          <property role="1qTHIq" value="2" />
-          <ref role="1qTLvG" node="3okqQmmlcZ3" resolve="wolf-energy" />
-        </node>
-      </node>
-      <node concept="1llqSK" id="3okqQmmmX7b" role="1llqph">
-        <node concept="1_stcA" id="3okqQmmmX7o" role="1llqp5">
-          <property role="1_stcx" value="The attribute" />
-        </node>
-        <node concept="1qCxCG" id="3okqQmmqtkI" role="2Ilk52">
-          <ref role="1qCxCF" node="3OPyh9I6Txc" resolve="sheep" />
-          <ref role="1qAHKz" node="3okqQmmlcYU" resolve="sheep-energy" />
-        </node>
-      </node>
-      <node concept="1llqSK" id="3okqQmmqtkK" role="1llqph" />
-      <node concept="1llqSK" id="3okqQmmmX7s" role="1llqph" />
-    </node>
-    <node concept="ZOwr_" id="3OPyh9I6TwO" role="2J7Mid">
-      <node concept="ZOwrm" id="3OPyh9I6TwQ" role="2JZWw_">
+    <node concept="ZOwr_" id="3okqQmmwcti" role="2J7Mid">
+      <node concept="ZOwrm" id="3okqQmmwctk" role="2JZWw_">
         <property role="TrG5h" value="grass" />
         <property role="2YXOq1" value="is" />
-        <node concept="ZOwo6" id="3OPyh9ImCoq" role="2lOSUS">
+        <node concept="ZOwo6" id="3okqQmmwctl" role="2lOSUS">
           <property role="1lo2db" value="Green" />
         </node>
       </node>
+    </node>
+    <node concept="1lur_c" id="3okqQmmwcts" role="1ltb8M">
+      <node concept="1llqSK" id="3okqQmmwctu" role="1llqph">
+        <property role="1qEyh5" value="random" />
+        <property role="1qym4F" value="100" />
+        <property role="1qFuL8" value="1000" />
+        <ref role="1qCxCz" node="3okqQmmwctk" resolve="grass" />
+        <node concept="1_stcA" id="3okqQmmwctv" role="1llqp5">
+          <property role="1_stcx" value="The enviroment" />
+        </node>
+      </node>
+      <node concept="1llqSK" id="3okqQmmwctA" role="1llqph" />
+      <node concept="1llqSK" id="3okqQmmwctI" role="1llqph">
+        <property role="1qEyh5" value="100" />
+        <property role="1qym4F" value="100" />
+        <property role="1qFuL8" value="1000" />
+        <ref role="1llqZf" node="3okqQmmwcsv" resolve="sheep" />
+        <node concept="1qTHIr" id="3okqQmmwctJ" role="1qXBHY">
+          <property role="1qTHIq" value="3" />
+        </node>
+        <node concept="1qTHIr" id="3okqQmmwctK" role="1qXBHY">
+          <property role="1qTHIq" value="4" />
+        </node>
+        <node concept="1qTHIr" id="3okqQmmwctL" role="1qXBHY">
+          <property role="1qTHIq" value="2" />
+          <ref role="1qTLvG" node="3okqQmmwcsw" resolve="sheep-energy" />
+        </node>
+        <node concept="1_stcA" id="3okqQmmwctM" role="1llqp5">
+          <property role="1_stcx" value="The entity" />
+        </node>
+      </node>
+      <node concept="1llqSK" id="3okqQmmwctV" role="1llqph" />
+      <node concept="1llqSK" id="3okqQmmwcu5" role="1llqph">
+        <property role="1qEyh5" value="random" />
+        <property role="1qym4F" value="10" />
+        <property role="1qFuL8" value="100" />
+        <ref role="1llqZf" node="3okqQmmwcrO" resolve="wolf" />
+        <node concept="1_stcA" id="3okqQmmwcu6" role="1llqp5">
+          <property role="1_stcx" value="The entity" />
+        </node>
+        <node concept="1qTHIr" id="3okqQmmwcu7" role="1qXBHY">
+          <property role="1qTHIq" value="3" />
+        </node>
+        <node concept="1qTHIr" id="3okqQmmwcu8" role="1qXBHY">
+          <property role="1qTHIq" value="2" />
+          <ref role="1qTLvG" node="3okqQmmwcrP" resolve="wolf-energy" />
+        </node>
+      </node>
+    </node>
+    <node concept="2lMhBk" id="3okqQmmwcum" role="2J7coG">
+      <node concept="2lMhBi" id="3okqQmmwcun" role="2lMhBt">
+        <ref role="2I6lkX" node="3okqQmmwcsv" resolve="sheep" />
+        <node concept="8rzWW" id="3okqQmmwcuo" role="8rzWZ">
+          <property role="8rzZp" value="No Entity is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="3okqQmmwcup" role="2lMhBt">
+        <ref role="2I6lkX" node="3okqQmmwcrO" resolve="wolf" />
+        <node concept="8rzWW" id="3okqQmmwcuq" role="8rzWZ">
+          <property role="8rzZp" value="No Entity is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="3okqQmmwcur" role="2lMhBt" />
+      <node concept="2lMhBi" id="3okqQmmwcus" role="2lMhBt" />
+      <node concept="2lMhBi" id="3okqQmmwcut" role="2lMhBt" />
+      <node concept="2lMhBi" id="3okqQmmwcuu" role="2lMhBt" />
     </node>
   </node>
 </model>
