@@ -77,12 +77,6 @@
       <property role="20kJfa" value="action" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
-    <node concept="1TJgyj" id="215d$P5p_0S" role="1TKVEi">
-      <property role="IQ2ns" value="2325324488111444024" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="graphicsWindow" />
-      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
-    </node>
     <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -651,6 +645,12 @@
       <property role="20kJfa" value="attributes" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+    <node concept="1TJgyj" id="5EtG2rRtC8l" role="1TKVEi">
+      <property role="IQ2ns" value="6529568716164071957" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="graphicsWindow" />
+      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
     </node>
     <node concept="1TJgyi" id="626ZVnur3uy" role="1TKVEl">
       <property role="IQ2nx" value="6955527831106107298" />
