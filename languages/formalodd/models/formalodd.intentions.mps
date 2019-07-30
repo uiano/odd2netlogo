@@ -2701,9 +2701,6 @@
               <node concept="Xl_RD" id="aIqcXnNb1V" role="HW$Y0">
                 <property role="Xl_RC" value="Turquoise" />
               </node>
-              <node concept="Xl_RD" id="aIqcXnNeJc" role="HW$Y0">
-                <property role="Xl_RC" value="Silver" />
-              </node>
               <node concept="Xl_RD" id="aIqcXnNgIV" role="HW$Y0">
                 <property role="Xl_RC" value="Silver" />
               </node>
