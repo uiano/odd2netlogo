@@ -11,6 +11,9 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
+        <property id="1212087449254" name="noValueText" index="Q2FuW" />
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -21,6 +24,7 @@
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -501,7 +505,7 @@
     <node concept="1TJgyi" id="aIqcXnN$I4" role="1TKVEl">
       <property role="IQ2nx" value="193207073764166532" />
       <property role="TrG5h" value="color" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlP">
@@ -569,20 +573,73 @@
       <property role="TrG5h" value="ColorID" />
       <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
     </node>
-    <node concept="1TJgyj" id="aIqcXnOmbz" role="1TKVEi">
-      <property role="IQ2ns" value="193207073764369123" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="Defaultcolor" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Color" />
-    </node>
   </node>
   <node concept="AxPO7" id="3lcKR8aBGm8">
     <property role="TrG5h" value="Colorenumeration" />
     <property role="3GE5qa" value="Color" />
+    <property role="Q2FuW" value=" " />
+    <property role="3lZH7k" value="derive_from_internal_value" />
+    <property role="PDuV0" value="true" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-    <node concept="M4N5e" id="6AuNKydYdQf" role="M5hS2">
-      <property role="1uS6qv" value="string" />
-      <property role="1uS6qo" value="sting" />
+    <node concept="M4N5e" id="3okqQmm_ZZ_" role="M5hS2">
+      <property role="1uS6qo" value="blue" />
+      <property role="1uS6qv" value="blue" />
+    </node>
+    <node concept="M4N5e" id="3okqQmm_ZZI" role="M5hS2">
+      <property role="1uS6qo" value="silver" />
+      <property role="1uS6qv" value="silver" />
+    </node>
+    <node concept="M4N5e" id="3okqQmm_ZZM" role="M5hS2">
+      <property role="1uS6qo" value="red" />
+      <property role="1uS6qv" value="red" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRq0" role="M5hS2">
+      <property role="1uS6qo" value="white" />
+      <property role="1uS6qv" value="white" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRq6" role="M5hS2">
+      <property role="1uS6qo" value="orange" />
+      <property role="1uS6qv" value="orange" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRqd" role="M5hS2">
+      <property role="1uS6qo" value="black" />
+      <property role="1uS6qv" value="black" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRql" role="M5hS2">
+      <property role="1uS6qo" value="grey" />
+      <property role="1uS6qv" value="grey" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRqu" role="M5hS2">
+      <property role="1uS6qo" value="gold" />
+      <property role="1uS6qv" value="gold" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRqC" role="M5hS2">
+      <property role="1uS6qo" value="pink" />
+      <property role="1uS6qv" value="pink" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRqN" role="M5hS2">
+      <property role="1uS6qo" value="yellow" />
+      <property role="1uS6qv" value="yellow" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRqZ" role="M5hS2">
+      <property role="1uS6qo" value="teal" />
+      <property role="1uS6qv" value="teal" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRrc" role="M5hS2">
+      <property role="1uS6qo" value="aquamarine" />
+      <property role="1uS6qv" value="aquamarine" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRrq" role="M5hS2">
+      <property role="1uS6qo" value="brown" />
+      <property role="1uS6qv" value="brown" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnqRrD" role="M5hS2">
+      <property role="1uS6qo" value="magenta" />
+      <property role="1uS6qv" value="magenta" />
+    </node>
+    <node concept="M4N5e" id="3okqQmnB9tB" role="M5hS2">
+      <property role="1uS6qo" value="green" />
+      <property role="1uS6qv" value="green" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGma">
@@ -1076,19 +1133,14 @@
     <property role="EcuMT" value="3864151261534280722" />
     <property role="TrG5h" value="Action" />
     <property role="3GE5qa" value="Scheduling" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5EtG2rQVSJc" role="1TKVEi">
       <property role="IQ2ns" value="6529568716155227084" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="condition" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="6lHESjKDb9w" resolve="Condition" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJd" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227085" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="who" />
-      <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
     </node>
     <node concept="1TJgyj" id="5EtG2rQVSJe" role="1TKVEi">
       <property role="IQ2ns" value="6529568716155227086" />
@@ -1096,53 +1148,11 @@
       <property role="20kJfa" value="compoundActionSelect" />
       <ref role="20lvS9" node="5zjJPlgc2hF" resolve="ActionSelect" />
     </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJf" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227087" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="move" />
-      <ref role="20lvS9" node="6lHESjKDbbO" resolve="Move" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJg" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227088" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="changeEnvironment" />
-      <ref role="20lvS9" node="5zjJPlgcAgd" resolve="ChangeEnvironment" />
-    </node>
     <node concept="1TJgyj" id="5EtG2rQVSJh" role="1TKVEi">
       <property role="IQ2ns" value="6529568716155227089" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="optionYesNo" />
       <ref role="20lvS9" node="5zjJPlgjDSD" resolve="OptionYesNo" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJi" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227090" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="createNewEntity" />
-      <ref role="20lvS9" node="5zjJPlgCE3s" resolve="CreateNewEntity" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJj" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227091" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="updateValue" />
-      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="UpdateValue" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJk" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227092" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="killEntity" />
-      <ref role="20lvS9" node="5zjJPlgCEfx" resolve="KillEntity" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVSJl" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227093" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="conflict" />
-      <ref role="20lvS9" node="5zjJPlgCEeW" resolve="Conflict" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rQVW3N" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155240691" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="compoundAction" />
-      <ref role="20lvS9" node="6lHESjKCmJA" resolve="CompoundAction" />
     </node>
     <node concept="1TJgyj" id="5EtG2rRiFpD" role="1TKVEi">
       <property role="IQ2ns" value="6529568716161201769" />
@@ -1529,7 +1539,7 @@
       <property role="IQ2ns" value="6529568716155227079" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="action" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
     <node concept="1TJgyj" id="5zjJPlgazJc" role="1TKVEi">
@@ -1538,38 +1548,18 @@
       <property role="20kJfa" value="who" />
       <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
     </node>
-    <node concept="1TJgyj" id="5EtG2rQWNXL" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155469681" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="compoundAction" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6lHESjKCmJA" resolve="CompoundAction" />
-    </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKCmJA">
     <property role="EcuMT" value="7308686357753326566" />
     <property role="3GE5qa" value="Scheduling" />
     <property role="TrG5h" value="CompoundAction" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="6lHESjKDb9z" role="1TKVEi">
-      <property role="IQ2ns" value="7308686357753541219" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="condition" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="6lHESjKDb9w" resolve="Condition" />
-    </node>
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5EtG2rQW0us" role="1TKVEi">
       <property role="IQ2ns" value="6529568716155258780" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="action" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
-    </node>
-    <node concept="1TJgyj" id="5zjJPlgkH37" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868564336839" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9g">
@@ -1782,15 +1772,9 @@
     <property role="EcuMT" value="7308686357753541364" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="Move" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="PrWs8" id="6lHESjKDbbP" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="5zjJPlgESPF" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868570152299" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
     <node concept="1TJgyj" id="5EtG2rQD_XN" role="1TKVEi">
       <property role="IQ2ns" value="6529568716150431603" />
@@ -1860,13 +1844,7 @@
     <property role="EcuMT" value="6400669868562211259" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="UpdateValue" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5zjJPlgDyR7" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868569800135" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
-    </node>
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgHXml" role="1TKVEi">
       <property role="IQ2ns" value="6400669868570957205" />
       <property role="20lmBu" value="reference" />
@@ -1892,13 +1870,7 @@
     <property role="EcuMT" value="6400669868562211853" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ChangeEnvironment" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5zjJPlgDz2v" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868569800863" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
-    </node>
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5EtG2rPkcWJ" role="1TKVEi">
       <property role="IQ2ns" value="6529568716128046895" />
       <property role="20lmBu" value="reference" />
@@ -1947,7 +1919,7 @@
     <property role="EcuMT" value="6400669868562212808" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ChangeEnvironmentOption" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="5zjJPlgcAv9" role="1TKVEl">
       <property role="IQ2nx" value="6400669868562212809" />
       <property role="TrG5h" value="option" />
@@ -1969,7 +1941,7 @@
     <property role="EcuMT" value="6400669868569567452" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="CreateNewEntity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgCE3t" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569567453" />
       <property role="20lmBu" value="reference" />
@@ -1988,12 +1960,6 @@
       <property role="20kJfa" value="environment" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
-    <node concept="1TJgyj" id="5zjJPlgDyQJ" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868569800111" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
-    </node>
     <node concept="1TJgyj" id="5zjJPlgHXqB" role="1TKVEi">
       <property role="IQ2ns" value="6400669868570957479" />
       <property role="20lmBu" value="aggregation" />
@@ -2006,13 +1972,7 @@
     <property role="EcuMT" value="6400669868569568188" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="Conflict" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5zjJPlgDyQv" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868569800095" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
-    </node>
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgD2nl" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569667029" />
       <property role="20lmBu" value="aggregation" />
@@ -2030,13 +1990,7 @@
     <property role="EcuMT" value="6400669868569568225" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="KillEntity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5zjJPlgDyR2" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868569800130" />
-      <property role="20lmBu" value="reference" />
-      <property role="20kJfa" value="procedure" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
-    </node>
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgCEwS" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569569336" />
       <property role="20lmBu" value="aggregation" />
@@ -2054,7 +2008,7 @@
     <property role="EcuMT" value="6400669868569686218" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ConflictOption" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="5zjJPlgD73A" role="1TKVEl">
       <property role="IQ2nx" value="6400669868569686246" />
       <property role="TrG5h" value="option" />
@@ -2065,7 +2019,7 @@
     <property role="EcuMT" value="6400669868570957274" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ChangeAttribute" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="5zjJPlgHXnr" role="1TKVEl">
       <property role="IQ2nx" value="6400669868570957275" />
       <property role="TrG5h" value="AttributeName" />
