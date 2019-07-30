@@ -10,6 +10,9 @@
       <concept id="6400669868571328617" name="formalodd.structure.EndConditionOption" flags="ng" index="8rzWW">
         <property id="6400669868571328652" name="option" index="8rzZp" />
       </concept>
+      <concept id="6400669868564061737" name="formalodd.structure.OptionYesNo" flags="ng" index="8Bi5W">
+        <property id="6400669868564061738" name="option" index="8Bi5Z" />
+      </concept>
       <concept id="6400669868562211853" name="formalodd.structure.ChangeEnvironment" flags="ng" index="8StHo" />
       <concept id="6400669868562064491" name="formalodd.structure.ActionSelect" flags="ng" index="8STGY">
         <property id="6400669868562064492" name="option" index="8STGT" />
@@ -23,6 +26,9 @@
         <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
         <child id="6529568716141041572" name="procedure" index="2GyEu2" />
       </concept>
+      <concept id="7308686357753541216" name="formalodd.structure.Condition" flags="ng" index="2lMhB$">
+        <child id="7777943843989251283" name="base" index="k6ED$" />
+      </concept>
       <concept id="7308686357753326564" name="formalodd.structure.Who" flags="ng" index="2lNc1w">
         <property id="6400669868561525719" name="option" index="8X5i2" />
         <reference id="6400669868561546221" name="environment" index="8YSiS" />
@@ -33,6 +39,16 @@
       </concept>
       <concept id="7308686357753326566" name="formalodd.structure.CompoundAction" flags="ng" index="2lNc1y">
         <child id="6529568716155258780" name="action" index="2GrruU" />
+      </concept>
+      <concept id="6529568716161146305" name="formalodd.structure.ifcondition" flags="ng" index="2HP6RB">
+        <property id="6529568716161158166" name="option" index="2HPVKK" />
+        <child id="6529568716161146308" name="who2" index="2HP6Ry" />
+        <child id="6529568716161146306" name="who" index="2HP6R$" />
+      </concept>
+      <concept id="6529568716161205649" name="formalodd.structure.Who2" flags="ng" index="2HPRmR">
+        <property id="6529568716161210147" name="option" index="2HPQs5" />
+        <reference id="6529568716161205651" name="environment" index="2HPRmP" />
+        <child id="6529568716163502657" name="color" index="2HW69B" />
       </concept>
       <concept id="6529568716117032883" name="formalodd.structure.ShapeSizeOption" flags="ng" index="2IdgYl">
         <property id="6529568716117032884" name="option" index="2IdgYi" />
@@ -94,8 +110,11 @@
       </concept>
       <concept id="3864151261534280722" name="formalodd.structure.Action" flags="ng" index="1jwekb">
         <child id="6529568716155227086" name="compoundActionSelect" index="2GszJC" />
+        <child id="6529568716155227084" name="condition" index="2GszJE" />
         <child id="6529568716155227088" name="changeEnvironment" index="2GszJQ" />
+        <child id="6529568716155227089" name="optionYesNo" index="2GszJR" />
         <child id="6529568716155240691" name="compoundAction" index="2GsB3l" />
+        <child id="6529568716161201769" name="ifcondition" index="2HPKpf" />
       </concept>
       <concept id="193207073761708011" name="formalodd.structure.AttributeValueOptions" flags="ng" index="1l1EW$">
         <property id="193207073761708012" name="ValueOption" index="1l1EWz" />
@@ -186,18 +205,45 @@
       <node concept="2lNc1x" id="5EtG2rRe8mn" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
         <node concept="1jwekb" id="5EtG2rRe8mr" role="2GszJx">
+          <node concept="2lMhB$" id="5EtG2rRiFJ1" role="2GszJE" />
           <node concept="8STGY" id="5EtG2rRe8mt" role="2GszJC">
             <property role="8STGT" value="Compound Action" />
           </node>
           <node concept="2lNc1y" id="5EtG2rRe8mv" role="2GsB3l">
             <node concept="1jwekb" id="5EtG2rRg0dL" role="2GrruU">
+              <node concept="2lMhB$" id="5EtG2rRif7G" role="2GszJE">
+                <node concept="1_stcA" id="5EtG2rRiqQr" role="k6ED$">
+                  <property role="1_stcx" value="The enviroment" />
+                </node>
+              </node>
               <node concept="8STGY" id="5EtG2rRg0dN" role="2GszJC">
                 <property role="8STGT" value="Change Environment" />
               </node>
               <node concept="8StHo" id="5EtG2rRg0dP" role="2GszJQ" />
+              <node concept="8Bi5W" id="5EtG2rRif7E" role="2GszJR">
+                <property role="8Bi5Z" value="The condition for this action is that:" />
+              </node>
             </node>
           </node>
+          <node concept="2HP6RB" id="5EtG2rRnyCk" role="2HPKpf">
+            <property role="2HPVKK" value="==" />
+            <node concept="2HPRmR" id="5EtG2rRnyMA" role="2HP6R$">
+              <property role="2HPQs5" value="Environment" />
+              <ref role="2HPRmP" node="5EtG2rQfxRX" resolve="Fire" />
+            </node>
+            <node concept="2HPRmR" id="5EtG2rRnyMC" role="2HP6Ry">
+              <property role="2HPQs5" value="Color" />
+              <node concept="ZOwo6" id="5EtG2rRtqV3" role="2HW69B">
+                <property role="1lo2db" value="Red" />
+              </node>
+            </node>
+          </node>
+          <node concept="8Bi5W" id="5EtG2rRnyM$" role="2GszJR">
+            <property role="8Bi5Z" value="The condition for this action is that:" />
+          </node>
         </node>
+        <node concept="1jwekb" id="5EtG2rRrsC7" role="2GszJx" />
+        <node concept="1jwekb" id="5EtG2rRrsBR" role="2GszJx" />
         <node concept="2lNc1w" id="5EtG2rRe8mp" role="8Yoip">
           <property role="8X5i2" value="Environment" />
           <ref role="8YSiS" node="5EtG2rQfxRX" resolve="Fire" />
