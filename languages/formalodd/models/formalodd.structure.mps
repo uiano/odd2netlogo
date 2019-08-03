@@ -75,12 +75,6 @@
       <property role="20kJfa" value="EntitiesStateScale" />
       <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateScales" />
     </node>
-    <node concept="1TJgyj" id="215d$P5dE$g" role="1TKVEi">
-      <property role="IQ2ns" value="2325324488108321040" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="action" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
-    </node>
     <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1862,8 +1856,18 @@
       <property role="IQ2ns" value="6400669868570957369" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="changeAttribute" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="5zjJPlgHXnq" resolve="ChangeAttribute" />
+    </node>
+    <node concept="1TJgyi" id="2EFWiW_3brh" role="1TKVEl">
+      <property role="IQ2nx" value="3074816355397842641" />
+      <property role="TrG5h" value="option" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="2EFWiW_3K5X" role="1TKVEl">
+      <property role="IQ2nx" value="3074816355397992829" />
+      <property role="TrG5h" value="UpdatedValue" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zjJPlgcAgd">
@@ -2180,6 +2184,36 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="color" />
       <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Color" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2EFWiWzCelr">
+    <property role="EcuMT" value="3074816355373999451" />
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <property role="TrG5h" value="MoveRandom" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
+    <node concept="1TJgyi" id="2EFWiWzCels" role="1TKVEl">
+      <property role="IQ2nx" value="3074816355373999452" />
+      <property role="TrG5h" value="MovmentSpeed" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2EFWiW_aoJz">
+    <property role="EcuMT" value="3074816355399732195" />
+    <property role="3GE5qa" value="Scheduling" />
+    <property role="TrG5h" value="Collides" />
+    <property role="R4oN_" value="Used to determind if entity colides" />
+    <ref role="1TJDcQ" node="5EtG2rRitR1" resolve="ifcondition" />
+    <node concept="1TJgyj" id="2EFWiW_aoJ$" role="1TKVEi">
+      <property role="IQ2ns" value="3074816355399732196" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="Target" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+    </node>
+    <node concept="1TJgyj" id="2EFWiW_aoJB" role="1TKVEi">
+      <property role="IQ2ns" value="3074816355399732199" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="environmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
 </model>

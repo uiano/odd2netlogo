@@ -3131,5 +3131,53 @@
       <node concept="17QB3L" id="5EtG2rRiIfJ" role="3ddBve" />
     </node>
   </node>
+  <node concept="3dkpOd" id="2EFWiW_3c1g">
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <property role="TrG5h" value="SelectingUpdate" />
+    <ref role="2ZfgGC" to="86kt:5zjJPlgcA6V" resolve="UpdateValue" />
+    <node concept="2S6ZIM" id="2EFWiW_3c1h" role="2ZfVej">
+      <node concept="3clFbS" id="2EFWiW_3c1i" role="2VODD2">
+        <node concept="3clFbF" id="2EFWiW_3iZs" role="3cqZAp">
+          <node concept="38Zlrr" id="2EFWiW_3iZr" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="2EFWiW_3c1j" role="2ZfgGD">
+      <node concept="3clFbS" id="2EFWiW_3c1k" role="2VODD2">
+        <node concept="3clFbF" id="2EFWiW_3j8i" role="3cqZAp">
+          <node concept="37vLTI" id="2EFWiW_3kl7" role="3clFbG">
+            <node concept="38Zlrr" id="2EFWiW_3krV" role="37vLTx" />
+            <node concept="2OqwBi" id="2EFWiW_3jgp" role="37vLTJ">
+              <node concept="2Sf5sV" id="2EFWiW_3j8h" role="2Oq$k0" />
+              <node concept="3TrcHB" id="2EFWiW_3jpp" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:2EFWiW_3brh" resolve="option" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="38BcoT" id="2EFWiW_3cau" role="3dlsAV">
+      <node concept="3clFbS" id="2EFWiW_3cav" role="2VODD2">
+        <node concept="3clFbF" id="2EFWiW_3cAh" role="3cqZAp">
+          <node concept="2ShNRf" id="2EFWiW_3cAf" role="3clFbG">
+            <node concept="Tc6Ow" id="2EFWiW_3dSb" role="2ShVmc">
+              <node concept="17QB3L" id="2EFWiW_3eED" role="HW$YZ" />
+              <node concept="Xl_RD" id="2EFWiW_3fZd" role="HW$Y0">
+                <property role="Xl_RC" value="attribute" />
+              </node>
+              <node concept="Xl_RD" id="2EFWiW_3gyE" role="HW$Y0">
+                <property role="Xl_RC" value="shape" />
+              </node>
+              <node concept="Xl_RD" id="2EFWiW_3hnn" role="HW$Y0">
+                <property role="Xl_RC" value="color" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="17QB3L" id="2EFWiW_3clX" role="3ddBve" />
+    </node>
+  </node>
 </model>
 

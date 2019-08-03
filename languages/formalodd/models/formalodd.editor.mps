@@ -3281,9 +3281,53 @@
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="UpdateValue" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
-      <node concept="3F2HdR" id="5zjJPlgHXrf" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5zjJPlgHXoT" resolve="changeAttribute" />
-        <node concept="2iRkQZ" id="5zjJPlgHXrh" role="2czzBx" />
+      <node concept="3F1sOY" id="2EFWiW_5WfK" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5EtG2rRiFpD" resolve="ifcondition" />
+      </node>
+      <node concept="3EZMnI" id="2EFWiW_3kyx" role="3EZMnx">
+        <node concept="3F0ifn" id="2EFWiW_3kyy" role="3EZMnx">
+          <property role="3F0ifm" value="The" />
+          <node concept="Vb9p2" id="2EFWiW_3nM4" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="2EFWiW_3kyY" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:2EFWiW_3brh" resolve="option" />
+        </node>
+        <node concept="1iCGBv" id="2EFWiW_3kZO" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
+          <node concept="1sVBvm" id="2EFWiW_3kZQ" role="1sWHZn">
+            <node concept="3F0A7n" id="2EFWiW_3l08" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+          <node concept="pkWqt" id="2EFWiW_3l0c" role="pqm2j">
+            <node concept="3clFbS" id="2EFWiW_3l0d" role="2VODD2">
+              <node concept="3clFbF" id="2EFWiW_3l7$" role="3cqZAp">
+                <node concept="2OqwBi" id="2EFWiW_3mkO" role="3clFbG">
+                  <node concept="2OqwBi" id="2EFWiW_3lkR" role="2Oq$k0">
+                    <node concept="pncrf" id="2EFWiW_3l7z" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="2EFWiW_3lE_" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:2EFWiW_3brh" resolve="option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="2EFWiW_3mPu" role="2OqNvi">
+                    <node concept="Xl_RD" id="2EFWiW_3nc6" role="3y1jev">
+                      <property role="Xl_RC" value="attribute" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="2EFWiW_3ky$" role="3EZMnx">
+          <property role="3F0ifm" value="will have value" />
+          <node concept="Vb9p2" id="2EFWiW_3nM7" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="2EFWiW_3ky_" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+        </node>
+        <node concept="2iRfu4" id="2EFWiW_3kyA" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="5zjJPlgD6iH" role="2iSdaV" />
     </node>
@@ -3970,6 +4014,50 @@
     </node>
     <node concept="2aJ2om" id="3okqQmmA0oI" role="CpUAK">
       <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="2EFWiWzCelB">
+    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="MoveRandom" />
+    <node concept="3EZMnI" id="2EFWiW$K15A" role="2wV5jI">
+      <node concept="2iRkQZ" id="2EFWiW$K15B" role="2iSdaV" />
+      <node concept="3F1sOY" id="2EFWiW$K16p" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5EtG2rRiFpD" resolve="ifcondition" />
+      </node>
+      <node concept="3EZMnI" id="2EFWiWzCelD" role="3EZMnx">
+        <node concept="2iRfu4" id="2EFWiWzCelE" role="2iSdaV" />
+        <node concept="3F0ifn" id="2EFWiWzCelN" role="3EZMnx">
+          <property role="3F0ifm" value="This entity will move randomly at a movment speed of" />
+          <node concept="Vb9p2" id="2EFWiWzCem2" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="2EFWiWzCelW" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:2EFWiWzCels" resolve="MovmentSpeed" />
+        </node>
+        <node concept="3F0ifn" id="2EFWiWzDFiQ" role="3EZMnx">
+          <property role="3F0ifm" value="pixels per frame" />
+          <node concept="Vb9p2" id="2EFWiWzDFj0" role="3F10Kt" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="2EFWiW_aoJO">
+    <property role="3GE5qa" value="Scheduling" />
+    <ref role="1XX52x" to="86kt:2EFWiW_aoJz" resolve="Collides" />
+    <node concept="3EZMnI" id="2EFWiW_aoJQ" role="2wV5jI">
+      <node concept="2iRfu4" id="2EFWiW_aoJR" role="2iSdaV" />
+      <node concept="3F0ifn" id="2EFWiW_aoK0" role="3EZMnx">
+        <property role="3F0ifm" value="if the actionere collides with" />
+        <node concept="Vb9p2" id="2EFWiW_aoLg" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="2EFWiW_aoK9" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:2EFWiW_aoJ$" resolve="Target" />
+        <node concept="1sVBvm" id="2EFWiW_aoKb" role="1sWHZn">
+          <node concept="3F0A7n" id="2EFWiW_aoKn" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
