@@ -1540,6 +1540,7 @@
       <property role="IQ2ns" value="6400669868561677260" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="who" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
     </node>
   </node>

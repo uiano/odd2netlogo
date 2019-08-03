@@ -524,7 +524,7 @@
           <node concept="3EZMnI" id="3OPyh9I2ZgI" role="3EZMnx">
             <node concept="VPM3Z" id="3OPyh9I2ZgJ" role="3F10Kt" />
             <node concept="3F0ifn" id="3OPyh9I2ZgK" role="3EZMnx">
-              <property role="3F0ifm" value="color wich is the color " />
+              <property role="3F0ifm" value="has a default color color wich is the color " />
               <node concept="Vb9p2" id="3OPyh9I2ZgL" role="3F10Kt" />
             </node>
             <node concept="3F1sOY" id="3OPyh9I2ZgM" role="3EZMnx">
@@ -534,30 +534,6 @@
               </node>
             </node>
             <node concept="2iRfu4" id="3OPyh9I2ZgO" role="2iSdaV" />
-            <node concept="pkWqt" id="3OPyh9I2ZgP" role="pqm2j">
-              <node concept="3clFbS" id="3OPyh9I2ZgQ" role="2VODD2">
-                <node concept="3clFbF" id="3OPyh9I2ZgR" role="3cqZAp">
-                  <node concept="2OqwBi" id="3OPyh9I2ZgS" role="3clFbG">
-                    <node concept="2OqwBi" id="3OPyh9I2ZgT" role="2Oq$k0">
-                      <node concept="2OqwBi" id="3OPyh9I2ZgU" role="2Oq$k0">
-                        <node concept="pncrf" id="3OPyh9I2ZgV" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="3OPyh9I2ZgW" role="2OqNvi">
-                          <ref role="3Tt5mk" to="86kt:3mweh__yPZT" resolve="colorOptions" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="3OPyh9I2ZgX" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:3mweh__xv2Y" resolve="Options" />
-                      </node>
-                    </node>
-                    <node concept="3y1jeu" id="3OPyh9I2ZgY" role="2OqNvi">
-                      <node concept="Xl_RD" id="3OPyh9I2ZgZ" role="3y1jev">
-                        <property role="Xl_RC" value="has a default" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="VPM3Z" id="6UrRj0hPoly" role="3F10Kt" />
@@ -2818,7 +2794,9 @@
     <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="CompoundAction" />
     <node concept="3EZMnI" id="5EtG2rQW0Vd" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQW0Ve" role="3EZMnx">
-        <node concept="3F0ifn" id="5EtG2rQW0Vf" role="3EZMnx" />
+        <node concept="3F1sOY" id="2EFWiW_qeRV" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rRiFpD" resolve="ifcondition" />
+        </node>
         <node concept="3F0ifn" id="5EtG2rQW0Wi" role="3EZMnx">
           <property role="3F0ifm" value="Add compound actions" />
         </node>
@@ -2857,8 +2835,9 @@
         <node concept="3F0ifn" id="5zjJPlgalDp" role="3EZMnx">
           <property role="3F0ifm" value="affects" />
         </node>
-        <node concept="3F1sOY" id="5zjJPlgazJw" role="3EZMnx">
+        <node concept="3F2HdR" id="2EFWiW_elP0" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5zjJPlgazJc" resolve="who" />
+          <node concept="2iRfu4" id="2EFWiW_elP2" role="2czzBx" />
         </node>
         <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
       </node>
@@ -3238,6 +3217,9 @@
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="KillEntity" />
     <node concept="3EZMnI" id="5zjJPlgCEww" role="2wV5jI">
+      <node concept="3F1sOY" id="2EFWiW_rCT7" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5EtG2rRiFpD" resolve="ifcondition" />
+      </node>
       <node concept="2iRkQZ" id="5zjJPlgCEwz" role="2iSdaV" />
       <node concept="3EZMnI" id="5zjJPlgCEwZ" role="3EZMnx">
         <node concept="2iRfu4" id="5zjJPlgCEx0" role="2iSdaV" />
@@ -3247,12 +3229,6 @@
         </node>
         <node concept="3F1sOY" id="5zjJPlgCExv" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5zjJPlgCEwS" resolve="who" />
-        </node>
-        <node concept="3F0ifn" id="5zjJPlgCExM" role="3EZMnx">
-          <property role="3F0ifm" value="is" />
-        </node>
-        <node concept="3F1sOY" id="5zjJPlgD$7r" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgDzVZ" resolve="conflictOption" />
         </node>
       </node>
     </node>
