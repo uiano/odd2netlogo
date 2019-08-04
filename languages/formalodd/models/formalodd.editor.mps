@@ -3297,10 +3297,17 @@
           </node>
         </node>
         <node concept="3F0ifn" id="2EFWiW_3ky$" role="3EZMnx">
-          <property role="3F0ifm" value="will have value" />
+          <property role="3F0ifm" value="will have " />
           <node concept="Vb9p2" id="2EFWiW_3nM7" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="2EFWiW_3ky_" role="3EZMnx">
+        <node concept="3F0A7n" id="79PYCRrh2W2" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:79PYCRriZKQ" resolve="editorText" />
+        </node>
+        <node concept="3F0ifn" id="79PYCRrh3p6" role="3EZMnx">
+          <property role="3F0ifm" value="by" />
+          <node concept="Vb9p2" id="79PYCRrh3yW" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="79PYCRrwyLl" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
         </node>
         <node concept="2iRfu4" id="2EFWiW_3kyA" role="2iSdaV" />
@@ -3962,6 +3969,28 @@
                   <node concept="3y1jeu" id="5EtG2rRp$BM" role="2OqNvi">
                     <node concept="Xl_RD" id="5EtG2rRp$SH" role="3y1jev">
                       <property role="Xl_RC" value="Attribute" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3F0A7n" id="79PYCRr4bvM" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:79PYCRr4bk6" resolve="value" />
+          <node concept="pkWqt" id="79PYCRr4bG1" role="pqm2j">
+            <node concept="3clFbS" id="79PYCRr4bG2" role="2VODD2">
+              <node concept="3clFbF" id="79PYCRr4bNn" role="3cqZAp">
+                <node concept="2OqwBi" id="79PYCRr4d3$" role="3clFbG">
+                  <node concept="2OqwBi" id="79PYCRr4bZQ" role="2Oq$k0">
+                    <node concept="pncrf" id="79PYCRr4bNm" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="79PYCRr4clH" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:5EtG2rRiHsz" resolve="option" />
+                    </node>
+                  </node>
+                  <node concept="3y1jeu" id="79PYCRr4dDo" role="2OqNvi">
+                    <node concept="Xl_RD" id="79PYCRr4eZW" role="3y1jev">
+                      <property role="Xl_RC" value="value" />
                     </node>
                   </node>
                 </node>

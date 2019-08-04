@@ -1870,6 +1870,16 @@
       <property role="TrG5h" value="UpdatedValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="79PYCRrg__p" role="1TKVEl">
+      <property role="IQ2nx" value="8247773779774822745" />
+      <property role="TrG5h" value="TypeOfUpdate" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="79PYCRriZKQ" role="1TKVEl">
+      <property role="IQ2nx" value="8247773779775454262" />
+      <property role="TrG5h" value="editorText" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5zjJPlgcAgd">
     <property role="EcuMT" value="6400669868562211853" />
@@ -2178,6 +2188,11 @@
     <node concept="1TJgyi" id="5EtG2rRiHsz" role="1TKVEl">
       <property role="IQ2nx" value="6529568716161210147" />
       <property role="TrG5h" value="option" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="79PYCRr4bk6" role="1TKVEl">
+      <property role="IQ2nx" value="8247773779771569414" />
+      <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="5EtG2rRrt91" role="1TKVEi">
