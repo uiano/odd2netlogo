@@ -262,6 +262,11 @@
       <property role="TrG5h" value="showAttributes" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="79PYCRsHNKO" role="1TKVEl">
+      <property role="IQ2nx" value="8247773779799260212" />
+      <property role="TrG5h" value="size" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkv">
     <property role="EcuMT" value="3840659476812055839" />
@@ -2230,6 +2235,18 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="environmentEntity" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="79PYCRrUEZI">
+    <property role="EcuMT" value="8247773779785854958" />
+    <property role="3GE5qa" value="Scheduling" />
+    <property role="TrG5h" value="Spawn" />
+    <property role="R4oN_" value="Spawns a new entity" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
+    <node concept="1TJgyi" id="79PYCRrUEZJ" role="1TKVEl">
+      <property role="IQ2nx" value="8247773779785854959" />
+      <property role="TrG5h" value="AmuntOfSpawns" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

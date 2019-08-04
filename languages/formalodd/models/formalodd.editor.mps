@@ -666,11 +666,11 @@
             </node>
           </node>
         </node>
-        <node concept="3F1sOY" id="5EtG2rOEq86" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rOEpny" resolve="shapeSize" />
-          <node concept="pkWqt" id="5EtG2rOEqUA" role="pqm2j">
-            <node concept="3clFbS" id="5EtG2rOEqUB" role="2VODD2">
-              <node concept="3clFbF" id="5EtG2rOEqUJ" role="3cqZAp">
+        <node concept="3F0A7n" id="79PYCRsHOCA" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:79PYCRsHNKO" resolve="size" />
+          <node concept="pkWqt" id="79PYCRsHOP9" role="pqm2j">
+            <node concept="3clFbS" id="79PYCRsHOPa" role="2VODD2">
+              <node concept="3clFbF" id="79PYCRsHOWu" role="3cqZAp">
                 <node concept="2OqwBi" id="5EtG2rOEqUK" role="3clFbG">
                   <node concept="2OqwBi" id="5EtG2rOEqUL" role="2Oq$k0">
                     <node concept="2OqwBi" id="5EtG2rOEqUM" role="2Oq$k0">
@@ -3926,11 +3926,11 @@
             </node>
           </node>
         </node>
-        <node concept="3F1sOY" id="5EtG2rRrtRa" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rRrt91" resolve="color" />
-          <node concept="pkWqt" id="5EtG2rRrxng" role="pqm2j">
-            <node concept="3clFbS" id="5EtG2rRrxnh" role="2VODD2">
-              <node concept="3clFbF" id="5EtG2rRrxuA" role="3cqZAp">
+        <node concept="3F0ifn" id="79PYCRu3KWC" role="3EZMnx">
+          <property role="3F0ifm" value="color of enviroment" />
+          <node concept="pkWqt" id="79PYCRu3L8R" role="pqm2j">
+            <node concept="3clFbS" id="79PYCRu3L8S" role="2VODD2">
+              <node concept="3clFbF" id="79PYCRu3Lgc" role="3cqZAp">
                 <node concept="2OqwBi" id="5EtG2rRryFT" role="3clFbG">
                   <node concept="2OqwBi" id="5EtG2rRrxF3" role="2Oq$k0">
                     <node concept="pncrf" id="5EtG2rRrxu_" role="2Oq$k0" />
@@ -4062,6 +4062,30 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="79PYCRrUG$l">
+    <property role="3GE5qa" value="Scheduling" />
+    <ref role="1XX52x" to="86kt:79PYCRrUEZI" resolve="Spawn" />
+    <node concept="3EZMnI" id="79PYCRrYoov" role="2wV5jI">
+      <node concept="3F1sOY" id="79PYCRrYooU" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5EtG2rRiFpD" resolve="ifcondition" />
+      </node>
+      <node concept="2iRkQZ" id="79PYCRrYoow" role="2iSdaV" />
+      <node concept="3EZMnI" id="79PYCRrUG$n" role="3EZMnx">
+        <node concept="3F0ifn" id="79PYCRrUG$u" role="3EZMnx">
+          <property role="3F0ifm" value="Will spawn " />
+          <node concept="Vb9p2" id="79PYCRrUGB7" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="79PYCRrUG$$" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:79PYCRrUEZJ" resolve="AmuntOfSpawns" />
+        </node>
+        <node concept="3F0ifn" id="79PYCRrUG$G" role="3EZMnx">
+          <property role="3F0ifm" value="at the location of entity" />
+          <node concept="Vb9p2" id="79PYCRrUGB9" role="3F10Kt" />
+        </node>
+        <node concept="2iRfu4" id="79PYCRrUG$q" role="2iSdaV" />
       </node>
     </node>
   </node>
