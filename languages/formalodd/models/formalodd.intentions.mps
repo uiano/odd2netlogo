@@ -91,15 +91,6 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
-      <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
-        <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
-      </concept>
-      <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
-        <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
-        <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
-      </concept>
-      <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
-      <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -1000,18 +991,10 @@
           <node concept="37vLTI" id="5zjJPlgcRJo" role="3clFbG">
             <node concept="38Zlrr" id="5zjJPlgcRQ9" role="37vLTx" />
             <node concept="2OqwBi" id="5EtG2rRaxY2" role="37vLTJ">
-              <node concept="1PxgMI" id="5EtG2rRaxKN" role="2Oq$k0">
-                <node concept="chp4Y" id="5EtG2rRaxLO" role="3oSUPX">
-                  <ref role="cht4Q" to="86kt:5zjJPlgcAgd" resolve="ChangeEnvironment" />
-                </node>
-                <node concept="2OqwBi" id="5zjJPlgcR2K" role="1m5AlR">
-                  <node concept="2Sf5sV" id="5zjJPlgcQV_" role="2Oq$k0" />
-                  <node concept="1mfA1w" id="5EtG2rRaxrV" role="2OqNvi" />
-                </node>
+              <node concept="3TrcHB" id="2j8p7S3QB6m" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:5zjJPlgcAv9" resolve="option" />
               </node>
-              <node concept="3TrcHB" id="5EtG2rRazgB" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:5EtG2rRawi8" resolve="option" />
-              </node>
+              <node concept="2Sf5sV" id="2j8p7S3QaDN" role="2Oq$k0" />
             </node>
           </node>
         </node>
@@ -2743,7 +2726,7 @@
   </node>
   <node concept="3dkpOd" id="5EtG2rRivnA">
     <property role="TrG5h" value="ifconditionSelect" />
-    <property role="3GE5qa" value="Scheduling" />
+    <property role="3GE5qa" value="Scheduling.Conditions" />
     <ref role="2ZfgGC" to="86kt:5EtG2rRitR1" resolve="ifcondition" />
     <node concept="2S6ZIM" id="5EtG2rRivnB" role="2ZfVej">
       <node concept="3clFbS" id="5EtG2rRivnC" role="2VODD2">
