@@ -2900,7 +2900,7 @@
                 <property role="Xl_RC" value="&lt;" />
               </node>
               <node concept="Xl_RD" id="5EtG2rRivWq" role="HW$Y0">
-                <property role="Xl_RC" value="==" />
+                <property role="Xl_RC" value="=" />
               </node>
               <node concept="Xl_RD" id="5EtG2rRivWr" role="HW$Y0">
                 <property role="Xl_RC" value="&lt;=" />
