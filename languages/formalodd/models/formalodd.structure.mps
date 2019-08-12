@@ -1083,6 +1083,13 @@
       <property role="20kJfa" value="color" />
       <ref role="20lvS9" node="3lcKR8aBGm5" resolve="DefaultColor" />
     </node>
+    <node concept="1TJgyj" id="4MYWhBi9wM3" role="1TKVEi">
+      <property role="IQ2ns" value="5530122485659733123" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="globalVar" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4MYWhBi9wM7" resolve="GlobalVariabels" />
+    </node>
     <node concept="1TJgyi" id="3mweh__OAr1" role="1TKVEl">
       <property role="IQ2nx" value="3864151261529138881" />
       <property role="TrG5h" value="test" />
@@ -2382,6 +2389,29 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="EnvromentAction" />
       <ref role="20lvS9" node="1zaawdw2ixv" resolve="AbstractEnviromentAction" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4MYWhBi9wM7">
+    <property role="EcuMT" value="5530122485659733127" />
+    <property role="TrG5h" value="GlobalVariabels" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4MYWhBi9wNx" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyi" id="4MYWhBi9wOU" role="1TKVEl">
+      <property role="IQ2nx" value="5530122485659733306" />
+      <property role="TrG5h" value="min" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4MYWhBi9wOW" role="1TKVEl">
+      <property role="IQ2nx" value="5530122485659733308" />
+      <property role="TrG5h" value="max" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4MYWhBi9wOZ" role="1TKVEl">
+      <property role="IQ2nx" value="5530122485659733311" />
+      <property role="TrG5h" value="startvalue" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

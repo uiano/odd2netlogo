@@ -1025,6 +1025,10 @@
           <ref role="1NtTu8" to="86kt:6JKNFtZ__1G" resolve="color" />
         </node>
       </node>
+      <node concept="3F2HdR" id="4MYWhBi9wMJ" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4MYWhBi9wM3" resolve="globalVar" />
+        <node concept="2iRkQZ" id="4MYWhBi9wML" role="2czzBx" />
+      </node>
       <node concept="3EZMnI" id="6JKNFtZIAOa" role="3EZMnx">
         <node concept="2iRfu4" id="6JKNFtZIAOb" role="2iSdaV" />
         <node concept="3F0ifn" id="6JKNFtZIANM" role="3EZMnx">
@@ -4229,6 +4233,33 @@
       </node>
       <node concept="3F1sOY" id="4diQXU$E53P" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:4diQXU$E530" resolve="EnvromentAction" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4MYWhBi9wMg">
+    <ref role="1XX52x" to="86kt:4MYWhBi9wM7" resolve="GlobalVariabels" />
+    <node concept="3EZMnI" id="4MYWhBi9wNA" role="2wV5jI">
+      <node concept="2iRfu4" id="4MYWhBi9wNB" role="2iSdaV" />
+      <node concept="3F0A7n" id="4MYWhBi9wNz" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4MYWhBi9wNJ" role="3EZMnx">
+        <property role="3F0ifm" value="min" />
+      </node>
+      <node concept="3F0A7n" id="4MYWhBi9wP3" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4MYWhBi9wOU" resolve="min" />
+      </node>
+      <node concept="3F0ifn" id="4MYWhBi9wO9" role="3EZMnx">
+        <property role="3F0ifm" value="max" />
+      </node>
+      <node concept="3F0A7n" id="4MYWhBi9wPc" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4MYWhBi9wOW" resolve="max" />
+      </node>
+      <node concept="3F0ifn" id="4MYWhBi9wOs" role="3EZMnx">
+        <property role="3F0ifm" value="start" />
+      </node>
+      <node concept="3F0A7n" id="4MYWhBi9wPl" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4MYWhBi9wOZ" resolve="startvalue" />
       </node>
     </node>
   </node>
