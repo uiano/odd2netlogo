@@ -2372,5 +2372,11 @@
       <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4MYWhBhM02l">
+    <property role="EcuMT" value="5530122485653569685" />
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <property role="TrG5h" value="CenterOnPatch" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
+  </node>
 </model>
 
