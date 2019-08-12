@@ -789,12 +789,6 @@
       <property role="20kJfa" value="ColorShade" />
       <ref role="20lvS9" node="3lcKR8aBGmi" resolve="ColorShade" />
     </node>
-    <node concept="1TJgyj" id="5oUGABTLn_S" role="1TKVEi">
-      <property role="IQ2ns" value="6213474804142799224" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="EnvironmentAttribute" />
-      <ref role="20lvS9" node="3lcKR8aBGmR" resolve="ConditionalAttribute" />
-    </node>
     <node concept="1TJgyi" id="626ZVnusr$M" role="1TKVEl">
       <property role="IQ2nx" value="6955527831106468146" />
       <property role="TrG5h" value="Distribution" />
@@ -897,28 +891,12 @@
       <property role="20kJfa" value="Color" />
       <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Color" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGmR">
-    <property role="EcuMT" value="3840659476812055991" />
-    <property role="TrG5h" value="ConditionalAttribute" />
-    <property role="R4oN_" value="the string should be the name of the attribute so it should include all the environment attributes . alternatively it could be dealt with a list" />
-    <ref role="1TJDcQ" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    <node concept="1TJgyj" id="4GvH3PCO5nN" role="1TKVEi">
-      <property role="IQ2ns" value="5413243452967114227" />
+    <node concept="1TJgyj" id="4diQXU_eAaF" role="1TKVEi">
+      <property role="IQ2ns" value="4851181497932735147" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="conditional" />
-      <ref role="20lvS9" node="3lcKR8aBGn0" resolve="Conditional" />
-    </node>
-    <node concept="1TJgyi" id="3lcKR8aBGmS" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055992" />
-      <property role="TrG5h" value="attribute" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="4GvH3PCO5nP" role="1TKVEi">
-      <property role="IQ2ns" value="5413243452967114229" />
-      <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="attribute" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="aIqcXnA9xq" resolve="Attribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGn0">

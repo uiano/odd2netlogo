@@ -122,7 +122,9 @@
         <property id="6955527831106468148" name="showColor" index="2YXOq1" />
         <child id="3961341278980418898" name="Slider" index="21gqYP" />
         <child id="3961341278979996238" name="Location" index="21i3yD" />
+        <child id="3961341278978876244" name="DefaultColor" index="21mi6N" />
         <child id="7308686357755209020" name="Color" index="2lOSUS" />
+        <child id="4851181497932735147" name="attribute" index="3Aqb_P" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
         <child id="6529568716164071957" name="graphicsWindow" index="2HUN8N" />
@@ -750,6 +752,9 @@
             <property role="1lfEPY" value="is not" />
           </node>
         </node>
+        <node concept="1ldJ2l" id="4diQXU_ikvi" role="1l3At2">
+          <property role="TrG5h" value="blergh" />
+        </node>
         <node concept="ZOwrR" id="79PYCRu9DMa" role="3$oDj3">
           <property role="1lo2db" value="white" />
         </node>
@@ -763,7 +768,24 @@
           <property role="1lPuH5" value="sheep" />
         </node>
       </node>
+      <node concept="ZOwpW" id="4diQXU_ikvr" role="ZOwpT">
+        <property role="TrG5h" value="blerg" />
+      </node>
       <node concept="ZOwr_" id="79PYCRu9DMl" role="ZOwpV">
+        <node concept="ZOwrm" id="4diQXU_mEnK" role="2JZWw_">
+          <property role="TrG5h" value="trees" />
+          <property role="2YXOq1" value="is" />
+          <node concept="1ldJ2l" id="4diQXU_mEnX" role="3Aqb_P">
+            <property role="TrG5h" value="length" />
+          </node>
+          <node concept="ZOwqP" id="4diQXU_mEnQ" role="21i3yD">
+            <property role="21lQ5$" value="random" />
+          </node>
+          <node concept="ZOwo6" id="4diQXU_mEo0" role="2lOSUS" />
+          <node concept="ZOwrR" id="4diQXU_oP41" role="21mi6N">
+            <property role="1lo2db" value="blue" />
+          </node>
+        </node>
         <node concept="1g3uKF" id="79PYCRu9DMn" role="2HUN8N">
           <property role="1jzKJm" value="20" />
           <property role="1jzt_n" value="10" />

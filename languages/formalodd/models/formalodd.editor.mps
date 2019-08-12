@@ -359,8 +359,8 @@
         <node concept="PMmxH" id="6lHESjKEQKf" role="3EZMnx">
           <ref role="PMmxG" node="aIqcXnWERo" resolve="EnviromentColor" />
         </node>
-        <node concept="3F1sOY" id="3rTwIuRI2QA" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3rTwIuRI2Pi" resolve="Slider" />
+        <node concept="PMmxH" id="4diQXU_eBN0" role="3EZMnx">
+          <ref role="PMmxG" node="3rTwIuRCbzM" resolve="EnviromentAttribute" />
         </node>
         <node concept="2iRkQZ" id="3rTwIuRByPh" role="2iSdaV" />
       </node>
@@ -1349,34 +1349,26 @@
     <property role="TrG5h" value="EnviromentAttribute" />
     <property role="3GE5qa" value="Environment" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    <node concept="3EZMnI" id="3rTwIuRCb_D" role="2wV5jI">
-      <node concept="3EZMnI" id="3rTwIuRCb_E" role="3EZMnx">
-        <node concept="VPM3Z" id="3rTwIuRCb_F" role="3F10Kt" />
-        <node concept="3F0A7n" id="3rTwIuRCb_G" role="3EZMnx">
+    <node concept="3EZMnI" id="4diQXU_e_Mz" role="2wV5jI">
+      <node concept="3EZMnI" id="4diQXU_e_M$" role="3EZMnx">
+        <node concept="VPM3Z" id="4diQXU_e_M_" role="3F10Kt" />
+        <node concept="3F0A7n" id="4diQXU_e_MA" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
-        <node concept="3F0A7n" id="3rTwIuRCb_H" role="3EZMnx">
-          <property role="1cu_pB" value="1" />
-          <property role="1$x2rV" value="&lt;press alt enter to show attributes&gt;" />
-          <ref role="1NtTu8" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-          <node concept="Vb9p2" id="3rTwIuRCb_I" role="3F10Kt">
-            <property role="Vbekb" value="BOLD" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="3rTwIuRCb_J" role="3EZMnx">
+        <node concept="3F0ifn" id="4diQXU_e_MD" role="3EZMnx">
           <property role="3F0ifm" value="contain any attributes " />
-          <node concept="pkWqt" id="3rTwIuRCb_K" role="pqm2j">
-            <node concept="3clFbS" id="3rTwIuRCb_L" role="2VODD2">
-              <node concept="3clFbF" id="3rTwIuRCb_M" role="3cqZAp">
-                <node concept="2OqwBi" id="3rTwIuRCb_N" role="3clFbG">
-                  <node concept="2OqwBi" id="3rTwIuRCb_O" role="2Oq$k0">
-                    <node concept="pncrf" id="3rTwIuRCb_P" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="3rTwIuREDgy" role="2OqNvi">
+          <node concept="pkWqt" id="4diQXU_e_ME" role="pqm2j">
+            <node concept="3clFbS" id="4diQXU_e_MF" role="2VODD2">
+              <node concept="3clFbF" id="4diQXU_e_MG" role="3cqZAp">
+                <node concept="2OqwBi" id="4diQXU_e_MH" role="3clFbG">
+                  <node concept="2OqwBi" id="4diQXU_e_MI" role="2Oq$k0">
+                    <node concept="pncrf" id="4diQXU_e_MJ" role="2Oq$k0" />
+                    <node concept="3TrcHB" id="4diQXU_e_MK" role="2OqNvi">
                       <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
                     </node>
                   </node>
-                  <node concept="3y1jeu" id="3rTwIuRCb_R" role="2OqNvi">
-                    <node concept="Xl_RD" id="3rTwIuRCb_S" role="3y1jev">
+                  <node concept="3y1jeu" id="4diQXU_e_ML" role="2OqNvi">
+                    <node concept="Xl_RD" id="4diQXU_e_MM" role="3y1jev">
                       <property role="Xl_RC" value="does not" />
                     </node>
                   </node>
@@ -1384,149 +1376,19 @@
               </node>
             </node>
           </node>
-          <node concept="Vb9p2" id="3rTwIuRCb_T" role="3F10Kt" />
+          <node concept="Vb9p2" id="4diQXU_e_MN" role="3F10Kt" />
         </node>
-        <node concept="3F0ifn" id="3rTwIuRCb_U" role="3EZMnx">
+        <node concept="3F0ifn" id="4diQXU_e_MO" role="3EZMnx">
           <property role="3F0ifm" value="contains the following attributes :" />
-          <node concept="pkWqt" id="3rTwIuRCb_V" role="pqm2j">
-            <node concept="3clFbS" id="3rTwIuRCb_W" role="2VODD2">
-              <node concept="3clFbF" id="3rTwIuRCb_X" role="3cqZAp">
-                <node concept="2OqwBi" id="3rTwIuRCb_Y" role="3clFbG">
-                  <node concept="2OqwBi" id="3rTwIuRCb_Z" role="2Oq$k0">
-                    <node concept="pncrf" id="3rTwIuRCbA0" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="3rTwIuREDPm" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="3rTwIuRCbA2" role="2OqNvi">
-                    <node concept="Xl_RD" id="3rTwIuRCbA3" role="3y1jev">
-                      <property role="Xl_RC" value="does" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="Vb9p2" id="3rTwIuRCbA4" role="3F10Kt" />
+          <node concept="Vb9p2" id="4diQXU_e_MY" role="3F10Kt" />
         </node>
-        <node concept="2iRfu4" id="3rTwIuRCbA5" role="2iSdaV" />
+        <node concept="2iRfu4" id="4diQXU_e_MZ" role="2iSdaV" />
       </node>
-      <node concept="3F0ifn" id="3rTwIuRCbA6" role="3EZMnx">
-        <property role="3F0ifm" value="The parameter is/is not for all &lt;name of the environment plural&gt;." />
-        <node concept="pkWqt" id="3rTwIuRCbA7" role="pqm2j">
-          <node concept="3clFbS" id="3rTwIuRCbA8" role="2VODD2">
-            <node concept="3clFbF" id="3rTwIuRCbA9" role="3cqZAp">
-              <node concept="2OqwBi" id="3rTwIuRCbAa" role="3clFbG">
-                <node concept="2OqwBi" id="3rTwIuRCbAb" role="2Oq$k0">
-                  <node concept="pncrf" id="3rTwIuRCbAc" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3rTwIuREAzQ" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="3rTwIuRCbAe" role="2OqNvi">
-                  <node concept="Xl_RD" id="3rTwIuRCbAf" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3rTwIuRCbAg" role="3F10Kt" />
+      <node concept="2iRkQZ" id="4diQXU_e_N0" role="2iSdaV" />
+      <node concept="3F2HdR" id="4diQXU_e_N1" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4diQXU_eAaF" resolve="attribute" />
+        <node concept="2iRkQZ" id="4diQXU_e_N2" role="2czzBx" />
       </node>
-      <node concept="3F0ifn" id="3rTwIuRCbAh" role="3EZMnx">
-        <property role="3F0ifm" value="(Name of the Attribute) takes … values." />
-        <node concept="pkWqt" id="3rTwIuRCbAi" role="pqm2j">
-          <node concept="3clFbS" id="3rTwIuRCbAj" role="2VODD2">
-            <node concept="3clFbF" id="3rTwIuRCbAk" role="3cqZAp">
-              <node concept="2OqwBi" id="3rTwIuRCbAl" role="3clFbG">
-                <node concept="2OqwBi" id="3rTwIuRCbAm" role="2Oq$k0">
-                  <node concept="pncrf" id="3rTwIuRCbAn" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3rTwIuREB2Y" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="3rTwIuRCbAp" role="2OqNvi">
-                  <node concept="Xl_RD" id="3rTwIuRCbAq" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3rTwIuRCbAr" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="3rTwIuRCbAs" role="3EZMnx">
-        <property role="3F0ifm" value="This is the list of possible values the (name of attribute) takes: …" />
-        <node concept="pkWqt" id="3rTwIuRCbAt" role="pqm2j">
-          <node concept="3clFbS" id="3rTwIuRCbAu" role="2VODD2">
-            <node concept="3clFbF" id="3rTwIuRCbAv" role="3cqZAp">
-              <node concept="2OqwBi" id="3rTwIuRCbAw" role="3clFbG">
-                <node concept="2OqwBi" id="3rTwIuRCbAx" role="2Oq$k0">
-                  <node concept="pncrf" id="3rTwIuRCbAy" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3rTwIuREBBM" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="3rTwIuRCbA$" role="2OqNvi">
-                  <node concept="Xl_RD" id="3rTwIuRCbA_" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3rTwIuRCbAA" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="3rTwIuRCbAB" role="3EZMnx">
-        <property role="3F0ifm" value="The estimated range of values for the (name of the attribute) is: (…,….)" />
-        <node concept="pkWqt" id="3rTwIuRCbAC" role="pqm2j">
-          <node concept="3clFbS" id="3rTwIuRCbAD" role="2VODD2">
-            <node concept="3clFbF" id="3rTwIuRCbAE" role="3cqZAp">
-              <node concept="2OqwBi" id="3rTwIuRCbAF" role="3clFbG">
-                <node concept="2OqwBi" id="3rTwIuRCbAG" role="2Oq$k0">
-                  <node concept="pncrf" id="3rTwIuRCbAH" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3rTwIuREC6U" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="3rTwIuRCbAJ" role="2OqNvi">
-                  <node concept="Xl_RD" id="3rTwIuRCbAK" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3rTwIuRCbAL" role="3F10Kt" />
-      </node>
-      <node concept="3F0ifn" id="3rTwIuRCbAM" role="3EZMnx">
-        <property role="3F0ifm" value="It is estimated that the values of (name of the attribute) follow the … distribution with parameters …. ." />
-        <node concept="pkWqt" id="3rTwIuRCbAN" role="pqm2j">
-          <node concept="3clFbS" id="3rTwIuRCbAO" role="2VODD2">
-            <node concept="3clFbF" id="3rTwIuRCbAP" role="3cqZAp">
-              <node concept="2OqwBi" id="3rTwIuRCbAQ" role="3clFbG">
-                <node concept="2OqwBi" id="3rTwIuRCbAR" role="2Oq$k0">
-                  <node concept="pncrf" id="3rTwIuRCbAS" role="2Oq$k0" />
-                  <node concept="3TrcHB" id="3rTwIuRECFI" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                  </node>
-                </node>
-                <node concept="3y1jeu" id="3rTwIuRCbAU" role="2OqNvi">
-                  <node concept="Xl_RD" id="3rTwIuRCbAV" role="3y1jev">
-                    <property role="Xl_RC" value="does" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="Vb9p2" id="3rTwIuRCbAW" role="3F10Kt" />
-      </node>
-      <node concept="2iRkQZ" id="3rTwIuRCbAX" role="2iSdaV" />
     </node>
   </node>
   <node concept="PKFIW" id="3rTwIuRCfPJ">
@@ -1911,7 +1773,7 @@
           <property role="3F0ifm" value="will have the color" />
         </node>
         <node concept="3F1sOY" id="6lHESjKJyvv" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKJykW" resolve="Color" />
+          <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
         </node>
         <node concept="2iRfu4" id="3rTwIuRB$kd" role="2iSdaV" />
         <node concept="pkWqt" id="3rTwIuRB$ke" role="pqm2j">
