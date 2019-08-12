@@ -2372,5 +2372,18 @@
       <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4diQXU$E52Z">
+    <property role="EcuMT" value="4851181497923162303" />
+    <property role="3GE5qa" value="Scheduling.Conditions" />
+    <property role="TrG5h" value="ThisEnvironment" />
+    <property role="R4oN_" value="Give access to environmental actions" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="AbstractCondition" />
+    <node concept="1TJgyj" id="4diQXU$E530" role="1TKVEi">
+      <property role="IQ2ns" value="4851181497923162304" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="EnvromentAction" />
+      <ref role="20lvS9" node="1zaawdw2ixv" resolve="AbstractEnviromentAction" />
+    </node>
+  </node>
 </model>
 
