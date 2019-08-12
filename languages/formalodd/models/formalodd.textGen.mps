@@ -4907,6 +4907,9 @@
               </node>
             </node>
           </node>
+          <node concept="la8eA" id="4diQXU$T347" role="lcghm">
+            <property role="lacIc" value="-here" />
+          </node>
           <node concept="l8MVK" id="2EFWiW_apSZ" role="lcghm" />
         </node>
         <node concept="lc7rE" id="2EFWiW_aq2p" role="3cqZAp">
@@ -6206,6 +6209,27 @@
         <node concept="lc7rE" id="4MYWhBhM02U" role="3cqZAp">
           <node concept="la8eA" id="4MYWhBhM03g" role="lcghm">
             <property role="lacIc" value="move-to patch-here" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4diQXU$E59N">
+    <property role="3GE5qa" value="Scheduling.Conditions" />
+    <ref role="WuzLi" to="86kt:4diQXU$E52Z" resolve="ThisEnvironment" />
+    <node concept="11bSqf" id="4diQXU$E59O" role="11c4hB">
+      <node concept="3clFbS" id="4diQXU$E59P" role="2VODD2">
+        <node concept="lc7rE" id="4diQXU$E5ao" role="3cqZAp">
+          <node concept="la8eA" id="4diQXU$E5ap" role="lcghm">
+            <property role="lacIc" value="    " />
+          </node>
+          <node concept="l9hG8" id="4diQXU$E5aq" role="lcghm">
+            <node concept="2OqwBi" id="4diQXU$E5ar" role="lb14g">
+              <node concept="117lpO" id="4diQXU$E5as" role="2Oq$k0" />
+              <node concept="3TrEf2" id="4diQXU$E5at" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:4diQXU$E530" resolve="EnvromentAction" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

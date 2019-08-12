@@ -4326,5 +4326,22 @@
       <node concept="Vb9p2" id="4MYWhBhM02z" role="3F10Kt" />
     </node>
   </node>
+  <node concept="24kQdi" id="4diQXU$E53G">
+    <property role="3GE5qa" value="Scheduling.Conditions" />
+    <ref role="1XX52x" to="86kt:4diQXU$E52Z" resolve="ThisEnvironment" />
+    <node concept="3EZMnI" id="4diQXU$E53I" role="2wV5jI">
+      <node concept="2iRkQZ" id="4diQXU$E53J" role="2iSdaV" />
+      <node concept="3EZMnI" id="4diQXU$E53K" role="3EZMnx">
+        <node concept="2iRfu4" id="4diQXU$E53L" role="2iSdaV" />
+        <node concept="3F0ifn" id="4diQXU$E53M" role="3EZMnx">
+          <property role="3F0ifm" value="changing the current environment " />
+          <node concept="Vb9p2" id="4diQXU$E53N" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="3F1sOY" id="4diQXU$E53P" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4diQXU$E530" resolve="EnvromentAction" />
+      </node>
+    </node>
+  </node>
 </model>
 
