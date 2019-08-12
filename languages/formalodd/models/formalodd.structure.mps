@@ -267,6 +267,21 @@
       <property role="TrG5h" value="size" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="1TJgyi" id="4diQXU_2lQZ" role="1TKVEl">
+      <property role="IQ2nx" value="4851181497929522623" />
+      <property role="TrG5h" value="maximumNumberOfEntitys" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4diQXU_2lR0" role="1TKVEl">
+      <property role="IQ2nx" value="4851181497929522624" />
+      <property role="TrG5h" value="StartingNumber" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="4diQXU_2lR1" role="1TKVEl">
+      <property role="IQ2nx" value="4851181497929522625" />
+      <property role="TrG5h" value="Distribution" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkv">
     <property role="EcuMT" value="3840659476812055839" />
@@ -810,14 +825,14 @@
       <property role="TrG5h" value="ChangeSelf" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="6lHESjKDbce" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541390" />
-      <property role="TrG5h" value="Min" />
+    <node concept="1TJgyi" id="4diQXU_2xof" role="1TKVEl">
+      <property role="IQ2nx" value="4851181497929569807" />
+      <property role="TrG5h" value="maximumNumberOfEntitys" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="6lHESjKDbcm" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541398" />
-      <property role="TrG5h" value="Max" />
+    <node concept="1TJgyi" id="4diQXU_2xog" role="1TKVEl">
+      <property role="IQ2nx" value="4851181497929569808" />
+      <property role="TrG5h" value="StartingNumber" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="3rTwIuRCadk" role="1TKVEi">
@@ -2253,6 +2268,13 @@
       <property role="IQ2nx" value="8247773779785854959" />
       <property role="TrG5h" value="AmuntOfSpawns" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="4diQXU$VnUW" role="1TKVEi">
+      <property role="IQ2ns" value="4851181497927696060" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="updateValue" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="UpdateValue" />
     </node>
   </node>
   <node concept="1TIwiD" id="2j8p7S3xTRH">

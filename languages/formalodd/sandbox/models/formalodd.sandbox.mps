@@ -66,6 +66,7 @@
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmuntOfSpawns" index="2DBPly" />
+        <child id="4851181497927696060" name="updateValue" index="3BJUly" />
       </concept>
       <concept id="6529568716161146305" name="formalodd.structure.ifcondition" flags="ng" index="2HP6RB">
         <property id="6529568716161158166" name="option" index="2HPVKK" />
@@ -105,6 +106,8 @@
         <property id="8247773779799260212" name="size" index="2IKGqT" />
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
         <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
+        <property id="4851181497929522624" name="StartingNumber" index="3AmSou" />
+        <property id="4851181497929522623" name="maximumNumberOfEntitys" index="3AmSpx" />
         <child id="6529568716117087714" name="shapeSize" index="2Id2n4" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="3864151261525253484" name="shapeOptions" index="1gdMhP" />
@@ -391,6 +394,8 @@
         <property role="1gPB68" value="is" />
         <property role="1gPB6a" value="does" />
         <property role="2IKGqT" value="2" />
+        <property role="3AmSou" value="5" />
+        <property role="3AmSpx" value="100" />
         <node concept="1ldJ2l" id="2EFWiWzGtGU" role="1l3At2">
           <property role="TrG5h" value="energy" />
           <property role="1lrphF" value="0" />
@@ -424,6 +429,8 @@
         <property role="1gPB6a" value="does" />
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="1" />
+        <property role="3AmSou" value="10" />
+        <property role="3AmSpx" value="1000" />
         <node concept="1ldJ2l" id="2EFWiW_uvfe" role="1l3At2">
           <property role="TrG5h" value="energy" />
           <property role="1lrphF" value="0" />
@@ -639,6 +646,12 @@
           <node concept="17zv16" id="4diQXU$OG4T" role="17zumo">
             <node concept="2DBPlz" id="4diQXU$OG5f" role="17F8SD">
               <property role="2DBPly" value="1" />
+              <node concept="8StVI" id="4diQXU$ZSA2" role="3BJUly">
+                <property role="fDOvY" value="attribute" />
+                <property role="2DfwqV" value="set value" />
+                <property role="fDf1i" value="100" />
+                <ref role="8p6Ff" node="2EFWiWzGtGU" resolve="energy" />
+              </node>
             </node>
           </node>
           <node concept="17zv16" id="4diQXU$OG5T" role="17zumo">

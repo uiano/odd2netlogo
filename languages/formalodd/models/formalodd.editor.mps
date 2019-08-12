@@ -2136,8 +2136,13 @@
           <property role="3F0ifm" value="is defined " />
           <node concept="Vb9p2" id="aIqcXo9KBi" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="aIqcXo9Xh3" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:aIqcXo9KB$" resolve="StartingNumber" />
+        <node concept="1iCGBv" id="4diQXU_2mld" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
+          <node concept="1sVBvm" id="4diQXU_2mlf" role="1sWHZn">
+            <node concept="3F0A7n" id="4diQXU_2mlB" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:4diQXU_2lR0" resolve="StartingNumber" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3EZMnI" id="aIqcXo0ShK" role="3EZMnx">
@@ -2146,8 +2151,13 @@
           <property role="3F0ifm" value="The maximum possible number of entities is:" />
           <node concept="Vb9p2" id="aIqcXo0Si5" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="aIqcXo14JB" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:aIqcXo0Si7" resolve="maximumNumberOfEntitys" />
+        <node concept="1iCGBv" id="4diQXU_2wJY" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
+          <node concept="1sVBvm" id="4diQXU_2wK0" role="1sWHZn">
+            <node concept="3F0A7n" id="4diQXU_2wKe" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:4diQXU_2lQZ" resolve="maximumNumberOfEntitys" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3F2HdR" id="aIqcXoaSSd" role="3EZMnx">
@@ -2774,8 +2784,13 @@
           <property role="3F0ifm" value="is defined " />
           <node concept="Vb9p2" id="5zjJPlga6TM" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="5zjJPlga6TN" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:aIqcXo9KB$" resolve="StartingNumber" />
+        <node concept="1iCGBv" id="4diQXU_2xpB" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXo37bG" resolve="environment" />
+          <node concept="1sVBvm" id="4diQXU_2xpD" role="1sWHZn">
+            <node concept="3F0A7n" id="4diQXU_2xq1" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:4diQXU_2xog" resolve="StartingNumber" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3EZMnI" id="5zjJPlga6TO" role="3EZMnx">
@@ -2784,8 +2799,13 @@
           <property role="3F0ifm" value="The maximum possible number of entities is:" />
           <node concept="Vb9p2" id="5zjJPlga6TR" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="5zjJPlga6TS" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:aIqcXo0Si7" resolve="maximumNumberOfEntitys" />
+        <node concept="1iCGBv" id="4diQXU_2xqg" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:aIqcXo37bG" resolve="environment" />
+          <node concept="1sVBvm" id="4diQXU_2xqi" role="1sWHZn">
+            <node concept="3F0A7n" id="4diQXU_2xqw" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:4diQXU_2xof" resolve="maximumNumberOfEntitys" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="3F2HdR" id="5zjJPlga6TT" role="3EZMnx">
@@ -4151,6 +4171,13 @@
           <node concept="Vb9p2" id="79PYCRrUGB9" role="3F10Kt" />
         </node>
         <node concept="2iRfu4" id="79PYCRrUG$q" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="4diQXU$VnVy" role="3EZMnx">
+        <property role="3F0ifm" value="The hatchling will have their values set to" />
+      </node>
+      <node concept="3F2HdR" id="4diQXU$VNtD" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4diQXU$VnUW" resolve="updateValue" />
+        <node concept="2iRkQZ" id="4diQXU$VNtF" role="2czzBx" />
       </node>
     </node>
   </node>
