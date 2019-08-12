@@ -842,6 +842,7 @@
           <property role="TrG5h" value="happy" />
           <property role="1lrphF" value="0" />
           <property role="1lrphC" value="1" />
+          <property role="1qTHIA" value="false" />
           <node concept="1lfEPZ" id="1zaawdwHPSF" role="1ldJ2h">
             <property role="1lfEPY" value="is not" />
           </node>
@@ -901,6 +902,7 @@
           <property role="TrG5h" value="happy" />
           <property role="1lrphF" value="0" />
           <property role="1lrphC" value="1" />
+          <property role="1qTHIA" value="false" />
           <node concept="1lfEPZ" id="1zaawdwHPUQ" role="1ldJ2h">
             <property role="1lfEPY" value="is not" />
           </node>
@@ -964,8 +966,8 @@
               <property role="92LhN" value="1" />
             </node>
           </node>
-          <node concept="1Svnkm" id="4MYWhBh_$5x" role="17zumo">
-            <node concept="1Svl6F" id="4MYWhBh_$5C" role="17F8SD">
+          <node concept="1Svnkm" id="4MYWhBhFKnn" role="17zumo">
+            <node concept="1Svl6F" id="4MYWhBhFKns" role="17F8SD">
               <ref role="1Svl6C" node="1zaawdwLVrX" resolve="move-to-new-spot" />
             </node>
           </node>
@@ -1029,13 +1031,17 @@
       <node concept="1llqSK" id="1zaawdwHPVY" role="1llqph">
         <property role="1qEyh5" value="random" />
         <property role="1qym4F" value="0" />
-        <property role="1qFuL8" value="100" />
+        <property role="1qFuL8" value="1000" />
         <ref role="1llqZf" node="1zaawdwHPSz" resolve="redboy" />
         <node concept="1qTHIr" id="1zaawdwHPW2" role="1qXBHY">
           <property role="1qTHIq" value="4" />
         </node>
         <node concept="1qTHIr" id="1zaawdwHPW4" role="1qXBHY">
           <property role="1qTHIq" value="3" />
+        </node>
+        <node concept="1qTHIr" id="4MYWhBhK3Ts" role="1qXBHY">
+          <property role="1qTHIq" value="2" />
+          <ref role="1qTLvG" node="1zaawdwHPSD" resolve="happy" />
         </node>
         <node concept="1_stcA" id="1zaawdwHPW0" role="1llqp5">
           <property role="1_stcx" value="The entity" />
@@ -1044,10 +1050,14 @@
       <node concept="1llqSK" id="1zaawdwHPW7" role="1llqph">
         <property role="1qEyh5" value="random" />
         <property role="1qym4F" value="0" />
-        <property role="1qFuL8" value="100" />
+        <property role="1qFuL8" value="1000" />
         <ref role="1llqZf" node="1zaawdwHPUF" resolve="blueboy" />
         <node concept="1qTHIr" id="1zaawdwHPWh" role="1qXBHY">
           <property role="1qTHIq" value="3" />
+        </node>
+        <node concept="1qTHIr" id="4MYWhBhK3Tw" role="1qXBHY">
+          <property role="1qTHIq" value="2" />
+          <ref role="1qTLvG" node="1zaawdwHPUP" resolve="happy" />
         </node>
         <node concept="1qTHIr" id="1zaawdwHPWf" role="1qXBHY">
           <property role="1qTHIq" value="4" />

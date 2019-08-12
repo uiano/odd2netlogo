@@ -4345,6 +4345,14 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4MYWhBhM02u">
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <ref role="1XX52x" to="86kt:4MYWhBhM02l" resolve="CenterOnPatch" />
+    <node concept="3F0ifn" id="4MYWhBhM02w" role="2wV5jI">
+      <property role="3F0ifm" value="This entity will center on current enviroment" />
+      <node concept="Vb9p2" id="4MYWhBhM02z" role="3F10Kt" />
+    </node>
+  </node>
   <node concept="24kQdi" id="4diQXU$E53G">
     <property role="3GE5qa" value="Scheduling.Conditions" />
     <ref role="1XX52x" to="86kt:4diQXU$E52Z" resolve="ThisEnvironment" />
