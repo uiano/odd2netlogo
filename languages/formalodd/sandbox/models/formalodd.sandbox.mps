@@ -758,7 +758,7 @@
     <property role="TrG5h" value="Seggregation" />
     <node concept="ZOwpU" id="1zaawdwHPSt" role="3$p12O">
       <node concept="ZOwpW" id="1zaawdwHPSz" role="ZOwpT">
-        <property role="TrG5h" value="red" />
+        <property role="TrG5h" value="redboy" />
         <property role="1gPB6a" value="does" />
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="2" />
@@ -817,7 +817,7 @@
         </node>
       </node>
       <node concept="ZOwpW" id="1zaawdwHPUF" role="ZOwpT">
-        <property role="TrG5h" value="blue" />
+        <property role="TrG5h" value="blueboy" />
         <property role="1gPB6a" value="does" />
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="2" />
@@ -875,8 +875,44 @@
           <property role="1lPuH5" value="square" />
         </node>
       </node>
+      <node concept="ZOwr_" id="4MYWhBhBvz3" role="ZOwpV">
+        <node concept="1g3uKF" id="4MYWhBhBvz5" role="2HUN8N">
+          <property role="1jzKJm" value="20" />
+          <property role="1jzt_n" value="10" />
+          <property role="1jzt_b" value="0" />
+          <property role="1jztgP" value="0" />
+          <node concept="ZOwrR" id="4MYWhBhBvz7" role="kpDVr">
+            <property role="1lo2db" value="white" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2lMhBk" id="1zaawdwHPSx" role="2J7coG">
+      <node concept="2lNc1x" id="4MYWhBhpWxQ" role="2GyEu2">
+        <property role="TrG5h" value="move-unhappy" />
+        <node concept="2lNc1w" id="4MYWhBhpWy9" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="1zaawdwHPUF" resolve="blueboy" />
+        </node>
+        <node concept="2lNc1w" id="4MYWhBhpWyb" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="1zaawdwHPSz" resolve="redboy" />
+        </node>
+        <node concept="2HP6RB" id="4MYWhBhpWye" role="17I3vM">
+          <property role="2HPVKK" value="=" />
+          <node concept="2HPRmR" id="4MYWhBhpWyi" role="2HP6R$">
+            <property role="2HPQs5" value="Attribute" />
+            <ref role="2HY6Bt" node="1zaawdwHPSD" resolve="happy" />
+          </node>
+          <node concept="2HPRmR" id="4MYWhBhpWyk" role="2HP6Ry">
+            <property role="2HPQs5" value="value" />
+            <property role="2DpkYb" value="false" />
+          </node>
+          <node concept="1Svl6F" id="4MYWhBhpWyo" role="17F8SD">
+            <ref role="1Svl6C" node="1zaawdwLVrX" resolve="move-to-new-spot" />
+          </node>
+        </node>
+      </node>
       <node concept="2lNc1x" id="1zaawdwLVrX" role="2GyEu2">
         <property role="TrG5h" value="move-to-new-spot" />
         <node concept="17zum1" id="1zaawdwNWFY" role="17I3vM">
@@ -885,17 +921,53 @@
               <property role="92LhN" value="1" />
             </node>
           </node>
-          <node concept="1Svnkm" id="1zaawdwNWGb" role="17zumo" />
-          <node concept="17zv16" id="1zaawdwW5T6" role="17zumo">
-            <node concept="1Svl6F" id="1zaawdwW5Tc" role="17F8SD">
+          <node concept="1Svnkm" id="4MYWhBh_$5x" role="17zumo">
+            <node concept="1Svl6F" id="4MYWhBh_$5C" role="17F8SD">
               <ref role="1Svl6C" node="1zaawdwLVrX" resolve="move-to-new-spot" />
             </node>
           </node>
         </node>
       </node>
+      <node concept="2lNc1x" id="4MYWhBhpTV1" role="2GyEu2">
+        <property role="TrG5h" value="update" />
+        <node concept="17zum1" id="4MYWhBhpTVc" role="17I3vM">
+          <node concept="17zv16" id="4MYWhBhpWx4" role="17zumo">
+            <node concept="8StVI" id="4MYWhBhpWxa" role="17F8SD">
+              <property role="2DfwqV" value="set value" />
+              <property role="fDf1i" value=" count (turtles-on neighbors)  with [ color = [ color ] of myself ]" />
+              <property role="fDOvY" value="attribute" />
+              <ref role="8p6Ff" node="1zaawdwHPST" resolve="similar-nearby" />
+            </node>
+          </node>
+          <node concept="17zv16" id="4MYWhBhpWxc" role="17zumo">
+            <node concept="8StVI" id="4MYWhBhpWxj" role="17F8SD">
+              <property role="fDOvY" value="attribute" />
+              <property role="2DfwqV" value="set value" />
+              <property role="fDf1i" value="count (turtles-on neighbors) with [ color != [ color ] of myself ]" />
+              <ref role="8p6Ff" node="1zaawdwHPUJ" resolve="other-nearby" />
+            </node>
+          </node>
+          <node concept="17zv16" id="4MYWhBhpWxl" role="17zumo">
+            <node concept="8StVI" id="4MYWhBhpWxt" role="17F8SD">
+              <property role="2DfwqV" value="set value" />
+              <property role="fDf1i" value="similar-nearby + other-nearby" />
+              <property role="fDOvY" value="attribute" />
+              <ref role="8p6Ff" node="1zaawdwHPSD" resolve="happy" />
+            </node>
+          </node>
+        </node>
+        <node concept="2lNc1w" id="4MYWhBhpWx_" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="1zaawdwHPSz" resolve="redboy" />
+        </node>
+        <node concept="2lNc1w" id="4MYWhBhpWxB" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="1zaawdwHPUF" resolve="blueboy" />
+        </node>
+      </node>
       <node concept="2lMhBi" id="1zaawdwU0Y5" role="2lMhBt">
         <property role="846P7" value="true" />
-        <ref role="2I6lkX" node="1zaawdwHPSz" resolve="red" />
+        <ref role="2I6lkX" node="1zaawdwHPSz" resolve="redboy" />
         <ref role="1S8zUf" node="1zaawdwHPSD" resolve="happy" />
         <node concept="8rzWW" id="1zaawdwU0Y7" role="8rzWZ">
           <property role="8rzZp" value="Entity Attribute is" />
@@ -903,7 +975,7 @@
       </node>
       <node concept="2lMhBi" id="1zaawdwW5Ne" role="2lMhBt">
         <property role="846P7" value="true" />
-        <ref role="2I6lkX" node="1zaawdwHPUF" resolve="blue" />
+        <ref role="2I6lkX" node="1zaawdwHPUF" resolve="blueboy" />
         <ref role="1S8zUf" node="1zaawdwHPUP" resolve="happy" />
         <node concept="8rzWW" id="1zaawdwW5Nk" role="8rzWZ">
           <property role="8rzZp" value="Entity Attribute is" />
@@ -915,7 +987,7 @@
         <property role="1qEyh5" value="random" />
         <property role="1qym4F" value="0" />
         <property role="1qFuL8" value="100" />
-        <ref role="1llqZf" node="1zaawdwHPSz" resolve="red" />
+        <ref role="1llqZf" node="1zaawdwHPSz" resolve="redboy" />
         <node concept="1qTHIr" id="1zaawdwHPW2" role="1qXBHY">
           <property role="1qTHIq" value="4" />
         </node>
@@ -930,7 +1002,7 @@
         <property role="1qEyh5" value="random" />
         <property role="1qym4F" value="0" />
         <property role="1qFuL8" value="100" />
-        <ref role="1llqZf" node="1zaawdwHPUF" resolve="blue" />
+        <ref role="1llqZf" node="1zaawdwHPUF" resolve="blueboy" />
         <node concept="1qTHIr" id="1zaawdwHPWh" role="1qXBHY">
           <property role="1qTHIq" value="3" />
         </node>
