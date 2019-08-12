@@ -2444,7 +2444,7 @@
                 <property role="Xl_RC" value="The entity" />
               </node>
               <node concept="Xl_RD" id="215d$P5dB1R" role="HW$Y0">
-                <property role="Xl_RC" value="The enviroment" />
+                <property role="Xl_RC" value="The environment" />
               </node>
               <node concept="Xl_RD" id="215d$P5dD8j" role="HW$Y0">
                 <property role="Xl_RC" value="The attribute" />

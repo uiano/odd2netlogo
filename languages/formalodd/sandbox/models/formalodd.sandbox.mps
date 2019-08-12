@@ -1059,5 +1059,91 @@
       </node>
     </node>
   </node>
+  <node concept="ZOwpP" id="4diQXU_r248">
+    <property role="TrG5h" value="Wolf sheep2" />
+    <node concept="XAmFv" id="4diQXU_r249" role="XAo8I">
+      <property role="XAmFg" value="Attempt to have energy/length on grass" />
+    </node>
+    <node concept="ZOwpU" id="4diQXU_r24j" role="3$p12O">
+      <node concept="ZOwpW" id="4diQXU_r24m" role="ZOwpT">
+        <property role="TrG5h" value="sheep" />
+        <property role="1gPB68" value="is" />
+        <property role="1gPB6a" value="does" />
+        <property role="2IKGqT" value="1" />
+        <node concept="1ldJ2l" id="4diQXU_r24s" role="1l3At2">
+          <property role="TrG5h" value="energy" />
+        </node>
+        <node concept="ZOwrR" id="4diQXU_r24p" role="3$oDj3">
+          <property role="1lo2db" value="white" />
+        </node>
+        <node concept="1gdyix" id="4diQXU_r24F" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
+        </node>
+        <node concept="ZOwo7" id="4diQXU_r24I" role="ZOwpC">
+          <property role="1lPuH5" value="sheep" />
+        </node>
+      </node>
+      <node concept="ZOwpW" id="4diQXU_r24v" role="ZOwpT">
+        <property role="TrG5h" value="wolf" />
+        <property role="1gPB68" value="is" />
+        <property role="2IKGqT" value="2" />
+        <property role="1gPB6a" value="does" />
+        <node concept="ZOwrR" id="4diQXU_r24C" role="3$oDj3">
+          <property role="1lo2db" value="grey" />
+        </node>
+        <node concept="1gdyix" id="4diQXU_r24L" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
+        </node>
+        <node concept="ZOwo7" id="4diQXU_r24O" role="ZOwpC">
+          <property role="1lPuH5" value="wolf" />
+        </node>
+      </node>
+      <node concept="ZOwr_" id="4diQXU_r25u" role="ZOwpV">
+        <node concept="ZOwrm" id="4diQXU_r25x" role="2JZWw_">
+          <property role="TrG5h" value="grass" />
+          <property role="2YXOq1" value="is" />
+          <node concept="ZOwqP" id="4diQXU_r25E" role="21i3yD">
+            <property role="21lQ5$" value="random" />
+          </node>
+          <node concept="ZOwrR" id="4diQXU_r25H" role="21mi6N">
+            <property role="1lo2db" value="green" />
+          </node>
+        </node>
+        <node concept="1g3uKF" id="4diQXU_r25$" role="2HUN8N">
+          <property role="1jzKJm" value="8" />
+          <property role="1jzt_n" value="30" />
+          <property role="1jzt_b" value="0" />
+          <property role="1jztgP" value="0" />
+          <node concept="ZOwrR" id="4diQXU_r25B" role="kpDVr">
+            <property role="1lo2db" value="black" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1lur_c" id="4diQXU_r25K" role="1ltb8M">
+      <node concept="1llqSK" id="4diQXU_r25N" role="1llqph">
+        <property role="1qEyh5" value="random" />
+        <ref role="1llqZf" node="4diQXU_r24v" resolve="wolf" />
+        <node concept="1qTHIr" id="4diQXU_r25T" role="1qXBHY" />
+        <node concept="1_stcA" id="4diQXU_r25Q" role="1llqp5">
+          <property role="1_stcx" value="The entity" />
+        </node>
+      </node>
+      <node concept="1llqSK" id="4diQXU_r25W" role="1llqph">
+        <property role="1qEyh5" value="random" />
+        <ref role="1llqZf" node="4diQXU_r24m" resolve="sheep" />
+        <node concept="1_stcA" id="4diQXU_r265" role="1llqp5">
+          <property role="1_stcx" value="The entity" />
+        </node>
+      </node>
+      <node concept="1llqSK" id="4diQXU_vpWj" role="1llqph">
+        <ref role="1qCxCz" node="4diQXU_r25x" resolve="grass" />
+        <node concept="1_stcA" id="4diQXU_vpWw" role="1llqp5">
+          <property role="1_stcx" value="The environment" />
+        </node>
+      </node>
+      <node concept="1llqSK" id="4diQXU_vpWz" role="1llqph" />
+    </node>
+  </node>
 </model>
 
