@@ -40,9 +40,7 @@
         <reference id="3074816355399732196" name="Target" index="fwBFb" />
       </concept>
       <concept id="7308686357753541206" name="formalodd.structure.EndCondition" flags="ng" index="2lMhBi">
-        <property id="6400669868571742738" name="attributeValue" index="846P7" />
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
-        <reference id="1786286396204913804" name="attribute" index="1S8zUf" />
         <child id="6400669868571328618" name="endConditionOption" index="8rzWZ" />
       </concept>
       <concept id="7308686357753541200" name="formalodd.structure.Overview" flags="ng" index="2lMhBk">
@@ -102,6 +100,8 @@
         <property id="8247773779799260212" name="size" index="2IKGqT" />
         <property id="3864151261523101841" name="showColors" index="1gPB68" />
         <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
+        <property id="4851181497929522624" name="StartingNumber" index="3AmSou" />
+        <property id="4851181497929522623" name="maximumNumberOfEntitys" index="3AmSpx" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="3864151261525253484" name="shapeOptions" index="1gdMhP" />
         <child id="193207073761136525" name="attribute" index="1l3At2" />
@@ -389,6 +389,8 @@
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="2" />
         <property role="1gPB6a" value="does" />
+        <property role="3AmSou" value="10" />
+        <property role="3AmSpx" value="200" />
         <node concept="1ldJ2l" id="2EFWiWzGtGU" role="1l3At2">
           <property role="TrG5h" value="energy" />
           <property role="1lrphF" value="0" />
@@ -416,6 +418,8 @@
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="1" />
         <property role="1gPB6a" value="does" />
+        <property role="3AmSou" value="10" />
+        <property role="3AmSpx" value="200" />
         <node concept="1ldJ2l" id="4MYWhBhSzBt" role="1l3At2">
           <property role="TrG5h" value="energy" />
           <property role="1lrphF" value="0" />
@@ -796,6 +800,8 @@
         <property role="1gPB6a" value="does" />
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="2" />
+        <property role="3AmSpx" value="5000" />
+        <property role="3AmSou" value="20" />
         <node concept="1ldJ2l" id="1zaawdwHPST" role="1l3At2">
           <property role="TrG5h" value="similar-nearby" />
           <property role="1lrphF" value="0" />
@@ -856,6 +862,8 @@
         <property role="1gPB6a" value="does" />
         <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="2" />
+        <property role="3AmSpx" value="5000" />
+        <property role="3AmSou" value="20" />
         <node concept="1ldJ2l" id="1zaawdwHPUG" role="1l3At2">
           <property role="TrG5h" value="similar-nearby" />
           <property role="1lrphF" value="0" />
@@ -912,8 +920,9 @@
         </node>
       </node>
       <node concept="ZOwr_" id="4MYWhBhBvz3" role="ZOwpV">
+        <node concept="ZOwrm" id="4MYWhBi2RcD" role="2JZWw_" />
         <node concept="1g3uKF" id="4MYWhBhBvz5" role="2HUN8N">
-          <property role="1jzKJm" value="20" />
+          <property role="1jzKJm" value="10" />
           <property role="1jzt_n" value="10" />
           <property role="1jzt_b" value="0" />
           <property role="1jztgP" value="0" />
@@ -983,11 +992,19 @@
               <ref role="8p6Ff" node="1zaawdwHPUJ" resolve="other-nearby" />
             </node>
           </node>
+          <node concept="17zv16" id="4MYWhBi0Nt_" role="17zumo">
+            <node concept="8StVI" id="4MYWhBi0NtI" role="17F8SD">
+              <property role="fDOvY" value="attribute" />
+              <property role="2DfwqV" value="set value" />
+              <property role="fDf1i" value="similar-nearby + other-nearby" />
+              <ref role="8p6Ff" node="1zaawdwHPT2" resolve="total-nearby" />
+            </node>
+          </node>
           <node concept="17zv16" id="4MYWhBhpWxl" role="17zumo">
             <node concept="8StVI" id="4MYWhBhpWxt" role="17F8SD">
               <property role="2DfwqV" value="set value" />
-              <property role="fDf1i" value="similar-nearby + other-nearby" />
               <property role="fDOvY" value="attribute" />
+              <property role="fDf1i" value="similar-nearby &gt;= (30 * total-nearby / 100)" />
               <ref role="8p6Ff" node="1zaawdwHPSD" resolve="happy" />
             </node>
           </node>
@@ -999,22 +1016,6 @@
         <node concept="2lNc1w" id="4MYWhBhpWxB" role="8Yoip">
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="1zaawdwHPUF" resolve="blueboy" />
-        </node>
-      </node>
-      <node concept="2lMhBi" id="1zaawdwU0Y5" role="2lMhBt">
-        <property role="846P7" value="true" />
-        <ref role="2I6lkX" node="1zaawdwHPSz" resolve="redboy" />
-        <ref role="1S8zUf" node="1zaawdwHPSD" resolve="happy" />
-        <node concept="8rzWW" id="1zaawdwU0Y7" role="8rzWZ">
-          <property role="8rzZp" value="Entity Attribute is" />
-        </node>
-      </node>
-      <node concept="2lMhBi" id="1zaawdwW5Ne" role="2lMhBt">
-        <property role="846P7" value="true" />
-        <ref role="2I6lkX" node="1zaawdwHPUF" resolve="blueboy" />
-        <ref role="1S8zUf" node="1zaawdwHPUP" resolve="happy" />
-        <node concept="8rzWW" id="1zaawdwW5Nk" role="8rzWZ">
-          <property role="8rzZp" value="Entity Attribute is" />
         </node>
       </node>
     </node>
