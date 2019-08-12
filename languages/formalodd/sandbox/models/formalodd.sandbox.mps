@@ -583,13 +583,13 @@
               <ref role="8p6Ff" node="2EFWiWzGtGU" resolve="energy" />
             </node>
           </node>
-          <node concept="3BYCHx" id="4diQXU$GxLN" role="17zumo">
-            <node concept="8StHo" id="4diQXU$GxLV" role="3BYCGu">
-              <node concept="8Styt" id="4diQXU$GxLY" role="8Sc1Y">
+          <node concept="3BYCHx" id="4MYWhBhQBxE" role="17zumo">
+            <node concept="8StHo" id="4MYWhBhQBxJ" role="3BYCGu">
+              <node concept="8Styt" id="4MYWhBhQBxL" role="8Sc1Y">
                 <property role="8Stys" value="Change Current Pixel" />
               </node>
-              <node concept="ZOwo6" id="4diQXU$GxMr" role="8S3LA">
-                <property role="1lo2db" value="yellow" />
+              <node concept="ZOwo6" id="4MYWhBhQBxS" role="8S3LA">
+                <property role="1lo2db" value="brown" />
               </node>
             </node>
           </node>
