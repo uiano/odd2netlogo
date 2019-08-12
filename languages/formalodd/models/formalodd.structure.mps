@@ -126,13 +126,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
     </node>
-    <node concept="1TJgyj" id="5JxfqxAuXCg" role="1TKVEi">
-      <property role="IQ2ns" value="6620640720694532624" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="entityName" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5JxfqxAuXCc" resolve="Names" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGke">
     <property role="EcuMT" value="3840659476812055822" />
