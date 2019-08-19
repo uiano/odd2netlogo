@@ -61,6 +61,10 @@
         <child id="472304604776203004" name="secondActor" index="BYBhP" />
         <child id="1786286396180405745" name="condition" index="17I3vM" />
       </concept>
+      <concept id="8247773779785854958" name="formalodd.structure.Spawn" flags="ng" index="2DBPlz">
+        <property id="8247773779785854959" name="AmuntOfSpawns" index="2DBPly" />
+        <child id="4851181497927696060" name="updateValue" index="3BJUly" />
+      </concept>
       <concept id="6529568716161146305" name="formalodd.structure.ifcondition" flags="ng" index="2HP6RB">
         <property id="6529568716161158166" name="option" index="2HPVKK" />
         <child id="6529568716161146308" name="who2" index="2HP6Ry" />
@@ -311,7 +315,6 @@
           </node>
         </node>
       </node>
-      <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt" />
       <node concept="2lNc1x" id="qdXC$xWxCo" role="2GyEu2">
         <property role="TrG5h" value="dying-of-starvation" />
         <node concept="2lNc1w" id="qdXC$xWxCM" role="8Yoip">
@@ -337,6 +340,49 @@
           <node concept="2lNc1w" id="qdXC$xYhPI" role="8shtH">
             <property role="8X5i2" value="me" />
           </node>
+        </node>
+      </node>
+      <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt" />
+      <node concept="2lNc1x" id="qdXC$y9juR" role="2GyEu2">
+        <property role="TrG5h" value="Reproduce" />
+        <node concept="2lNc1w" id="qdXC$y9jvp" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
+        </node>
+        <node concept="2lNc1w" id="qdXC$y9jvt" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
+        </node>
+        <node concept="2DBPlz" id="qdXC$y9jvw" role="2GszJx">
+          <property role="2DBPly" value="1" />
+          <node concept="8StVI" id="qdXC$yb41x" role="3BJUly">
+            <property role="fDOvY" value="attribute" />
+            <property role="2DfwqV" value="set value" />
+            <property role="fDf1i" value="100" />
+            <ref role="8p6Ff" node="qdXC$xz0QJ" resolve="energy" />
+          </node>
+          <node concept="2HP6RB" id="qdXC$yb41p" role="BXGfr">
+            <property role="2HPVKK" value="&gt;" />
+            <node concept="2HPRmR" id="qdXC$yb41r" role="2HP6R$">
+              <property role="2HPQs5" value="Attribute" />
+              <ref role="2HY6Bt" node="qdXC$xz0QJ" resolve="energy" />
+            </node>
+            <node concept="2HPRmR" id="qdXC$yb41t" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="130" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2lNc1x" id="qdXC$ycPHl" role="2GyEu2">
+        <property role="TrG5h" value="Regrow" />
+        <node concept="2lNc1w" id="qdXC$ycPHZ" role="8Yoip">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="qdXC$xRhvx" resolve="grass" />
+        </node>
+        <node concept="8StHo" id="qdXC$ycPI3" role="2GszJx">
+          <node concept="8Styt" id="qdXC$ycPKS" role="8Sc1Y" />
+          <node concept="2HP6RB" id="qdXC$yeAZQ" role="BXGfr" />
         </node>
       </node>
     </node>
@@ -416,7 +462,6 @@
         <property role="2IKGqT" value="1" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="100" />
-        <node concept="1ldJ2l" id="1r3mgtJ$90M" role="1l3At2" />
         <node concept="1ldJ2l" id="qdXC$xz0QS" role="1l3At2">
           <property role="TrG5h" value="energy" />
           <property role="1lrphF" value="0" />
@@ -442,15 +487,6 @@
         </node>
       </node>
       <node concept="ZOwr_" id="qdXC$xz0Sc" role="ZOwpV">
-        <node concept="1g3uKF" id="qdXC$xJNLN" role="2HUN8N">
-          <property role="1jzKJm" value="10" />
-          <property role="1jzt_n" value="10" />
-          <property role="1jzt_b" value="0" />
-          <property role="1jztgP" value="0" />
-          <node concept="ZOwrR" id="qdXC$xJNLP" role="kpDVr">
-            <property role="1lo2db" value="black" />
-          </node>
-        </node>
         <node concept="ZOwrm" id="qdXC$xRhvx" role="2JZWw_">
           <property role="2YXOq1" value="is" />
           <property role="TrG5h" value="grass" />
@@ -459,6 +495,15 @@
           </node>
           <node concept="ZOwqP" id="qdXC$xUL$6" role="21i3yD">
             <property role="21lQ5$" value="random" />
+          </node>
+        </node>
+        <node concept="1g3uKF" id="qdXC$xJNLN" role="2HUN8N">
+          <property role="1jzKJm" value="10" />
+          <property role="1jzt_n" value="10" />
+          <property role="1jzt_b" value="0" />
+          <property role="1jztgP" value="0" />
+          <node concept="ZOwrR" id="qdXC$xJNLP" role="kpDVr">
+            <property role="1lo2db" value="black" />
           </node>
         </node>
       </node>
