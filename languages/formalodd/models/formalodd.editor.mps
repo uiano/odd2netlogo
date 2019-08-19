@@ -2694,9 +2694,6 @@
         <node concept="3F1sOY" id="qdXC$xWxDX" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
         </node>
-        <node concept="3F0ifn" id="5EtG2rQW0Wi" role="3EZMnx">
-          <property role="3F0ifm" value="Add compound actions" />
-        </node>
         <node concept="3F2HdR" id="5EtG2rQW0Wb" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5EtG2rQW0us" resolve="action" />
           <node concept="2iRkQZ" id="5EtG2rQW0Wd" role="2czzBx" />
@@ -3156,6 +3153,9 @@
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="UpdateValue" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
+      <node concept="3F1sOY" id="qdXC$yNQPY" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
+      </node>
       <node concept="3EZMnI" id="2EFWiW_3kyx" role="3EZMnx">
         <node concept="3F0ifn" id="2EFWiW_3kyy" role="3EZMnx">
           <property role="3F0ifm" value="The" />

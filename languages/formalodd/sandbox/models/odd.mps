@@ -581,14 +581,12 @@
         </node>
         <node concept="1SKK9t" id="1r3mgtJEVq2" role="17I3vM">
           <property role="1SKKa9" value="green" />
-          <node concept="2lNc1y" id="1r3mgtJJxxu" role="1SKKaf">
-            <node concept="8StHo" id="1r3mgtJJxxG" role="2GrruU">
-              <node concept="8Styt" id="1r3mgtJJxxK" role="8Sc1Y">
-                <property role="8Stys" value="Change Neighbors" />
-              </node>
-              <node concept="ZOwrR" id="1r3mgtJJxxY" role="8S3LA">
-                <property role="1lo2db" value="red" />
-              </node>
+          <node concept="8StHo" id="1r3mgtJJxxG" role="1SKKaf">
+            <node concept="8Styt" id="1r3mgtJJxxK" role="8Sc1Y">
+              <property role="8Stys" value="Change Neighbors" />
+            </node>
+            <node concept="ZOwrR" id="1r3mgtJJxxY" role="8S3LA">
+              <property role="1lo2db" value="red" />
             </node>
           </node>
         </node>
@@ -833,7 +831,7 @@
           <node concept="8StVI" id="qdXC$ygXcq" role="2GrruU">
             <property role="2DfwqV" value="set value" />
             <property role="fDOvY" value="attribute" />
-            <property role="fDf1i" value="similar-nearby &gt;= (30 * total-nearby / 100)" />
+            <property role="fDf1i" value="similar-nearby &gt;= (60 * total-nearby / 100)" />
             <ref role="8p6Ff" node="qdXC$ygXaC" resolve="happy?" />
           </node>
         </node>
