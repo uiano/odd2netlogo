@@ -578,7 +578,6 @@
         <property role="TrG5h" value="Burn" />
         <node concept="2lNc1w" id="1r3mgtJEVpL" role="BYBhP">
           <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="1r3mgtJEVp3" resolve="Trees" />
         </node>
         <node concept="1SKK9t" id="1r3mgtJEVq2" role="17I3vM">
           <property role="1SKKa9" value="green" />
@@ -595,21 +594,25 @@
         </node>
         <node concept="2lNc1w" id="1r3mgtJNjQs" role="8Yoip">
           <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
         </node>
       </node>
-      <node concept="2lNc1x" id="1r3mgtJQ7aU" role="2GyEu2">
-        <property role="TrG5h" value="Extinguish" />
-        <node concept="2lNc1w" id="1r3mgtJQ7b8" role="8Yoip">
+      <node concept="2lNc1x" id="qdXC$yCGN5" role="2GyEu2">
+        <property role="TrG5h" value="fires" />
+        <node concept="2lNc1w" id="qdXC$yCGNl" role="8Yoip">
           <property role="8X5i2" value="Environment" />
           <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
         </node>
-        <node concept="8StHo" id="1r3mgtJQ7bn" role="2GszJx">
-          <node concept="8Styt" id="1r3mgtJQ7bq" role="8Sc1Y">
-            <property role="8Stys" value="Change Current Pixel" />
-          </node>
-          <node concept="ZOwrR" id="1r3mgtJQ7bu" role="8S3LA">
-            <property role="1lo2db" value="grey" />
+        <node concept="1Svl6F" id="qdXC$yCGNn" role="2GszJx">
+          <ref role="1Svl6C" node="1r3mgtJEVpB" resolve="Burn" />
+          <node concept="2HP6RB" id="qdXC$yCGNp" role="BXGfr">
+            <property role="2HPVKK" value="=" />
+            <node concept="2HPRmR" id="qdXC$yCGNr" role="2HP6R$">
+              <property role="2HPQs5" value="Color" />
+            </node>
+            <node concept="2HPRmR" id="qdXC$yCGNt" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="red" />
+            </node>
           </node>
         </node>
       </node>
@@ -777,20 +780,6 @@
                 <ref role="2HY6Bt" node="qdXC$ygXaC" resolve="happy?" />
               </node>
               <node concept="2HPRmR" id="qdXC$yiK4B" role="2HP6Ry">
-                <property role="2HPQs5" value="value" />
-                <property role="2DpkYb" value="false" />
-              </node>
-            </node>
-          </node>
-          <node concept="1Svl6F" id="qdXC$yiK60" role="2GrruU">
-            <ref role="1Svl6C" node="qdXC$ygXQL" resolve="move-if-not-happy" />
-            <node concept="2HP6RB" id="qdXC$yiK61" role="BXGfr">
-              <property role="2HPVKK" value="=" />
-              <node concept="2HPRmR" id="qdXC$yiK62" role="2HP6R$">
-                <property role="2HPQs5" value="Attribute" />
-                <ref role="2HY6Bt" node="qdXC$ygXaC" resolve="happy?" />
-              </node>
-              <node concept="2HPRmR" id="qdXC$yiK63" role="2HP6Ry">
                 <property role="2HPQs5" value="value" />
                 <property role="2DpkYb" value="false" />
               </node>
