@@ -411,17 +411,6 @@
       <node concept="l2Vlx" id="5oUGABTKQ1c" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5oUGABTKQ22">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGnb" resolve="SpecificXY" />
-    <node concept="3EZMnI" id="5oUGABTKQ24" role="2wV5jI">
-      <node concept="3F2HdR" id="5oUGABTKQ2e" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3lcKR8aBGne" resolve="Coordinates" />
-        <node concept="l2Vlx" id="5oUGABTKQ2g" role="2czzBx" />
-      </node>
-      <node concept="l2Vlx" id="5oUGABTKQ27" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5oUGABTKQ2I">
     <property role="3GE5qa" value="Environment" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGng" resolve="Coordinates" />
@@ -935,21 +924,21 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh__y_ni">
-    <property role="3GE5qa" value="Color" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:3mweh__xv2X" resolve="ColorOptions" />
     <node concept="3F0A7n" id="3mweh__y_nk" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:3mweh__xv2Y" resolve="Options" />
     </node>
   </node>
   <node concept="24kQdi" id="3mweh__ADZ$">
-    <property role="3GE5qa" value="Shape" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:3mweh___xQS" resolve="ShapeOptions" />
     <node concept="3F0A7n" id="3mweh__ADZA" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:3mweh___xQT" resolve="ShapeOption" />
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8ICj">
-    <property role="3GE5qa" value="Color" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="MoreColors" />
     <node concept="3EZMnI" id="3mweh_A8ICK" role="2wV5jI">
       <node concept="2iRfu4" id="3mweh_A8ICL" role="2iSdaV" />
@@ -963,7 +952,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8IDa">
-    <property role="3GE5qa" value="Color" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="ConditionalColor" />
     <node concept="3F0A7n" id="3mweh_A8IDc" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:3lcKR8aBGme" resolve="Color" />
@@ -3611,7 +3600,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rOEbZg">
-    <property role="3GE5qa" value="Shape" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:5EtG2rOEbYN" resolve="ShapeSizeOption" />
     <node concept="3F0A7n" id="5EtG2rOEbZi" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5EtG2rOEbYO" resolve="option" />

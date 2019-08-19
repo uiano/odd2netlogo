@@ -1351,7 +1351,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh__zCn_">
     <property role="TrG5h" value="ColorOptions" />
-    <property role="3GE5qa" value="Color" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="2ZfgGC" to="86kt:3mweh__xv2X" resolve="ColorOptions" />
     <node concept="2S6ZIM" id="3mweh__zCnA" role="2ZfVej">
       <node concept="3clFbS" id="3mweh__zCnB" role="2VODD2">
@@ -2051,7 +2051,7 @@
     </node>
   </node>
   <node concept="3dkpOd" id="5EtG2rOEbZJ">
-    <property role="3GE5qa" value="Shape" />
+    <property role="3GE5qa" value="NotInUse" />
     <property role="TrG5h" value="ShapeSizeOption" />
     <ref role="2ZfgGC" to="86kt:5EtG2rOEbYN" resolve="ShapeSizeOption" />
     <node concept="2S6ZIM" id="5EtG2rOEbZK" role="2ZfVej">
@@ -2459,7 +2459,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh___Xah">
     <property role="TrG5h" value="ShapeOptions" />
-    <property role="3GE5qa" value="Shape" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="2ZfgGC" to="86kt:3mweh___xQS" resolve="ShapeOptions" />
     <node concept="2S6ZIM" id="3mweh___Xai" role="2ZfVej">
       <node concept="3clFbS" id="3mweh___Xaj" role="2VODD2">
