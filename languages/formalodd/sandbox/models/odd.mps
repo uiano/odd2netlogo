@@ -591,19 +591,26 @@
                 <property role="1lo2db" value="red" />
               </node>
             </node>
-            <node concept="8StHo" id="1r3mgtJJxy1" role="2GrruU">
-              <node concept="8Styt" id="1r3mgtJJxy7" role="8Sc1Y">
-                <property role="8Stys" value="Change Current Pixel" />
-              </node>
-              <node concept="ZOwrR" id="1r3mgtJJxyA" role="8S3LA">
-                <property role="1lo2db" value="grey" />
-              </node>
-            </node>
           </node>
         </node>
         <node concept="2lNc1w" id="1r3mgtJNjQs" role="8Yoip">
           <property role="8X5i2" value="Environment" />
           <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
+        </node>
+      </node>
+      <node concept="2lNc1x" id="1r3mgtJQ7aU" role="2GyEu2">
+        <property role="TrG5h" value="Extinguish" />
+        <node concept="2lNc1w" id="1r3mgtJQ7b8" role="8Yoip">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
+        </node>
+        <node concept="8StHo" id="1r3mgtJQ7bn" role="2GszJx">
+          <node concept="8Styt" id="1r3mgtJQ7bq" role="8Sc1Y">
+            <property role="8Stys" value="Change Current Pixel" />
+          </node>
+          <node concept="ZOwrR" id="1r3mgtJQ7bu" role="8S3LA">
+            <property role="1lo2db" value="grey" />
+          </node>
         </node>
       </node>
     </node>
