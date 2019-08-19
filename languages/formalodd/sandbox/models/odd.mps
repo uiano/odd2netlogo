@@ -73,6 +73,7 @@
       <concept id="6529568716161205649" name="formalodd.structure.Who2" flags="ng" index="2HPRmR">
         <property id="8247773779771569414" name="value" index="2DpkYb" />
         <property id="6529568716161210147" name="option" index="2HPQs5" />
+        <reference id="6529568716161205651" name="environment" index="2HPRmP" />
         <reference id="6529568716162980347" name="attribute" index="2HY6Bt" />
       </concept>
       <concept id="6620640720694302583" name="formalodd.structure.UserComment" flags="ng" index="XAmFv">
@@ -167,10 +168,6 @@
       </concept>
       <concept id="2325324488108205419" name="formalodd.structure.SelectingType" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
-      </concept>
-      <concept id="1786286396190304350" name="formalodd.structure.NeighborEnviroment" flags="ng" index="1SKK9t">
-        <property id="1786286396190304394" name="color" index="1SKKa9" />
-        <child id="1786286396190304396" name="EnvromentAction" index="1SKKaf" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -569,28 +566,29 @@
           <property role="1lo2db" value="green" />
         </node>
       </node>
-      <node concept="BZNO7" id="1r3mgtJEVpB" role="2GyEu2">
+      <node concept="2lNc1x" id="1r3mgtJUhiu" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
-        <node concept="2lNc1w" id="1r3mgtJEVpL" role="BYBhP">
-          <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="1r3mgtJEVp3" resolve="Trees" />
-        </node>
-        <node concept="1SKK9t" id="1r3mgtJEVq2" role="17I3vM">
-          <property role="1SKKa9" value="green" />
-          <node concept="2lNc1y" id="1r3mgtJJxxu" role="1SKKaf">
-            <node concept="8StHo" id="1r3mgtJJxxG" role="2GrruU">
-              <node concept="8Styt" id="1r3mgtJJxxK" role="8Sc1Y">
-                <property role="8Stys" value="Change Neighbors" />
-              </node>
-              <node concept="ZOwrR" id="1r3mgtJJxxY" role="8S3LA">
-                <property role="1lo2db" value="red" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="2lNc1w" id="1r3mgtJNjQs" role="8Yoip">
+        <node concept="2lNc1w" id="1r3mgtJUhiC" role="8Yoip">
           <property role="8X5i2" value="Environment" />
           <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
+        </node>
+        <node concept="8StHo" id="1r3mgtJUhiK" role="2GszJx">
+          <node concept="8Styt" id="1r3mgtJUhiN" role="8Sc1Y">
+            <property role="8Stys" value="Change Neighbors" />
+          </node>
+          <node concept="ZOwrR" id="1r3mgtJUhiP" role="8S3LA">
+            <property role="1lo2db" value="green" />
+          </node>
+          <node concept="2HP6RB" id="1r3mgtJWqQO" role="BXGfr">
+            <property role="2HPVKK" value="=" />
+            <node concept="2HPRmR" id="1r3mgtJWqQQ" role="2HP6R$">
+              <property role="2HPQs5" value="Color" />
+              <ref role="2HPRmP" node="1r3mgtJEVpb" resolve="Fire" />
+            </node>
+            <node concept="2HPRmR" id="1r3mgtJWrPV" role="2HP6Ry">
+              <property role="2HPQs5" value="red" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="2lNc1x" id="1r3mgtJQ7aU" role="2GyEu2">
@@ -605,6 +603,15 @@
           </node>
           <node concept="ZOwrR" id="1r3mgtJQ7bu" role="8S3LA">
             <property role="1lo2db" value="grey" />
+          </node>
+          <node concept="2HP6RB" id="1r3mgtJWrPX" role="BXGfr">
+            <property role="2HPVKK" value="=" />
+            <node concept="2HPRmR" id="1r3mgtJWrPZ" role="2HP6R$">
+              <property role="2HPQs5" value="Color" />
+            </node>
+            <node concept="2HPRmR" id="1r3mgtJWrQ1" role="2HP6Ry">
+              <property role="2HPQs5" value="red" />
+            </node>
           </node>
         </node>
       </node>

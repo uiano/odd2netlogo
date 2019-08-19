@@ -1332,7 +1332,7 @@
               <node concept="3clFbS" id="5EtG2rPS2ex" role="3clFbx">
                 <node concept="lc7rE" id="5EtG2rPS2ey" role="3cqZAp">
                   <node concept="la8eA" id="5EtG2rPS2ez" role="lcghm">
-                    <property role="lacIc" value="if all? patches [pcolor == " />
+                    <property role="lacIc" value="if all? patches [pcolor = " />
                   </node>
                   <node concept="l9hG8" id="5EtG2rPS2e$" role="lcghm">
                     <node concept="2OqwBi" id="5EtG2rPS2e_" role="lb14g">
@@ -6660,8 +6660,8 @@
           <node concept="l9hG8" id="1zaawdw7CIQ" role="lcghm">
             <node concept="2OqwBi" id="1zaawdw7CS8" role="lb14g">
               <node concept="117lpO" id="1zaawdw7CJJ" role="2Oq$k0" />
-              <node concept="3TrEf2" id="1zaawdw7D1k" role="2OqNvi">
-                <ref role="3Tt5mk" to="86kt:1zaawdw2iyc" resolve="EnvromentAction" />
+              <node concept="3TrEf2" id="1r3mgtJYkfA" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:1zaawdvpEgE" resolve="action" />
               </node>
             </node>
           </node>
