@@ -71,6 +71,7 @@
         <child id="193207073759411052" name="AgentOptions" index="1laXez" />
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
+      <concept id="3840659476812056016" name="formalodd.structure.Coordinates" flags="ng" index="ZOwqy" />
       <concept id="3840659476812056007" name="formalodd.structure.Location" flags="ng" index="ZOwqP">
         <property id="3961341278979810179" name="showLocation" index="21lQ5$" />
       </concept>
@@ -78,6 +79,7 @@
         <property id="6955527831106468148" name="showColor" index="2YXOq1" />
         <child id="3961341278979996238" name="Location" index="21i3yD" />
         <child id="3961341278978876244" name="DefaultColor" index="21mi6N" />
+        <child id="6213474804142799191" name="Coordinates" index="2JZWGY" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
         <child id="6529568716164071957" name="graphicsWindow" index="2HUN8N" />
@@ -293,6 +295,7 @@
         <property role="2IKGqT" value="1" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="100" />
+        <node concept="1ldJ2l" id="1r3mgtJ$90M" role="1l3At2" />
         <node concept="1ldJ2l" id="qdXC$xz0QS" role="1l3At2">
           <property role="TrG5h" value="energy" />
           <property role="1lrphF" value="0" />
@@ -328,11 +331,11 @@
             <property role="1lo2db" value="green" />
           </node>
         </node>
-        <node concept="ZOwrm" id="qdXC$x$Nnq" role="2JZWw_">
-          <property role="TrG5h" value="grass" />
-          <property role="2YXOq1" value="is" />
-          <node concept="ZOwrR" id="qdXC$x$Nnv" role="21mi6N">
-            <property role="1lo2db" value="green" />
+        <node concept="ZOwrm" id="1r3mgtJuFzu" role="2JZWw_">
+          <property role="TrG5h" value="trees" />
+          <node concept="ZOwqy" id="1r3mgtJuFz_" role="2JZWGY" />
+          <node concept="ZOwqP" id="1r3mgtJuFzz" role="21i3yD">
+            <property role="21lQ5$" value="specific" />
           </node>
         </node>
       </node>
