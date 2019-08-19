@@ -5552,7 +5552,7 @@
             <property role="lacIc" value="    " />
           </node>
           <node concept="la8eA" id="1zaawdvf4KM" role="lcghm">
-            <property role="lacIc" value="[" />
+            <property role="lacIc" value="]" />
           </node>
           <node concept="l8MVK" id="1zaawdvf4KN" role="lcghm" />
         </node>
