@@ -23,6 +23,7 @@ public class CenterOnPatch_TextGen extends TextGenDescriptorBase {
     }
 
     tgs.append("move-to patch-here");
+    tgs.newLine();
 
 
     if ((SLinkOperations.getTarget(ctx.getPrimaryInput(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x35a039196620dc12L, 0x68df689217b3552L, "condition")) != null)) {

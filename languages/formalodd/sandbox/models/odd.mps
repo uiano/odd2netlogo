@@ -811,20 +811,6 @@
               </node>
             </node>
           </node>
-          <node concept="1Svl6F" id="qdXC$yiK60" role="2GrruU">
-            <ref role="1Svl6C" node="qdXC$ygXQL" resolve="move-if-not-happy" />
-            <node concept="2HP6RB" id="qdXC$yiK61" role="BXGfr">
-              <property role="2HPVKK" value="=" />
-              <node concept="2HPRmR" id="qdXC$yiK62" role="2HP6R$">
-                <property role="2HPQs5" value="Attribute" />
-                <ref role="2HY6Bt" node="qdXC$ygXaC" resolve="happy?" />
-              </node>
-              <node concept="2HPRmR" id="qdXC$yiK63" role="2HP6Ry">
-                <property role="2HPQs5" value="value" />
-                <property role="2DpkYb" value="false" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
