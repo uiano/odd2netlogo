@@ -574,43 +574,71 @@
           <property role="1lo2db" value="green" />
         </node>
       </node>
-      <node concept="BZNO7" id="1r3mgtJEVpB" role="2GyEu2">
+      <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
-        <node concept="2lNc1w" id="1r3mgtJEVpL" role="BYBhP">
-          <property role="8X5i2" value="Environment" />
-        </node>
-        <node concept="1SKK9t" id="1r3mgtJEVq2" role="17I3vM">
+        <node concept="1SKK9t" id="1r3mgtKgnYK" role="17I3vM">
           <property role="1SKKa9" value="green" />
-          <node concept="8StHo" id="1r3mgtJJxxG" role="1SKKaf">
-            <node concept="8Styt" id="1r3mgtJJxxK" role="8Sc1Y">
-              <property role="8Stys" value="Change Neighbors" />
-            </node>
-            <node concept="ZOwrR" id="1r3mgtJJxxY" role="8S3LA">
-              <property role="1lo2db" value="red" />
+          <node concept="2lNc1y" id="1r3mgtKgnYM" role="1SKKaf">
+            <node concept="8StHo" id="1r3mgtKgnYT" role="2GrruU">
+              <node concept="8Styt" id="1r3mgtKgnYX" role="8Sc1Y">
+                <property role="8Stys" value="Change Current Pixel" />
+              </node>
+              <node concept="ZOwo6" id="1r3mgtKgnYZ" role="8S3LA">
+                <property role="1lo2db" value="red" />
+              </node>
             </node>
           </node>
         </node>
-        <node concept="2lNc1w" id="1r3mgtJNjQs" role="8Yoip">
-          <property role="8X5i2" value="Environment" />
-        </node>
       </node>
-      <node concept="2lNc1x" id="qdXC$yCGN5" role="2GyEu2">
-        <property role="TrG5h" value="fires" />
-        <node concept="2lNc1w" id="qdXC$yCGNl" role="8Yoip">
-          <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
-        </node>
-        <node concept="1Svl6F" id="qdXC$yCGNn" role="2GszJx">
-          <ref role="1Svl6C" node="1r3mgtJEVpB" resolve="Burn" />
-          <node concept="2HP6RB" id="qdXC$yCGNp" role="BXGfr">
+      <node concept="2lNc1x" id="1r3mgtJQ7aU" role="2GyEu2">
+        <property role="TrG5h" value="Extinguish" />
+        <node concept="8StHo" id="1r3mgtJQ7bn" role="2GszJx">
+          <node concept="8Styt" id="1r3mgtJQ7bq" role="8Sc1Y">
+            <property role="8Stys" value="Change Current Pixel" />
+          </node>
+          <node concept="ZOwrR" id="1r3mgtJQ7bu" role="8S3LA">
+            <property role="1lo2db" value="grey" />
+          </node>
+          <node concept="2HP6RB" id="1r3mgtJWrPX" role="BXGfr">
             <property role="2HPVKK" value="=" />
-            <node concept="2HPRmR" id="qdXC$yCGNr" role="2HP6R$">
+            <node concept="2HPRmR" id="1r3mgtJWrPZ" role="2HP6R$">
               <property role="2HPQs5" value="Color" />
             </node>
-            <node concept="2HPRmR" id="qdXC$yCGNt" role="2HP6Ry">
+            <node concept="2HPRmR" id="1r3mgtJWrQ1" role="2HP6Ry">
               <property role="2HPQs5" value="value" />
               <property role="2DpkYb" value="red" />
             </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2lNc1x" id="1r3mgtKcAcT" role="2GyEu2">
+        <property role="TrG5h" value="ToDo" />
+        <node concept="2lNc1w" id="1r3mgtKcAdb" role="8Yoip">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="1r3mgtJEVpb" resolve="Fire" />
+        </node>
+        <node concept="1Svl6F" id="1r3mgtKpOAV" role="2GszJx">
+          <ref role="1Svl6C" node="1r3mgtKpOBo" resolve="ToDoList" />
+          <node concept="2HP6RB" id="1r3mgtKpOAX" role="BXGfr">
+            <property role="2HPVKK" value="=" />
+            <node concept="2HPRmR" id="1r3mgtKpOAZ" role="2HP6R$">
+              <property role="2HPQs5" value="Color" />
+            </node>
+            <node concept="2HPRmR" id="1r3mgtKpOB1" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="red" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2lNc1x" id="1r3mgtKpOBo" role="2GyEu2">
+        <property role="TrG5h" value="ToDoList" />
+        <node concept="2lNc1y" id="1r3mgtKpOBK" role="2GszJx">
+          <node concept="1Svl6F" id="1r3mgtKpOCB" role="2GrruU">
+            <ref role="1Svl6C" node="1r3mgtK4Z3N" resolve="Burn" />
+          </node>
+          <node concept="1Svl6F" id="1r3mgtKpOCx" role="2GrruU">
+            <ref role="1Svl6C" node="1r3mgtJQ7aU" resolve="Extinguish" />
           </node>
         </node>
       </node>

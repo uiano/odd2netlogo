@@ -1332,7 +1332,7 @@
               <node concept="3clFbS" id="5EtG2rPS2ex" role="3clFbx">
                 <node concept="lc7rE" id="5EtG2rPS2ey" role="3cqZAp">
                   <node concept="la8eA" id="5EtG2rPS2ez" role="lcghm">
-                    <property role="lacIc" value="if all? patches [pcolor == " />
+                    <property role="lacIc" value="if all? patches [pcolor = " />
                   </node>
                   <node concept="l9hG8" id="5EtG2rPS2e$" role="lcghm">
                     <node concept="2OqwBi" id="5EtG2rPS2e_" role="lb14g">
@@ -6528,22 +6528,18 @@
           <node concept="l8MVK" id="3YZJ$rO5a69" role="lcghm" />
         </node>
         <node concept="3clFbH" id="1zaawdvJXZf" role="3cqZAp" />
-        <node concept="1X3_iC" id="1r3mgtJLpmG" role="lGtFl">
-          <property role="3V$3am" value="statement" />
-          <property role="3V$3ak" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1068580123136/1068581517665" />
-          <node concept="Jncv_" id="1zaawdvJZbz" role="8Wnug">
-            <ref role="JncvD" to="86kt:1zaawdvhWY2" resolve="compoundCondition" />
-            <node concept="2OqwBi" id="1zaawdvWcQ4" role="JncvB">
-              <node concept="117lpO" id="1zaawdvJZit" role="2Oq$k0" />
-              <node concept="1mfA1w" id="1zaawdvWdg7" role="2OqNvi" />
-            </node>
-            <node concept="3clFbS" id="1zaawdvJZbB" role="Jncv$">
-              <node concept="3cpWs6" id="1zaawdvJZ_r" role="3cqZAp" />
-            </node>
-            <node concept="JncvC" id="1zaawdvJZbD" role="JncvA">
-              <property role="TrG5h" value="condition" />
-              <node concept="2jxLKc" id="1zaawdvJZbE" role="1tU5fm" />
-            </node>
+        <node concept="Jncv_" id="1zaawdvJZbz" role="3cqZAp">
+          <ref role="JncvD" to="86kt:1zaawdvhWY2" resolve="compoundCondition" />
+          <node concept="2OqwBi" id="1zaawdvWcQ4" role="JncvB">
+            <node concept="117lpO" id="1zaawdvJZit" role="2Oq$k0" />
+            <node concept="1mfA1w" id="1zaawdvWdg7" role="2OqNvi" />
+          </node>
+          <node concept="3clFbS" id="1zaawdvJZbB" role="Jncv$">
+            <node concept="3cpWs6" id="1zaawdvJZ_r" role="3cqZAp" />
+          </node>
+          <node concept="JncvC" id="1zaawdvJZbD" role="JncvA">
+            <property role="TrG5h" value="condition" />
+            <node concept="2jxLKc" id="1zaawdvJZbE" role="1tU5fm" />
           </node>
         </node>
         <node concept="lc7rE" id="1zaawdvf5_h" role="3cqZAp">
@@ -6726,7 +6722,7 @@
           <node concept="l9hG8" id="1zaawdw7CIQ" role="lcghm">
             <node concept="2OqwBi" id="1zaawdw7CS8" role="lb14g">
               <node concept="117lpO" id="1zaawdw7CJJ" role="2Oq$k0" />
-              <node concept="3TrEf2" id="1zaawdw7D1k" role="2OqNvi">
+              <node concept="3TrEf2" id="1r3mgtKigHL" role="2OqNvi">
                 <ref role="3Tt5mk" to="86kt:1zaawdw2iyc" resolve="EnvromentAction" />
               </node>
             </node>
