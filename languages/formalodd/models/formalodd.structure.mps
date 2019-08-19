@@ -2245,7 +2245,7 @@
       <property role="IQ2ns" value="1786286396201728939" />
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="link" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
+      <ref role="20lvS9" node="qdXC$xB08V" resolve="AbstractProcedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MYWhBhM02l">
