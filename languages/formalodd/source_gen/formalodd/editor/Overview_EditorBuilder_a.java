@@ -115,7 +115,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
       return MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x5a9db026f61717a4L, "procedure");
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, "formalodd.structure.Procedure");
+      return MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, "formalodd.structure.AbstractProcedure");
     }
 
     public EditorCell createNodeCell(SNode elementNode) {

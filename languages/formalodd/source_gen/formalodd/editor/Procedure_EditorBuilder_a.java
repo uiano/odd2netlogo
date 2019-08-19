@@ -147,7 +147,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x58d3bf55502a3bccL, "who");
+      return MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x58d3bf55502a3bccL, "who");
     }
     public SAbstractConcept getChildSConcept() {
       return MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be4L, "formalodd.structure.Who");
@@ -160,7 +160,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(whoListHandler_mslv0s_d0a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x58d3bf55502a3bccL, "who")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(whoListHandler_mslv0s_d0a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x58d3bf55502a3bccL, "who")));
       try {
         EditorCell emptyCell = null;
         emptyCell = super.createEmptyCell();
@@ -194,7 +194,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
     return editorCell;
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new Procedure_EditorBuilder_a.actionSingleRoleHandler_mslv0s_a1a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x5a9db026f6ef8bc7L, "action"), getEditorContext());
+    SingleRoleCellProvider provider = new Procedure_EditorBuilder_a.actionSingleRoleHandler_mslv0s_a1a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x5a9db026f6ef8bc7L, "action"), getEditorContext());
     return provider.createCell();
   }
   private static class actionSingleRoleHandler_mslv0s_a1a extends SingleRoleCellProvider {
@@ -214,8 +214,8 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
 
     protected EditorCell createChildCell(SNode child) {
       EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x5a9db026f6ef8bc7L, "action"), child));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x5a9db026f6ef8bc7L, "action"), child));
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x5a9db026f6ef8bc7L, "action"), child));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x5a9db026f6ef8bc7L, "action"), child));
       installCellInfo(child, editorCell, false);
       return editorCell;
     }
@@ -227,13 +227,13 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSmart;
         editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
       }
       if (editorCell.getSRole() == null) {
-        editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x5a9db026f6ef8bc7L, "action"));
+        editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x5a9db026f6ef8bc7L, "action"));
       }
     }
     @Override
     protected EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, 0x5a9db026f6ef8bc7L, "action")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, 0x5a9db026f6ef8bc7L, "action")));
       try {
         EditorCell editorCell = super.createEmptyCell();
         editorCell.setCellId("empty_action");

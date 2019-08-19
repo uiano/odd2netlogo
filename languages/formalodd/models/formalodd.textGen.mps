@@ -4464,6 +4464,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="2EFWiW$xsYH">
+    <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="WuzLi" to="86kt:6lHESjKCmJA" resolve="CompoundAction" />
     <node concept="11bSqf" id="2EFWiW$xsYI" role="11c4hB">
       <node concept="3clFbS" id="2EFWiW$xsYJ" role="2VODD2">
