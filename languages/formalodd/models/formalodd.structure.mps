@@ -90,12 +90,6 @@
       <property role="20kJfa" value="overview" />
       <ref role="20lvS9" node="6lHESjKDb9g" resolve="Overview" />
     </node>
-    <node concept="1TJgyj" id="5EtG2rPwDiF" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716131308715" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGmn" resolve="Environment" />
-    </node>
     <node concept="1TJgyj" id="5EtG2rPwDiO" role="1TKVEi">
       <property role="IQ2ns" value="6529568716131308724" />
       <property role="20lmBu" value="aggregation" />

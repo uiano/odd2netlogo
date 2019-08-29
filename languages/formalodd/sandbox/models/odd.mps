@@ -34,6 +34,7 @@
         <reference id="3074816355399732196" name="Target" index="fwBFb" />
       </concept>
       <concept id="7308686357753541206" name="formalodd.structure.EndCondition" flags="ng" index="2lMhBi">
+        <reference id="6529568716114683163" name="entity" index="2I6lkX" />
         <child id="6400669868571704408" name="color" index="848cd" />
         <child id="6400669868571328618" name="endConditionOption" index="8rzWZ" />
       </concept>
@@ -51,6 +52,11 @@
         <child id="6529568716155258780" name="action" index="2GrruU" />
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.CenterOnPatch" flags="ng" index="2ttJ6c" />
+      <concept id="5530122485659733127" name="formalodd.structure.GlobalVariabels" flags="ng" index="2uAfQu">
+        <property id="5530122485659733306" name="min" index="2uAfKz" />
+        <property id="5530122485659733308" name="max" index="2uAfK_" />
+        <property id="5530122485659733311" name="startvalue" index="2uAfKA" />
+      </concept>
       <concept id="472304604778594875" name="formalodd.structure.AbstractProcedure" flags="ng" index="B4viM">
         <child id="6400669868561677260" name="who" index="8Yoip" />
         <child id="6529568716155227079" name="action" index="2GszJx" />
@@ -115,6 +121,7 @@
         <property id="6955527831106468148" name="showColor" index="2YXOq1" />
         <child id="3961341278979996238" name="Location" index="21i3yD" />
         <child id="3961341278978876244" name="DefaultColor" index="21mi6N" />
+        <child id="4851181497932735147" name="attribute" index="3Aqb_P" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
         <child id="6529568716164071957" name="graphicsWindow" index="2HUN8N" />
@@ -130,6 +137,7 @@
         <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="color" index="kpDVr" />
+        <child id="5530122485659733123" name="globalVar" index="2uAfQq" />
       </concept>
       <concept id="3864151261525188024" name="formalodd.structure.ShapeOptions" flags="ng" index="1gdyix">
         <property id="3864151261525188025" name="ShapeOption" index="1gdyiw" />
@@ -286,7 +294,7 @@
                 <property role="8Stys" value="Change Current Pixel" />
               </node>
               <node concept="ZOwo6" id="qdXC$xL$0U" role="8S3LA">
-                <property role="1lo2db" value="yellow" />
+                <property role="1lo2db" value="brown" />
               </node>
             </node>
           </node>
@@ -347,7 +355,18 @@
           </node>
         </node>
       </node>
-      <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt" />
+      <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt">
+        <ref role="2I6lkX" node="qdXC$xz0Qv" resolve="sheep" />
+        <node concept="8rzWW" id="1D8fLg4_FDS" role="8rzWZ">
+          <property role="8rzZp" value="No Entity is" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="1D8fLg4_FDU" role="2lMhBt">
+        <ref role="2I6lkX" node="qdXC$xz0Qt" resolve="wolf" />
+        <node concept="8rzWW" id="1D8fLg4_FDY" role="8rzWZ">
+          <property role="8rzZp" value="No Entity is" />
+        </node>
+      </node>
       <node concept="2lNc1x" id="qdXC$y9juR" role="2GyEu2">
         <property role="TrG5h" value="Reproduce" />
         <node concept="2lNc1w" id="qdXC$y9jvp" role="8Yoip">
@@ -374,20 +393,98 @@
             </node>
             <node concept="2HPRmR" id="qdXC$yb41t" role="2HP6Ry">
               <property role="2HPQs5" value="value" />
-              <property role="2DpkYb" value="130" />
+              <property role="2DpkYb" value="200" />
             </node>
           </node>
         </node>
       </node>
       <node concept="2lNc1x" id="qdXC$ycPHl" role="2GyEu2">
-        <property role="TrG5h" value="Regrow" />
+        <property role="TrG5h" value="startRegrowth" />
         <node concept="2lNc1w" id="qdXC$ycPHZ" role="8Yoip">
           <property role="8X5i2" value="Environment" />
           <ref role="8YSiS" node="qdXC$xRhvx" resolve="grass" />
         </node>
-        <node concept="8StHo" id="qdXC$ycPI3" role="2GszJx">
-          <node concept="8Styt" id="qdXC$ycPKS" role="8Sc1Y" />
-          <node concept="2HP6RB" id="qdXC$yeAZQ" role="BXGfr" />
+        <node concept="2lNc1y" id="1D8fLg4_Bpr" role="2GszJx">
+          <node concept="8StHo" id="1D8fLg4_Bwp" role="2GrruU">
+            <node concept="8Styt" id="1D8fLg4_Bwt" role="8Sc1Y">
+              <property role="8Stys" value="Change Current Pixel" />
+            </node>
+            <node concept="ZOwo6" id="1D8fLg4_Bwv" role="8S3LA">
+              <property role="1lo2db" value="yellow" />
+            </node>
+          </node>
+          <node concept="8StVI" id="1D8fLg4_Bwx" role="2GrruU">
+            <property role="fDOvY" value="attribute" />
+            <property role="2DfwqV" value="set value" />
+            <property role="fDf1i" value="0" />
+            <ref role="8p6Ff" node="1D8fLg4_Bw9" resolve="growth" />
+          </node>
+          <node concept="2HP6RB" id="1D8fLg4_Bwj" role="BXGfr">
+            <property role="2HPVKK" value="=" />
+            <node concept="2HPRmR" id="1D8fLg4_Bwl" role="2HP6R$">
+              <property role="2HPQs5" value="Color" />
+            </node>
+            <node concept="2HPRmR" id="1D8fLg4_Bwn" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="brown" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2lNc1x" id="1D8fLg4_FJD" role="2GyEu2">
+        <property role="TrG5h" value="regrowth" />
+        <node concept="2lNc1w" id="1D8fLg4_FMZ" role="8Yoip">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="qdXC$xRhvx" resolve="grass" />
+        </node>
+        <node concept="2lNc1y" id="1D8fLg4_FN1" role="2GszJx">
+          <node concept="8StHo" id="1D8fLg4_G8G" role="2GrruU">
+            <node concept="2HP6RB" id="1D8fLg4_FO7" role="BXGfr">
+              <property role="2HPVKK" value="&gt;" />
+              <node concept="2HPRmR" id="1D8fLg4_FO9" role="2HP6R$">
+                <property role="2HPQs5" value="Attribute" />
+                <ref role="2HY6Bt" node="1D8fLg4_Bw9" resolve="growth" />
+              </node>
+              <node concept="2HPRmR" id="1D8fLg4_FOb" role="2HP6Ry">
+                <property role="2HPQs5" value="value" />
+                <property role="2DpkYb" value="10" />
+              </node>
+            </node>
+            <node concept="8Styt" id="1D8fLg4_G9i" role="8Sc1Y">
+              <property role="8Stys" value="Change Current Pixel" />
+            </node>
+            <node concept="ZOwo6" id="1D8fLg4_G9k" role="8S3LA">
+              <property role="1lo2db" value="green" />
+            </node>
+          </node>
+          <node concept="8StVI" id="1D8fLg4_G8N" role="2GrruU">
+            <property role="fDOvY" value="attribute" />
+            <property role="2DfwqV" value="increment value" />
+            <property role="2DdUfk" value="growth" />
+            <property role="fDf1i" value="1" />
+            <ref role="8p6Ff" node="1D8fLg4_Bw9" resolve="growth" />
+            <node concept="2HP6RB" id="1D8fLg4_G8U" role="BXGfr">
+              <property role="2HPVKK" value="&lt;=" />
+              <node concept="2HPRmR" id="1D8fLg4_G8V" role="2HP6R$">
+                <property role="2HPQs5" value="Attribute" />
+                <ref role="2HY6Bt" node="1D8fLg4_Bw9" resolve="growth" />
+              </node>
+              <node concept="2HPRmR" id="1D8fLg4_G8W" role="2HP6Ry">
+                <property role="2HPQs5" value="value" />
+                <property role="2DpkYb" value="10" />
+              </node>
+            </node>
+          </node>
+          <node concept="2HP6RB" id="1D8fLg4_FN8" role="BXGfr">
+            <property role="2HPVKK" value="=" />
+            <node concept="2HPRmR" id="1D8fLg4_FNa" role="2HP6R$">
+              <property role="2HPQs5" value="Color" />
+            </node>
+            <node concept="2HPRmR" id="1D8fLg4_FNc" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="yellow" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -495,6 +592,14 @@
         <node concept="ZOwrm" id="qdXC$xRhvx" role="2JZWw_">
           <property role="2YXOq1" value="is" />
           <property role="TrG5h" value="grass" />
+          <node concept="1ldJ2l" id="1D8fLg4_Bw9" role="3Aqb_P">
+            <property role="TrG5h" value="growth" />
+            <property role="1lrphF" value="0" />
+            <property role="1lrphC" value="10" />
+            <node concept="1l1EW$" id="1D8fLg4_Bwb" role="1l1KrL">
+              <property role="1l1EWz" value="float" />
+            </node>
+          </node>
           <node concept="ZOwrR" id="qdXC$xRhvz" role="21mi6N">
             <property role="1lo2db" value="green" />
           </node>
@@ -751,6 +856,12 @@
           <property role="1jzt_n" value="10" />
           <property role="1jzt_b" value="0" />
           <property role="1jztgP" value="0" />
+          <node concept="2uAfQu" id="1D8fLg50L1e" role="2uAfQq">
+            <property role="TrG5h" value="similar-nearby-wanted" />
+            <property role="2uAfKz" value="1" />
+            <property role="2uAfK_" value="100" />
+            <property role="2uAfKA" value="50" />
+          </node>
           <node concept="ZOwrR" id="qdXC$yiK6J" role="kpDVr">
             <property role="1lo2db" value="white" />
           </node>
@@ -859,7 +970,7 @@
           <node concept="8StVI" id="qdXC$ygXcq" role="2GrruU">
             <property role="2DfwqV" value="set value" />
             <property role="fDOvY" value="attribute" />
-            <property role="fDf1i" value="similar-nearby &gt;= (60 * total-nearby / 100)" />
+            <property role="fDf1i" value="similar-nearby &gt;= (similar-nearby-wanted * total-nearby / 100)" />
             <ref role="8p6Ff" node="qdXC$ygXaC" resolve="happy?" />
           </node>
         </node>
@@ -871,6 +982,36 @@
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-group" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="ZOwpP" id="1D8fLg56p2x">
+    <property role="TrG5h" value="test" />
+    <node concept="ZOwpU" id="1D8fLg5hDwT" role="3$p12O">
+      <node concept="ZOwpW" id="1D8fLg5jxhH" role="ZOwpT">
+        <property role="TrG5h" value="testentity" />
+        <property role="1gPB68" value="is not" />
+        <property role="2IKGqT" value="2" />
+        <node concept="1ldJ2l" id="1D8fLg5yYu5" role="1l3At2">
+          <property role="TrG5h" value="testattribute" />
+          <node concept="1l1EW$" id="1D8fLg5$R$i" role="1l1KrL">
+            <property role="1l1EWz" value="float" />
+          </node>
+        </node>
+        <node concept="ZOwrR" id="1D8fLg5phqQ" role="3$oDj3">
+          <property role="1lo2db" value="brown" />
+        </node>
+        <node concept="1gdyix" id="1D8fLg5r9r0" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
+        </node>
+        <node concept="ZOwo7" id="1D8fLg5t5d8" role="ZOwpC">
+          <property role="1lPuH5" value="square" />
+        </node>
+      </node>
+      <node concept="ZOwpW" id="1D8fLg5t4aM" role="ZOwpT" />
+      <node concept="ZOwr_" id="1D8fLg5CDqL" role="ZOwpV">
+        <node concept="ZOwrm" id="1D8fLg5Eybv" role="2JZWw_" />
+        <node concept="1g3uKF" id="1D8fLg5CDr9" role="2HUN8N" />
       </node>
     </node>
   </node>
