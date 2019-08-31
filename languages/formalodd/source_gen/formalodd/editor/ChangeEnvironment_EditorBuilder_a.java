@@ -128,7 +128,7 @@ import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
       }
     }
     protected String getNoTargetText() {
-      return "<no condition>";
+      return "press enter to create a condition";
     }
   }
   private EditorCell createCollection_1() {

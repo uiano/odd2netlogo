@@ -24,6 +24,9 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.openapi.editor.cells.DefaultSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SEmptyContainmentSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SChildSubstituteInfo;
+import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.openapi.editor.style.StyleRegistry;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 
 /*package*/ class Overview_EditorBuilder_a extends AbstractEditorBuilder {
@@ -80,7 +83,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
     editorCell.getStyle().putAll(style);
     editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createRefNodeList_0());
-    editorCell.addEditorCell(createConstant_3());
+    editorCell.addEditorCell(createConstant_4());
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createRefNodeList_1());
     return editorCell;
@@ -128,7 +131,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
       getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(procedureListHandler_360pyx_b2a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x5a9db026f61717a4L, "procedure")));
       try {
         EditorCell emptyCell = null;
-        emptyCell = super.createEmptyCell();
+        emptyCell = createConstant_3();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -148,8 +151,18 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
         }
       }
     }
+    private EditorCell createConstant_3() {
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "press enter to create a procedure");
+      editorCell.setCellId("Constant_360pyx_a1c0");
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+      editorCell.getStyle().putAll(style);
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
   }
-  private EditorCell createConstant_3() {
+  private EditorCell createConstant_4() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
     editorCell.setCellId("Constant_360pyx_c2a");
     editorCell.setDefaultText("");
@@ -161,10 +174,10 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_4());
+    editorCell.addEditorCell(createConstant_5());
     return editorCell;
   }
-  private EditorCell createConstant_4() {
+  private EditorCell createConstant_5() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "The following end conditions is wanted:");
     editorCell.setCellId("Constant_360pyx_a3c0");
     editorCell.setDefaultText("");
@@ -207,7 +220,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
       getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_e2a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x656dab84f0a4b259L, "endCondition")));
       try {
         EditorCell emptyCell = null;
-        emptyCell = super.createEmptyCell();
+        emptyCell = createConstant_6();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -226,6 +239,16 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
           elementCell.setSubstituteInfo((isEmptyCell ? new SEmptyContainmentSubstituteInfo(elementCell) : new SChildSubstituteInfo(elementCell)));
         }
       }
+    }
+    private EditorCell createConstant_6() {
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
+      editorCell.setCellId("Constant_360pyx_a4c0");
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+      editorCell.getStyle().putAll(style);
+      editorCell.setDefaultText("press control space to select the type of end conditon");
+      return editorCell;
     }
   }
 }

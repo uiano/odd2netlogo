@@ -27,6 +27,9 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.openapi.editor.style.StyleRegistry;
+import jetbrains.mps.nodeEditor.MPSColors;
 
 /*package*/ class CompoundAction_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -118,7 +121,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
       }
     }
     protected String getNoTargetText() {
-      return "<no condition>";
+      return "press enter to create a condition for all actions inside compund";
     }
   }
   private EditorCell createRefNodeList_0() {
@@ -127,6 +130,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
     editorCell.setCellId("refNodeList_action");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
+    style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
@@ -182,8 +186,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
       }
     }
     private EditorCell createConstant_0() {
-      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Add new action alt enter");
+      EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Add new action press enter the control space to select type");
       editorCell.setCellId("Constant_fnj1zp_a1a0");
+      Style style = new StyleImpl();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
+      editorCell.getStyle().putAll(style);
       editorCell.setDefaultText("");
       return editorCell;
     }

@@ -226,9 +226,6 @@
           <property role="1jzt_n" value="10" />
           <property role="1jzt_b" value="0" />
           <property role="1jztgP" value="0" />
-          <node concept="ZOwrR" id="qdXC$xsGM$" role="kpDVr">
-            <property role="1lo2db" value="blue" />
-          </node>
         </node>
       </node>
     </node>
@@ -982,36 +979,6 @@
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-group" />
         </node>
-      </node>
-    </node>
-  </node>
-  <node concept="ZOwpP" id="1D8fLg56p2x">
-    <property role="TrG5h" value="test" />
-    <node concept="ZOwpU" id="1D8fLg5hDwT" role="3$p12O">
-      <node concept="ZOwpW" id="1D8fLg5jxhH" role="ZOwpT">
-        <property role="TrG5h" value="testentity" />
-        <property role="1gPB68" value="is not" />
-        <property role="2IKGqT" value="2" />
-        <node concept="1ldJ2l" id="1D8fLg5yYu5" role="1l3At2">
-          <property role="TrG5h" value="testattribute" />
-          <node concept="1l1EW$" id="1D8fLg5$R$i" role="1l1KrL">
-            <property role="1l1EWz" value="float" />
-          </node>
-        </node>
-        <node concept="ZOwrR" id="1D8fLg5phqQ" role="3$oDj3">
-          <property role="1lo2db" value="brown" />
-        </node>
-        <node concept="1gdyix" id="1D8fLg5r9r0" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
-        </node>
-        <node concept="ZOwo7" id="1D8fLg5t5d8" role="ZOwpC">
-          <property role="1lPuH5" value="square" />
-        </node>
-      </node>
-      <node concept="ZOwpW" id="1D8fLg5t4aM" role="ZOwpT" />
-      <node concept="ZOwr_" id="1D8fLg5CDqL" role="ZOwpV">
-        <node concept="ZOwrm" id="1D8fLg5Eybv" role="2JZWw_" />
-        <node concept="1g3uKF" id="1D8fLg5CDr9" role="2HUN8N" />
       </node>
     </node>
   </node>

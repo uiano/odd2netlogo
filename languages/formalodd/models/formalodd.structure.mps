@@ -1416,6 +1416,7 @@
     <property role="EcuMT" value="7308686357753326566" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="CompoundAction" />
+    <property role="R4oN_" value="multiple actions" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5EtG2rQW0us" role="1TKVEi">
       <property role="IQ2ns" value="6529568716155258780" />
@@ -1641,6 +1642,7 @@
     <property role="EcuMT" value="7308686357753541364" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="Move" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="PrWs8" id="6lHESjKDbbP" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -1713,6 +1715,7 @@
     <property role="EcuMT" value="6400669868562211259" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="UpdateValue" />
+    <property role="R4oN_" value="updates values" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgHXml" role="1TKVEi">
       <property role="IQ2ns" value="6400669868570957205" />
@@ -1759,6 +1762,7 @@
     <property role="EcuMT" value="6400669868562211853" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ChangeEnvironment" />
+    <property role="R4oN_" value="Changes the enviroment" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5EtG2rPkcWJ" role="1TKVEi">
       <property role="IQ2ns" value="6529568716128046895" />
@@ -1808,7 +1812,7 @@
     <property role="EcuMT" value="6400669868562212808" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ChangeEnvironmentOption" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5zjJPlgcAv9" role="1TKVEl">
       <property role="IQ2nx" value="6400669868562212809" />
       <property role="TrG5h" value="option" />
@@ -1830,6 +1834,7 @@
     <property role="EcuMT" value="6400669868569567452" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="CreateNewEntity" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgCE3t" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569567453" />
@@ -1861,6 +1866,7 @@
     <property role="EcuMT" value="6400669868569568188" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="Conflict" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgD2nl" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569667029" />
@@ -1879,6 +1885,7 @@
     <property role="EcuMT" value="6400669868569568225" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="KillEntity" />
+    <property role="R4oN_" value="despawns an entity" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgCEwS" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569569336" />
@@ -1897,7 +1904,7 @@
     <property role="EcuMT" value="6400669868569686218" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ConflictOption" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5zjJPlgD73A" role="1TKVEl">
       <property role="IQ2nx" value="6400669868569686246" />
       <property role="TrG5h" value="option" />
@@ -1908,6 +1915,7 @@
     <property role="EcuMT" value="6400669868570957274" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="ChangeAttribute" />
+    <property role="R4oN_" value="not implented yet" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="5zjJPlgHXnr" role="1TKVEl">
       <property role="IQ2nx" value="6400669868570957275" />
@@ -1946,6 +1954,7 @@
     <property role="EcuMT" value="6529568716150347404" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="TurnRight" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="Move" />
     <node concept="1TJgyi" id="5EtG2rQFMz8" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007432" />
@@ -1957,6 +1966,7 @@
     <property role="EcuMT" value="6529568716150347405" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="TurnLeft" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="Move" />
     <node concept="1TJgyi" id="5EtG2rQFMza" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007434" />
@@ -1968,6 +1978,7 @@
     <property role="EcuMT" value="6529568716150347406" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="TurnRandom" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="Move" />
     <node concept="1TJgyi" id="5EtG2rQFMz3" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007427" />
@@ -1984,6 +1995,7 @@
     <property role="EcuMT" value="6529568716150347407" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="MoveForward" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="Move" />
     <node concept="1TJgyi" id="5EtG2rQFMz1" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007425" />
@@ -1995,6 +2007,7 @@
     <property role="EcuMT" value="6529568716150347408" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="MoveBack" />
+    <property role="R4oN_" value="not implemented" />
     <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="Move" />
     <node concept="1TJgyi" id="5EtG2rQFMyZ" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007423" />
@@ -2080,6 +2093,7 @@
     <property role="EcuMT" value="3074816355373999451" />
     <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="MoveRandom" />
+    <property role="R4oN_" value="moves a entity randomly" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="2EFWiWzCels" role="1TKVEl">
       <property role="IQ2nx" value="3074816355373999452" />
@@ -2186,6 +2200,7 @@
     <property role="EcuMT" value="1786286396182848608" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="noAction" />
+    <property role="R4oN_" value="no action depricated" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
   </node>
   <node concept="1TIwiD" id="1zaawdw2ixu">
@@ -2216,6 +2231,7 @@
     <property role="EcuMT" value="1786286396191059675" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="Sprout" />
+    <property role="R4oN_" value="spawn new entity at patch" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="1zaawdw5bqj" role="1TKVEi">
       <property role="IQ2ns" value="1786286396191061651" />
@@ -2234,6 +2250,7 @@
     <property role="EcuMT" value="1786286396201728936" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="LinkAction" />
+    <property role="R4oN_" value="links to a procedure" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="1zaawdwHRIF" role="1TKVEi">
       <property role="IQ2ns" value="1786286396201728939" />
@@ -2246,6 +2263,7 @@
     <property role="EcuMT" value="5530122485653569685" />
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <property role="TrG5h" value="CenterOnPatch" />
+    <property role="R4oN_" value="places the entity center on current patch" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
   </node>
   <node concept="1TIwiD" id="4diQXU$E52Z">

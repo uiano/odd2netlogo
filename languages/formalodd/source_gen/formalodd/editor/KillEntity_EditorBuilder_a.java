@@ -104,7 +104,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
       }
     }
     protected String getNoTargetText() {
-      return "<no condition>";
+      return "press enter to create a condition";
     }
   }
   private EditorCell createCollection_1() {
@@ -175,7 +175,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
       }
     }
     protected String getNoTargetText() {
-      return "<no who>";
+      return "press enter";
     }
   }
 }
