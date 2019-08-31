@@ -142,7 +142,6 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
     }
     editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createProperty_2());
-    editorCell.addEditorCell(createConstant_2());
     editorCell.addEditorCell(createProperty_3());
     return editorCell;
   }
@@ -164,7 +163,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
       final SProperty property = MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf55503261bbL, 0x2aabf12f250cb6d1L, "option");
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no option>");
+      editorCell.setDefaultText("press alt enter for type");
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
       editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_option");
@@ -201,7 +200,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
       }
     };
 
-    provider.setNoTargetText("<no attribute>");
+    provider.setNoTargetText("press control space to select attribute");
     EditorCell editorCell = provider.createCell();
 
     if (editorCell.getSRole() == null) {
@@ -285,7 +284,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
       final SProperty property = MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf55503261bbL, 0x7275fa8ddb4bfc36L, "editorText");
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no editorText>");
+      editorCell.setDefaultText("press alt enter for operator");
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
       editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_editorText");
@@ -306,22 +305,13 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
       getCellFactory().popCellContext();
     }
   }
-  private EditorCell createConstant_2() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "to");
-    editorCell.setCellId("Constant_2yquaa_f1a");
-    Style style = new StyleImpl();
-    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    editorCell.getStyle().putAll(style);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
   private EditorCell createProperty_3() {
     getCellFactory().pushCellContext();
     try {
       final SProperty property = MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf55503261bbL, 0x2aabf12f250f017dL, "UpdatedValue");
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
-      editorCell.setDefaultText("<no UpdatedValue>");
+      editorCell.setDefaultText("enter value");
       editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
       editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_UpdatedValue");

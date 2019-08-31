@@ -1367,7 +1367,7 @@
         <property role="3F0ifm" value="entity" />
       </node>
       <node concept="1iCGBv" id="6JKNFtZO$lj" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:215d$P5xpm4" resolve="entity" />
+        <ref role="1NtTu8" to="86kt:2gGtP_Va5Ra" resolve="entity" />
         <node concept="1sVBvm" id="6JKNFtZO$ll" role="1sWHZn">
           <node concept="3F0A7n" id="6JKNFtZO$ls" role="2wV5jI">
             <property role="1Intyy" value="true" />
@@ -3110,6 +3110,7 @@
     <property role="3GE5qa" value="Scheduling.actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcAv8" resolve="ChangeEnvironmentOption" />
     <node concept="3F0A7n" id="5zjJPlgcAvB" role="2wV5jI">
+      <property role="1$x2rV" value="press alt enter" />
       <ref role="1NtTu8" to="86kt:5zjJPlgcAv9" resolve="option" />
     </node>
   </node>
@@ -3411,9 +3412,11 @@
           <node concept="Vb9p2" id="2EFWiW_3nM4" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="2EFWiW_3kyY" role="3EZMnx">
+          <property role="1$x2rV" value="press alt enter for type" />
           <ref role="1NtTu8" to="86kt:2EFWiW_3brh" resolve="option" />
         </node>
         <node concept="1iCGBv" id="2EFWiW_3kZO" role="3EZMnx">
+          <property role="1$x2rV" value="press control space to select attribute" />
           <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
           <node concept="1sVBvm" id="2EFWiW_3kZQ" role="1sWHZn">
             <node concept="3F0A7n" id="2EFWiW_3l08" role="2wV5jI">
@@ -3446,13 +3449,11 @@
           <node concept="Vb9p2" id="2EFWiW_3nM7" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="79PYCRrh2W2" role="3EZMnx">
+          <property role="1$x2rV" value="press alt enter for operator" />
           <ref role="1NtTu8" to="86kt:79PYCRriZKQ" resolve="editorText" />
         </node>
-        <node concept="3F0ifn" id="79PYCRrh3p6" role="3EZMnx">
-          <property role="3F0ifm" value="to" />
-          <node concept="Vb9p2" id="79PYCRrh3yW" role="3F10Kt" />
-        </node>
         <node concept="3F0A7n" id="79PYCRrwyLl" role="3EZMnx">
+          <property role="1$x2rV" value="enter value" />
           <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
         </node>
         <node concept="2iRfu4" id="2EFWiW_3kyA" role="2iSdaV" />
