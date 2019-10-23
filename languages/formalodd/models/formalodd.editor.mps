@@ -2,7 +2,7 @@
 <model ref="r:04200ea6-282d-423c-94d7-fd200427451b(formalodd.editor)">
   <persistence version="9" />
   <languages>
-    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="12" />
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="13" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -199,7 +199,7 @@
           <node concept="3F0ifn" id="5JxfqxAup2L" role="2czzBI">
             <property role="3F0ifm" value="&lt;press enter and write what the purpose model is. press enter to get new line&gt;" />
             <node concept="VechU" id="5JxfqxAupi4" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
           <node concept="VPXOz" id="3OPyh9I1GFl" role="3F10Kt">
@@ -252,7 +252,7 @@
             <property role="3F0ifm" value="press enter to create entity" />
             <node concept="Vb9p2" id="2gGtP_USUfE" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_USUfJ" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -264,7 +264,7 @@
           <property role="3F0ifm" value="press enter to create entity" />
           <node concept="Vb9p2" id="2gGtP_USUfN" role="3F10Kt" />
           <node concept="VechU" id="2gGtP_USUfO" role="3F10Kt">
-            <property role="Vb096" value="gray" />
+            <property role="Vb096" value="fLJRk5_/gray" />
           </node>
         </node>
       </node>
@@ -290,7 +290,7 @@
           <node concept="3F0ifn" id="3mweh__ueMN" role="3EZMnx">
             <property role="3F0ifm" value="This is entety" />
             <node concept="VechU" id="3mweh__ueNi" role="3F10Kt">
-              <property role="Vb096" value="blue" />
+              <property role="Vb096" value="fLwANPu/blue" />
             </node>
             <node concept="ljvvj" id="3mweh__urj1" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -347,7 +347,7 @@
       </node>
       <node concept="3F0A7n" id="3mweh__AVlC" role="3EZMnx">
         <property role="1$x2rV" value="press control space to select color" />
-        <ref role="1NtTu8" to="86kt:aIqcXnN$I4" resolve="color" />
+        <ref role="1NtTu8" to="86kt:5vgYlnqdd$T" resolve="color" />
       </node>
     </node>
   </node>
@@ -369,7 +369,7 @@
             <property role="3F0ifm" value="press enter to create enviroment entity" />
             <node concept="Vb9p2" id="1D8fLg5CDqU" role="3F10Kt" />
             <node concept="VechU" id="1D8fLg5CDqZ" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -464,7 +464,7 @@
         <property role="3F0ifm" value="Select Locations" />
       </node>
       <node concept="3F0A7n" id="5oUGABTKQ1z" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3lcKR8aBGn9" resolve="selectlocations" />
+        <ref role="1NtTu8" to="86kt:5vgYlnqdd_5" resolve="selectlocations" />
       </node>
       <node concept="l2Vlx" id="5oUGABTKQ1c" role="2iSdaV" />
     </node>
@@ -532,11 +532,11 @@
             <node concept="Vb9p2" id="3mweh__$L87" role="3F10Kt" />
           </node>
           <node concept="3F0A7n" id="6UrRj0hUq2l" role="3EZMnx">
-            <property role="1cu_pB" value="1" />
+            <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
             <property role="1$x2rV" value="&lt;Press alt enter to chose to include or not include color&gt;" />
             <ref role="1NtTu8" to="86kt:3mweh__t$yh" resolve="showColors" />
             <node concept="Vb9p2" id="3mweh___0Ce" role="3F10Kt">
-              <property role="Vbekb" value="BOLD" />
+              <property role="Vbekb" value="g1_k_vY/BOLD" />
             </node>
           </node>
           <node concept="3F0ifn" id="6UrRj0hUq2d" role="3EZMnx">
@@ -557,9 +557,7 @@
           <node concept="VPM3Z" id="3mweh__uP75" role="3F10Kt" />
           <node concept="3F0ifn" id="6UrRj0hUF5$" role="3EZMnx">
             <property role="3F0ifm" value="Throughout the simulation, the " />
-            <node concept="Vb9p2" id="3mweh__$KWs" role="3F10Kt">
-              <property role="Vbekb" value="PLAIN" />
-            </node>
+            <node concept="Vb9p2" id="3mweh__$KWs" role="3F10Kt" />
           </node>
           <node concept="3F0A7n" id="3mweh__uPML" role="3EZMnx">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -608,7 +606,7 @@
             <property role="1$x2rV" value="press enter to chose default color" />
             <ref role="1NtTu8" to="86kt:6AuNKydZ5Jb" resolve="DefaultColor" />
             <node concept="Vb9p2" id="3OPyh9I2ZgN" role="3F10Kt">
-              <property role="Vbekb" value="BOLD" />
+              <property role="Vbekb" value="g1_k_vY/BOLD" />
             </node>
           </node>
           <node concept="2iRfu4" id="3OPyh9I2ZgO" role="2iSdaV" />
@@ -941,11 +939,11 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0A7n" id="6UrRj0hQFgg" role="3EZMnx">
-          <property role="1cu_pB" value="1" />
+          <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
           <property role="1$x2rV" value="&lt;press alt enter to show attributes&gt;" />
           <ref role="1NtTu8" to="86kt:3mweh__t$yj" resolve="showAttributes" />
           <node concept="Vb9p2" id="3mweh___1Tj" role="3F10Kt">
-            <property role="Vbekb" value="BOLD" />
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
           <node concept="pkWqt" id="1D8fLg5t5GI" role="pqm2j">
             <node concept="3clFbS" id="1D8fLg5t5GJ" role="2VODD2">
@@ -1077,7 +1075,7 @@
         <node concept="3F0ifn" id="1D8fLg5t7V8" role="2czzBI">
           <property role="3F0ifm" value="&lt; press enter to add a atribute &gt;" />
           <node concept="VechU" id="1D8fLg5t82M" role="3F10Kt">
-            <property role="Vb096" value="gray" />
+            <property role="Vb096" value="fLJRk5_/gray" />
           </node>
           <node concept="Vb9p2" id="1D8fLg5t82I" role="3F10Kt" />
         </node>
@@ -1117,7 +1115,7 @@
     <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="ConditionalColor" />
     <node concept="3F0A7n" id="3mweh_A8IDc" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:3lcKR8aBGme" resolve="Color" />
+      <ref role="1NtTu8" to="86kt:5vgYlnqdd_1" resolve="Color" />
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_AdFTu">
@@ -1187,7 +1185,7 @@
           <property role="3F0ifm" value="press enter to create a global variabel" />
           <node concept="Vb9p2" id="2gGtP_TuKSD" role="3F10Kt" />
           <node concept="VechU" id="2gGtP_TuKSI" role="3F10Kt">
-            <property role="Vb096" value="gray" />
+            <property role="Vb096" value="fLJRk5_/gray" />
           </node>
         </node>
       </node>
@@ -1438,7 +1436,7 @@
           <property role="1$x2rV" value="press enter to create value option" />
           <ref role="1NtTu8" to="86kt:aIqcXnEmSY" resolve="ValueOption" />
           <node concept="Vb9p2" id="aIqcXnGFZX" role="3F10Kt">
-            <property role="Vbekb" value="BOLD" />
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
         </node>
         <node concept="3F0ifn" id="aIqcXnEcvi" role="3EZMnx">
@@ -1577,7 +1575,7 @@
           <property role="3F0ifm" value="press enter to create atribute" />
           <node concept="Vb9p2" id="2gGtP_V4P3E" role="3F10Kt" />
           <node concept="VechU" id="2gGtP_V4P3J" role="3F10Kt">
-            <property role="Vb096" value="gray" />
+            <property role="Vb096" value="fLJRk5_/gray" />
           </node>
         </node>
       </node>
@@ -1877,7 +1875,7 @@
       </node>
       <node concept="3F0A7n" id="aIqcXnOmbK" role="3EZMnx">
         <property role="1$x2rV" value="&lt;Press conrol space to select color&gt;" />
-        <ref role="1NtTu8" to="86kt:aIqcXnN$I4" resolve="color" />
+        <ref role="1NtTu8" to="86kt:5vgYlnqdd$T" resolve="color" />
       </node>
     </node>
   </node>
@@ -1901,7 +1899,7 @@
             <property role="3F0ifm" value="press enter to initialze a object" />
             <node concept="Vb9p2" id="2gGtP_TCrLK" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_TCrLP" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -1922,11 +1920,11 @@
           <node concept="Vb9p2" id="3rTwIuRB$j3" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="3rTwIuRB$j4" role="3EZMnx">
-          <property role="1cu_pB" value="1" />
+          <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
           <property role="1$x2rV" value="&lt;Press alt enter to chose to include or not include color&gt;" />
           <ref role="1NtTu8" to="86kt:626ZVnusr$O" resolve="showColor" />
           <node concept="Vb9p2" id="3rTwIuRB$j5" role="3F10Kt">
-            <property role="Vbekb" value="BOLD" />
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
         </node>
         <node concept="3F0ifn" id="3rTwIuRB$j6" role="3EZMnx">
@@ -1940,9 +1938,7 @@
         <node concept="VPM3Z" id="3rTwIuRB$jb" role="3F10Kt" />
         <node concept="3F0ifn" id="3rTwIuRB$jc" role="3EZMnx">
           <property role="3F0ifm" value="Throughout the simulation, the " />
-          <node concept="Vb9p2" id="3rTwIuRB$jd" role="3F10Kt">
-            <property role="Vbekb" value="PLAIN" />
-          </node>
+          <node concept="Vb9p2" id="3rTwIuRB$jd" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="3rTwIuRB$je" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -2243,7 +2239,7 @@
           <property role="3F0ifm" value="press enter for new attribute and alt enter for options" />
           <node concept="Vb9p2" id="2gGtP_TLICX" role="3F10Kt" />
           <node concept="VechU" id="2gGtP_TLID2" role="3F10Kt">
-            <property role="Vb096" value="gray" />
+            <property role="Vb096" value="fLJRk5_/gray" />
           </node>
         </node>
       </node>
@@ -2372,7 +2368,7 @@
         </node>
         <node concept="Vb9p2" id="2gGtP_ULT7J" role="3F10Kt" />
         <node concept="VechU" id="2gGtP_ULTqw" role="3F10Kt">
-          <property role="Vb096" value="gray" />
+          <property role="Vb096" value="fLJRk5_/gray" />
         </node>
       </node>
       <node concept="PMmxH" id="aIqcXooeGn" role="3EZMnx">
@@ -2936,7 +2932,7 @@
             <property role="3F0ifm" value="Add new action press enter the control space to select type" />
             <node concept="Vb9p2" id="2gGtP_UAem7" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_UAemc" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -2972,7 +2968,7 @@
             <property role="3F0ifm" value="press enter to add a new object" />
             <node concept="Vb9p2" id="2gGtP_U5B5t" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_U5B5y" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -3004,7 +3000,7 @@
           <node concept="3F0ifn" id="5EtG2rQU7Sh" role="3EZMnx">
             <property role="3F0ifm" value="Action" />
             <node concept="VechU" id="5EtG2rQU7Si" role="3F10Kt">
-              <property role="Vb096" value="blue" />
+              <property role="Vb096" value="fLwANPu/blue" />
             </node>
             <node concept="ljvvj" id="5EtG2rQU7Sj" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -3849,7 +3845,7 @@
             <property role="3F0ifm" value="press enter to create a procedure" />
             <node concept="Vb9p2" id="2gGtP_TSOKP" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_TSOKU" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -3872,7 +3868,7 @@
             <property role="ilYzB" value="press control space to select the type of end conditon" />
             <node concept="Vb9p2" id="2gGtP_UOfgb" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_UOfgg" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -4308,7 +4304,7 @@
             <property role="3F0ifm" value="press enter to add a new update value to hatchling" />
             <node concept="Vb9p2" id="2gGtP_UJ$a$" role="3F10Kt" />
             <node concept="VechU" id="2gGtP_UJ$aD" role="3F10Kt">
-              <property role="Vb096" value="gray" />
+              <property role="Vb096" value="fLJRk5_/gray" />
             </node>
           </node>
         </node>
@@ -4330,7 +4326,7 @@
           <node concept="Vb9p2" id="1zaawdw2iwm" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="1zaawdw2iwn" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:2j8p7S3xVb_" resolve="color" />
+          <ref role="1NtTu8" to="86kt:5vgYlnqdd_7" resolve="color" />
         </node>
       </node>
       <node concept="3F1sOY" id="1zaawdw2iw$" role="3EZMnx">
@@ -4405,7 +4401,7 @@
           <node concept="Vb9p2" id="2j8p7S3LOa_" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="2j8p7S3LOaA" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:1zaawdw2iya" resolve="color" />
+          <ref role="1NtTu8" to="86kt:5vgYlnqdd_9" resolve="color" />
         </node>
       </node>
       <node concept="3F1sOY" id="1zaawdw2iyQ" role="3EZMnx">
@@ -4572,7 +4568,7 @@
         <node concept="3F0ifn" id="qdXC$xsGIx" role="3EZMnx">
           <property role="3F0ifm" value="Ineraction name " />
           <node concept="Vb9p2" id="qdXC$xsGI$" role="3F10Kt">
-            <property role="Vbekb" value="BOLD" />
+            <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
         </node>
         <node concept="3F0A7n" id="qdXC$xsGJK" role="3EZMnx">

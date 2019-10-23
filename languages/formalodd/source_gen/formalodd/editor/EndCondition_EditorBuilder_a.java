@@ -15,7 +15,6 @@ import jetbrains.mps.editor.runtime.style.StyleImpl;
 import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import jetbrains.mps.lang.editor.cellProviders.SingleRoleCellProvider;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -42,11 +41,10 @@ import org.jetbrains.mps.openapi.language.SProperty;
 import jetbrains.mps.openapi.editor.menus.transformation.SPropertyInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.cells.SPropertyAccessor;
-import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteEasily;
-import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.SPropertySubstituteInfo;
 import jetbrains.mps.lang.core.behavior.PropertyAttribute__BehaviorDescriptor;
-import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyOrNode;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class EndCondition_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -97,20 +95,20 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     return editorCell;
   }
   private boolean nodeCondition_h0ow06_a1a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "All Environment is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Environment is");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "All Environment is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Environment is");
 
   }
   private boolean nodeCondition_h0ow06_a2a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "All Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "All Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Entity is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Entity Attribute is");
   }
   private boolean nodeCondition_h0ow06_a3a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Entity Attribute is");
   }
   private boolean nodeCondition_h0ow06_a4a0() {
-    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")), MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option"), "No Entity Attribute is");
+    return SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Environment Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "Entity Attribute is") || SPropertyOperations.hasValue(SLinkOperations.getTarget(myNode, LINKS.endConditionOption$SvGz), PROPS.option$AdMa, "No Entity Attribute is");
   }
   private EditorCell createRefNode_0() {
-    SingleRoleCellProvider provider = new EndCondition_EditorBuilder_a.endConditionOptionSingleRoleHandler_h0ow06_a0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption"), getEditorContext());
+    SingleRoleCellProvider provider = new endConditionOptionSingleRoleHandler_h0ow06_a0a(myNode, LINKS.endConditionOption$SvGz, getEditorContext());
     return provider.createCell();
   }
   private static class endConditionOptionSingleRoleHandler_h0ow06_a0a extends SingleRoleCellProvider {
@@ -130,8 +128,8 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
 
     protected EditorCell createChildCell(SNode child) {
       EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption"), child));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption"), child));
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), LINKS.endConditionOption$SvGz, child));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), LINKS.endConditionOption$SvGz, child));
       installCellInfo(child, editorCell, false);
       return editorCell;
     }
@@ -143,13 +141,13 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
         editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
       }
       if (editorCell.getSRole() == null) {
-        editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption"));
+        editorCell.setSRole(LINKS.endConditionOption$SvGz);
       }
     }
     @Override
     protected EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), LINKS.endConditionOption$SvGz));
       try {
         EditorCell editorCell = super.createEmptyCell();
         editorCell.setCellId("empty_endConditionOption");
@@ -165,7 +163,7 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     }
   }
   private EditorCell createRefNode_1() {
-    SingleRoleCellProvider provider = new EndCondition_EditorBuilder_a.colorSingleRoleHandler_h0ow06_b0a(myNode, MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33c58L, "color"), getEditorContext());
+    SingleRoleCellProvider provider = new colorSingleRoleHandler_h0ow06_b0a(myNode, LINKS.color$PYLA, getEditorContext());
     return provider.createCell();
   }
   private static class colorSingleRoleHandler_h0ow06_b0a extends SingleRoleCellProvider {
@@ -185,8 +183,8 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
 
     protected EditorCell createChildCell(SNode child) {
       EditorCell editorCell = getUpdateSession().updateChildNodeCell(child);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33c58L, "color"), child));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33c58L, "color"), child));
+      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSmart(getNode(), LINKS.color$PYLA, child));
+      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSmart(getNode(), LINKS.color$PYLA, child));
       installCellInfo(child, editorCell, false);
       return editorCell;
     }
@@ -198,13 +196,13 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
         editorCell.setSubstituteInfo((isEmpty ? new SEmptyContainmentSubstituteInfo(editorCell) : new SChildSubstituteInfo(editorCell)));
       }
       if (editorCell.getSRole() == null) {
-        editorCell.setSRole(MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33c58L, "color"));
+        editorCell.setSRole(LINKS.color$PYLA);
       }
     }
     @Override
     protected EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33c58L, "color")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(getNode(), LINKS.color$PYLA));
       try {
         EditorCell editorCell = super.createEmptyCell();
         editorCell.setCellId("empty_color");
@@ -220,14 +218,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     }
   }
   private EditorCell createRefCell_0() {
-    final SReferenceLink referenceLink = MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity");
+    final SReferenceLink referenceLink = LINKS.entity$ZIkL;
     SReferenceCellProvider provider = new SReferenceCellProvider(getNode(), referenceLink, getEditorContext()) {
       protected EditorCell createReferenceCell(final SNode targetNode) {
         EditorCell cell = getUpdateSession().updateReferencedNodeCell(new Computable<EditorCell>() {
           public EditorCell compute() {
-            return new EndCondition_EditorBuilder_a.Inline_Builder0(getEditorContext(), getNode(), targetNode).createCell();
+            return new Inline_Builder0(getEditorContext(), getNode(), targetNode).createCell();
           }
-        }, targetNode, MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity"));
+        }, targetNode, LINKS.entity$ZIkL);
         CellUtil.setupIDeprecatableStyles(targetNode, cell);
         setSemanticNodeToCells(cell, getNode());
         installDeleteActions_nullable_reference(cell);
@@ -240,10 +238,10 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
 
     if (editorCell.getSRole() == null) {
       editorCell.setReferenceCell(true);
-      editorCell.setSRole(MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity"));
+      editorCell.setSRole(LINKS.entity$ZIkL);
     }
     editorCell.setSubstituteInfo(new SReferenceSubstituteInfo(editorCell, referenceLink));
-    Iterable<SNode> referenceAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute"));
+    Iterable<SNode> referenceAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.LinkAttribute$7j);
     Iterable<SNode> currentReferenceAttributes = Sequence.fromIterable(referenceAttributes).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return Objects.equals(LinkAttribute__BehaviorDescriptor.getLink_id1avfQ4BEFo6.invoke(it), referenceLink);
@@ -279,16 +277,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     private EditorCell createProperty_0() {
       getCellFactory().pushCellContext();
       try {
-        final SProperty property = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+        final SProperty property = PROPS.name$tAp1;
         getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
         EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, true, false), myNode);
         editorCell.setDefaultText("<no name>");
-        editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteEasily(myNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
-        editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteEasily(myNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
         editorCell.setCellId("property_name");
         editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
         setCellContext(editorCell);
-        Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+        Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
         Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
             return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -305,14 +301,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     }
   }
   private EditorCell createRefCell_1() {
-    final SReferenceLink referenceLink = MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x18ca2a0360e8148cL, "attribute");
+    final SReferenceLink referenceLink = LINKS.attribute$9Wf$;
     SReferenceCellProvider provider = new SReferenceCellProvider(getNode(), referenceLink, getEditorContext()) {
       protected EditorCell createReferenceCell(final SNode targetNode) {
         EditorCell cell = getUpdateSession().updateReferencedNodeCell(new Computable<EditorCell>() {
           public EditorCell compute() {
-            return new EndCondition_EditorBuilder_a.Inline_Builder1(getEditorContext(), getNode(), targetNode).createCell();
+            return new Inline_Builder1(getEditorContext(), getNode(), targetNode).createCell();
           }
-        }, targetNode, MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x18ca2a0360e8148cL, "attribute"));
+        }, targetNode, LINKS.attribute$9Wf$);
         CellUtil.setupIDeprecatableStyles(targetNode, cell);
         setSemanticNodeToCells(cell, getNode());
         installDeleteActions_nullable_reference(cell);
@@ -325,10 +321,10 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
 
     if (editorCell.getSRole() == null) {
       editorCell.setReferenceCell(true);
-      editorCell.setSRole(MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x18ca2a0360e8148cL, "attribute"));
+      editorCell.setSRole(LINKS.attribute$9Wf$);
     }
     editorCell.setSubstituteInfo(new SReferenceSubstituteInfo(editorCell, referenceLink));
-    Iterable<SNode> referenceAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute"));
+    Iterable<SNode> referenceAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.LinkAttribute$7j);
     Iterable<SNode> currentReferenceAttributes = Sequence.fromIterable(referenceAttributes).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return Objects.equals(LinkAttribute__BehaviorDescriptor.getLink_id1avfQ4BEFo6.invoke(it), referenceLink);
@@ -364,16 +360,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     private EditorCell createProperty_1() {
       getCellFactory().pushCellContext();
       try {
-        final SProperty property = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+        final SProperty property = PROPS.name$tAp1;
         getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
         EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, true, false), myNode);
         editorCell.setDefaultText("<no name>");
-        editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteEasily(myNode, CellAction_DeleteNode.DeleteDirection.FORWARD));
-        editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteEasily(myNode, CellAction_DeleteNode.DeleteDirection.BACKWARD));
         editorCell.setCellId("property_name1");
         editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
         setCellContext(editorCell);
-        Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+        Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
         Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
           public boolean accept(SNode it) {
             return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -392,16 +386,14 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
   private EditorCell createProperty_2() {
     getCellFactory().pushCellContext();
     try {
-      final SProperty property = MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c3d212L, "attributeValue");
+      final SProperty property = PROPS.attributeValue$$8x0;
       getCellFactory().setPropertyInfo(new SPropertyInfo(myNode, property));
       EditorCell_Property editorCell = EditorCell_Property.create(getEditorContext(), new SPropertyAccessor(myNode, property, false, false), myNode);
       editorCell.setDefaultText("<no attributeValue>");
-      editorCell.setAction(CellActionType.DELETE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.FORWARD));
-      editorCell.setAction(CellActionType.BACKSPACE, new CellAction_DeleteSPropertyOrNode(myNode, property, CellAction_DeleteNode.DeleteDirection.BACKWARD));
       editorCell.setCellId("property_attributeValue");
       editorCell.setSubstituteInfo(new SPropertySubstituteInfo(editorCell, property));
       setCellContext(editorCell);
-      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute"));
+      Iterable<SNode> propertyAttributes = SNodeOperations.ofConcept(AttributeOperations.getAttributeList(myNode, new IAttributeDescriptor.AllAttributes()), CONCEPTS.PropertyAttribute$jT);
       Iterable<SNode> currentPropertyAttributes = Sequence.fromIterable(propertyAttributes).where(new IWhereFilter<SNode>() {
         public boolean accept(SNode it) {
           return Objects.equals(PropertyAttribute__BehaviorDescriptor.getProperty_id1avfQ4BBzOo.invoke(it), property);
@@ -415,5 +407,23 @@ import jetbrains.mps.editor.runtime.impl.cellActions.CellAction_DeleteSPropertyO
     } finally {
       getCellFactory().popCellContext();
     }
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink endConditionOption$SvGz = MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550bd806aL, "endConditionOption");
+    /*package*/ static final SContainmentLink color$PYLA = MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c33c58L, "color");
+    /*package*/ static final SReferenceLink entity$ZIkL = MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x5a9db026f484e51bL, "entity");
+    /*package*/ static final SReferenceLink attribute$9Wf$ = MetaAdapterFactory.getReferenceLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x18ca2a0360e8148cL, "attribute");
+  }
+
+  private static final class PROPS {
+    /*package*/ static final SProperty option$AdMa = MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x58d3bf5550bd8069L, 0x58d3bf5550bd808cL, "option");
+    /*package*/ static final SProperty name$tAp1 = MetaAdapterFactory.getProperty(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x110396eaaa4L, 0x110396ec041L, "name");
+    /*package*/ static final SProperty attributeValue$$8x0 = MetaAdapterFactory.getProperty(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, 0x58d3bf5550c3d212L, "attributeValue");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept LinkAttribute$7j = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da51L, "jetbrains.mps.lang.core.structure.LinkAttribute");
+    /*package*/ static final SConcept PropertyAttribute$jT = MetaAdapterFactory.getConcept(0xceab519525ea4f22L, 0x9b92103b95ca8c0cL, 0x2eb1ad060897da56L, "jetbrains.mps.lang.core.structure.PropertyAttribute");
   }
 }

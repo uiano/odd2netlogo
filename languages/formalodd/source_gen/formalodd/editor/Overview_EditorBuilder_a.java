@@ -16,7 +16,6 @@ import jetbrains.mps.editor.runtime.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import org.jetbrains.mps.openapi.language.SContainmentLink;
-import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
 import org.jetbrains.mps.openapi.language.SAbstractConcept;
 import jetbrains.mps.openapi.editor.menus.transformation.SNodeLocation;
 import jetbrains.mps.openapi.editor.cells.CellActionType;
@@ -28,6 +27,8 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.openapi.editor.style.StyleRegistry;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
+import jetbrains.mps.smodel.adapter.structure.MetaAdapterFactory;
+import org.jetbrains.mps.openapi.language.SConcept;
 
 /*package*/ class Overview_EditorBuilder_a extends AbstractEditorBuilder {
   @NotNull
@@ -95,7 +96,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new Overview_EditorBuilder_a.procedureListHandler_360pyx_b2a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new procedureListHandler_360pyx_b2a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_procedure");
     editorCell.setSRole(handler.getElementSRole());
@@ -115,10 +116,10 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x5a9db026f61717a4L, "procedure");
+      return LINKS.procedure$PoIF;
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, "formalodd.structure.AbstractProcedure");
+      return CONCEPTS.AbstractProcedure$Hl;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -128,7 +129,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(procedureListHandler_360pyx_b2a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x5a9db026f61717a4L, "procedure")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(procedureListHandler_360pyx_b2a.this.getNode(), LINKS.procedure$PoIF));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_3();
@@ -184,7 +185,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
     return editorCell;
   }
   private EditorCell createRefNodeList_1() {
-    AbstractCellListHandler handler = new Overview_EditorBuilder_a.endConditionListHandler_360pyx_e2a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new endConditionListHandler_360pyx_e2a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_endCondition");
     editorCell.setSRole(handler.getElementSRole());
@@ -204,10 +205,10 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
       return myNode;
     }
     public SContainmentLink getSLink() {
-      return MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x656dab84f0a4b259L, "endCondition");
+      return LINKS.endCondition$JAFo;
     }
     public SAbstractConcept getChildSConcept() {
-      return MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, "formalodd.structure.EndCondition");
+      return CONCEPTS.EndCondition$tb;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -217,7 +218,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_e2a.this.getNode(), MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x656dab84f0a4b259L, "endCondition")));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_e2a.this.getNode(), LINKS.endCondition$JAFo));
       try {
         EditorCell emptyCell = null;
         emptyCell = createConstant_6();
@@ -250,5 +251,15 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
       editorCell.setDefaultText("press control space to select the type of end conditon");
       return editorCell;
     }
+  }
+
+  private static final class LINKS {
+    /*package*/ static final SContainmentLink procedure$PoIF = MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x5a9db026f61717a4L, "procedure");
+    /*package*/ static final SContainmentLink endCondition$JAFo = MetaAdapterFactory.getContainmentLink(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b250L, 0x656dab84f0a4b259L, "endCondition");
+  }
+
+  private static final class CONCEPTS {
+    /*package*/ static final SConcept AbstractProcedure$Hl = MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, "formalodd.structure.AbstractProcedure");
+    /*package*/ static final SConcept EndCondition$tb = MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, "formalodd.structure.EndCondition");
   }
 }
