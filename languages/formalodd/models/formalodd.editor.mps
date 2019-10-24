@@ -1082,13 +1082,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="3mweh__y_ni">
-    <property role="3GE5qa" value="UnwantedAndNotInUse" />
-    <ref role="1XX52x" to="86kt:3mweh__xv2X" resolve="ColorOptions" />
-    <node concept="3F0A7n" id="3mweh__y_nk" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:3mweh__xv2Y" resolve="Options" />
-    </node>
-  </node>
   <node concept="24kQdi" id="3mweh__ADZ$">
     <property role="3GE5qa" value="NotInUse" />
     <ref role="1XX52x" to="86kt:3mweh___xQS" resolve="ShapeOptions" />
