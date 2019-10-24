@@ -116,7 +116,7 @@
   </registry>
   <node concept="3dkpOd" id="aIqcXnF4ne">
     <property role="TrG5h" value="attributeValueOption" />
-    <property role="3GE5qa" value="Attribute" />
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="2ZfgGC" to="86kt:aIqcXnEcvF" resolve="AttributeValueOptions" />
     <node concept="2S6ZIM" id="aIqcXnF4nf" role="2ZfVej">
       <node concept="3clFbS" id="aIqcXnF4ng" role="2VODD2">
@@ -535,7 +535,7 @@
   </node>
   <node concept="3dkpOd" id="aIqcXn$cmO">
     <property role="TrG5h" value="AtrributeStabelOption" />
-    <property role="3GE5qa" value="Attribute" />
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="2ZfgGC" to="86kt:aIqcXn$cmK" resolve="AttributeStabelOption" />
     <node concept="2S6ZIM" id="aIqcXn$cmP" role="2ZfVej">
       <node concept="3clFbS" id="aIqcXn$cmQ" role="2VODD2">
@@ -703,7 +703,7 @@
             <node concept="2OqwBi" id="3mweh__vO9x" role="37vLTJ">
               <node concept="2Sf5sV" id="3mweh__vO2J" role="2Oq$k0" />
               <node concept="3TrcHB" id="3mweh__vPqt" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="showColors" />
+                <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="unwanted_showColors" />
               </node>
             </node>
           </node>
@@ -897,7 +897,7 @@
             <node concept="2OqwBi" id="3rTwIuRDiWC" role="37vLTJ">
               <node concept="2Sf5sV" id="3mweh__wpee" role="2Oq$k0" />
               <node concept="3TrcHB" id="3rTwIuRDj5B" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
+                <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="unwanted_showAttributes" />
               </node>
             </node>
           </node>
@@ -1351,7 +1351,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh__zCn_">
     <property role="TrG5h" value="ColorOptions" />
-    <property role="3GE5qa" value="NotInUse" />
+    <property role="3GE5qa" value="UnwantedAndNotInUse" />
     <ref role="2ZfgGC" to="86kt:3mweh__xv2X" resolve="ColorOptions" />
     <node concept="2S6ZIM" id="3mweh__zCnA" role="2ZfVej">
       <node concept="3clFbS" id="3mweh__zCnB" role="2VODD2">
@@ -1910,6 +1910,7 @@
   </node>
   <node concept="3dkpOd" id="aIqcXnwhJs">
     <property role="TrG5h" value="AgentOption" />
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="2ZfgGC" to="86kt:aIqcXnvDHm" resolve="AgentStatisticOptions" />
     <node concept="2S6ZIM" id="aIqcXnwhJt" role="2ZfVej">
       <node concept="3clFbS" id="aIqcXnwhJu" role="2VODD2">

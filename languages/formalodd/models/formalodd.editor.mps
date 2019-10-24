@@ -534,7 +534,7 @@
           <node concept="3F0A7n" id="6UrRj0hUq2l" role="3EZMnx">
             <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
             <property role="1$x2rV" value="&lt;Press alt enter to chose to include or not include color&gt;" />
-            <ref role="1NtTu8" to="86kt:3mweh__t$yh" resolve="showColors" />
+            <ref role="1NtTu8" to="86kt:3mweh__t$yh" resolve="unwanted_showColors" />
             <node concept="Vb9p2" id="3mweh___0Ce" role="3F10Kt">
               <property role="Vbekb" value="g1_k_vY/BOLD" />
             </node>
@@ -577,7 +577,7 @@
                     <node concept="2OqwBi" id="3mweh__uQCf" role="2Oq$k0">
                       <node concept="pncrf" id="3mweh__uQdZ" role="2Oq$k0" />
                       <node concept="3TrcHB" id="3mweh__uRiw" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="showColors" />
+                        <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="unwanted_showColors" />
                       </node>
                     </node>
                     <node concept="3y1jeu" id="3mweh__uToS" role="2OqNvi">
@@ -627,7 +627,7 @@
                     <node concept="2OqwBi" id="3mweh__$wu0" role="2Oq$k0">
                       <node concept="pncrf" id="3mweh__$wu1" role="2Oq$k0" />
                       <node concept="3TrcHB" id="3mweh__$wu2" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="showColors" />
+                        <ref role="3TsBF5" to="86kt:3mweh__t$yh" resolve="unwanted_showColors" />
                       </node>
                     </node>
                     <node concept="3y1jeu" id="3mweh__$wu3" role="2OqNvi">
@@ -754,7 +754,7 @@
         </node>
         <node concept="3F0A7n" id="79PYCRsHOCA" role="3EZMnx">
           <property role="1$x2rV" value="write a numer to chose the size of the shape" />
-          <ref role="1NtTu8" to="86kt:79PYCRsHNKO" resolve="size" />
+          <ref role="1NtTu8" to="86kt:79PYCRsHNKO" resolve="unwanted_size" />
           <node concept="pkWqt" id="79PYCRsHOP9" role="pqm2j">
             <node concept="3clFbS" id="79PYCRsHOPa" role="2VODD2">
               <node concept="3clFbF" id="79PYCRsHOWu" role="3cqZAp">
@@ -941,7 +941,7 @@
         <node concept="3F0A7n" id="6UrRj0hQFgg" role="3EZMnx">
           <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
           <property role="1$x2rV" value="&lt;press alt enter to show attributes&gt;" />
-          <ref role="1NtTu8" to="86kt:3mweh__t$yj" resolve="showAttributes" />
+          <ref role="1NtTu8" to="86kt:3mweh__t$yj" resolve="unwanted_showAttributes" />
           <node concept="Vb9p2" id="3mweh___1Tj" role="3F10Kt">
             <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
@@ -965,7 +965,7 @@
                     <node concept="2OqwBi" id="6UrRj0hUa3h" role="2Oq$k0">
                       <node concept="pncrf" id="6UrRj0hQFnV" role="2Oq$k0" />
                       <node concept="3TrcHB" id="3mweh__tA4D" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
+                        <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="unwanted_showAttributes" />
                       </node>
                     </node>
                     <node concept="3y1jeu" id="6UrRj0hUcni" role="2OqNvi">
@@ -1003,7 +1003,7 @@
                     <node concept="2OqwBi" id="6UrRj0hUdtF" role="2Oq$k0">
                       <node concept="pncrf" id="6UrRj0hUdtG" role="2Oq$k0" />
                       <node concept="3TrcHB" id="3mweh__tAD7" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
+                        <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="unwanted_showAttributes" />
                       </node>
                     </node>
                     <node concept="3y1jeu" id="6UrRj0hUdtI" role="2OqNvi">
@@ -1059,7 +1059,7 @@
                   <node concept="2OqwBi" id="aIqcXnDt0T" role="2Oq$k0">
                     <node concept="pncrf" id="aIqcXnDsNC" role="2Oq$k0" />
                     <node concept="3TrcHB" id="aIqcXnDtqj" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="showAttributes" />
+                      <ref role="3TsBF5" to="86kt:3mweh__t$yj" resolve="unwanted_showAttributes" />
                     </node>
                   </node>
                   <node concept="3y1jeu" id="aIqcXnDuKx" role="2OqNvi">
@@ -1083,7 +1083,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh__y_ni">
-    <property role="3GE5qa" value="NotInUse" />
+    <property role="3GE5qa" value="UnwantedAndNotInUse" />
     <ref role="1XX52x" to="86kt:3mweh__xv2X" resolve="ColorOptions" />
     <node concept="3F0A7n" id="3mweh__y_nk" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:3mweh__xv2Y" resolve="Options" />
@@ -1382,13 +1382,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnyTSF">
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="1XX52x" to="86kt:aIqcXnvDHm" resolve="AgentStatisticOptions" />
     <node concept="3F0A7n" id="aIqcXnyTSH" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXnvDHn" resolve="Option" />
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnAOkV">
-    <property role="3GE5qa" value="Attribute" />
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="1XX52x" to="86kt:aIqcXnA9xq" resolve="Attribute" />
     <node concept="3EZMnI" id="aIqcXnAOs8" role="2wV5jI">
       <node concept="3EZMnI" id="aIqcXnDv$d" role="3EZMnx">
@@ -1522,7 +1523,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXn_lWt">
-    <property role="3GE5qa" value="Initialisation" />
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="1XX52x" to="86kt:aIqcXn$cmK" resolve="AttributeStabelOption" />
     <node concept="3F0A7n" id="aIqcXn_lWv" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXn$cmL" resolve="option" />
@@ -1752,7 +1753,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnFUpZ">
-    <property role="3GE5qa" value="Initialisation" />
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="1XX52x" to="86kt:aIqcXnEcvF" resolve="AttributeValueOptions" />
     <node concept="3F0A7n" id="aIqcXnFUq1" role="2wV5jI">
       <property role="1$x2rV" value="press alt enter to get options for types" />
@@ -2211,7 +2212,7 @@
           <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
           <node concept="1sVBvm" id="4diQXU_2mlf" role="1sWHZn">
             <node concept="3F0A7n" id="4diQXU_2mlB" role="2wV5jI">
-              <ref role="1NtTu8" to="86kt:4diQXU_2lR0" resolve="StartingNumber" />
+              <ref role="1NtTu8" to="86kt:4diQXU_2lR0" resolve="unwanted_StartingNumber" />
             </node>
           </node>
         </node>
@@ -2227,7 +2228,7 @@
           <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
           <node concept="1sVBvm" id="4diQXU_2wK0" role="1sWHZn">
             <node concept="3F0A7n" id="4diQXU_2wKe" role="2wV5jI">
-              <ref role="1NtTu8" to="86kt:4diQXU_2lQZ" resolve="maximumNumberOfEntitys" />
+              <ref role="1NtTu8" to="86kt:4diQXU_2lQZ" resolve="unwanted_maximumNumberOfEntitys" />
             </node>
           </node>
         </node>
@@ -4528,6 +4529,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="4MYWhBi9wMg">
+    <property role="3GE5qa" value="Unwanted" />
     <ref role="1XX52x" to="86kt:4MYWhBi9wM7" resolve="GlobalVariabels" />
     <node concept="3EZMnI" id="4MYWhBi9wNA" role="2wV5jI">
       <node concept="2iRfu4" id="4MYWhBi9wNB" role="2iSdaV" />
