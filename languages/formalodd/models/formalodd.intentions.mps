@@ -432,7 +432,7 @@
     </node>
   </node>
   <node concept="3dkpOd" id="5zjJPlgD746">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
     <property role="TrG5h" value="ConflictOption" />
     <ref role="2ZfgGC" to="86kt:5zjJPlgD73a" resolve="ConflictOption" />
     <node concept="2S6ZIM" id="5zjJPlgD747" role="2ZfVej">
@@ -730,7 +730,7 @@
     </node>
   </node>
   <node concept="3dkpOd" id="5zjJPlgjDT_">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
     <property role="TrG5h" value="OptionYesNo" />
     <ref role="2ZfgGC" to="86kt:5zjJPlgjDSD" resolve="OptionYesNo" />
     <node concept="2S6ZIM" id="5zjJPlgjDTA" role="2ZfVej">
@@ -1021,6 +1021,7 @@
   </node>
   <node concept="3dkpOd" id="3rTwIuRHRDo">
     <property role="TrG5h" value="showSlider" />
+    <property role="3GE5qa" value="NotInUse" />
     <ref role="2ZfgGC" to="86kt:3rTwIuRHRCu" resolve="SliderOption" />
     <node concept="2S6ZIM" id="3rTwIuRHRDp" role="2ZfVej">
       <node concept="3clFbS" id="3rTwIuRHRDq" role="2VODD2">
@@ -1115,7 +1116,7 @@
     </node>
   </node>
   <node concept="3dkpOd" id="5zjJPlgc2iB">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
     <property role="TrG5h" value="CompoundActionSelect" />
     <ref role="2ZfgGC" to="86kt:5zjJPlgc2hF" resolve="ActionSelect" />
     <node concept="2S6ZIM" id="5zjJPlgc2iC" role="2ZfVej">
@@ -1643,6 +1644,7 @@
   </node>
   <node concept="3dkpOd" id="6JKNFu0hGqo">
     <property role="TrG5h" value="conditions" />
+    <property role="3GE5qa" value="NotInUse.Scheduling" />
     <ref role="2ZfgGC" to="86kt:6lHESjKDb9w" resolve="Condition" />
     <node concept="2S6ZIM" id="6JKNFu0hGqp" role="2ZfVej">
       <node concept="3clFbS" id="6JKNFu0hGqq" role="2VODD2">
@@ -2424,7 +2426,7 @@
     </node>
   </node>
   <node concept="3dkpOd" id="5EtG2rQDhro">
-    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
+    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
     <property role="TrG5h" value="MoveSelect" />
     <ref role="2ZfgGC" to="86kt:5EtG2rQDhqu" resolve="MoveSelect" />
     <node concept="2S6ZIM" id="5EtG2rQDhrp" role="2ZfVej">
