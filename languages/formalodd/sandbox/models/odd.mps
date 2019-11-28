@@ -7,6 +7,12 @@
   <imports />
   <registry>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
+      <concept id="3961341278980372822" name="formalodd.structure.Slider" flags="ng" index="21jJIL">
+        <property id="3961341278980372832" name="slideAmount" index="21jJI7" />
+        <property id="3961341278980372823" name="name" index="21jJIK" />
+        <property id="3961341278980372828" name="maxAmount" index="21jJIV" />
+        <property id="3961341278980372825" name="minAmount" index="21jJIY" />
+      </concept>
       <concept id="6400669868571328617" name="formalodd.structure.EndConditionOption" flags="ng" index="8rzWW">
         <property id="6400669868571328652" name="option" index="8rzZp" />
       </concept>
@@ -52,11 +58,6 @@
         <child id="6529568716155258780" name="action" index="2GrruU" />
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.CenterOnPatch" flags="ng" index="2ttJ6c" />
-      <concept id="5530122485659733127" name="formalodd.structure.GlobalVariabels" flags="ng" index="2uAfQu">
-        <property id="5530122485659733306" name="min" index="2uAfKz" />
-        <property id="5530122485659733308" name="max" index="2uAfK_" />
-        <property id="5530122485659733311" name="startvalue" index="2uAfKA" />
-      </concept>
       <concept id="472304604778594875" name="formalodd.structure.AbstractProcedure" flags="ng" index="B4viM">
         <child id="6400669868561677260" name="who" index="8Yoip" />
         <child id="6529568716155227079" name="action" index="2GszJx" />
@@ -92,6 +93,15 @@
         <property id="193207073764166532" name="color" index="1lo2db" />
       </concept>
       <concept id="3840659476812055925" name="formalodd.structure.DefaultShape" flags="ng" index="ZOwo7" />
+      <concept id="3840659476812055854" name="formalodd.structure.Integer" flags="ng" index="ZOwps">
+        <property id="8766909380339623739" name="value" index="2oxbqq" />
+        <property id="3840659476812055857" name="max" index="ZOwp3" />
+        <property id="3840659476812055855" name="min" index="ZOwpt" />
+      </concept>
+      <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
+        <child id="8766909380338830514" name="valueSelect" index="2oy9Oj" />
+        <child id="5413243452964759294" name="type" index="zGXb3" />
+      </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="6529568716131235338" name="overview" index="2J7coG" />
         <child id="6620640720694329222" name="text" index="XAo8I" />
@@ -103,11 +113,11 @@
         <child id="3840659476812055817" name="environment" index="ZOwpV" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
-        <property id="8247773779799260212" name="size" index="2IKGqT" />
-        <property id="3864151261523101841" name="showColors" index="1gPB68" />
-        <property id="3864151261523101843" name="showAttributes" index="1gPB6a" />
-        <property id="4851181497929522624" name="StartingNumber" index="3AmSou" />
-        <property id="4851181497929522623" name="maximumNumberOfEntitys" index="3AmSpx" />
+        <property id="8247773779799260212" name="unwanted_size" index="2IKGqT" />
+        <property id="3864151261523101841" name="unwanted_showColors" index="1gPB68" />
+        <property id="3864151261523101843" name="unwanted_showAttributes" index="1gPB6a" />
+        <property id="4851181497929522624" name="unwanted_StartingNumber" index="3AmSou" />
+        <property id="4851181497929522623" name="unwanted_maximumNumberOfEntitys" index="3AmSpx" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="3864151261525253484" name="shapeOptions" index="1gdMhP" />
         <child id="193207073761136525" name="attribute" index="1l3At2" />
@@ -124,6 +134,7 @@
         <child id="4851181497932735147" name="attribute" index="3Aqb_P" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
+        <child id="5413243452966143959" name="userDefinedAttributes" index="zRzfE" />
         <child id="6529568716164071957" name="graphicsWindow" index="2HUN8N" />
         <child id="6213474804142799436" name="EnvEntity" index="2JZWw_" />
       </concept>
@@ -137,7 +148,6 @@
         <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="color" index="kpDVr" />
-        <child id="5530122485659733123" name="globalVar" index="2uAfQq" />
       </concept>
       <concept id="3864151261525188024" name="formalodd.structure.ShapeOptions" flags="ng" index="1gdyix">
         <property id="3864151261525188025" name="ShapeOption" index="1gdyiw" />
@@ -201,17 +211,42 @@
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="3" />
         <property role="1gPB6a" value="does not" />
-        <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
-          <property role="1lo2db" value="3okqQmnB9tB/green" />
-        </node>
         <node concept="1gdyix" id="qdXC$xsGMu" role="1gdMhP">
           <property role="1gdyiw" value="square" />
         </node>
         <node concept="1lOfep" id="qdXC$xsGMw" role="1laXez">
           <property role="1lOfeo" value="do not" />
         </node>
+        <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
+          <property role="1lo2db" value="3okqQmnB9tB/green" />
+        </node>
       </node>
       <node concept="ZOwr_" id="qdXC$xpL8_" role="ZOwpV">
+        <node concept="ZOwpH" id="7AEkq7xEym_" role="zRzfE">
+          <property role="TrG5h" value="my-attribute" />
+          <node concept="ZOwps" id="7AEkq7xEymF" role="zGXb3">
+            <property role="ZOwpt" value="0" />
+            <property role="ZOwp3" value="100" />
+            <property role="2oxbqq" value="50" />
+          </node>
+          <node concept="21jJIL" id="7AEkq7xEymI" role="2oy9Oj">
+            <property role="21jJIK" value="lkamsd" />
+            <property role="21jJIY" value="03" />
+            <property role="21jJIV" value="1003" />
+            <property role="21jJI7" value="5" />
+          </node>
+        </node>
+        <node concept="ZOwpH" id="7AEkq7xSTMN" role="zRzfE">
+          <property role="TrG5h" value="my-new-attribute" />
+          <node concept="ZOwps" id="7AEkq7xSTMW" role="zGXb3">
+            <property role="ZOwpt" value="0" />
+            <property role="ZOwp3" value="100" />
+            <property role="2oxbqq" value="0" />
+          </node>
+          <node concept="21jJIL" id="7AEkq7xSTMZ" role="2oy9Oj">
+            <property role="21jJI7" value="5" />
+          </node>
+        </node>
         <node concept="ZOwrm" id="qdXC$xxgHC" role="2JZWw_">
           <property role="TrG5h" value="water" />
           <property role="2YXOq1" value="is" />
@@ -559,17 +594,6 @@
         <property role="2IKGqT" value="1" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="100" />
-        <node concept="1ldJ2l" id="qdXC$xz0QS" role="1l3At2">
-          <property role="TrG5h" value="energy" />
-          <property role="1lrphF" value="0" />
-          <property role="1lrphC" value="100" />
-          <node concept="1lfEPZ" id="qdXC$xz0QT" role="1ldJ2h">
-            <property role="1lfEPY" value="is not" />
-          </node>
-          <node concept="1l1EW$" id="qdXC$xz0QU" role="1l1KrL">
-            <property role="1l1EWz" value="float" />
-          </node>
-        </node>
         <node concept="ZOwrR" id="qdXC$xz0Qy" role="3$oDj3">
           <property role="1lo2db" value="3okqQmnqRq0/white" />
         </node>
@@ -582,8 +606,57 @@
         <node concept="ZOwo7" id="qdXC$xz0R5" role="ZOwpC">
           <property role="1lPuH5" value="sheep" />
         </node>
+        <node concept="1ldJ2l" id="qdXC$xz0QS" role="1l3At2">
+          <property role="TrG5h" value="energy" />
+          <property role="1lrphF" value="0" />
+          <property role="1lrphC" value="100" />
+          <node concept="1lfEPZ" id="qdXC$xz0QT" role="1ldJ2h">
+            <property role="1lfEPY" value="is not" />
+          </node>
+          <node concept="1l1EW$" id="qdXC$xz0QU" role="1l1KrL">
+            <property role="1l1EWz" value="float" />
+          </node>
+        </node>
       </node>
       <node concept="ZOwr_" id="qdXC$xz0Sc" role="ZOwpV">
+        <node concept="ZOwpH" id="7AEkq7xH3u6" role="zRzfE">
+          <property role="TrG5h" value="energy-gain-from-sheep" />
+          <node concept="ZOwps" id="7AEkq7xH3uf" role="zGXb3">
+            <property role="ZOwpt" value="1" />
+            <property role="ZOwp3" value="20" />
+            <property role="2oxbqq" value="10" />
+          </node>
+          <node concept="21jJIL" id="7AEkq7xH3ui" role="2oy9Oj">
+            <property role="21jJIK" value="energy-gain-from-sheep-slider" />
+            <property role="21jJI7" value="2" />
+          </node>
+        </node>
+        <node concept="ZOwpH" id="7AEkq7x$yKf" role="zRzfE">
+          <property role="TrG5h" value="energy-gain-from-grass" />
+          <node concept="ZOwps" id="7AEkq7x$yKy" role="zGXb3">
+            <property role="ZOwpt" value="1" />
+            <property role="ZOwp3" value="50" />
+            <property role="2oxbqq" value="25" />
+          </node>
+          <node concept="21jJIL" id="7AEkq7x$yK_" role="2oy9Oj">
+            <property role="21jJIK" value="my-slider" />
+            <property role="21jJIY" value="0" />
+            <property role="21jJIV" value="100" />
+            <property role="21jJI7" value="5" />
+          </node>
+        </node>
+        <node concept="ZOwpH" id="7AEkq7xMnN_" role="zRzfE">
+          <property role="TrG5h" value="grass-regrowth-delay" />
+          <node concept="ZOwps" id="7AEkq7xMnNL" role="zGXb3">
+            <property role="ZOwpt" value="0" />
+            <property role="ZOwp3" value="50" />
+            <property role="2oxbqq" value="25" />
+          </node>
+          <node concept="21jJIL" id="7AEkq7xMnNO" role="2oy9Oj">
+            <property role="21jJIK" value="grass-regrowth-delay" />
+            <property role="21jJI7" value="5" />
+          </node>
+        </node>
         <node concept="ZOwrm" id="qdXC$xRhvx" role="2JZWw_">
           <property role="2YXOq1" value="is" />
           <property role="TrG5h" value="grass" />
@@ -602,30 +675,12 @@
             <property role="21lQ5$" value="random" />
           </node>
         </node>
-        <node concept="1g3uKF" id="qdXC$xJNLN" role="2HUN8N">
+        <node concept="1g3uKF" id="7AEkq7xKP_G" role="2HUN8N">
           <property role="1jzKJm" value="10" />
           <property role="1jzt_n" value="10" />
           <property role="1jzt_b" value="0" />
           <property role="1jztgP" value="0" />
-          <node concept="2uAfQu" id="2gGtP_VcscX" role="2uAfQq">
-            <property role="TrG5h" value="energy-gain-from-grass" />
-            <property role="2uAfKz" value="1" />
-            <property role="2uAfK_" value="20" />
-            <property role="2uAfKA" value="5" />
-          </node>
-          <node concept="2uAfQu" id="2gGtP_VcscZ" role="2uAfQq">
-            <property role="TrG5h" value="energy-gain-from-sheep" />
-            <property role="2uAfKz" value="1" />
-            <property role="2uAfK_" value="50" />
-            <property role="2uAfKA" value="20" />
-          </node>
-          <node concept="2uAfQu" id="2gGtP_Vcsd2" role="2uAfQq">
-            <property role="TrG5h" value="grass-regrowth-delay" />
-            <property role="2uAfKz" value="5" />
-            <property role="2uAfK_" value="400" />
-            <property role="2uAfKA" value="40" />
-          </node>
-          <node concept="ZOwrR" id="qdXC$xJNLP" role="kpDVr">
+          <node concept="ZOwrR" id="7AEkq7xKP_I" role="kpDVr">
             <property role="1lo2db" value="3okqQmnqRqd/black" />
           </node>
         </node>
@@ -898,18 +953,24 @@
         </node>
       </node>
       <node concept="ZOwr_" id="qdXC$ygXbH" role="ZOwpV">
-        <node concept="1g3uKF" id="qdXC$yiK6D" role="2HUN8N">
+        <node concept="ZOwpH" id="7AEkq7xQeps" role="zRzfE">
+          <property role="TrG5h" value="similar-nearby-wanted" />
+          <node concept="ZOwps" id="7AEkq7xQepI" role="zGXb3">
+            <property role="ZOwpt" value="1" />
+            <property role="ZOwp3" value="100" />
+            <property role="2oxbqq" value="50" />
+          </node>
+          <node concept="21jJIL" id="7AEkq7xQepL" role="2oy9Oj">
+            <property role="21jJIK" value="similar-nearby-wanted" />
+            <property role="21jJI7" value="5" />
+          </node>
+        </node>
+        <node concept="1g3uKF" id="7AEkq7xMs5f" role="2HUN8N">
           <property role="1jzKJm" value="10" />
           <property role="1jzt_n" value="10" />
           <property role="1jzt_b" value="0" />
           <property role="1jztgP" value="0" />
-          <node concept="2uAfQu" id="1D8fLg50L1e" role="2uAfQq">
-            <property role="TrG5h" value="similar-nearby-wanted" />
-            <property role="2uAfKz" value="1" />
-            <property role="2uAfK_" value="100" />
-            <property role="2uAfKA" value="50" />
-          </node>
-          <node concept="ZOwrR" id="qdXC$yiK6J" role="kpDVr">
+          <node concept="ZOwrR" id="7AEkq7xMs5h" role="kpDVr">
             <property role="1lo2db" value="3okqQmnqRq0/white" />
           </node>
         </node>
