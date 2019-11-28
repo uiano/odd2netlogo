@@ -222,29 +222,15 @@
         </node>
       </node>
       <node concept="ZOwr_" id="qdXC$xpL8_" role="ZOwpV">
-        <node concept="ZOwpH" id="7AEkq7xEym_" role="zRzfE">
-          <property role="TrG5h" value="my-attribute" />
-          <node concept="ZOwps" id="7AEkq7xEymF" role="zGXb3">
+        <node concept="ZOwpH" id="7AEkq7xW4bA" role="zRzfE">
+          <property role="TrG5h" value="Hello" />
+          <node concept="ZOwps" id="7AEkq7xW4bG" role="zGXb3">
             <property role="ZOwpt" value="0" />
             <property role="ZOwp3" value="100" />
             <property role="2oxbqq" value="50" />
           </node>
-          <node concept="21jJIL" id="7AEkq7xEymI" role="2oy9Oj">
-            <property role="21jJIK" value="lkamsd" />
-            <property role="21jJIY" value="03" />
-            <property role="21jJIV" value="1003" />
-            <property role="21jJI7" value="5" />
-          </node>
-        </node>
-        <node concept="ZOwpH" id="7AEkq7xSTMN" role="zRzfE">
-          <property role="TrG5h" value="my-new-attribute" />
-          <node concept="ZOwps" id="7AEkq7xSTMW" role="zGXb3">
-            <property role="ZOwpt" value="0" />
-            <property role="ZOwp3" value="100" />
-            <property role="2oxbqq" value="0" />
-          </node>
-          <node concept="21jJIL" id="7AEkq7xSTMZ" role="2oy9Oj">
-            <property role="21jJI7" value="5" />
+          <node concept="21jJIL" id="7AEkq7xW4bJ" role="2oy9Oj">
+            <property role="21jJI7" value="50" />
           </node>
         </node>
         <node concept="ZOwrm" id="qdXC$xxgHC" role="2JZWw_">
