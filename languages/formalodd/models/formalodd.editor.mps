@@ -4610,38 +4610,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="4MYWhBi9wMg">
-    <property role="3GE5qa" value="Unwanted" />
-    <ref role="1XX52x" to="86kt:4MYWhBi9wM7" resolve="GlobalVariabels" />
-    <node concept="3EZMnI" id="4MYWhBi9wNA" role="2wV5jI">
-      <node concept="2iRfu4" id="4MYWhBi9wNB" role="2iSdaV" />
-      <node concept="3F0A7n" id="4MYWhBi9wNz" role="3EZMnx">
-        <property role="1$x2rV" value="eneter name of global variable" />
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="4MYWhBi9wNJ" role="3EZMnx">
-        <property role="3F0ifm" value="min" />
-      </node>
-      <node concept="3F0A7n" id="4MYWhBi9wP3" role="3EZMnx">
-        <property role="1$x2rV" value="enter min value" />
-        <ref role="1NtTu8" to="86kt:4MYWhBi9wOU" resolve="min" />
-      </node>
-      <node concept="3F0ifn" id="4MYWhBi9wO9" role="3EZMnx">
-        <property role="3F0ifm" value="max" />
-      </node>
-      <node concept="3F0A7n" id="4MYWhBi9wPc" role="3EZMnx">
-        <property role="1$x2rV" value="enter max value" />
-        <ref role="1NtTu8" to="86kt:4MYWhBi9wOW" resolve="max" />
-      </node>
-      <node concept="3F0ifn" id="4MYWhBi9wOs" role="3EZMnx">
-        <property role="3F0ifm" value="start" />
-      </node>
-      <node concept="3F0A7n" id="4MYWhBi9wPl" role="3EZMnx">
-        <property role="1$x2rV" value="enter start value" />
-        <ref role="1NtTu8" to="86kt:4MYWhBi9wOZ" resolve="startvalue" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="qdXC$xsGIv">
     <property role="3GE5qa" value="Scheduling" />
     <ref role="1XX52x" to="86kt:qdXC$xsGIe" resolve="Interaction" />

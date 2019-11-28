@@ -2230,30 +2230,6 @@
       <ref role="20lvS9" node="1zaawdw2ixv" resolve="AbstractEnviromentAction" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4MYWhBi9wM7">
-    <property role="EcuMT" value="5530122485659733127" />
-    <property role="TrG5h" value="GlobalVariabels" />
-    <property role="3GE5qa" value="Unwanted" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4MYWhBi9wNx" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyi" id="4MYWhBi9wOU" role="1TKVEl">
-      <property role="IQ2nx" value="5530122485659733306" />
-      <property role="TrG5h" value="min" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="4MYWhBi9wOW" role="1TKVEl">
-      <property role="IQ2nx" value="5530122485659733308" />
-      <property role="TrG5h" value="max" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="4MYWhBi9wOZ" role="1TKVEl">
-      <property role="IQ2nx" value="5530122485659733311" />
-      <property role="TrG5h" value="startvalue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="qdXC$xsGIe">
     <property role="EcuMT" value="472304604775893902" />
     <property role="3GE5qa" value="Scheduling" />
