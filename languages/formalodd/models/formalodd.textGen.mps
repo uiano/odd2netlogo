@@ -2,8 +2,8 @@
 <model ref="r:81e35141-d5ce-4dc8-82e0-87e66610f670(formalodd.textGen)">
   <persistence version="9" />
   <languages>
-    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="1" />
-    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="9" />
+    <use id="b83431fe-5c8f-40bc-8a36-65e25f4dd253" name="jetbrains.mps.lang.textGen" version="-1" />
+    <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
     <devkit ref="fa73d85a-ac7f-447b-846c-fcdc41caa600(jetbrains.mps.devkit.aspect.textgen)" />
   </languages>
   <imports>
@@ -597,6 +597,52 @@
                     <property role="lacIc" value="]" />
                   </node>
                   <node concept="l8MVK" id="5EtG2rPwvPq" role="lcghm" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="24qWCY8dlkO" role="3cqZAp">
+              <node concept="3clFbS" id="24qWCY8dlkQ" role="3clFbx">
+                <node concept="lc7rE" id="24qWCY8doqy" role="3cqZAp">
+                  <node concept="la8eA" id="24qWCY8doT3" role="lcghm">
+                    <property role="lacIc" value="set pcolor " />
+                  </node>
+                  <node concept="l9hG8" id="24qWCY8doUC" role="lcghm">
+                    <node concept="2OqwBi" id="24qWCY8dqYY" role="lb14g">
+                      <node concept="2OqwBi" id="24qWCY8dpY8" role="2Oq$k0">
+                        <node concept="2OqwBi" id="24qWCY8dp4I" role="2Oq$k0">
+                          <node concept="2GrUjf" id="24qWCY8doVx" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="5EtG2rPwvOR" resolve="p" />
+                          </node>
+                          <node concept="3TrEf2" id="24qWCY8dp$V" role="2OqNvi">
+                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                          </node>
+                        </node>
+                        <node concept="3TrcHB" id="24qWCY8dqtQ" role="2OqNvi">
+                          <ref role="3TsBF5" to="86kt:5vgYlnqdd$T" resolve="color" />
+                        </node>
+                      </node>
+                      <node concept="24Tkf9" id="24qWCY8drkq" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="l8MVK" id="24qWCY8drE4" role="lcghm" />
+                </node>
+              </node>
+              <node concept="17R0WA" id="24qWCY8dnYb" role="3clFbw">
+                <node concept="Xl_RD" id="24qWCY8doj8" role="3uHU7w">
+                  <property role="Xl_RC" value="everywhere" />
+                </node>
+                <node concept="2OqwBi" id="24qWCY8dmi_" role="3uHU7B">
+                  <node concept="2OqwBi" id="24qWCY8dlwJ" role="2Oq$k0">
+                    <node concept="2GrUjf" id="24qWCY8dlo7" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="5EtG2rPwvOR" resolve="p" />
+                    </node>
+                    <node concept="3TrEf2" id="24qWCY8dlXz" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:3rTwIuRGrDe" resolve="Location" />
+                    </node>
+                  </node>
+                  <node concept="3TrcHB" id="24qWCY8dmLr" role="2OqNvi">
+                    <ref role="3TsBF5" to="86kt:3rTwIuRFIe3" resolve="showLocation" />
+                  </node>
                 </node>
               </node>
             </node>
