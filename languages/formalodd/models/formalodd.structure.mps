@@ -353,43 +353,12 @@
     <property role="TrG5h" value="Integer" />
     <property role="3GE5qa" value="NotInUse" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-    <node concept="1TJgyi" id="3lcKR8aBGkJ" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055855" />
-      <property role="TrG5h" value="min" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3lcKR8aBGkL" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055857" />
-      <property role="TrG5h" value="max" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7AEkq7xbIsV" role="1TKVEl">
-      <property role="IQ2nx" value="8766909380339623739" />
-      <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkQ">
     <property role="EcuMT" value="3840659476812055862" />
     <property role="TrG5h" value="Float" />
     <property role="3GE5qa" value="NotInUse" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-    <node concept="1TJgyi" id="3lcKR8aBGkR" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055863" />
-      <property role="TrG5h" value="min" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3lcKR8aBGkT" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055865" />
-      <property role="TrG5h" value="max" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="3lcKR8aBGkW" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055868" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="distribution" />
-      <ref role="20lvS9" node="3lcKR8aBGkY" resolve="StatisticalDistribution" />
-    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkY">
     <property role="EcuMT" value="3840659476812055870" />
@@ -1222,6 +1191,11 @@
     <node concept="1TJgyi" id="3rTwIuRHR_w" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372832" />
       <property role="TrG5h" value="slideAmount" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="7AEkq7y72tT" role="1TKVEl">
+      <property role="IQ2nx" value="8766909380355172217" />
+      <property role="TrG5h" value="startValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
