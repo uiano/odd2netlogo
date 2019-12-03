@@ -82,6 +82,7 @@
       <concept id="6529568716161205649" name="formalodd.structure.Who2" flags="ng" index="2HPRmR">
         <property id="8247773779771569414" name="value" index="2DpkYb" />
         <property id="6529568716161210147" name="option" index="2HPQs5" />
+        <reference id="6529568716161205650" name="entity" index="2HPRmO" />
         <reference id="6529568716162980347" name="attribute" index="2HY6Bt" />
       </concept>
       <concept id="6620640720694302583" name="formalodd.structure.UserComment" flags="ng" index="XAmFv">
@@ -193,6 +194,9 @@
       <concept id="1786286396190304350" name="formalodd.structure.NeighborEnviroment" flags="ng" index="1SKK9t">
         <property id="1786286396190304394" name="color" index="1SKKa9" />
         <child id="1786286396190304396" name="EnvromentAction" index="1SKKaf" />
+      </concept>
+      <concept id="1786286396191059675" name="formalodd.structure.Sprout" flags="ng" index="1SRCjo">
+        <child id="1786286396191061651" name="who" index="1SRDMg" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1096,6 +1100,169 @@
         </node>
         <node concept="ZOwo6" id="24qWCY8di$a" role="848cd">
           <property role="1lo2db" value="3okqQmnqRq6/orange" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="ZOwpP" id="35QCLExIhrZ">
+    <property role="TrG5h" value="Forestfire with agent" />
+    <node concept="XAmFv" id="35QCLExIhs0" role="XAo8I">
+      <property role="XAmFg" value="Model to simulate forest fire. :) @@@???¿¿¿ éóá" />
+    </node>
+    <node concept="ZOwpU" id="35QCLExIhs2" role="3$p12O">
+      <node concept="ZOwpW" id="35QCLExIhs4" role="ZOwpT">
+        <property role="TrG5h" value="Fire" />
+        <property role="3AmSou" value="1" />
+        <property role="3AmSpx" value="100" />
+        <property role="2IKGqT" value="2" />
+        <node concept="1ldJ2l" id="35QCLExIskL" role="1l3At2">
+          <property role="TrG5h" value="energy" />
+          <property role="1lrphF" value="0" />
+          <property role="1lrphC" value="100" />
+          <property role="1qTHIA" value="0" />
+          <node concept="1l1EW$" id="35QCLExIskN" role="1l1KrL">
+            <property role="1l1EWz" value="float" />
+          </node>
+        </node>
+        <node concept="ZOwrR" id="35QCLExIhs6" role="3$oDj3">
+          <property role="1lo2db" value="3okqQmm_ZZM/red" />
+        </node>
+        <node concept="1gdyix" id="35QCLExIH6O" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
+        </node>
+        <node concept="ZOwo7" id="35QCLExIH7d" role="ZOwpC">
+          <property role="1lPuH5" value="square" />
+        </node>
+      </node>
+      <node concept="ZOwr_" id="35QCLExIskP" role="ZOwpV">
+        <node concept="ZOwrm" id="35QCLExIskR" role="2JZWw_">
+          <property role="TrG5h" value="Tree" />
+          <property role="2YXOq1" value="is" />
+          <node concept="ZOwqP" id="35QCLExIskV" role="21i3yD">
+            <property role="21lQ5$" value="random" />
+          </node>
+          <node concept="ZOwrR" id="35QCLExIskZ" role="21mi6N">
+            <property role="1lo2db" value="3okqQmnB9tB/green" />
+          </node>
+        </node>
+        <node concept="1g3uKF" id="3XcUSIkJNRx" role="2HUN8N">
+          <property role="1jzKJm" value="100" />
+          <property role="1jzt_n" value="5" />
+          <property role="1jzt_b" value="0" />
+          <property role="1jztgP" value="0" />
+        </node>
+      </node>
+    </node>
+    <node concept="1lur_c" id="35QCLExIsl9" role="1ltb8M">
+      <node concept="1llqSK" id="35QCLExIsln" role="1llqph">
+        <property role="1qEyh5" value="left" />
+        <ref role="1llqZf" node="35QCLExIhs4" resolve="Fire" />
+        <node concept="1qTHIr" id="35QCLExIueM" role="1qXBHY">
+          <property role="1qTHIq" value="2" />
+          <ref role="1qTLvG" node="35QCLExIskL" resolve="energy" />
+        </node>
+        <node concept="1qTHIr" id="35QCLExIHfm" role="1qXBHY">
+          <property role="1qTHIq" value="3" />
+        </node>
+        <node concept="1qTHIr" id="35QCLExIHkd" role="1qXBHY">
+          <property role="1qTHIq" value="4" />
+        </node>
+        <node concept="1_stcA" id="35QCLExIsls" role="1llqp5">
+          <property role="1_stcx" value="The entity" />
+        </node>
+      </node>
+    </node>
+    <node concept="2lMhBk" id="35QCLExIslu" role="2J7coG">
+      <node concept="BZNO7" id="35QCLExIu7M" role="2GyEu2">
+        <property role="TrG5h" value="Burn" />
+        <node concept="2lNc1w" id="35QCLExIu9P" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="35QCLExIhs4" resolve="Fire" />
+        </node>
+        <node concept="BjZAj" id="35QCLExIu92" role="17I3vM">
+          <property role="BjXqr" value="3okqQmnB9tB/green" />
+          <node concept="2lNc1y" id="35QCLExIHeC" role="17F8SD">
+            <node concept="8StHo" id="35QCLExIHeK" role="2GrruU">
+              <node concept="8Styt" id="35QCLExIHeQ" role="8Sc1Y">
+                <property role="8Stys" value="Change Current Pixel" />
+              </node>
+              <node concept="ZOwo6" id="35QCLExIHeS" role="8S3LA">
+                <property role="1lo2db" value="3okqQmnqRrq/brown" />
+              </node>
+            </node>
+            <node concept="8StVI" id="35QCLExIHf4" role="2GrruU">
+              <property role="fDOvY" value="attribute" />
+              <property role="2DfwqV" value="increment value" />
+              <property role="2DdUfk" value="energy" />
+              <property role="fDf1i" value="energy-gain-from-tree" />
+              <ref role="8p6Ff" node="35QCLExIskL" resolve="energy" />
+            </node>
+          </node>
+        </node>
+        <node concept="2lNc1w" id="35QCLExIu9R" role="BYBhP">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="35QCLExIskR" resolve="Tree" />
+        </node>
+      </node>
+      <node concept="2lNc1x" id="35QCLExIubH" role="2GyEu2">
+        <property role="TrG5h" value="Extinguish" />
+        <node concept="2lNc1w" id="35QCLExIubP" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="35QCLExIhs4" resolve="Fire" />
+        </node>
+        <node concept="8shMO" id="35QCLExIubR" role="2GszJx">
+          <node concept="2lNc1w" id="35QCLExIubT" role="8shtH">
+            <property role="8X5i2" value="Entity" />
+            <ref role="8YSiZ" node="35QCLExIhs4" resolve="Fire" />
+          </node>
+          <node concept="2HP6RB" id="35QCLExIubX" role="BXGfr">
+            <property role="2HPVKK" value="&gt;=" />
+            <node concept="2HPRmR" id="35QCLExIubZ" role="2HP6R$">
+              <property role="2HPQs5" value="Attribute" />
+              <ref role="2HY6Bt" node="35QCLExIskL" resolve="energy" />
+            </node>
+            <node concept="2HPRmR" id="35QCLExIuc1" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="100" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="BZNO7" id="35QCLExIH_3" role="2GyEu2">
+        <property role="TrG5h" value="spreading-fire" />
+        <node concept="2lNc1w" id="7r3g2W2nTqQ" role="8Yoip">
+          <property role="8X5i2" value="Entity" />
+          <ref role="8YSiZ" node="35QCLExIhs4" resolve="Fire" />
+        </node>
+        <node concept="1SKK9t" id="35QCLExIH_s" role="17I3vM">
+          <property role="1SKKa9" value="3okqQmnB9tB/green" />
+          <node concept="1SRCjo" id="3XcUSIkzdk7" role="1SKKaf">
+            <node concept="2HPRmR" id="3XcUSIkzdka" role="1SRDMg">
+              <property role="2HPQs5" value="Entity" />
+              <ref role="2HPRmO" node="35QCLExIhs4" resolve="Fire" />
+            </node>
+            <node concept="2HP6RB" id="3XcUSIkzdkU" role="BXGfr">
+              <property role="2HPVKK" value="&lt;=" />
+              <node concept="2HPRmR" id="3XcUSIkzdkW" role="2HP6R$">
+                <property role="2HPQs5" value="Attribute" />
+                <ref role="2HY6Bt" node="35QCLExIskL" resolve="energy" />
+              </node>
+              <node concept="2HPRmR" id="3XcUSIkzdkY" role="2HP6Ry">
+                <property role="2HPQs5" value="value" />
+                <property role="2DpkYb" value="50" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2lNc1w" id="7r3g2W2nTqS" role="BYBhP">
+          <property role="8X5i2" value="Environment" />
+          <ref role="8YSiS" node="35QCLExIskR" resolve="Tree" />
+        </node>
+      </node>
+      <node concept="2lMhBi" id="35QCLExIH8L" role="2lMhBt">
+        <ref role="2I6lkX" node="35QCLExIhs4" resolve="Fire" />
+        <node concept="8rzWW" id="35QCLExIH8N" role="8rzWZ">
+          <property role="8rzZp" value="No Entity is" />
         </node>
       </node>
     </node>
