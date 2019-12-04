@@ -266,7 +266,7 @@
       </node>
       <node concept="3EZMnI" id="3okqQmngj_y" role="3EZMnx">
         <node concept="3F0ifn" id="3okqQmngj_U" role="3EZMnx">
-          <property role="3F0ifm" value="The entitys we have in this simulation is :" />
+          <property role="3F0ifm" value="The entities in this simulation are:" />
           <node concept="Vb9p2" id="3okqQmngjA1" role="3F10Kt" />
         </node>
         <node concept="2iRfu4" id="3okqQmngj_z" role="2iSdaV" />
@@ -703,7 +703,7 @@
       <node concept="3EZMnI" id="6UrRj0hPolx" role="3EZMnx">
         <node concept="3EZMnI" id="6UrRj0hUq1z" role="3EZMnx">
           <node concept="3F0ifn" id="6UrRj0hUq25" role="3EZMnx">
-            <property role="3F0ifm" value="Color " />
+            <property role="3F0ifm" value="Color" />
             <node concept="Vb9p2" id="3mweh__$L87" role="3F10Kt" />
           </node>
           <node concept="3F0A7n" id="6UrRj0hUq2l" role="3EZMnx">
@@ -715,7 +715,7 @@
             </node>
           </node>
           <node concept="3F0ifn" id="6UrRj0hUq2d" role="3EZMnx">
-            <property role="3F0ifm" value=" defined for the entity " />
+            <property role="3F0ifm" value="defined for the entity " />
             <node concept="Vb9p2" id="3mweh__$L85" role="3F10Kt" />
           </node>
           <node concept="VPM3Z" id="6UrRj0hUq1_" role="3F10Kt" />
@@ -731,7 +731,7 @@
         <node concept="3EZMnI" id="3mweh__uP73" role="3EZMnx">
           <node concept="VPM3Z" id="3mweh__uP75" role="3F10Kt" />
           <node concept="3F0ifn" id="6UrRj0hUF5$" role="3EZMnx">
-            <property role="3F0ifm" value="Throughout the simulation, the " />
+            <property role="3F0ifm" value="Throughout the simulation, the" />
             <node concept="Vb9p2" id="3mweh__$KWs" role="3F10Kt" />
           </node>
           <node concept="3F0A7n" id="3mweh__uPML" role="3EZMnx">
@@ -774,7 +774,7 @@
         <node concept="3EZMnI" id="3OPyh9I2ZgI" role="3EZMnx">
           <node concept="VPM3Z" id="3OPyh9I2ZgJ" role="3F10Kt" />
           <node concept="3F0ifn" id="3OPyh9I2ZgK" role="3EZMnx">
-            <property role="3F0ifm" value="wich is the " />
+            <property role="3F0ifm" value="wich is the" />
             <node concept="Vb9p2" id="3OPyh9I2ZgL" role="3F10Kt" />
           </node>
           <node concept="3F1sOY" id="3OPyh9I2ZgM" role="3EZMnx">
@@ -1923,29 +1923,35 @@
       <node concept="3EZMnI" id="3rTwIuRHRAR" role="3EZMnx">
         <node concept="VPM3Z" id="3rTwIuRHRAT" role="3F10Kt" />
         <node concept="3F0ifn" id="3rTwIuRHRAV" role="3EZMnx">
-          <property role="3F0ifm" value="The minimum possible is " />
+          <property role="3F0ifm" value="The minimum possible is" />
           <node concept="Vb9p2" id="7AEkq7xiZZ0" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="3rTwIuRHRB9" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3rTwIuRHR_p" resolve="minAmount" />
         </node>
         <node concept="3F0ifn" id="3rTwIuRHRBh" role="3EZMnx">
-          <property role="3F0ifm" value="and the maximum possible is " />
+          <property role="3F0ifm" value="and the maximum possible is" />
           <node concept="Vb9p2" id="7AEkq7xiZZ2" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="3rTwIuRHRBF" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3rTwIuRHR_s" resolve="maxAmount" />
         </node>
         <node concept="3F0ifn" id="7AEkq7y8DsT" role="3EZMnx">
-          <property role="3F0ifm" value="start value is " />
+          <property role="3F0ifm" value="start value is" />
           <node concept="Vb9p2" id="7AEkq7y8Dtx" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="7AEkq7y8Dtj" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:7AEkq7y72tT" resolve="startValue" />
         </node>
         <node concept="3F0ifn" id="3rTwIuRHRBR" role="3EZMnx">
-          <property role="3F0ifm" value=" The slider will change by " />
-          <node concept="Vb9p2" id="7AEkq7xiZZ4" role="3F10Kt" />
+          <property role="3F0ifm" value="." />
+          <node concept="11L4FC" id="4xlWY3q_3oA" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="4xlWY3q_3nw" role="3EZMnx">
+          <property role="3F0ifm" value="The slider is adjusted in increments of" />
+          <node concept="Vb9p2" id="4xlWY3qAvbN" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="3rTwIuRHRC5" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3rTwIuRHR_w" resolve="slideAmount" />
@@ -1953,6 +1959,9 @@
         <node concept="2iRfu4" id="3rTwIuRHRAW" role="2iSdaV" />
         <node concept="3F0ifn" id="3rTwIuRHRCl" role="3EZMnx">
           <property role="3F0ifm" value="." />
+          <node concept="11L4FC" id="4xlWY3qzBM5" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
         </node>
       </node>
       <node concept="2iRkQZ" id="3rTwIuRHRA6" role="2iSdaV" />
@@ -1964,7 +1973,7 @@
     <node concept="3EZMnI" id="3okqQmnzDe3" role="2wV5jI">
       <node concept="2iRfu4" id="3okqQmnzDe4" role="2iSdaV" />
       <node concept="3F0ifn" id="2gGtP_UQ_4D" role="3EZMnx">
-        <property role="3F0ifm" value="color " />
+        <property role="3F0ifm" value="color" />
         <node concept="Vb9p2" id="2gGtP_UQ_4H" role="3F10Kt" />
       </node>
       <node concept="3F0A7n" id="aIqcXnOmbK" role="3EZMnx">
