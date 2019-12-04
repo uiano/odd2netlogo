@@ -2,7 +2,7 @@
 <model ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)">
   <persistence version="9" />
   <languages>
-    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="9" />
+    <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="-1" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
@@ -285,6 +285,13 @@
       <property role="IQ2nx" value="4851181497929522625" />
       <property role="TrG5h" value="unwanted_Distribution" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="RwtFpHC4yD" role="1TKVEi">
+      <property role="IQ2ns" value="999929643171596457" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="relationships" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="RwtFpHC4y1" resolve="Relationship" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkv">
@@ -2459,6 +2466,18 @@
       <property role="IQ2nx" value="8766909380343367736" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="RwtFpHC4y1">
+    <property role="EcuMT" value="999929643171596417" />
+    <property role="TrG5h" value="Relationship" />
+    <property role="R4oN_" value="Relationship between entities" />
+    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+    <node concept="1TJgyj" id="RwtFpHCeSE" role="1TKVEi">
+      <property role="IQ2ns" value="999929643171638826" />
+      <property role="20kJfa" value="to" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
     </node>
   </node>
 </model>
