@@ -1252,5 +1252,48 @@
       </node>
     </node>
   </node>
+  <node concept="ZOwpP" id="4xlWY3qEPkU">
+    <property role="TrG5h" value="Bullying" />
+    <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
+      <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
+        <property role="TrG5h" value="student" />
+        <property role="2IKGqT" value="10" />
+        <node concept="1ldJ2l" id="4xlWY3qEPlN" role="1l3At2">
+          <property role="TrG5h" value="refused interactions" />
+          <property role="1lrphF" value="0" />
+          <property role="1lrphC" value="100" />
+          <node concept="1l1EW$" id="28mu8oBQTDY" role="1l1KrL">
+            <property role="1l1EWz" value="integer" />
+          </node>
+        </node>
+        <node concept="1ldJ2l" id="4xlWY3qEPlH" role="1l3At2">
+          <property role="TrG5h" value="negative interactions" />
+          <property role="1lrphF" value="0" />
+          <property role="1lrphC" value="100" />
+          <node concept="1l1EW$" id="4xlWY3qEPlL" role="1l1KrL">
+            <property role="1l1EWz" value="integer" />
+          </node>
+        </node>
+        <node concept="1ldJ2l" id="4xlWY3qEPld" role="1l3At2">
+          <property role="TrG5h" value="positive interactions" />
+          <property role="1lrphF" value="0" />
+          <property role="1lrphC" value="100" />
+          <node concept="1l1EW$" id="4xlWY3qEPlf" role="1l1KrL">
+            <property role="1l1EWz" value="integer" />
+          </node>
+        </node>
+        <node concept="ZOwrR" id="4xlWY3qEPl1" role="3$oDj3">
+          <property role="1lo2db" value="3okqQmm_ZZ_/blue" />
+        </node>
+        <node concept="1gdyix" id="4xlWY3qEPl3" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
+        </node>
+        <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
+          <property role="1lPuH5" value="person" />
+        </node>
+      </node>
+    </node>
+    <node concept="1lur_c" id="3KJkjWHSOpM" role="1ltb8M" />
+  </node>
 </model>
 

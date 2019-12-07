@@ -4642,7 +4642,7 @@
       <node concept="3EZMnI" id="qdXC$xsGIQ" role="3EZMnx">
         <node concept="2iRfu4" id="qdXC$xsGIR" role="2iSdaV" />
         <node concept="3F0ifn" id="qdXC$xsGIx" role="3EZMnx">
-          <property role="3F0ifm" value="Ineraction name " />
+          <property role="3F0ifm" value="Interaction name " />
           <node concept="Vb9p2" id="qdXC$xsGI$" role="3F10Kt">
             <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
