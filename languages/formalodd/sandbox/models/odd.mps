@@ -248,7 +248,19 @@
     <node concept="2lMhBk" id="qdXC$xsGMF" role="2J7coG" />
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
-    <property role="TrG5h" value="wolf sheep" />
+    <property role="TrG5h" value="Wolf Sheep" />
+    <node concept="XAmFv" id="61ib3USCg3C" role="XAo8I">
+      <property role="XAmFg" value="This model explores the stability of predator-prey ecosystems." />
+    </node>
+    <node concept="XAmFv" id="61ib3USIaeZ" role="XAo8I">
+      <property role="XAmFg" value="Such a system is called unstable if it tends to result in extinction for one or more species involved." />
+    </node>
+    <node concept="XAmFv" id="61ib3USIaf2" role="XAo8I">
+      <property role="XAmFg" value="In contrast, a system is stable if it tends to maintain itself over time," />
+    </node>
+    <node concept="XAmFv" id="61ib3USIaf6" role="XAo8I">
+      <property role="XAmFg" value="despite fluctuations in population sizes." />
+    </node>
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
       <node concept="2lNc1x" id="qdXC$xHt5o" role="2GyEu2">
         <property role="TrG5h" value="move" />
@@ -531,13 +543,13 @@
     <node concept="ZOwpU" id="qdXC$xz0Qp" role="3$p12O">
       <node concept="ZOwpH" id="5Dmxhgox7rB" role="1XCrKs">
         <property role="TrG5h" value="energy-gain-from-sheep" />
-        <node concept="ZOwps" id="5Dmxhgox7rH" role="zGXb3" />
         <node concept="21jJIL" id="5Dmxhgox7rK" role="2oy9Oj">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
           <property role="2rHBro" value="50" />
           <property role="21jJI7" value="5" />
         </node>
+        <node concept="ZOwps" id="5Dmxhgox7rH" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="5Dmxhgox7rN" role="1XCrKs">
         <property role="TrG5h" value="energy-gain-from-grass" />

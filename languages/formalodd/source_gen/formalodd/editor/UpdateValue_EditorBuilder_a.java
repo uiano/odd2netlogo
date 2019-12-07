@@ -264,7 +264,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
   }
   private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "will have ");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "will have");
     editorCell.setCellId("Constant_2yquaa_d1a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);

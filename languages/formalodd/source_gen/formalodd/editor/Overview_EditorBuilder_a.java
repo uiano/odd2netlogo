@@ -55,12 +55,11 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setBig(true);
     setCellContext(editorCell);
     editorCell.addEditorCell(createConstant_0());
-    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createCollection_1());
     return editorCell;
   }
   private EditorCell createConstant_0() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Overview");
+    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Process overview and scheduling");
     editorCell.setCellId("Constant_360pyx_a0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.INDENT_LAYOUT_ON_NEW_LINE, true);
@@ -69,44 +68,38 @@ import org.jetbrains.mps.openapi.language.SConcept;
     editorCell.setDefaultText("");
     return editorCell;
   }
-  private EditorCell createConstant_1() {
-    EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
-    editorCell.setCellId("Constant_360pyx_b0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
   private EditorCell createCollection_1() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Vertical());
-    editorCell.setCellId("Collection_360pyx_c0");
+    editorCell.setCellId("Collection_360pyx_b0");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     style.set(StyleAttributes.DRAW_BORDER, true);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_2());
+    editorCell.addEditorCell(createConstant_1());
     editorCell.addEditorCell(createRefNodeList_0());
-    editorCell.addEditorCell(createConstant_4());
+    editorCell.addEditorCell(createConstant_3());
     editorCell.addEditorCell(createCollection_2());
     editorCell.addEditorCell(createRefNodeList_1());
     return editorCell;
   }
-  private EditorCell createConstant_2() {
+  private EditorCell createConstant_1() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "Scheduling");
-    editorCell.setCellId("Constant_360pyx_a2a");
+    editorCell.setCellId("Constant_360pyx_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNodeList_0() {
-    AbstractCellListHandler handler = new procedureListHandler_360pyx_b2a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new procedureListHandler_360pyx_b1a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_procedure");
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class procedureListHandler_360pyx_b2a extends RefNodeListHandler {
+  private static class procedureListHandler_360pyx_b1a extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public procedureListHandler_360pyx_b2a(SNode ownerNode, EditorContext context) {
+    public procedureListHandler_360pyx_b1a(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -129,10 +122,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(procedureListHandler_360pyx_b2a.this.getNode(), LINKS.procedure$PoIF));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(procedureListHandler_360pyx_b1a.this.getNode(), LINKS.procedure$PoIF));
       try {
         EditorCell emptyCell = null;
-        emptyCell = createConstant_3();
+        emptyCell = createConstant_2();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -152,9 +145,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
         }
       }
     }
-    private EditorCell createConstant_3() {
+    private EditorCell createConstant_2() {
       EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "press enter to create a procedure");
-      editorCell.setCellId("Constant_360pyx_a1c0");
+      editorCell.setCellId("Constant_360pyx_a1b0");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
@@ -163,39 +156,39 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return editorCell;
     }
   }
-  private EditorCell createConstant_4() {
+  private EditorCell createConstant_3() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
-    editorCell.setCellId("Constant_360pyx_c2a");
+    editorCell.setCellId("Constant_360pyx_c1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createCollection_2() {
     EditorCell_Collection editorCell = new EditorCell_Collection(getEditorContext(), myNode, new CellLayout_Horizontal());
-    editorCell.setCellId("Collection_360pyx_d2a");
+    editorCell.setCellId("Collection_360pyx_d1a");
     Style style = new StyleImpl();
     style.set(StyleAttributes.SELECTABLE, false);
     editorCell.getStyle().putAll(style);
-    editorCell.addEditorCell(createConstant_5());
+    editorCell.addEditorCell(createConstant_4());
     return editorCell;
   }
-  private EditorCell createConstant_5() {
+  private EditorCell createConstant_4() {
     EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "The following end conditions is wanted:");
-    editorCell.setCellId("Constant_360pyx_a3c0");
+    editorCell.setCellId("Constant_360pyx_a3b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
   private EditorCell createRefNodeList_1() {
-    AbstractCellListHandler handler = new endConditionListHandler_360pyx_e2a(myNode, getEditorContext());
+    AbstractCellListHandler handler = new endConditionListHandler_360pyx_e1a(myNode, getEditorContext());
     EditorCell_Collection editorCell = handler.createCells(new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_endCondition");
     editorCell.setSRole(handler.getElementSRole());
     return editorCell;
   }
-  private static class endConditionListHandler_360pyx_e2a extends RefNodeListHandler {
+  private static class endConditionListHandler_360pyx_e1a extends RefNodeListHandler {
     @NotNull
     private SNode myNode;
 
-    public endConditionListHandler_360pyx_e2a(SNode ownerNode, EditorContext context) {
+    public endConditionListHandler_360pyx_e1a(SNode ownerNode, EditorContext context) {
       super(context, false);
       myNode = ownerNode;
     }
@@ -218,10 +211,10 @@ import org.jetbrains.mps.openapi.language.SConcept;
     }
     public EditorCell createEmptyCell() {
       getCellFactory().pushCellContext();
-      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_e2a.this.getNode(), LINKS.endCondition$JAFo));
+      getCellFactory().setNodeLocation(new SNodeLocation.FromParentAndLink(endConditionListHandler_360pyx_e1a.this.getNode(), LINKS.endCondition$JAFo));
       try {
         EditorCell emptyCell = null;
-        emptyCell = createConstant_6();
+        emptyCell = createConstant_5();
         installElementCellActions(null, emptyCell, true);
         setCellContext(emptyCell);
         return emptyCell;
@@ -241,9 +234,9 @@ import org.jetbrains.mps.openapi.language.SConcept;
         }
       }
     }
-    private EditorCell createConstant_6() {
+    private EditorCell createConstant_5() {
       EditorCell_Constant editorCell = new EditorCell_Constant(getEditorContext(), myNode, "");
-      editorCell.setCellId("Constant_360pyx_a4c0");
+      editorCell.setCellId("Constant_360pyx_a4b0");
       Style style = new StyleImpl();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       style.set(StyleAttributes.TEXT_COLOR, StyleRegistry.getInstance().getSimpleColor(MPSColors.gray));
