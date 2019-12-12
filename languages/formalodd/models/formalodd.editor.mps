@@ -1322,7 +1322,7 @@
       <node concept="3EZMnI" id="3mweh_AeH9z" role="3EZMnx">
         <node concept="2iRfu4" id="3mweh_AeH9$" role="2iSdaV" />
         <node concept="3F0ifn" id="3mweh_AdFT_" role="3EZMnx">
-          <property role="3F0ifm" value="In the simmulation the pixel size is " />
+          <property role="3F0ifm" value="In the simulation the pixel size is " />
           <node concept="Vb9p2" id="3mweh_AeHgE" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="3mweh_AeH9R" role="3EZMnx">
