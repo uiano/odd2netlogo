@@ -115,6 +115,7 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
         <child id="3840659476812055819" name="entity" index="ZOwpT" />
         <child id="3840659476812055817" name="environment" index="ZOwpV" />
+        <child id="999929643176201180" name="relationships" index="1w1JPE" />
         <child id="8931575016887347252" name="userDefinedAttributes" index="1XCrKs" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
@@ -189,6 +190,10 @@
       </concept>
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
+      </concept>
+      <concept id="999929643171596417" name="formalodd.structure.Relationship" flags="ng" index="1wg3SR">
+        <reference id="999929643176198877" name="from" index="1w1JhF" />
+        <reference id="999929643171638826" name="to" index="1wg9ys" />
       </concept>
       <concept id="2325324488108205419" name="formalodd.structure.SelectingType" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
@@ -1272,6 +1277,18 @@
   <node concept="ZOwpP" id="4xlWY3qEPkU">
     <property role="TrG5h" value="Bullying" />
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
+      <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
+        <property role="TrG5h" value="test" />
+        <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
+        <ref role="1wg9ys" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="ZOwpH" id="4qxfPPPteTY" role="1XCrbu">
+          <property role="TrG5h" value="attraction" />
+          <node concept="ZOwp4" id="4qxfPPPteU2" role="zGXb3" />
+          <node concept="2oK_Am" id="4qxfPPPteU5" role="2oy9Oj">
+            <property role="2oK_Ap" value="5" />
+          </node>
+        </node>
+      </node>
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
         <property role="2IKGqT" value="10" />
@@ -1308,6 +1325,13 @@
         <node concept="1gdyix" id="4qxfPPPrnJb" role="1gdMhP">
           <property role="1gdyiw" value="has a default shape which is" />
         </node>
+        <node concept="21jJIL" id="4qxfPPPvE9x" role="RIgNU">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="10" />
+          <property role="21jJI7" value="1" />
+        </node>
+        <node concept="RFdHg" id="4qxfPPPvE9z" role="RFdH4" />
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yh" role="1XCrKs">
         <property role="TrG5h" value="num-internal-characteristics" />
@@ -1323,16 +1347,6 @@
         <property role="TrG5h" value="num-external-characteristics" />
         <node concept="ZOwps" id="4qxfPPOK$_P" role="zGXb3" />
         <node concept="21jJIL" id="4qxfPPOK$_S" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="10" />
-          <property role="21jJI7" value="1" />
-        </node>
-      </node>
-      <node concept="ZOwpH" id="4qxfPPOK$yw" role="1XCrKs">
-        <property role="TrG5h" value="num-students" />
-        <node concept="ZOwps" id="4qxfPPOK$_V" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOK$_Y" role="2oy9Oj">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
           <property role="2rHBro" value="10" />
@@ -1417,6 +1431,14 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="1" />
           <property role="21jJI7" value="0.1" />
+        </node>
+      </node>
+      <node concept="ZOwr_" id="4qxfPPPvEfp" role="ZOwpV">
+        <node concept="1g3uKF" id="4qxfPPPvEfr" role="2HUN8N">
+          <property role="1jzKJm" value="100" />
+          <property role="1jzt_n" value="2" />
+          <property role="1jzt_b" value="0" />
+          <property role="1jztgP" value="0" />
         </node>
       </node>
     </node>

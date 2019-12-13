@@ -5041,9 +5041,31 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="4qxfPPP$mL_" role="3EZMnx" />
+      <node concept="3F0ifn" id="4qxfPPP$mM0" role="3EZMnx">
+        <property role="3F0ifm" value="Initialize relationships" />
+      </node>
+      <node concept="1iCGBv" id="4qxfPPP$mMT" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+        <node concept="1sVBvm" id="4qxfPPP$mMV" role="1sWHZn">
+          <node concept="3F2HdR" id="4qxfPPP$mNx" role="2wV5jI">
+            <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
+            <node concept="2iRkQZ" id="4qxfPPP$mNz" role="2czzBx" />
+            <node concept="3F0ifn" id="4qxfPPP$mNA" role="2czzBI">
+              <property role="3F0ifm" value="Press Enter to add attribute" />
+            </node>
+            <node concept="2w$q5c" id="4qxfPPPABcu" role="78xua">
+              <node concept="2aJ2om" id="4qxfPPPABzH" role="2w$qW5">
+                <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="RwtFpHCeSz">
+    <property role="3GE5qa" value="Relationship" />
     <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Relationship" />
     <node concept="3EZMnI" id="RwtFpHVAty" role="2wV5jI">
       <node concept="l2Vlx" id="RwtFpHVAtz" role="2iSdaV" />
@@ -5616,6 +5638,31 @@
         </node>
       </node>
       <node concept="2j_NTm" id="4qxfPPP1DtW" role="1Qtc8$" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4qxfPPPABr0">
+    <property role="3GE5qa" value="Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Relationship" />
+    <node concept="2aJ2om" id="4qxfPPPABr2" role="CpUAK">
+      <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
+    </node>
+    <node concept="3EZMnI" id="4qxfPPPEfpd" role="2wV5jI">
+      <node concept="2iRkQZ" id="4qxfPPPEfpe" role="2iSdaV" />
+      <node concept="3EZMnI" id="4qxfPPPEfpv" role="3EZMnx">
+        <node concept="2iRfu4" id="4qxfPPPEfpw" role="2iSdaV" />
+        <node concept="3F0ifn" id="4qxfPPPCrLx" role="3EZMnx">
+          <property role="3F0ifm" value="Initialize relationship" />
+        </node>
+        <node concept="3F0A7n" id="4qxfPPPCrLp" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <node concept="ljvvj" id="4qxfPPPCrLq" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F2HdR" id="4qxfPPPEfoX" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7JNl2w6kIrQ" resolve="userDefinedAttributes" />
+      </node>
     </node>
   </node>
 </model>
