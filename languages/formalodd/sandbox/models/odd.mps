@@ -1302,11 +1302,11 @@
         <node concept="ZOwrR" id="4xlWY3qEPl1" role="3$oDj3">
           <property role="1lo2db" value="3okqQmm_ZZ_/blue" />
         </node>
-        <node concept="1gdyix" id="4xlWY3qEPl3" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
-        </node>
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="1lPuH5" value="person" />
+        </node>
+        <node concept="1gdyix" id="4qxfPPPrnJb" role="1gdMhP">
+          <property role="1gdyiw" value="has a default shape which is" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yh" role="1XCrKs">

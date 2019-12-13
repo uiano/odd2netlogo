@@ -5,6 +5,11 @@
       <sourceRoot location="models" />
     </modelRoot>
   </models>
+  <facets>
+    <facet type="java">
+      <classes generated="true" path="${module}/classes_gen" />
+    </facet>
+  </facets>
   <accessoryModels />
   <generators>
     <generator alias="main" namespace="formalodd#01" uuid="683a71e2-ddf5-460d-ace8-cdfa708b19b2">

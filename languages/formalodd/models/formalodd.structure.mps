@@ -172,13 +172,6 @@
       <property role="20kJfa" value="initialisationDistribution" />
       <ref role="20lvS9" node="6dSewhkPe5j" resolve="InitialEntityDistribution" />
     </node>
-    <node concept="1TJgyj" id="3lcKR8aBGkh" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055825" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="attributes" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
     <node concept="1TJgyj" id="6AuNKydZCrp" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951673049" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
