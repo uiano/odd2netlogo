@@ -317,6 +317,9 @@
           <property role="1$x2rV" value="Press enter to create EntitiesStateScale" />
           <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
         </node>
+        <node concept="3F1sOY" id="1Go6jkfcAda" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:1Go6jkfcAcM" resolve="DesignConcepts" />
+        </node>
         <node concept="3F1sOY" id="aIqcXnRuOp" role="3EZMnx">
           <property role="1$x2rV" value="Press enter to create initialisation" />
           <ref role="1NtTu8" to="86kt:aIqcXnQHFX" resolve="initialisation" />
@@ -846,7 +849,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5JxfqxAuKIm">
-    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="UserComment" />
+    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="InformalEntity" />
     <node concept="3F0A7n" id="5JxfqxAuKIo" role="2wV5jI">
       <property role="39s7Ar" value="true" />
       <ref role="1NtTu8" to="86kt:5JxfqxAu5tS" resolve="text" />
@@ -4563,7 +4566,7 @@
       <node concept="2iRkQZ" id="79PYCRrYoow" role="2iSdaV" />
       <node concept="3EZMnI" id="79PYCRrUG$n" role="3EZMnx">
         <node concept="3F0ifn" id="79PYCRrUG$u" role="3EZMnx">
-          <property role="3F0ifm" value="Will spawn " />
+          <property role="3F0ifm" value="Will spawn" />
           <node concept="Vb9p2" id="79PYCRrUGB7" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="79PYCRrUG$$" role="3EZMnx">
@@ -5663,6 +5666,22 @@
       <node concept="3F2HdR" id="4qxfPPPEfoX" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7JNl2w6kIrQ" resolve="userDefinedAttributes" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1Go6jkff6F4">
+    <ref role="1XX52x" to="86kt:1Go6jkfcAcJ" resolve="DesignConcepts" />
+    <node concept="3EZMnI" id="1Go6jkfgGgA" role="2wV5jI">
+      <node concept="3F0ifn" id="1Go6jkfgGgC" role="3EZMnx">
+        <property role="3F0ifm" value="Design concepts" />
+        <node concept="VSNWy" id="1Go6jkfgGgR" role="3F10Kt">
+          <property role="1lJzqX" value="20" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="1Go6jkfjV3Y" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1Go6jkfjV3w" resolve="text" />
+        <node concept="2iRkQZ" id="1Go6jkfjV40" role="2czzBx" />
+      </node>
+      <node concept="2iRkQZ" id="1Go6jkfgGgD" role="2iSdaV" />
     </node>
   </node>
 </model>

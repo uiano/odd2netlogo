@@ -1277,18 +1277,6 @@
   <node concept="ZOwpP" id="4xlWY3qEPkU">
     <property role="TrG5h" value="Bullying" />
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
-      <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
-        <property role="TrG5h" value="test" />
-        <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
-        <ref role="1wg9ys" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="ZOwpH" id="4qxfPPPteTY" role="1XCrbu">
-          <property role="TrG5h" value="attraction" />
-          <node concept="ZOwp4" id="4qxfPPPteU2" role="zGXb3" />
-          <node concept="2oK_Am" id="4qxfPPPteU5" role="2oy9Oj">
-            <property role="2oK_Ap" value="5" />
-          </node>
-        </node>
-      </node>
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
         <property role="2IKGqT" value="10" />
@@ -1325,13 +1313,13 @@
         <node concept="1gdyix" id="4qxfPPPrnJb" role="1gdMhP">
           <property role="1gdyiw" value="has a default shape which is" />
         </node>
+        <node concept="RFdHg" id="4qxfPPPvE9z" role="RFdH4" />
         <node concept="21jJIL" id="4qxfPPPvE9x" role="RIgNU">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
           <property role="2rHBro" value="10" />
           <property role="21jJI7" value="1" />
         </node>
-        <node concept="RFdHg" id="4qxfPPPvE9z" role="RFdH4" />
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yh" role="1XCrKs">
         <property role="TrG5h" value="num-internal-characteristics" />
@@ -1439,6 +1427,18 @@
           <property role="1jzt_n" value="2" />
           <property role="1jzt_b" value="0" />
           <property role="1jztgP" value="0" />
+        </node>
+      </node>
+      <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
+        <property role="TrG5h" value="test" />
+        <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
+        <ref role="1wg9ys" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="ZOwpH" id="4qxfPPPteTY" role="1XCrbu">
+          <property role="TrG5h" value="attraction" />
+          <node concept="ZOwp4" id="4qxfPPPteU2" role="zGXb3" />
+          <node concept="2oK_Am" id="4qxfPPPteU5" role="2oy9Oj">
+            <property role="2oK_Ap" value="5" />
+          </node>
         </node>
       </node>
     </node>

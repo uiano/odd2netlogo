@@ -87,7 +87,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="purpose" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="UserComment" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalEntity" />
     </node>
     <node concept="1TJgyj" id="6AuNKydYHYW" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951433660" />
@@ -122,6 +122,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="entityName" />
       <ref role="20lvS9" node="5JxfqxAuXCc" resolve="Names" />
+    </node>
+    <node concept="1TJgyj" id="1Go6jkfcAcM" role="1TKVEi">
+      <property role="IQ2ns" value="1952338154144031538" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="DesignConcepts" />
+      <ref role="20lvS9" node="1Go6jkfcAcJ" resolve="DesignConcepts" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGk8">
@@ -892,7 +898,7 @@
   </node>
   <node concept="1TIwiD" id="5JxfqxAu5tR">
     <property role="EcuMT" value="6620640720694302583" />
-    <property role="TrG5h" value="UserComment" />
+    <property role="TrG5h" value="InformalEntity" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5JxfqxAu5tS" role="1TKVEl">
       <property role="IQ2nx" value="6620640720694302584" />
@@ -2530,6 +2536,18 @@
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="BooleanValueSelect" />
     <ref role="1TJDcQ" node="3tK0pynGt4u" resolve="ValueSelect" />
+  </node>
+  <node concept="1TIwiD" id="1Go6jkfcAcJ">
+    <property role="EcuMT" value="1952338154144031535" />
+    <property role="TrG5h" value="DesignConcepts" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1Go6jkfjV3w" role="1TKVEi">
+      <property role="IQ2ns" value="1952338154145951968" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="text" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalEntity" />
+    </node>
   </node>
 </model>
 
