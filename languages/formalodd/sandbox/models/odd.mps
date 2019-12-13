@@ -89,7 +89,7 @@
       </concept>
       <concept id="7167542597237662036" name="formalodd.structure.Random" flags="ng" index="RFdHg" />
       <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B" />
-      <concept id="6620640720694302583" name="formalodd.structure.UserComment" flags="ng" index="XAmFv">
+      <concept id="6620640720694302583" name="formalodd.structure.InformalEntity" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
       <concept id="3840659476812055923" name="formalodd.structure.Shape" flags="ng" index="ZOwo1">
