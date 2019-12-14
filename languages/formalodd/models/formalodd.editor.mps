@@ -5014,9 +5014,6 @@
           <node concept="3F2HdR" id="4qxfPPP$mNx" role="2wV5jI">
             <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
             <node concept="2iRkQZ" id="4qxfPPP$mNz" role="2czzBx" />
-            <node concept="3F0ifn" id="4qxfPPP$mNA" role="2czzBI">
-              <property role="3F0ifm" value="Press Enter to add attribute" />
-            </node>
             <node concept="2w$q5c" id="4qxfPPPABcu" role="78xua">
               <node concept="2aJ2om" id="4qxfPPPABzH" role="2w$qW5">
                 <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />

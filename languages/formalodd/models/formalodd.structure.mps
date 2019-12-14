@@ -112,24 +112,14 @@
       <property role="20kJfa" value="overview" />
       <ref role="20lvS9" node="6lHESjKDb9g" resolve="Overview" />
     </node>
-    <node concept="1TJgyj" id="5EtG2rPwDiO" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716131308724" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="entity" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rPwDl9" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716131308873" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="entityName" />
-      <ref role="20lvS9" node="5JxfqxAuXCc" resolve="Names" />
-    </node>
     <node concept="1TJgyj" id="1Go6jkfcAcM" role="1TKVEi">
       <property role="IQ2ns" value="1952338154144031538" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="DesignConcepts" />
       <ref role="20lvS9" node="1Go6jkfcAcJ" resolve="DesignConcepts" />
+    </node>
+    <node concept="PrWs8" id="7qp8jK7Ll0s" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGk8">
