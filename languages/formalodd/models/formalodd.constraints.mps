@@ -126,7 +126,12 @@
         <reference id="1213093996982" name="concept" index="1M2myG" />
         <child id="6702802731807532712" name="canBeParent" index="9SGkU" />
         <child id="1213098023997" name="property" index="1MhHOB" />
+        <child id="1213100494875" name="referent" index="1Mr941" />
         <child id="1213101058038" name="defaultScope" index="1MtirG" />
+      </concept>
+      <concept id="1148687176410" name="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" flags="ng" index="1N5Pfh">
+        <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
+        <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
       <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
@@ -1930,6 +1935,60 @@
   <node concept="1M2fIO" id="24yfUKsjkvw">
     <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
     <ref role="1M2myG" to="86kt:24yfUKsjki_" resolve="Count" />
+  </node>
+  <node concept="1M2fIO" id="7qp8jK7Ll08">
+    <property role="3GE5qa" value="Scheduling" />
+    <ref role="1M2myG" to="86kt:6lHESjKCmJ$" resolve="Who" />
+    <node concept="1N5Pfh" id="7qp8jK7Ll09" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:5zjJPlga3JE" resolve="entity" />
+      <node concept="1dDu$B" id="7qp8jK7Ll0b" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7qp8jK7OWMZ" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:5zjJPlga3JH" resolve="environment" />
+      <node concept="1dDu$B" id="7qp8jK7OWN3" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7qp8jK7OBFI">
+    <property role="3GE5qa" value="Scheduling" />
+    <ref role="1M2myG" to="86kt:5EtG2rRiGmh" resolve="Who2" />
+    <node concept="1N5Pfh" id="7qp8jK7OBFJ" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:5EtG2rRptBV" resolve="attribute" />
+      <node concept="1dDu$B" id="7qp8jK7OBFN" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7qp8jK7OFNQ" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:5EtG2rRiGmi" resolve="entity" />
+      <node concept="1dDu$B" id="7qp8jK7OFNU" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7qp8jK7OFNW" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:5EtG2rRiGmj" resolve="environment" />
+      <node concept="1dDu$B" id="7qp8jK7OFO2" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7qp8jK7V$IP">
+    <property role="3GE5qa" value="Scheduling.EndCondition" />
+    <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="EndCondition_old" />
+    <node concept="1N5Pfh" id="7qp8jK7V$IQ" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:5EtG2rOxekr" resolve="entity" />
+      <node concept="1dDu$B" id="7qp8jK7V$IS" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="7qp8jK7V$IU" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:1zaawdwU1ic" resolve="attribute" />
+      <node concept="1dDu$B" id="7qp8jK7V$IY" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      </node>
+    </node>
   </node>
 </model>
 
