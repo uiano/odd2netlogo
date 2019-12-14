@@ -99,7 +99,7 @@
         <property id="2387540760902966010" name="typeToCount" index="Xgilm" />
         <child id="2387540760901536886" name="countBase" index="XrRfq" />
       </concept>
-      <concept id="2387540760902278597" name="formalodd.structure.CountNeighbours" flags="ng" index="XuE9D" />
+      <concept id="2387540760902278597" name="formalodd.structure.CountNeighbors" flags="ng" index="XuE9D" />
       <concept id="6620640720694302583" name="formalodd.structure.InformalEntity" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
@@ -1335,13 +1335,13 @@
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yh" role="1XCrKs">
         <property role="TrG5h" value="num-internal-characteristics" />
-        <node concept="ZOwps" id="4qxfPPOK$_J" role="zGXb3" />
         <node concept="21jJIL" id="4qxfPPOK$_M" role="2oy9Oj">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
           <property role="2rHBro" value="10" />
           <property role="21jJI7" value="1" />
         </node>
+        <node concept="ZOwps" id="4qxfPPOK$_J" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yn" role="1XCrKs">
         <property role="TrG5h" value="num-external-characteristics" />
