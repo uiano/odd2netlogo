@@ -632,10 +632,6 @@
             <property role="21jJI7" value="50" />
           </node>
         </node>
-        <node concept="ZOwpH" id="24yfUKsjphd" role="1XCrbu">
-          <property role="TrG5h" value="energino" />
-          <node concept="ZOwps" id="24yfUKsjphk" role="zGXb3" />
-        </node>
         <node concept="21jJIL" id="60Hvi7seuHH" role="RIgNU">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
