@@ -45,6 +45,7 @@
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
+        <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
@@ -207,12 +208,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3lcKR8aBGlq" resolve="Average" />
     </node>
-    <node concept="1TJgyj" id="4GvH3PCHYVn" role="1TKVEi">
-      <property role="IQ2ns" value="5413243452965514967" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Count" />
-      <ref role="20lvS9" node="3lcKR8aBGlt" resolve="Count" />
-    </node>
     <node concept="1TJgyj" id="6AuNKydZ5Jb" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951530955" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -339,8 +334,8 @@
     </node>
     <node concept="1TJgyi" id="60Hvi7st_S0" role="1TKVEl">
       <property role="IQ2nx" value="6930332985979198976" />
-      <property role="TrG5h" value="mode" />
-      <ref role="AX2Wp" node="60Hvi7sndtu" resolve="ValueSelectOptions" />
+      <property role="TrG5h" value="initialisationMethod" />
+      <ref role="AX2Wp" node="24yfUKsjo4g" resolve="InitialisationMethods" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGky">
@@ -502,12 +497,6 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlt">
-    <property role="EcuMT" value="3840659476812055901" />
-    <property role="TrG5h" value="Count" />
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlj" resolve="AgentStatistic" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlw">
     <property role="EcuMT" value="3840659476812055904" />
@@ -2654,6 +2643,109 @@
       <property role="3tVfz5" value="2039819488956380805" />
       <property role="TrG5h" value="top" />
       <property role="1L1pqM" value="Top" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24yfUKsi5Q4">
+    <property role="EcuMT" value="2387540760901213572" />
+    <property role="3GE5qa" value="Expression" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="NumericExpression" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="24yfUKsjki_">
+    <property role="EcuMT" value="2387540760901534885" />
+    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
+    <property role="TrG5h" value="Count" />
+    <ref role="1TJDcQ" node="24yfUKsi5Q4" resolve="NumericExpression" />
+    <node concept="1TJgyj" id="24yfUKsjkLQ" role="1TKVEi">
+      <property role="IQ2ns" value="2387540760901536886" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="countBase" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="24yfUKsjkLN" resolve="CountBase" />
+    </node>
+    <node concept="1TJgyj" id="24yfUKsi5Qk" role="1TKVEi">
+      <property role="IQ2ns" value="2387540760901213588" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="countCondition" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="24yfUKsjkLU" resolve="ConditionWith" />
+    </node>
+    <node concept="1TJgyi" id="24yfUKsoLFU" role="1TKVEl">
+      <property role="IQ2nx" value="2387540760902966010" />
+      <property role="TrG5h" value="typeToCount" />
+      <ref role="AX2Wp" node="24yfUKsoLFP" resolve="TypeToCount" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24yfUKsjkLN">
+    <property role="EcuMT" value="2387540760901536883" />
+    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
+    <property role="TrG5h" value="CountBase" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="24yfUKsjkLO" role="1TKVEl">
+      <property role="IQ2nx" value="2387540760901536884" />
+      <property role="TrG5h" value="all" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24yfUKsjkLU">
+    <property role="EcuMT" value="2387540760901536890" />
+    <property role="3GE5qa" value="Expression.Condition" />
+    <property role="TrG5h" value="ConditionWith" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+  </node>
+  <node concept="25R3W" id="24yfUKsjo4g">
+    <property role="3F6X1D" value="2387540760901550352" />
+    <property role="3GE5qa" value="Attribute" />
+    <property role="TrG5h" value="InitialisationMethods" />
+    <ref role="1H5jkz" node="24yfUKsjo4h" resolve="manually" />
+    <node concept="25R33" id="24yfUKsjo4h" role="25R1y">
+      <property role="3tVfz5" value="2387540760901550353" />
+      <property role="TrG5h" value="manually" />
+      <property role="1L1pqM" value="manually" />
+    </node>
+    <node concept="25R33" id="24yfUKsjo4i" role="25R1y">
+      <property role="3tVfz5" value="2387540760901550354" />
+      <property role="TrG5h" value="expression" />
+      <property role="1L1pqM" value="by expression" />
+    </node>
+    <node concept="25R33" id="24yfUKsjo4l" role="25R1y">
+      <property role="3tVfz5" value="2387540760901550357" />
+      <property role="TrG5h" value="nothing" />
+      <property role="1L1pqM" value="nothing" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24yfUKsm9R4">
+    <property role="EcuMT" value="2387540760902278596" />
+    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
+    <property role="TrG5h" value="CountSameLocation" />
+    <property role="34LRSv" value="Same Location" />
+    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="CountBase" />
+  </node>
+  <node concept="1TIwiD" id="24yfUKsm9R5">
+    <property role="EcuMT" value="2387540760902278597" />
+    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
+    <property role="TrG5h" value="CountNeighbors" />
+    <property role="34LRSv" value="Neighbors" />
+    <property role="R4oN_" value="Neighbor patches" />
+    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="CountBase" />
+  </node>
+  <node concept="1TIwiD" id="24yfUKsnr5W">
+    <property role="EcuMT" value="2387540760902611324" />
+    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
+    <property role="TrG5h" value="CountAll" />
+    <property role="34LRSv" value="All" />
+    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="CountBase" />
+  </node>
+  <node concept="25R3W" id="24yfUKsoLFP">
+    <property role="3F6X1D" value="2387540760902966005" />
+    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
+    <property role="TrG5h" value="TypeToCount" />
+    <node concept="25R33" id="24yfUKsoLFQ" role="25R1y">
+      <property role="3tVfz5" value="2387540760902966006" />
+      <property role="TrG5h" value="entities" />
+      <property role="1L1pqM" value="entities" />
     </node>
   </node>
 </model>
