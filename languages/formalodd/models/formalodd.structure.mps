@@ -2646,6 +2646,7 @@
     <property role="EcuMT" value="2387540760901534885" />
     <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
     <property role="TrG5h" value="Count" />
+    <property role="34LRSv" value="Counting" />
     <ref role="1TJDcQ" node="24yfUKsi5Q4" resolve="NumericExpression" />
     <node concept="1TJgyj" id="24yfUKsjkLQ" role="1TKVEi">
       <property role="IQ2ns" value="2387540760901536886" />
@@ -2683,7 +2684,28 @@
     <property role="EcuMT" value="2387540760901536890" />
     <property role="3GE5qa" value="Expression.Condition" />
     <property role="TrG5h" value="ConditionWith" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyi" id="24yfUKsyhVW" role="1TKVEl">
+      <property role="IQ2nx" value="2387540760905457404" />
+      <property role="TrG5h" value="comparrison" />
+      <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparrisonOperators" />
+    </node>
+    <node concept="1TJgyi" id="2kHWdXWIfCw" role="1TKVEl">
+      <property role="IQ2nx" value="2679062196016183840" />
+      <property role="TrG5h" value="selectionAttributes" />
+      <ref role="AX2Wp" node="2kHWdXWIfBX" resolve="ConditionWithAttributeSelectionEnum" />
+    </node>
+    <node concept="1TJgyi" id="4HBtuoj_DVw" role="1TKVEl">
+      <property role="IQ2nx" value="5433441106477358816" />
+      <property role="TrG5h" value="baseEntityAttributes" />
+      <ref role="AX2Wp" node="2kHWdXWIfBZ" resolve="EntityBaseAttriutes" />
+    </node>
+    <node concept="1TJgyj" id="2kHWdXWNjgW" role="1TKVEi">
+      <property role="IQ2ns" value="2679062196017509436" />
+      <property role="20kJfa" value="userDefinedAttribute" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
   </node>
   <node concept="25R3W" id="24yfUKsjo4g">
     <property role="3F6X1D" value="2387540760901550352" />
@@ -2736,6 +2758,75 @@
       <property role="3tVfz5" value="2387540760902966006" />
       <property role="TrG5h" value="entities" />
       <property role="1L1pqM" value="entities" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24yfUKswWzv">
+    <property role="EcuMT" value="2387540760905107679" />
+    <property role="3GE5qa" value="Expression.Condition" />
+    <property role="TrG5h" value="ConditionWithSpecific" />
+    <property role="34LRSv" value="With comparing to a specific value" />
+    <ref role="1TJDcQ" node="24yfUKsjkLU" resolve="ConditionWith" />
+    <node concept="1TJgyi" id="24yfUKsypwh" role="1TKVEl">
+      <property role="IQ2nx" value="2387540760905488401" />
+      <property role="TrG5h" value="targetValue" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="24yfUKswWzw">
+    <property role="EcuMT" value="2387540760905107680" />
+    <property role="3GE5qa" value="Expression.Condition" />
+    <property role="TrG5h" value="ConditionWithSame" />
+    <property role="34LRSv" value="With comparing to me" />
+    <ref role="1TJDcQ" node="24yfUKsjkLU" resolve="ConditionWith" />
+  </node>
+  <node concept="25R3W" id="24yfUKsyf$H">
+    <property role="3F6X1D" value="2387540760905447725" />
+    <property role="3GE5qa" value="Expression" />
+    <property role="TrG5h" value="ComparrisonOperators" />
+    <node concept="25R33" id="24yfUKsyf$I" role="25R1y">
+      <property role="3tVfz5" value="2387540760905447726" />
+      <property role="TrG5h" value="equal" />
+      <property role="1L1pqM" value="equal" />
+    </node>
+    <node concept="25R33" id="24yfUKsyf$J" role="25R1y">
+      <property role="3tVfz5" value="2387540760905447727" />
+      <property role="TrG5h" value="unequal" />
+      <property role="1L1pqM" value="unequal" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2kHWdXWIfBX">
+    <property role="3F6X1D" value="2679062196016183805" />
+    <property role="3GE5qa" value="Expression.Condition" />
+    <property role="TrG5h" value="ConditionWithAttributeSelectionEnum" />
+    <node concept="25R33" id="2kHWdXWIfBY" role="25R1y">
+      <property role="3tVfz5" value="2679062196016183806" />
+      <property role="TrG5h" value="baseEntity" />
+      <property role="1L1pqM" value="entity properties" />
+    </node>
+    <node concept="25R33" id="2kHWdXWLWGw" role="25R1y">
+      <property role="3tVfz5" value="2679062196017154848" />
+      <property role="TrG5h" value="userDefined" />
+      <property role="1L1pqM" value="user defined" />
+    </node>
+  </node>
+  <node concept="25R3W" id="2kHWdXWIfBZ">
+    <property role="3F6X1D" value="2679062196016183807" />
+    <property role="3GE5qa" value="Entity" />
+    <property role="TrG5h" value="EntityBaseAttriutes" />
+    <node concept="25R33" id="2kHWdXWIfC0" role="25R1y">
+      <property role="3tVfz5" value="2679062196016183808" />
+      <property role="TrG5h" value="color" />
+      <property role="1L1pqM" value="color" />
+    </node>
+    <node concept="25R33" id="2kHWdXWIfC1" role="25R1y">
+      <property role="3tVfz5" value="2679062196016183809" />
+      <property role="TrG5h" value="shape" />
+      <property role="1L1pqM" value="shape" />
+    </node>
+    <node concept="25R33" id="2kHWdXWIfC4" role="25R1y">
+      <property role="3tVfz5" value="2679062196016183812" />
+      <property role="TrG5h" value="size" />
+      <property role="1L1pqM" value="size" />
     </node>
   </node>
 </model>
