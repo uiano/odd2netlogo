@@ -42,7 +42,7 @@
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
-      <concept id="7308686357753541206" name="formalodd.structure.EndCondition_old" flags="ng" index="2lMhBi">
+      <concept id="7308686357753541206" name="formalodd.structure.EndCondition" flags="ng" index="2lMhBi">
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
         <child id="6400669868571704408" name="color" index="848cd" />
         <child id="6400669868571328618" name="endConditionOption" index="8rzWZ" />
@@ -97,7 +97,6 @@
       </concept>
       <concept id="2387540760901536890" name="formalodd.structure.ConditionWith" flags="ng" index="XrRfm">
         <property id="2387540760905457404" name="comparrison" index="XEM5g" />
-        <property id="2387540760905457403" name="propertyInQuestion" index="XEM5n" />
         <property id="5433441106477358816" name="baseEntityAttributes" index="1oWuG6" />
         <property id="2679062196016183840" name="selectionAttributes" index="1p_gFZ" />
       </concept>
@@ -107,7 +106,6 @@
         <child id="2387540760901536886" name="countBase" index="XrRfq" />
       </concept>
       <concept id="2387540760902278597" name="formalodd.structure.CountNeighbors" flags="ng" index="XuE9D" />
-      <concept id="2387540760902611324" name="formalodd.structure.CountAll" flags="ng" index="XvSVg" />
       <concept id="6620640720694302583" name="formalodd.structure.InformalEntity" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
@@ -639,8 +637,8 @@
           <node concept="21jJIL" id="60Hvi7sn85q" role="2oy9Oj">
             <property role="21jJIY" value="0" />
             <property role="21jJIV" value="100" />
-            <property role="2rHBro" value="5" />
-            <property role="21jJI7" value="50" />
+            <property role="2rHBro" value="30" />
+            <property role="21jJI7" value="5" />
           </node>
         </node>
         <node concept="21jJIL" id="60Hvi7seuHH" role="RIgNU">
@@ -724,7 +722,7 @@
           <property role="TrG5h" value="Fire" />
           <property role="2YXOq1" value="is" />
           <node concept="2hpLdR" id="1LeTgid_uzq" role="2W_r1q">
-            <property role="2hv$f$" value="1LeTgidavpP/bottom" />
+            <property role="2hv$f$" value="1LeTgidavpQ/left" />
           </node>
           <node concept="ZOwrR" id="1LeTgid_uz6" role="21mi6N">
             <property role="1lo2db" value="3okqQmm_ZZM/red" />
@@ -885,13 +883,12 @@
           <node concept="ZOwps" id="60Hvi7s7XxP" role="zGXb3" />
           <node concept="XrRG9" id="28AKh6DmYLV" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
-            <node concept="XuE9D" id="28AKh6DmYLZ" role="XrRfq" />
-            <node concept="XCvtc" id="28AKh6DmYM2" role="XqA8S">
-              <property role="XEM5n" value="s " />
-              <property role="XEM5g" value="24yfUKsyf$J/unequal" />
+            <node concept="XCvtc" id="4HBtuojWNAi" role="XqA8S">
               <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
               <property role="1oWuG6" value="2kHWdXWIfC0/color" />
+              <property role="XEM5g" value="24yfUKsyf$J/unequal" />
             </node>
+            <node concept="XuE9D" id="28AKh6DmYLZ" role="XrRfq" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s7Xwx" role="1XCrbu">
@@ -980,12 +977,7 @@
           <node concept="ZOwps" id="60Hvi7s7Xzo" role="zGXb3" />
           <node concept="XrRG9" id="24yfUKstj8i" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
-            <node concept="XCvtc" id="4HBtuojWfr5" role="XqA8S">
-              <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
-              <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-              <property role="XEM5g" value="24yfUKsyf$I/equal" />
-            </node>
-            <node concept="XvSVg" id="4HBtuojV2O_" role="XrRfq" />
+            <node concept="XuE9D" id="4HBtuojXZL$" role="XrRfq" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s81UW" role="1XCrbu">
@@ -1099,6 +1091,7 @@
             <property role="fDf1i" value="similar-nearby &gt;= (similar-nearby-wanted * total-nearby / 100)" />
             <ref role="8p6Ff" node="60Hvi7s6oq6" resolve="happy" />
           </node>
+          <node concept="8StVI" id="4HBtuok77N8" role="2GrruU" />
         </node>
         <node concept="2lNc1w" id="qdXC$ygXQ$" role="8Yoip">
           <property role="8X5i2" value="Entity" />

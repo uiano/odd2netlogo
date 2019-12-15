@@ -2028,7 +2028,7 @@
   </node>
   <node concept="1M2fIO" id="7qp8jK7V$IP">
     <property role="3GE5qa" value="Scheduling.EndCondition" />
-    <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="EndCondition_old" />
+    <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="EndCondition" />
     <node concept="1N5Pfh" id="7qp8jK7V$IQ" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5EtG2rOxekr" resolve="entity" />
       <node concept="1dDu$B" id="7qp8jK7V$IS" role="1N6uqs">
