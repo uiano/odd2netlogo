@@ -2,10 +2,10 @@
 <model ref="r:b91a2253-914c-4aeb-a0a7-649ba1e5ec11(formalodd.constraints)">
   <persistence version="9" />
   <languages>
-    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="5" />
-    <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="0" />
-    <use id="47257bf3-78d3-470b-89d9-8c3261a61d15" name="jetbrains.mps.lang.constraints.rules" version="0" />
-    <use id="134c38d4-e3af-4d9e-b069-1c7df0a4005d" name="jetbrains.mps.lang.constraints.rules.skeleton" version="0" />
+    <use id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints" version="-1" />
+    <use id="daafa647-f1f7-4b0b-b096-69cd7c8408c0" name="jetbrains.mps.baseLanguage.regexp" version="-1" />
+    <use id="47257bf3-78d3-470b-89d9-8c3261a61d15" name="jetbrains.mps.lang.constraints.rules" version="-1" />
+    <use id="134c38d4-e3af-4d9e-b069-1c7df0a4005d" name="jetbrains.mps.lang.constraints.rules.skeleton" version="-1" />
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
@@ -2045,6 +2045,21 @@
   <node concept="1M2fIO" id="4HBtuojwpXB">
     <property role="3GE5qa" value="Expression.Condition" />
     <ref role="1M2myG" to="86kt:24yfUKswWzw" resolve="ConditionWithSame" />
+  </node>
+  <node concept="1M2fIO" id="6efIhqTp5qJ">
+    <ref role="1M2myG" to="86kt:RwtFpHC4y1" resolve="Relationship" />
+    <node concept="1N5Pfh" id="6efIhqTp5qK" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:RwtFpHTCbt" resolve="from" />
+      <node concept="1dDu$B" id="6efIhqTp5qO" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
+      </node>
+    </node>
+    <node concept="1N5Pfh" id="6efIhqTp5qR" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:RwtFpHCeSE" resolve="to" />
+      <node concept="1dDu$B" id="6efIhqTp5qV" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
+      </node>
+    </node>
   </node>
 </model>
 
