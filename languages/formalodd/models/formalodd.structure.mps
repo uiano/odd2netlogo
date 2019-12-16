@@ -290,6 +290,9 @@
       <property role="TrG5h" value="unwanted_Distribution" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
+    <node concept="PrWs8" id="3kYfzLXhXMP" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkv">
     <property role="EcuMT" value="3840659476812055839" />
