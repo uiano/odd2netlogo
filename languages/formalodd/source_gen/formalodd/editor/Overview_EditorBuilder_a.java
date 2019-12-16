@@ -112,7 +112,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
       return LINKS.procedure$PoIF;
     }
     public SAbstractConcept getChildSConcept() {
-      return CONCEPTS.AbstractProcedure$Hl;
+      return CONCEPTS.Procedure$yk;
     }
 
     public EditorCell createNodeCell(SNode elementNode) {
@@ -252,7 +252,7 @@ import org.jetbrains.mps.openapi.language.SConcept;
   }
 
   private static final class CONCEPTS {
-    /*package*/ static final SConcept AbstractProcedure$Hl = MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x68df689219c023bL, "formalodd.structure.AbstractProcedure");
+    /*package*/ static final SConcept Procedure$yk = MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a16be5L, "formalodd.structure.Procedure");
     /*package*/ static final SConcept EndCondition$tb = MetaAdapterFactory.getConcept(0x32c6af6fc92141d7L, 0xa19e61a23bec1a47L, 0x656dab84f0a4b256L, "formalodd.structure.EndCondition");
   }
 }

@@ -1347,7 +1347,27 @@
     <property role="EcuMT" value="7308686357753326565" />
     <property role="3GE5qa" value="Scheduling" />
     <property role="TrG5h" value="Procedure" />
-    <ref role="1TJDcQ" node="qdXC$xB08V" resolve="AbstractProcedure" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3kYfzLXiOT1" role="1TKVEi">
+      <property role="IQ2ns" value="3836572362087288385" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="action" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
+    </node>
+    <node concept="1TJgyj" id="3kYfzLXiOT3" role="1TKVEi">
+      <property role="IQ2ns" value="3836572362087288387" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="who" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
+    </node>
+    <node concept="PrWs8" id="3kYfzLXiTF9" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="3kYfzLXo$cV" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKCmJA">
     <property role="EcuMT" value="7308686357753326566" />
@@ -1383,7 +1403,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="procedure" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="qdXC$xB08V" resolve="AbstractProcedure" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9j">
@@ -1399,7 +1419,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="procedures" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="qdXC$xB08V" resolve="AbstractProcedure" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9m">
@@ -2191,7 +2211,7 @@
     <node concept="1TJgyj" id="1zaawdwHRIF" role="1TKVEi">
       <property role="IQ2ns" value="1786286396201728939" />
       <property role="20kJfa" value="link" />
-      <ref role="20lvS9" node="qdXC$xB08V" resolve="AbstractProcedure" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MYWhBhM02l">
@@ -2218,7 +2238,7 @@
     <property role="EcuMT" value="472304604775893902" />
     <property role="3GE5qa" value="Scheduling" />
     <property role="TrG5h" value="Interaction" />
-    <ref role="1TJDcQ" node="qdXC$xB08V" resolve="AbstractProcedure" />
+    <ref role="1TJDcQ" node="6lHESjKCmJ_" resolve="Procedure" />
     <node concept="1TJgyj" id="1zaawdvsxRL" role="1TKVEi">
       <property role="IQ2ns" value="1786286396180405745" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2231,28 +2251,8 @@
       <property role="20kJfa" value="secondActor" />
       <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="qdXC$xB08V">
-    <property role="EcuMT" value="472304604778594875" />
-    <property role="3GE5qa" value="Scheduling" />
-    <property role="TrG5h" value="AbstractProcedure" />
-    <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5EtG2rQVSJ7" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155227079" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="action" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
-    </node>
-    <node concept="1TJgyj" id="5zjJPlgazJc" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868561677260" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="who" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6lHESjKCmJ$" resolve="Who" />
-    </node>
-    <node concept="PrWs8" id="qdXC$xB_oQ" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="3kYfzLXqvbR" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
   <node concept="1TIwiD" id="2gGtP_Va5R4">

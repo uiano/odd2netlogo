@@ -3271,7 +3271,7 @@
         </node>
         <node concept="3F2HdR" id="2EFWiW_elP0" role="3EZMnx">
           <property role="2czwfO" value="," />
-          <ref role="1NtTu8" to="86kt:5zjJPlgazJc" resolve="who" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="who" />
           <node concept="2iRfu4" id="2EFWiW_elP2" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_U3hZy" role="2czzBI">
             <property role="3F0ifm" value="press enter to add a new object" />
@@ -3284,12 +3284,12 @@
         <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="5zjJPlg$Anm" role="3EZMnx">
-        <node concept="3F1sOY" id="1zaawdvf12Y" role="3EZMnx">
-          <property role="1$x2rV" value="press control space to select type of action" />
-          <ref role="1NtTu8" to="86kt:5EtG2rQVSJ7" resolve="action" />
-        </node>
         <node concept="2iRkQZ" id="5zjJPlg$Ann" role="2iSdaV" />
         <node concept="VPM3Z" id="5zjJPlg$Ano" role="3F10Kt" />
+        <node concept="3F2HdR" id="3kYfzLXj3vy" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT1" resolve="action" />
+          <node concept="2iRkQZ" id="3kYfzLXj3vz" role="2czzBx" />
+        </node>
       </node>
       <node concept="3F0ifn" id="3OPyh9InX4X" role="3EZMnx" />
       <node concept="2iRkQZ" id="5zjJPlgalCB" role="2iSdaV" />
@@ -4795,7 +4795,7 @@
       <node concept="3EZMnI" id="1zaawdwPXVZ" role="3EZMnx">
         <node concept="2iRfu4" id="1zaawdwPXW0" role="2iSdaV" />
         <node concept="3F0ifn" id="1zaawdwPXWe" role="3EZMnx">
-          <property role="3F0ifm" value="preform the procedure" />
+          <property role="3F0ifm" value="perform the procedure" />
           <node concept="Vb9p2" id="1zaawdwPXWk" role="3F10Kt" />
         </node>
         <node concept="1iCGBv" id="1zaawdwHRIR" role="3EZMnx">
@@ -4873,7 +4873,7 @@
           <node concept="Vb9p2" id="qdXC$xsGJm" role="3F10Kt" />
         </node>
         <node concept="3F2HdR" id="qdXC$xsGJ9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgazJc" resolve="who" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="who" />
           <node concept="2iRfu4" id="qdXC$xsGJa" role="2czzBx" />
         </node>
       </node>
@@ -4898,13 +4898,6 @@
       <node concept="VPXOz" id="qdXC$xz0St" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="2gGtP_TV9ij">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:qdXC$xB08V" resolve="AbstractProcedure" />
-    <node concept="3F0ifn" id="2gGtP_USUfv" role="2wV5jI">
-      <property role="ilYzB" value="press control space to select type of procedure" />
     </node>
   </node>
   <node concept="24kQdi" id="2gGtP_V2vsH">
