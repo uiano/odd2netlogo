@@ -990,7 +990,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5JxfqxAuKIm">
-    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="InformalEntity" />
+    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="InformalConcept" />
     <node concept="3F0A7n" id="5JxfqxAuKIo" role="2wV5jI">
       <property role="39s7Ar" value="true" />
       <ref role="1NtTu8" to="86kt:5JxfqxAu5tS" resolve="text" />
@@ -2012,29 +2012,6 @@
         <node concept="VPM3Z" id="4diQXU_e_M_" role="3F10Kt" />
         <node concept="3F0A7n" id="4diQXU_e_MA" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="3F0ifn" id="4diQXU_e_MD" role="3EZMnx">
-          <property role="3F0ifm" value="contain any attributes " />
-          <node concept="pkWqt" id="4diQXU_e_ME" role="pqm2j">
-            <node concept="3clFbS" id="4diQXU_e_MF" role="2VODD2">
-              <node concept="3clFbF" id="4diQXU_e_MG" role="3cqZAp">
-                <node concept="2OqwBi" id="4diQXU_e_MH" role="3clFbG">
-                  <node concept="2OqwBi" id="4diQXU_e_MI" role="2Oq$k0">
-                    <node concept="pncrf" id="4diQXU_e_MJ" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="4diQXU_e_MK" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:3rTwIuRCfmU" resolve="showAttributes" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="4diQXU_e_ML" role="2OqNvi">
-                    <node concept="Xl_RD" id="4diQXU_e_MM" role="3y1jev">
-                      <property role="Xl_RC" value="does not" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="Vb9p2" id="4diQXU_e_MN" role="3F10Kt" />
         </node>
         <node concept="3F0ifn" id="4diQXU_e_MO" role="3EZMnx">
           <property role="3F0ifm" value="contains the following attributes :" />
