@@ -28,9 +28,9 @@
   </registry>
   <node concept="1GGwg0" id="4HBtuok77Ty">
     <property role="TrG5h" value="UpdateValue_Hints" />
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <node concept="1GGwg5" id="4HBtuok77Tz" role="1GGwg3">
-      <ref role="1GGwlc" to="86kt:5zjJPlgcA6V" resolve="UpdateValue" />
+      <ref role="1GGwlc" to="86kt:5zjJPlgcA6V" resolve="TODO_UpdateValue" />
     </node>
   </node>
 </model>

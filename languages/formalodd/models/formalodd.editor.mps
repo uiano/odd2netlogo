@@ -294,7 +294,7 @@
     </language>
   </registry>
   <node concept="24kQdi" id="6AuNKydYrMg">
-    <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
     <node concept="3EZMnI" id="6AuNKydYHWf" role="2wV5jI">
       <node concept="3EZMnI" id="5JxfqxAtDtC" role="3EZMnx">
         <node concept="VPM3Z" id="5JxfqxAtDtE" role="3F10Kt" />
@@ -351,7 +351,7 @@
   </node>
   <node concept="24kQdi" id="6AuNKydYHXu">
     <property role="3GE5qa" value="EntitiesStateScales" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateScales" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateScales" />
     <node concept="3EZMnI" id="3OPyh9HNrCe" role="2wV5jI">
       <node concept="3F0ifn" id="3okqQmncMuJ" role="3EZMnx">
         <property role="3F0ifm" value="Entities, state variables, and scales" />
@@ -482,8 +482,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydYPla">
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6AuNKydYPlc" role="2wV5jI">
       <node concept="3EZMnI" id="6AuNKydYPlY" role="3EZMnx">
         <node concept="3F0ifn" id="3mweh__uBB8" role="3EZMnx" />
@@ -572,8 +572,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydYPoA">
-    <property role="3GE5qa" value="Attribute" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <property role="3GE5qa" value="TODO_Attribute" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
     <node concept="3EZMnI" id="5DmxhgotJo5" role="2wV5jI">
       <node concept="2iRkQZ" id="5DmxhgotJo6" role="2iSdaV" />
       <node concept="3EZMnI" id="3tK0pynLqqH" role="3EZMnx">
@@ -596,7 +596,7 @@
             <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
             <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
             <node concept="A1WHr" id="7AEkq7x0FGR" role="3vIgyS">
-              <ref role="2ZyFGn" to="86kt:3lcKR8aBGky" resolve="Type" />
+              <ref role="2ZyFGn" to="86kt:3lcKR8aBGky" resolve="TODO_Type" />
             </node>
             <node concept="2w$q5c" id="7AEkq7x3fA0" role="3xwHhi">
               <node concept="2aJ2om" id="7AEkq7x3fA1" role="2w$qW5">
@@ -678,7 +678,7 @@
                         </node>
                         <node concept="1mIQ4w" id="60Hvi7s3jDr" role="2OqNvi">
                           <node concept="chp4Y" id="60Hvi7s3jMm" role="cj9EA">
-                            <ref role="cht4Q" to="86kt:3lcKR8aBGkQ" resolve="Float" />
+                            <ref role="cht4Q" to="86kt:3lcKR8aBGkQ" resolve="TODO_Float" />
                           </node>
                         </node>
                       </node>
@@ -691,7 +691,7 @@
                         </node>
                         <node concept="1mIQ4w" id="60Hvi7s3hkC" role="2OqNvi">
                           <node concept="chp4Y" id="60Hvi7s3h$U" role="cj9EA">
-                            <ref role="cht4Q" to="86kt:3lcKR8aBGkI" resolve="Integer" />
+                            <ref role="cht4Q" to="86kt:3lcKR8aBGkI" resolve="TODO_Integer" />
                           </node>
                         </node>
                       </node>
@@ -714,7 +714,7 @@
                       </node>
                       <node concept="1mIQ4w" id="7AEkq7xzzlk" role="2OqNvi">
                         <node concept="chp4Y" id="7AEkq7xzzrw" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="Slider" />
+                          <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
                         </node>
                       </node>
                     </node>
@@ -750,7 +750,7 @@
                       </node>
                       <node concept="1mIQ4w" id="60Hvi7s34Of" role="2OqNvi">
                         <node concept="chp4Y" id="60Hvi7s34Uv" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:3lcKR8aBGkH" resolve="Boolean" />
+                          <ref role="cht4Q" to="86kt:3lcKR8aBGkH" resolve="TODO_Boolean" />
                         </node>
                       </node>
                     </node>
@@ -831,7 +831,7 @@
           <node concept="18a60v" id="4qxfPPP1Cmx" role="3EZMnx">
             <node concept="VPM3Z" id="4qxfPPP1Cmz" role="3F10Kt" />
             <node concept="A1WHr" id="4qxfPPP1CmD" role="3vIgyS">
-              <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+              <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
             </node>
           </node>
           <node concept="2iRfu4" id="4qxfPPP1Cit" role="2iSdaV" />
@@ -840,8 +840,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydZ5It">
-    <property role="3GE5qa" value="Color" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="DefaultColor" />
+    <property role="3GE5qa" value="TODO_Color" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="TODO_DefaultColor" />
     <node concept="3EZMnI" id="3okqQmnLFdT" role="2wV5jI">
       <node concept="2iRfu4" id="3okqQmnLFdU" role="2iSdaV" />
       <node concept="3F0ifn" id="3okqQmnLFe2" role="3EZMnx">
@@ -854,8 +854,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPRO">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGmn" resolve="Environment" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGmn" resolve="TODO_Environment" />
     <node concept="3EZMnI" id="5EtG2rRtC8z" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rRtC8$" role="3EZMnx">
         <node concept="3F2HdR" id="5EtG2rRtC9v" role="3EZMnx">
@@ -889,8 +889,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPU9">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
     <node concept="3EZMnI" id="3rTwIuRByOW" role="2wV5jI">
       <node concept="l2Vlx" id="3rTwIuRByOX" role="2iSdaV" />
       <node concept="3EZMnI" id="3rTwIuRByPc" role="3EZMnx">
@@ -924,8 +924,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPWW">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGn6" resolve="SpecificLocation" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGn6" resolve="TODO_SpecificLocation" />
     <node concept="3EZMnI" id="5oUGABTKPWY" role="2wV5jI">
       <node concept="l2Vlx" id="5oUGABTKPX1" role="2iSdaV" />
       <node concept="3F1sOY" id="5oUGABTKPX8" role="3EZMnx">
@@ -937,16 +937,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPX$">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGn7" resolve="Location" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGn7" resolve="TODO_Location" />
     <node concept="3F0A7n" id="3rTwIuRFJsX" role="2wV5jI">
       <property role="1$x2rV" value="&lt;Press alt enter to choose location&gt;" />
       <ref role="1NtTu8" to="86kt:3rTwIuRFIe3" resolve="showLocation" />
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPZn">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGnm" resolve="Density_old" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGnm" resolve="TODO_Density_old" />
     <node concept="3EZMnI" id="5oUGABTKPZp" role="2wV5jI">
       <node concept="3F0ifn" id="5oUGABTKPZz" role="3EZMnx">
         <property role="3F0ifm" value="Percentage" />
@@ -958,8 +958,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKQ17">
-    <property role="3GE5qa" value="NotInUse.Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGn8" resolve="Area_old" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGn8" resolve="TODO_Area_old" />
     <node concept="3EZMnI" id="5oUGABTKQ19" role="2wV5jI">
       <node concept="3F0ifn" id="5oUGABTKQ1q" role="3EZMnx">
         <property role="3F0ifm" value="Select Locations" />
@@ -971,8 +971,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKQ2I">
-    <property role="3GE5qa" value="NotInUse.Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGng" resolve="Coordinates" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGng" resolve="TODO_Coordinates" />
     <node concept="3EZMnI" id="5oUGABTKQ2K" role="2wV5jI">
       <node concept="3F0ifn" id="5oUGABTKQ2U" role="3EZMnx">
         <property role="3F0ifm" value="X Coordinate" />
@@ -990,7 +990,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="5JxfqxAuKIm">
-    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="InformalConcept" />
+    <ref role="1XX52x" to="86kt:5JxfqxAu5tR" resolve="TODO_InformalConcept" />
     <node concept="3F0A7n" id="5JxfqxAuKIo" role="2wV5jI">
       <property role="39s7Ar" value="true" />
       <ref role="1NtTu8" to="86kt:5JxfqxAu5tS" resolve="text" />
@@ -1004,7 +1004,7 @@
   </node>
   <node concept="PKFIW" id="5JxfqxAwGeV">
     <property role="TrG5h" value="entityName" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateScales" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateScales" />
     <node concept="3EZMnI" id="7wk$2803UEX" role="2wV5jI">
       <node concept="3F0ifn" id="7wk$2803UF4" role="3EZMnx">
         <property role="3F0ifm" value="The model contains the following entities  " />
@@ -1029,8 +1029,8 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hPolu">
     <property role="TrG5h" value="Color" />
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6UrRj0hPolw" role="2wV5jI">
       <node concept="3EZMnI" id="6UrRj0hPolx" role="3EZMnx">
         <node concept="3EZMnI" id="6UrRj0hUq1z" role="3EZMnx">
@@ -1183,8 +1183,8 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hPot6">
     <property role="TrG5h" value="shape" />
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6UrRj0hPPtk" role="2wV5jI">
       <node concept="3EZMnI" id="3mweh___xM9" role="3EZMnx">
         <node concept="VPM3Z" id="3mweh___xMb" role="3F10Kt" />
@@ -1335,8 +1335,8 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hPEE9">
     <property role="TrG5h" value="AgentStatistics" />
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6UrRj0hPEFb" role="2wV5jI">
       <node concept="3EZMnI" id="aIqcXnxrKK" role="3EZMnx">
         <node concept="2iRfu4" id="aIqcXnxrKL" role="2iSdaV" />
@@ -1437,8 +1437,8 @@
   </node>
   <node concept="PKFIW" id="6UrRj0hQiob">
     <property role="TrG5h" value="Attribute" />
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6UrRj0hQiod" role="2wV5jI">
       <node concept="3EZMnI" id="6UrRj0hQEY1" role="3EZMnx">
         <node concept="VPM3Z" id="6UrRj0hQEY3" role="3F10Kt" />
@@ -1590,16 +1590,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh__ADZ$">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:3mweh___xQS" resolve="ShapeOptions" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:3mweh___xQS" resolve="TODO_ShapeOptions" />
     <node concept="3F0A7n" id="3mweh__ADZA" role="2wV5jI">
       <property role="1$x2rV" value="press alt enter to get shape options" />
       <ref role="1NtTu8" to="86kt:3mweh___xQT" resolve="ShapeOption" />
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8ICj">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="MoreColors" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="TODO_MoreColors" />
     <node concept="3EZMnI" id="3mweh_A8ICK" role="2wV5jI">
       <node concept="2iRfu4" id="3mweh_A8ICL" role="2iSdaV" />
       <node concept="3F0ifn" id="3mweh_A8ICQ" role="3EZMnx">
@@ -1612,15 +1612,15 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8IDa">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="ConditionalColor" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="TODO_ConditionalColor" />
     <node concept="3F0A7n" id="3mweh_A8IDc" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5vgYlnqdd_1" resolve="Color" />
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_AdFTu">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3mweh__FtkM" resolve="GraphicsWindow" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3mweh__FtkM" resolve="TODO_GraphicsWindow" />
     <node concept="3EZMnI" id="3mweh_AdFTw" role="2wV5jI">
       <node concept="3F0ifn" id="215d$P59d5q" role="3EZMnx">
         <property role="3F0ifm" value="Simulation appearance" />
@@ -1684,8 +1684,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="215d$P5d5cG">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:215d$P5bQEV" resolve="Intentions" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:215d$P5bQEV" resolve="TODO_Intentions" />
     <node concept="3EZMnI" id="215d$P5d5cW" role="2wV5jI">
       <node concept="2iRkQZ" id="215d$P5d5cX" role="2iSdaV" />
       <node concept="3EZMnI" id="215d$P5d5cM" role="3EZMnx">
@@ -1802,20 +1802,20 @@
   </node>
   <node concept="PKFIW" id="215d$P5efwS">
     <property role="TrG5h" value="Who" />
-    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="SelectingType" />
+    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="TODO_SelectingType" />
     <node concept="3F0A7n" id="215d$P5efwU" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:215d$P5delG" resolve="Who" />
     </node>
   </node>
   <node concept="PKFIW" id="215d$P5efwY">
     <property role="TrG5h" value="What" />
-    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="SelectingType" />
+    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="TODO_SelectingType" />
     <node concept="3F0A7n" id="215d$P5efx0" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:215d$P5delJ" resolve="What" />
     </node>
   </node>
   <node concept="24kQdi" id="215d$P5foT8">
-    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="SelectingType" />
+    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="TODO_SelectingType" />
     <node concept="3F0A7n" id="215d$P5foTa" role="2wV5jI">
       <property role="1$x2rV" value="press alt enter to select what type of object to be initilised" />
       <ref role="1NtTu8" to="86kt:215d$P5delG" resolve="Who" />
@@ -1823,15 +1823,15 @@
   </node>
   <node concept="PKFIW" id="215d$P5k6mk">
     <property role="TrG5h" value="EntityMain" />
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3F0A7n" id="215d$P5kAuv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="215d$P5kAtr">
-    <property role="3GE5qa" value="NotInUse.Entity" />
-    <ref role="1XX52x" to="86kt:215d$P5kAta" resolve="EntityReference" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Entity" />
+    <ref role="1XX52x" to="86kt:215d$P5kAta" resolve="TODO_EntityReference" />
     <node concept="3EZMnI" id="6JKNFtZQWwB" role="2wV5jI">
       <node concept="2iRfu4" id="6JKNFtZQWwC" role="2iSdaV" />
       <node concept="3F0ifn" id="6JKNFtZQWwQ" role="3EZMnx">
@@ -1849,22 +1849,22 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnugdh">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:5JxfqxAuXCc" resolve="Names" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:5JxfqxAuXCc" resolve="TODO_Names" />
     <node concept="3F0A7n" id="aIqcXnugdj" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5JxfqxAuXCd" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnyTSF">
-    <property role="3GE5qa" value="Unwanted" />
-    <ref role="1XX52x" to="86kt:aIqcXnvDHm" resolve="AgentStatisticOptions" />
+    <property role="3GE5qa" value="TODO_Unwanted" />
+    <ref role="1XX52x" to="86kt:aIqcXnvDHm" resolve="TODO_AgentStatisticOptions" />
     <node concept="3F0A7n" id="aIqcXnyTSH" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXnvDHn" resolve="Option" />
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnAOkV">
-    <property role="3GE5qa" value="Unwanted" />
-    <ref role="1XX52x" to="86kt:aIqcXnA9xq" resolve="Attribute" />
+    <property role="3GE5qa" value="TODO_Unwanted" />
+    <ref role="1XX52x" to="86kt:aIqcXnA9xq" resolve="TODO_Attribute" />
     <node concept="3EZMnI" id="aIqcXnAOs8" role="2wV5jI">
       <node concept="3EZMnI" id="aIqcXnDv$d" role="3EZMnx">
         <node concept="2iRfu4" id="aIqcXnDv$e" role="2iSdaV" />
@@ -1997,16 +1997,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXn_lWt">
-    <property role="3GE5qa" value="Unwanted" />
-    <ref role="1XX52x" to="86kt:aIqcXn$cmK" resolve="AttributeStabelOption" />
+    <property role="3GE5qa" value="TODO_Unwanted" />
+    <ref role="1XX52x" to="86kt:aIqcXn$cmK" resolve="TODO_AttributeStableOption" />
     <node concept="3F0A7n" id="aIqcXn_lWv" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXn$cmL" resolve="option" />
     </node>
   </node>
   <node concept="PKFIW" id="3rTwIuRCbzM">
     <property role="TrG5h" value="EnviromentAttribute" />
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
     <node concept="3EZMnI" id="4diQXU_e_Mz" role="2wV5jI">
       <node concept="3EZMnI" id="4diQXU_e_M$" role="3EZMnx">
         <node concept="VPM3Z" id="4diQXU_e_M_" role="3F10Kt" />
@@ -2024,8 +2024,8 @@
   </node>
   <node concept="PKFIW" id="3rTwIuRCfPJ">
     <property role="TrG5h" value="Location" />
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
     <node concept="3EZMnI" id="3rTwIuRCgkc" role="2wV5jI">
       <node concept="3EZMnI" id="60Hvi7sJPFW" role="3EZMnx">
         <node concept="2iRfu4" id="60Hvi7sJPFX" role="2iSdaV" />
@@ -2080,30 +2080,30 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnFUpZ">
-    <property role="3GE5qa" value="Unwanted" />
-    <ref role="1XX52x" to="86kt:aIqcXnEcvF" resolve="AttributeValueOptions" />
+    <property role="3GE5qa" value="TODO_Unwanted" />
+    <ref role="1XX52x" to="86kt:aIqcXnEcvF" resolve="TODO_AttributeValueOptions" />
     <node concept="3F0A7n" id="aIqcXnFUq1" role="2wV5jI">
       <property role="1$x2rV" value="press alt enter to get options for types" />
       <ref role="1NtTu8" to="86kt:aIqcXnEcvG" resolve="ValueOption" />
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnuSe8">
-    <property role="3GE5qa" value="Shape" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlN" resolve="Shape" />
+    <property role="3GE5qa" value="TODO_Shape" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlN" resolve="TODO_Shape" />
     <node concept="3F0A7n" id="aIqcXnv1Pk" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:aIqcXnuSea" resolve="shape" />
     </node>
   </node>
   <node concept="24kQdi" id="3rTwIuRHRCU">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHRCu" resolve="SliderOption" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHRCu" resolve="TODO_SliderOption" />
     <node concept="3F0A7n" id="3rTwIuRHRCW" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:3rTwIuRHRCv" resolve="showSlider" />
     </node>
   </node>
   <node concept="24kQdi" id="3rTwIuRHR_Y">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="Slider" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
     <node concept="3EZMnI" id="3rTwIuRHRA3" role="2wV5jI">
       <node concept="3EZMnI" id="3rTwIuRHRAR" role="3EZMnx">
         <node concept="VPM3Z" id="3rTwIuRHRAT" role="3F10Kt" />
@@ -2150,8 +2150,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnOmbI">
-    <property role="3GE5qa" value="Color" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlO" resolve="Color" />
+    <property role="3GE5qa" value="TODO_Color" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlO" resolve="TODO_Color" />
     <node concept="3EZMnI" id="3okqQmnzDe3" role="2wV5jI">
       <node concept="2iRfu4" id="3okqQmnzDe4" role="2iSdaV" />
       <node concept="3F0ifn" id="2gGtP_UQ_4D" role="3EZMnx">
@@ -2165,8 +2165,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnSYPF">
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXnPX63" resolve="Initialisation" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXnPX63" resolve="TODO_Initialisation" />
     <node concept="3EZMnI" id="3OPyh9HZ6Hi" role="2wV5jI">
       <node concept="3F0ifn" id="3OPyh9HZ6H$" role="3EZMnx">
         <property role="3F0ifm" value="Initialization" />
@@ -2196,8 +2196,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXnWERo">
     <property role="TrG5h" value="EnviromentColor" />
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
     <node concept="3EZMnI" id="3rTwIuRB$j0" role="2wV5jI">
       <node concept="3EZMnI" id="3rTwIuRB$j1" role="3EZMnx">
         <node concept="3F0ifn" id="3rTwIuRB$j2" role="3EZMnx">
@@ -2286,8 +2286,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnYWt1">
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXnYWrZ" resolve="InitalisationObject" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXnYWrZ" resolve="TODO_InitalisationObject" />
     <node concept="3EZMnI" id="aIqcXo4Wgx" role="2wV5jI">
       <node concept="2iRkQZ" id="aIqcXo4Wgy" role="2iSdaV" />
       <node concept="3EZMnI" id="aIqcXnYWt3" role="3EZMnx">
@@ -2457,8 +2457,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXo0Sfy">
     <property role="TrG5h" value="InitialisationEntity" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXnYWrZ" resolve="InitalisationObject" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXnYWrZ" resolve="TODO_InitalisationObject" />
     <node concept="3EZMnI" id="aIqcXo0Sf$" role="2wV5jI">
       <node concept="3EZMnI" id="aIqcXo9KAF" role="3EZMnx">
         <node concept="2iRfu4" id="aIqcXo9KAG" role="2iSdaV" />
@@ -2533,8 +2533,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXo1hfJ">
     <property role="TrG5h" value="InitialisationAtribute" />
-    <property role="3GE5qa" value="NotInUse.Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXo37bz" resolve="InitialisationAttribute" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXo37bz" resolve="TODO_InitialisationAttribute" />
     <node concept="3EZMnI" id="aIqcXo1hfL" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXo1hfM" role="2iSdaV" />
       <node concept="3F0ifn" id="aIqcXo1hfR" role="3EZMnx">
@@ -2559,8 +2559,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXocM6b">
-    <property role="3GE5qa" value="NotInUse.Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXo37bz" resolve="InitialisationAttribute" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXo37bz" resolve="TODO_InitialisationAttribute" />
     <node concept="3EZMnI" id="aIqcXoheyj" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXoheyk" role="2iSdaV" />
       <node concept="3F0ifn" id="aIqcXoheyl" role="3EZMnx">
@@ -2625,8 +2625,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXoibdv">
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXoibdx" role="2wV5jI">
       <node concept="3F0ifn" id="3OPyh9IeREp" role="3EZMnx">
         <property role="3F0ifm" value="For this entity" />
@@ -2772,8 +2772,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXoibfn">
     <property role="TrG5h" value="AttributeOptionsIsShapeInitialized" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
     <node concept="3F0ifn" id="aIqcXoibfp" role="2wV5jI">
       <property role="3F0ifm" value="shape is initialised" />
       <node concept="Vb9p2" id="aIqcXoibfs" role="3F10Kt" />
@@ -2781,8 +2781,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXoinR8">
     <property role="TrG5h" value="AttributeptionsIsColorInitialized" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
     <node concept="3F0ifn" id="aIqcXoinRa" role="2wV5jI">
       <property role="3F0ifm" value=" color is initialised" />
       <node concept="Vb9p2" id="aIqcXon36Q" role="3F10Kt" />
@@ -2790,8 +2790,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXoinT1">
     <property role="TrG5h" value="attibuteOptionsIsInitialized" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXoinT3" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXoinT4" role="2iSdaV" />
       <node concept="3F0ifn" id="aIqcXoinT7" role="3EZMnx">
@@ -2813,8 +2813,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXoinUT">
     <property role="TrG5h" value="AttributeOptionsIsInitilaisedWithsStartValue" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXoinUV" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXoinUW" role="2iSdaV" />
       <node concept="3F0ifn" id="aIqcXoinUZ" role="3EZMnx">
@@ -2852,8 +2852,8 @@
   </node>
   <node concept="PKFIW" id="aIqcXon3vQ">
     <property role="TrG5h" value="AttributeOptionsManualy" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="AttributeOptions" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
     <node concept="3EZMnI" id="aIqcXon3vS" role="2wV5jI">
       <node concept="2iRfu4" id="aIqcXon3vT" role="2iSdaV" />
       <node concept="3F0ifn" id="aIqcXon3vW" role="3EZMnx">
@@ -2881,8 +2881,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6lHESjKE0ft">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:6lHESjKDbbO" resolve="Move" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:6lHESjKDbbO" resolve="TODO_Move" />
     <node concept="3EZMnI" id="6lHESjKE0fv" role="2wV5jI">
       <node concept="2iRkQZ" id="6lHESjKE0fy" role="2iSdaV" />
       <node concept="3F0ifn" id="5EtG2rQQ_VC" role="3EZMnx" />
@@ -3055,8 +3055,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlg9BSQ">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJ$" resolve="Who" />
+    <property role="3GE5qa" value="TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJ$" resolve="TODO_Who" />
     <node concept="3EZMnI" id="5zjJPlg9BSS" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlg9BTd" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlg9BTf" role="3F10Kt" />
@@ -3129,8 +3129,8 @@
   </node>
   <node concept="PKFIW" id="5zjJPlga6Tp">
     <property role="TrG5h" value="InitialisationEnvironment" />
-    <property role="3GE5qa" value="Initialisation" />
-    <ref role="1XX52x" to="86kt:aIqcXnYWrZ" resolve="InitalisationObject" />
+    <property role="3GE5qa" value="TODO_Initialisation" />
+    <ref role="1XX52x" to="86kt:aIqcXnYWrZ" resolve="TODO_InitalisationObject" />
     <node concept="3EZMnI" id="5zjJPlga6Tr" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlga6T_" role="3EZMnx">
         <node concept="2iRfu4" id="5zjJPlga6TA" role="2iSdaV" />
@@ -3196,8 +3196,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgalBx">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="CompoundAction" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="TODO_CompoundAction" />
     <node concept="3EZMnI" id="5EtG2rQW0Vd" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQW0Ve" role="3EZMnx">
         <node concept="3F1sOY" id="qdXC$xWxDX" role="3EZMnx">
@@ -3231,8 +3231,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgalCy">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
+    <property role="3GE5qa" value="TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="TODO_Procedure" />
     <node concept="3EZMnI" id="5zjJPlgalC$" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgalCT" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgalCV" role="3F10Kt" />
@@ -3276,8 +3276,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgc2i8">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgc2hF" resolve="ActionSelect" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgc2hF" resolve="TODO_ActionSelect" />
     <node concept="3EZMnI" id="5EtG2rQU7Sc" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQU7Sd" role="3EZMnx">
         <node concept="3F0ifn" id="5EtG2rQU7Se" role="3EZMnx" />
@@ -3308,8 +3308,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgcAta">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcAgd" resolve="ChangeEnvironment" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgcAgd" resolve="TODO_ChangeEnvironment" />
     <node concept="3EZMnI" id="5zjJPlgcAtc" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$ycQ9W" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -3389,23 +3389,23 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgcAv_">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcAv8" resolve="ChangeEnvironmentOption" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgcAv8" resolve="TODO_ChangeEnvironmentOption" />
     <node concept="3F0A7n" id="5zjJPlgcAvB" role="2wV5jI">
       <property role="1$x2rV" value="press alt enter" />
       <ref role="1NtTu8" to="86kt:5zjJPlgcAv9" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgjDT6">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgjDSD" resolve="OptionYesNo" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgjDSD" resolve="TODO_OptionYesNo" />
     <node concept="3F0A7n" id="5zjJPlgjDT8" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5zjJPlgjDSE" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgjOi7">
-    <property role="3GE5qa" value="NotInUse.Scheduling" />
-    <ref role="1XX52x" to="86kt:6lHESjKDb9w" resolve="Condition" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:6lHESjKDb9w" resolve="TODO_Condition" />
     <node concept="3EZMnI" id="5zjJPlgjOi9" role="2wV5jI">
       <node concept="3F1sOY" id="6JKNFtZUAjv" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6JKNFtZUAjj" resolve="base" />
@@ -3621,8 +3621,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgCE45">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgCE3s" resolve="CreateNewEntity" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgCE3s" resolve="TODO_CreateNewEntity" />
     <node concept="3EZMnI" id="5zjJPlgCE47" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgHXp_" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgHXpB" role="3F10Kt" />
@@ -3639,8 +3639,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgCEwu">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="KillEntity" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="TODO_KillEntity" />
     <node concept="3EZMnI" id="5zjJPlgCEww" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$xWxD9" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -3661,8 +3661,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD5J8">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgCEeW" resolve="Conflict" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgCEeW" resolve="TODO_Conflict" />
     <node concept="3EZMnI" id="5zjJPlgD5Ja" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgDscS" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgDscU" role="3F10Kt" />
@@ -3681,8 +3681,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD6iC">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="UpdateValue" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="TODO_UpdateValue" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$yNQPY" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -3744,15 +3744,15 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD73$">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgD73a" resolve="ConflictOption" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgD73a" resolve="TODO_ConflictOption" />
     <node concept="3F0A7n" id="5zjJPlgD73D" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5zjJPlgD73A" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgHXnW">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgHXnq" resolve="ChangeAttribute" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:5zjJPlgHXnq" resolve="TODO_ChangeAttribute" />
     <node concept="3EZMnI" id="5zjJPlgHXnY" role="2wV5jI">
       <node concept="3F0ifn" id="5zjJPlgHXo8" role="3EZMnx">
         <property role="3F0ifm" value="Attribute name" />
@@ -3772,8 +3772,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgJnXc">
-    <property role="3GE5qa" value="Scheduling.EndCondition" />
-    <ref role="1XX52x" to="86kt:6lHESjKDb9m" resolve="EndCondition" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
+    <ref role="1XX52x" to="86kt:6lHESjKDb9m" resolve="TODO_EndCondition" />
     <node concept="3EZMnI" id="5zjJPlgKNKw" role="2wV5jI">
       <node concept="2iRkQZ" id="5zjJPlgKNKx" role="2iSdaV" />
       <node concept="3EZMnI" id="5zjJPlgKNKA" role="3EZMnx">
@@ -4107,8 +4107,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgJo0t">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="Overview" />
+    <property role="3GE5qa" value="TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="TODO_Overview" />
     <node concept="3EZMnI" id="5zjJPlgJo0v" role="2wV5jI">
       <node concept="3F0ifn" id="3OPyh9HQ0IL" role="3EZMnx">
         <property role="3F0ifm" value="Process overview and scheduling" />
@@ -4163,30 +4163,30 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgJo2a">
-    <property role="3GE5qa" value="Scheduling.EndCondition" />
-    <ref role="1XX52x" to="86kt:5zjJPlgJo1D" resolve="EndConditionOption" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
+    <ref role="1XX52x" to="86kt:5zjJPlgJo1D" resolve="TODO_EndConditionOption" />
     <node concept="3F0A7n" id="5zjJPlgJo2f" role="2wV5jI">
       <property role="1$x2rV" value="press alt enter to select the type of endconditon" />
       <ref role="1NtTu8" to="86kt:5zjJPlgJo2c" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rOEbZg">
-    <property role="3GE5qa" value="NotInUse" />
-    <ref role="1XX52x" to="86kt:5EtG2rOEbYN" resolve="ShapeSizeOption" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
+    <ref role="1XX52x" to="86kt:5EtG2rOEbYN" resolve="TODO_ShapeSizeOption" />
     <node concept="3F0A7n" id="5EtG2rOEbZi" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5EtG2rOEbYO" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQDhqS">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqu" resolve="MoveSelect" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqu" resolve="TODO_MoveSelect" />
     <node concept="3F0A7n" id="5EtG2rQDhqW" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5EtG2rQDhqU" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMz_">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqd" resolve="TurnLeft" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqd" resolve="TODO_TurnLeft" />
     <node concept="3EZMnI" id="5EtG2rQFMzB" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQFMzI" role="3EZMnx">
         <node concept="VPM3Z" id="5EtG2rQFMzK" role="3F10Kt" />
@@ -4206,8 +4206,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFM$H">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqc" resolve="TurnRight" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqc" resolve="TODO_TurnRight" />
     <node concept="3EZMnI" id="5EtG2rQFM$J" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQFM$K" role="3EZMnx">
         <node concept="VPM3Z" id="5EtG2rQFM$L" role="3F10Kt" />
@@ -4227,8 +4227,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMAa">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqf" resolve="MoveForward" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqf" resolve="TODO_MoveForward" />
     <node concept="3EZMnI" id="5EtG2rQFMAc" role="2wV5jI">
       <node concept="3F0ifn" id="5EtG2rQOOYc" role="3EZMnx" />
       <node concept="3EZMnI" id="5EtG2rQFMAd" role="3EZMnx">
@@ -4249,8 +4249,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMAP">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqg" resolve="MoveBack" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqg" resolve="TODO_MoveBack" />
     <node concept="3EZMnI" id="5EtG2rQFMAR" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQFMAS" role="3EZMnx">
         <node concept="VPM3Z" id="5EtG2rQFMAT" role="3F10Kt" />
@@ -4270,8 +4270,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMBw">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TurnRandom" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TODO_TurnRandom" />
     <node concept="3EZMnI" id="5EtG2rQFMBy" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQFMBz" role="3EZMnx">
         <node concept="VPM3Z" id="5EtG2rQFMB$" role="3F10Kt" />
@@ -4297,8 +4297,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rRiEvq">
-    <property role="3GE5qa" value="Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:5EtG2rRitR1" resolve="ifcondition" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:5EtG2rRitR1" resolve="TODO_ifcondition" />
     <node concept="3EZMnI" id="1zaawdvhW4L" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdvhW4M" role="2iSdaV" />
       <node concept="3EZMnI" id="5EtG2rRiEvs" role="3EZMnx">
@@ -4323,8 +4323,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rRiGmJ">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:5EtG2rRiGmh" resolve="Who2" />
+    <property role="3GE5qa" value="TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:5EtG2rRiGmh" resolve="TODO_Who2" />
     <node concept="3EZMnI" id="5EtG2rRiGx3" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rRiGx4" role="3EZMnx">
         <node concept="VPM3Z" id="5EtG2rRiGx5" role="3F10Kt" />
@@ -4472,7 +4472,7 @@
     </node>
   </node>
   <node concept="2ABfQD" id="3okqQmmA05m">
-    <property role="3GE5qa" value="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
     <property role="TrG5h" value="NamesForEntity" />
     <node concept="2BsEeg" id="3okqQmmA0os" role="2ABdcP">
       <property role="2gpH_U" value="true" />
@@ -4484,8 +4484,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="3okqQmmA0ou">
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3F0A7n" id="3okqQmmA0o_" role="2wV5jI">
       <property role="1$x2rV" value="write name of entity" />
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -4495,8 +4495,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="2EFWiWzCelB">
-    <property role="3GE5qa" value="Scheduling.actionSelect.Move" />
-    <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="MoveRandom" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="TODO_MoveRandom" />
     <node concept="3EZMnI" id="2EFWiW$K15A" role="2wV5jI">
       <node concept="3F1sOY" id="2gGtP_UAf8N" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -4520,8 +4520,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="2EFWiW_aoJO">
-    <property role="3GE5qa" value="Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:2EFWiW_aoJz" resolve="Collides" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:2EFWiW_aoJz" resolve="TODO_Collides" />
     <node concept="3EZMnI" id="1zaawdvuX6n" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdvuX6o" role="2iSdaV" />
       <node concept="3EZMnI" id="2EFWiW_aoJQ" role="3EZMnx">
@@ -4549,7 +4549,7 @@
                 <node concept="2OqwBi" id="4MYWhBhD_7q" role="3fr31v">
                   <node concept="pncrf" id="4MYWhBhD_7r" role="2Oq$k0" />
                   <node concept="1BlSNk" id="4MYWhBhD_7s" role="2OqNvi">
-                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="compoundCondition" />
+                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
                     <ref role="1Bn3mz" to="86kt:1zaawdvhWY3" resolve="condition" />
                   </node>
                 </node>
@@ -4561,8 +4561,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="79PYCRrUG$l">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:79PYCRrUEZI" resolve="Spawn" />
+    <property role="3GE5qa" value="TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:79PYCRrUEZI" resolve="TODO_Spawn" />
     <node concept="3EZMnI" id="79PYCRrYoov" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$y9jvJ" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -4609,8 +4609,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="2j8p7S3xVbl">
-    <property role="3GE5qa" value="Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:2j8p7S3xTRH" resolve="CurrentEnviroment" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:2j8p7S3xTRH" resolve="TODO_CurrentEnviroment" />
     <node concept="3EZMnI" id="1zaawdw2iwc" role="2wV5jI">
       <node concept="3EZMnI" id="1zaawdw2iwj" role="3EZMnx">
         <node concept="2iRfu4" id="1zaawdw2iwk" role="2iSdaV" />
@@ -4631,7 +4631,7 @@
                 <node concept="2OqwBi" id="4MYWhBhDz67" role="3fr31v">
                   <node concept="pncrf" id="4MYWhBhDz68" role="2Oq$k0" />
                   <node concept="1BlSNk" id="4MYWhBhDz69" role="2OqNvi">
-                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="compoundCondition" />
+                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
                     <ref role="1Bn3mz" to="86kt:1zaawdvhWY3" resolve="condition" />
                   </node>
                 </node>
@@ -4644,8 +4644,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdvhWYd">
-    <property role="3GE5qa" value="NotInUse.Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:1zaawdvhWY2" resolve="compoundCondition" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
     <node concept="3EZMnI" id="1zaawdvhWYi" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdvhWYj" role="2iSdaV" />
       <node concept="3EZMnI" id="1zaawdvhWY$" role="3EZMnx">
@@ -4668,23 +4668,23 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdvhXDe">
-    <property role="3GE5qa" value="NotInUse.Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:1zaawdvhXD5" resolve="NoCondition" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:1zaawdvhXD5" resolve="TODO_NoCondition" />
     <node concept="3F1sOY" id="1zaawdvhXDg" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:1zaawdvpEgE" resolve="action" />
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdvBQJV">
-    <property role="3GE5qa" value="NotInUse.Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:1zaawdv_Qhw" resolve="noAction" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:1zaawdv_Qhw" resolve="TODO_noAction" />
     <node concept="3EZMnI" id="1zaawdvBQJX" role="2wV5jI">
       <node concept="2iRfu4" id="1zaawdvBQJY" role="2iSdaV" />
       <node concept="3F0ifn" id="1zaawdvBQK3" role="3EZMnx" />
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdw2iy3">
-    <property role="3GE5qa" value="Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:1zaawdw2ixu" resolve="NeighborEnviroment" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:1zaawdw2ixu" resolve="TODO_NeighborEnviroment" />
     <node concept="3EZMnI" id="1zaawdw2iyx" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdw2iyy" role="2iSdaV" />
       <node concept="3EZMnI" id="2j8p7S3LOay" role="3EZMnx">
@@ -4706,7 +4706,7 @@
                 <node concept="2OqwBi" id="4MYWhBhDtK0" role="3fr31v">
                   <node concept="pncrf" id="4MYWhBhDtyE" role="2Oq$k0" />
                   <node concept="1BlSNk" id="4MYWhBhDxQS" role="2OqNvi">
-                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="compoundCondition" />
+                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
                     <ref role="1Bn3mz" to="86kt:1zaawdvhWY3" resolve="condition" />
                   </node>
                 </node>
@@ -4718,8 +4718,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdw5aVO">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:1zaawdw5aVr" resolve="Sprout" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:1zaawdw5aVr" resolve="TODO_Sprout" />
     <node concept="3EZMnI" id="qdXC$xWxDh" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$xWxDG" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -4744,8 +4744,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdwHPWu">
-    <property role="3GE5qa" value="Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:1zaawdwHPWl" resolve="OcupiedSpot" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:1zaawdwHPWl" resolve="TODO_OccupiedSpot" />
     <node concept="3EZMnI" id="1zaawdwLVtp" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdwLVtq" role="2iSdaV" />
       <node concept="3EZMnI" id="1zaawdwLVth" role="3EZMnx">
@@ -4761,8 +4761,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdwHRIP">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:1zaawdwHRIC" resolve="LinkAction" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:1zaawdwHRIC" resolve="TODO_LinkAction" />
     <node concept="3EZMnI" id="qdXC$ygXRO" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$ygXSf" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -4789,8 +4789,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="4MYWhBhM02u">
-    <property role="3GE5qa" value="Scheduling.actionSelect" />
-    <ref role="1XX52x" to="86kt:4MYWhBhM02l" resolve="CenterOnPatch" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <ref role="1XX52x" to="86kt:4MYWhBhM02l" resolve="TODO_CenterOnPatch" />
     <node concept="3EZMnI" id="2gGtP_UsSz3" role="2wV5jI">
       <node concept="3F1sOY" id="2gGtP_UsSzf" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -4804,8 +4804,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="4diQXU$E53G">
-    <property role="3GE5qa" value="NotInUse.Scheduling.Conditions" />
-    <ref role="1XX52x" to="86kt:4diQXU$E52Z" resolve="ThisEnvironment" />
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
+    <ref role="1XX52x" to="86kt:4diQXU$E52Z" resolve="TODO_ThisEnvironment" />
     <node concept="3EZMnI" id="4diQXU$E53I" role="2wV5jI">
       <node concept="2iRkQZ" id="4diQXU$E53J" role="2iSdaV" />
       <node concept="3EZMnI" id="4diQXU$E53K" role="3EZMnx">
@@ -4821,8 +4821,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="qdXC$xsGIv">
-    <property role="3GE5qa" value="Scheduling" />
-    <ref role="1XX52x" to="86kt:qdXC$xsGIe" resolve="Interaction" />
+    <property role="3GE5qa" value="TODO_Scheduling" />
+    <ref role="1XX52x" to="86kt:qdXC$xsGIe" resolve="TODO_Interaction" />
     <node concept="3EZMnI" id="qdXC$xsGKS" role="2wV5jI">
       <node concept="2iRkQZ" id="qdXC$xsGKT" role="2iSdaV" />
       <node concept="3EZMnI" id="qdXC$xsGIQ" role="3EZMnx">
@@ -4878,16 +4878,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="2gGtP_V2vsH">
-    <property role="3GE5qa" value="Shape" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlP" resolve="DefaultShape" />
+    <property role="3GE5qa" value="TODO_Shape" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlP" resolve="TODO_DefaultShape" />
     <node concept="3F0A7n" id="2gGtP_V2vsJ" role="2wV5jI">
       <property role="1$x2rV" value="enter shape" />
       <ref role="1NtTu8" to="86kt:aIqcXnuSea" resolve="shape" />
     </node>
   </node>
   <node concept="24kQdi" id="3tK0pynDbzl">
-    <property role="3GE5qa" value="Attribute" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <property role="3GE5qa" value="TODO_Attribute" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
     <node concept="2aJ2om" id="3tK0pynJFlc" role="CpUAK">
       <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
     </node>
@@ -4917,8 +4917,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="3tK0pyo0$FJ">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Integer" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="TODO_Integer" />
     <node concept="3EZMnI" id="7AEkq7y73pM" role="2wV5jI">
       <node concept="3F0ifn" id="7AEkq7y73pT" role="3EZMnx">
         <property role="3F0ifm" value="Integer" />
@@ -4927,16 +4927,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="3tK0pyo7url">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGky" resolve="Type" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGky" resolve="TODO_Type" />
     <node concept="3F0ifn" id="3tK0pyo8Y1T" role="2wV5jI">
       <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
       <property role="ilYzB" value="Press ctrl space to select Type" />
     </node>
   </node>
   <node concept="24kQdi" id="7AEkq7wWNwy">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Integer" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="TODO_Integer" />
     <node concept="3EZMnI" id="7AEkq7xvBFu" role="2wV5jI">
       <node concept="2iRfu4" id="7AEkq7xvBFv" role="2iSdaV" />
       <node concept="3F0ifn" id="7AEkq7wWNwA" role="3EZMnx">
@@ -4948,7 +4948,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="7AEkq7xf3c$">
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="Slider" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
     <node concept="3F0ifn" id="7AEkq7xf3cC" role="2wV5jI">
       <property role="3F0ifm" value="slider" />
     </node>
@@ -4957,12 +4957,12 @@
     </node>
   </node>
   <node concept="24kQdi" id="7AEkq7xx$K4">
-    <property role="3GE5qa" value="ValueSelect" />
-    <ref role="1XX52x" to="86kt:3tK0pynGt4u" resolve="ValueSelect" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
+    <ref role="1XX52x" to="86kt:3tK0pynGt4u" resolve="TODO_ValueSelect" />
     <node concept="3F0ifn" id="60Hvi7stFrt" role="2wV5jI" />
   </node>
   <node concept="24kQdi" id="7AEkq7xyz$q">
-    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="NumericConstant" />
+    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
     <node concept="3EZMnI" id="7AEkq7xyz$v" role="2wV5jI">
       <node concept="3F0ifn" id="7AEkq7xyz$C" role="3EZMnx">
         <property role="3F0ifm" value="specific value:" />
@@ -4976,7 +4976,7 @@
   </node>
   <node concept="PKFIW" id="5DmxhgogsFL">
     <property role="TrG5h" value="Initialize_EntityStateScales" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
     <node concept="3EZMnI" id="5DmxhgoqSCJ" role="2wV5jI">
       <node concept="3F0ifn" id="6dSewhkrT5U" role="3EZMnx">
         <property role="3F0ifm" value="Initialize entities" />
@@ -5063,7 +5063,7 @@
   </node>
   <node concept="24kQdi" id="RwtFpHCeSz">
     <property role="3GE5qa" value="Relationship" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
     <node concept="3EZMnI" id="7qp8jK78Yih" role="2wV5jI">
       <node concept="2iRkQZ" id="7qp8jK78Yii" role="2iSdaV" />
       <node concept="3EZMnI" id="7qp8jK78Ykb" role="3EZMnx">
@@ -5121,7 +5121,7 @@
           </node>
         </node>
         <node concept="A1WHr" id="7qp8jK7DEfh" role="3vIgyS">
-          <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+          <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
         </node>
         <node concept="3F0ifn" id="7qp8jK7FiRI" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to create an attribute&gt;" />
@@ -5131,9 +5131,9 @@
     </node>
   </node>
   <node concept="PKFIW" id="6dSewhkwgBw">
-    <property role="3GE5qa" value="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
     <property role="TrG5h" value="Entity_Initialize" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
     <node concept="1iCGBv" id="6dSewhkwgBy" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
       <node concept="1sVBvm" id="6dSewhkwgB$" role="1sWHZn">
@@ -5153,8 +5153,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6dSewhkwgCk">
-    <property role="3GE5qa" value="Entity" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6dSewhkwgCo" role="2wV5jI">
       <node concept="3EZMnI" id="60Hvi7scWtS" role="3EZMnx">
         <node concept="2iRfu4" id="60Hvi7scWtT" role="2iSdaV" />
@@ -5273,16 +5273,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="6dSewhkARS4">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkQ" resolve="Float" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkQ" resolve="TODO_Float" />
     <node concept="3F0ifn" id="6dSewhkARS6" role="2wV5jI">
       <property role="3F0ifm" value="Float" />
     </node>
   </node>
   <node concept="PKFIW" id="6dSewhkFvea">
-    <property role="3GE5qa" value="Environment" />
+    <property role="3GE5qa" value="TODO_Environment" />
     <property role="TrG5h" value="Environemt_Attributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
     <node concept="3EZMnI" id="6dSewhkFven" role="2wV5jI">
       <node concept="2iRkQZ" id="6dSewhkFveo" role="2iSdaV" />
       <node concept="3F2HdR" id="6dSewhkFvet" role="3EZMnx">
@@ -5301,22 +5301,22 @@
     </node>
   </node>
   <node concept="24kQdi" id="6dSewhkPe8j">
-    <property role="3GE5qa" value="InitialEntityDistribution" />
-    <ref role="1XX52x" to="86kt:6dSewhkPe7U" resolve="Left" />
+    <property role="3GE5qa" value="TODO_InitialEntityDistribution" />
+    <ref role="1XX52x" to="86kt:6dSewhkPe7U" resolve="TODO_Left" />
     <node concept="3F0ifn" id="6dSewhkPe8l" role="2wV5jI">
       <property role="3F0ifm" value="Left" />
     </node>
   </node>
   <node concept="24kQdi" id="6dSewhkPe8w">
-    <property role="3GE5qa" value="InitialEntityDistribution" />
-    <ref role="1XX52x" to="86kt:6dSewhkPe5k" resolve="Random" />
+    <property role="3GE5qa" value="TODO_InitialEntityDistribution" />
+    <ref role="1XX52x" to="86kt:6dSewhkPe5k" resolve="TODO_Random" />
     <node concept="3F0ifn" id="6dSewhkPe8y" role="2wV5jI">
       <property role="3F0ifm" value="Random" />
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7rF1vO">
-    <property role="3GE5qa" value="Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    <property role="3GE5qa" value="TODO_Environment" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
     <node concept="3EZMnI" id="60Hvi7rLuz1" role="2wV5jI">
       <node concept="3EZMnI" id="60Hvi7rLuzt" role="3EZMnx">
         <node concept="2iRfu4" id="60Hvi7rLuzu" role="2iSdaV" />
@@ -5341,15 +5341,15 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7s1kk5">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkH" resolve="Boolean" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkH" resolve="TODO_Boolean" />
     <node concept="3F0ifn" id="60Hvi7s1kk7" role="2wV5jI">
       <property role="3F0ifm" value="Boolean" />
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7s3aG4">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:60Hvi7s39O6" resolve="BooleanConstant" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:60Hvi7s39O6" resolve="TODO_BooleanConstant" />
     <node concept="3EZMnI" id="60Hvi7s3aGf" role="2wV5jI">
       <node concept="2iRfu4" id="60Hvi7s3aGg" role="2iSdaV" />
       <node concept="3F0ifn" id="60Hvi7s3aGl" role="3EZMnx">
@@ -5362,8 +5362,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7sQavk">
-    <property role="3GE5qa" value="Location" />
-    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="Density" />
+    <property role="3GE5qa" value="TODO_Location" />
+    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="TODO_Density" />
     <node concept="3EZMnI" id="60Hvi7sQawh" role="2wV5jI">
       <node concept="2iRkQZ" id="60Hvi7sQawi" role="2iSdaV" />
       <node concept="3EZMnI" id="60Hvi7sQavp" role="3EZMnx">
@@ -5378,8 +5378,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7sLq1H">
-    <property role="3GE5qa" value="Location" />
-    <ref role="1XX52x" to="86kt:60Hvi7sIcIO" resolve="LocationValueSelect" />
+    <property role="3GE5qa" value="TODO_Location" />
+    <ref role="1XX52x" to="86kt:60Hvi7sIcIO" resolve="TODO_LocationValueSelect" />
     <node concept="3F0ifn" id="60Hvi7sLq1L" role="2wV5jI">
       <property role="3F0ifm" value="LocationValueSelect" />
     </node>
@@ -5389,7 +5389,7 @@
   </node>
   <node concept="24kQdi" id="4qxfPPPABr0">
     <property role="3GE5qa" value="Relationship" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
     <node concept="2aJ2om" id="4qxfPPPABr2" role="CpUAK">
       <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
     </node>
@@ -5414,8 +5414,8 @@
     </node>
   </node>
   <node concept="IW6AY" id="4qxfPPP1DtN">
-    <property role="3GE5qa" value="Attribute" />
-    <ref role="aqKnT" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <property role="3GE5qa" value="TODO_Attribute" />
+    <ref role="aqKnT" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
     <node concept="1Qtc8_" id="4qxfPPP1DtO" role="IW6Ez">
       <node concept="IWgqT" id="4qxfPPP1Du1" role="1Qtc8A">
         <node concept="1hCUdq" id="4qxfPPP1Du3" role="1hCUd6">
@@ -5431,7 +5431,7 @@
                     <node concept="2Xjw5R" id="4qxfPPP5uWf" role="2OqNvi">
                       <node concept="1xMEDy" id="4qxfPPP5uWh" role="1xVPHs">
                         <node concept="chp4Y" id="4qxfPPPaUY_" role="ri$Ld">
-                          <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
+                          <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
                         </node>
                       </node>
                     </node>
@@ -5447,18 +5447,18 @@
         <node concept="IWg2L" id="4qxfPPP1Du7" role="IWgqQ">
           <node concept="3clFbS" id="4qxfPPP1Du9" role="2VODD2">
             <node concept="Jncv_" id="6CN9jWnHSF4" role="3cqZAp">
-              <ref role="JncvD" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
+              <ref role="JncvD" to="86kt:2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
               <node concept="3clFbS" id="6CN9jWnHSF8" role="Jncv$">
                 <node concept="3cpWs8" id="6CN9jWnHXUe" role="3cqZAp">
                   <node concept="3cpWsn" id="6CN9jWnHXUh" role="3cpWs9">
                     <property role="TrG5h" value="uda" />
                     <node concept="3Tqbb2" id="6CN9jWnHXZy" role="1tU5fm">
-                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
                     </node>
                     <node concept="2ShNRf" id="6CN9jWnHWUF" role="33vP2m">
                       <node concept="3zrR0B" id="6CN9jWnHXdI" role="2ShVmc">
                         <node concept="3Tqbb2" id="6CN9jWnHXdK" role="3zrR0E">
-                          <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                          <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
                         </node>
                       </node>
                     </node>
@@ -5506,7 +5506,7 @@
                 <node concept="2Xjw5R" id="6CN9jWnHRrv" role="2OqNvi">
                   <node concept="1xMEDy" id="6CN9jWnHRrx" role="1xVPHs">
                     <node concept="chp4Y" id="4qxfPPP1F9O" role="ri$Ld">
-                      <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
+                      <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
                     </node>
                   </node>
                 </node>
@@ -5519,7 +5519,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7sWvXN">
-    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="Density" />
+    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="TODO_Density" />
     <node concept="3EZMnI" id="60Hvi7sWvXR" role="2wV5jI">
       <node concept="2iRkQZ" id="60Hvi7sWvXS" role="2iSdaV" />
       <node concept="3EZMnI" id="60Hvi7sWvY4" role="3EZMnx">
@@ -5560,7 +5560,7 @@
                 </node>
                 <node concept="1mIQ4w" id="1LeTgidavbk" role="2OqNvi">
                   <node concept="chp4Y" id="1LeTgidavj2" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="Slider" />
+                    <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
                   </node>
                 </node>
               </node>
@@ -5574,9 +5574,9 @@
     </node>
   </node>
   <node concept="3ICXOK" id="4qxfPPOZJXH">
-    <property role="3GE5qa" value="Entity" />
+    <property role="3GE5qa" value="TODO_Entity" />
     <property role="TrG5h" value="Attributes_ContextAssistant" />
-    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="1Qtc8_" id="4qxfPPOZzhY" role="IW6Ez">
       <node concept="2j_NTm" id="4qxfPPOZzhZ" role="1Qtc8$" />
       <node concept="IWgqT" id="4qxfPPOZzi0" role="1Qtc8A">
@@ -5603,12 +5603,12 @@
               <node concept="3cpWsn" id="4qxfPPPcJI1" role="3cpWs9">
                 <property role="TrG5h" value="uda" />
                 <node concept="3Tqbb2" id="4qxfPPPcJI2" role="1tU5fm">
-                  <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                  <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
                 </node>
                 <node concept="2ShNRf" id="4qxfPPPcJI3" role="33vP2m">
                   <node concept="3zrR0B" id="4qxfPPPcJI4" role="2ShVmc">
                     <node concept="3Tqbb2" id="4qxfPPPcJI5" role="3zrR0E">
-                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
                     </node>
                   </node>
                 </node>
@@ -5650,7 +5650,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1Go6jkff6F4">
-    <ref role="1XX52x" to="86kt:1Go6jkfcAcJ" resolve="DesignConcepts" />
+    <ref role="1XX52x" to="86kt:1Go6jkfcAcJ" resolve="TODO_DesignConcepts" />
     <node concept="3EZMnI" id="1Go6jkfgGgA" role="2wV5jI">
       <node concept="3F0ifn" id="1Go6jkfgGgC" role="3EZMnx">
         <property role="3F0ifm" value="Design concepts" />
@@ -5666,7 +5666,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="4qxfPPOQmqW">
-    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="Entity" />
+    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="1Qtc8_" id="4qxfPPOQmqX" role="IW6Ez">
       <node concept="2j_NTm" id="4qxfPPOQmr1" role="1Qtc8$" />
       <node concept="mvV$s" id="4qxfPPOZJDk" role="1Qtc8A">
@@ -5692,12 +5692,12 @@
               <node concept="3cpWsn" id="4qxfPPPnFQ8" role="3cpWs9">
                 <property role="TrG5h" value="newEntity" />
                 <node concept="3Tqbb2" id="4qxfPPPnFQ3" role="1tU5fm">
-                  <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="Entity" />
+                  <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
                 </node>
                 <node concept="2ShNRf" id="4qxfPPPnG3g" role="33vP2m">
                   <node concept="3zrR0B" id="4qxfPPPnG3e" role="2ShVmc">
                     <node concept="3Tqbb2" id="4qxfPPPnG3f" role="3zrR0E">
-                      <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="Entity" />
+                      <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
                     </node>
                   </node>
                 </node>
@@ -5726,7 +5726,7 @@
                     <node concept="2Xjw5R" id="4qxfPPPn_8g" role="2OqNvi">
                       <node concept="1xMEDy" id="4qxfPPPn_8i" role="1xVPHs">
                         <node concept="chp4Y" id="4qxfPPPn_au" role="ri$Ld">
-                          <ref role="cht4Q" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateScales" />
+                          <ref role="cht4Q" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateScales" />
                         </node>
                       </node>
                     </node>
@@ -5749,8 +5749,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1LeTgidcar5">
-    <property role="3GE5qa" value="Location" />
-    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="Area" />
+    <property role="3GE5qa" value="TODO_Location" />
+    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="TODO_Area" />
     <node concept="3F0ifn" id="1LeTgidcar9" role="2wV5jI">
       <property role="3F0ifm" value="Area" />
     </node>
@@ -5759,8 +5759,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1LeTgidcarc">
-    <property role="3GE5qa" value="Location" />
-    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="Area" />
+    <property role="3GE5qa" value="TODO_Location" />
+    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="TODO_Area" />
     <node concept="3EZMnI" id="1LeTgidcark" role="2wV5jI">
       <node concept="2iRfu4" id="1LeTgidcarl" role="2iSdaV" />
       <node concept="3F0ifn" id="1LeTgidcarq" role="3EZMnx">
@@ -5776,8 +5776,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1LeTgidqm73">
-    <property role="3GE5qa" value="Types" />
-    <ref role="1XX52x" to="86kt:7AEkq7xbIsR" resolve="NumericValueSelect" />
+    <property role="3GE5qa" value="TODO_Types" />
+    <ref role="1XX52x" to="86kt:7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="3F0ifn" id="1LeTgidrVVN" role="2wV5jI">
       <property role="3F0ifm" value="Press ctrl + space to select method" />
       <node concept="Vb9p2" id="1LeTgidyiXV" role="3F10Kt">
@@ -5786,15 +5786,15 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsi5Qd">
-    <property role="3GE5qa" value="Expression" />
-    <ref role="1XX52x" to="86kt:24yfUKsi5Q4" resolve="NumericExpression" />
+    <property role="3GE5qa" value="TODO_Expression" />
+    <ref role="1XX52x" to="86kt:24yfUKsi5Q4" resolve="TODO_NumericExpression" />
     <node concept="3F0ifn" id="24yfUKsjkiH" role="2wV5jI">
       <property role="3F0ifm" value="Numeric Expression" />
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsjkj0">
-    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
-    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="Count" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_Count" />
     <node concept="3EZMnI" id="24yfUKsypwQ" role="2wV5jI">
       <node concept="2iRkQZ" id="24yfUKsypwR" role="2iSdaV" />
       <node concept="3EZMnI" id="24yfUKsi5Qn" role="3EZMnx">
@@ -5871,22 +5871,22 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsnE7H">
-    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
-    <ref role="1XX52x" to="86kt:24yfUKsm9R5" resolve="CountNeighbors" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsm9R5" resolve="TODO_CountNeighbors" />
     <node concept="3F0ifn" id="24yfUKsnE7J" role="2wV5jI">
       <property role="ilYzB" value="neighboring" />
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsoLzG">
-    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
-    <ref role="1XX52x" to="86kt:24yfUKsnr5W" resolve="CountAll" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsnr5W" resolve="TODO_CountAll" />
     <node concept="3F0ifn" id="24yfUKsoLzI" role="2wV5jI">
       <property role="ilYzB" value="in simulation" />
     </node>
   </node>
   <node concept="24kQdi" id="7qp8jK7xuHC">
     <property role="3GE5qa" value="Relationship" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
     <node concept="3F0A7n" id="7qp8jK7xuTt" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
@@ -5895,8 +5895,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="4HBtuojJl8N">
-    <property role="3GE5qa" value="Expression.Condition" />
-    <ref role="1XX52x" to="86kt:24yfUKsjkLU" resolve="ConditionWith" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <ref role="1XX52x" to="86kt:24yfUKsjkLU" resolve="TODO_ConditionWith" />
     <node concept="3F0ifn" id="4HBtuojJl8P" role="2wV5jI">
       <property role="ilYzB" value="Press ctrl + space to select condition type" />
       <node concept="Vb9p2" id="4HBtuojJl8S" role="3F10Kt">
@@ -5905,8 +5905,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsyhKN">
-    <property role="3GE5qa" value="Expression.Condition" />
-    <ref role="1XX52x" to="86kt:24yfUKswWzw" resolve="ConditionWithSame" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <ref role="1XX52x" to="86kt:24yfUKswWzw" resolve="TODO_ConditionWithSame" />
     <node concept="3EZMnI" id="2kHWdXWLWGP" role="2wV5jI">
       <node concept="2iRkQZ" id="2kHWdXWLWGQ" role="2iSdaV" />
       <node concept="3EZMnI" id="24yfUKs$bm3" role="3EZMnx">
@@ -6001,8 +6001,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsx3LW">
-    <property role="3GE5qa" value="Expression" />
-    <ref role="1XX52x" to="86kt:60Hvi7snd29" resolve="NetlogoExpression" />
+    <property role="3GE5qa" value="TODO_Expression" />
+    <ref role="1XX52x" to="86kt:60Hvi7snd29" resolve="TODO_NetlogoExpression" />
     <node concept="3EZMnI" id="24yfUKsx3M3" role="2wV5jI">
       <node concept="2iRfu4" id="24yfUKsx3M4" role="2iSdaV" />
       <node concept="3F0ifn" id="24yfUKsx3M9" role="3EZMnx">
@@ -6015,8 +6015,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="4HBtuojBomv">
-    <property role="3GE5qa" value="Expression.Condition" />
-    <ref role="1XX52x" to="86kt:24yfUKswWzv" resolve="ConditionWithSpecific" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <ref role="1XX52x" to="86kt:24yfUKswWzv" resolve="TODO_ConditionWithSpecific" />
     <node concept="3EZMnI" id="4HBtuojBoIq" role="2wV5jI">
       <node concept="2iRkQZ" id="4HBtuojBoIr" role="2iSdaV" />
       <node concept="3EZMnI" id="4HBtuojBoIw" role="3EZMnx">
@@ -6080,8 +6080,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsAS2v">
-    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
-    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="Count" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_Count" />
     <node concept="3EZMnI" id="24yfUKsAS2z" role="2wV5jI">
       <node concept="3F0ifn" id="28AKh6DkFOj" role="3EZMnx">
         <property role="3F0ifm" value="counting" />
@@ -6098,8 +6098,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="4HBtuojTQi5">
-    <property role="3GE5qa" value="Expression.NumericExpressions.Count" />
-    <ref role="1XX52x" to="86kt:24yfUKsm9R4" resolve="CountSameLocation" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsm9R4" resolve="TODO_CountSameLocation" />
     <node concept="3F0ifn" id="4HBtuojTQi7" role="2wV5jI">
       <property role="ilYzB" value="same location" />
     </node>
