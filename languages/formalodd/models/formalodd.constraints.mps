@@ -2143,6 +2143,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7AEkq7y03Eg">
+    <property role="3GE5qa" value="TODO_Expression" />
     <ref role="1M2myG" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
     <node concept="EnEH3" id="7qp8jK7KDZP" role="1MhHOB">
       <ref role="EomxK" to="86kt:7AEkq7xq0wS" resolve="value" />
@@ -2382,6 +2383,7 @@
     <ref role="1M2myG" to="86kt:24yfUKswWzw" resolve="TODO_ConditionWithSame" />
   </node>
   <node concept="1M2fIO" id="6efIhqTp5qJ">
+    <property role="3GE5qa" value="TODO_Entity" />
     <ref role="1M2myG" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
     <node concept="1N5Pfh" id="6efIhqTp5qK" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:RwtFpHTCbt" resolve="from" />

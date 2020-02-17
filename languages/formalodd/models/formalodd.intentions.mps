@@ -2357,6 +2357,7 @@
   </node>
   <node concept="3dkpOd" id="215d$P5dtb3">
     <property role="TrG5h" value="SelectingType" />
+    <property role="3GE5qa" value="TODO_Unwanted" />
     <ref role="2ZfgGC" to="86kt:215d$P5delF" resolve="TODO_SelectingType" />
     <node concept="2S6ZIM" id="215d$P5dtb4" role="2ZfVej">
       <node concept="3clFbS" id="215d$P5dtb5" role="2VODD2">
@@ -3153,7 +3154,7 @@
   <node concept="2S6QgY" id="RwtFpHO3Dh">
     <property role="3GE5qa" value="TODO_Entity" />
     <property role="TrG5h" value="AddRelationship" />
-    <ref role="2ZfgGC" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateScales" />
+    <ref role="2ZfgGC" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateVariablesAndScales" />
     <node concept="2S6ZIM" id="RwtFpHO3Di" role="2ZfVej">
       <node concept="3clFbS" id="RwtFpHO3Dj" role="2VODD2">
         <node concept="3cpWs6" id="RwtFpHO4gq" role="3cqZAp">
@@ -3211,7 +3212,7 @@
     <node concept="2Sbjvc" id="6CN9jWnHH5I" role="2ZfgGD">
       <node concept="3clFbS" id="6CN9jWnHH5J" role="2VODD2">
         <node concept="Jncv_" id="6CN9jWnHSF4" role="3cqZAp">
-          <ref role="JncvD" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
+          <ref role="JncvD" to="86kt:3lcKR8aBGk7" resolve="ODD" />
           <node concept="3clFbS" id="6CN9jWnHSF8" role="Jncv$">
             <node concept="3cpWs8" id="6CN9jWnHXUe" role="3cqZAp">
               <node concept="3cpWsn" id="6CN9jWnHXUh" role="3cpWs9">
@@ -3259,7 +3260,7 @@
                       <ref role="1M0zk5" node="6CN9jWnHSFa" resolve="odd" />
                     </node>
                     <node concept="3TrEf2" id="6CN9jWnI_hm" role="2OqNvi">
-                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
                     </node>
                   </node>
                   <node concept="3Tsc0h" id="6CN9jWnI_Ai" role="2OqNvi">
@@ -3278,7 +3279,7 @@
             <node concept="2Xjw5R" id="6CN9jWnHRrv" role="2OqNvi">
               <node concept="1xMEDy" id="6CN9jWnHRrx" role="1xVPHs">
                 <node concept="chp4Y" id="6CN9jWnIzRz" role="ri$Ld">
-                  <ref role="cht4Q" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
+                  <ref role="cht4Q" to="86kt:3lcKR8aBGk7" resolve="ODD" />
                 </node>
               </node>
             </node>
@@ -3289,7 +3290,7 @@
     <node concept="2SaL7w" id="6CN9jWnIQnW" role="2ZfVeh">
       <node concept="3clFbS" id="6CN9jWnIQnX" role="2VODD2">
         <node concept="Jncv_" id="6CN9jWnIQ_C" role="3cqZAp">
-          <ref role="JncvD" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
+          <ref role="JncvD" to="86kt:3lcKR8aBGk7" resolve="ODD" />
           <node concept="3clFbS" id="6CN9jWnIQ_D" role="Jncv$">
             <node concept="2Gpval" id="6CN9jWnJ47I" role="3cqZAp">
               <node concept="2GrKxI" id="6CN9jWnJ47J" role="2Gsz3X">
@@ -3301,7 +3302,7 @@
                     <ref role="1M0zk5" node="6CN9jWnIQA1" resolve="odd" />
                   </node>
                   <node concept="3TrEf2" id="6CN9jWnJ4I8" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="6CN9jWnJ4R5" role="2OqNvi">
@@ -3344,7 +3345,7 @@
             <node concept="2Xjw5R" id="6CN9jWnIQA5" role="2OqNvi">
               <node concept="1xMEDy" id="6CN9jWnIQA6" role="1xVPHs">
                 <node concept="chp4Y" id="6CN9jWnIQA7" role="ri$Ld">
-                  <ref role="cht4Q" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
+                  <ref role="cht4Q" to="86kt:3lcKR8aBGk7" resolve="ODD" />
                 </node>
               </node>
             </node>

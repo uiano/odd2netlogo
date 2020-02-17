@@ -175,7 +175,7 @@
     </language>
   </registry>
   <node concept="13h7C7" id="7qp8jK7Ll0d">
-    <ref role="13h7C2" to="86kt:3lcKR8aBGk7" resolve="TODO_ODD" />
+    <ref role="13h7C2" to="86kt:3lcKR8aBGk7" resolve="ODD" />
     <node concept="13hLZK" id="7qp8jK7Ll0e" role="13h7CW">
       <node concept="3clFbS" id="7qp8jK7Ll0f" role="2VODD2" />
     </node>
@@ -203,11 +203,11 @@
                 <node concept="2OqwBi" id="7qp8jK7LyGp" role="37wK5m">
                   <node concept="13iPFW" id="7qp8jK7Lv1L" role="2Oq$k0" />
                   <node concept="3TrEf2" id="7qp8jK7LyRI" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
                   </node>
                 </node>
                 <node concept="359W_D" id="7qp8jK7Lv5j" role="37wK5m">
-                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateScales" />
+                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateVariablesAndScales" />
                   <ref role="359W_F" to="86kt:3lcKR8aBGkb" resolve="entity" />
                 </node>
               </node>
@@ -233,11 +233,11 @@
                 <node concept="2OqwBi" id="7qp8jK7L$Zt" role="37wK5m">
                   <node concept="13iPFW" id="7qp8jK7L$Zu" role="2Oq$k0" />
                   <node concept="3TrEf2" id="7qp8jK7L$Zv" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
                   </node>
                 </node>
                 <node concept="359W_D" id="7qp8jK7L$Zw" role="37wK5m">
-                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateScales" />
+                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateVariablesAndScales" />
                   <ref role="359W_F" to="86kt:RwtFpHTCJs" resolve="relationships" />
                 </node>
               </node>
@@ -264,7 +264,7 @@
                   <node concept="2OqwBi" id="7qp8jK7L_5G" role="2Oq$k0">
                     <node concept="13iPFW" id="7qp8jK7L_5H" role="2Oq$k0" />
                     <node concept="3TrEf2" id="7qp8jK7L_5I" role="2OqNvi">
-                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="EntitiesStateScale" />
+                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
                     </node>
                   </node>
                   <node concept="3TrEf2" id="7qp8jK7LAg_" role="2OqNvi">
