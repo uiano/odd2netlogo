@@ -7,135 +7,135 @@
   <imports />
   <registry>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
-      <concept id="3961341278980372822" name="formalodd.structure.Slider" flags="ng" index="21jJIL">
+      <concept id="3961341278980372822" name="formalodd.structure.TODO_Slider" flags="ng" index="21jJIL">
         <property id="3961341278980372832" name="slideAmount" index="21jJI7" />
         <property id="3961341278980372828" name="maxAmount" index="21jJIV" />
         <property id="3961341278980372825" name="minAmount" index="21jJIY" />
         <property id="8766909380355172217" name="startValue" index="2rHBro" />
       </concept>
-      <concept id="6400669868571328617" name="formalodd.structure.EndConditionOption" flags="ng" index="8rzWW">
+      <concept id="6400669868571328617" name="formalodd.structure.TODO_EndConditionOption" flags="ng" index="8rzWW">
         <property id="6400669868571328652" name="option" index="8rzZp" />
       </concept>
-      <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
+      <concept id="6400669868569568225" name="formalodd.structure.TODO_KillEntity" flags="ng" index="8shMO">
         <child id="6400669868569569336" name="who" index="8shtH" />
       </concept>
-      <concept id="6400669868562212808" name="formalodd.structure.ChangeEnvironmentOption" flags="ng" index="8Styt">
+      <concept id="6400669868562212808" name="formalodd.structure.TODO_ChangeEnvironmentOption" flags="ng" index="8Styt">
         <property id="6400669868562212809" name="option" index="8Stys" />
       </concept>
-      <concept id="6400669868562211853" name="formalodd.structure.ChangeEnvironment" flags="ng" index="8StHo">
+      <concept id="6400669868562211853" name="formalodd.structure.TODO_ChangeEnvironment" flags="ng" index="8StHo">
         <child id="6400669868562285363" name="color" index="8S3LA" />
         <child id="6400669868562284331" name="changeEnvironmentOption" index="8Sc1Y" />
       </concept>
-      <concept id="6400669868562211259" name="formalodd.structure.UpdateValue" flags="ng" index="8StVI">
+      <concept id="6400669868562211259" name="formalodd.structure.TODO_UpdateValue" flags="ng" index="8StVI">
         <property id="3074816355397992829" name="UpdatedValue" index="fDf1i" />
         <property id="3074816355397842641" name="option" index="fDOvY" />
         <property id="8247773779774822745" name="TypeOfUpdate" index="2DdUfk" />
         <property id="8247773779775454262" name="editorText" index="2DfwqV" />
         <reference id="6400669868570957210" name="attribute" index="8p6Ff" />
       </concept>
-      <concept id="3074816355373999451" name="formalodd.structure.MoveRandom" flags="ng" index="92LhO">
+      <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
         <property id="3074816355373999452" name="MovmentSpeed" index="92LhN" />
       </concept>
-      <concept id="3074816355399732195" name="formalodd.structure.Collides" flags="ng" index="fwBFc">
+      <concept id="3074816355399732195" name="formalodd.structure.TODO_Collides" flags="ng" index="fwBFc">
         <reference id="3074816355399732196" name="Target" index="fwBFb" />
       </concept>
-      <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
+      <concept id="2039819488956380787" name="formalodd.structure.TODO_Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
-      <concept id="7308686357753541206" name="formalodd.structure.EndCondition" flags="ng" index="2lMhBi">
+      <concept id="7308686357753541206" name="formalodd.structure.TODO_EndCondition" flags="ng" index="2lMhBi">
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
         <child id="6400669868571704408" name="color" index="848cd" />
         <child id="6400669868571328618" name="endConditionOption" index="8rzWZ" />
       </concept>
-      <concept id="7308686357753541200" name="formalodd.structure.Overview" flags="ng" index="2lMhBk">
+      <concept id="7308686357753541200" name="formalodd.structure.TODO_ProcessOverviewAndScheduling" flags="ng" index="2lMhBk">
         <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
         <child id="6529568716141041572" name="procedure" index="2GyEu2" />
       </concept>
-      <concept id="7308686357753326564" name="formalodd.structure.Who" flags="ng" index="2lNc1w">
+      <concept id="7308686357753326564" name="formalodd.structure.TODO_Who" flags="ng" index="2lNc1w">
         <property id="6400669868561525719" name="option" index="8X5i2" />
         <reference id="6400669868561546221" name="environment" index="8YSiS" />
         <reference id="6400669868561546218" name="entity" index="8YSiZ" />
       </concept>
-      <concept id="7308686357753326565" name="formalodd.structure.Procedure" flags="ng" index="2lNc1x">
+      <concept id="7308686357753326565" name="formalodd.structure.TODO_Procedure" flags="ng" index="2lNc1x">
         <child id="3836572362087288385" name="action" index="18tn1X" />
         <child id="3836572362087288387" name="who" index="18tn1Z" />
       </concept>
-      <concept id="7308686357753326566" name="formalodd.structure.CompoundAction" flags="ng" index="2lNc1y">
+      <concept id="7308686357753326566" name="formalodd.structure.TODO_CompoundAction" flags="ng" index="2lNc1y">
         <child id="6529568716155258780" name="action" index="2GrruU" />
       </concept>
-      <concept id="8766909380343367735" name="formalodd.structure.NumericConstant" flags="ng" index="2oK_Am">
+      <concept id="8766909380343367735" name="formalodd.structure.TODO_NumericConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
-      <concept id="5530122485653569685" name="formalodd.structure.CenterOnPatch" flags="ng" index="2ttJ6c" />
-      <concept id="2650478873095413229" name="formalodd.structure.CurrentEnviroment" flags="ng" index="BjZAj">
+      <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
+      <concept id="2650478873095413229" name="formalodd.structure.TODO_CurrentEnviroment" flags="ng" index="BjZAj">
         <property id="2650478873095418597" name="color" index="BjXqr" />
       </concept>
-      <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
+      <concept id="472304604775893902" name="formalodd.structure.TODO_Interaction" flags="ng" index="BZNO7">
         <child id="472304604776203004" name="secondActor" index="BYBhP" />
         <child id="1786286396180405745" name="condition" index="17I3vM" />
       </concept>
-      <concept id="8247773779785854958" name="formalodd.structure.Spawn" flags="ng" index="2DBPlz">
+      <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmuntOfSpawns" index="2DBPly" />
         <child id="4851181497927696060" name="updateValue" index="3BJUly" />
       </concept>
-      <concept id="6529568716161146305" name="formalodd.structure.ifcondition" flags="ng" index="2HP6RB">
+      <concept id="6529568716161146305" name="formalodd.structure.TODO_ifcondition" flags="ng" index="2HP6RB">
         <property id="6529568716161158166" name="option" index="2HPVKK" />
         <child id="6529568716161146308" name="who2" index="2HP6Ry" />
         <child id="6529568716161146306" name="who" index="2HP6R$" />
       </concept>
-      <concept id="6529568716161205649" name="formalodd.structure.Who2" flags="ng" index="2HPRmR">
+      <concept id="6529568716161205649" name="formalodd.structure.TODO_Who2" flags="ng" index="2HPRmR">
         <property id="8247773779771569414" name="value" index="2DpkYb" />
         <property id="6529568716161210147" name="option" index="2HPQs5" />
         <reference id="6529568716162980347" name="attribute" index="2HY6Bt" />
       </concept>
-      <concept id="7167542597237662036" name="formalodd.structure.Random" flags="ng" index="RFdHg" />
-      <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B" />
-      <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
+      <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
+      <concept id="6930332985972268294" name="formalodd.structure.TODO_BooleanConstant" flags="ng" index="2W8u0B" />
+      <concept id="6930332985984393264" name="formalodd.structure.TODO_Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
       </concept>
-      <concept id="2387540760901536890" name="formalodd.structure.ConditionWith" flags="ng" index="XrRfm">
+      <concept id="2387540760901536890" name="formalodd.structure.TODO_ConditionWith" flags="ng" index="XrRfm">
         <property id="2387540760905457404" name="comparrison" index="XEM5g" />
         <property id="5433441106477358816" name="baseEntityAttributes" index="1oWuG6" />
         <property id="2679062196016183840" name="selectionAttributes" index="1p_gFZ" />
       </concept>
-      <concept id="2387540760901534885" name="formalodd.structure.Count" flags="ng" index="XrRG9">
+      <concept id="2387540760901534885" name="formalodd.structure.TODO_Count" flags="ng" index="XrRG9">
         <property id="2387540760902966010" name="typeToCount" index="Xgilm" />
         <child id="2387540760901213588" name="countCondition" index="XqA8S" />
         <child id="2387540760901536886" name="countBase" index="XrRfq" />
       </concept>
-      <concept id="2387540760902278597" name="formalodd.structure.CountNeighbors" flags="ng" index="XuE9D" />
-      <concept id="6620640720694302583" name="formalodd.structure.InformalEntity" flags="ng" index="XAmFv">
+      <concept id="2387540760902278597" name="formalodd.structure.TODO_CountNeighbors" flags="ng" index="XuE9D" />
+      <concept id="6620640720694302583" name="formalodd.structure.InformalConcept" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
-      <concept id="2387540760905107680" name="formalodd.structure.ConditionWithSame" flags="ng" index="XCvtc" />
-      <concept id="3840659476812055923" name="formalodd.structure.Shape" flags="ng" index="ZOwo1">
+      <concept id="2387540760905107680" name="formalodd.structure.TODO_ConditionWithSame" flags="ng" index="XCvtc" />
+      <concept id="3840659476812055923" name="formalodd.structure.TODO_Shape" flags="ng" index="ZOwo1">
         <property id="193207073758741386" name="shape" index="1lPuH5" />
       </concept>
-      <concept id="3840659476812055924" name="formalodd.structure.Color" flags="ng" index="ZOwo6">
+      <concept id="3840659476812055924" name="formalodd.structure.TODO_Color" flags="ng" index="ZOwo6">
         <property id="193207073764166532" name="color" index="1lo2db" />
       </concept>
-      <concept id="3840659476812055925" name="formalodd.structure.DefaultShape" flags="ng" index="ZOwo7" />
-      <concept id="3840659476812055862" name="formalodd.structure.Float" flags="ng" index="ZOwp4" />
-      <concept id="3840659476812055854" name="formalodd.structure.Integer" flags="ng" index="ZOwps" />
-      <concept id="3840659476812055853" name="formalodd.structure.Boolean" flags="ng" index="ZOwpv" />
-      <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
+      <concept id="3840659476812055925" name="formalodd.structure.TODO_DefaultShape" flags="ng" index="ZOwo7" />
+      <concept id="3840659476812055862" name="formalodd.structure.TODO_Float" flags="ng" index="ZOwp4" />
+      <concept id="3840659476812055854" name="formalodd.structure.TODO_Integer" flags="ng" index="ZOwps" />
+      <concept id="3840659476812055853" name="formalodd.structure.TODO_Boolean" flags="ng" index="ZOwpv" />
+      <concept id="3840659476812055839" name="formalodd.structure.TODO_UserDefinedAttribute" flags="ng" index="ZOwpH">
         <property id="6930332985979198976" name="initialisationMethod" index="2WmMcx" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
-        <child id="6529568716131235338" name="overview" index="2J7coG" />
+        <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="6620640720694329222" name="purpose" index="XAo8I" />
         <child id="193207073764989693" name="initialisation" index="1ltb8M" />
-        <child id="7610748055951433660" name="EntitiesStateScale" index="3$p12O" />
+        <child id="7610748055951433660" name="entities" index="3$p12O" />
       </concept>
-      <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateScales" flags="ng" index="ZOwpU">
+      <concept id="3840659476812055816" name="formalodd.structure.TODO_EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="3840659476812055819" name="entity" index="ZOwpT" />
         <child id="3840659476812055817" name="environment" index="ZOwpV" />
         <child id="999929643176201180" name="relationships" index="1w1JPE" />
         <child id="8931575016887347252" name="userDefinedAttributes" index="1XCrKs" />
       </concept>
-      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
+      <concept id="3840659476812055822" name="formalodd.structure.TODO_Entity" flags="ng" index="ZOwpW">
         <property id="8247773779799260212" name="unwanted_size" index="2IKGqT" />
         <property id="3864151261523101841" name="unwanted_showColors" index="1gPB68" />
         <property id="3864151261523101843" name="unwanted_showAttributes" index="1gPB6a" />
@@ -149,72 +149,72 @@
         <child id="193207073759411052" name="AgentOptions" index="1laXez" />
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
-      <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
+      <concept id="3840659476812055972" name="formalodd.structure.TODO_EnvironmentEntity" flags="ng" index="ZOwrm">
         <property id="6955527831106468148" name="showColor" index="2YXOq1" />
         <child id="3961341278978876244" name="DefaultColor" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
       </concept>
-      <concept id="3840659476812055959" name="formalodd.structure.Environment" flags="ng" index="ZOwr_">
+      <concept id="3840659476812055959" name="formalodd.structure.TODO_Environment" flags="ng" index="ZOwr_">
         <child id="6529568716164071957" name="graphicsWindow" index="2HUN8N" />
         <child id="6213474804142799436" name="EnvEntity" index="2JZWw_" />
       </concept>
-      <concept id="3840659476812055941" name="formalodd.structure.DefaultColor" flags="ng" index="ZOwrR" />
-      <concept id="1786286396179544506" name="formalodd.structure.InteractionCondition" flags="ng" index="17FHeT">
+      <concept id="3840659476812055941" name="formalodd.structure.TODO_DefaultColor" flags="ng" index="ZOwrR" />
+      <concept id="1786286396179544506" name="formalodd.structure.TODO_InteractionCondition" flags="ng" index="17FHeT">
         <child id="1786286396179653674" name="action" index="17F8SD" />
       </concept>
-      <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
+      <concept id="3864151261526742322" name="formalodd.structure.TODO_GraphicsWindow" flags="ng" index="1g3uKF">
         <property id="3864151261535137068" name="WrapVertical" index="1jztgP" />
         <property id="3864151261535133778" name="WrapHorizontal" index="1jzt_b" />
         <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="color" index="kpDVr" />
       </concept>
-      <concept id="3864151261525188024" name="formalodd.structure.ShapeOptions" flags="ng" index="1gdyix">
+      <concept id="3864151261525188024" name="formalodd.structure.TODO_ShapeOptions" flags="ng" index="1gdyix">
         <property id="3864151261525188025" name="ShapeOption" index="1gdyiw" />
       </concept>
-      <concept id="3864151261534280722" name="formalodd.structure.Action" flags="ng" index="1jwekb">
+      <concept id="3864151261534280722" name="formalodd.structure.TODO_Action" flags="ng" index="1jwekb">
         <child id="472304604776445266" name="condition" index="BXGfr" />
       </concept>
-      <concept id="193207073761708011" name="formalodd.structure.AttributeValueOptions" flags="ng" index="1l1EW$">
+      <concept id="193207073761708011" name="formalodd.structure.TODO_AttributeValueOptions" flags="ng" index="1l1EW$">
         <property id="193207073761708012" name="ValueOption" index="1l1EWz" />
       </concept>
-      <concept id="193207073760647258" name="formalodd.structure.Attribute" flags="ng" index="1ldJ2l">
+      <concept id="193207073760647258" name="formalodd.structure.TODO_Attribute" flags="ng" index="1ldJ2l">
         <property id="193207073763490983" name="max" index="1lrphC" />
         <property id="193207073763490980" name="min" index="1lrphF" />
         <property id="193207073772188521" name="initialValue" index="1qTHIA" />
         <child id="193207073761750590" name="ValueOption" index="1l1KrL" />
       </concept>
-      <concept id="193207073767147263" name="formalodd.structure.InitalisationObject" flags="ng" index="1llqSK">
+      <concept id="193207073767147263" name="formalodd.structure.TODO_InitalisationObject" flags="ng" index="1llqSK">
         <property id="193207073767705738" name="Distribution" index="1qEyh5" />
         <reference id="193207073767147264" name="entity" index="1llqZf" />
         <child id="193207073767149194" name="whatisInitialised" index="1llqp5" />
         <child id="193207073773196209" name="attributeOptions" index="1qXBHY" />
       </concept>
-      <concept id="193207073764790659" name="formalodd.structure.Initialisation" flags="ng" index="1lur_c">
+      <concept id="193207073764790659" name="formalodd.structure.TODO_Initialisation" flags="ng" index="1lur_c">
         <child id="193207073767149214" name="InitalisationObject" index="1llqph" />
       </concept>
-      <concept id="193207073758944086" name="formalodd.structure.AgentStatisticOptions" flags="ng" index="1lOfep">
+      <concept id="193207073758944086" name="formalodd.structure.TODO_AgentStatisticOptions" flags="ng" index="1lOfep">
         <property id="193207073758944087" name="Option" index="1lOfeo" />
       </concept>
-      <concept id="193207073772188500" name="formalodd.structure.AttributeOptions" flags="ng" index="1qTHIr">
+      <concept id="193207073772188500" name="formalodd.structure.TODO_AttributeOptions" flags="ng" index="1qTHIr">
         <property id="193207073772188501" name="Options" index="1qTHIq" />
         <reference id="193207073772240675" name="attribute" index="1qTLvG" />
       </concept>
-      <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
+      <concept id="2606589510542712260" name="formalodd.structure.TODO_GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
       </concept>
-      <concept id="999929643171596417" name="formalodd.structure.Relationship" flags="ng" index="1wg3SR">
+      <concept id="999929643171596417" name="formalodd.structure.TODO_Relationship" flags="ng" index="1wg3SR">
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
       </concept>
-      <concept id="2325324488108205419" name="formalodd.structure.SelectingType" flags="ng" index="1_stcA">
+      <concept id="2325324488108205419" name="formalodd.structure.TODO_SelectingType" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
       </concept>
-      <concept id="1786286396201728936" name="formalodd.structure.LinkAction" flags="ng" index="1Svl6F">
+      <concept id="1786286396201728936" name="formalodd.structure.TODO_LinkAction" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="link" index="1Svl6C" />
       </concept>
-      <concept id="1786286396201721621" name="formalodd.structure.OcupiedSpot" flags="ng" index="1Svnkm" />
-      <concept id="1786286396190304350" name="formalodd.structure.NeighborEnviroment" flags="ng" index="1SKK9t">
+      <concept id="1786286396201721621" name="formalodd.structure.TODO_OccupiedSpot" flags="ng" index="1Svnkm" />
+      <concept id="1786286396190304350" name="formalodd.structure.TODO_NeighborEnviroment" flags="ng" index="1SKK9t">
         <property id="1786286396190304394" name="color" index="1SKKa9" />
         <child id="1786286396190304396" name="EnvromentAction" index="1SKKaf" />
       </concept>
@@ -1130,7 +1130,7 @@
     </node>
   </node>
   <node concept="ZOwpP" id="35QCLExIhrZ">
-    <property role="TrG5h" value="Forestfire with agent" />
+    <property role="TrG5h" value="Forest fire with agent" />
     <node concept="XAmFv" id="35QCLExIhs0" role="XAo8I">
       <property role="XAmFg" value="Model to simulate forest fire. :) @@@???¿¿¿ éóá" />
     </node>
@@ -1165,6 +1165,10 @@
         <node concept="ZOwo7" id="35QCLExIH7d" role="ZOwpC">
           <property role="1lPuH5" value="square" />
         </node>
+        <node concept="2oK_Am" id="7y2oNvCqd6" role="RIgNU">
+          <property role="2oK_Ap" value="10" />
+        </node>
+        <node concept="RFdHg" id="7y2oNvCqeb" role="RFdH4" />
       </node>
       <node concept="ZOwr_" id="35QCLExIskP" role="ZOwpV">
         <node concept="ZOwrm" id="24yfUKsi0Xo" role="2JZWw_">
