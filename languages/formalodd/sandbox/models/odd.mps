@@ -150,7 +150,6 @@
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.TODO_EnvironmentEntity" flags="ng" index="ZOwrm">
-        <property id="6955527831106468148" name="showColor" index="2YXOq1" />
         <child id="3961341278978876244" name="DefaultColor" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
       </concept>
@@ -258,7 +257,6 @@
       <node concept="ZOwr_" id="5Dmxhgox7yT" role="ZOwpV">
         <node concept="ZOwrm" id="24yfUKsi0X2" role="2JZWw_">
           <property role="TrG5h" value="test-environment" />
-          <property role="2YXOq1" value="is" />
           <node concept="2WUdOh" id="24yfUKsi0X4" role="2W_r1q">
             <node concept="2oK_Am" id="24yfUKsi0X8" role="2WUdOg">
               <property role="2oK_Ap" value="50" />
@@ -645,7 +643,6 @@
       <node concept="ZOwr_" id="5Dmxhgox7qZ" role="ZOwpV">
         <node concept="ZOwrm" id="1LeTgidqm5Z" role="2JZWw_">
           <property role="TrG5h" value="grass" />
-          <property role="2YXOq1" value="is" />
           <node concept="ZOwpH" id="1LeTgidqm69" role="1XCrbu">
             <property role="TrG5h" value="grass-growth" />
             <node concept="ZOwp4" id="1LeTgidqm6d" role="zGXb3" />
@@ -689,7 +686,6 @@
       <node concept="ZOwr_" id="1r3mgtJEVp1" role="ZOwpV">
         <node concept="ZOwrm" id="1LeTgidqm6P" role="2JZWw_">
           <property role="TrG5h" value="Trees" />
-          <property role="2YXOq1" value="is" />
           <node concept="ZOwpH" id="1LeTgid_uz8" role="1XCrbu">
             <property role="TrG5h" value="materials" />
             <node concept="ZOwps" id="1LeTgid_uzc" role="zGXb3" />
@@ -714,7 +710,6 @@
         </node>
         <node concept="ZOwrm" id="1LeTgid_uyU" role="2JZWw_">
           <property role="TrG5h" value="Fire" />
-          <property role="2YXOq1" value="is" />
           <node concept="2hpLdR" id="1LeTgid_uzq" role="2W_r1q">
             <property role="2hv$f$" value="1LeTgidavpQ/left" />
           </node>
@@ -1097,7 +1092,6 @@
       <node concept="ZOwr_" id="24qWCY8d5XJ" role="ZOwpV">
         <node concept="ZOwrm" id="24yfUKsi0Xd" role="2JZWw_">
           <property role="TrG5h" value="voter" />
-          <property role="2YXOq1" value="is" />
           <node concept="2WUdOh" id="24yfUKsi0Xf" role="2W_r1q">
             <node concept="2oK_Am" id="24yfUKsi0Xj" role="2WUdOg">
               <property role="2oK_Ap" value="100" />
@@ -1173,7 +1167,6 @@
       <node concept="ZOwr_" id="35QCLExIskP" role="ZOwpV">
         <node concept="ZOwrm" id="24yfUKsi0Xo" role="2JZWw_">
           <property role="TrG5h" value="Tree" />
-          <property role="2YXOq1" value="is" />
           <node concept="2WUdOh" id="24yfUKsi0Xq" role="2W_r1q">
             <node concept="21jJIL" id="24yfUKsi0Xu" role="2WUdOg">
               <property role="21jJIY" value="0" />

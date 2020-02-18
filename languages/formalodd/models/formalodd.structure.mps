@@ -742,11 +742,6 @@
       <property role="TrG5h" value="Distribution" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="626ZVnusr$O" role="1TKVEl">
-      <property role="IQ2nx" value="6955527831106468148" />
-      <property role="TrG5h" value="showColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="3rTwIuRCGPW" role="1TKVEl">
       <property role="IQ2nx" value="3961341278979018108" />
       <property role="TrG5h" value="showLocation" />
