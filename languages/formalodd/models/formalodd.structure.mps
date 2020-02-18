@@ -733,13 +733,13 @@
     <node concept="1TJgyj" id="5oUGABTLn_n" role="1TKVEi">
       <property role="IQ2ns" value="6213474804142799191" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Coordinates" />
+      <property role="20kJfa" value="coordinates" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3lcKR8aBGng" resolve="TODO_Coordinates" />
     </node>
     <node concept="1TJgyi" id="626ZVnusr$M" role="1TKVEl">
       <property role="IQ2nx" value="6955527831106468146" />
-      <property role="TrG5h" value="Distribution" />
+      <property role="TrG5h" value="distribution" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRCGPW" role="1TKVEl">
@@ -747,30 +747,20 @@
       <property role="TrG5h" value="showLocation" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="626ZVnusr$R" role="1TKVEl">
-      <property role="IQ2nx" value="6955527831106468151" />
-      <property role="TrG5h" value="ChangeNeighbors" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="626ZVnusr$V" role="1TKVEl">
-      <property role="IQ2nx" value="6955527831106468155" />
-      <property role="TrG5h" value="ChangeSelf" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="4diQXU_2xof" role="1TKVEl">
       <property role="IQ2nx" value="4851181497929569807" />
       <property role="TrG5h" value="maximumNumberOfEntitys" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyi" id="4diQXU_2xog" role="1TKVEl">
       <property role="IQ2nx" value="4851181497929569808" />
-      <property role="TrG5h" value="StartingNumber" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="startingNumber" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyj" id="3rTwIuRCadk" role="1TKVEi">
       <property role="IQ2ns" value="3961341278978876244" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="DefaultColor" />
+      <property role="20kJfa" value="defaultColor" />
       <ref role="20lvS9" node="3lcKR8aBGm5" resolve="TODO_DefaultColor" />
     </node>
     <node concept="1TJgyj" id="60Hvi7sIcPV" role="1TKVEi">

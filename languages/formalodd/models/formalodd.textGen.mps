@@ -4527,7 +4527,7 @@
                         <ref role="2Gs0qQ" node="3mweh_Ab6US" resolve="p" />
                       </node>
                       <node concept="3TrEf2" id="7y2oNvHHS5" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                        <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="7y2oNvHIrJ" role="2OqNvi">
@@ -4541,97 +4541,6 @@
                 <property role="lacIc" value="[" />
               </node>
               <node concept="l8MVK" id="3mweh_Ab6V6" role="lcghm" />
-            </node>
-            <node concept="3clFbJ" id="3mweh_Ab6V7" role="3cqZAp">
-              <node concept="3clFbS" id="3mweh_Ab6V8" role="3clFbx">
-                <node concept="lc7rE" id="3mweh_Ab6V9" role="3cqZAp">
-                  <node concept="la8eA" id="3mweh_Ab6Va" role="lcghm">
-                    <property role="lacIc" value="ask neighbors with [pcolor = " />
-                  </node>
-                  <node concept="l9hG8" id="3mweh_Ab6Vb" role="lcghm">
-                    <node concept="2OqwBi" id="3mweh_Ab6Vc" role="lb14g">
-                      <node concept="2GrUjf" id="3mweh_Ab6Vd" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="3mweh_Ab6US" resolve="p" />
-                      </node>
-                      <node concept="3TrcHB" id="3mweh_Ab6Ve" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:626ZVnusr$R" resolve="ChangeNeighbors" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="la8eA" id="3mweh_Ab6Vf" role="lcghm">
-                    <property role="lacIc" value="][" />
-                  </node>
-                  <node concept="l8MVK" id="3mweh_Ab6Vg" role="lcghm" />
-                </node>
-                <node concept="lc7rE" id="3mweh_Ab6Vh" role="3cqZAp">
-                  <node concept="la8eA" id="3mweh_Ab6Vi" role="lcghm">
-                    <property role="lacIc" value="set pcolor " />
-                  </node>
-                  <node concept="l9hG8" id="7y2oNvHJ0X" role="lcghm">
-                    <node concept="2OqwBi" id="7y2oNvHJ0Y" role="lb14g">
-                      <node concept="2OqwBi" id="7y2oNvHJ0Z" role="2Oq$k0">
-                        <node concept="2OqwBi" id="7y2oNvHJ10" role="2Oq$k0">
-                          <node concept="2GrUjf" id="7y2oNvHJ11" role="2Oq$k0">
-                            <ref role="2Gs0qQ" node="3mweh_Ab6US" resolve="p" />
-                          </node>
-                          <node concept="3TrEf2" id="7y2oNvHJ12" role="2OqNvi">
-                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
-                          </node>
-                        </node>
-                        <node concept="3TrcHB" id="7y2oNvHJ13" role="2OqNvi">
-                          <ref role="3TsBF5" to="86kt:5vgYlnqdd$T" resolve="color" />
-                        </node>
-                      </node>
-                      <node concept="24Tkf9" id="7y2oNvHJ14" role="2OqNvi" />
-                    </node>
-                  </node>
-                  <node concept="la8eA" id="3mweh_Ab6Vn" role="lcghm">
-                    <property role="lacIc" value="]" />
-                  </node>
-                  <node concept="l8MVK" id="3mweh_Ab6Vo" role="lcghm" />
-                </node>
-              </node>
-              <node concept="3y3z36" id="3mweh_Ab6Vp" role="3clFbw">
-                <node concept="10Nm6u" id="3mweh_Ab6Vq" role="3uHU7w" />
-                <node concept="2OqwBi" id="3mweh_Ab6Vr" role="3uHU7B">
-                  <node concept="2GrUjf" id="3mweh_Ab6Vs" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="3mweh_Ab6US" resolve="p" />
-                  </node>
-                  <node concept="3TrcHB" id="3mweh_Ab6Vt" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$R" resolve="ChangeNeighbors" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="3mweh_Ab6Vu" role="3cqZAp">
-              <node concept="3clFbS" id="3mweh_Ab6Vv" role="3clFbx">
-                <node concept="lc7rE" id="3mweh_Ab6Vw" role="3cqZAp">
-                  <node concept="la8eA" id="3mweh_Ab6Vx" role="lcghm">
-                    <property role="lacIc" value="set pcolor " />
-                  </node>
-                  <node concept="l9hG8" id="3mweh_Ab6Vy" role="lcghm">
-                    <node concept="2OqwBi" id="3mweh_Ab6Vz" role="lb14g">
-                      <node concept="2GrUjf" id="3mweh_Ab6V$" role="2Oq$k0">
-                        <ref role="2Gs0qQ" node="3mweh_Ab6US" resolve="p" />
-                      </node>
-                      <node concept="3TrcHB" id="3mweh_Ab6V_" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:626ZVnusr$V" resolve="ChangeSelf" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3y3z36" id="3mweh_Ab6VA" role="3clFbw">
-                <node concept="10Nm6u" id="3mweh_Ab6VB" role="3uHU7w" />
-                <node concept="2OqwBi" id="3mweh_Ab6VC" role="3uHU7B">
-                  <node concept="2GrUjf" id="3mweh_Ab6VD" role="2Oq$k0">
-                    <ref role="2Gs0qQ" node="3mweh_Ab6US" resolve="p" />
-                  </node>
-                  <node concept="3TrcHB" id="3mweh_Ab6VE" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$V" resolve="ChangeSelf" />
-                  </node>
-                </node>
-              </node>
             </node>
             <node concept="lc7rE" id="3mweh_Ab6VF" role="3cqZAp">
               <node concept="la8eA" id="3mweh_Ab6VG" role="lcghm">
@@ -4660,7 +4569,7 @@
                     <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                   </node>
                   <node concept="3TrcHB" id="3mweh_Ab6Rs" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="Distribution" />
+                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="distribution" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3mweh_Ab6Rt" role="3uHU7w">
@@ -4699,7 +4608,7 @@
                             <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                           </node>
                           <node concept="3TrEf2" id="7y2oNvHJ6B" role="2OqNvi">
-                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                           </node>
                         </node>
                         <node concept="3TrcHB" id="7y2oNvHJ6C" role="2OqNvi">
@@ -4726,7 +4635,7 @@
                     <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                   </node>
                   <node concept="3TrcHB" id="3mweh_Ab6RP" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="Distribution" />
+                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="distribution" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3mweh_Ab6RQ" role="3uHU7w">
@@ -4755,7 +4664,7 @@
                             <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                           </node>
                           <node concept="3TrEf2" id="7y2oNvHJwJ" role="2OqNvi">
-                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                           </node>
                         </node>
                         <node concept="3TrcHB" id="7y2oNvHJwK" role="2OqNvi">
@@ -4782,7 +4691,7 @@
                     <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                   </node>
                   <node concept="3TrcHB" id="3mweh_Ab6Sa" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="Distribution" />
+                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="distribution" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3mweh_Ab6Sb" role="3uHU7w">
@@ -4811,7 +4720,7 @@
                             <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                           </node>
                           <node concept="3TrEf2" id="7y2oNvHJI1" role="2OqNvi">
-                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                           </node>
                         </node>
                         <node concept="3TrcHB" id="7y2oNvHJI2" role="2OqNvi">
@@ -4838,7 +4747,7 @@
                     <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                   </node>
                   <node concept="3TrcHB" id="3mweh_Ab6Sv" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="Distribution" />
+                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="distribution" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3mweh_Ab6Sw" role="3uHU7w">
@@ -4867,7 +4776,7 @@
                             <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                           </node>
                           <node concept="3TrEf2" id="7y2oNvHJVt" role="2OqNvi">
-                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                           </node>
                         </node>
                         <node concept="3TrcHB" id="7y2oNvHJVu" role="2OqNvi">
@@ -4894,7 +4803,7 @@
                     <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                   </node>
                   <node concept="3TrcHB" id="3mweh_Ab6SO" role="2OqNvi">
-                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="Distribution" />
+                    <ref role="3TsBF5" to="86kt:626ZVnusr$M" resolve="distribution" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3mweh_Ab6SP" role="3uHU7w">
@@ -4923,7 +4832,7 @@
                             <ref role="2Gs0qQ" node="3mweh_Ab6Rh" resolve="p" />
                           </node>
                           <node concept="3TrEf2" id="7y2oNvHK93" role="2OqNvi">
-                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                            <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                           </node>
                         </node>
                         <node concept="3TrcHB" id="7y2oNvHK94" role="2OqNvi">
@@ -8146,7 +8055,7 @@
                   <node concept="2OqwBi" id="1LeTgidf5ff" role="2Oq$k0">
                     <node concept="2OqwBi" id="1LeTgidf5fg" role="2Oq$k0">
                       <node concept="3TrEf2" id="1LeTgidf5fi" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                        <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                       </node>
                       <node concept="Jnkvi" id="1LeTgidfcjj" role="2Oq$k0">
                         <ref role="1M0zk5" node="1LeTgidfaW0" resolve="envirnmentEntity" />
@@ -8276,7 +8185,7 @@
                         <ref role="1M0zk5" node="1LeTgidgEsx" resolve="envEntity" />
                       </node>
                       <node concept="3TrEf2" id="1LeTgidgITv" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+                        <ref role="3Tt5mk" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
                       </node>
                     </node>
                     <node concept="3TrcHB" id="1LeTgidgITw" role="2OqNvi">

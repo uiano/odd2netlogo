@@ -2318,7 +2318,7 @@
           <property role="3F0ifm" value="will have the color" />
         </node>
         <node concept="3F1sOY" id="6lHESjKJyvv" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="DefaultColor" />
+          <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
         </node>
         <node concept="2iRfu4" id="3rTwIuRB$kd" role="2iSdaV" />
       </node>
@@ -3205,7 +3205,7 @@
           <ref role="1NtTu8" to="86kt:aIqcXo37bG" resolve="environment" />
           <node concept="1sVBvm" id="4diQXU_2xpD" role="1sWHZn">
             <node concept="3F0A7n" id="4diQXU_2xq1" role="2wV5jI">
-              <ref role="1NtTu8" to="86kt:4diQXU_2xog" resolve="StartingNumber" />
+              <ref role="1NtTu8" to="86kt:4diQXU_2xog" resolve="startingNumber" />
             </node>
           </node>
         </node>
