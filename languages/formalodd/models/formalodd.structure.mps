@@ -2812,23 +2812,27 @@
   </node>
   <node concept="25R3W" id="7y2oNwbJHk">
     <property role="3F6X1D" value="135681439435782996" />
-    <property role="3GE5qa" value="TODO_Expression" />
+    <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
     <property role="TrG5h" value="Quantifier" />
     <node concept="25R33" id="7y2oNwbJHl" role="25R1y">
       <property role="3tVfz5" value="135681439435782997" />
       <property role="TrG5h" value="ALL" />
+      <property role="1L1pqM" value="All" />
     </node>
     <node concept="25R33" id="7y2oNwbJHm" role="25R1y">
       <property role="3tVfz5" value="135681439435782998" />
       <property role="TrG5h" value="NOTALL" />
+      <property role="1L1pqM" value="Not all" />
     </node>
     <node concept="25R33" id="7y2oNwbJHt" role="25R1y">
       <property role="3tVfz5" value="135681439435783005" />
       <property role="TrG5h" value="ANY" />
+      <property role="1L1pqM" value="Any" />
     </node>
     <node concept="25R33" id="7y2oNwbJHp" role="25R1y">
       <property role="3tVfz5" value="135681439435783001" />
       <property role="TrG5h" value="NONE" />
+      <property role="1L1pqM" value="No" />
     </node>
   </node>
 </model>

@@ -42,7 +42,8 @@
       <concept id="2039819488956380787" name="formalodd.structure.TODO_Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
-      <concept id="7308686357753541206" name="formalodd.structure.TODO_EndCondition" flags="ng" index="2lMhBi">
+      <concept id="7308686357753541206" name="formalodd.structure.TODO_QuantifiedCondition" flags="ng" index="2lMhBi">
+        <property id="135681439435783010" name="quantifier" index="3xNfbI" />
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
         <child id="6400669868571704408" name="color" index="848cd" />
         <child id="6400669868571328618" name="endConditionOption" index="8rzWZ" />
@@ -150,7 +151,7 @@
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.TODO_EnvironmentEntity" flags="ng" index="ZOwrm">
-        <child id="3961341278978876244" name="DefaultColor" index="21mi6N" />
+        <child id="3961341278978876244" name="defaultColor" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
       </concept>
       <concept id="3840659476812055959" name="formalodd.structure.TODO_Environment" flags="ng" index="ZOwr_">
@@ -727,6 +728,7 @@
     </node>
     <node concept="2lMhBk" id="1r3mgtJEVpk" role="2J7coG">
       <node concept="2lMhBi" id="1r3mgtJJxzf" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <node concept="8rzWW" id="1r3mgtJJxzk" role="8rzWZ">
           <property role="8rzZp" value="All Environment is" />
         </node>
@@ -735,6 +737,7 @@
         </node>
       </node>
       <node concept="2lMhBi" id="1r3mgtJJx$e" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <node concept="8rzWW" id="1r3mgtJJx$M" role="8rzWZ">
           <property role="8rzZp" value="No Environment is" />
         </node>
@@ -743,6 +746,7 @@
         </node>
       </node>
       <node concept="2lMhBi" id="1r3mgtJJx$w" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <node concept="8rzWW" id="1r3mgtJJx_e" role="8rzWZ">
           <property role="8rzZp" value="No Environment is" />
         </node>
