@@ -1004,8 +1004,26 @@
         <node concept="PMmxH" id="3rTwIuRCgk0" role="3EZMnx">
           <ref role="PMmxG" node="3rTwIuRCfPJ" resolve="Location" />
         </node>
-        <node concept="PMmxH" id="6lHESjKEQKf" role="3EZMnx">
-          <ref role="PMmxG" node="aIqcXnWERo" resolve="EnviromentColor" />
+        <node concept="3EZMnI" id="7MNWMNzYNcS" role="3EZMnx">
+          <node concept="VPM3Z" id="7MNWMNzYNcT" role="3F10Kt" />
+          <node concept="3F0ifn" id="7MNWMNzYNcU" role="3EZMnx">
+            <property role="3F0ifm" value="Throughout the simulation, the " />
+            <node concept="Vb9p2" id="7MNWMNzYNcV" role="3F10Kt" />
+          </node>
+          <node concept="3F0A7n" id="7MNWMNzYNcW" role="3EZMnx">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+          <node concept="2iRfu4" id="7MNWMNzYNcX" role="2iSdaV" />
+        </node>
+        <node concept="3EZMnI" id="7MNWMNzYNcY" role="3EZMnx">
+          <node concept="VPM3Z" id="7MNWMNzYNcZ" role="3F10Kt" />
+          <node concept="3F0ifn" id="7MNWMNzYNd0" role="3EZMnx">
+            <property role="3F0ifm" value="will have the color" />
+          </node>
+          <node concept="3F1sOY" id="7MNWMNzYNd1" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
+          </node>
+          <node concept="2iRfu4" id="7MNWMNzYNd2" role="2iSdaV" />
         </node>
         <node concept="PMmxH" id="4diQXU_eBN0" role="3EZMnx">
           <ref role="PMmxG" node="3rTwIuRCbzM" resolve="EnviromentAttribute" />
@@ -2290,39 +2308,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="PKFIW" id="aIqcXnWERo">
-    <property role="TrG5h" value="EnviromentColor" />
-    <property role="3GE5qa" value="TODO_Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
-    <node concept="3EZMnI" id="3rTwIuRB$j0" role="2wV5jI">
-      <node concept="3EZMnI" id="3rTwIuRB$ja" role="3EZMnx">
-        <node concept="VPM3Z" id="3rTwIuRB$jb" role="3F10Kt" />
-        <node concept="3F0ifn" id="3rTwIuRB$jc" role="3EZMnx">
-          <property role="3F0ifm" value="Throughout the simulation, the " />
-          <node concept="Vb9p2" id="3rTwIuRB$jd" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="3rTwIuRB$je" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="2iRfu4" id="3rTwIuRB$jf" role="2iSdaV" />
-      </node>
-      <node concept="VPM3Z" id="3rTwIuRB$jp" role="3F10Kt" />
-      <node concept="ljvvj" id="3rTwIuRB$jq" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-      <node concept="3EZMnI" id="3rTwIuRB$jr" role="3EZMnx">
-        <node concept="VPM3Z" id="3rTwIuRB$js" role="3F10Kt" />
-        <node concept="3F0ifn" id="6lHESjKJxCA" role="3EZMnx">
-          <property role="3F0ifm" value="will have the color" />
-        </node>
-        <node concept="3F1sOY" id="6lHESjKJyvv" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
-        </node>
-        <node concept="2iRfu4" id="3rTwIuRB$kd" role="2iSdaV" />
-      </node>
-      <node concept="2iRkQZ" id="3rTwIuRB$kG" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnYWt1">
@@ -3813,7 +3798,7 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgJnXc">
     <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
-    <ref role="1XX52x" to="86kt:6lHESjKDb9m" resolve="TODO_EndCondition" />
+    <ref role="1XX52x" to="86kt:6lHESjKDb9m" resolve="TODO_QuantifiedCondition" />
     <node concept="3EZMnI" id="5zjJPlgKNKw" role="2wV5jI">
       <node concept="2iRkQZ" id="5zjJPlgKNKx" role="2iSdaV" />
       <node concept="3EZMnI" id="5zjJPlgKNKA" role="3EZMnx">
