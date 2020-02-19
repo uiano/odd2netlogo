@@ -1422,10 +1422,7 @@
     <property role="EcuMT" value="7308686357753541206" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
     <property role="TrG5h" value="TODO_EndCondition" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6lHESjKDb9n" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyj" id="6lHESjKDb9D" role="1TKVEi">
       <property role="IQ2ns" value="7308686357753541225" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
