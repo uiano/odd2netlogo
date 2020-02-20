@@ -1423,79 +1423,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
     <property role="TrG5h" value="TODO_QuantifiedCondition" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
-    <node concept="1TJgyj" id="6lHESjKDb9D" role="1TKVEi">
-      <property role="IQ2ns" value="7308686357753541225" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="who" />
-      <ref role="20lvS9" node="6lHESjKCmJ$" resolve="TODO_Who" />
-    </node>
-    <node concept="1TJgyj" id="6lHESjKDb9K" role="1TKVEi">
-      <property role="IQ2ns" value="7308686357753541232" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" node="6lHESjKDb9w" resolve="TODO_Condition" />
-    </node>
-    <node concept="1TJgyj" id="5zjJPlgKNLo" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868571704408" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="color" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="TODO_Color" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDb9T" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541241" />
-      <property role="TrG5h" value="AllEnvironmentTurned" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDb9X" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541245" />
-      <property role="TrG5h" value="NoEnvironmentAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDba2" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541250" />
-      <property role="TrG5h" value="AllEntityAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDba8" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541256" />
-      <property role="TrG5h" value="NoEntityAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDbaf" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541263" />
-      <property role="TrG5h" value="EntityAttributeAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDban" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541271" />
-      <property role="TrG5h" value="NoEntityAttributeAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDbb3" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541315" />
-      <property role="TrG5h" value="EnvironmentAttributeAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="6lHESjKDbbd" role="1TKVEl">
-      <property role="IQ2nx" value="7308686357753541325" />
-      <property role="TrG5h" value="NoEnvironmentAttributeAre" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5zjJPlgJnXs" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868571328348" />
-      <property role="TrG5h" value="option" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5zjJPlgKX7X" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868571742717" />
-      <property role="TrG5h" value="attribute" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5zjJPlgKX8i" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868571742738" />
-      <property role="TrG5h" value="attributeValue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="7y2oNwbJHy" role="1TKVEl">
       <property role="IQ2nx" value="135681439435783010" />
       <property role="TrG5h" value="quantifier" />
@@ -1508,7 +1435,7 @@
     </node>
     <node concept="1TJgyj" id="1zaawdwU1ic" role="1TKVEi">
       <property role="IQ2ns" value="1786286396204913804" />
-      <property role="20kJfa" value="attribute" />
+      <property role="20kJfa" value="REMOVE_attribute" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
     </node>
   </node>

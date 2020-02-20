@@ -42,7 +42,6 @@
       <concept id="7308686357753541206" name="formalodd.structure.TODO_QuantifiedCondition" flags="ng" index="2lMhBi">
         <property id="135681439435783010" name="quantifier" index="3xNfbI" />
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
-        <child id="6400669868571704408" name="color" index="848cd" />
       </concept>
       <concept id="7308686357753541200" name="formalodd.structure.TODO_ProcessOverviewAndScheduling" flags="ng" index="2lMhBk">
         <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
@@ -728,23 +727,14 @@
       <node concept="2lMhBi" id="1r3mgtJJxzf" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <ref role="2I6lkX" node="7MNWMN$KkSA" resolve="Ash" />
-        <node concept="ZOwrR" id="1r3mgtJJxzo" role="848cd">
-          <property role="1lo2db" value="3okqQmnqRql/grey" />
-        </node>
       </node>
       <node concept="2lMhBi" id="1r3mgtJJx$e" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="1LeTgid_uyU" resolve="Fire" />
-        <node concept="ZOwrR" id="1r3mgtJJx$Q" role="848cd">
-          <property role="1lo2db" value="3okqQmm_ZZM/red" />
-        </node>
       </node>
       <node concept="2lMhBi" id="1r3mgtJJx$w" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="1LeTgidqm6P" resolve="Trees" />
-        <node concept="ZOwrR" id="1r3mgtJJx_i" role="848cd">
-          <property role="1lo2db" value="3okqQmnB9tB/green" />
-        </node>
       </node>
       <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
@@ -1118,9 +1108,6 @@
       <node concept="2lMhBi" id="24qWCY8di$6" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <ref role="2I6lkX" node="7MNWMN$KkSO" resolve="orange" />
-        <node concept="ZOwo6" id="24qWCY8di$a" role="848cd">
-          <property role="1lo2db" value="3okqQmnqRq6/orange" />
-        </node>
       </node>
     </node>
   </node>
