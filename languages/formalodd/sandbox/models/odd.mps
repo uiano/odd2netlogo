@@ -738,9 +738,6 @@
       <node concept="2lMhBi" id="1r3mgtJJxzf" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <ref role="2I6lkX" node="7MNWMN$KkSA" resolve="Ash" />
-        <node concept="8rzWW" id="1r3mgtJJxzk" role="8rzWZ">
-          <property role="8rzZp" value="All Environment is" />
-        </node>
         <node concept="ZOwrR" id="1r3mgtJJxzo" role="848cd">
           <property role="1lo2db" value="3okqQmnqRql/grey" />
         </node>

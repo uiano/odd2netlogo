@@ -3857,10 +3857,13 @@
           </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="7MNWMN_ss6n" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgJo0t">
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="" />
     <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="TODO_ProcessOverviewAndScheduling" />
     <node concept="3EZMnI" id="5zjJPlgJo0v" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgJo16" role="3EZMnx">
@@ -3882,7 +3885,7 @@
         <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
           <node concept="VPM3Z" id="5zjJPlgJo0J" role="3F10Kt" />
           <node concept="3F0ifn" id="5zjJPlgJo0L" role="3EZMnx">
-            <property role="3F0ifm" value="The following end conditions is wanted:" />
+            <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
           </node>
           <node concept="2iRfu4" id="5zjJPlgJo0M" role="2iSdaV" />
         </node>

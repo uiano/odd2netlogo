@@ -1381,7 +1381,7 @@
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9g">
     <property role="EcuMT" value="7308686357753541200" />
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="TODO_ProcessOverviewAndScheduling" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="6lHESjKDb9h" role="PzmwI">
