@@ -524,12 +524,14 @@
         </node>
       </node>
       <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="qdXC$xz0Qv" resolve="sheep" />
         <node concept="8rzWW" id="1D8fLg4_FDS" role="8rzWZ">
           <property role="8rzZp" value="No Entity is" />
         </node>
       </node>
       <node concept="2lMhBi" id="1D8fLg4_FDU" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="qdXC$xz0Qt" resolve="wolf" />
         <node concept="8rzWW" id="1D8fLg4_FDY" role="8rzWZ">
           <property role="8rzZp" value="No Entity is" />
@@ -718,6 +720,12 @@
             <property role="1lo2db" value="3okqQmm_ZZM/red" />
           </node>
         </node>
+        <node concept="ZOwrm" id="7MNWMN$KkSA" role="2JZWw_">
+          <property role="TrG5h" value="Ash" />
+          <node concept="ZOwrR" id="7MNWMN$KkSM" role="21mi6N">
+            <property role="1lo2db" value="3okqQmnqRql/grey" />
+          </node>
+        </node>
         <node concept="1g3uKF" id="1r3mgtJEVp9" role="2HUN8N">
           <property role="1jzKJm" value="100" />
           <property role="1jzt_n" value="2" />
@@ -729,6 +737,7 @@
     <node concept="2lMhBk" id="1r3mgtJEVpk" role="2J7coG">
       <node concept="2lMhBi" id="1r3mgtJJxzf" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
+        <ref role="2I6lkX" node="7MNWMN$KkSA" resolve="Ash" />
         <node concept="8rzWW" id="1r3mgtJJxzk" role="8rzWZ">
           <property role="8rzZp" value="All Environment is" />
         </node>
@@ -738,6 +747,7 @@
       </node>
       <node concept="2lMhBi" id="1r3mgtJJx$e" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
+        <ref role="2I6lkX" node="1LeTgid_uyU" resolve="Fire" />
         <node concept="8rzWW" id="1r3mgtJJx$M" role="8rzWZ">
           <property role="8rzZp" value="No Environment is" />
         </node>
@@ -747,6 +757,7 @@
       </node>
       <node concept="2lMhBi" id="1r3mgtJJx$w" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
+        <ref role="2I6lkX" node="1LeTgidqm6P" resolve="Trees" />
         <node concept="8rzWW" id="1r3mgtJJx_e" role="8rzWZ">
           <property role="8rzZp" value="No Environment is" />
         </node>
@@ -1105,6 +1116,12 @@
             <property role="1lo2db" value="3okqQmnqRrq/brown" />
           </node>
         </node>
+        <node concept="ZOwrm" id="7MNWMN$KkSO" role="2JZWw_">
+          <property role="TrG5h" value="orange" />
+          <node concept="ZOwrR" id="7MNWMN$KkSU" role="21mi6N">
+            <property role="1lo2db" value="3okqQmnqRq6/orange" />
+          </node>
+        </node>
         <node concept="1g3uKF" id="24qWCY8d5XV" role="2HUN8N">
           <property role="1jzKJm" value="32" />
           <property role="1jzt_n" value="4" />
@@ -1118,6 +1135,8 @@
     </node>
     <node concept="2lMhBk" id="24qWCY8d5Y9" role="2J7coG">
       <node concept="2lMhBi" id="24qWCY8di$6" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
+        <ref role="2I6lkX" node="7MNWMN$KkSO" resolve="orange" />
         <node concept="8rzWW" id="24qWCY8di$8" role="8rzWZ">
           <property role="8rzZp" value="All Environment is" />
         </node>
@@ -1212,6 +1231,7 @@
     </node>
     <node concept="2lMhBk" id="35QCLExIslu" role="2J7coG">
       <node concept="2lMhBi" id="35QCLExIH8L" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="35QCLExIhs4" resolve="Fire" />
         <node concept="8rzWW" id="35QCLExIH8N" role="8rzWZ">
           <property role="8rzZp" value="No Entity is" />

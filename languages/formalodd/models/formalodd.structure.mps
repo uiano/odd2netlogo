@@ -1510,7 +1510,7 @@
     <node concept="1TJgyj" id="5EtG2rOxekr" role="1TKVEi">
       <property role="IQ2ns" value="6529568716114683163" />
       <property role="20kJfa" value="entity" />
-      <ref role="20lvS9" node="3lcKR8aBGke" resolve="TODO_Entity" />
+      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
     </node>
     <node concept="1TJgyj" id="1zaawdwU1ic" role="1TKVEi">
       <property role="IQ2ns" value="1786286396204913804" />
