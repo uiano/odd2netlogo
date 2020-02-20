@@ -1435,12 +1435,6 @@
       <property role="20kJfa" value="condition" />
       <ref role="20lvS9" node="6lHESjKDb9w" resolve="TODO_Condition" />
     </node>
-    <node concept="1TJgyj" id="5zjJPlgJo1E" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868571328618" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="endConditionOption" />
-      <ref role="20lvS9" node="5zjJPlgJo1D" resolve="TODO_EndConditionOption" />
-    </node>
     <node concept="1TJgyj" id="5zjJPlgKNLo" role="1TKVEi">
       <property role="IQ2ns" value="6400669868571704408" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
