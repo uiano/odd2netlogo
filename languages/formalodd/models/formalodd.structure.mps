@@ -1174,27 +1174,27 @@
     <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="1TJgyi" id="3rTwIuRHR_n" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372823" />
-      <property role="TrG5h" value="name" />
+      <property role="TrG5h" value="REMOVE_name" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_p" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372825" />
-      <property role="TrG5h" value="minAmount" />
+      <property role="TrG5h" value="MAKEINT_minAmount" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_s" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372828" />
-      <property role="TrG5h" value="maxAmount" />
+      <property role="TrG5h" value="MAKEINT_maxAmount" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_w" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372832" />
-      <property role="TrG5h" value="slideAmount" />
+      <property role="TrG5h" value="MAEKINT_slideAmount" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="7AEkq7y72tT" role="1TKVEl">
       <property role="IQ2nx" value="8766909380355172217" />
-      <property role="TrG5h" value="startValue" />
+      <property role="TrG5h" value="MAKEINT_startValue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>

@@ -2232,49 +2232,32 @@
   <node concept="24kQdi" id="3rTwIuRHR_Y">
     <property role="3GE5qa" value="TODO_NotInUse" />
     <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
-    <node concept="3EZMnI" id="3rTwIuRHRA3" role="2wV5jI">
-      <node concept="3EZMnI" id="3rTwIuRHRAR" role="3EZMnx">
-        <node concept="VPM3Z" id="3rTwIuRHRAT" role="3F10Kt" />
-        <node concept="3F0ifn" id="3rTwIuRHRAV" role="3EZMnx">
-          <property role="3F0ifm" value="The minimum possible is" />
-          <node concept="Vb9p2" id="7AEkq7xiZZ0" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="3rTwIuRHRB9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3rTwIuRHR_p" resolve="minAmount" />
-        </node>
-        <node concept="3F0ifn" id="3rTwIuRHRBh" role="3EZMnx">
-          <property role="3F0ifm" value="and the maximum possible is" />
-          <node concept="Vb9p2" id="7AEkq7xiZZ2" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="3rTwIuRHRBF" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3rTwIuRHR_s" resolve="maxAmount" />
-        </node>
-        <node concept="3F0ifn" id="7AEkq7y8DsT" role="3EZMnx">
-          <property role="3F0ifm" value="start value is" />
-          <node concept="Vb9p2" id="7AEkq7y8Dtx" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="7AEkq7y8Dtj" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7AEkq7y72tT" resolve="startValue" />
-        </node>
-        <node concept="2iRfu4" id="3rTwIuRHRAW" role="2iSdaV" />
-        <node concept="3F0ifn" id="3rTwIuRHRCl" role="3EZMnx">
-          <property role="3F0ifm" value="." />
-          <node concept="11L4FC" id="4xlWY3qzBM5" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
+    <node concept="3EZMnI" id="7MNWMN_ZPHA" role="2wV5jI">
+      <node concept="3F0ifn" id="7MNWMN_ZPHE" role="3EZMnx">
+        <property role="3F0ifm" value="slider from" />
       </node>
-      <node concept="3EZMnI" id="6dSewhkNJeH" role="3EZMnx">
-        <node concept="2iRfu4" id="6dSewhkNJeI" role="2iSdaV" />
-        <node concept="3F0ifn" id="6dSewhkNJdI" role="3EZMnx">
-          <property role="3F0ifm" value="The slider is ajusted in increments of " />
-          <node concept="Vb9p2" id="6dSewhkNJfd" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="6dSewhkNJf9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3rTwIuRHR_w" resolve="slideAmount" />
-        </node>
+      <node concept="l2Vlx" id="7MNWMNA8SJ0" role="2iSdaV" />
+      <node concept="3F0A7n" id="7MNWMN_ZPI6" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3rTwIuRHR_p" resolve="MAKEINT_minAmount" />
       </node>
-      <node concept="2iRkQZ" id="3rTwIuRHRA6" role="2iSdaV" />
+      <node concept="3F0ifn" id="7MNWMN_ZPIe" role="3EZMnx">
+        <property role="3F0ifm" value="with step" />
+      </node>
+      <node concept="3F0A7n" id="7MNWMN_ZPIo" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3rTwIuRHR_w" resolve="MAEKINT_slideAmount" />
+      </node>
+      <node concept="3F0ifn" id="7MNWMN_ZPI$" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F0A7n" id="7MNWMN_ZPIM" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3rTwIuRHR_s" resolve="MAKEINT_maxAmount" />
+      </node>
+      <node concept="3F0ifn" id="7MNWMN_ZPJ2" role="3EZMnx">
+        <property role="3F0ifm" value="initially" />
+      </node>
+      <node concept="3F0A7n" id="7MNWMN_ZPJk" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7AEkq7y72tT" resolve="MAKEINT_startValue" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="aIqcXnOmbI">
@@ -5268,47 +5251,19 @@
       <node concept="3EZMnI" id="60Hvi7sWvY4" role="3EZMnx">
         <node concept="2iRfu4" id="60Hvi7sWvY5" role="2iSdaV" />
         <node concept="3F0ifn" id="60Hvi7sWvXX" role="3EZMnx">
-          <property role="3F0ifm" value="The percentages of density is set by" />
+          <property role="3F0ifm" value="The density in percent is set by" />
           <node concept="Vb9p2" id="1LeTgidavoV" role="3F10Kt" />
         </node>
-        <node concept="3F1sOY" id="60Hvi7sWvYp" role="3EZMnx">
-          <property role="1$x2rV" value="Press ctrl + space to select method" />
+        <node concept="3F1sOY" id="7MNWMNAcZin" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:60Hvi7sLq0L" resolve="percentage" />
-          <node concept="2w$q5c" id="1LeTgidwH8b" role="3xwHhi">
-            <node concept="2aJ2om" id="1LeTgidwH8c" role="2w$qW5">
-              <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3EZMnI" id="60Hvi7sWvYT" role="3EZMnx">
-        <node concept="2iRfu4" id="60Hvi7sWvYU" role="2iSdaV" />
-        <node concept="3F1sOY" id="60Hvi7sWvZ5" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:60Hvi7sLq0L" resolve="percentage" />
-          <node concept="2w$q5c" id="60Hvi7sWvZ8" role="3xwHhi">
-            <node concept="2aJ2om" id="60Hvi7sWvZ9" role="2w$qW5">
+          <node concept="2w$q5c" id="7MNWMNAcZio" role="3xwHhi">
+            <node concept="2aJ2om" id="7MNWMNAcZip" role="2w$qW5">
               <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
             </node>
           </node>
         </node>
-        <node concept="pkWqt" id="1LeTgidatSF" role="pqm2j">
-          <node concept="3clFbS" id="1LeTgidatSG" role="2VODD2">
-            <node concept="3clFbF" id="1LeTgidatWC" role="3cqZAp">
-              <node concept="2OqwBi" id="1LeTgidauUF" role="3clFbG">
-                <node concept="2OqwBi" id="1LeTgidaubG" role="2Oq$k0">
-                  <node concept="pncrf" id="1LeTgidatWB" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="1LeTgidautw" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:60Hvi7sLq0L" resolve="percentage" />
-                  </node>
-                </node>
-                <node concept="1mIQ4w" id="1LeTgidavbk" role="2OqNvi">
-                  <node concept="chp4Y" id="1LeTgidavj2" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
+        <node concept="pVoyu" id="7MNWMNAcZiD" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
     </node>
