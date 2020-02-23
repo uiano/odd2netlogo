@@ -2727,8 +2727,8 @@
                   <node concept="38Zlrr" id="79PYCRrgFCC" role="37vLTx" />
                   <node concept="2OqwBi" id="79PYCRrgEt2" role="37vLTJ">
                     <node concept="2Sf5sV" id="79PYCRrgEkW" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="79PYCRrgE_X" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:2EFWiW_3brh" resolve="option" />
+                    <node concept="3TrcHB" id="7MNWMNAh5Vo" role="2OqNvi">
+                      <ref role="3TsBF5" to="86kt:79PYCRriZKQ" resolve="editorText" />
                     </node>
                   </node>
                 </node>

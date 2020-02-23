@@ -3710,12 +3710,8 @@
       </node>
       <node concept="3EZMnI" id="2EFWiW_3kyx" role="3EZMnx">
         <node concept="3F0ifn" id="2EFWiW_3kyy" role="3EZMnx">
-          <property role="3F0ifm" value="The" />
+          <property role="3F0ifm" value="The attribute" />
           <node concept="Vb9p2" id="2EFWiW_3nM4" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="2EFWiW_3kyY" role="3EZMnx">
-          <property role="1$x2rV" value="press alt enter for type" />
-          <ref role="1NtTu8" to="86kt:2EFWiW_3brh" resolve="option" />
         </node>
         <node concept="1iCGBv" id="2EFWiW_3kZO" role="3EZMnx">
           <property role="1$x2rV" value="press control space to select attribute" />
@@ -3724,25 +3720,6 @@
             <node concept="3F0A7n" id="2EFWiW_3l08" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-          <node concept="pkWqt" id="2EFWiW_3l0c" role="pqm2j">
-            <node concept="3clFbS" id="2EFWiW_3l0d" role="2VODD2">
-              <node concept="3clFbF" id="2EFWiW_3l7$" role="3cqZAp">
-                <node concept="2OqwBi" id="2EFWiW_3mkO" role="3clFbG">
-                  <node concept="2OqwBi" id="2EFWiW_3lkR" role="2Oq$k0">
-                    <node concept="pncrf" id="2EFWiW_3l7z" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="2EFWiW_3lE_" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:2EFWiW_3brh" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="2EFWiW_3mPu" role="2OqNvi">
-                    <node concept="Xl_RD" id="2EFWiW_3nc6" role="3y1jev">
-                      <property role="Xl_RC" value="attribute" />
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>

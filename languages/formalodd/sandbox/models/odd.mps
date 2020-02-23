@@ -8,10 +8,10 @@
   <registry>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
       <concept id="3961341278980372822" name="formalodd.structure.TODO_Slider" flags="ng" index="21jJIL">
-        <property id="3961341278980372832" name="slideAmount" index="21jJI7" />
-        <property id="3961341278980372828" name="maxAmount" index="21jJIV" />
-        <property id="3961341278980372825" name="minAmount" index="21jJIY" />
-        <property id="8766909380355172217" name="startValue" index="2rHBro" />
+        <property id="3961341278980372832" name="MAEKINT_slideAmount" index="21jJI7" />
+        <property id="3961341278980372828" name="MAKEINT_maxAmount" index="21jJIV" />
+        <property id="3961341278980372825" name="MAKEINT_minAmount" index="21jJIY" />
+        <property id="8766909380355172217" name="MAKEINT_startValue" index="2rHBro" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.TODO_KillEntity" flags="ng" index="8shMO">
         <child id="6400669868569569336" name="who" index="8shtH" />
@@ -25,7 +25,6 @@
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.TODO_UpdateValue" flags="ng" index="8StVI">
         <property id="3074816355397992829" name="UpdatedValue" index="fDf1i" />
-        <property id="3074816355397842641" name="option" index="fDOvY" />
         <property id="8247773779774822745" name="TypeOfUpdate" index="2DdUfk" />
         <property id="8247773779775454262" name="editorText" index="2DfwqV" />
         <reference id="6400669868570957210" name="attribute" index="8p6Ff" />
@@ -125,8 +124,8 @@
         <child id="193207073764989693" name="initialisation" index="1ltb8M" />
         <child id="7610748055951433660" name="entities" index="3$p12O" />
       </concept>
-      <concept id="3840659476812055816" name="formalodd.structure.TODO_EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
-        <child id="3840659476812055819" name="entity" index="ZOwpT" />
+      <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
+        <child id="3840659476812055819" name="entities" index="ZOwpT" />
         <child id="3840659476812055817" name="environment" index="ZOwpV" />
         <child id="999929643176201180" name="relationships" index="1w1JPE" />
         <child id="8931575016887347252" name="userDefinedAttributes" index="1XCrKs" />
@@ -296,7 +295,6 @@
           <property role="92LhN" value="2" />
         </node>
         <node concept="8StVI" id="3kYfzLXlqHf" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DdUfk" value="energy" />
           <property role="2DfwqV" value="decriment value" />
           <property role="fDf1i" value="2" />
@@ -325,7 +323,6 @@
           <property role="BjXqr" value="3okqQmnB9tB/green" />
           <node concept="2lNc1y" id="3kYfzLXlr8m" role="17F8SD">
             <node concept="8StVI" id="3kYfzLXlr8_" role="2GrruU">
-              <property role="fDOvY" value="attribute" />
               <property role="2DdUfk" value="energy" />
               <property role="2DfwqV" value="increment value" />
               <property role="fDf1i" value="energy-gain-from-grass" />
@@ -362,7 +359,6 @@
             </node>
             <node concept="8StVI" id="3kYfzLXlrnJ" role="2GrruU">
               <property role="2DfwqV" value="increment value" />
-              <property role="fDOvY" value="attribute" />
               <property role="fDf1i" value="energy-gain-from-sheep" />
               <property role="2DdUfk" value="energy" />
               <ref role="8p6Ff" node="60Hvi7rWx1g" resolve="energy" />
@@ -402,7 +398,6 @@
         <node concept="2DBPlz" id="3kYfzLXlru1" role="18tn1X">
           <property role="2DBPly" value="1" />
           <node concept="8StVI" id="3kYfzLXlrvy" role="3BJUly">
-            <property role="fDOvY" value="attribute" />
             <property role="2DfwqV" value="set value" />
             <property role="fDf1i" value="100" />
             <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energy" />
@@ -451,7 +446,6 @@
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXlrH2" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DdUfk" value="1" />
           <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="0" />
@@ -496,7 +490,6 @@
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXlryt" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DdUfk" value="grass-growth" />
           <property role="2DfwqV" value="increment value" />
           <property role="fDf1i" value="1" />
@@ -750,7 +743,6 @@
               </node>
             </node>
             <node concept="8StVI" id="3kYfzLXpebz" role="2GrruU">
-              <property role="fDOvY" value="attribute" />
               <property role="2DfwqV" value="set value" />
               <property role="fDf1i" value="20" />
               <ref role="8p6Ff" node="1LeTgid_uz8" resolve="materials" />
@@ -772,7 +764,6 @@
             </node>
           </node>
           <node concept="8StVI" id="3kYfzLXpecY" role="2GrruU">
-            <property role="fDOvY" value="attribute" />
             <property role="2DdUfk" value="materials" />
             <property role="2DfwqV" value="decriment value" />
             <property role="fDf1i" value="1" />
@@ -1034,25 +1025,21 @@
       <node concept="2lNc1x" id="3kYfzLXouWR" role="2GyEu2">
         <property role="TrG5h" value="update" />
         <node concept="8StVI" id="3kYfzLXouXe" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="count (turtles-on neighbors) with [ color = [ color ] of myself ]" />
           <ref role="8p6Ff" node="60Hvi7s7XyX" resolve="similar-nearby" />
         </node>
         <node concept="8StVI" id="3kYfzLXpeb3" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="count (turtles-on neighbors) with [ color != [ color ] of myself ]" />
           <ref role="8p6Ff" node="60Hvi7s7XyL" resolve="other-nearby" />
         </node>
         <node concept="8StVI" id="3kYfzLXpebb" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="similar-nearby + other-nearby" />
           <ref role="8p6Ff" node="60Hvi7s7Xzc" resolve="total-nearby" />
         </node>
         <node concept="8StVI" id="3kYfzLXpebl" role="18tn1X">
-          <property role="fDOvY" value="attribute" />
           <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="similar-nearby &gt;= (similar-nearby-wanted * total-nearby / 100)" />
           <ref role="8p6Ff" node="60Hvi7s81UW" resolve="happy" />
