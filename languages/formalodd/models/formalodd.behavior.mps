@@ -207,8 +207,8 @@
                   </node>
                 </node>
                 <node concept="359W_D" id="7qp8jK7Lv5j" role="37wK5m">
-                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateVariablesAndScales" />
-                  <ref role="359W_F" to="86kt:3lcKR8aBGkb" resolve="entity" />
+                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
+                  <ref role="359W_F" to="86kt:3lcKR8aBGkb" resolve="entities" />
                 </node>
               </node>
             </node>
@@ -237,7 +237,7 @@
                   </node>
                 </node>
                 <node concept="359W_D" id="7qp8jK7L$Zw" role="37wK5m">
-                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="TODO_EntitiesStateVariablesAndScales" />
+                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
                   <ref role="359W_F" to="86kt:RwtFpHTCJs" resolve="relationships" />
                 </node>
               </node>

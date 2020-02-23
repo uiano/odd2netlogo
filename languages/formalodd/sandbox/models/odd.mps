@@ -39,7 +39,7 @@
       <concept id="2039819488956380787" name="formalodd.structure.TODO_Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
-      <concept id="7308686357753541206" name="formalodd.structure.TODO_QuantifiedCondition" flags="ng" index="2lMhBi">
+      <concept id="7308686357753541206" name="formalodd.structure.QuantifiedCondition" flags="ng" index="2lMhBi">
         <property id="135681439435783010" name="quantifier" index="3xNfbI" />
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
       </concept>

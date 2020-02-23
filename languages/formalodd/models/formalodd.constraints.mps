@@ -2364,17 +2364,11 @@
   </node>
   <node concept="1M2fIO" id="7qp8jK7V$IP">
     <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
-    <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="TODO_QuantifiedCondition" />
+    <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="QuantifiedCondition" />
     <node concept="1N5Pfh" id="7qp8jK7V$IQ" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5EtG2rOxekr" resolve="entity" />
       <node concept="1dDu$B" id="7qp8jK7V$IS" role="1N6uqs">
         <ref role="1dDu$A" to="86kt:2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="7qp8jK7V$IU" role="1Mr941">
-      <ref role="1N5Vy1" to="86kt:1zaawdwU1ic" resolve="REMOVE_attribute" />
-      <node concept="1dDu$B" id="7qp8jK7V$IY" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
       </node>
     </node>
   </node>
@@ -2424,6 +2418,16 @@
     <node concept="1N5Pfh" id="3kYfzLXov9N" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5zjJPlgHXmq" resolve="attribute" />
       <node concept="1dDu$B" id="3kYfzLXov9R" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="7MNWMN_RBvq">
+    <property role="3GE5qa" value="NotUsed" />
+    <ref role="1M2myG" to="86kt:7MNWMN_RcI3" resolve="QuantifiedCondition4Attribute" />
+    <node concept="1N5Pfh" id="7MNWMN_RBvr" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:7MNWMN_RcI6" resolve="attribute" />
+      <node concept="1dDu$B" id="7MNWMN_RBvs" role="1N6uqs">
         <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
       </node>
     </node>
