@@ -1579,11 +1579,6 @@
     <property role="TrG5h" value="TODO_UpdateValue" />
     <property role="R4oN_" value="updates values" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
-    <node concept="1TJgyj" id="5zjJPlgHXml" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868570957205" />
-      <property role="20kJfa" value="entity" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
-    </node>
     <node concept="1TJgyj" id="5zjJPlgHXmq" role="1TKVEi">
       <property role="IQ2ns" value="6400669868570957210" />
       <property role="20kJfa" value="attribute" />
@@ -1598,11 +1593,6 @@
     <node concept="1TJgyi" id="2EFWiW_3K5X" role="1TKVEl">
       <property role="IQ2nx" value="3074816355397992829" />
       <property role="TrG5h" value="UpdatedValue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="79PYCRrg__p" role="1TKVEl">
-      <property role="IQ2nx" value="8247773779774822745" />
-      <property role="TrG5h" value="TypeOfUpdate" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="79PYCRriZKQ" role="1TKVEl">

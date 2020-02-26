@@ -25,7 +25,6 @@
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.TODO_UpdateValue" flags="ng" index="8StVI">
         <property id="3074816355397992829" name="UpdatedValue" index="fDf1i" />
-        <property id="8247773779774822745" name="TypeOfUpdate" index="2DdUfk" />
         <property id="8247773779775454262" name="editorText" index="2DfwqV" />
         <reference id="6400669868570957210" name="attribute" index="8p6Ff" />
       </concept>
@@ -295,7 +294,6 @@
           <property role="92LhN" value="2" />
         </node>
         <node concept="8StVI" id="3kYfzLXlqHf" role="18tn1X">
-          <property role="2DdUfk" value="energy" />
           <property role="2DfwqV" value="decriment value" />
           <property role="fDf1i" value="2" />
           <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energy" />
@@ -323,7 +321,6 @@
           <property role="BjXqr" value="3okqQmnB9tB/green" />
           <node concept="2lNc1y" id="3kYfzLXlr8m" role="17F8SD">
             <node concept="8StVI" id="3kYfzLXlr8_" role="2GrruU">
-              <property role="2DdUfk" value="energy" />
               <property role="2DfwqV" value="increment value" />
               <property role="fDf1i" value="energy-gain-from-grass" />
               <ref role="8p6Ff" node="60Hvi7rWx1g" resolve="energy" />
@@ -360,7 +357,6 @@
             <node concept="8StVI" id="3kYfzLXlrnJ" role="2GrruU">
               <property role="2DfwqV" value="increment value" />
               <property role="fDf1i" value="energy-gain-from-sheep" />
-              <property role="2DdUfk" value="energy" />
               <ref role="8p6Ff" node="60Hvi7rWx1g" resolve="energy" />
             </node>
           </node>
@@ -446,7 +442,6 @@
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXlrH2" role="18tn1X">
-          <property role="2DdUfk" value="1" />
           <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="0" />
           <ref role="8p6Ff" node="1LeTgidqm69" resolve="grass-growth" />
@@ -490,7 +485,6 @@
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXlryt" role="18tn1X">
-          <property role="2DdUfk" value="grass-growth" />
           <property role="2DfwqV" value="increment value" />
           <property role="fDf1i" value="1" />
           <ref role="8p6Ff" node="1LeTgidqm69" resolve="grass-growth" />
@@ -764,7 +758,6 @@
             </node>
           </node>
           <node concept="8StVI" id="3kYfzLXpecY" role="2GrruU">
-            <property role="2DdUfk" value="materials" />
             <property role="2DfwqV" value="decriment value" />
             <property role="fDf1i" value="1" />
             <ref role="8p6Ff" node="1LeTgid_uz8" resolve="materials" />
