@@ -2660,9 +2660,9 @@
     </node>
   </node>
   <node concept="2S6QgY" id="6CN9jWnHH5F">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="CreateUserDefinedAttribute" />
-    <ref role="2ZfgGC" to="86kt:5zjJPlgcA6V" resolve="TODO_UpdateValue" />
+    <ref role="2ZfgGC" to="86kt:5zjJPlgcA6V" resolve="TODO_SetAttribute" />
     <node concept="2S6ZIM" id="6CN9jWnHH5G" role="2ZfVej">
       <node concept="3clFbS" id="6CN9jWnHH5H" role="2VODD2">
         <node concept="3cpWs6" id="6CN9jWnHIrR" role="3cqZAp">

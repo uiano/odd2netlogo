@@ -23,9 +23,8 @@
         <child id="6400669868562285363" name="color" index="8S3LA" />
         <child id="6400669868562284331" name="changeEnvironmentOption" index="8Sc1Y" />
       </concept>
-      <concept id="6400669868562211259" name="formalodd.structure.TODO_UpdateValue" flags="ng" index="8StVI">
+      <concept id="6400669868562211259" name="formalodd.structure.TODO_SetAttribute" flags="ng" index="8StVI">
         <property id="3074816355397992829" name="UpdatedValue" index="fDf1i" />
-        <property id="8247773779775454262" name="editorText" index="2DfwqV" />
         <reference id="6400669868570957210" name="attribute" index="8p6Ff" />
       </concept>
       <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
@@ -60,6 +59,8 @@
       <concept id="8766909380343367735" name="formalodd.structure.TODO_NumericConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
+      <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
+      <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
       <concept id="2650478873095413229" name="formalodd.structure.TODO_CurrentEnviroment" flags="ng" index="BjZAj">
         <property id="2650478873095418597" name="color" index="BjXqr" />
@@ -293,10 +294,9 @@
         <node concept="92LhO" id="3kYfzLXlqH9" role="18tn1X">
           <property role="92LhN" value="2" />
         </node>
-        <node concept="8StVI" id="3kYfzLXlqHf" role="18tn1X">
-          <property role="2DfwqV" value="decriment value" />
+        <node concept="2qfAsS" id="7MNWMNA_w$0" role="18tn1X">
           <property role="fDf1i" value="2" />
-          <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energy" />
+          <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energyW" />
         </node>
         <node concept="2lNc1w" id="3kYfzLXlqH2" role="18tn1Z">
           <property role="8X5i2" value="Entity" />
@@ -320,10 +320,9 @@
         <node concept="BjZAj" id="3kYfzLXlqJ$" role="17I3vM">
           <property role="BjXqr" value="3okqQmnB9tB/green" />
           <node concept="2lNc1y" id="3kYfzLXlr8m" role="17F8SD">
-            <node concept="8StVI" id="3kYfzLXlr8_" role="2GrruU">
-              <property role="2DfwqV" value="increment value" />
+            <node concept="2qfAsZ" id="7MNWMNA_w$d" role="2GrruU">
               <property role="fDf1i" value="energy-gain-from-grass" />
-              <ref role="8p6Ff" node="60Hvi7rWx1g" resolve="energy" />
+              <ref role="8p6Ff" node="60Hvi7rWx1g" resolve="energyS" />
             </node>
             <node concept="8StHo" id="3kYfzLXlrfE" role="2GrruU">
               <node concept="8Styt" id="3kYfzLXlrfI" role="8Sc1Y">
@@ -354,10 +353,9 @@
                 <property role="8X5i2" value="target" />
               </node>
             </node>
-            <node concept="8StVI" id="3kYfzLXlrnJ" role="2GrruU">
-              <property role="2DfwqV" value="increment value" />
+            <node concept="2qfAsZ" id="7MNWMNA_w$t" role="2GrruU">
               <property role="fDf1i" value="energy-gain-from-sheep" />
-              <ref role="8p6Ff" node="60Hvi7rWx1g" resolve="energy" />
+              <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energyW" />
             </node>
           </node>
         </node>
@@ -369,7 +367,7 @@
             <property role="2HPVKK" value="&lt;" />
             <node concept="2HPRmR" id="3kYfzLXlrr5" role="2HP6R$">
               <property role="2HPQs5" value="Attribute" />
-              <ref role="2HY6Bt" node="60Hvi7rEy$h" resolve="energy" />
+              <ref role="2HY6Bt" node="60Hvi7rEy$h" resolve="energyW" />
             </node>
             <node concept="2HPRmR" id="3kYfzLXlrr9" role="2HP6Ry">
               <property role="2HPQs5" value="value" />
@@ -394,15 +392,14 @@
         <node concept="2DBPlz" id="3kYfzLXlru1" role="18tn1X">
           <property role="2DBPly" value="1" />
           <node concept="8StVI" id="3kYfzLXlrvy" role="3BJUly">
-            <property role="2DfwqV" value="set value" />
             <property role="fDf1i" value="100" />
-            <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energy" />
+            <ref role="8p6Ff" node="60Hvi7rEy$h" resolve="energyW" />
           </node>
           <node concept="2HP6RB" id="3kYfzLXlru4" role="BXGfr">
             <property role="2HPVKK" value="&gt;" />
             <node concept="2HPRmR" id="3kYfzLXlru6" role="2HP6R$">
               <property role="2HPQs5" value="Attribute" />
-              <ref role="2HY6Bt" node="60Hvi7rEy$h" resolve="energy" />
+              <ref role="2HY6Bt" node="60Hvi7rEy$h" resolve="energyW" />
             </node>
             <node concept="2HPRmR" id="3kYfzLXlru8" role="2HP6Ry">
               <property role="2HPQs5" value="value" />
@@ -442,7 +439,6 @@
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXlrH2" role="18tn1X">
-          <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="0" />
           <ref role="8p6Ff" node="1LeTgidqm69" resolve="grass-growth" />
         </node>
@@ -484,17 +480,16 @@
             </node>
           </node>
         </node>
-        <node concept="8StVI" id="3kYfzLXlryt" role="18tn1X">
-          <property role="2DfwqV" value="increment value" />
+        <node concept="2qfAsZ" id="7MNWMNA_w$Q" role="18tn1X">
           <property role="fDf1i" value="1" />
           <ref role="8p6Ff" node="1LeTgidqm69" resolve="grass-growth" />
-          <node concept="2HP6RB" id="3kYfzLXlryE" role="BXGfr">
+          <node concept="2HP6RB" id="7MNWMNA_w_7" role="BXGfr">
             <property role="2HPVKK" value="&lt;=" />
-            <node concept="2HPRmR" id="3kYfzLXlryG" role="2HP6R$">
+            <node concept="2HPRmR" id="7MNWMNA_w_8" role="2HP6R$">
               <property role="2HPQs5" value="Attribute" />
               <ref role="2HY6Bt" node="1LeTgidqm69" resolve="grass-growth" />
             </node>
-            <node concept="2HPRmR" id="3kYfzLXlryI" role="2HP6Ry">
+            <node concept="2HPRmR" id="7MNWMNA_w_9" role="2HP6Ry">
               <property role="2HPQs5" value="value" />
               <property role="2DpkYb" value="grass-regrowth-delay" />
             </node>
@@ -566,7 +561,7 @@
         </node>
         <node concept="RFdHg" id="6dSewhl3yFe" role="RFdH4" />
         <node concept="ZOwpH" id="60Hvi7rEy$h" role="1XCrbu">
-          <property role="TrG5h" value="energy" />
+          <property role="TrG5h" value="energyW" />
           <node concept="ZOwp4" id="60Hvi7rEy$n" role="zGXb3" />
           <node concept="21jJIL" id="60Hvi7sn4lC" role="2oy9Oj">
             <property role="21jJIY" value="0" />
@@ -603,7 +598,7 @@
         </node>
         <node concept="RFdHg" id="60Hvi7sbkhK" role="RFdH4" />
         <node concept="ZOwpH" id="60Hvi7rWx1g" role="1XCrbu">
-          <property role="TrG5h" value="energy" />
+          <property role="TrG5h" value="energyS" />
           <node concept="ZOwp4" id="60Hvi7rWx1m" role="zGXb3" />
           <node concept="21jJIL" id="60Hvi7sn85q" role="2oy9Oj">
             <property role="21jJIY" value="0" />
@@ -737,7 +732,6 @@
               </node>
             </node>
             <node concept="8StVI" id="3kYfzLXpebz" role="2GrruU">
-              <property role="2DfwqV" value="set value" />
               <property role="fDf1i" value="20" />
               <ref role="8p6Ff" node="1LeTgid_uz8" resolve="materials" />
             </node>
@@ -757,8 +751,7 @@
               <property role="2DpkYb" value="red" />
             </node>
           </node>
-          <node concept="8StVI" id="3kYfzLXpecY" role="2GrruU">
-            <property role="2DfwqV" value="decriment value" />
+          <node concept="2qfAsS" id="7MNWMNA_wzF" role="2GrruU">
             <property role="fDf1i" value="1" />
             <ref role="8p6Ff" node="1LeTgid_uz8" resolve="materials" />
           </node>
@@ -1018,22 +1011,18 @@
       <node concept="2lNc1x" id="3kYfzLXouWR" role="2GyEu2">
         <property role="TrG5h" value="update" />
         <node concept="8StVI" id="3kYfzLXouXe" role="18tn1X">
-          <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="count (turtles-on neighbors) with [ color = [ color ] of myself ]" />
           <ref role="8p6Ff" node="60Hvi7s7XyX" resolve="similar-nearby" />
         </node>
         <node concept="8StVI" id="3kYfzLXpeb3" role="18tn1X">
-          <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="count (turtles-on neighbors) with [ color != [ color ] of myself ]" />
           <ref role="8p6Ff" node="60Hvi7s7XyL" resolve="other-nearby" />
         </node>
         <node concept="8StVI" id="3kYfzLXpebb" role="18tn1X">
-          <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="similar-nearby + other-nearby" />
           <ref role="8p6Ff" node="60Hvi7s7Xzc" resolve="total-nearby" />
         </node>
         <node concept="8StVI" id="3kYfzLXpebl" role="18tn1X">
-          <property role="2DfwqV" value="set value" />
           <property role="fDf1i" value="similar-nearby &gt;= (similar-nearby-wanted * total-nearby / 100)" />
           <ref role="8p6Ff" node="60Hvi7s81UW" resolve="happy" />
         </node>

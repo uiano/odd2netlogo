@@ -1575,8 +1575,8 @@
   </node>
   <node concept="1TIwiD" id="5zjJPlgcA6V">
     <property role="EcuMT" value="6400669868562211259" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <property role="TrG5h" value="TODO_UpdateValue" />
+    <property role="3GE5qa" value="Actions" />
+    <property role="TrG5h" value="TODO_SetAttribute" />
     <property role="R4oN_" value="updates values" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
     <node concept="1TJgyj" id="5zjJPlgHXmq" role="1TKVEi">
@@ -1584,20 +1584,9 @@
       <property role="20kJfa" value="attribute" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
     </node>
-    <node concept="1TJgyj" id="5zjJPlgHXoT" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868570957369" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="changeAttribute" />
-      <ref role="20lvS9" node="5zjJPlgHXnq" resolve="TODO_ChangeAttribute" />
-    </node>
     <node concept="1TJgyi" id="2EFWiW_3K5X" role="1TKVEl">
       <property role="IQ2nx" value="3074816355397992829" />
       <property role="TrG5h" value="UpdatedValue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="79PYCRriZKQ" role="1TKVEl">
-      <property role="IQ2nx" value="8247773779775454262" />
-      <property role="TrG5h" value="editorText" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="60Hvi7sn886" role="1TKVEi">
@@ -1966,7 +1955,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="updateValue" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="TODO_UpdateValue" />
+      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="TODO_SetAttribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="2j8p7S3xTRH">
@@ -2740,6 +2729,18 @@
       <property role="20kJfa" value="attribute" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="7MNWMNAzpgj">
+    <property role="EcuMT" value="8985793055706420243" />
+    <property role="3GE5qa" value="Actions" />
+    <property role="TrG5h" value="IncrementAttribute" />
+    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+  </node>
+  <node concept="1TIwiD" id="7MNWMNAzpgk">
+    <property role="EcuMT" value="8985793055706420244" />
+    <property role="3GE5qa" value="Actions" />
+    <property role="TrG5h" value="DecrementAttribute" />
+    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="TODO_SetAttribute" />
   </node>
 </model>
 

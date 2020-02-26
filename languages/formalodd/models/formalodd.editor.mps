@@ -3701,8 +3701,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgD6iC">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="TODO_UpdateValue" />
+    <property role="3GE5qa" value="Actions" />
+    <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="TODO_SetAttribute" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$yNQPY" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -3724,12 +3724,8 @@
           </node>
         </node>
         <node concept="3F0ifn" id="2EFWiW_3ky$" role="3EZMnx">
-          <property role="3F0ifm" value="will have" />
+          <property role="3F0ifm" value="is set to" />
           <node concept="Vb9p2" id="2EFWiW_3nM7" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="79PYCRrh2W2" role="3EZMnx">
-          <property role="1$x2rV" value="press alt enter for operator" />
-          <ref role="1NtTu8" to="86kt:79PYCRriZKQ" resolve="editorText" />
         </node>
         <node concept="3F0A7n" id="79PYCRrwyLl" role="3EZMnx">
           <property role="1$x2rV" value="enter value" />
@@ -5761,6 +5757,78 @@
     <ref role="1XX52x" to="86kt:24yfUKsm9R4" resolve="TODO_CountSameLocation" />
     <node concept="3F0ifn" id="4HBtuojTQi7" role="2wV5jI">
       <property role="ilYzB" value="same location" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MNWMNAzpgt">
+    <property role="3GE5qa" value="Actions" />
+    <ref role="1XX52x" to="86kt:7MNWMNAzpgk" resolve="DecrementAttribute" />
+    <node concept="3EZMnI" id="7MNWMNAzpgv" role="2wV5jI">
+      <node concept="3F1sOY" id="7MNWMNAzpgw" role="3EZMnx">
+        <property role="1$x2rV" value="press enter to create a condition" />
+        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
+      </node>
+      <node concept="3EZMnI" id="7MNWMNAzpgx" role="3EZMnx">
+        <node concept="3F0ifn" id="7MNWMNAzpgy" role="3EZMnx">
+          <property role="3F0ifm" value="The attribute" />
+          <node concept="Vb9p2" id="7MNWMNAzpgz" role="3F10Kt" />
+        </node>
+        <node concept="1iCGBv" id="7MNWMNAzpg$" role="3EZMnx">
+          <property role="1$x2rV" value="press control space to select attribute" />
+          <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
+          <node concept="1sVBvm" id="7MNWMNAzpg_" role="1sWHZn">
+            <node concept="3F0A7n" id="7MNWMNAzpgA" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="7MNWMNAzpgB" role="3EZMnx">
+          <property role="3F0ifm" value="is decremented with" />
+          <node concept="Vb9p2" id="7MNWMNAzpgC" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="7MNWMNAzpgE" role="3EZMnx">
+          <property role="1$x2rV" value="enter value" />
+          <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+        </node>
+        <node concept="2iRfu4" id="7MNWMNAzpgF" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="7MNWMNAzpgG" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MNWMNAzph3">
+    <property role="3GE5qa" value="Actions" />
+    <ref role="1XX52x" to="86kt:7MNWMNAzpgj" resolve="IncrementAttribute" />
+    <node concept="3EZMnI" id="7MNWMNAzph5" role="2wV5jI">
+      <node concept="3F1sOY" id="7MNWMNAzph6" role="3EZMnx">
+        <property role="1$x2rV" value="press enter to create a condition" />
+        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
+      </node>
+      <node concept="3EZMnI" id="7MNWMNAzph7" role="3EZMnx">
+        <node concept="3F0ifn" id="7MNWMNAzph8" role="3EZMnx">
+          <property role="3F0ifm" value="The attribute" />
+          <node concept="Vb9p2" id="7MNWMNAzph9" role="3F10Kt" />
+        </node>
+        <node concept="1iCGBv" id="7MNWMNAzpha" role="3EZMnx">
+          <property role="1$x2rV" value="press control space to select attribute" />
+          <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
+          <node concept="1sVBvm" id="7MNWMNAzphb" role="1sWHZn">
+            <node concept="3F0A7n" id="7MNWMNAzphc" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="7MNWMNAzphd" role="3EZMnx">
+          <property role="3F0ifm" value="is incremented with" />
+          <node concept="Vb9p2" id="7MNWMNAzphe" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="7MNWMNAzphg" role="3EZMnx">
+          <property role="1$x2rV" value="enter value" />
+          <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+        </node>
+        <node concept="2iRfu4" id="7MNWMNAzphh" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="7MNWMNAzphi" role="2iSdaV" />
     </node>
   </node>
 </model>
