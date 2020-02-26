@@ -1237,7 +1237,7 @@
                       </node>
                     </node>
                     <node concept="Jncv_" id="4qxfPPPwkXt" role="3cqZAp">
-                      <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                      <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                       <node concept="3clFbS" id="4qxfPPPwkXu" role="Jncv$">
                         <node concept="3clFbF" id="4qxfPPPwkXv" role="3cqZAp">
                           <node concept="37vLTI" id="4qxfPPPwkXw" role="3clFbG">
@@ -1269,7 +1269,7 @@
                       </node>
                     </node>
                     <node concept="Jncv_" id="4qxfPPPwkXE" role="3cqZAp">
-                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
+                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="FIX_NumericConstant" />
                       <node concept="2OqwBi" id="4qxfPPPwkXF" role="JncvB">
                         <node concept="2GrUjf" id="4qxfPPPwkXG" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="4qxfPPPwkXa" resolve="linkUDA" />
@@ -1286,7 +1286,7 @@
                                 <ref role="1M0zk5" node="4qxfPPPwkXP" resolve="numericConstant" />
                               </node>
                               <node concept="3TrcHB" id="4qxfPPPwkXN" role="2OqNvi">
-                                <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="value" />
+                                <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="MAKEINT_value" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="4qxfPPPwkXO" role="37vLTJ">
@@ -1490,7 +1490,7 @@
                       </node>
                     </node>
                     <node concept="Jncv_" id="6dSewhkYdxw" role="3cqZAp">
-                      <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                      <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                       <node concept="3clFbS" id="6dSewhkYdx$" role="Jncv$">
                         <node concept="3clFbF" id="6dSewhkYf9p" role="3cqZAp">
                           <node concept="37vLTI" id="6dSewhkYfzU" role="3clFbG">
@@ -1522,7 +1522,7 @@
                       </node>
                     </node>
                     <node concept="Jncv_" id="6dSewhkYgAx" role="3cqZAp">
-                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
+                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="FIX_NumericConstant" />
                       <node concept="2OqwBi" id="6dSewhkYhFA" role="JncvB">
                         <node concept="2GrUjf" id="6dSewhkYhwl" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="6dSewhkY6WO" resolve="entityUda" />
@@ -1539,7 +1539,7 @@
                                 <ref role="1M0zk5" node="6dSewhkYgAB" resolve="numericConstant" />
                               </node>
                               <node concept="3TrcHB" id="6dSewhkYknh" role="2OqNvi">
-                                <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="value" />
+                                <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="MAKEINT_value" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="6dSewhkYiTR" role="37vLTJ">
@@ -3353,7 +3353,7 @@
                 </node>
                 <node concept="1mIQ4w" id="6dSewhkTVM4" role="2OqNvi">
                   <node concept="chp4Y" id="6dSewhkTVOr" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                    <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                   </node>
                 </node>
               </node>
@@ -3402,7 +3402,7 @@
                     </node>
                     <node concept="1mIQ4w" id="60Hvi7smAxb" role="2OqNvi">
                       <node concept="chp4Y" id="60Hvi7smAzy" role="cj9EA">
-                        <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                        <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                       </node>
                     </node>
                   </node>
@@ -3640,7 +3640,7 @@
               </node>
               <node concept="3clFbS" id="1LeTgidC3DZ" role="Jncv$">
                 <node concept="Jncv_" id="1LeTgidC4Y$" role="3cqZAp">
-                  <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                  <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                   <node concept="2OqwBi" id="1LeTgidC571" role="JncvB">
                     <node concept="Jnkvi" id="1LeTgidC4Z8" role="2Oq$k0">
                       <ref role="1M0zk5" node="1LeTgidC3E1" resolve="density" />
@@ -3852,7 +3852,7 @@
                   </node>
                   <node concept="1mIQ4w" id="7AEkq7xh8Sv" role="2OqNvi">
                     <node concept="chp4Y" id="7AEkq7xh90a" role="cj9EA">
-                      <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                      <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                     </node>
                   </node>
                 </node>
@@ -5667,7 +5667,7 @@
   </node>
   <node concept="WtQ9Q" id="2EFWiW_38si">
     <property role="3GE5qa" value="Actions" />
-    <ref role="WuzLi" to="86kt:5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+    <ref role="WuzLi" to="86kt:5zjJPlgcA6V" resolve="SetAttribute" />
     <node concept="11bSqf" id="2EFWiW_38FI" role="11c4hB">
       <node concept="3clFbS" id="2EFWiW_38FJ" role="2VODD2">
         <node concept="3cpWs8" id="2EFWiW_amNL" role="3cqZAp">
@@ -5763,8 +5763,8 @@
           <node concept="l9hG8" id="7MNWMNAzsLS" role="lcghm">
             <node concept="2OqwBi" id="7MNWMNAzsLT" role="lb14g">
               <node concept="117lpO" id="7MNWMNAzsLU" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7MNWMNAzsLV" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+              <node concept="3TrEf2" id="7MNWMNAI99E" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:60Hvi7sn886" resolve="expression" />
               </node>
             </node>
           </node>
@@ -7377,8 +7377,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="7AEkq7xhARf">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="WuzLi" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
+    <ref role="WuzLi" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
     <node concept="11bSqf" id="7AEkq7xhARg" role="11c4hB">
       <node concept="3clFbS" id="7AEkq7xhARh" role="2VODD2">
         <node concept="lc7rE" id="7AEkq7xq58u" role="3cqZAp">
@@ -7650,7 +7650,7 @@
           </node>
           <node concept="3clFbS" id="1LeTgidgEsv" role="Jncv$">
             <node concept="Jncv_" id="1LeTgidgGwj" role="3cqZAp">
-              <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+              <ref role="JncvD" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
               <node concept="2OqwBi" id="1LeTgidgGKi" role="JncvB">
                 <node concept="117lpO" id="1LeTgidgGCJ" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1LeTgidgGVe" role="2OqNvi">
@@ -7684,7 +7684,7 @@
               </node>
             </node>
             <node concept="Jncv_" id="1LeTgidgH6a" role="3cqZAp">
-              <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
+              <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="FIX_NumericConstant" />
               <node concept="2OqwBi" id="1LeTgidgHhc" role="JncvB">
                 <node concept="117lpO" id="1LeTgidgH7B" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1LeTgidgHs8" role="2OqNvi">
@@ -7702,7 +7702,7 @@
                         <ref role="1M0zk5" node="1LeTgidgH6g" resolve="numConstant" />
                       </node>
                       <node concept="3TrcHB" id="1LeTgidgKzR" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="value" />
+                        <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="MAKEINT_value" />
                       </node>
                     </node>
                   </node>
@@ -8679,8 +8679,8 @@
           <node concept="l9hG8" id="7MNWMNAzsmh" role="lcghm">
             <node concept="2OqwBi" id="7MNWMNAzsmi" role="lb14g">
               <node concept="117lpO" id="7MNWMNAzsmj" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7MNWMNAzsmk" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+              <node concept="3TrEf2" id="7MNWMNAOjT5" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:60Hvi7sn886" resolve="expression" />
               </node>
             </node>
           </node>
@@ -8831,8 +8831,8 @@
           <node concept="l9hG8" id="7MNWMNAzrSh" role="lcghm">
             <node concept="2OqwBi" id="7MNWMNAzrSi" role="lb14g">
               <node concept="117lpO" id="7MNWMNAzrSj" role="2Oq$k0" />
-              <node concept="3TrcHB" id="7MNWMNAzrSk" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+              <node concept="3TrEf2" id="7MNWMNAOkkA" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:60Hvi7sn886" resolve="expression" />
               </node>
             </node>
           </node>
@@ -8866,6 +8866,42 @@
         </node>
         <node concept="3clFbH" id="7MNWMNAzrnP" role="3cqZAp" />
         <node concept="3clFbH" id="7MNWMNAzrnQ" role="3cqZAp" />
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7MNWMNAI9dZ">
+    <property role="3GE5qa" value="TODO_Expression" />
+    <ref role="WuzLi" to="86kt:7AEkq7xq0wR" resolve="FIX_NumericConstant" />
+    <node concept="11bSqf" id="7MNWMNAI9e0" role="11c4hB">
+      <node concept="3clFbS" id="7MNWMNAI9e1" role="2VODD2">
+        <node concept="lc7rE" id="7MNWMNAI9ek" role="3cqZAp">
+          <node concept="l9hG8" id="7MNWMNAI9eE" role="lcghm">
+            <node concept="2OqwBi" id="7MNWMNAI9pf" role="lb14g">
+              <node concept="117lpO" id="7MNWMNAI9fy" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7MNWMNAI9$D" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:7AEkq7xq0wS" resolve="MAKEINT_value" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="7MNWMNAI9Bs">
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <ref role="WuzLi" to="86kt:60Hvi7snd29" resolve="REMOVE_NetlogoExpression" />
+    <node concept="11bSqf" id="7MNWMNAI9Bt" role="11c4hB">
+      <node concept="3clFbS" id="7MNWMNAI9Bu" role="2VODD2">
+        <node concept="lc7rE" id="7MNWMNAI9BL" role="3cqZAp">
+          <node concept="l9hG8" id="7MNWMNAI9BM" role="lcghm">
+            <node concept="2OqwBi" id="7MNWMNAI9BN" role="lb14g">
+              <node concept="117lpO" id="7MNWMNAI9BO" role="2Oq$k0" />
+              <node concept="3TrcHB" id="7MNWMNAI9MN" role="2OqNvi">
+                <ref role="3TsBF5" to="86kt:60Hvi7snd2a" resolve="expression" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

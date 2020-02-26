@@ -1169,8 +1169,8 @@
   </node>
   <node concept="1TIwiD" id="3rTwIuRHR_m">
     <property role="EcuMT" value="3961341278980372822" />
-    <property role="TrG5h" value="TODO_Slider" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
+    <property role="TrG5h" value="FIX_Slider" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
     <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="1TJgyi" id="3rTwIuRHR_n" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372823" />
@@ -1576,24 +1576,20 @@
   <node concept="1TIwiD" id="5zjJPlgcA6V">
     <property role="EcuMT" value="6400669868562211259" />
     <property role="3GE5qa" value="Actions" />
-    <property role="TrG5h" value="TODO_SetAttribute" />
+    <property role="TrG5h" value="SetAttribute" />
     <property role="R4oN_" value="updates values" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
     <node concept="1TJgyj" id="5zjJPlgHXmq" role="1TKVEi">
       <property role="IQ2ns" value="6400669868570957210" />
       <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="TODO_UserDefinedAttribute" />
-    </node>
-    <node concept="1TJgyi" id="2EFWiW_3K5X" role="1TKVEl">
-      <property role="IQ2nx" value="3074816355397992829" />
-      <property role="TrG5h" value="UpdatedValue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="60Hvi7sn886" role="1TKVEi">
       <property role="IQ2ns" value="6930332985977504262" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expressions" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     </node>
   </node>
@@ -1955,7 +1951,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="updateValue" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="SetAttribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="2j8p7S3xTRH">
@@ -2342,12 +2338,12 @@
   </node>
   <node concept="1TIwiD" id="7AEkq7xq0wR">
     <property role="EcuMT" value="8766909380343367735" />
-    <property role="TrG5h" value="TODO_NumericConstant" />
+    <property role="TrG5h" value="FIX_NumericConstant" />
     <property role="3GE5qa" value="TODO_Expression" />
     <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="1TJgyi" id="7AEkq7xq0wS" role="1TKVEl">
       <property role="IQ2nx" value="8766909380343367736" />
-      <property role="TrG5h" value="value" />
+      <property role="TrG5h" value="MAKEINT_value" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -2437,8 +2433,8 @@
   </node>
   <node concept="1TIwiD" id="60Hvi7snd29">
     <property role="EcuMT" value="6930332985977524361" />
-    <property role="3GE5qa" value="TODO_Expression" />
-    <property role="TrG5h" value="TODO_NetlogoExpression" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="TrG5h" value="REMOVE_NetlogoExpression" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyi" id="60Hvi7snd2a" role="1TKVEl">
       <property role="IQ2nx" value="6930332985977524362" />
@@ -2734,13 +2730,13 @@
     <property role="EcuMT" value="8985793055706420243" />
     <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="IncrementAttribute" />
-    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="SetAttribute" />
   </node>
   <node concept="1TIwiD" id="7MNWMNAzpgk">
     <property role="EcuMT" value="8985793055706420244" />
     <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="DecrementAttribute" />
-    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="SetAttribute" />
   </node>
 </model>
 

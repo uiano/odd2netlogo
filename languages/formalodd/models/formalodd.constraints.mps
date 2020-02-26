@@ -235,8 +235,8 @@
     </language>
   </registry>
   <node concept="1M2fIO" id="7AEkq7xABLa">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1M2myG" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
+    <ref role="1M2myG" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
     <node concept="EnEH3" id="7AEkq7xRduD" role="1MhHOB">
       <ref role="EomxK" to="86kt:3rTwIuRHR_n" resolve="REMOVE_name" />
       <node concept="Eqf_E" id="7AEkq7xRd$D" role="EtsB7">
@@ -2144,9 +2144,9 @@
   </node>
   <node concept="1M2fIO" id="7AEkq7y03Eg">
     <property role="3GE5qa" value="TODO_Expression" />
-    <ref role="1M2myG" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
+    <ref role="1M2myG" to="86kt:7AEkq7xq0wR" resolve="FIX_NumericConstant" />
     <node concept="EnEH3" id="7qp8jK7KDZP" role="1MhHOB">
-      <ref role="EomxK" to="86kt:7AEkq7xq0wS" resolve="value" />
+      <ref role="EomxK" to="86kt:7AEkq7xq0wS" resolve="MAKEINT_value" />
       <node concept="QB0g5" id="7qp8jK7KDZR" role="QCWH9">
         <node concept="3clFbS" id="7qp8jK7KDZS" role="2VODD2">
           <node concept="Jncv_" id="7qp8jK7KE3N" role="3cqZAp">
@@ -2414,7 +2414,7 @@
   </node>
   <node concept="1M2fIO" id="3kYfzLXov9M">
     <property role="3GE5qa" value="Actions" />
-    <ref role="1M2myG" to="86kt:5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+    <ref role="1M2myG" to="86kt:5zjJPlgcA6V" resolve="SetAttribute" />
     <node concept="1N5Pfh" id="3kYfzLXov9N" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5zjJPlgHXmq" resolve="attribute" />
       <node concept="1dDu$B" id="3kYfzLXov9R" role="1N6uqs">

@@ -821,7 +821,7 @@
                       </node>
                       <node concept="1mIQ4w" id="7AEkq7xzzlk" role="2OqNvi">
                         <node concept="chp4Y" id="7AEkq7xzzrw" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+                          <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
                         </node>
                       </node>
                     </node>
@@ -2230,8 +2230,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="3rTwIuRHR_Y">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
     <node concept="3EZMnI" id="7MNWMN_ZPHA" role="2wV5jI">
       <node concept="3F0ifn" id="7MNWMN_ZPHE" role="3EZMnx">
         <property role="3F0ifm" value="slider from" />
@@ -3702,7 +3702,7 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgD6iC">
     <property role="3GE5qa" value="Actions" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="TODO_SetAttribute" />
+    <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="SetAttribute" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
       <node concept="3F1sOY" id="qdXC$yNQPY" role="3EZMnx">
         <property role="1$x2rV" value="press enter to create a condition" />
@@ -3727,9 +3727,8 @@
           <property role="3F0ifm" value="is set to" />
           <node concept="Vb9p2" id="2EFWiW_3nM7" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="79PYCRrwyLl" role="3EZMnx">
-          <property role="1$x2rV" value="enter value" />
-          <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+        <node concept="3F1sOY" id="7MNWMNADEPT" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:60Hvi7sn886" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="2EFWiW_3kyA" role="2iSdaV" />
       </node>
@@ -4646,7 +4645,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="7AEkq7xf3c$">
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="TODO_Slider" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
     <node concept="3F0ifn" id="7AEkq7xf3cC" role="2wV5jI">
       <property role="3F0ifm" value="slider" />
     </node>
@@ -4661,7 +4661,7 @@
   </node>
   <node concept="24kQdi" id="7AEkq7xyz$q">
     <property role="3GE5qa" value="TODO_Expression" />
-    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="TODO_NumericConstant" />
+    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="FIX_NumericConstant" />
     <node concept="3EZMnI" id="7AEkq7xyz$v" role="2wV5jI">
       <node concept="3F0ifn" id="7AEkq7xyz$C" role="3EZMnx">
         <property role="3F0ifm" value="specific value:" />
@@ -4669,7 +4669,7 @@
       </node>
       <node concept="2iRfu4" id="7AEkq7xyz$w" role="2iSdaV" />
       <node concept="3F0A7n" id="7AEkq7xyz$s" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7AEkq7xq0wS" resolve="value" />
+        <ref role="1NtTu8" to="86kt:7AEkq7xq0wS" resolve="MAKEINT_value" />
       </node>
     </node>
   </node>
@@ -5656,8 +5656,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsx3LW">
-    <property role="3GE5qa" value="TODO_Expression" />
-    <ref role="1XX52x" to="86kt:60Hvi7snd29" resolve="TODO_NetlogoExpression" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <ref role="1XX52x" to="86kt:60Hvi7snd29" resolve="REMOVE_NetlogoExpression" />
     <node concept="3EZMnI" id="24yfUKsx3M3" role="2wV5jI">
       <node concept="2iRfu4" id="24yfUKsx3M4" role="2iSdaV" />
       <node concept="3F0ifn" id="24yfUKsx3M9" role="3EZMnx">
@@ -5786,9 +5786,8 @@
           <property role="3F0ifm" value="is decremented with" />
           <node concept="Vb9p2" id="7MNWMNAzpgC" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="7MNWMNAzpgE" role="3EZMnx">
-          <property role="1$x2rV" value="enter value" />
-          <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+        <node concept="3F1sOY" id="7MNWMNAG5h3" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:60Hvi7sn886" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="7MNWMNAzpgF" role="2iSdaV" />
       </node>
@@ -5822,9 +5821,8 @@
           <property role="3F0ifm" value="is incremented with" />
           <node concept="Vb9p2" id="7MNWMNAzphe" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="7MNWMNAzphg" role="3EZMnx">
-          <property role="1$x2rV" value="enter value" />
-          <ref role="1NtTu8" to="86kt:2EFWiW_3K5X" resolve="UpdatedValue" />
+        <node concept="3F1sOY" id="7MNWMNAG5ho" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:60Hvi7sn886" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="7MNWMNAzphh" role="2iSdaV" />
       </node>
