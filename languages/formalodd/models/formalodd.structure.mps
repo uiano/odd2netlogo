@@ -2717,13 +2717,13 @@
     <property role="EcuMT" value="8985793055706420243" />
     <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="IncrementAttribute" />
-    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="SetAttribute" />
+    <ref role="1TJDcQ" node="7MNWMNBgngJ" resolve="AssignAttribute" />
   </node>
   <node concept="1TIwiD" id="7MNWMNAzpgk">
     <property role="EcuMT" value="8985793055706420244" />
     <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="DecrementAttribute" />
-    <ref role="1TJDcQ" node="5zjJPlgcA6V" resolve="SetAttribute" />
+    <ref role="1TJDcQ" node="7MNWMNBgngJ" resolve="AssignAttribute" />
   </node>
   <node concept="1TIwiD" id="7MNWMNBgngJ">
     <property role="EcuMT" value="8985793055718208559" />
