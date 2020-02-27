@@ -2238,7 +2238,7 @@
       </node>
       <node concept="l2Vlx" id="7MNWMNA8SJ0" role="2iSdaV" />
       <node concept="3F0A7n" id="7MNWMN_ZPI6" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3rTwIuRHR_p" resolve="MAKEINT_minAmount" />
+        <ref role="1NtTu8" to="86kt:3rTwIuRHR_p" resolve="minAmount" />
       </node>
       <node concept="3F0ifn" id="7MNWMN_ZPIe" role="3EZMnx">
         <property role="3F0ifm" value="with step" />
@@ -3284,7 +3284,7 @@
         <node concept="2iRkQZ" id="5zjJPlg$Ann" role="2iSdaV" />
         <node concept="VPM3Z" id="5zjJPlg$Ano" role="3F10Kt" />
         <node concept="3F2HdR" id="3kYfzLXj3vy" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3kYfzLXiOT1" resolve="action" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT1" resolve="actions" />
           <node concept="2iRkQZ" id="3kYfzLXj3vz" role="2czzBx" />
         </node>
       </node>
@@ -4568,7 +4568,15 @@
       <node concept="3F1sOY" id="qdXC$xtScd" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:1zaawdvsxRL" resolve="condition" />
       </node>
-      <node concept="3F0ifn" id="qdXC$x$NoM" role="3EZMnx" />
+      <node concept="3F0ifn" id="7MNWMNB0bsD" role="3EZMnx">
+        <property role="3F0ifm" value="we do the action" />
+        <node concept="Vb9p2" id="7MNWMNB0bsE" role="3F10Kt" />
+      </node>
+      <node concept="3F2HdR" id="7MNWMNB0btR" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3kYfzLXiOT1" resolve="actions" />
+        <node concept="2iRkQZ" id="7MNWMNB0btT" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="7MNWMNB0btt" role="3EZMnx" />
       <node concept="VPXOz" id="qdXC$xz0St" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>

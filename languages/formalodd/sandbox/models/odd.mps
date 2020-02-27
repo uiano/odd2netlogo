@@ -10,7 +10,7 @@
       <concept id="3961341278980372822" name="formalodd.structure.FIX_Slider" flags="ng" index="21jJIL">
         <property id="3961341278980372832" name="MAEKINT_slideAmount" index="21jJI7" />
         <property id="3961341278980372828" name="MAKEINT_maxAmount" index="21jJIV" />
-        <property id="3961341278980372825" name="MAKEINT_minAmount" index="21jJIY" />
+        <property id="3961341278980372825" name="minAmount" index="21jJIY" />
         <property id="8766909380355172217" name="MAKEINT_startValue" index="2rHBro" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.TODO_KillEntity" flags="ng" index="8shMO">
@@ -23,7 +23,7 @@
         <child id="6400669868562285363" name="color" index="8S3LA" />
         <child id="6400669868562284331" name="changeEnvironmentOption" index="8Sc1Y" />
       </concept>
-      <concept id="6400669868562211259" name="formalodd.structure.TODO_SetAttribute" flags="ng" index="8StVI">
+      <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI">
         <reference id="6400669868570957210" name="attribute" index="8p6Ff" />
         <child id="6930332985977504262" name="expression" index="2WsvWB" />
       </concept>
@@ -50,7 +50,7 @@
         <reference id="6400669868561546218" name="entity" index="8YSiZ" />
       </concept>
       <concept id="7308686357753326565" name="formalodd.structure.TODO_Procedure" flags="ng" index="2lNc1x">
-        <child id="3836572362087288385" name="action" index="18tn1X" />
+        <child id="3836572362087288385" name="actions" index="18tn1X" />
         <child id="3836572362087288387" name="who" index="18tn1Z" />
       </concept>
       <concept id="7308686357753326566" name="formalodd.structure.TODO_CompoundAction" flags="ng" index="2lNc1y">
@@ -735,6 +735,20 @@
       </node>
       <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
+        <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
+          <node concept="8Styt" id="7MNWMNB2dNk" role="8Sc1Y">
+            <property role="8Stys" value="Change Current Pixel" />
+          </node>
+          <node concept="ZOwo6" id="7MNWMNB2dNl" role="8S3LA">
+            <property role="1lo2db" value="3okqQmm_ZZM/red" />
+          </node>
+        </node>
+        <node concept="8StVI" id="7MNWMNB2dNm" role="18tn1X">
+          <ref role="8p6Ff" node="1LeTgid_uz8" resolve="materials" />
+          <node concept="2oK_Am" id="7MNWMNB2dNn" role="2WsvWB">
+            <property role="2oK_Ap" value="20" />
+          </node>
+        </node>
         <node concept="1SKK9t" id="1r3mgtKgnYK" role="17I3vM">
           <property role="1SKKa9" value="3okqQmnB9tB/green" />
           <node concept="2lNc1y" id="1r3mgtKgnYM" role="1SKKaf">

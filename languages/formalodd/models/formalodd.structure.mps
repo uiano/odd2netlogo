@@ -1179,8 +1179,8 @@
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_p" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372825" />
-      <property role="TrG5h" value="MAKEINT_minAmount" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="minAmount" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_s" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372828" />
@@ -1347,7 +1347,7 @@
     <node concept="1TJgyj" id="3kYfzLXiOT1" role="1TKVEi">
       <property role="IQ2ns" value="3836572362087288385" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="action" />
+      <property role="20kJfa" value="actions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="TODO_Action" />
     </node>
