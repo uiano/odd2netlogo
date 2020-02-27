@@ -4237,24 +4237,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F1sOY" id="1zaawdvuX6M" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:1zaawdvpEgE" resolve="action" />
-        <node concept="pkWqt" id="4MYWhBhD_02" role="pqm2j">
-          <node concept="3clFbS" id="4MYWhBhD_03" role="2VODD2">
-            <node concept="3clFbF" id="4MYWhBhD_7n" role="3cqZAp">
-              <node concept="3fqX7Q" id="4MYWhBhD_7p" role="3clFbG">
-                <node concept="2OqwBi" id="4MYWhBhD_7q" role="3fr31v">
-                  <node concept="pncrf" id="4MYWhBhD_7r" role="2Oq$k0" />
-                  <node concept="1BlSNk" id="4MYWhBhD_7s" role="2OqNvi">
-                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
-                    <ref role="1Bn3mz" to="86kt:1zaawdvhWY3" resolve="condition" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="79PYCRrUG$l">
@@ -4319,24 +4301,6 @@
           <ref role="1NtTu8" to="86kt:5vgYlnqdd_7" resolve="color" />
         </node>
       </node>
-      <node concept="3F1sOY" id="1zaawdw2iw$" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:1zaawdvpEgE" resolve="action" />
-        <node concept="pkWqt" id="4MYWhBhDyYJ" role="pqm2j">
-          <node concept="3clFbS" id="4MYWhBhDyYK" role="2VODD2">
-            <node concept="3clFbF" id="4MYWhBhDz64" role="3cqZAp">
-              <node concept="3fqX7Q" id="4MYWhBhDz66" role="3clFbG">
-                <node concept="2OqwBi" id="4MYWhBhDz67" role="3fr31v">
-                  <node concept="pncrf" id="4MYWhBhDz68" role="2Oq$k0" />
-                  <node concept="1BlSNk" id="4MYWhBhDz69" role="2OqNvi">
-                    <ref role="1BmUXE" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
-                    <ref role="1Bn3mz" to="86kt:1zaawdvhWY3" resolve="condition" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="2iRkQZ" id="1zaawdw2iwf" role="2iSdaV" />
     </node>
   </node>
@@ -4367,8 +4331,8 @@
   <node concept="24kQdi" id="1zaawdvhXDe">
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
     <ref role="1XX52x" to="86kt:1zaawdvhXD5" resolve="TODO_NoCondition" />
-    <node concept="3F1sOY" id="1zaawdvhXDg" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:1zaawdvpEgE" resolve="action" />
+    <node concept="3F0ifn" id="7MNWMNBlawb" role="2wV5jI">
+      <property role="3F0ifm" value="not used ???" />
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdvBQJV">
@@ -4451,9 +4415,6 @@
           <property role="3F0ifm" value="if the spot is occupied the entity will" />
           <node concept="Vb9p2" id="1zaawdwHPXl" role="3F10Kt" />
         </node>
-      </node>
-      <node concept="3F1sOY" id="1zaawdwLVtF" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:1zaawdvpEgE" resolve="action" />
       </node>
     </node>
   </node>

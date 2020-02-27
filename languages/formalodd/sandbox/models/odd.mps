@@ -50,7 +50,7 @@
         <child id="3836572362087288385" name="actions" index="18tn1X" />
         <child id="3836572362087288387" name="who" index="18tn1Z" />
       </concept>
-      <concept id="7308686357753326566" name="formalodd.structure.TODO_CompoundAction" flags="ng" index="2lNc1y">
+      <concept id="7308686357753326566" name="formalodd.structure.REMOVE_CompoundAction" flags="ng" index="2lNc1y">
         <child id="6529568716155258780" name="action" index="2GrruU" />
       </concept>
       <concept id="8766909380343367735" name="formalodd.structure.FIX_NumericConstant" flags="ng" index="2oK_Am">
@@ -157,9 +157,6 @@
         <child id="6213474804142799436" name="EnvEntity" index="2JZWw_" />
       </concept>
       <concept id="3840659476812055941" name="formalodd.structure.TODO_DefaultColor" flags="ng" index="ZOwrR" />
-      <concept id="1786286396179544506" name="formalodd.structure.TODO_InteractionCondition" flags="ng" index="17FHeT">
-        <child id="1786286396179653674" name="action" index="17F8SD" />
-      </concept>
       <concept id="3864151261526742322" name="formalodd.structure.TODO_GraphicsWindow" flags="ng" index="1g3uKF">
         <property id="3864151261535137068" name="WrapVertical" index="1jztgP" />
         <property id="3864151261535133778" name="WrapHorizontal" index="1jzt_b" />
@@ -315,6 +312,22 @@
       </node>
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
+        <node concept="2lNc1y" id="7MNWMNBlapC" role="18tn1X">
+          <node concept="2qfAsZ" id="7MNWMNBlapD" role="2GrruU">
+            <ref role="2rWCsu" node="60Hvi7rWx1g" resolve="energyS" />
+            <node concept="2WsqQC" id="7MNWMNBlapE" role="2rWCss">
+              <property role="2WsqQF" value="energy-gain-from-grass" />
+            </node>
+          </node>
+          <node concept="8StHo" id="7MNWMNBlapF" role="2GrruU">
+            <node concept="8Styt" id="7MNWMNBlapG" role="8Sc1Y">
+              <property role="8Stys" value="Change Current Pixel" />
+            </node>
+            <node concept="ZOwo6" id="7MNWMNBlapH" role="8S3LA">
+              <property role="1lo2db" value="3okqQmnqRrq/brown" />
+            </node>
+          </node>
+        </node>
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
@@ -325,26 +338,23 @@
         </node>
         <node concept="BjZAj" id="3kYfzLXlqJ$" role="17I3vM">
           <property role="BjXqr" value="3okqQmnB9tB/green" />
-          <node concept="2lNc1y" id="3kYfzLXlr8m" role="17F8SD">
-            <node concept="2qfAsZ" id="7MNWMNA_w$d" role="2GrruU">
-              <ref role="2rWCsu" node="60Hvi7rWx1g" resolve="energyS" />
-              <node concept="2WsqQC" id="7MNWMNBj8CF" role="2rWCss">
-                <property role="2WsqQF" value="energy-gain-from-grass" />
-              </node>
-            </node>
-            <node concept="8StHo" id="3kYfzLXlrfE" role="2GrruU">
-              <node concept="8Styt" id="3kYfzLXlrfI" role="8Sc1Y">
-                <property role="8Stys" value="Change Current Pixel" />
-              </node>
-              <node concept="ZOwo6" id="3kYfzLXlrfK" role="8S3LA">
-                <property role="1lo2db" value="3okqQmnqRrq/brown" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
+        <node concept="2lNc1y" id="7MNWMNBlapO" role="18tn1X">
+          <node concept="8shMO" id="7MNWMNBlapP" role="2GrruU">
+            <node concept="2lNc1w" id="7MNWMNBlapQ" role="8shtH">
+              <property role="8X5i2" value="target" />
+            </node>
+          </node>
+          <node concept="2qfAsZ" id="7MNWMNBlapR" role="2GrruU">
+            <ref role="2rWCsu" node="60Hvi7rEy$h" resolve="energyW" />
+            <node concept="2WsqQC" id="7MNWMNBlapS" role="2rWCss">
+              <property role="2WsqQF" value="energy-gain-from-sheep" />
+            </node>
+          </node>
+        </node>
         <node concept="2lNc1w" id="3kYfzLXlriR" role="18tn1Z">
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
@@ -355,19 +365,6 @@
         </node>
         <node concept="fwBFc" id="3kYfzLXlrl9" role="17I3vM">
           <ref role="fwBFb" node="qdXC$xz0Qv" resolve="sheep" />
-          <node concept="2lNc1y" id="3kYfzLXlrlc" role="17F8SD">
-            <node concept="8shMO" id="3kYfzLXlrlg" role="2GrruU">
-              <node concept="2lNc1w" id="3kYfzLXlrlj" role="8shtH">
-                <property role="8X5i2" value="target" />
-              </node>
-            </node>
-            <node concept="2qfAsZ" id="7MNWMNA_w$t" role="2GrruU">
-              <ref role="2rWCsu" node="60Hvi7rEy$h" resolve="energyW" />
-              <node concept="2WsqQC" id="7MNWMNBj8CH" role="2rWCss">
-                <property role="2WsqQF" value="energy-gain-from-sheep" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrpQ" role="2GyEu2">
@@ -1026,11 +1023,10 @@
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
         <property role="TrG5h" value="occupied" />
-        <node concept="1Svnkm" id="qdXC$yrH6C" role="17I3vM">
-          <node concept="1Svl6F" id="qdXC$yrH6E" role="17F8SD">
-            <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
-          </node>
+        <node concept="1Svl6F" id="7MNWMNBlapA" role="18tn1X">
+          <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
         </node>
+        <node concept="1Svnkm" id="qdXC$yrH6C" role="17I3vM" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXmcA8" role="2GyEu2">
         <property role="TrG5h" value="move" />
