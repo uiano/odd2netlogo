@@ -3217,7 +3217,7 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgalBx">
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="TODO_CompoundAction" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="REMOVE_CompoundAction" />
     <node concept="3EZMnI" id="5EtG2rQW0Vd" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQW0Ve" role="3EZMnx">
         <node concept="3F1sOY" id="qdXC$xWxDX" role="3EZMnx">
@@ -3715,7 +3715,7 @@
         </node>
         <node concept="1iCGBv" id="2EFWiW_3kZO" role="3EZMnx">
           <property role="1$x2rV" value="press control space to select attribute" />
-          <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBgngM" resolve="attribute" />
           <node concept="1sVBvm" id="2EFWiW_3kZQ" role="1sWHZn">
             <node concept="3F0A7n" id="2EFWiW_3l08" role="2wV5jI">
               <property role="1Intyy" value="true" />
@@ -3728,7 +3728,7 @@
           <node concept="Vb9p2" id="2EFWiW_3nM7" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="7MNWMNADEPT" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:60Hvi7sn886" resolve="expression" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBgngK" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="2EFWiW_3kyA" role="2iSdaV" />
       </node>
@@ -5782,7 +5782,7 @@
         </node>
         <node concept="1iCGBv" id="7MNWMNAzpg$" role="3EZMnx">
           <property role="1$x2rV" value="press control space to select attribute" />
-          <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBgngM" resolve="attribute" />
           <node concept="1sVBvm" id="7MNWMNAzpg_" role="1sWHZn">
             <node concept="3F0A7n" id="7MNWMNAzpgA" role="2wV5jI">
               <property role="1Intyy" value="true" />
@@ -5795,7 +5795,7 @@
           <node concept="Vb9p2" id="7MNWMNAzpgC" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="7MNWMNAG5h3" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:60Hvi7sn886" resolve="expression" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBgngK" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="7MNWMNAzpgF" role="2iSdaV" />
       </node>
@@ -5817,7 +5817,7 @@
         </node>
         <node concept="1iCGBv" id="7MNWMNAzpha" role="3EZMnx">
           <property role="1$x2rV" value="press control space to select attribute" />
-          <ref role="1NtTu8" to="86kt:5zjJPlgHXmq" resolve="attribute" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBgngM" resolve="attribute" />
           <node concept="1sVBvm" id="7MNWMNAzphb" role="1sWHZn">
             <node concept="3F0A7n" id="7MNWMNAzphc" role="2wV5jI">
               <property role="1Intyy" value="true" />
@@ -5830,7 +5830,7 @@
           <node concept="Vb9p2" id="7MNWMNAzphe" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="7MNWMNAG5ho" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:60Hvi7sn886" resolve="expression" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBgngK" resolve="expression" />
         </node>
         <node concept="2iRfu4" id="7MNWMNAzphh" role="2iSdaV" />
       </node>
