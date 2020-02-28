@@ -570,7 +570,7 @@
       </node>
       <node concept="3F0ifn" id="7JNl2w6kIsZ" role="3EZMnx" />
       <node concept="3F0ifn" id="RwtFpHTD72" role="3EZMnx">
-        <property role="3F0ifm" value="Environment" />
+        <property role="3F0ifm" value="Environment entities" />
         <node concept="Vb9p2" id="RwtFpHTD7A" role="3F10Kt">
           <property role="Vbekb" value="g1_k_vY/BOLD" />
         </node>
@@ -583,7 +583,18 @@
       <node concept="VPXOz" id="3OPyh9HNrFb" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
-      <node concept="3F0ifn" id="RwtFpHTD5p" role="3EZMnx" />
+      <node concept="3F2HdR" id="7MNWMNCjGls" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNC5fbJ" resolve="environmentEntities" />
+        <node concept="2iRkQZ" id="7MNWMNCjGlt" role="2czzBx" />
+        <node concept="3F0ifn" id="7MNWMNCjGlu" role="2czzBI">
+          <property role="ilYzB" value="press enter to create enviroment entity" />
+          <node concept="Vb9p2" id="7MNWMNCjGlv" role="3F10Kt" />
+          <node concept="VechU" id="7MNWMNCjGlw" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7MNWMNCjGkA" role="3EZMnx" />
       <node concept="3F0ifn" id="7JNl2w6kIwe" role="3EZMnx">
         <property role="3F0ifm" value="User Defined Attributes" />
         <node concept="Vb9p2" id="RwtFpHTD8g" role="3F10Kt">
@@ -982,24 +993,6 @@
     <property role="3GE5qa" value="TODO_Environment" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGmn" resolve="TODO_Environment" />
     <node concept="3EZMnI" id="5EtG2rRtC8z" role="2wV5jI">
-      <node concept="3EZMnI" id="5EtG2rRtC8$" role="3EZMnx">
-        <node concept="3F2HdR" id="5EtG2rRtC9v" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5oUGABTLnDc" resolve="EnvEntity" />
-          <node concept="2iRkQZ" id="5EtG2rRtC9x" role="2czzBx" />
-          <node concept="3F0ifn" id="1D8fLg5CDqR" role="2czzBI">
-            <property role="ilYzB" value="press enter to create enviroment entity" />
-            <node concept="Vb9p2" id="1D8fLg5CDqU" role="3F10Kt" />
-            <node concept="VechU" id="1D8fLg5CDqZ" role="3F10Kt">
-              <property role="Vb096" value="fLJRk5_/gray" />
-            </node>
-          </node>
-        </node>
-        <node concept="VPM3Z" id="5EtG2rRtC8H" role="3F10Kt" />
-        <node concept="ljvvj" id="5EtG2rRtC8I" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="2iRkQZ" id="5EtG2rRtC8O" role="2iSdaV" />
-      </node>
       <node concept="l2Vlx" id="5EtG2rRtC8P" role="2iSdaV" />
     </node>
   </node>
@@ -4661,32 +4654,27 @@
         </node>
       </node>
       <node concept="3F0ifn" id="60Hvi7rF1t6" role="3EZMnx" />
-      <node concept="3F0ifn" id="60Hvi7rF1tl" role="3EZMnx">
+      <node concept="3F0ifn" id="7MNWMNClGQo" role="3EZMnx">
         <property role="3F0ifm" value="Initialize envionment entities" />
       </node>
-      <node concept="1iCGBv" id="60Hvi7rYj6p" role="3EZMnx">
+      <node concept="1iCGBv" id="7MNWMNClGQp" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="entities" />
-        <node concept="1sVBvm" id="60Hvi7rYj6r" role="1sWHZn">
-          <node concept="1iCGBv" id="60Hvi7rYj6U" role="2wV5jI">
-            <ref role="1NtTu8" to="86kt:3lcKR8aBGk9" resolve="environment" />
-            <node concept="1sVBvm" id="60Hvi7rYj6W" role="1sWHZn">
-              <node concept="3F2HdR" id="60Hvi7rYj7d" role="2wV5jI">
-                <ref role="1NtTu8" to="86kt:5oUGABTLnDc" resolve="EnvEntity" />
-                <node concept="2iRkQZ" id="60Hvi7rYj7f" role="2czzBx" />
-                <node concept="2w$q5c" id="60Hvi7rYj7k" role="78xua">
-                  <node concept="2aJ2om" id="60Hvi7rYj7l" role="2w$qW5">
-                    <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
-                  </node>
-                </node>
-                <node concept="3F0ifn" id="4HBtuok0pOd" role="2czzBI">
-                  <property role="ilYzB" value="Press Enter to add environment entity" />
-                </node>
+        <node concept="1sVBvm" id="7MNWMNClGQq" role="1sWHZn">
+          <node concept="3F2HdR" id="7MNWMNClGS0" role="2wV5jI">
+            <ref role="1NtTu8" to="86kt:7MNWMNC5fbJ" resolve="environmentEntities" />
+            <node concept="3F0ifn" id="7MNWMNClGS3" role="2czzBI">
+              <property role="ilYzB" value="Press Enter to add environment entity" />
+            </node>
+            <node concept="2iRkQZ" id="7MNWMNCnG1V" role="2czzBx" />
+            <node concept="2w$q5c" id="7MNWMNCnG1X" role="78xua">
+              <node concept="2aJ2om" id="7MNWMNCnG1Y" role="2w$qW5">
+                <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="60Hvi7rF1t_" role="3EZMnx" />
+      <node concept="3F0ifn" id="7MNWMNClGPO" role="3EZMnx" />
       <node concept="3F0ifn" id="5DmxhgovC$$" role="3EZMnx">
         <property role="3F0ifm" value="Initialize user defined attributes" />
       </node>

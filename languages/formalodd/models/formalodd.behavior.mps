@@ -260,20 +260,15 @@
               <node concept="2YIFZM" id="7qp8jK7L_5F" role="3cqZAk">
                 <ref role="1Pybhc" to="o8zo:7ipADkTevLm" resolve="SimpleRoleScope" />
                 <ref role="37wK5l" to="o8zo:6t3ylNOzI9Y" resolve="forNamedElements" />
-                <node concept="2OqwBi" id="7qp8jK7L_YE" role="37wK5m">
-                  <node concept="2OqwBi" id="7qp8jK7L_5G" role="2Oq$k0">
-                    <node concept="13iPFW" id="7qp8jK7L_5H" role="2Oq$k0" />
-                    <node concept="3TrEf2" id="7qp8jK7L_5I" role="2OqNvi">
-                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
-                    </node>
-                  </node>
-                  <node concept="3TrEf2" id="7qp8jK7LAg_" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:3lcKR8aBGk9" resolve="environment" />
+                <node concept="2OqwBi" id="7qp8jK7L_5G" role="37wK5m">
+                  <node concept="13iPFW" id="7qp8jK7L_5H" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="7qp8jK7L_5I" role="2OqNvi">
+                    <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entities" />
                   </node>
                 </node>
                 <node concept="359W_D" id="7qp8jK7L_5J" role="37wK5m">
-                  <ref role="359W_E" to="86kt:3lcKR8aBGmn" resolve="TODO_Environment" />
-                  <ref role="359W_F" to="86kt:5oUGABTLnDc" resolve="EnvEntity" />
+                  <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
+                  <ref role="359W_F" to="86kt:7MNWMNC5fbJ" resolve="environmentEntities" />
                 </node>
               </node>
             </node>
