@@ -3220,12 +3220,8 @@
     <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="REMOVE_CompoundAction" />
     <node concept="3EZMnI" id="5EtG2rQW0Vd" role="2wV5jI">
       <node concept="3EZMnI" id="5EtG2rQW0Ve" role="3EZMnx">
-        <node concept="3F1sOY" id="qdXC$xWxDX" role="3EZMnx">
-          <property role="1$x2rV" value="press enter to create a condition for all actions inside compund" />
-          <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-        </node>
         <node concept="3F2HdR" id="5EtG2rQW0Wb" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQW0us" resolve="action" />
+          <ref role="1NtTu8" to="86kt:5EtG2rQW0us" resolve="actions" />
           <node concept="2iRkQZ" id="5EtG2rQW0Wd" role="2czzBx" />
           <node concept="pVoyu" id="3okqQmmyqQy" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -3280,6 +3276,10 @@
         </node>
         <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
       </node>
+      <node concept="3F1sOY" id="7MNWMNBvDF_" role="3EZMnx">
+        <property role="1$x2rV" value="press enter to create a condition for the procedure" />
+        <ref role="1NtTu8" to="86kt:7MNWMNBvDFx" resolve="condition" />
+      </node>
       <node concept="3EZMnI" id="5zjJPlg$Anm" role="3EZMnx">
         <node concept="2iRkQZ" id="5zjJPlg$Ann" role="2iSdaV" />
         <node concept="VPM3Z" id="5zjJPlg$Ano" role="3F10Kt" />
@@ -3331,10 +3331,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgcAgd" resolve="TODO_ChangeEnvironment" />
     <node concept="3EZMnI" id="5zjJPlgcAtc" role="2wV5jI">
-      <node concept="3F1sOY" id="qdXC$ycQ9W" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="3EZMnI" id="5zjJPlgcAtm" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgcAto" role="3F10Kt" />
         <node concept="3F1sOY" id="5zjJPlgcRWI" role="3EZMnx">
@@ -3662,10 +3658,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="TODO_KillEntity" />
     <node concept="3EZMnI" id="5zjJPlgCEww" role="2wV5jI">
-      <node concept="3F1sOY" id="qdXC$xWxD9" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="2iRkQZ" id="5zjJPlgCEwz" role="2iSdaV" />
       <node concept="3EZMnI" id="5zjJPlgCEwZ" role="3EZMnx">
         <node concept="2iRfu4" id="5zjJPlgCEx0" role="2iSdaV" />
@@ -3704,10 +3696,6 @@
     <property role="3GE5qa" value="Actions" />
     <ref role="1XX52x" to="86kt:5zjJPlgcA6V" resolve="SetAttribute" />
     <node concept="3EZMnI" id="5zjJPlgD6iE" role="2wV5jI">
-      <node concept="3F1sOY" id="qdXC$yNQPY" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="3EZMnI" id="2EFWiW_3kyx" role="3EZMnx">
         <node concept="3F0ifn" id="2EFWiW_3kyy" role="3EZMnx">
           <property role="3F0ifm" value="The attribute" />
@@ -4195,10 +4183,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect.TODO_Move" />
     <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="TODO_MoveRandom" />
     <node concept="3EZMnI" id="2EFWiW$K15A" role="2wV5jI">
-      <node concept="3F1sOY" id="2gGtP_UAf8N" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="2iRkQZ" id="2EFWiW$K15B" role="2iSdaV" />
       <node concept="3EZMnI" id="2EFWiWzCelD" role="3EZMnx">
         <node concept="2iRfu4" id="2EFWiWzCelE" role="2iSdaV" />
@@ -4243,10 +4227,6 @@
     <property role="3GE5qa" value="TODO_Scheduling" />
     <ref role="1XX52x" to="86kt:79PYCRrUEZI" resolve="TODO_Spawn" />
     <node concept="3EZMnI" id="79PYCRrYoov" role="2wV5jI">
-      <node concept="3F1sOY" id="qdXC$y9jvJ" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="2iRkQZ" id="79PYCRrYoow" role="2iSdaV" />
       <node concept="3EZMnI" id="79PYCRrUG$n" role="3EZMnx">
         <node concept="3F0ifn" id="79PYCRrUG$u" role="3EZMnx">
@@ -4382,10 +4362,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <ref role="1XX52x" to="86kt:1zaawdw5aVr" resolve="TODO_Sprout" />
     <node concept="3EZMnI" id="qdXC$xWxDh" role="2wV5jI">
-      <node concept="3F1sOY" id="qdXC$xWxDG" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="2iRkQZ" id="qdXC$xWxDi" role="2iSdaV" />
       <node concept="3EZMnI" id="1zaawdw5bql" role="3EZMnx">
         <node concept="2iRfu4" id="1zaawdw5bqm" role="2iSdaV" />
@@ -4422,10 +4398,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <ref role="1XX52x" to="86kt:1zaawdwHRIC" resolve="TODO_LinkAction" />
     <node concept="3EZMnI" id="qdXC$ygXRO" role="2wV5jI">
-      <node concept="3F1sOY" id="qdXC$ygXSf" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="2iRkQZ" id="qdXC$ygXRP" role="2iSdaV" />
       <node concept="3EZMnI" id="1zaawdwPXVZ" role="3EZMnx">
         <node concept="2iRfu4" id="1zaawdwPXW0" role="2iSdaV" />
@@ -4450,10 +4422,6 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <ref role="1XX52x" to="86kt:4MYWhBhM02l" resolve="TODO_CenterOnPatch" />
     <node concept="3EZMnI" id="2gGtP_UsSz3" role="2wV5jI">
-      <node concept="3F1sOY" id="2gGtP_UsSzf" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="2iRkQZ" id="2gGtP_UsSz4" role="2iSdaV" />
       <node concept="3F0ifn" id="4MYWhBhM02w" role="3EZMnx">
         <property role="3F0ifm" value="This entity will center on current enviroment" />
@@ -4527,7 +4495,7 @@
         <node concept="Vb9p2" id="qdXC$xB086" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="qdXC$xtScd" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:1zaawdvsxRL" resolve="condition" />
+        <ref role="1NtTu8" to="86kt:1zaawdvsxRL" resolve="REMOVE_condition" />
       </node>
       <node concept="3F0ifn" id="7MNWMNB0bsD" role="3EZMnx">
         <property role="3F0ifm" value="we do the action" />
@@ -5732,10 +5700,6 @@
     <property role="3GE5qa" value="Actions" />
     <ref role="1XX52x" to="86kt:7MNWMNAzpgk" resolve="DecrementAttribute" />
     <node concept="3EZMnI" id="7MNWMNAzpgv" role="2wV5jI">
-      <node concept="3F1sOY" id="7MNWMNAzpgw" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="3EZMnI" id="7MNWMNAzpgx" role="3EZMnx">
         <node concept="3F0ifn" id="7MNWMNAzpgy" role="3EZMnx">
           <property role="3F0ifm" value="The attribute" />
@@ -5767,10 +5731,6 @@
     <property role="3GE5qa" value="Actions" />
     <ref role="1XX52x" to="86kt:7MNWMNAzpgj" resolve="IncrementAttribute" />
     <node concept="3EZMnI" id="7MNWMNAzph5" role="2wV5jI">
-      <node concept="3F1sOY" id="7MNWMNAzph6" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:qdXC$xuNli" resolve="condition" />
-      </node>
       <node concept="3EZMnI" id="7MNWMNAzph7" role="3EZMnx">
         <node concept="3F0ifn" id="7MNWMNAzph8" role="3EZMnx">
           <property role="3F0ifm" value="The attribute" />
@@ -5796,6 +5756,35 @@
         <node concept="2iRfu4" id="7MNWMNAzphh" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="7MNWMNAzphi" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MNWMNBrfFb">
+    <property role="3GE5qa" value="Actions" />
+    <ref role="1XX52x" to="86kt:7MNWMNBrfES" resolve="ConditionalAction" />
+    <node concept="3EZMnI" id="7MNWMNBrfFd" role="2wV5jI">
+      <node concept="3F1sOY" id="7MNWMNBrfFe" role="3EZMnx">
+        <property role="1$x2rV" value="press enter to create a condition" />
+        <ref role="1NtTu8" to="86kt:7MNWMNBrfEV" resolve="condition" />
+      </node>
+      <node concept="3F2HdR" id="7MNWMNBti02" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNBrfEX" resolve="actions" />
+        <node concept="2iRkQZ" id="7MNWMNBti03" role="2czzBx" />
+        <node concept="pVoyu" id="7MNWMNBti04" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="VPXOz" id="7MNWMNBti05" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3F0ifn" id="7MNWMNBti06" role="2czzBI">
+          <property role="3F0ifm" value="Add new action press enter the control space to select type" />
+          <node concept="Vb9p2" id="7MNWMNBti07" role="3F10Kt" />
+          <node concept="VechU" id="7MNWMNBti08" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="7MNWMNBthZY" role="3EZMnx" />
+      <node concept="2iRkQZ" id="7MNWMNBrfFp" role="2iSdaV" />
     </node>
   </node>
 </model>
