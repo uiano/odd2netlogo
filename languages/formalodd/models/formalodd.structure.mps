@@ -158,7 +158,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="environmentEntities" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="1TJgyj" id="RwtFpHTCJs" role="1TKVEi">
       <property role="IQ2ns" value="999929643176201180" />
@@ -178,8 +178,8 @@
   <node concept="1TIwiD" id="3lcKR8aBGke">
     <property role="EcuMT" value="3840659476812055822" />
     <property role="TrG5h" value="TODO_Entity" />
-    <property role="3GE5qa" value="TODO_Entity" />
-    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     <node concept="1TJgyj" id="6dSewhkKjrY" role="1TKVEi">
       <property role="IQ2ns" value="7167542597236373246" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -690,36 +690,9 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGm$">
     <property role="EcuMT" value="3840659476812055972" />
-    <property role="TrG5h" value="TODO_EnvironmentEntity" />
-    <property role="3GE5qa" value="TODO_Environment" />
-    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
-    <node concept="1TJgyj" id="5oUGABTLn_n" role="1TKVEi">
-      <property role="IQ2ns" value="6213474804142799191" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="coordinates" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGng" resolve="TODO_Coordinates" />
-    </node>
-    <node concept="1TJgyi" id="626ZVnusr$M" role="1TKVEl">
-      <property role="IQ2nx" value="6955527831106468146" />
-      <property role="TrG5h" value="distribution" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3rTwIuRCGPW" role="1TKVEl">
-      <property role="IQ2nx" value="3961341278979018108" />
-      <property role="TrG5h" value="showLocation" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="4diQXU_2xof" role="1TKVEl">
-      <property role="IQ2nx" value="4851181497929569807" />
-      <property role="TrG5h" value="maximumNumberOfEntitys" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="4diQXU_2xog" role="1TKVEl">
-      <property role="IQ2nx" value="4851181497929569808" />
-      <property role="TrG5h" value="startingNumber" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
+    <property role="TrG5h" value="EnvironmentEntity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     <node concept="1TJgyj" id="3rTwIuRCadk" role="1TKVEi">
       <property role="IQ2ns" value="3961341278978876244" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -768,7 +741,7 @@
   <node concept="1TIwiD" id="3lcKR8aBGn6">
     <property role="EcuMT" value="3840659476812056006" />
     <property role="TrG5h" value="TODO_SpecificLocation" />
-    <property role="3GE5qa" value="TODO_Environment" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5oUGABTKPWw" role="1TKVEi">
       <property role="IQ2ns" value="6213474804142661408" />
@@ -786,7 +759,7 @@
   <node concept="1TIwiD" id="3lcKR8aBGn7">
     <property role="EcuMT" value="3840659476812056007" />
     <property role="TrG5h" value="TODO_Location" />
-    <property role="3GE5qa" value="TODO_Environment" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
     <ref role="1TJDcQ" node="3lcKR8aBGn6" resolve="TODO_SpecificLocation" />
     <node concept="1TJgyi" id="3rTwIuRFIe3" role="1TKVEl">
       <property role="IQ2nx" value="3961341278979810179" />
@@ -953,7 +926,7 @@
     <node concept="1TJgyj" id="2gGtP_Va5Ra" role="1TKVEi">
       <property role="IQ2ns" value="2606589510542712266" />
       <property role="20kJfa" value="entity" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
+      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="aIqcXnvDHm">
@@ -1093,7 +1066,7 @@
     <node concept="1TJgyj" id="aIqcXo37bG" role="1TKVEi">
       <property role="IQ2ns" value="193207073768239852" />
       <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="1TJgyj" id="aIqcXnYWUa" role="1TKVEi">
       <property role="IQ2ns" value="193207073767149194" />
@@ -1205,7 +1178,7 @@
     <node concept="1TJgyj" id="5zjJPlga3JH" role="1TKVEi">
       <property role="IQ2ns" value="6400669868561546221" />
       <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKCmJ_">
@@ -1306,7 +1279,7 @@
     <node concept="1TJgyj" id="5EtG2rOxekr" role="1TKVEi">
       <property role="IQ2ns" value="6529568716114683163" />
       <property role="20kJfa" value="entity" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
+      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9w">
@@ -1337,12 +1310,12 @@
     <node concept="1TJgyj" id="6JKNFtZYj$O" role="1TKVEi">
       <property role="IQ2ns" value="7777943843990223156" />
       <property role="20kJfa" value="baseEnvitoment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="1TJgyj" id="6JKNFtZYj_j" role="1TKVEi">
       <property role="IQ2ns" value="7777943843990223187" />
       <property role="20kJfa" value="targetEnviroment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="PrWs8" id="6lHESjKDb9x" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -1373,7 +1346,7 @@
       <property role="IQ2ns" value="7777943843989251312" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="baseEnviroment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDbbO">
@@ -1464,7 +1437,7 @@
     <node concept="1TJgyj" id="5EtG2rPkcWJ" role="1TKVEi">
       <property role="IQ2ns" value="6529568716128046895" />
       <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="1TJgyi" id="5zjJPlgcAge" role="1TKVEl">
       <property role="IQ2nx" value="6400669868562211854" />
@@ -1545,7 +1518,7 @@
     <node concept="1TJgyj" id="5zjJPlgCE3_" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569567461" />
       <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="1TJgyj" id="5zjJPlgHXqB" role="1TKVEi">
       <property role="IQ2ns" value="6400669868570957479" />
@@ -1744,7 +1717,7 @@
     <node concept="1TJgyj" id="5EtG2rRiGmj" role="1TKVEi">
       <property role="IQ2ns" value="6529568716161205651" />
       <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
     <node concept="1TJgyj" id="5EtG2rRptBV" role="1TKVEi">
       <property role="IQ2ns" value="6529568716162980347" />
@@ -1794,7 +1767,7 @@
     <node concept="1TJgyj" id="2EFWiW_aoJB" role="1TKVEi">
       <property role="IQ2ns" value="3074816355399732199" />
       <property role="20kJfa" value="environmentEntity" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="79PYCRrUEZI">
@@ -1992,9 +1965,9 @@
   </node>
   <node concept="1TIwiD" id="2gGtP_Va5R4">
     <property role="EcuMT" value="2606589510542712260" />
-    <property role="TrG5h" value="TODO_GeneralEntity" />
+    <property role="TrG5h" value="GeneralEntity" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="TODO_Entity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <node concept="PrWs8" id="2gGtP_Va5R5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -2213,8 +2186,8 @@
     <property role="EcuMT" value="999929643171596417" />
     <property role="TrG5h" value="TODO_Relationship" />
     <property role="R4oN_" value="Relationship between entities" />
-    <property role="3GE5qa" value="TODO_Entity" />
-    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     <node concept="1TJgyj" id="RwtFpHTCbt" role="1TKVEi">
       <property role="IQ2ns" value="999929643176198877" />
       <property role="20kJfa" value="from" />
@@ -2529,7 +2502,7 @@
   </node>
   <node concept="25R3W" id="2kHWdXWIfBZ">
     <property role="3F6X1D" value="2679062196016183807" />
-    <property role="3GE5qa" value="TODO_Entity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="TODO_EntityBaseAttributes" />
     <node concept="25R33" id="2kHWdXWIfC0" role="25R1y">
       <property role="3tVfz5" value="2679062196016183808" />

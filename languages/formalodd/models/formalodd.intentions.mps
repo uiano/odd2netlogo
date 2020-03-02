@@ -538,7 +538,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh__vGrI">
     <property role="TrG5h" value="ShowColors" />
-    <property role="3GE5qa" value="TODO_Entity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="2ZfgGC" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="2S6ZIM" id="3mweh__vGrJ" role="2ZfVej">
       <node concept="3clFbS" id="3mweh__vGrK" role="2VODD2">
@@ -732,7 +732,7 @@
   </node>
   <node concept="3dkpOd" id="3mweh__wkWR">
     <property role="TrG5h" value="ShowAttribute" />
-    <property role="3GE5qa" value="TODO_Entity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="2ZfgGC" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="2S6ZIM" id="3mweh__wkWS" role="2ZfVej">
       <node concept="3clFbS" id="3mweh__wkWT" role="2VODD2">
@@ -1756,7 +1756,7 @@
   </node>
   <node concept="3dkpOd" id="3rTwIuRChcy">
     <property role="TrG5h" value="EnvShowLocation" />
-    <property role="3GE5qa" value="TODO_Environment" />
+    <property role="3GE5qa" value="TODO_NotInUse" />
     <ref role="2ZfgGC" to="86kt:3lcKR8aBGn7" resolve="TODO_Location" />
     <node concept="2S6ZIM" id="3rTwIuRChcz" role="2ZfVej">
       <node concept="3clFbS" id="3rTwIuRChc$" role="2VODD2">
@@ -2581,7 +2581,7 @@
     </node>
   </node>
   <node concept="2S6QgY" id="RwtFpHO3Dh">
-    <property role="3GE5qa" value="TODO_Entity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="AddRelationship" />
     <ref role="2ZfgGC" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
     <node concept="2S6ZIM" id="RwtFpHO3Di" role="2ZfVej">

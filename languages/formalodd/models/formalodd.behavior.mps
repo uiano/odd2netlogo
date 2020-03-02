@@ -251,7 +251,7 @@
             </node>
             <node concept="2Zo12i" id="7qp8jK7L_5B" role="2OqNvi">
               <node concept="chp4Y" id="7qp8jK7L_oO" role="2Zo12j">
-                <ref role="cht4Q" to="86kt:3lcKR8aBGm$" resolve="TODO_EnvironmentEntity" />
+                <ref role="cht4Q" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
               </node>
             </node>
           </node>
@@ -286,7 +286,7 @@
                   <node concept="2Rf3mk" id="7qp8jK7OJjp" role="2OqNvi">
                     <node concept="1xMEDy" id="7qp8jK7OJjr" role="1xVPHs">
                       <node concept="chp4Y" id="7qp8jK7OLjc" role="ri$Ld">
-                        <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
+                        <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
                       </node>
                     </node>
                   </node>
@@ -300,7 +300,7 @@
             </node>
             <node concept="2Zo12i" id="7qp8jK7LDnm" role="2OqNvi">
               <node concept="chp4Y" id="7qp8jK7LDqC" role="2Zo12j">
-                <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="TODO_GeneralEntity" />
+                <ref role="cht4Q" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
               </node>
             </node>
           </node>
@@ -406,7 +406,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="3kYfzLXhXMR">
-    <property role="3GE5qa" value="TODO_Entity" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="13h7C2" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="13hLZK" id="3kYfzLXhXMS" role="13h7CW">
       <node concept="3clFbS" id="3kYfzLXhXMT" role="2VODD2" />
