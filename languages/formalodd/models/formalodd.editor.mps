@@ -728,7 +728,7 @@
             <property role="1cu_pB" value="gtgu$YJ/attractsFocus" />
             <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
             <node concept="A1WHr" id="7AEkq7x0FGR" role="3vIgyS">
-              <ref role="2ZyFGn" to="86kt:3lcKR8aBGky" resolve="TODO_Type" />
+              <ref role="2ZyFGn" to="86kt:3lcKR8aBGky" resolve="Type" />
             </node>
             <node concept="2w$q5c" id="7AEkq7x3fA0" role="3xwHhi">
               <node concept="2aJ2om" id="7AEkq7x3fA1" role="2w$qW5">
@@ -807,7 +807,7 @@
                         </node>
                         <node concept="1mIQ4w" id="60Hvi7s3jDr" role="2OqNvi">
                           <node concept="chp4Y" id="60Hvi7s3jMm" role="cj9EA">
-                            <ref role="cht4Q" to="86kt:3lcKR8aBGkQ" resolve="TODO_Float" />
+                            <ref role="cht4Q" to="86kt:3lcKR8aBGkQ" resolve="Float" />
                           </node>
                         </node>
                       </node>
@@ -820,7 +820,7 @@
                         </node>
                         <node concept="1mIQ4w" id="60Hvi7s3hkC" role="2OqNvi">
                           <node concept="chp4Y" id="60Hvi7s3h$U" role="cj9EA">
-                            <ref role="cht4Q" to="86kt:3lcKR8aBGkI" resolve="TODO_Integer" />
+                            <ref role="cht4Q" to="86kt:3lcKR8aBGkI" resolve="Integer" />
                           </node>
                         </node>
                       </node>
@@ -843,7 +843,7 @@
                       </node>
                       <node concept="1mIQ4w" id="7AEkq7xzzlk" role="2OqNvi">
                         <node concept="chp4Y" id="7AEkq7xzzrw" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
+                          <ref role="cht4Q" to="86kt:3rTwIuRHR_m" resolve="IntSlider" />
                         </node>
                       </node>
                     </node>
@@ -879,7 +879,7 @@
                       </node>
                       <node concept="1mIQ4w" id="60Hvi7s34Of" role="2OqNvi">
                         <node concept="chp4Y" id="60Hvi7s34Uv" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:3lcKR8aBGkH" resolve="TODO_Boolean" />
+                          <ref role="cht4Q" to="86kt:3lcKR8aBGkH" resolve="Boolean" />
                         </node>
                       </node>
                     </node>
@@ -2063,10 +2063,10 @@
   </node>
   <node concept="24kQdi" id="3rTwIuRHR_Y">
     <property role="3GE5qa" value="TODO_ValueSelect" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="IntSlider" />
     <node concept="3EZMnI" id="7MNWMN_ZPHA" role="2wV5jI">
       <node concept="3F0ifn" id="7MNWMN_ZPHE" role="3EZMnx">
-        <property role="3F0ifm" value="slider from" />
+        <property role="3F0ifm" value="int slider from" />
       </node>
       <node concept="l2Vlx" id="7MNWMNA8SJ0" role="2iSdaV" />
       <node concept="3F0A7n" id="7MNWMN_ZPI6" role="3EZMnx">
@@ -2076,19 +2076,19 @@
         <property role="3F0ifm" value="with step" />
       </node>
       <node concept="3F0A7n" id="7MNWMN_ZPIo" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3rTwIuRHR_w" resolve="MAEKINT_slideAmount" />
+        <ref role="1NtTu8" to="86kt:3rTwIuRHR_w" resolve="slideAmount" />
       </node>
       <node concept="3F0ifn" id="7MNWMN_ZPI$" role="3EZMnx">
         <property role="3F0ifm" value="to" />
       </node>
       <node concept="3F0A7n" id="7MNWMN_ZPIM" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3rTwIuRHR_s" resolve="MAKEINT_maxAmount" />
+        <ref role="1NtTu8" to="86kt:3rTwIuRHR_s" resolve="maxAmount" />
       </node>
       <node concept="3F0ifn" id="7MNWMN_ZPJ2" role="3EZMnx">
         <property role="3F0ifm" value="initially" />
       </node>
       <node concept="3F0A7n" id="7MNWMN_ZPJk" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7AEkq7y72tT" resolve="MAKEINT_startValue" />
+        <ref role="1NtTu8" to="86kt:7AEkq7y72tT" resolve="startValue" />
       </node>
     </node>
   </node>
@@ -4340,8 +4340,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="3tK0pyo0$FJ">
-    <property role="3GE5qa" value="TODO_Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="TODO_Integer" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Integer" />
     <node concept="3EZMnI" id="7AEkq7y73pM" role="2wV5jI">
       <node concept="3F0ifn" id="7AEkq7y73pT" role="3EZMnx">
         <property role="3F0ifm" value="Integer" />
@@ -4350,16 +4350,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="3tK0pyo7url">
-    <property role="3GE5qa" value="TODO_Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGky" resolve="TODO_Type" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGky" resolve="Type" />
     <node concept="3F0ifn" id="3tK0pyo8Y1T" role="2wV5jI">
       <property role="1cu_pB" value="gtguBGO/firstEditableCell" />
       <property role="ilYzB" value="Press ctrl space to select Type" />
     </node>
   </node>
   <node concept="24kQdi" id="7AEkq7wWNwy">
-    <property role="3GE5qa" value="TODO_Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="TODO_Integer" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Integer" />
     <node concept="3EZMnI" id="7AEkq7xvBFu" role="2wV5jI">
       <node concept="2iRfu4" id="7AEkq7xvBFv" role="2iSdaV" />
       <node concept="3F0ifn" id="7AEkq7wWNwA" role="3EZMnx">
@@ -4372,7 +4372,7 @@
   </node>
   <node concept="24kQdi" id="7AEkq7xf3c$">
     <property role="3GE5qa" value="TODO_ValueSelect" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="FIX_Slider" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="IntSlider" />
     <node concept="3F0ifn" id="7AEkq7xf3cC" role="2wV5jI">
       <property role="3F0ifm" value="slider" />
     </node>
@@ -4693,8 +4693,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="6dSewhkARS4">
-    <property role="3GE5qa" value="TODO_Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkQ" resolve="TODO_Float" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkQ" resolve="Float" />
     <node concept="3F0ifn" id="6dSewhkARS6" role="2wV5jI">
       <property role="3F0ifm" value="Float" />
     </node>
@@ -4761,14 +4761,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7s1kk5">
-    <property role="3GE5qa" value="TODO_Types" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkH" resolve="TODO_Boolean" />
+    <property role="3GE5qa" value="Types" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkH" resolve="Boolean" />
     <node concept="3F0ifn" id="60Hvi7s1kk7" role="2wV5jI">
       <property role="3F0ifm" value="Boolean" />
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7s3aG4">
-    <property role="3GE5qa" value="TODO_Types" />
+    <property role="3GE5qa" value="TODO_Expression" />
     <ref role="1XX52x" to="86kt:60Hvi7s39O6" resolve="TODO_BooleanConstant" />
     <node concept="3EZMnI" id="60Hvi7s3aGf" role="2wV5jI">
       <node concept="2iRfu4" id="60Hvi7s3aGg" role="2iSdaV" />
@@ -5152,7 +5152,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1LeTgidqm73">
-    <property role="3GE5qa" value="TODO_Types" />
+    <property role="3GE5qa" value="TODO_ValueSelect" />
     <ref role="1XX52x" to="86kt:7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="3F0ifn" id="1LeTgidrVVN" role="2wV5jI">
       <property role="3F0ifm" value="Press ctrl + space to select method" />
@@ -5675,6 +5675,37 @@
         <node concept="3mYdg7" id="7MNWMNC7dZw" role="3F10Kt">
           <property role="1413C4" value="body-brace" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7MNWMNCXZAC">
+    <property role="3GE5qa" value="TODO_ValueSelect" />
+    <ref role="1XX52x" to="86kt:7MNWMNCXZ_$" resolve="FIX_FloatSlider" />
+    <node concept="3EZMnI" id="7MNWMNCXZAE" role="2wV5jI">
+      <node concept="3F0ifn" id="7MNWMNCXZAF" role="3EZMnx">
+        <property role="3F0ifm" value="float slider from" />
+      </node>
+      <node concept="l2Vlx" id="7MNWMNCXZAG" role="2iSdaV" />
+      <node concept="3F0A7n" id="7MNWMNCXZAH" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_A" resolve="minAmount" />
+      </node>
+      <node concept="3F0ifn" id="7MNWMNCXZAI" role="3EZMnx">
+        <property role="3F0ifm" value="with step" />
+      </node>
+      <node concept="3F0A7n" id="7MNWMNCXZAJ" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_C" resolve="slideAmount" />
+      </node>
+      <node concept="3F0ifn" id="7MNWMNCXZAK" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F0A7n" id="7MNWMNCXZAL" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_B" resolve="maxAmount" />
+      </node>
+      <node concept="3F0ifn" id="7MNWMNCXZAM" role="3EZMnx">
+        <property role="3F0ifm" value="initially" />
+      </node>
+      <node concept="3F0A7n" id="7MNWMNCXZAN" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_D" resolve="startValue" />
       </node>
     </node>
   </node>

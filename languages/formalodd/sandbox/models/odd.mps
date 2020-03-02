@@ -7,11 +7,11 @@
   <imports />
   <registry>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
-      <concept id="3961341278980372822" name="formalodd.structure.FIX_Slider" flags="ng" index="21jJIL">
-        <property id="3961341278980372832" name="MAEKINT_slideAmount" index="21jJI7" />
-        <property id="3961341278980372828" name="MAKEINT_maxAmount" index="21jJIV" />
+      <concept id="3961341278980372822" name="formalodd.structure.FIX_IntSlider" flags="ng" index="21jJIL">
+        <property id="3961341278980372832" name="slideAmount" index="21jJI7" />
+        <property id="3961341278980372828" name="maxAmount" index="21jJIV" />
         <property id="3961341278980372825" name="minAmount" index="21jJIY" />
-        <property id="8766909380355172217" name="MAKEINT_startValue" index="2rHBro" />
+        <property id="8766909380355172217" name="startValue" index="2rHBro" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.TODO_KillEntity" flags="ng" index="8shMO">
         <child id="6400669868569569336" name="who" index="8shtH" />
@@ -32,6 +32,12 @@
       </concept>
       <concept id="2039819488956380787" name="formalodd.structure.TODO_Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
+      </concept>
+      <concept id="8985793055746947428" name="formalodd.structure.FIX_FloatSlider" flags="ng" index="2kh0D8">
+        <property id="8985793055746947432" name="slideAmount" index="2kh0D4" />
+        <property id="8985793055746947433" name="startValue" index="2kh0D5" />
+        <property id="8985793055746947430" name="minAmount" index="2kh0Da" />
+        <property id="8985793055746947431" name="maxAmount" index="2kh0Db" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
         <child id="8985793055732069087" name="world" index="2kDK7N" />
@@ -122,10 +128,10 @@
         <property id="193207073764166532" name="color" index="1lo2db" />
       </concept>
       <concept id="3840659476812055925" name="formalodd.structure.TODO_DefaultShape" flags="ng" index="ZOwo7" />
-      <concept id="3840659476812055862" name="formalodd.structure.TODO_Float" flags="ng" index="ZOwp4" />
-      <concept id="3840659476812055854" name="formalodd.structure.TODO_Integer" flags="ng" index="ZOwps" />
-      <concept id="3840659476812055853" name="formalodd.structure.TODO_Boolean" flags="ng" index="ZOwpv" />
-      <concept id="3840659476812055839" name="formalodd.structure.TODO_UserDefinedAttribute" flags="ng" index="ZOwpH">
+      <concept id="3840659476812055862" name="formalodd.structure.Float" flags="ng" index="ZOwp4" />
+      <concept id="3840659476812055854" name="formalodd.structure.Integer" flags="ng" index="ZOwps" />
+      <concept id="3840659476812055853" name="formalodd.structure.Boolean" flags="ng" index="ZOwpv" />
+      <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
@@ -548,11 +554,11 @@
       </node>
       <node concept="ZOwpH" id="5Dmxhgox7rB" role="1XCrKs">
         <property role="TrG5h" value="energy-gain-from-sheep" />
-        <node concept="21jJIL" id="5Dmxhgox7rK" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50.5" />
-          <property role="21jJI7" value="0.5" />
+        <node concept="2kh0D8" id="7MNWMNCZUbR" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.5" />
+          <property role="2kh0Db" value="100" />
+          <property role="2kh0D5" value="50.5" />
         </node>
         <node concept="ZOwp4" id="6dSewhl8ejZ" role="zGXb3" />
       </node>
@@ -1272,42 +1278,42 @@
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yG" role="1XCrKs">
         <property role="TrG5h" value="Average_char" />
-        <node concept="21jJIL" id="4qxfPPOK$A4" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
-          <property role="21jJI7" value="0.1" />
+        <node concept="2kh0D8" id="7MNWMNCZUby" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.1" />
+          <property role="2kh0Db" value="1" />
+          <property role="2kh0D5" value="0.5" />
         </node>
         <node concept="ZOwp4" id="4qxfPPOMPs7" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yV" role="1XCrKs">
         <property role="TrG5h" value="Stdev_char" />
         <node concept="ZOwp4" id="4qxfPPOMPsa" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOMPsd" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.5" />
-          <property role="21jJI7" value="0.01" />
+        <node concept="2kh0D8" id="7MNWMNCZUb_" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.01" />
+          <property role="2kh0Db" value="0.5" />
+          <property role="2kh0D5" value="0.5" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$zd" role="1XCrKs">
         <property role="TrG5h" value="Attitude" />
         <node concept="ZOwp4" id="4qxfPPOMPsg" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOMPsj" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
-          <property role="21jJI7" value="0.1" />
+        <node concept="2kh0D8" id="7MNWMNCZUbC" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.1" />
+          <property role="2kh0Db" value="1" />
+          <property role="2kh0D5" value="0.5" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$zy" role="1XCrKs">
         <property role="TrG5h" value="Max_judg" />
         <node concept="ZOwp4" id="4qxfPPOMPsm" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOMPsp" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.5" />
-          <property role="21jJI7" value="0.05" />
+        <node concept="2kh0D8" id="7MNWMNCZUbF" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.05" />
+          <property role="2kh0Db" value="0.5" />
+          <property role="2kh0D5" value="0.5" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$zU" role="1XCrKs">
@@ -1323,31 +1329,31 @@
       <node concept="ZOwpH" id="4qxfPPOK$$l" role="1XCrKs">
         <property role="TrG5h" value="Attraction_change" />
         <node concept="ZOwp4" id="4qxfPPOMPsy" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOMPs_" role="2oy9Oj">
-          <property role="2rHBro" value="0.1" />
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="0.5" />
-          <property role="21jJI7" value="0.05" />
+        <node concept="2kh0D8" id="7MNWMNCZUbI" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.05" />
+          <property role="2kh0Db" value="0.5" />
+          <property role="2kh0D5" value="0.1" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOMPsC" role="1XCrKs">
         <property role="TrG5h" value="In_ideal_chars" />
         <node concept="ZOwp4" id="4qxfPPOMPt7" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOMPta" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="1" />
-          <property role="21jJI7" value="0.1" />
+        <node concept="2kh0D8" id="7MNWMNCZUbL" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.1" />
+          <property role="2kh0Db" value="1" />
+          <property role="2kh0D5" value="1" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOMPtc" role="1XCrKs">
         <property role="TrG5h" value="Ex_ideal_chars" />
         <node concept="ZOwp4" id="4qxfPPOMPtI" role="zGXb3" />
-        <node concept="21jJIL" id="4qxfPPOMPtL" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="1" />
-          <property role="21jJI7" value="0.1" />
+        <node concept="2kh0D8" id="7MNWMNCZUbO" role="2oy9Oj">
+          <property role="2kh0Da" value="0" />
+          <property role="2kh0D4" value="0.1" />
+          <property role="2kh0Db" value="1" />
+          <property role="2kh0D5" value="1" />
         </node>
       </node>
       <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
