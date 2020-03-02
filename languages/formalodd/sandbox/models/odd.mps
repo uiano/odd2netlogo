@@ -126,7 +126,6 @@
       <concept id="3840659476812055854" name="formalodd.structure.TODO_Integer" flags="ng" index="ZOwps" />
       <concept id="3840659476812055853" name="formalodd.structure.TODO_Boolean" flags="ng" index="ZOwpv" />
       <concept id="3840659476812055839" name="formalodd.structure.TODO_UserDefinedAttribute" flags="ng" index="ZOwpH">
-        <property id="6930332985979198976" name="initialisationMethod" index="2WmMcx" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
@@ -157,7 +156,7 @@
         <child id="193207073759411052" name="AgentOptions" index="1laXez" />
         <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
       </concept>
-      <concept id="3840659476812055972" name="formalodd.structure.TODO_EnvironmentEntity" flags="ng" index="ZOwrm">
+      <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColor" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
       </concept>
@@ -197,7 +196,7 @@
         <property id="193207073772188501" name="Options" index="1qTHIq" />
         <reference id="193207073772240675" name="attribute" index="1qTLvG" />
       </concept>
-      <concept id="2606589510542712260" name="formalodd.structure.TODO_GeneralEntity" flags="ng" index="1v12Et">
+      <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
       </concept>
       <concept id="999929643171596417" name="formalodd.structure.TODO_Relationship" flags="ng" index="1wg3SR">
@@ -862,7 +861,6 @@
         <node concept="RFdHg" id="6dSewhl3vDu" role="RFdH4" />
         <node concept="ZOwpH" id="6dSewhkDZXh" role="1XCrbu">
           <property role="TrG5h" value="other-nearby" />
-          <property role="2WmMcx" value="24yfUKsjo4i/expression" />
           <node concept="ZOwps" id="60Hvi7s7XxP" role="zGXb3" />
           <node concept="XrRG9" id="28AKh6DmYLV" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
@@ -876,7 +874,6 @@
         </node>
         <node concept="ZOwpH" id="60Hvi7s7Xwx" role="1XCrbu">
           <property role="TrG5h" value="similar-nearby" />
-          <property role="2WmMcx" value="24yfUKsjo4i/expression" />
           <node concept="ZOwps" id="4HBtuojTQ2q" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojwmd2" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
@@ -890,7 +887,6 @@
         </node>
         <node concept="ZOwpH" id="24yfUKsqGXK" role="1XCrbu">
           <property role="TrG5h" value="total-nearby" />
-          <property role="2WmMcx" value="24yfUKsjo4i/expression" />
           <node concept="ZOwps" id="24yfUKstj8f" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojD$nA" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
@@ -928,7 +924,6 @@
         <node concept="RFdHg" id="6dSewhl3vDy" role="RFdH4" />
         <node concept="ZOwpH" id="60Hvi7s7XyL" role="1XCrbu">
           <property role="TrG5h" value="other-nearby" />
-          <property role="2WmMcx" value="24yfUKsjo4i/expression" />
           <node concept="ZOwps" id="60Hvi7s7XyR" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojTQ2v" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
@@ -942,7 +937,6 @@
         </node>
         <node concept="ZOwpH" id="60Hvi7s7XyX" role="1XCrbu">
           <property role="TrG5h" value="similar-nearby" />
-          <property role="2WmMcx" value="24yfUKsjo4i/expression" />
           <node concept="ZOwps" id="60Hvi7s7Xz6" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojTQ2F" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
@@ -956,7 +950,6 @@
         </node>
         <node concept="ZOwpH" id="60Hvi7s7Xzc" role="1XCrbu">
           <property role="TrG5h" value="total-nearby" />
-          <property role="2WmMcx" value="24yfUKsjo4i/expression" />
           <node concept="ZOwps" id="60Hvi7s7Xzo" role="zGXb3" />
           <node concept="XrRG9" id="24yfUKstj8i" role="2oy9Oj">
             <property role="Xgilm" value="24yfUKsoLFQ/entities" />
