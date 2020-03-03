@@ -26,9 +26,6 @@
         <property id="7791109065626895363" name="datatypeId" index="3F6X1D" />
       </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration_Old" flags="ng" index="AxPO7">
-        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
-        <property id="1212087449254" name="noValueText" index="Q2FuW" />
-        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -224,7 +221,7 @@
       <property role="IQ2ns" value="7610748055951530955" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="DefaultColor" />
-      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="TODO_DefaultColor" />
+      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="ColourConstant" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZ5Jv" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951530975" />
@@ -523,21 +520,10 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlO">
     <property role="EcuMT" value="3840659476812055924" />
-    <property role="TrG5h" value="TODO_Color" />
-    <property role="3GE5qa" value="TODO_Color" />
+    <property role="TrG5h" value="Colour" />
+    <property role="3GE5qa" value="TODO_Colour" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5vgYlnqdd$T" role="1TKVEl">
-      <property role="TrG5h" value="color" />
-      <property role="IQ2nx" value="193207073764166532" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="TODO_Colorenumeration" />
-      <node concept="3l_iC" id="5vgYlnqdd$U" role="lGtFl">
-        <node concept="1TJgyi" id="aIqcXnN$I4" role="3l_iP">
-          <property role="IQ2nx" value="193207073764166532" />
-          <property role="TrG5h" value="color" />
-          <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlP">
     <property role="EcuMT" value="3840659476812055925" />
@@ -601,28 +587,21 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGm5">
     <property role="EcuMT" value="3840659476812055941" />
-    <property role="TrG5h" value="TODO_DefaultColor" />
-    <property role="3GE5qa" value="TODO_Color" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="TODO_Color" />
+    <property role="TrG5h" value="ColourConstant" />
+    <property role="3GE5qa" value="TODO_Colour" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Colour" />
     <node concept="1TJgyi" id="5vgYlnqdd$Z" role="1TKVEl">
-      <property role="TrG5h" value="unwanted_ColorID" />
+      <property role="TrG5h" value="colour" />
       <property role="IQ2nx" value="3840659476812055942" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="TODO_Colorenumeration" />
-      <node concept="3l_iC" id="5vgYlnqdd_0" role="lGtFl">
-        <node concept="1TJgyi" id="3lcKR8aBGm6" role="3l_iP">
-          <property role="IQ2nx" value="3840659476812055942" />
-          <property role="TrG5h" value="ColorID" />
-          <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGma">
     <property role="EcuMT" value="3840659476812055946" />
     <property role="TrG5h" value="TODO_MoreColors" />
     <property role="R4oN_" value="there should be at least 2 conditional colors" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="TODO_Color" />
+    <property role="3GE5qa" value="4FutureUse" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Colour" />
     <node concept="1TJgyj" id="3lcKR8aBGmb" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055947" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -634,19 +613,12 @@
   <node concept="1TIwiD" id="3lcKR8aBGmd">
     <property role="EcuMT" value="3840659476812055949" />
     <property role="TrG5h" value="TODO_ConditionalColor" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
+    <property role="3GE5qa" value="4FutureUse" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5vgYlnqdd_1" role="1TKVEl">
       <property role="TrG5h" value="Color" />
       <property role="IQ2nx" value="3840659476812055950" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="TODO_Colorenumeration" />
-      <node concept="3l_iC" id="5vgYlnqdd_2" role="lGtFl">
-        <node concept="1TJgyi" id="3lcKR8aBGme" role="3l_iP">
-          <property role="IQ2nx" value="3840659476812055950" />
-          <property role="TrG5h" value="Color" />
-          <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
     </node>
     <node concept="1TJgyj" id="3lcKR8aBGmg" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055952" />
@@ -658,19 +630,12 @@
   <node concept="1TIwiD" id="3lcKR8aBGmi">
     <property role="EcuMT" value="3840659476812055954" />
     <property role="TrG5h" value="TODO_ColorShade" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="TODO_Color" />
+    <property role="3GE5qa" value="4FutureUse" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Colour" />
     <node concept="1TJgyi" id="5vgYlnqdd_3" role="1TKVEl">
       <property role="TrG5h" value="unwanted_ColorID" />
       <property role="IQ2nx" value="3840659476812055955" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="TODO_Colorenumeration" />
-      <node concept="3l_iC" id="5vgYlnqdd_4" role="lGtFl">
-        <node concept="1TJgyi" id="3lcKR8aBGmj" role="3l_iP">
-          <property role="IQ2nx" value="3840659476812055955" />
-          <property role="TrG5h" value="ColorID" />
-          <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGm$">
@@ -681,8 +646,8 @@
     <node concept="1TJgyj" id="3rTwIuRCadk" role="1TKVEi">
       <property role="IQ2ns" value="3961341278978876244" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="defaultColor" />
-      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="TODO_DefaultColor" />
+      <property role="20kJfa" value="defaultColour" />
+      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Colour" />
     </node>
     <node concept="1TJgyj" id="60Hvi7sIcPV" role="1TKVEi">
       <property role="IQ2ns" value="6930332985983552891" />
@@ -847,7 +812,7 @@
       <property role="IQ2ns" value="7777943843983741036" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="color" />
-      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="TODO_DefaultColor" />
+      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="ColourConstant" />
     </node>
     <node concept="1TJgyi" id="3mweh__OAr1" role="1TKVEl">
       <property role="IQ2nx" value="3864151261529138881" />
@@ -1459,7 +1424,7 @@
       <property role="IQ2ns" value="6400669868562285363" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="color" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="TODO_Color" />
+      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Colour" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zjJPlgcAv8">
@@ -1723,7 +1688,7 @@
       <property role="IQ2ns" value="6529568716163502657" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="color" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="TODO_Color" />
+      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Colour" />
     </node>
   </node>
   <node concept="1TIwiD" id="2EFWiWzCelr">
@@ -1783,14 +1748,7 @@
     <node concept="1TJgyi" id="5vgYlnqdd_7" role="1TKVEl">
       <property role="TrG5h" value="color" />
       <property role="IQ2nx" value="2650478873095418597" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="TODO_Colorenumeration" />
-      <node concept="3l_iC" id="5vgYlnqdd_8" role="lGtFl">
-        <node concept="1TJgyi" id="2j8p7S3xVb_" role="3l_iP">
-          <property role="IQ2nx" value="2650478873095418597" />
-          <property role="TrG5h" value="color" />
-          <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
     </node>
     <node concept="1TJgyi" id="2j8p7S3LOaG" role="1TKVEl">
       <property role="IQ2nx" value="2650478873099584172" />
@@ -1853,14 +1811,7 @@
     <node concept="1TJgyi" id="5vgYlnqdd_9" role="1TKVEl">
       <property role="TrG5h" value="color" />
       <property role="IQ2nx" value="1786286396190304394" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="TODO_Colorenumeration" />
-      <node concept="3l_iC" id="5vgYlnqdd_a" role="lGtFl">
-        <node concept="1TJgyi" id="1zaawdw2iya" role="3l_iP">
-          <property role="IQ2nx" value="1786286396190304394" />
-          <property role="TrG5h" value="color" />
-          <ref role="AX2Wp" node="3lcKR8aBGm8" resolve="Colorenumeration" />
-        </node>
-      </node>
+      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
     </node>
     <node concept="1TJgyj" id="1zaawdw2iyc" role="1TKVEi">
       <property role="IQ2ns" value="1786286396190304396" />
@@ -1990,156 +1941,68 @@
     </node>
   </node>
   <node concept="25R3W" id="5vgYlnqddzM">
-    <property role="TrG5h" value="TODO_Colorenumeration" />
-    <property role="3GE5qa" value="TODO_Color" />
+    <property role="TrG5h" value="ColourEnumeration" />
+    <property role="3GE5qa" value="TODO_Colour" />
     <property role="3F6X1D" value="3840659476812055944" />
-    <node concept="2JgGob" id="5vgYlnqddzN" role="lGtFl">
-      <property role="3scbB" value="5CkWgdpp3eY/string_name" />
-      <property role="3sfsH" value="5CkWgdpp0p1/by_name" />
-      <node concept="AxPO7" id="3lcKR8aBGm8" role="3lCyv">
-        <property role="TrG5h" value="Colorenumeration" />
-        <property role="3GE5qa" value="Color" />
-        <property role="Q2FuW" value=" " />
-        <property role="3lZH7k" value="hrlZj6Q/derive_from_internal_value" />
-        <property role="PDuV0" value="true" />
-        <property role="3F6X1D" value="3840659476812055944" />
-        <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
-        <node concept="M4N5e" id="3okqQmm_ZZ_" role="M5hS2">
-          <property role="1uS6qo" value="blue" />
-          <property role="1uS6qv" value="blue" />
-        </node>
-        <node concept="M4N5e" id="3okqQmm_ZZI" role="M5hS2">
-          <property role="1uS6qo" value="silver" />
-          <property role="1uS6qv" value="silver" />
-        </node>
-        <node concept="M4N5e" id="3okqQmm_ZZM" role="M5hS2">
-          <property role="1uS6qo" value="red" />
-          <property role="1uS6qv" value="red" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRq0" role="M5hS2">
-          <property role="1uS6qo" value="white" />
-          <property role="1uS6qv" value="white" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRq6" role="M5hS2">
-          <property role="1uS6qo" value="orange" />
-          <property role="1uS6qv" value="orange" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRqd" role="M5hS2">
-          <property role="1uS6qo" value="black" />
-          <property role="1uS6qv" value="black" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRql" role="M5hS2">
-          <property role="1uS6qo" value="grey" />
-          <property role="1uS6qv" value="grey" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRqu" role="M5hS2">
-          <property role="1uS6qo" value="gold" />
-          <property role="1uS6qv" value="gold" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRqC" role="M5hS2">
-          <property role="1uS6qo" value="pink" />
-          <property role="1uS6qv" value="pink" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRqN" role="M5hS2">
-          <property role="1uS6qo" value="yellow" />
-          <property role="1uS6qv" value="yellow" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRqZ" role="M5hS2">
-          <property role="1uS6qo" value="teal" />
-          <property role="1uS6qv" value="teal" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRrc" role="M5hS2">
-          <property role="1uS6qo" value="aquamarine" />
-          <property role="1uS6qv" value="aquamarine" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRrq" role="M5hS2">
-          <property role="1uS6qo" value="brown" />
-          <property role="1uS6qv" value="brown" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnqRrD" role="M5hS2">
-          <property role="1uS6qo" value="magenta" />
-          <property role="1uS6qv" value="magenta" />
-        </node>
-        <node concept="M4N5e" id="3okqQmnB9tB" role="M5hS2">
-          <property role="1uS6qo" value="green" />
-          <property role="1uS6qv" value="green" />
-        </node>
-      </node>
-    </node>
-    <node concept="25R33" id="5vgYlnqddzO" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xk$" role="25R1y">
+      <property role="3tVfz5" value="2349570640028357924" />
       <property role="TrG5h" value="blue" />
-      <property role="3tVfz5" value="3896857661644734437" />
-      <ref role="2wpffI" node="3okqQmm_ZZ_" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzP" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xl4" role="25R1y">
+      <property role="3tVfz5" value="2349570640028357956" />
       <property role="TrG5h" value="silver" />
-      <property role="3tVfz5" value="3896857661644734446" />
-      <ref role="2wpffI" node="3okqQmm_ZZI" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzQ" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xl$" role="25R1y">
+      <property role="3tVfz5" value="2349570640028357988" />
       <property role="TrG5h" value="red" />
-      <property role="3tVfz5" value="3896857661644734450" />
-      <ref role="2wpffI" node="3okqQmm_ZZM" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzR" role="25R1y">
+    <node concept="25R33" id="22rmwLH$XlP" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358005" />
       <property role="TrG5h" value="white" />
-      <property role="3tVfz5" value="3896857661658592896" />
-      <ref role="2wpffI" node="3okqQmnqRq0" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzS" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xm7" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358023" />
       <property role="TrG5h" value="orange" />
-      <property role="3tVfz5" value="3896857661658592902" />
-      <ref role="2wpffI" node="3okqQmnqRq6" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzT" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xmq" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358042" />
       <property role="TrG5h" value="black" />
-      <property role="3tVfz5" value="3896857661658592909" />
-      <ref role="2wpffI" node="3okqQmnqRqd" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzU" role="25R1y">
+    <node concept="25R33" id="22rmwLH$XmI" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358062" />
       <property role="TrG5h" value="grey" />
-      <property role="3tVfz5" value="3896857661658592917" />
-      <ref role="2wpffI" node="3okqQmnqRql" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzV" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xn3" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358083" />
       <property role="TrG5h" value="gold" />
-      <property role="3tVfz5" value="3896857661658592926" />
-      <ref role="2wpffI" node="3okqQmnqRqu" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzW" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xnp" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358105" />
       <property role="TrG5h" value="pink" />
-      <property role="3tVfz5" value="3896857661658592936" />
-      <ref role="2wpffI" node="3okqQmnqRqC" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzX" role="25R1y">
+    <node concept="25R33" id="22rmwLH$XnK" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358128" />
       <property role="TrG5h" value="yellow" />
-      <property role="3tVfz5" value="3896857661658592947" />
-      <ref role="2wpffI" node="3okqQmnqRqN" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzY" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xo8" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358152" />
       <property role="TrG5h" value="teal" />
-      <property role="3tVfz5" value="3896857661658592959" />
-      <ref role="2wpffI" node="3okqQmnqRqZ" />
     </node>
-    <node concept="25R33" id="5vgYlnqddzZ" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xox" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358177" />
       <property role="TrG5h" value="aquamarine" />
-      <property role="3tVfz5" value="3896857661658592972" />
-      <ref role="2wpffI" node="3okqQmnqRrc" />
     </node>
-    <node concept="25R33" id="5vgYlnqdd$0" role="25R1y">
+    <node concept="25R33" id="22rmwLH$XoV" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358203" />
       <property role="TrG5h" value="brown" />
-      <property role="3tVfz5" value="3896857661658592986" />
-      <ref role="2wpffI" node="3okqQmnqRrq" />
     </node>
-    <node concept="25R33" id="5vgYlnqdd$1" role="25R1y">
+    <node concept="25R33" id="22rmwLH$Xpm" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358230" />
       <property role="TrG5h" value="magenta" />
-      <property role="3tVfz5" value="3896857661658593001" />
-      <ref role="2wpffI" node="3okqQmnqRrD" />
     </node>
-    <node concept="25R33" id="5vgYlnqdd$2" role="25R1y">
+    <node concept="25R33" id="22rmwLH$XpM" role="25R1y">
+      <property role="3tVfz5" value="2349570640028358258" />
       <property role="TrG5h" value="green" />
-      <property role="3tVfz5" value="3896857661661812583" />
-      <ref role="2wpffI" node="3okqQmnB9tB" />
     </node>
   </node>
   <node concept="1TIwiD" id="3tK0pynGt4u">
@@ -2265,7 +2128,7 @@
   <node concept="1TIwiD" id="60Hvi7sLq0K">
     <property role="EcuMT" value="6930332985984393264" />
     <property role="3GE5qa" value="TODO_Location" />
-    <property role="TrG5h" value="TODO_Density" />
+    <property role="TrG5h" value="Density" />
     <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="TODO_LocationValueSelect" />
     <node concept="1TJgyj" id="60Hvi7sLq0L" role="1TKVEi">
       <property role="IQ2ns" value="6930332985984393265" />
@@ -2381,27 +2244,6 @@
       <property role="IQ2ns" value="2679062196017509436" />
       <property role="20kJfa" value="userDefinedAttribute" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
-  </node>
-  <node concept="25R3W" id="24yfUKsjo4g">
-    <property role="3F6X1D" value="2387540760901550352" />
-    <property role="3GE5qa" value="TODO_Attribute" />
-    <property role="TrG5h" value="TODO_InitialisationMethods" />
-    <ref role="1H5jkz" node="24yfUKsjo4h" resolve="manually" />
-    <node concept="25R33" id="24yfUKsjo4h" role="25R1y">
-      <property role="3tVfz5" value="2387540760901550353" />
-      <property role="TrG5h" value="manually" />
-      <property role="1L1pqM" value="manually" />
-    </node>
-    <node concept="25R33" id="24yfUKsjo4i" role="25R1y">
-      <property role="3tVfz5" value="2387540760901550354" />
-      <property role="TrG5h" value="expression" />
-      <property role="1L1pqM" value="by expression" />
-    </node>
-    <node concept="25R33" id="24yfUKsjo4l" role="25R1y">
-      <property role="3tVfz5" value="2387540760901550357" />
-      <property role="TrG5h" value="nothing" />
-      <property role="1L1pqM" value="nothing" />
     </node>
   </node>
   <node concept="1TIwiD" id="24yfUKsm9R4">

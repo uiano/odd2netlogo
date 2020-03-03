@@ -931,16 +931,16 @@
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydZ5It">
-    <property role="3GE5qa" value="TODO_Color" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="TODO_DefaultColor" />
+    <property role="3GE5qa" value="TODO_Colour" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="ColourConstant" />
     <node concept="3EZMnI" id="3okqQmnLFdT" role="2wV5jI">
       <node concept="2iRfu4" id="3okqQmnLFdU" role="2iSdaV" />
       <node concept="3F0ifn" id="3okqQmnLFe2" role="3EZMnx">
         <property role="3F0ifm" value="Color" />
       </node>
-      <node concept="3F0A7n" id="3mweh__AVlC" role="3EZMnx">
+      <node concept="3F0A7n" id="60$rnpH70Fq" role="3EZMnx">
         <property role="1$x2rV" value="press control space to select color" />
-        <ref role="1NtTu8" to="86kt:5vgYlnqdd$T" resolve="color" />
+        <ref role="1NtTu8" to="86kt:5vgYlnqdd$Z" resolve="colour" />
       </node>
     </node>
   </node>
@@ -982,7 +982,7 @@
             <property role="3F0ifm" value="will have the color" />
           </node>
           <node concept="3F1sOY" id="7MNWMNzYNd1" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="defaultColor" />
+            <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="defaultColour" />
           </node>
           <node concept="2iRfu4" id="7MNWMNzYNd2" role="2iSdaV" />
         </node>
@@ -1672,7 +1672,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8ICj">
-    <property role="3GE5qa" value="TODO_NotInUse" />
+    <property role="3GE5qa" value="4FutureUse" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="TODO_MoreColors" />
     <node concept="3EZMnI" id="3mweh_A8ICK" role="2wV5jI">
       <node concept="2iRfu4" id="3mweh_A8ICL" role="2iSdaV" />
@@ -1686,7 +1686,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8IDa">
-    <property role="3GE5qa" value="TODO_NotInUse" />
+    <property role="3GE5qa" value="4FutureUse" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="TODO_ConditionalColor" />
     <node concept="3F0A7n" id="3mweh_A8IDc" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5vgYlnqdd_1" resolve="Color" />
@@ -2089,21 +2089,6 @@
       </node>
       <node concept="3F0A7n" id="7MNWMN_ZPJk" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7AEkq7y72tT" resolve="startValue" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="aIqcXnOmbI">
-    <property role="3GE5qa" value="TODO_Color" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlO" resolve="TODO_Color" />
-    <node concept="3EZMnI" id="3okqQmnzDe3" role="2wV5jI">
-      <node concept="2iRfu4" id="3okqQmnzDe4" role="2iSdaV" />
-      <node concept="3F0ifn" id="2gGtP_UQ_4D" role="3EZMnx">
-        <property role="3F0ifm" value="color" />
-        <node concept="Vb9p2" id="2gGtP_UQ_4H" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="aIqcXnOmbK" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;Press conrol space to select color&gt;" />
-        <ref role="1NtTu8" to="86kt:5vgYlnqdd$T" resolve="color" />
       </node>
     </node>
   </node>
@@ -4783,7 +4768,7 @@
   </node>
   <node concept="24kQdi" id="60Hvi7sQavk">
     <property role="3GE5qa" value="TODO_Location" />
-    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="TODO_Density" />
+    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="Density" />
     <node concept="3EZMnI" id="60Hvi7sQawh" role="2wV5jI">
       <node concept="2iRkQZ" id="60Hvi7sQawi" role="2iSdaV" />
       <node concept="3EZMnI" id="60Hvi7sQavp" role="3EZMnx">
@@ -4939,7 +4924,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7sWvXN">
-    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="TODO_Density" />
+    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="Density" />
     <node concept="3EZMnI" id="60Hvi7sWvXR" role="2wV5jI">
       <node concept="2iRkQZ" id="60Hvi7sWvXS" role="2iSdaV" />
       <node concept="3EZMnI" id="60Hvi7sWvY4" role="3EZMnx">
