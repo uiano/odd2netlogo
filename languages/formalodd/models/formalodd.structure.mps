@@ -227,13 +227,13 @@
       <property role="IQ2ns" value="7610748055951530975" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="MoreColors" />
-      <ref role="20lvS9" node="3lcKR8aBGma" resolve="TODO_MoreColors" />
+      <ref role="20lvS9" node="3lcKR8aBGma" resolve="MoreColors" />
     </node>
     <node concept="1TJgyj" id="6AuNKydZ5JQ" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951530998" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ColorShade" />
-      <ref role="20lvS9" node="3lcKR8aBGmi" resolve="TODO_ColorShade" />
+      <ref role="20lvS9" node="3lcKR8aBGmi" resolve="ColorShade" />
     </node>
     <node concept="1TJgyj" id="3lcKR8aBGkq" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055834" />
@@ -598,7 +598,7 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGma">
     <property role="EcuMT" value="3840659476812055946" />
-    <property role="TrG5h" value="TODO_MoreColors" />
+    <property role="TrG5h" value="MoreColors" />
     <property role="R4oN_" value="there should be at least 2 conditional colors" />
     <property role="3GE5qa" value="4FutureUse" />
     <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Colour" />
@@ -607,12 +607,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="ConditionalColor" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGmd" resolve="TODO_ConditionalColor" />
+      <ref role="20lvS9" node="3lcKR8aBGmd" resolve="ConditionalColor" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGmd">
     <property role="EcuMT" value="3840659476812055949" />
-    <property role="TrG5h" value="TODO_ConditionalColor" />
+    <property role="TrG5h" value="ConditionalColor" />
     <property role="3GE5qa" value="4FutureUse" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5vgYlnqdd_1" role="1TKVEl">
@@ -629,7 +629,7 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGmi">
     <property role="EcuMT" value="3840659476812055954" />
-    <property role="TrG5h" value="TODO_ColorShade" />
+    <property role="TrG5h" value="ColorShade" />
     <property role="3GE5qa" value="4FutureUse" />
     <ref role="1TJDcQ" node="3lcKR8aBGlO" resolve="Colour" />
     <node concept="1TJgyi" id="5vgYlnqdd_3" role="1TKVEl">
@@ -653,7 +653,7 @@
       <property role="IQ2ns" value="6930332985983552891" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="initialisationLocation" />
-      <ref role="20lvS9" node="60Hvi7sIcIO" resolve="TODO_LocationValueSelect" />
+      <ref role="20lvS9" node="60Hvi7sIcIO" resolve="Location" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGn0">
@@ -688,58 +688,11 @@
     <property role="3GE5qa" value="TODO_Expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="3lcKR8aBGn6">
-    <property role="EcuMT" value="3840659476812056006" />
-    <property role="TrG5h" value="TODO_SpecificLocation" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5oUGABTKPWw" role="1TKVEi">
-      <property role="IQ2ns" value="6213474804142661408" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Location" />
-      <ref role="20lvS9" node="3lcKR8aBGn7" resolve="TODO_Location" />
-    </node>
-    <node concept="1TJgyj" id="5oUGABTKPYI" role="1TKVEi">
-      <property role="IQ2ns" value="6213474804142661550" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Density" />
-      <ref role="20lvS9" node="3lcKR8aBGnm" resolve="TODO_Density_old" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGn7">
-    <property role="EcuMT" value="3840659476812056007" />
-    <property role="TrG5h" value="TODO_Location" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn6" resolve="TODO_SpecificLocation" />
-    <node concept="1TJgyi" id="3rTwIuRFIe3" role="1TKVEl">
-      <property role="IQ2nx" value="3961341278979810179" />
-      <property role="TrG5h" value="showLocation" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGn8">
-    <property role="EcuMT" value="3840659476812056008" />
-    <property role="TrG5h" value="TODO_Area_old" />
-    <property role="3GE5qa" value="TODO_NotInUse.TODO_Environment" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn7" resolve="TODO_Location" />
-    <node concept="1TJgyi" id="5vgYlnqdd_5" role="1TKVEl">
-      <property role="TrG5h" value="selectlocations" />
-      <property role="IQ2nx" value="3840659476812056009" />
-      <ref role="AX2Wp" to="tpck:3Ftr4R6BF32" resolve="SideTransformSide" />
-      <node concept="3l_iC" id="5vgYlnqdd_6" role="lGtFl">
-        <node concept="1TJgyi" id="3lcKR8aBGn9" role="3l_iP">
-          <property role="IQ2nx" value="3840659476812056009" />
-          <property role="TrG5h" value="selectlocations" />
-          <ref role="AX2Wp" to="tpck:Fg1jLUVynG" resolve="SideTransformSide" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1TIwiD" id="3lcKR8aBGng">
     <property role="EcuMT" value="3840659476812056016" />
-    <property role="TrG5h" value="TODO_Coordinates" />
-    <property role="3GE5qa" value="TODO_NotInUse.TODO_Environment" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn7" resolve="TODO_Location" />
+    <property role="TrG5h" value="Coordinates" />
+    <property role="3GE5qa" value="4FutureUse" />
+    <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="Location" />
     <node concept="1TJgyi" id="3lcKR8aBGnh" role="1TKVEl">
       <property role="IQ2nx" value="3840659476812056017" />
       <property role="TrG5h" value="x" />
@@ -748,18 +701,6 @@
     <node concept="1TJgyi" id="3lcKR8aBGnj" role="1TKVEl">
       <property role="IQ2nx" value="3840659476812056019" />
       <property role="TrG5h" value="y" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGnm">
-    <property role="EcuMT" value="3840659476812056022" />
-    <property role="TrG5h" value="TODO_Density_old" />
-    <property role="R4oN_" value="percentage should be a number between 0 and 100" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn7" resolve="TODO_Location" />
-    <node concept="1TJgyi" id="3lcKR8aBGnn" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812056023" />
-      <property role="TrG5h" value="percentage" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -801,28 +742,11 @@
     <property role="TrG5h" value="TODO_GraphicsWindow" />
     <property role="3GE5qa" value="Experiments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="215d$P5kAte" role="1TKVEi">
-      <property role="IQ2ns" value="2325324488110139214" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="entityReference" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="215d$P5kAta" resolve="TODO_EntityReference" />
-    </node>
     <node concept="1TJgyj" id="6JKNFtZ__1G" role="1TKVEi">
       <property role="IQ2ns" value="7777943843983741036" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="color" />
+      <property role="20kJfa" value="background" />
       <ref role="20lvS9" node="3lcKR8aBGm5" resolve="ColourConstant" />
-    </node>
-    <node concept="1TJgyi" id="3mweh__OAr1" role="1TKVEl">
-      <property role="IQ2nx" value="3864151261529138881" />
-      <property role="TrG5h" value="test" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3mweh_Abu1b" role="1TKVEl">
-      <property role="IQ2nx" value="3864151261535133771" />
-      <property role="TrG5h" value="BackGround" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3mweh_Abu1i" role="1TKVEl">
       <property role="IQ2nx" value="3864151261535133778" />
@@ -831,8 +755,8 @@
     </node>
     <node concept="1TJgyi" id="3mweh_Abu1e" role="1TKVEl">
       <property role="IQ2nx" value="3864151261535133774" />
-      <property role="TrG5h" value="PixelSize" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="pixelSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyi" id="3mweh_AbuOG" role="1TKVEl">
       <property role="IQ2nx" value="3864151261535137068" />
@@ -841,8 +765,8 @@
     </node>
     <node concept="1TJgyi" id="3mweh_AbNbf" role="1TKVEl">
       <property role="IQ2nx" value="3864151261535220431" />
-      <property role="TrG5h" value="WorldSize" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="worldSize" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="3mweh_A8dKi">
@@ -2088,10 +2012,10 @@
   </node>
   <node concept="1TIwiD" id="60Hvi7sIcIO">
     <property role="EcuMT" value="6930332985983552436" />
-    <property role="TrG5h" value="TODO_LocationValueSelect" />
+    <property role="TrG5h" value="Location" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="TODO_Location" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn7" resolve="TODO_Location" />
+    <property role="3GE5qa" value="Location" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="25R3W" id="60Hvi7sndtu">
     <property role="3F6X1D" value="6930332985977526110" />
@@ -2127,9 +2051,9 @@
   </node>
   <node concept="1TIwiD" id="60Hvi7sLq0K">
     <property role="EcuMT" value="6930332985984393264" />
-    <property role="3GE5qa" value="TODO_Location" />
+    <property role="3GE5qa" value="Location" />
     <property role="TrG5h" value="Density" />
-    <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="TODO_LocationValueSelect" />
+    <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="Location" />
     <node concept="1TJgyj" id="60Hvi7sLq0L" role="1TKVEi">
       <property role="IQ2ns" value="6930332985984393265" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2140,19 +2064,19 @@
   </node>
   <node concept="1TIwiD" id="1LeTgidavpN">
     <property role="EcuMT" value="2039819488956380787" />
-    <property role="3GE5qa" value="TODO_Location" />
-    <property role="TrG5h" value="TODO_Area" />
-    <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="TODO_LocationValueSelect" />
+    <property role="3GE5qa" value="Location" />
+    <property role="TrG5h" value="Area" />
+    <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="Location" />
     <node concept="1TJgyi" id="1LeTgidcarw" role="1TKVEl">
       <property role="IQ2nx" value="2039819488956819168" />
       <property role="TrG5h" value="area" />
-      <ref role="AX2Wp" node="1LeTgidavpO" resolve="TODO_AreaEnumeration" />
+      <ref role="AX2Wp" node="1LeTgidavpO" resolve="AreaEnumeration" />
     </node>
   </node>
   <node concept="25R3W" id="1LeTgidavpO">
     <property role="3F6X1D" value="2039819488956380788" />
-    <property role="3GE5qa" value="TODO_Location" />
-    <property role="TrG5h" value="TODO_AreaEnumeration" />
+    <property role="3GE5qa" value="Location" />
+    <property role="TrG5h" value="AreaEnumeration" />
     <node concept="25R33" id="1LeTgidavpP" role="25R1y">
       <property role="3tVfz5" value="2039819488956380789" />
       <property role="TrG5h" value="bottom" />

@@ -997,56 +997,9 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="5oUGABTKPWW">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGn6" resolve="TODO_SpecificLocation" />
-    <node concept="3EZMnI" id="5oUGABTKPWY" role="2wV5jI">
-      <node concept="l2Vlx" id="5oUGABTKPX1" role="2iSdaV" />
-      <node concept="3F1sOY" id="5oUGABTKPX8" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5oUGABTKPWw" resolve="Location" />
-      </node>
-      <node concept="3F1sOY" id="5oUGABTKPYS" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5oUGABTKPYI" resolve="Density" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5oUGABTKPX$">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGn7" resolve="TODO_Location" />
-    <node concept="3F0A7n" id="3rTwIuRFJsX" role="2wV5jI">
-      <property role="1$x2rV" value="&lt;Press alt enter to choose location&gt;" />
-      <ref role="1NtTu8" to="86kt:3rTwIuRFIe3" resolve="showLocation" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5oUGABTKPZn">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGnm" resolve="TODO_Density_old" />
-    <node concept="3EZMnI" id="5oUGABTKPZp" role="2wV5jI">
-      <node concept="3F0ifn" id="5oUGABTKPZz" role="3EZMnx">
-        <property role="3F0ifm" value="Percentage" />
-      </node>
-      <node concept="3F0A7n" id="5oUGABTKQ0C" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3lcKR8aBGnn" resolve="percentage" />
-      </node>
-      <node concept="l2Vlx" id="5oUGABTKPZs" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5oUGABTKQ17">
-    <property role="3GE5qa" value="TODO_NotInUse.TODO_Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGn8" resolve="TODO_Area_old" />
-    <node concept="3EZMnI" id="5oUGABTKQ19" role="2wV5jI">
-      <node concept="3F0ifn" id="5oUGABTKQ1q" role="3EZMnx">
-        <property role="3F0ifm" value="Select Locations" />
-      </node>
-      <node concept="3F0A7n" id="5oUGABTKQ1z" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5vgYlnqdd_5" resolve="selectlocations" />
-      </node>
-      <node concept="l2Vlx" id="5oUGABTKQ1c" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5oUGABTKQ2I">
-    <property role="3GE5qa" value="TODO_NotInUse.TODO_Environment" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGng" resolve="TODO_Coordinates" />
+    <property role="3GE5qa" value="4FutureUse" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGng" resolve="Coordinates" />
     <node concept="3EZMnI" id="5oUGABTKQ2K" role="2wV5jI">
       <node concept="3F0ifn" id="5oUGABTKQ2U" role="3EZMnx">
         <property role="3F0ifm" value="X Coordinate" />
@@ -1673,7 +1626,7 @@
   </node>
   <node concept="24kQdi" id="3mweh_A8ICj">
     <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="TODO_MoreColors" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGma" resolve="MoreColors" />
     <node concept="3EZMnI" id="3mweh_A8ICK" role="2wV5jI">
       <node concept="2iRfu4" id="3mweh_A8ICL" role="2iSdaV" />
       <node concept="3F0ifn" id="3mweh_A8ICQ" role="3EZMnx">
@@ -1687,7 +1640,7 @@
   </node>
   <node concept="24kQdi" id="3mweh_A8IDa">
     <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="TODO_ConditionalColor" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGmd" resolve="ConditionalColor" />
     <node concept="3F0A7n" id="3mweh_A8IDc" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:5vgYlnqdd_1" resolve="Color" />
     </node>
@@ -1712,7 +1665,7 @@
         </node>
         <node concept="3F0A7n" id="3mweh_AeH9j" role="3EZMnx">
           <property role="1$x2rV" value="enter world size" />
-          <ref role="1NtTu8" to="86kt:3mweh_AbNbf" resolve="WorldSize" />
+          <ref role="1NtTu8" to="86kt:3mweh_AbNbf" resolve="worldSize" />
         </node>
       </node>
       <node concept="3EZMnI" id="3mweh_AeH9z" role="3EZMnx">
@@ -1723,7 +1676,7 @@
         </node>
         <node concept="3F0A7n" id="3mweh_AeH9R" role="3EZMnx">
           <property role="1$x2rV" value="enter pixel size" />
-          <ref role="1NtTu8" to="86kt:3mweh_Abu1e" resolve="PixelSize" />
+          <ref role="1NtTu8" to="86kt:3mweh_Abu1e" resolve="pixelSize" />
         </node>
       </node>
       <node concept="3EZMnI" id="3mweh_AeHcd" role="3EZMnx">
@@ -1749,7 +1702,7 @@
         </node>
         <node concept="3F1sOY" id="6JKNFtZ__1P" role="3EZMnx">
           <property role="1$x2rV" value="press enter to select color" />
-          <ref role="1NtTu8" to="86kt:6JKNFtZ__1G" resolve="color" />
+          <ref role="1NtTu8" to="86kt:6JKNFtZ__1G" resolve="background" />
         </node>
       </node>
     </node>
@@ -4767,7 +4720,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7sQavk">
-    <property role="3GE5qa" value="TODO_Location" />
+    <property role="3GE5qa" value="Location" />
     <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="Density" />
     <node concept="3EZMnI" id="60Hvi7sQawh" role="2wV5jI">
       <node concept="2iRkQZ" id="60Hvi7sQawi" role="2iSdaV" />
@@ -4783,8 +4736,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="60Hvi7sLq1H">
-    <property role="3GE5qa" value="TODO_Location" />
-    <ref role="1XX52x" to="86kt:60Hvi7sIcIO" resolve="TODO_LocationValueSelect" />
+    <property role="3GE5qa" value="Location" />
+    <ref role="1XX52x" to="86kt:60Hvi7sIcIO" resolve="Location" />
     <node concept="3F0ifn" id="60Hvi7sLq1L" role="2wV5jI">
       <property role="3F0ifm" value="LocationValueSelect" />
     </node>
@@ -5110,8 +5063,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1LeTgidcar5">
-    <property role="3GE5qa" value="TODO_Location" />
-    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="TODO_Area" />
+    <property role="3GE5qa" value="Location" />
+    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="Area" />
     <node concept="3F0ifn" id="1LeTgidcar9" role="2wV5jI">
       <property role="3F0ifm" value="Area" />
     </node>
@@ -5120,8 +5073,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1LeTgidcarc">
-    <property role="3GE5qa" value="TODO_Location" />
-    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="TODO_Area" />
+    <property role="3GE5qa" value="Location" />
+    <ref role="1XX52x" to="86kt:1LeTgidavpN" resolve="Area" />
     <node concept="3EZMnI" id="1LeTgidcark" role="2wV5jI">
       <node concept="2iRfu4" id="1LeTgidcarl" role="2iSdaV" />
       <node concept="3F0ifn" id="1LeTgidcarq" role="3EZMnx">
