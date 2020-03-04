@@ -1902,7 +1902,7 @@
               </node>
             </node>
             <node concept="3Tsc0h" id="79PYCRrGabJ" role="2OqNvi">
-              <ref role="3TtcxE" to="86kt:6lHESjKDb9p" resolve="endCondition" />
+              <ref role="3TtcxE" to="86kt:6lHESjKDb9p" resolve="endConditions" />
             </node>
           </node>
           <node concept="3clFbS" id="5EtG2rPRjon" role="2LFqv$">
@@ -1949,7 +1949,7 @@
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="4diQXU_C_Jt" role="2OqNvi">
-                  <ref role="3TtcxE" to="86kt:5EtG2rQ5Lu$" resolve="procedure" />
+                  <ref role="3TtcxE" to="86kt:5EtG2rQ5Lu$" resolve="procedures" />
                 </node>
               </node>
               <node concept="3clFbS" id="4diQXU_C$oH" role="2LFqv$">
@@ -2046,7 +2046,7 @@
                   </node>
                 </node>
                 <node concept="3Tsc0h" id="2EFWiW_iGbK" role="2OqNvi">
-                  <ref role="3TtcxE" to="86kt:5EtG2rQ5Lu$" resolve="procedure" />
+                  <ref role="3TtcxE" to="86kt:5EtG2rQ5Lu$" resolve="procedures" />
                 </node>
               </node>
               <node concept="3clFbS" id="2EFWiW_iGbL" role="2LFqv$">
@@ -2121,7 +2121,7 @@
                 </node>
               </node>
               <node concept="3Tsc0h" id="qdXC$yeDHo" role="2OqNvi">
-                <ref role="3TtcxE" to="86kt:5EtG2rQ5Lu$" resolve="procedure" />
+                <ref role="3TtcxE" to="86kt:5EtG2rQ5Lu$" resolve="procedures" />
               </node>
             </node>
           </node>

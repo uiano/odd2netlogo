@@ -3535,14 +3535,14 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgJo0t">
     <property role="3GE5qa" value="" />
-    <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="TODO_ProcessOverviewAndScheduling" />
+    <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="ProcessOverviewAndScheduling" />
     <node concept="3EZMnI" id="5zjJPlgJo0v" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgJo16" role="3EZMnx">
         <node concept="3F0ifn" id="3OPyh9HQ0JO" role="3EZMnx">
           <property role="3F0ifm" value="Scheduling" />
         </node>
         <node concept="3F2HdR" id="5zjJPlgnNRz" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQ5Lu$" resolve="procedure" />
+          <ref role="1NtTu8" to="86kt:5EtG2rQ5Lu$" resolve="procedures" />
           <node concept="2iRkQZ" id="5zjJPlgnNR_" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_TSOKM" role="2czzBI">
             <property role="3F0ifm" value="press enter to create a procedure" />
@@ -3565,7 +3565,7 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="3F2HdR" id="5zjJPlgJo1s" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endCondition" />
+          <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endConditions" />
           <node concept="2iRkQZ" id="5zjJPlgJo1u" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_UOfg8" role="2czzBI">
             <property role="ilYzB" value="press control space to select the type of end conditon" />
