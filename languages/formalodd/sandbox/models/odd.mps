@@ -30,7 +30,7 @@
       <concept id="3074816355399732195" name="formalodd.structure.TODO_Collides" flags="ng" index="fwBFc">
         <reference id="3074816355399732196" name="Target" index="fwBFb" />
       </concept>
-      <concept id="2039819488956380787" name="formalodd.structure.TODO_Area" flags="ng" index="2hpLdR">
+      <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
       <concept id="8985793055746947428" name="formalodd.structure.FIX_FloatSlider" flags="ng" index="2kh0D8">
@@ -163,15 +163,15 @@
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
       </concept>
-      <concept id="3840659476812055941" name="formalodd.structure.TODO_DefaultColor" flags="ng" index="ZOwrR">
-        <property id="3840659476812055942" name="unwanted_ColorID" index="ZOwrO" />
+      <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
+        <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
-      <concept id="3864151261526742322" name="formalodd.structure.TODO_GraphicsWindow" flags="ng" index="1g3uKF">
-        <property id="3864151261535137068" name="WrapVertical" index="1jztgP" />
-        <property id="3864151261535133778" name="WrapHorizontal" index="1jzt_b" />
-        <property id="3864151261535133774" name="PixelSize" index="1jzt_n" />
-        <property id="3864151261535220431" name="WorldSize" index="1jzKJm" />
-        <child id="7777943843983741036" name="color" index="kpDVr" />
+      <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
+        <property id="827001546371602890" name="wrapHorizontal" index="1jlS1c" />
+        <property id="827001546371602896" name="wrapVertical" index="1jlS1m" />
+        <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
+        <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
+        <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
       <concept id="3864151261525188024" name="formalodd.structure.TODO_ShapeOptions" flags="ng" index="1gdyix">
         <property id="3864151261525188025" name="ShapeOption" index="1gdyiw" />
@@ -660,8 +660,6 @@
       <node concept="1g3uKF" id="5Dmxhgox7rb" role="2kDK7N">
         <property role="1jzKJm" value="10" />
         <property role="1jzt_n" value="10" />
-        <property role="1jzt_b" value="0" />
-        <property role="1jztgP" value="0" />
         <node concept="ZOwrR" id="5Dmxhgox7rd" role="kpDVr">
           <property role="ZOwrO" value="22rmwLH$Xmq/black" />
         </node>
@@ -839,8 +837,6 @@
       <node concept="1g3uKF" id="7MNWMNCbdfS" role="2kDK7N">
         <property role="1jzKJm" value="100" />
         <property role="1jzt_n" value="2" />
-        <property role="1jzt_b" value="0" />
-        <property role="1jztgP" value="0" />
       </node>
     </node>
   </node>
@@ -1067,8 +1063,6 @@
       <node concept="1g3uKF" id="7MNWMNCfI3s" role="2kDK7N">
         <property role="1jzKJm" value="10" />
         <property role="1jzt_n" value="10" />
-        <property role="1jzt_b" value="0" />
-        <property role="1jztgP" value="0" />
         <node concept="ZOwrR" id="7MNWMNCfI3u" role="kpDVr">
           <property role="ZOwrO" value="22rmwLH$XlP/white" />
         </node>
@@ -1110,8 +1104,8 @@
       <node concept="1g3uKF" id="24qWCY8d5XV" role="2kDK7N">
         <property role="1jzKJm" value="32" />
         <property role="1jzt_n" value="4" />
-        <property role="1jzt_b" value="1" />
-        <property role="1jztgP" value="1" />
+        <property role="1jlS1c" value="true" />
+        <property role="1jlS1m" value="true" />
         <node concept="ZOwrR" id="24qWCY8d5XX" role="kpDVr">
           <property role="ZOwrO" value="22rmwLH$Xmq/black" />
         </node>
@@ -1203,8 +1197,6 @@
       <node concept="1g3uKF" id="3XcUSIkJNRx" role="2kDK7N">
         <property role="1jzKJm" value="100" />
         <property role="1jzt_n" value="5" />
-        <property role="1jzt_b" value="0" />
-        <property role="1jztgP" value="0" />
       </node>
     </node>
   </node>
@@ -1373,8 +1365,6 @@
       <node concept="1g3uKF" id="7MNWMNCfI3g" role="2kDK7N">
         <property role="1jzKJm" value="100" />
         <property role="1jzt_n" value="2" />
-        <property role="1jzt_b" value="0" />
-        <property role="1jztgP" value="0" />
       </node>
     </node>
   </node>

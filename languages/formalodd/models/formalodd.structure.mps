@@ -739,7 +739,7 @@
   </node>
   <node concept="1TIwiD" id="3mweh__FtkM">
     <property role="EcuMT" value="3864151261526742322" />
-    <property role="TrG5h" value="TODO_GraphicsWindow" />
+    <property role="TrG5h" value="GraphicsWindow" />
     <property role="3GE5qa" value="Experiments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6JKNFtZ__1G" role="1TKVEi">
@@ -748,20 +748,20 @@
       <property role="20kJfa" value="background" />
       <ref role="20lvS9" node="3lcKR8aBGm5" resolve="ColourConstant" />
     </node>
-    <node concept="1TJgyi" id="3mweh_Abu1i" role="1TKVEl">
-      <property role="IQ2nx" value="3864151261535133778" />
-      <property role="TrG5h" value="WrapHorizontal" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyi" id="HU6opobpBa" role="1TKVEl">
+      <property role="IQ2nx" value="827001546371602890" />
+      <property role="TrG5h" value="wrapHorizontal" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="HU6opobpBg" role="1TKVEl">
+      <property role="IQ2nx" value="827001546371602896" />
+      <property role="TrG5h" value="wrapVertical" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyi" id="3mweh_Abu1e" role="1TKVEl">
       <property role="IQ2nx" value="3864151261535133774" />
       <property role="TrG5h" value="pixelSize" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-    <node concept="1TJgyi" id="3mweh_AbuOG" role="1TKVEl">
-      <property role="IQ2nx" value="3864151261535137068" />
-      <property role="TrG5h" value="WrapVertical" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyi" id="3mweh_AbNbf" role="1TKVEl">
       <property role="IQ2nx" value="3864151261535220431" />
@@ -2378,7 +2378,7 @@
       <property role="IQ2ns" value="8985793055732069087" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="world" />
-      <ref role="20lvS9" node="3mweh__FtkM" resolve="TODO_GraphicsWindow" />
+      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
     </node>
     <node concept="1TJgyj" id="7MNWMNC5fby" role="1TKVEi">
       <property role="IQ2ns" value="8985793055732069090" />

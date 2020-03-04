@@ -1647,7 +1647,7 @@
   </node>
   <node concept="24kQdi" id="3mweh_AdFTu">
     <property role="3GE5qa" value="Experiments" />
-    <ref role="1XX52x" to="86kt:3mweh__FtkM" resolve="TODO_GraphicsWindow" />
+    <ref role="1XX52x" to="86kt:3mweh__FtkM" resolve="GraphicsWindow" />
     <node concept="3EZMnI" id="3mweh_AdFTw" role="2wV5jI">
       <node concept="3F0ifn" id="215d$P59d5q" role="3EZMnx">
         <property role="3F0ifm" value="Simulation appearance" />
@@ -1685,13 +1685,11 @@
           <property role="3F0ifm" value="The world should wrap " />
           <node concept="Vb9p2" id="3mweh_AeHgC" role="3F10Kt" />
         </node>
-        <node concept="3F0A7n" id="3mweh_AeHcC" role="3EZMnx">
-          <property role="1$x2rV" value="write 1 if it should wrap horizontal or 0 for not" />
-          <ref role="1NtTu8" to="86kt:3mweh_Abu1i" resolve="WrapHorizontal" />
+        <node concept="3F0A7n" id="HU6opobpBt" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:HU6opobpBa" resolve="wrapHorizontal" />
         </node>
-        <node concept="3F0A7n" id="3mweh_AeHcP" role="3EZMnx">
-          <property role="1$x2rV" value="write 1 if it should wrap vertcal or 0 for not" />
-          <ref role="1NtTu8" to="86kt:3mweh_AbuOG" resolve="WrapVertical" />
+        <node concept="3F0A7n" id="HU6opobpBF" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:HU6opobpBg" resolve="wrapVertical" />
         </node>
       </node>
       <node concept="3EZMnI" id="3mweh_AeHeI" role="3EZMnx">
