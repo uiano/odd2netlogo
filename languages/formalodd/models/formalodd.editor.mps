@@ -51,6 +51,7 @@
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
+      <concept id="795210086017940429" name="jetbrains.mps.lang.editor.structure.ReadOnlyStyleClassItem" flags="lg" index="xShMh" />
       <concept id="6718020819487620876" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Default" flags="ng" index="A1WHr" />
       <concept id="6718020819487620873" name="jetbrains.mps.lang.editor.structure.TransformationMenuReference_Named" flags="ng" index="A1WHu">
         <reference id="6718020819487620874" name="menu" index="A1WHt" />
@@ -3053,15 +3054,12 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgcAta">
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcAgd" resolve="TODO_ChangeEnvironment" />
+    <ref role="1XX52x" to="86kt:5zjJPlgcAgd" resolve="ChangeEnvironment" />
     <node concept="3EZMnI" id="5zjJPlgcAtc" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgcAtm" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgcAto" role="3F10Kt" />
         <node concept="3F0ifn" id="5yfUVbtgboY" role="3EZMnx">
-          <property role="3F0ifm" value="Change current pixel" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rPkcWz" role="3EZMnx">
-          <property role="3F0ifm" value="what environment" />
+          <property role="3F0ifm" value="Change environment to" />
         </node>
         <node concept="1iCGBv" id="5EtG2rPkcWO" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5EtG2rPkcWJ" resolve="environment" />
@@ -3073,10 +3071,18 @@
           </node>
         </node>
         <node concept="3F0ifn" id="5zjJPlgcTNk" role="3EZMnx">
-          <property role="3F0ifm" value="change color" />
+          <property role="3F0ifm" value="making color" />
         </node>
-        <node concept="3F1sOY" id="5zjJPlgcTNx" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5zjJPlgcScN" resolve="color" />
+        <node concept="1iCGBv" id="5yfUVbtrSb_" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPkcWJ" resolve="environment" />
+          <node concept="1sVBvm" id="5yfUVbtrSbB" role="1sWHZn">
+            <node concept="3F1sOY" id="5yfUVbtrSbO" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:3rTwIuRCadk" resolve="defaultColour" />
+              <node concept="xShMh" id="5yfUVbttMks" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="2iRfu4" id="5zjJPlgcAtr" role="2iSdaV" />
       </node>

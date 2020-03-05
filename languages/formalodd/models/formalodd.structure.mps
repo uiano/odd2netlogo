@@ -1302,19 +1302,14 @@
   <node concept="1TIwiD" id="5zjJPlgcAgd">
     <property role="EcuMT" value="6400669868562211853" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <property role="TrG5h" value="TODO_ChangeEnvironment" />
+    <property role="TrG5h" value="ChangeEnvironment" />
     <property role="R4oN_" value="Changes the enviroment" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
     <node concept="1TJgyj" id="5EtG2rPkcWJ" role="1TKVEi">
       <property role="IQ2ns" value="6529568716128046895" />
       <property role="20kJfa" value="environment" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    </node>
-    <node concept="1TJgyj" id="5zjJPlgcScN" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868562285363" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="color" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Colour" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zjJPlgjDSD">

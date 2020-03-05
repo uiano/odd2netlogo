@@ -17,7 +17,7 @@
         <child id="6400669868569569336" name="who" index="8shtH" />
       </concept>
       <concept id="6400669868562211853" name="formalodd.structure.TODO_ChangeEnvironment" flags="ng" index="8StHo">
-        <child id="6400669868562285363" name="color" index="8S3LA" />
+        <reference id="6529568716128046895" name="environment" index="2JNnW9" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
       <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
@@ -321,9 +321,7 @@
             </node>
           </node>
           <node concept="8StHo" id="7MNWMNBlapF" role="2GrruU">
-            <node concept="ZOwrR" id="22rmwLH$C$x" role="8S3LA">
-              <property role="ZOwrO" value="22rmwLH$XoV/brown" />
-            </node>
+            <ref role="2JNnW9" node="5yfUVbtpZLs" resolve="soil" />
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
@@ -419,9 +417,7 @@
       <node concept="2lNc1x" id="3kYfzLXlrFi" role="2GyEu2">
         <property role="TrG5h" value="startRegrowth" />
         <node concept="8StHo" id="7MNWMNBA3rE" role="18tn1X">
-          <node concept="ZOwrR" id="22rmwLH$C$z" role="8S3LA">
-            <property role="ZOwrO" value="22rmwLH$XnK/yellow" />
-          </node>
+          <ref role="2JNnW9" node="5yfUVbtpZLV" resolve="newGrass" />
         </node>
         <node concept="8StVI" id="7MNWMNBA3s1" role="18tn1X">
           <ref role="2rWCsu" node="1LeTgidqm69" resolve="grass-growth" />
@@ -448,9 +444,7 @@
         <property role="TrG5h" value="regrowth" />
         <node concept="2rRKAk" id="7MNWMNBA3uu" role="18tn1X">
           <node concept="8StHo" id="7MNWMNBA3uS" role="2rRKAh">
-            <node concept="ZOwrR" id="22rmwLH$C$_" role="8S3LA">
-              <property role="ZOwrO" value="22rmwLH$XpM/green" />
-            </node>
+            <ref role="2JNnW9" node="1LeTgidqm5Z" resolve="grass" />
           </node>
           <node concept="2HP6RB" id="7MNWMNBA3uM" role="2rRKAn">
             <property role="2HPVKK" value="&gt;" />
@@ -530,6 +524,18 @@
             <property role="2rHBro" value="5" />
             <property role="21jJI7" value="5" />
           </node>
+        </node>
+      </node>
+      <node concept="ZOwrm" id="5yfUVbtpZLV" role="2kDK73">
+        <property role="TrG5h" value="newGrass" />
+        <node concept="ZOwrR" id="5yfUVbtpZM5" role="21mi6N">
+          <property role="ZOwrO" value="22rmwLH$XnK/yellow" />
+        </node>
+      </node>
+      <node concept="ZOwrm" id="5yfUVbtpZLs" role="2kDK73">
+        <property role="TrG5h" value="soil" />
+        <node concept="ZOwrR" id="5yfUVbtpZM7" role="21mi6N">
+          <property role="ZOwrO" value="22rmwLH$XoV/brown" />
         </node>
       </node>
       <node concept="ZOwpH" id="5Dmxhgox7rB" role="1XCrKs">
@@ -710,9 +716,7 @@
         <property role="TrG5h" value="Burn" />
         <ref role="24v3MU" node="7MNWMNCnG0T" resolve="Trees" />
         <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
-          <node concept="ZOwrR" id="22rmwLH$C$r" role="8S3LA">
-            <property role="ZOwrO" value="22rmwLH$Xl$/red" />
-          </node>
+          <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
         </node>
         <node concept="8StVI" id="7MNWMNBiKRk" role="18tn1X">
           <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
@@ -724,9 +728,7 @@
           <property role="1SKKa9" value="22rmwLH$XpM/green" />
           <node concept="2lNc1y" id="1r3mgtKgnYM" role="1SKKaf">
             <node concept="8StHo" id="1r3mgtKgnYT" role="2GrruU">
-              <node concept="ZOwrR" id="22rmwLH$C$v" role="8S3LA">
-                <property role="ZOwrO" value="22rmwLH$Xl$/red" />
-              </node>
+              <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
             </node>
             <node concept="8StVI" id="3kYfzLXpebz" role="2GrruU">
               <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
@@ -748,9 +750,7 @@
           </node>
           <node concept="2rRKAk" id="7MNWMNBA3mv" role="2GrruU">
             <node concept="8StHo" id="7MNWMNBA3mQ" role="2rRKAh">
-              <node concept="ZOwrR" id="22rmwLH$C$t" role="8S3LA">
-                <property role="ZOwrO" value="22rmwLH$XmI/grey" />
-              </node>
+              <ref role="2JNnW9" node="7MNWMNCnG1H" resolve="Ash" />
             </node>
             <node concept="2HP6RB" id="7MNWMNBA3mK" role="2rRKAn">
               <property role="2HPVKK" value="&lt;" />
