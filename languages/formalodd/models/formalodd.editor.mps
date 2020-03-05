@@ -128,7 +128,6 @@
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
       <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
-        <property id="16410578721444372" name="customizeEmptyCell" index="2ru_X1" />
         <child id="5861024100072578575" name="addHints" index="3xwHhi" />
       </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR">
@@ -3058,37 +3057,11 @@
     <node concept="3EZMnI" id="5zjJPlgcAtc" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgcAtm" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgcAto" role="3F10Kt" />
-        <node concept="3F1sOY" id="5zjJPlgcRWI" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;Press alt enter to chose options&gt;" />
-          <property role="2ru_X1" value="true" />
-          <ref role="1NtTu8" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
+        <node concept="3F0ifn" id="5yfUVbtgboY" role="3EZMnx">
+          <property role="3F0ifm" value="Change current pixel" />
         </node>
         <node concept="3F0ifn" id="5EtG2rPkcWz" role="3EZMnx">
           <property role="3F0ifm" value="what environment" />
-          <node concept="pkWqt" id="5EtG2rRe8yf" role="pqm2j">
-            <node concept="3clFbS" id="5EtG2rRe8yg" role="2VODD2">
-              <node concept="3clFbF" id="5EtG2rRe8D_" role="3cqZAp">
-                <node concept="2OqwBi" id="5EtG2rRea7$" role="3clFbG">
-                  <node concept="2OqwBi" id="5EtG2rRe8Q2" role="2Oq$k0">
-                    <node concept="2OqwBi" id="2j8p7S3QaSe" role="2Oq$k0">
-                      <node concept="pncrf" id="5EtG2rRe8D$" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="2j8p7S3Qbiy" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5zjJPlgcRWF" resolve="changeEnvironmentOption" />
-                      </node>
-                    </node>
-                    <node concept="3TrcHB" id="2j8p7S3QAr3" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlgcAv9" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5EtG2rReaHo" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgcGEx" role="3y1jev">
-                      <property role="Xl_RC" value="Change Neighbors" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
         </node>
         <node concept="1iCGBv" id="5EtG2rPkcWO" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5EtG2rPkcWJ" resolve="environment" />
@@ -3096,25 +3069,6 @@
             <node concept="3F0A7n" id="5EtG2rPkcX1" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-          <node concept="pkWqt" id="5EtG2rRebC6" role="pqm2j">
-            <node concept="3clFbS" id="5EtG2rRebC7" role="2VODD2">
-              <node concept="3clFbF" id="5EtG2rRebJs" role="3cqZAp">
-                <node concept="2OqwBi" id="5EtG2rReddr" role="3clFbG">
-                  <node concept="2OqwBi" id="5EtG2rRebVT" role="2Oq$k0">
-                    <node concept="pncrf" id="5EtG2rRebJr" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="5EtG2rRecjw" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5EtG2rRawi8" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5EtG2rReenF" role="2OqNvi">
-                    <node concept="Xl_RD" id="5EtG2rPkk3n" role="3y1jev">
-                      <property role="Xl_RC" value="Change Neighbors" />
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -3127,14 +3081,6 @@
         <node concept="2iRfu4" id="5zjJPlgcAtr" role="2iSdaV" />
       </node>
       <node concept="2iRkQZ" id="5zjJPlgcAtf" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5zjJPlgcAv_">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgcAv8" resolve="TODO_ChangeEnvironmentOption" />
-    <node concept="3F0A7n" id="5zjJPlgcAvB" role="2wV5jI">
-      <property role="1$x2rV" value="press alt enter" />
-      <ref role="1NtTu8" to="86kt:5zjJPlgcAv9" resolve="option" />
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgjDT6">

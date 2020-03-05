@@ -16,12 +16,8 @@
       <concept id="6400669868569568225" name="formalodd.structure.TODO_KillEntity" flags="ng" index="8shMO">
         <child id="6400669868569569336" name="who" index="8shtH" />
       </concept>
-      <concept id="6400669868562212808" name="formalodd.structure.TODO_ChangeEnvironmentOption" flags="ng" index="8Styt">
-        <property id="6400669868562212809" name="option" index="8Stys" />
-      </concept>
       <concept id="6400669868562211853" name="formalodd.structure.TODO_ChangeEnvironment" flags="ng" index="8StHo">
         <child id="6400669868562285363" name="color" index="8S3LA" />
-        <child id="6400669868562284331" name="changeEnvironmentOption" index="8Sc1Y" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
       <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
@@ -81,7 +77,7 @@
         <property id="2650478873095418597" name="color" index="BjXqr" />
       </concept>
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
-        <reference id="6381578350450956040" name="partnerX" index="24v3MU" />
+        <reference id="6381578350450956040" name="partner" index="24v3MU" />
         <child id="1786286396180405745" name="partnerCondition" index="17I3vM" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
@@ -325,9 +321,6 @@
             </node>
           </node>
           <node concept="8StHo" id="7MNWMNBlapF" role="2GrruU">
-            <node concept="8Styt" id="7MNWMNBlapG" role="8Sc1Y">
-              <property role="8Stys" value="Change Current Pixel" />
-            </node>
             <node concept="ZOwrR" id="22rmwLH$C$x" role="8S3LA">
               <property role="ZOwrO" value="22rmwLH$XoV/brown" />
             </node>
@@ -426,9 +419,6 @@
       <node concept="2lNc1x" id="3kYfzLXlrFi" role="2GyEu2">
         <property role="TrG5h" value="startRegrowth" />
         <node concept="8StHo" id="7MNWMNBA3rE" role="18tn1X">
-          <node concept="8Styt" id="7MNWMNBA3rF" role="8Sc1Y">
-            <property role="8Stys" value="Change Current Pixel" />
-          </node>
           <node concept="ZOwrR" id="22rmwLH$C$z" role="8S3LA">
             <property role="ZOwrO" value="22rmwLH$XnK/yellow" />
           </node>
@@ -458,9 +448,6 @@
         <property role="TrG5h" value="regrowth" />
         <node concept="2rRKAk" id="7MNWMNBA3uu" role="18tn1X">
           <node concept="8StHo" id="7MNWMNBA3uS" role="2rRKAh">
-            <node concept="8Styt" id="7MNWMNBA3uW" role="8Sc1Y">
-              <property role="8Stys" value="Change Current Pixel" />
-            </node>
             <node concept="ZOwrR" id="22rmwLH$C$_" role="8S3LA">
               <property role="ZOwrO" value="22rmwLH$XpM/green" />
             </node>
@@ -723,9 +710,6 @@
         <property role="TrG5h" value="Burn" />
         <ref role="24v3MU" node="7MNWMNCnG0T" resolve="Trees" />
         <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
-          <node concept="8Styt" id="7MNWMNB2dNk" role="8Sc1Y">
-            <property role="8Stys" value="Change Current Pixel" />
-          </node>
           <node concept="ZOwrR" id="22rmwLH$C$r" role="8S3LA">
             <property role="ZOwrO" value="22rmwLH$Xl$/red" />
           </node>
@@ -740,9 +724,6 @@
           <property role="1SKKa9" value="22rmwLH$XpM/green" />
           <node concept="2lNc1y" id="1r3mgtKgnYM" role="1SKKaf">
             <node concept="8StHo" id="1r3mgtKgnYT" role="2GrruU">
-              <node concept="8Styt" id="1r3mgtKgnYX" role="8Sc1Y">
-                <property role="8Stys" value="Change Current Pixel" />
-              </node>
               <node concept="ZOwrR" id="22rmwLH$C$v" role="8S3LA">
                 <property role="ZOwrO" value="22rmwLH$Xl$/red" />
               </node>
@@ -767,9 +748,6 @@
           </node>
           <node concept="2rRKAk" id="7MNWMNBA3mv" role="2GrruU">
             <node concept="8StHo" id="7MNWMNBA3mQ" role="2rRKAh">
-              <node concept="8Styt" id="7MNWMNBA3mR" role="8Sc1Y">
-                <property role="8Stys" value="Change Current Pixel" />
-              </node>
               <node concept="ZOwrR" id="22rmwLH$C$t" role="8S3LA">
                 <property role="ZOwrO" value="22rmwLH$XmI/grey" />
               </node>

@@ -1310,53 +1310,11 @@
       <property role="20kJfa" value="environment" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
-    <node concept="1TJgyi" id="5zjJPlgcAge" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868562211854" />
-      <property role="TrG5h" value="changeCurrentPixels" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5zjJPlgcAgh" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868562211857" />
-      <property role="TrG5h" value="changeNeighborsPixels" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5zjJPlgcAgx" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868562211873" />
-      <property role="TrG5h" value="changePixelColor" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5EtG2rPNtGS" role="1TKVEl">
-      <property role="IQ2nx" value="6529568716136241976" />
-      <property role="TrG5h" value="dimSelf" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5EtG2rRawi8" role="1TKVEl">
-      <property role="IQ2nx" value="6529568716159059080" />
-      <property role="TrG5h" value="option" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyj" id="5zjJPlgcRWF" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868562284331" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="changeEnvironmentOption" />
-      <ref role="20lvS9" node="5zjJPlgcAv8" resolve="TODO_ChangeEnvironmentOption" />
-    </node>
     <node concept="1TJgyj" id="5zjJPlgcScN" role="1TKVEi">
       <property role="IQ2ns" value="6400669868562285363" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="color" />
       <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Colour" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="5zjJPlgcAv8">
-    <property role="EcuMT" value="6400669868562212808" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <property role="TrG5h" value="TODO_ChangeEnvironmentOption" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="5zjJPlgcAv9" role="1TKVEl">
-      <property role="IQ2nx" value="6400669868562212809" />
-      <property role="TrG5h" value="option" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="5zjJPlgjDSD">
