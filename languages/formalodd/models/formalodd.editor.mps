@@ -2989,7 +2989,7 @@
         </node>
         <node concept="3F2HdR" id="2EFWiW_elP0" role="3EZMnx">
           <property role="2czwfO" value="," />
-          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="who" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
           <node concept="2iRfu4" id="2EFWiW_elP2" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_U3hZy" role="2czzBI">
             <property role="3F0ifm" value="press enter to add a new object" />
@@ -4173,7 +4173,7 @@
   </node>
   <node concept="24kQdi" id="qdXC$xsGIv">
     <property role="3GE5qa" value="TODO_Scheduling" />
-    <ref role="1XX52x" to="86kt:qdXC$xsGIe" resolve="TODO_Interaction" />
+    <ref role="1XX52x" to="86kt:qdXC$xsGIe" resolve="Interaction" />
     <node concept="3EZMnI" id="qdXC$xsGKS" role="2wV5jI">
       <node concept="2iRkQZ" id="qdXC$xsGKT" role="2iSdaV" />
       <node concept="3EZMnI" id="qdXC$xsGIQ" role="3EZMnx">
@@ -4197,30 +4197,42 @@
       <node concept="3EZMnI" id="qdXC$xB06L" role="3EZMnx">
         <node concept="2iRfu4" id="qdXC$xB06M" role="2iSdaV" />
         <node concept="3F0ifn" id="qdXC$xsGJl" role="3EZMnx">
-          <property role="3F0ifm" value="The main actors is " />
+          <property role="3F0ifm" value="The main actor is " />
           <node concept="Vb9p2" id="qdXC$xsGJm" role="3F10Kt" />
         </node>
         <node concept="3F2HdR" id="qdXC$xsGJ9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="who" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
           <node concept="2iRfu4" id="qdXC$xsGJa" role="2czzBx" />
         </node>
       </node>
       <node concept="3EZMnI" id="qdXC$xsGLT" role="3EZMnx">
         <node concept="2iRfu4" id="qdXC$xsGLU" role="2iSdaV" />
         <node concept="3F0ifn" id="qdXC$xsGLi" role="3EZMnx">
-          <property role="3F0ifm" value="the secondary actors is " />
+          <property role="3F0ifm" value="the secondary actor is " />
           <node concept="Vb9p2" id="qdXC$xsGMm" role="3F10Kt" />
         </node>
-        <node concept="3F1sOY" id="qdXC$xtSbZ" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:qdXC$xtSbW" resolve="secondActor" />
+        <node concept="1iCGBv" id="5yfUVbsWXsm" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5yfUVbsWXs8" resolve="partner" />
+          <node concept="1sVBvm" id="5yfUVbsWXso" role="1sWHZn">
+            <node concept="3F0A7n" id="5yfUVbsWXsz" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="5yfUVbsV4oC" role="3EZMnx">
+          <property role="3F0ifm" value="with condition" />
+        </node>
+        <node concept="3F1sOY" id="5yfUVbsV4oO" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:1zaawdvsxRL" resolve="partnerCondition" />
         </node>
       </node>
       <node concept="3F0ifn" id="qdXC$xB07u" role="3EZMnx">
         <property role="3F0ifm" value="under the condition " />
         <node concept="Vb9p2" id="qdXC$xB086" role="3F10Kt" />
       </node>
-      <node concept="3F1sOY" id="qdXC$xtScd" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:1zaawdvsxRL" resolve="REMOVE_condition" />
+      <node concept="3F1sOY" id="5yfUVbsS$T1" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNBvDFx" resolve="condition" />
       </node>
       <node concept="3F0ifn" id="7MNWMNB0bsD" role="3EZMnx">
         <property role="3F0ifm" value="we do the action" />

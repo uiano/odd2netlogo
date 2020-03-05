@@ -1961,7 +1961,7 @@
                           <ref role="2Gs0qQ" node="4diQXU_C$oF" resolve="a" />
                         </node>
                         <node concept="3Tsc0h" id="3kYfzLXlviU" role="2OqNvi">
-                          <ref role="3TtcxE" to="86kt:3kYfzLXiOT3" resolve="who" />
+                          <ref role="3TtcxE" to="86kt:3kYfzLXiOT3" resolve="actor" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="4diQXU_Djf_" role="2OqNvi">
@@ -2073,7 +2073,7 @@
                           <ref role="2Gs0qQ" node="2EFWiW_iGbF" resolve="a" />
                         </node>
                         <node concept="3Tsc0h" id="3kYfzLXlv2W" role="2OqNvi">
-                          <ref role="3TtcxE" to="86kt:3kYfzLXiOT3" resolve="who" />
+                          <ref role="3TtcxE" to="86kt:3kYfzLXiOT3" resolve="actor" />
                         </node>
                       </node>
                       <node concept="13MTOL" id="2EFWiW_kb77" role="2OqNvi">
@@ -6112,7 +6112,7 @@
   </node>
   <node concept="WtQ9Q" id="qdXC$xz0Sv">
     <property role="3GE5qa" value="TODO_Scheduling" />
-    <ref role="WuzLi" to="86kt:qdXC$xsGIe" resolve="TODO_Interaction" />
+    <ref role="WuzLi" to="86kt:qdXC$xsGIe" resolve="Interaction" />
     <node concept="11bSqf" id="qdXC$xz0Sw" role="11c4hB">
       <node concept="3clFbS" id="qdXC$xz0Sx" role="2VODD2">
         <node concept="lc7rE" id="qdXC$xz0YQ" role="3cqZAp">
@@ -6137,7 +6137,7 @@
             <node concept="2OqwBi" id="qdXC$xz2Fu" role="lb14g">
               <node concept="117lpO" id="qdXC$xz2xE" role="2Oq$k0" />
               <node concept="3TrEf2" id="qdXC$xz2Qa" role="2OqNvi">
-                <ref role="3Tt5mk" to="86kt:1zaawdvsxRL" resolve="REMOVE_condition" />
+                <ref role="3Tt5mk" to="86kt:1zaawdvsxRL" resolve="partnerCondition" />
               </node>
             </node>
           </node>

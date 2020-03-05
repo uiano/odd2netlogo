@@ -46,9 +46,9 @@
         <property id="135681439435783010" name="quantifier" index="3xNfbI" />
         <reference id="6529568716114683163" name="entity" index="2I6lkX" />
       </concept>
-      <concept id="7308686357753541200" name="formalodd.structure.TODO_ProcessOverviewAndScheduling" flags="ng" index="2lMhBk">
-        <child id="7308686357753541209" name="endCondition" index="2lMhBt" />
-        <child id="6529568716141041572" name="procedure" index="2GyEu2" />
+      <concept id="7308686357753541200" name="formalodd.structure.ProcessOverviewAndScheduling" flags="ng" index="2lMhBk">
+        <child id="7308686357753541209" name="endConditions" index="2lMhBt" />
+        <child id="6529568716141041572" name="procedures" index="2GyEu2" />
       </concept>
       <concept id="7308686357753326564" name="formalodd.structure.TODO_Who" flags="ng" index="2lNc1w">
         <property id="6400669868561525719" name="option" index="8X5i2" />
@@ -58,7 +58,7 @@
       <concept id="7308686357753326565" name="formalodd.structure.TODO_Procedure" flags="ng" index="2lNc1x">
         <child id="8985793055722216161" name="condition" index="2rNmBd" />
         <child id="3836572362087288385" name="actions" index="18tn1X" />
-        <child id="3836572362087288387" name="who" index="18tn1Z" />
+        <child id="3836572362087288387" name="actor" index="18tn1Z" />
       </concept>
       <concept id="7308686357753326566" name="formalodd.structure.REMOVE_CompoundAction" flags="ng" index="2lNc1y">
         <child id="6529568716155258780" name="actions" index="2GrruU" />
@@ -80,9 +80,9 @@
       <concept id="2650478873095413229" name="formalodd.structure.TODO_CurrentEnviroment" flags="ng" index="BjZAj">
         <property id="2650478873095418597" name="color" index="BjXqr" />
       </concept>
-      <concept id="472304604775893902" name="formalodd.structure.TODO_Interaction" flags="ng" index="BZNO7">
-        <child id="472304604776203004" name="secondActor" index="BYBhP" />
-        <child id="1786286396180405745" name="REMOVE_condition" index="17I3vM" />
+      <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
+        <reference id="6381578350450956040" name="partnerX" index="24v3MU" />
+        <child id="1786286396180405745" name="partnerCondition" index="17I3vM" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmuntOfSpawns" index="2DBPly" />
@@ -316,6 +316,7 @@
       </node>
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
+        <ref role="24v3MU" node="1LeTgidqm5Z" resolve="grass" />
         <node concept="2lNc1y" id="7MNWMNBlapC" role="18tn1X">
           <node concept="2qfAsZ" id="7MNWMNBlapD" role="2GrruU">
             <ref role="2rWCsu" node="60Hvi7rWx1g" resolve="energyS" />
@@ -336,16 +337,13 @@
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="2lNc1w" id="3kYfzLXlqJw" role="BYBhP">
-          <property role="8X5i2" value="Environment" />
-          <ref role="8YSiS" node="1LeTgidqm5Z" resolve="grass" />
-        </node>
         <node concept="BjZAj" id="3kYfzLXlqJ$" role="17I3vM">
           <property role="BjXqr" value="22rmwLH$XpM/green" />
         </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
+        <ref role="24v3MU" node="qdXC$xz0Qv" resolve="sheep" />
         <node concept="2lNc1y" id="7MNWMNBlapO" role="18tn1X">
           <node concept="8shMO" id="7MNWMNBlapP" role="2GrruU">
             <node concept="2lNc1w" id="7MNWMNBlapQ" role="8shtH">
@@ -362,10 +360,6 @@
         <node concept="2lNc1w" id="3kYfzLXlriR" role="18tn1Z">
           <property role="8X5i2" value="Entity" />
           <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
-        </node>
-        <node concept="2lNc1w" id="3kYfzLXlriT" role="BYBhP">
-          <property role="8X5i2" value="Entity" />
-          <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
         <node concept="fwBFc" id="3kYfzLXlrl9" role="17I3vM">
           <ref role="fwBFb" node="qdXC$xz0Qv" resolve="sheep" />
@@ -727,6 +721,7 @@
       </node>
       <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
+        <ref role="24v3MU" node="7MNWMNCnG0T" resolve="Trees" />
         <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
           <node concept="8Styt" id="7MNWMNB2dNk" role="8Sc1Y">
             <property role="8Stys" value="Change Current Pixel" />
