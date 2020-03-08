@@ -1894,13 +1894,13 @@
   </node>
   <node concept="1TIwiD" id="7AEkq7xq0wR">
     <property role="EcuMT" value="8766909380343367735" />
-    <property role="TrG5h" value="FIX_NumericConstant" />
+    <property role="TrG5h" value="NumericConstant" />
     <property role="3GE5qa" value="TODO_Expression" />
     <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="1TJgyi" id="7AEkq7xq0wS" role="1TKVEl">
       <property role="IQ2nx" value="8766909380343367736" />
-      <property role="TrG5h" value="MAKEINT_value" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="RwtFpHC4y1">
