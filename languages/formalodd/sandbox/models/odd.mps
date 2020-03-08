@@ -16,7 +16,7 @@
       <concept id="6400669868569568225" name="formalodd.structure.TODO_KillEntity" flags="ng" index="8shMO">
         <child id="6400669868569569336" name="who" index="8shtH" />
       </concept>
-      <concept id="6400669868562211853" name="formalodd.structure.TODO_ChangeEnvironment" flags="ng" index="8StHo">
+      <concept id="6400669868562211853" name="formalodd.structure.ChangeEnvironment" flags="ng" index="8StHo">
         <reference id="6529568716128046895" name="environment" index="2JNnW9" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
@@ -59,8 +59,8 @@
       <concept id="7308686357753326566" name="formalodd.structure.REMOVE_CompoundAction" flags="ng" index="2lNc1y">
         <child id="6529568716155258780" name="actions" index="2GrruU" />
       </concept>
-      <concept id="8766909380343367735" name="formalodd.structure.FIX_NumericConstant" flags="ng" index="2oK_Am">
-        <property id="8766909380343367736" name="MAKEINT_value" index="2oK_Ap" />
+      <concept id="8766909380343367735" name="formalodd.structure.IntegerConstant" flags="ng" index="2oK_Am">
+        <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
@@ -213,7 +213,6 @@
       <concept id="1786286396201721621" name="formalodd.structure.TODO_OccupiedSpot" flags="ng" index="1Svnkm" />
       <concept id="1786286396190304350" name="formalodd.structure.TODO_NeighborEnviroment" flags="ng" index="1SKK9t">
         <property id="1786286396190304394" name="color" index="1SKKa9" />
-        <child id="1786286396190304396" name="EnvromentAction" index="1SKKaf" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -726,17 +725,6 @@
         </node>
         <node concept="1SKK9t" id="1r3mgtKgnYK" role="17I3vM">
           <property role="1SKKa9" value="22rmwLH$XpM/green" />
-          <node concept="2lNc1y" id="1r3mgtKgnYM" role="1SKKaf">
-            <node concept="8StHo" id="1r3mgtKgnYT" role="2GrruU">
-              <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
-            </node>
-            <node concept="8StVI" id="3kYfzLXpebz" role="2GrruU">
-              <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
-              <node concept="2oK_Am" id="7MNWMNBiKR6" role="2rWCss">
-                <property role="2oK_Ap" value="20" />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXpecx" role="2GyEu2">

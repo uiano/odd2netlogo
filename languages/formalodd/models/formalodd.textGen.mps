@@ -5915,7 +5915,7 @@
   </node>
   <node concept="WtQ9Q" id="1zaawdw3aep">
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <ref role="WuzLi" to="86kt:1zaawdw2ixu" resolve="TODO_NeighborEnviroment" />
+    <ref role="WuzLi" to="86kt:1zaawdw2ixu" resolve="NeighbourEnvironment" />
     <node concept="11bSqf" id="1zaawdw3aeq" role="11c4hB">
       <node concept="3clFbS" id="1zaawdw3aer" role="2VODD2">
         <node concept="lc7rE" id="2j8p7S3xVcj" role="3cqZAp">
