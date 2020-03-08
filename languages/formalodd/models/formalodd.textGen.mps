@@ -1267,7 +1267,7 @@
                       </node>
                     </node>
                     <node concept="Jncv_" id="4qxfPPPwkXE" role="3cqZAp">
-                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="NumericConstant" />
+                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
                       <node concept="2OqwBi" id="4qxfPPPwkXF" role="JncvB">
                         <node concept="2GrUjf" id="4qxfPPPwkXG" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="4qxfPPPwkXa" resolve="linkUDA" />
@@ -1534,7 +1534,7 @@
                       </node>
                     </node>
                     <node concept="Jncv_" id="6dSewhkYgAx" role="3cqZAp">
-                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="NumericConstant" />
+                      <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
                       <node concept="2OqwBi" id="6dSewhkYhFA" role="JncvB">
                         <node concept="2GrUjf" id="6dSewhkYhwl" role="2Oq$k0">
                           <ref role="2Gs0qQ" node="6dSewhkY6WO" resolve="entityUda" />
@@ -6489,7 +6489,7 @@
               </node>
             </node>
             <node concept="Jncv_" id="1LeTgidgH6a" role="3cqZAp">
-              <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="NumericConstant" />
+              <ref role="JncvD" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
               <node concept="2OqwBi" id="1LeTgidgHhc" role="JncvB">
                 <node concept="117lpO" id="1LeTgidgH7B" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1LeTgidgHs8" role="2OqNvi">
@@ -7529,7 +7529,7 @@
   </node>
   <node concept="WtQ9Q" id="7MNWMNAI9dZ">
     <property role="3GE5qa" value="TODO_Expression" />
-    <ref role="WuzLi" to="86kt:7AEkq7xq0wR" resolve="NumericConstant" />
+    <ref role="WuzLi" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
     <node concept="11bSqf" id="7MNWMNAI9e0" role="11c4hB">
       <node concept="3clFbS" id="7MNWMNAI9e1" role="2VODD2">
         <node concept="lc7rE" id="7MNWMNAI9ek" role="3cqZAp">

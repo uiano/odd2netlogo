@@ -771,7 +771,7 @@
   </node>
   <node concept="1TIwiD" id="3mweh_A8dKi">
     <property role="EcuMT" value="3864151261534280722" />
-    <property role="TrG5h" value="TODO_Action" />
+    <property role="TrG5h" value="Action" />
     <property role="3GE5qa" value="TODO_Scheduling" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
@@ -1064,14 +1064,14 @@
       <property role="IQ2ns" value="8985793055722216161" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+      <ref role="20lvS9" node="1zaawdvpfAU" resolve="InteractionCondition" />
     </node>
     <node concept="1TJgyj" id="3kYfzLXiOT1" role="1TKVEi">
       <property role="IQ2ns" value="3836572362087288385" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="TODO_Action" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
     <node concept="1TJgyj" id="3kYfzLXiOT3" role="1TKVEi">
       <property role="IQ2ns" value="3836572362087288387" />
@@ -1092,13 +1092,13 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="REMOVE_CompoundAction" />
     <property role="R4oN_" value="multiple actions" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5EtG2rQW0us" role="1TKVEi">
       <property role="IQ2ns" value="6529568716155258780" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="TODO_Action" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9g">
@@ -1225,7 +1225,7 @@
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect.TODO_Move" />
     <property role="TrG5h" value="TODO_Move" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="PrWs8" id="6lHESjKDbbP" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1304,7 +1304,7 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="ChangeEnvironment" />
     <property role="R4oN_" value="Changes the enviroment" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5EtG2rPkcWJ" role="1TKVEi">
       <property role="IQ2ns" value="6529568716128046895" />
       <property role="20kJfa" value="environment" />
@@ -1328,7 +1328,7 @@
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_CreateNewEntity" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgCE3t" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569567453" />
       <property role="20kJfa" value="who" />
@@ -1357,7 +1357,7 @@
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_Conflict" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgD2nl" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569667029" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1376,7 +1376,7 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_KillEntity" />
     <property role="R4oN_" value="despawns an entity" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="5zjJPlgCEwS" role="1TKVEi">
       <property role="IQ2ns" value="6400669868569569336" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1406,7 +1406,7 @@
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_ChangeAttribute" />
     <property role="R4oN_" value="not implented yet" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="5zjJPlgHXnr" role="1TKVEl">
       <property role="IQ2nx" value="6400669868570957275" />
       <property role="TrG5h" value="AttributeName" />
@@ -1509,7 +1509,7 @@
     <property role="EcuMT" value="6529568716161146305" />
     <property role="TrG5h" value="TODO_ifcondition" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
     <node concept="1TJgyj" id="5EtG2rRitR2" role="1TKVEi">
       <property role="IQ2ns" value="6529568716161146306" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1570,7 +1570,7 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect.TODO_Move" />
     <property role="TrG5h" value="TODO_MoveRandom" />
     <property role="R4oN_" value="moves a entity randomly" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="2EFWiWzCels" role="1TKVEl">
       <property role="IQ2nx" value="3074816355373999452" />
       <property role="TrG5h" value="MovmentSpeed" />
@@ -1582,7 +1582,7 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_Collides" />
     <property role="R4oN_" value="Used to determind if entity colides" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
     <node concept="1TJgyj" id="2EFWiW_aoJ$" role="1TKVEi">
       <property role="IQ2ns" value="3074816355399732196" />
       <property role="20kJfa" value="Target" />
@@ -1599,7 +1599,7 @@
     <property role="3GE5qa" value="TODO_Scheduling" />
     <property role="TrG5h" value="TODO_Spawn" />
     <property role="R4oN_" value="Spawns a new entity" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="79PYCRrUEZJ" role="1TKVEl">
       <property role="IQ2nx" value="8247773779785854959" />
       <property role="TrG5h" value="AmuntOfSpawns" />
@@ -1618,7 +1618,7 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_CurrentEnviroment" />
     <property role="R4oN_" value="The color of the eniviroment that the entity is on" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
     <node concept="1TJgyi" id="5vgYlnqdd_7" role="1TKVEl">
       <property role="TrG5h" value="color" />
       <property role="IQ2nx" value="2650478873095418597" />
@@ -1635,19 +1635,19 @@
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_compoundCondition" />
     <property role="R4oN_" value="to make a collection of conditions" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
     <node concept="1TJgyj" id="1zaawdvhWY3" role="1TKVEi">
       <property role="IQ2ns" value="1786286396177633155" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="condition" />
-      <ref role="20lvS9" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+      <ref role="20lvS9" node="1zaawdvpfAU" resolve="InteractionCondition" />
     </node>
     <node concept="1TJgyj" id="1zaawdvhWYr" role="1TKVEi">
       <property role="IQ2ns" value="1786286396177633179" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="compoundedCondition" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+      <ref role="20lvS9" node="1zaawdvpfAU" resolve="InteractionCondition" />
     </node>
   </node>
   <node concept="1TIwiD" id="1zaawdvhXD5">
@@ -1655,33 +1655,27 @@
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_NoCondition" />
     <property role="R4oN_" value="used when a action has no conditons" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
   </node>
   <node concept="1TIwiD" id="1zaawdvpfAU">
     <property role="EcuMT" value="1786286396179544506" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <property role="TrG5h" value="TODO_InteractionCondition" />
+    <property role="TrG5h" value="InteractionCondition" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="1zaawdvpEgE" role="1TKVEi">
-      <property role="IQ2ns" value="1786286396179653674" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="action" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="TODO_Action" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1zaawdv_Qhw">
     <property role="EcuMT" value="1786286396182848608" />
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_noAction" />
     <property role="R4oN_" value="no action depricated" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
   </node>
   <node concept="1TIwiD" id="1zaawdw2ixu">
     <property role="EcuMT" value="1786286396190304350" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_NeighborEnviroment" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
     <node concept="1TJgyi" id="5vgYlnqdd_9" role="1TKVEl">
       <property role="TrG5h" value="color" />
       <property role="IQ2nx" value="1786286396190304394" />
@@ -1691,7 +1685,7 @@
       <property role="IQ2ns" value="1786286396190304396" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="EnvromentAction" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="TODO_Action" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
   </node>
   <node concept="1TIwiD" id="1zaawdw2ixv">
@@ -1706,7 +1700,7 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_Sprout" />
     <property role="R4oN_" value="spawn new entity at patch" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="1zaawdw5bqj" role="1TKVEi">
       <property role="IQ2ns" value="1786286396191061651" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1718,14 +1712,14 @@
     <property role="EcuMT" value="1786286396201721621" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_OccupiedSpot" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
   </node>
   <node concept="1TIwiD" id="1zaawdwHRIC">
     <property role="EcuMT" value="1786286396201728936" />
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_LinkAction" />
     <property role="R4oN_" value="links to a procedure" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="1zaawdwHRIF" role="1TKVEi">
       <property role="IQ2ns" value="1786286396201728939" />
       <property role="20kJfa" value="link" />
@@ -1737,14 +1731,14 @@
     <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
     <property role="TrG5h" value="TODO_CenterOnPatch" />
     <property role="R4oN_" value="places the entity center on current patch" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
   </node>
   <node concept="1TIwiD" id="4diQXU$E52Z">
     <property role="EcuMT" value="4851181497923162303" />
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
     <property role="TrG5h" value="TODO_ThisEnvironment" />
     <property role="R4oN_" value="Give access to environmental actions" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="InteractionCondition" />
     <node concept="1TJgyj" id="4diQXU$E530" role="1TKVEi">
       <property role="IQ2ns" value="4851181497923162304" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1766,7 +1760,7 @@
       <property role="IQ2ns" value="1786286396180405745" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="partnerCondition" />
-      <ref role="20lvS9" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+      <ref role="20lvS9" node="1zaawdvpfAU" resolve="InteractionCondition" />
     </node>
     <node concept="PrWs8" id="3kYfzLXqvbR" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -1894,7 +1888,7 @@
   </node>
   <node concept="1TIwiD" id="7AEkq7xq0wR">
     <property role="EcuMT" value="8766909380343367735" />
-    <property role="TrG5h" value="NumericConstant" />
+    <property role="TrG5h" value="IntegerConstant" />
     <property role="3GE5qa" value="TODO_Expression" />
     <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
     <node concept="1TJgyi" id="7AEkq7xq0wS" role="1TKVEl">
@@ -2278,7 +2272,7 @@
     <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="AssignAttribute" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="7MNWMNBgngM" role="1TKVEi">
       <property role="IQ2ns" value="8985793055718208562" />
       <property role="20kJfa" value="attribute" />
@@ -2297,20 +2291,20 @@
     <property role="EcuMT" value="8985793055721061048" />
     <property role="3GE5qa" value="Actions" />
     <property role="TrG5h" value="ConditionalAction" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="TODO_Action" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="7MNWMNBrfEV" role="1TKVEi">
       <property role="IQ2ns" value="8985793055721061051" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="condition" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1zaawdvpfAU" resolve="TODO_InteractionCondition" />
+      <ref role="20lvS9" node="1zaawdvpfAU" resolve="InteractionCondition" />
     </node>
     <node concept="1TJgyj" id="7MNWMNBrfEX" role="1TKVEi">
       <property role="IQ2ns" value="8985793055721061053" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="actions" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="TODO_Action" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MNWMNC5fbs">

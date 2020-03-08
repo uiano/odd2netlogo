@@ -4287,7 +4287,7 @@
   </node>
   <node concept="24kQdi" id="7AEkq7xyz$q">
     <property role="3GE5qa" value="TODO_Expression" />
-    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="NumericConstant" />
+    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
     <node concept="3EZMnI" id="7AEkq7xyz$v" role="2wV5jI">
       <node concept="3F0ifn" id="7AEkq7xyz$C" role="3EZMnx">
         <property role="3F0ifm" value="specific value:" />
