@@ -56,9 +56,6 @@
         <child id="3836572362087288385" name="actions" index="18tn1X" />
         <child id="3836572362087288387" name="actor" index="18tn1Z" />
       </concept>
-      <concept id="7308686357753326566" name="formalodd.structure.REMOVE_CompoundAction" flags="ng" index="2lNc1y">
-        <child id="6529568716155258780" name="actions" index="2GrruU" />
-      </concept>
       <concept id="8766909380343367735" name="formalodd.structure.IntegerConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
@@ -211,7 +208,7 @@
         <reference id="1786286396201728939" name="link" index="1Svl6C" />
       </concept>
       <concept id="1786286396201721621" name="formalodd.structure.TODO_OccupiedSpot" flags="ng" index="1Svnkm" />
-      <concept id="1786286396190304350" name="formalodd.structure.TODO_NeighborEnviroment" flags="ng" index="1SKK9t">
+      <concept id="1786286396190304350" name="formalodd.structure.NeighbourEnvironment" flags="ng" index="1SKK9t">
         <property id="1786286396190304394" name="color" index="1SKKa9" />
       </concept>
     </language>
@@ -312,16 +309,14 @@
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
         <ref role="24v3MU" node="1LeTgidqm5Z" resolve="grass" />
-        <node concept="2lNc1y" id="7MNWMNBlapC" role="18tn1X">
-          <node concept="2qfAsZ" id="7MNWMNBlapD" role="2GrruU">
-            <ref role="2rWCsu" node="60Hvi7rWx1g" resolve="energyS" />
-            <node concept="2WsqQC" id="7MNWMNBlapE" role="2rWCss">
-              <property role="2WsqQF" value="energy-gain-from-grass" />
-            </node>
+        <node concept="2qfAsZ" id="5yfUVbu1okZ" role="18tn1X">
+          <ref role="2rWCsu" node="60Hvi7rWx1g" resolve="energyS" />
+          <node concept="2WsqQC" id="5yfUVbu1ol0" role="2rWCss">
+            <property role="2WsqQF" value="energy-gain-from-grass" />
           </node>
-          <node concept="8StHo" id="7MNWMNBlapF" role="2GrruU">
-            <ref role="2JNnW9" node="5yfUVbtpZLs" resolve="soil" />
-          </node>
+        </node>
+        <node concept="8StHo" id="5yfUVbu1olf" role="18tn1X">
+          <ref role="2JNnW9" node="5yfUVbtpZLs" resolve="soil" />
         </node>
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <property role="8X5i2" value="Entity" />
@@ -334,17 +329,15 @@
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
         <ref role="24v3MU" node="qdXC$xz0Qv" resolve="sheep" />
-        <node concept="2lNc1y" id="7MNWMNBlapO" role="18tn1X">
-          <node concept="8shMO" id="7MNWMNBlapP" role="2GrruU">
-            <node concept="2lNc1w" id="7MNWMNBlapQ" role="8shtH">
-              <property role="8X5i2" value="target" />
-            </node>
+        <node concept="8shMO" id="5yfUVbu1olx" role="18tn1X">
+          <node concept="2lNc1w" id="5yfUVbu1oly" role="8shtH">
+            <property role="8X5i2" value="target" />
           </node>
-          <node concept="2qfAsZ" id="7MNWMNBlapR" role="2GrruU">
-            <ref role="2rWCsu" node="60Hvi7rEy$h" resolve="energyW" />
-            <node concept="2WsqQC" id="7MNWMNBlapS" role="2rWCss">
-              <property role="2WsqQF" value="energy-gain-from-sheep" />
-            </node>
+        </node>
+        <node concept="2qfAsZ" id="5yfUVbu1olN" role="18tn1X">
+          <ref role="2rWCsu" node="60Hvi7rEy$h" resolve="energyW" />
+          <node concept="2WsqQC" id="5yfUVbu1olO" role="2rWCss">
+            <property role="2WsqQF" value="energy-gain-from-sheep" />
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXlriR" role="18tn1Z">
@@ -729,27 +722,25 @@
       </node>
       <node concept="2lNc1x" id="3kYfzLXpecx" role="2GyEu2">
         <property role="TrG5h" value="Extinguish" />
-        <node concept="2lNc1y" id="3kYfzLXpecJ" role="18tn1X">
-          <node concept="2qfAsS" id="7MNWMNA_wzF" role="2GrruU">
-            <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
-            <node concept="2oK_Am" id="7MNWMNBiKRr" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
+        <node concept="2qfAsS" id="5yfUVbtXA6w" role="18tn1X">
+          <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
+          <node concept="2oK_Am" id="5yfUVbtXA6x" role="2rWCss">
+            <property role="2oK_Ap" value="1" />
           </node>
-          <node concept="2rRKAk" id="7MNWMNBA3mv" role="2GrruU">
-            <node concept="8StHo" id="7MNWMNBA3mQ" role="2rRKAh">
-              <ref role="2JNnW9" node="7MNWMNCnG1H" resolve="Ash" />
+        </node>
+        <node concept="2rRKAk" id="5yfUVbtXA6S" role="18tn1X">
+          <node concept="8StHo" id="5yfUVbtXA6T" role="2rRKAh">
+            <ref role="2JNnW9" node="7MNWMNCnG1H" resolve="Ash" />
+          </node>
+          <node concept="2HP6RB" id="5yfUVbtXA6U" role="2rRKAn">
+            <property role="2HPVKK" value="&lt;" />
+            <node concept="2HPRmR" id="5yfUVbtXA6V" role="2HP6R$">
+              <property role="2HPQs5" value="Attribute" />
+              <ref role="2HY6Bt" node="7MNWMNCnG0U" resolve="materials" />
             </node>
-            <node concept="2HP6RB" id="7MNWMNBA3mK" role="2rRKAn">
-              <property role="2HPVKK" value="&lt;" />
-              <node concept="2HPRmR" id="7MNWMNBA3mL" role="2HP6R$">
-                <property role="2HPQs5" value="Attribute" />
-                <ref role="2HY6Bt" node="7MNWMNCnG0U" resolve="materials" />
-              </node>
-              <node concept="2HPRmR" id="7MNWMNBA3mM" role="2HP6Ry">
-                <property role="2HPQs5" value="value" />
-                <property role="2DpkYb" value="0" />
-              </node>
+            <node concept="2HPRmR" id="5yfUVbtXA6W" role="2HP6Ry">
+              <property role="2HPQs5" value="value" />
+              <property role="2DpkYb" value="0" />
             </node>
           </node>
         </node>

@@ -2933,37 +2933,6 @@
       <node concept="2iRkQZ" id="5zjJPlga6Tu" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5zjJPlgalBx">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJA" resolve="REMOVE_CompoundAction" />
-    <node concept="3EZMnI" id="5EtG2rQW0Vd" role="2wV5jI">
-      <node concept="3EZMnI" id="5EtG2rQW0Ve" role="3EZMnx">
-        <node concept="3F2HdR" id="5EtG2rQW0Wb" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQW0us" resolve="actions" />
-          <node concept="2iRkQZ" id="5EtG2rQW0Wd" role="2czzBx" />
-          <node concept="pVoyu" id="3okqQmmyqQy" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="VPXOz" id="2gGtP_UHeND" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F0ifn" id="3okqQmmUpYr" role="2czzBI">
-            <property role="3F0ifm" value="Add new action press enter the control space to select type" />
-            <node concept="Vb9p2" id="2gGtP_UAem7" role="3F10Kt" />
-            <node concept="VechU" id="2gGtP_UAemc" role="3F10Kt">
-              <property role="Vb096" value="fLJRk5_/gray" />
-            </node>
-          </node>
-        </node>
-        <node concept="VPM3Z" id="5EtG2rQW0Vn" role="3F10Kt" />
-        <node concept="ljvvj" id="5EtG2rQW0Vo" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="2iRkQZ" id="5EtG2rQW0Vu" role="2iSdaV" />
-      </node>
-      <node concept="l2Vlx" id="5EtG2rQW0Vv" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="5zjJPlgalCy">
     <property role="3GE5qa" value="TODO_Scheduling" />
     <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="TODO_Procedure" />

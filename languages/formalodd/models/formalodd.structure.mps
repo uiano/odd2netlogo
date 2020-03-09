@@ -1087,20 +1087,6 @@
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
   </node>
-  <node concept="1TIwiD" id="6lHESjKCmJA">
-    <property role="EcuMT" value="7308686357753326566" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <property role="TrG5h" value="REMOVE_CompoundAction" />
-    <property role="R4oN_" value="multiple actions" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
-    <node concept="1TJgyj" id="5EtG2rQW0us" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716155258780" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="actions" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Action" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="6lHESjKDb9g">
     <property role="EcuMT" value="7308686357753541200" />
     <property role="3GE5qa" value="" />

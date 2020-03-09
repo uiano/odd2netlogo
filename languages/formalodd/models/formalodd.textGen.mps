@@ -4368,24 +4368,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="2EFWiW$xsYH">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="WuzLi" to="86kt:6lHESjKCmJA" resolve="REMOVE_CompoundAction" />
-    <node concept="11bSqf" id="2EFWiW$xsYI" role="11c4hB">
-      <node concept="3clFbS" id="2EFWiW$xsYJ" role="2VODD2">
-        <node concept="lc7rE" id="2EFWiW$xt3H" role="3cqZAp">
-          <node concept="l9S2W" id="2EFWiW$xt47" role="lcghm">
-            <node concept="2OqwBi" id="2EFWiW$xtaQ" role="lbANJ">
-              <node concept="117lpO" id="2EFWiW$xt4x" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="2EFWiW$xtjz" role="2OqNvi">
-                <ref role="3TtcxE" to="86kt:5EtG2rQW0us" resolve="actions" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="2EFWiW$xuth">
     <property role="3GE5qa" value="TODO_Scheduling" />
     <ref role="WuzLi" to="86kt:5zjJPlgcAgd" resolve="ChangeEnvironment" />
