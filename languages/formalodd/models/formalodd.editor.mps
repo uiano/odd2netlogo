@@ -1733,25 +1733,6 @@
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
-  <node concept="24kQdi" id="215d$P5kAtr">
-    <property role="3GE5qa" value="TODO_NotInUse.TODO_Entity" />
-    <ref role="1XX52x" to="86kt:215d$P5kAta" resolve="TODO_EntityReference" />
-    <node concept="3EZMnI" id="6JKNFtZQWwB" role="2wV5jI">
-      <node concept="2iRfu4" id="6JKNFtZQWwC" role="2iSdaV" />
-      <node concept="3F0ifn" id="6JKNFtZQWwQ" role="3EZMnx">
-        <property role="3F0ifm" value="entity" />
-      </node>
-      <node concept="1iCGBv" id="6JKNFtZO$lj" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:2gGtP_Va5Ra" resolve="entity" />
-        <node concept="1sVBvm" id="6JKNFtZO$ll" role="1sWHZn">
-          <node concept="3F0A7n" id="6JKNFtZO$ls" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="aIqcXnugdh">
     <property role="3GE5qa" value="TODO_NotInUse" />
     <ref role="1XX52x" to="86kt:5JxfqxAuXCc" resolve="TODO_Names" />
@@ -2836,70 +2817,18 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlg9BSQ">
-    <property role="3GE5qa" value="TODO_Scheduling" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJ$" resolve="TODO_Who" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJ$" resolve="EntityReference" />
     <node concept="3EZMnI" id="5zjJPlg9BSS" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlg9BTd" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlg9BTf" role="3F10Kt" />
-        <node concept="3F0A7n" id="5zjJPlga2RS" role="3EZMnx">
-          <property role="1$x2rV" value="press alt enter to select type of object" />
-          <ref role="1NtTu8" to="86kt:5zjJPlg9YJn" resolve="option" />
-        </node>
         <node concept="1iCGBv" id="5zjJPlgagwx" role="3EZMnx">
           <property role="1$x2rV" value="control space to select entity" />
-          <ref role="1NtTu8" to="86kt:5zjJPlga3JE" resolve="entity" />
+          <ref role="1NtTu8" to="86kt:5zjJPlga3JE" resolve="generalEntity" />
           <node concept="1sVBvm" id="5zjJPlgagwy" role="1sWHZn">
             <node concept="3F0A7n" id="5zjJPlgagwz" role="2wV5jI">
               <property role="1Intyy" value="true" />
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-          <node concept="pkWqt" id="5zjJPlgagw$" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgagw_" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgagwA" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgagwB" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgagwD" role="2Oq$k0">
-                    <node concept="pncrf" id="5zjJPlgagwE" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="5zjJPlgaiRz" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlg9YJn" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgagwH" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgagwI" role="3y1jev">
-                      <property role="Xl_RC" value="Entity" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="1iCGBv" id="5zjJPlgagwJ" role="3EZMnx">
-          <property role="1$x2rV" value="control space to select enviroment" />
-          <ref role="1NtTu8" to="86kt:5zjJPlga3JH" resolve="environment" />
-          <node concept="1sVBvm" id="5zjJPlgagwK" role="1sWHZn">
-            <node concept="3F0A7n" id="5zjJPlgagwL" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-          <node concept="pkWqt" id="5zjJPlgagwM" role="pqm2j">
-            <node concept="3clFbS" id="5zjJPlgagwN" role="2VODD2">
-              <node concept="3clFbF" id="5zjJPlgagwO" role="3cqZAp">
-                <node concept="2OqwBi" id="5zjJPlgagwP" role="3clFbG">
-                  <node concept="2OqwBi" id="5zjJPlgagwQ" role="2Oq$k0">
-                    <node concept="pncrf" id="5zjJPlgagwS" role="2Oq$k0" />
-                    <node concept="3TrcHB" id="5zjJPlgal16" role="2OqNvi">
-                      <ref role="3TsBF5" to="86kt:5zjJPlg9YJn" resolve="option" />
-                    </node>
-                  </node>
-                  <node concept="3y1jeu" id="5zjJPlgagwV" role="2OqNvi">
-                    <node concept="Xl_RD" id="5zjJPlgagwW" role="3y1jev">
-                      <property role="Xl_RC" value="Environment" />
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -2951,7 +2880,7 @@
         </node>
         <node concept="3F2HdR" id="2EFWiW_elP0" role="3EZMnx">
           <property role="2czwfO" value="," />
-          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actors" />
           <node concept="2iRfu4" id="2EFWiW_elP2" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_U3hZy" role="2czzBI">
             <property role="3F0ifm" value="press enter to add a new object" />
@@ -3294,8 +3223,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="5zjJPlgCEwu">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="TODO_KillEntity" />
+    <property role="3GE5qa" value="Actions" />
+    <ref role="1XX52x" to="86kt:5zjJPlgCEfx" resolve="KillEntity" />
     <node concept="3EZMnI" id="5zjJPlgCEww" role="2wV5jI">
       <node concept="2iRkQZ" id="5zjJPlgCEwz" role="2iSdaV" />
       <node concept="3EZMnI" id="5zjJPlgCEwZ" role="3EZMnx">
@@ -3304,9 +3233,8 @@
         <node concept="3F0ifn" id="5zjJPlgCEx8" role="3EZMnx">
           <property role="3F0ifm" value="Kill entity" />
         </node>
-        <node concept="3F1sOY" id="5zjJPlgCExv" role="3EZMnx">
-          <property role="1$x2rV" value="press enter" />
-          <ref role="1NtTu8" to="86kt:5zjJPlgCEwS" resolve="who" />
+        <node concept="3F0A7n" id="5yfUVburW9M" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5yfUVburW7V" resolve="killWho" />
         </node>
       </node>
     </node>
@@ -4097,7 +4025,7 @@
           <node concept="Vb9p2" id="qdXC$xsGJm" role="3F10Kt" />
         </node>
         <node concept="3F2HdR" id="qdXC$xsGJ9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
+          <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actors" />
           <node concept="2iRfu4" id="qdXC$xsGJa" role="2czzBx" />
         </node>
       </node>
@@ -5550,6 +5478,25 @@
       </node>
       <node concept="3F0A7n" id="7MNWMNCXZAN" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7MNWMNCXZ_D" resolve="startValue" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="215d$P5kAtr">
+    <property role="3GE5qa" value="TODO_NotInUse.TODO_Entity" />
+    <ref role="1XX52x" to="86kt:215d$P5kAta" resolve="TODO_EntityReference" />
+    <node concept="3EZMnI" id="6JKNFtZQWwB" role="2wV5jI">
+      <node concept="2iRfu4" id="6JKNFtZQWwC" role="2iSdaV" />
+      <node concept="3F0ifn" id="6JKNFtZQWwQ" role="3EZMnx">
+        <property role="3F0ifm" value="entity" />
+      </node>
+      <node concept="1iCGBv" id="6JKNFtZO$lj" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:2gGtP_Va5Ra" resolve="entity" />
+        <node concept="1sVBvm" id="6JKNFtZO$ll" role="1sWHZn">
+          <node concept="3F0A7n" id="6JKNFtZO$ls" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

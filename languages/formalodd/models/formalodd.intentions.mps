@@ -1158,62 +1158,6 @@
       <node concept="17QB3L" id="5zjJPlgc2Bc" role="3ddBve" />
     </node>
   </node>
-  <node concept="3dkpOd" id="5zjJPlg9L4o">
-    <property role="3GE5qa" value="TODO_Scheduling" />
-    <property role="TrG5h" value="WhoSelector" />
-    <ref role="2ZfgGC" to="86kt:6lHESjKCmJ$" resolve="TODO_Who" />
-    <node concept="2S6ZIM" id="5zjJPlg9L4p" role="2ZfVej">
-      <node concept="3clFbS" id="5zjJPlg9L4q" role="2VODD2">
-        <node concept="3clFbF" id="2EFWiW_bnWq" role="3cqZAp">
-          <node concept="38Zlrr" id="2EFWiW_bnWo" role="3clFbG" />
-        </node>
-        <node concept="3clFbH" id="5EtG2rP2YmQ" role="3cqZAp" />
-        <node concept="3clFbH" id="5zjJPlg9Q7N" role="3cqZAp" />
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="5zjJPlg9L4r" role="2ZfgGD">
-      <node concept="3clFbS" id="5zjJPlg9L4s" role="2VODD2">
-        <node concept="3clFbF" id="5zjJPlg9ZiK" role="3cqZAp">
-          <node concept="37vLTI" id="5zjJPlga0l5" role="3clFbG">
-            <node concept="38Zlrr" id="5zjJPlga0yr" role="37vLTx" />
-            <node concept="2OqwBi" id="5zjJPlg9Zq$" role="37vLTJ">
-              <node concept="2Sf5sV" id="5zjJPlg9ZiJ" role="2Oq$k0" />
-              <node concept="3TrcHB" id="5zjJPlg9ZzG" role="2OqNvi">
-                <ref role="3TsBF5" to="86kt:5zjJPlg9YJn" resolve="option" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="38BcoT" id="5zjJPlg9Ldk" role="3dlsAV">
-      <node concept="3clFbS" id="5zjJPlg9Ldl" role="2VODD2">
-        <node concept="3clFbF" id="5zjJPlg9LND" role="3cqZAp">
-          <node concept="2ShNRf" id="5zjJPlg9LNE" role="3clFbG">
-            <node concept="Tc6Ow" id="5zjJPlg9LNF" role="2ShVmc">
-              <node concept="17QB3L" id="5zjJPlg9LNG" role="HW$YZ" />
-              <node concept="Xl_RD" id="5zjJPlg9LNH" role="HW$Y0">
-                <property role="Xl_RC" value="Entity" />
-              </node>
-              <node concept="Xl_RD" id="5zjJPlg9LNI" role="HW$Y0">
-                <property role="Xl_RC" value="Environment" />
-              </node>
-              <node concept="Xl_RD" id="5EtG2rP2Zg0" role="HW$Y0">
-                <property role="Xl_RC" value="All" />
-              </node>
-              <node concept="Xl_RD" id="2EFWiW_blkR" role="HW$Y0">
-                <property role="Xl_RC" value="target" />
-              </node>
-              <node concept="Xl_RD" id="2EFWiW_bqpA" role="HW$Y0">
-                <property role="Xl_RC" value="me" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="17QB3L" id="5zjJPlg9LoN" role="3ddBve" />
-    </node>
-  </node>
   <node concept="3dkpOd" id="6JKNFu0hGqo">
     <property role="TrG5h" value="conditions" />
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling" />
