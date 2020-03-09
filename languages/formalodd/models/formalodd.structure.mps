@@ -1024,7 +1024,7 @@
   <node concept="1TIwiD" id="6lHESjKCmJ_">
     <property role="EcuMT" value="7308686357753326565" />
     <property role="3GE5qa" value="TODO_Scheduling" />
-    <property role="TrG5h" value="TODO_Procedure" />
+    <property role="TrG5h" value="Procedure" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3kYfzLXiOT3" role="1TKVEi">
       <property role="IQ2ns" value="3836572362087288387" />
@@ -1070,7 +1070,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="procedures" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="TODO_Procedure" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9j">
@@ -1086,7 +1086,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="procedures" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="TODO_Procedure" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9m">
@@ -1655,14 +1655,15 @@
   </node>
   <node concept="1TIwiD" id="1zaawdwHRIC">
     <property role="EcuMT" value="1786286396201728936" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <property role="TrG5h" value="TODO_LinkAction" />
-    <property role="R4oN_" value="links to a procedure" />
+    <property role="3GE5qa" value="Actions" />
+    <property role="TrG5h" value="CallAction" />
+    <property role="R4oN_" value="calls a procedure or interaction" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="1zaawdwHRIF" role="1TKVEi">
       <property role="IQ2ns" value="1786286396201728939" />
-      <property role="20kJfa" value="link" />
-      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="TODO_Procedure" />
+      <property role="20kJfa" value="called" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Procedure" />
     </node>
   </node>
   <node concept="1TIwiD" id="4MYWhBhM02l">
@@ -1689,7 +1690,7 @@
     <property role="EcuMT" value="472304604775893902" />
     <property role="3GE5qa" value="TODO_Scheduling" />
     <property role="TrG5h" value="Interaction" />
-    <ref role="1TJDcQ" node="6lHESjKCmJ_" resolve="TODO_Procedure" />
+    <ref role="1TJDcQ" node="6lHESjKCmJ_" resolve="Procedure" />
     <node concept="1TJgyj" id="5yfUVbsWXs8" role="1TKVEi">
       <property role="IQ2ns" value="6381578350450956040" />
       <property role="20kJfa" value="partner" />

@@ -4809,7 +4809,7 @@
   </node>
   <node concept="WtQ9Q" id="2EFWiW$WpxU">
     <property role="3GE5qa" value="TODO_Scheduling" />
-    <ref role="WuzLi" to="86kt:6lHESjKCmJ_" resolve="TODO_Procedure" />
+    <ref role="WuzLi" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
     <node concept="11bSqf" id="2EFWiW$WpxV" role="11c4hB">
       <node concept="3clFbS" id="2EFWiW$WpxW" role="2VODD2">
         <node concept="3cpWs8" id="7MNWMNBT7PG" role="3cqZAp">
@@ -5902,8 +5902,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1zaawdwHRJ3">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="WuzLi" to="86kt:1zaawdwHRIC" resolve="TODO_LinkAction" />
+    <property role="3GE5qa" value="Actions" />
+    <ref role="WuzLi" to="86kt:1zaawdwHRIC" resolve="CallAction" />
     <node concept="11bSqf" id="1zaawdwHRJ4" role="11c4hB">
       <node concept="3clFbS" id="1zaawdwHRJ5" role="2VODD2">
         <node concept="lc7rE" id="1zaawdwHRJo" role="3cqZAp">
@@ -5912,7 +5912,7 @@
               <node concept="2OqwBi" id="1zaawdwHRSl" role="2Oq$k0">
                 <node concept="117lpO" id="1zaawdwHRKA" role="2Oq$k0" />
                 <node concept="3TrEf2" id="1zaawdwHS01" role="2OqNvi">
-                  <ref role="3Tt5mk" to="86kt:1zaawdwHRIF" resolve="link" />
+                  <ref role="3Tt5mk" to="86kt:1zaawdwHRIF" resolve="called" />
                 </node>
               </node>
               <node concept="3TrcHB" id="1zaawdwHSzH" role="2OqNvi">

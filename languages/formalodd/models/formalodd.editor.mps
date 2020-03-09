@@ -2864,7 +2864,7 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgalCy">
     <property role="3GE5qa" value="TODO_Scheduling" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="TODO_Procedure" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
     <node concept="3EZMnI" id="5zjJPlgalC$" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgalCT" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgalCV" role="3F10Kt" />
@@ -3944,8 +3944,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdwHRIP">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <ref role="1XX52x" to="86kt:1zaawdwHRIC" resolve="TODO_LinkAction" />
+    <property role="3GE5qa" value="Actions" />
+    <ref role="1XX52x" to="86kt:1zaawdwHRIC" resolve="CallAction" />
     <node concept="3EZMnI" id="qdXC$ygXRO" role="2wV5jI">
       <node concept="2iRkQZ" id="qdXC$ygXRP" role="2iSdaV" />
       <node concept="3EZMnI" id="1zaawdwPXVZ" role="3EZMnx">
@@ -3956,7 +3956,7 @@
         </node>
         <node concept="1iCGBv" id="1zaawdwHRIR" role="3EZMnx">
           <property role="1$x2rV" value="press control space to select procedure" />
-          <ref role="1NtTu8" to="86kt:1zaawdwHRIF" resolve="link" />
+          <ref role="1NtTu8" to="86kt:1zaawdwHRIF" resolve="called" />
           <node concept="1sVBvm" id="1zaawdwHRIT" role="1sWHZn">
             <node concept="3F0A7n" id="1zaawdwHRJ0" role="2wV5jI">
               <property role="1Intyy" value="true" />
