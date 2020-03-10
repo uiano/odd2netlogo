@@ -13,6 +13,17 @@
         <property id="3961341278980372825" name="minAmount" index="21jJIY" />
         <property id="8766909380355172217" name="startValue" index="2rHBro" />
       </concept>
+      <concept id="6381578350481727270" name="formalodd.structure.Comparison" flags="ng" index="26hFik">
+        <property id="6381578350481727271" name="operator" index="26hFil" />
+        <child id="6381578350481727275" name="right" index="26hFip" />
+        <child id="6381578350481727273" name="left" index="26hFir" />
+      </concept>
+      <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
+        <reference id="6381578350482865937" name="attribute" index="26lliz" />
+      </concept>
+      <concept id="6381578350486769563" name="formalodd.structure.ThisEnvironment" flags="ng" index="27AqgD">
+        <property id="6381578350486769564" name="color" index="27AqgI" />
+      </concept>
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
         <property id="6381578350475854331" name="killWho" index="26S2D9" />
       </concept>
@@ -49,7 +60,7 @@
       <concept id="7308686357753326564" name="formalodd.structure.EntityReference" flags="ng" index="2lNc1w">
         <reference id="6400669868561546218" name="generalEntity" index="8YSiZ" />
       </concept>
-      <concept id="7308686357753326565" name="formalodd.structure.TODO_Procedure" flags="ng" index="2lNc1x">
+      <concept id="7308686357753326565" name="formalodd.structure.Procedure" flags="ng" index="2lNc1x">
         <child id="8985793055722216161" name="condition" index="2rNmBd" />
         <child id="3836572362087288385" name="actions" index="18tn1X" />
         <child id="3836572362087288387" name="actors" index="18tn1Z" />
@@ -79,18 +90,8 @@
         <property id="8247773779785854959" name="AmuntOfSpawns" index="2DBPly" />
         <child id="4851181497927696060" name="updateValue" index="3BJUly" />
       </concept>
-      <concept id="6529568716161146305" name="formalodd.structure.TODO_ifcondition" flags="ng" index="2HP6RB">
-        <property id="6529568716161158166" name="option" index="2HPVKK" />
-        <child id="6529568716161146308" name="who2" index="2HP6Ry" />
-        <child id="6529568716161146306" name="who" index="2HP6R$" />
-      </concept>
-      <concept id="6529568716161205649" name="formalodd.structure.TODO_Who2" flags="ng" index="2HPRmR">
-        <property id="8247773779771569414" name="value" index="2DpkYb" />
-        <property id="6529568716161210147" name="option" index="2HPQs5" />
-        <reference id="6529568716162980347" name="attribute" index="2HY6Bt" />
-      </concept>
       <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
-      <concept id="6930332985972268294" name="formalodd.structure.TODO_BooleanConstant" flags="ng" index="2W8u0B" />
+      <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B" />
       <concept id="6930332985977524361" name="formalodd.structure.REMOVE_NetlogoExpression" flags="ng" index="2WsqQC">
         <property id="6930332985977524362" name="expression" index="2WsqQF" />
       </concept>
@@ -202,8 +203,8 @@
       <concept id="2325324488108205419" name="formalodd.structure.TODO_SelectingType" flags="ng" index="1_stcA">
         <property id="2325324488108205420" name="Who" index="1_stcx" />
       </concept>
-      <concept id="1786286396201728936" name="formalodd.structure.TODO_LinkAction" flags="ng" index="1Svl6F">
-        <reference id="1786286396201728939" name="link" index="1Svl6C" />
+      <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
+        <reference id="1786286396201728939" name="called" index="1Svl6C" />
       </concept>
       <concept id="1786286396201721621" name="formalodd.structure.TODO_OccupiedSpot" flags="ng" index="1Svnkm" />
       <concept id="1786286396190304350" name="formalodd.structure.NeighbourEnvironment" flags="ng" index="1SKK9t">
@@ -351,15 +352,13 @@
         <node concept="2lNc1w" id="3kYfzLXlrqV" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
         </node>
-        <node concept="2HP6RB" id="7MNWMNBA3p2" role="2rNmBd">
-          <property role="2HPVKK" value="&lt;" />
-          <node concept="2HPRmR" id="7MNWMNBA3p3" role="2HP6R$">
-            <property role="2HPQs5" value="Attribute" />
-            <ref role="2HY6Bt" node="60Hvi7rEy$h" resolve="energyW" />
+        <node concept="26hFik" id="5yfUVbviHkP" role="2rNmBd">
+          <property role="26hFil" value="5yfUVbuMlWg/lt" />
+          <node concept="26lliW" id="5yfUVbviHkV" role="26hFir">
+            <ref role="26lliz" node="60Hvi7rEy$h" resolve="energyW" />
           </node>
-          <node concept="2HPRmR" id="7MNWMNBA3p4" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="0" />
+          <node concept="2oK_Am" id="5yfUVbviHkY" role="26hFip">
+            <property role="2oK_Ap" value="0" />
           </node>
         </node>
       </node>
@@ -380,15 +379,13 @@
         <node concept="2lNc1w" id="3kYfzLXlrtK" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
         </node>
-        <node concept="2HP6RB" id="7MNWMNBA3p8" role="2rNmBd">
-          <property role="2HPVKK" value="&gt;" />
-          <node concept="2HPRmR" id="7MNWMNBA3p9" role="2HP6R$">
-            <property role="2HPQs5" value="Attribute" />
-            <ref role="2HY6Bt" node="60Hvi7rEy$h" resolve="energyW" />
+        <node concept="26hFik" id="5yfUVbviHl1" role="2rNmBd">
+          <property role="26hFil" value="5yfUVbuMlWp/gt" />
+          <node concept="26lliW" id="5yfUVbviHla" role="26hFir">
+            <ref role="26lliz" node="60Hvi7rEy$h" resolve="energyW" />
           </node>
-          <node concept="2HPRmR" id="7MNWMNBA3pa" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="200" />
+          <node concept="2oK_Am" id="5yfUVbviHl7" role="26hFip">
+            <property role="2oK_Ap" value="200" />
           </node>
         </node>
       </node>
@@ -406,32 +403,23 @@
         <node concept="2lNc1w" id="3kYfzLXlrGb" role="18tn1Z">
           <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
         </node>
-        <node concept="2HP6RB" id="7MNWMNBA3pe" role="2rNmBd">
-          <property role="2HPVKK" value="=" />
-          <node concept="2HPRmR" id="7MNWMNBA3pf" role="2HP6R$">
-            <property role="2HPQs5" value="Color" />
-          </node>
-          <node concept="2HPRmR" id="7MNWMNBA3pg" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="brown" />
-          </node>
+        <node concept="27AqgD" id="5yfUVbviHld" role="2rNmBd">
+          <property role="27AqgI" value="22rmwLH$XoV/brown" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrv$" role="2GyEu2">
         <property role="TrG5h" value="regrowth" />
-        <node concept="2rRKAk" id="7MNWMNBA3uu" role="18tn1X">
-          <node concept="8StHo" id="7MNWMNBA3uS" role="2rRKAh">
+        <node concept="2rRKAk" id="5yfUVbviHls" role="18tn1X">
+          <node concept="8StHo" id="5yfUVbviHlt" role="2rRKAh">
             <ref role="2JNnW9" node="1LeTgidqm5Z" resolve="grass" />
           </node>
-          <node concept="2HP6RB" id="7MNWMNBA3uM" role="2rRKAn">
-            <property role="2HPVKK" value="&gt;" />
-            <node concept="2HPRmR" id="7MNWMNBA3uN" role="2HP6R$">
-              <property role="2HPQs5" value="Attribute" />
-              <ref role="2HY6Bt" node="1LeTgidqm69" resolve="grass-growth" />
+          <node concept="26hFik" id="5yfUVbviHlN" role="2rRKAn">
+            <property role="26hFil" value="5yfUVbuMlWp/gt" />
+            <node concept="26lliW" id="5yfUVbviHlZ" role="26hFir">
+              <ref role="26lliz" node="1LeTgidqm69" resolve="grass-growth" />
             </node>
-            <node concept="2HPRmR" id="7MNWMNBA3uO" role="2HP6Ry">
-              <property role="2HPQs5" value="value" />
-              <property role="2DpkYb" value="grass-regrowth-delay" />
+            <node concept="26lliW" id="5yfUVbviHlW" role="26hFip">
+              <ref role="26lliz" node="5Dmxhgox7s2" resolve="grass-regrowth-delay" />
             </node>
           </node>
         </node>
@@ -442,30 +430,21 @@
               <property role="2oK_Ap" value="1" />
             </node>
           </node>
-          <node concept="2HP6RB" id="7MNWMNBA3w2" role="2rRKAn">
-            <property role="2HPVKK" value="&lt;=" />
-            <node concept="2HPRmR" id="7MNWMNBA3w3" role="2HP6R$">
-              <property role="2HPQs5" value="Attribute" />
-              <ref role="2HY6Bt" node="1LeTgidqm69" resolve="grass-growth" />
+          <node concept="26hFik" id="5yfUVbviHmf" role="2rRKAn">
+            <property role="26hFil" value="5yfUVbuMlWk/le" />
+            <node concept="26lliW" id="5yfUVbviHmr" role="26hFir">
+              <ref role="26lliz" node="1LeTgidqm69" resolve="grass-growth" />
             </node>
-            <node concept="2HPRmR" id="7MNWMNBA3w4" role="2HP6Ry">
-              <property role="2HPQs5" value="value" />
-              <property role="2DpkYb" value="grass-regrowth-delay" />
+            <node concept="26lliW" id="5yfUVbviHmo" role="26hFip">
+              <ref role="26lliz" node="5Dmxhgox7s2" resolve="grass-regrowth-delay" />
             </node>
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXlrwT" role="18tn1Z">
           <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
         </node>
-        <node concept="2HP6RB" id="7MNWMNBA3sq" role="2rNmBd">
-          <property role="2HPVKK" value="=" />
-          <node concept="2HPRmR" id="7MNWMNBA3sr" role="2HP6R$">
-            <property role="2HPQs5" value="Color" />
-          </node>
-          <node concept="2HPRmR" id="7MNWMNBA3ss" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="brown" />
-          </node>
+        <node concept="27AqgD" id="5yfUVbviHmu" role="2rNmBd">
+          <property role="27AqgI" value="22rmwLH$XoV/brown" />
         </node>
       </node>
       <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt">
@@ -712,31 +691,23 @@
             <property role="2oK_Ap" value="1" />
           </node>
         </node>
-        <node concept="2rRKAk" id="5yfUVbtXA6S" role="18tn1X">
-          <node concept="8StHo" id="5yfUVbtXA6T" role="2rRKAh">
+        <node concept="2rRKAk" id="5yfUVbuOOOZ" role="18tn1X">
+          <node concept="8StHo" id="5yfUVbuOOP0" role="2rRKAh">
             <ref role="2JNnW9" node="7MNWMNCnG1H" resolve="Ash" />
           </node>
-          <node concept="2HP6RB" id="5yfUVbtXA6U" role="2rRKAn">
-            <property role="2HPVKK" value="&lt;" />
-            <node concept="2HPRmR" id="5yfUVbtXA6V" role="2HP6R$">
-              <property role="2HPQs5" value="Attribute" />
-              <ref role="2HY6Bt" node="7MNWMNCnG0U" resolve="materials" />
+          <node concept="26hFik" id="5yfUVbuQFW2" role="2rRKAn">
+            <property role="26hFil" value="5yfUVbuMlWg/lt" />
+            <node concept="26lliW" id="5yfUVbuSxxG" role="26hFir">
+              <ref role="26lliz" node="7MNWMNCnG0U" resolve="materials" />
             </node>
-            <node concept="2HPRmR" id="5yfUVbtXA6W" role="2HP6Ry">
-              <property role="2HPQs5" value="value" />
-              <property role="2DpkYb" value="0" />
+            <node concept="2oK_Am" id="5yfUVbuQFWb" role="26hFip">
+              <property role="2oK_Ap" value="0" />
             </node>
           </node>
         </node>
-        <node concept="2HP6RB" id="7MNWMNB$2tv" role="2rNmBd">
-          <property role="2HPVKK" value="=" />
-          <node concept="2HPRmR" id="7MNWMNB$2tw" role="2HP6R$">
-            <property role="2HPQs5" value="Color" />
-          </node>
-          <node concept="2HPRmR" id="7MNWMNB$2tx" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="red" />
-          </node>
+        <node concept="2lNc1w" id="5yfUVbv3IvC" role="18tn1Z" />
+        <node concept="27AqgD" id="5yfUVbv7tcx" role="2rNmBd">
+          <property role="27AqgI" value="22rmwLH$Xl$/red" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXpedi" role="2GyEu2">
@@ -747,15 +718,8 @@
         <node concept="1Svl6F" id="7MNWMNBA3nY" role="18tn1X">
           <ref role="1Svl6C" node="3kYfzLXpedU" resolve="ToDoList" />
         </node>
-        <node concept="2HP6RB" id="7MNWMNBA3nL" role="2rNmBd">
-          <property role="2HPVKK" value="=" />
-          <node concept="2HPRmR" id="7MNWMNBA3nM" role="2HP6R$">
-            <property role="2HPQs5" value="Color" />
-          </node>
-          <node concept="2HPRmR" id="7MNWMNBA3nN" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="red" />
-          </node>
+        <node concept="27AqgD" id="5yfUVbveXnQ" role="2rNmBd">
+          <property role="27AqgI" value="22rmwLH$Xl$/red" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXpedU" role="2GyEu2">
@@ -927,16 +891,12 @@
         <node concept="2lNc1w" id="3kYfzLXmc$K" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-group" />
         </node>
-        <node concept="2HP6RB" id="7MNWMNBA3oW" role="2rNmBd">
-          <property role="2HPVKK" value="=" />
-          <node concept="2HPRmR" id="7MNWMNBA3oX" role="2HP6R$">
-            <property role="2HPQs5" value="Attribute" />
-            <ref role="2HY6Bt" node="60Hvi7s6oq6" resolve="happy" />
+        <node concept="26hFik" id="5yfUVbveXnS" role="2rNmBd">
+          <property role="26hFil" value="24yfUKsyf$I/eq" />
+          <node concept="26lliW" id="5yfUVbveXo1" role="26hFir">
+            <ref role="26lliz" node="60Hvi7s6oq6" resolve="happy" />
           </node>
-          <node concept="2HPRmR" id="7MNWMNBA3oY" role="2HP6Ry">
-            <property role="2HPQs5" value="value" />
-            <property role="2DpkYb" value="false" />
-          </node>
+          <node concept="2W8u0B" id="5yfUVbveXnY" role="26hFip" />
         </node>
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
