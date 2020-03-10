@@ -21,8 +21,8 @@
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
       </concept>
-      <concept id="6381578350486769563" name="formalodd.structure.ThisEnvironment" flags="ng" index="27AqgD">
-        <property id="6381578350486769564" name="color" index="27AqgI" />
+      <concept id="6381578350486769563" name="formalodd.structure.CurrentEnvironment" flags="ng" index="27AqgD">
+        <property id="6381578350486769564" name="colour" index="27AqgI" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
         <property id="6381578350475854331" name="killWho" index="26S2D9" />
@@ -79,9 +79,6 @@
         <child id="8985793055718208560" name="expression" index="2rWCss" />
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
-      <concept id="2650478873095413229" name="formalodd.structure.TODO_CurrentEnviroment" flags="ng" index="BjZAj">
-        <property id="2650478873095418597" name="color" index="BjXqr" />
-      </concept>
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <reference id="6381578350450956040" name="partner" index="24v3MU" />
         <child id="1786286396180405745" name="partnerCondition" index="17I3vM" />
@@ -318,8 +315,8 @@
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="BjZAj" id="3kYfzLXlqJ$" role="17I3vM">
-          <property role="BjXqr" value="22rmwLH$XpM/green" />
+        <node concept="27AqgD" id="5yfUVbvmKT0" role="17I3vM">
+          <property role="27AqgI" value="22rmwLH$XpM/green" />
         </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">

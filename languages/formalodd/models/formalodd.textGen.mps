@@ -4995,7 +4995,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="2EFWiW_aoLj">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
     <ref role="WuzLi" to="86kt:2EFWiW_aoJz" resolve="TODO_Collides" />
     <node concept="11bSqf" id="2EFWiW_aoLk" role="11c4hB">
       <node concept="3clFbS" id="2EFWiW_aoLl" role="2VODD2">
@@ -5683,49 +5683,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="2j8p7S3xVbG">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <ref role="WuzLi" to="86kt:2j8p7S3xTRH" resolve="TODO_CurrentEnviroment" />
-    <node concept="11bSqf" id="2j8p7S3xVbH" role="11c4hB">
-      <node concept="3clFbS" id="2j8p7S3xVbI" role="2VODD2">
-        <node concept="lc7rE" id="3YZJ$rO5a5Z" role="3cqZAp">
-          <node concept="la8eA" id="3YZJ$rO5a60" role="lcghm">
-            <property role="lacIc" value="    " />
-          </node>
-          <node concept="la8eA" id="3YZJ$rO5a63" role="lcghm">
-            <property role="lacIc" value="if pcolor = " />
-          </node>
-          <node concept="l9hG8" id="3YZJ$rO5a64" role="lcghm">
-            <node concept="2OqwBi" id="5vgYlnqddAG" role="lb14g">
-              <node concept="24Tkf9" id="5vgYlnqddAI" role="2OqNvi" />
-              <node concept="2OqwBi" id="3YZJ$rO5a65" role="2Oq$k0">
-                <node concept="117lpO" id="3YZJ$rO5a66" role="2Oq$k0" />
-                <node concept="3TrcHB" id="3YZJ$rO5a67" role="2OqNvi">
-                  <ref role="3TsBF5" to="86kt:5vgYlnqdd_7" resolve="color" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="l8MVK" id="3YZJ$rO5a69" role="lcghm" />
-        </node>
-        <node concept="3clFbH" id="1zaawdvJXZf" role="3cqZAp" />
-        <node concept="Jncv_" id="1zaawdvJZbz" role="3cqZAp">
-          <ref role="JncvD" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
-          <node concept="2OqwBi" id="1zaawdvWcQ4" role="JncvB">
-            <node concept="117lpO" id="1zaawdvJZit" role="2Oq$k0" />
-            <node concept="1mfA1w" id="1zaawdvWdg7" role="2OqNvi" />
-          </node>
-          <node concept="3clFbS" id="1zaawdvJZbB" role="Jncv$">
-            <node concept="3cpWs6" id="1zaawdvJZ_r" role="3cqZAp" />
-          </node>
-          <node concept="JncvC" id="1zaawdvJZbD" role="JncvA">
-            <property role="TrG5h" value="condition" />
-            <node concept="2jxLKc" id="1zaawdvJZbE" role="1tU5fm" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="1zaawdvhWZJ">
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
     <ref role="WuzLi" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
@@ -5817,7 +5774,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1zaawdw3aep">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
     <ref role="WuzLi" to="86kt:1zaawdw2ixu" resolve="NeighbourEnvironment" />
     <node concept="11bSqf" id="1zaawdw3aeq" role="11c4hB">
       <node concept="3clFbS" id="1zaawdw3aer" role="2VODD2">
@@ -5889,7 +5846,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1zaawdwHPXn">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
     <ref role="WuzLi" to="86kt:1zaawdwHPWl" resolve="TODO_OccupiedSpot" />
     <node concept="11bSqf" id="1zaawdwHPXo" role="11c4hB">
       <node concept="3clFbS" id="1zaawdwHPXp" role="2VODD2">
@@ -7709,8 +7666,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5yfUVbv9l9U">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <ref role="WuzLi" to="86kt:5yfUVbv5$Yr" resolve="ThisEnvironment" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <ref role="WuzLi" to="86kt:5yfUVbv5$Yr" resolve="CurrentEnvironment" />
     <node concept="11bSqf" id="5yfUVbv9l9V" role="11c4hB">
       <node concept="3clFbS" id="5yfUVbv9l9W" role="2VODD2">
         <node concept="lc7rE" id="5yfUVbv9laf" role="3cqZAp">
@@ -7726,7 +7683,7 @@
               <node concept="2OqwBi" id="5yfUVbv9lan" role="2Oq$k0">
                 <node concept="117lpO" id="5yfUVbv9lao" role="2Oq$k0" />
                 <node concept="3TrcHB" id="5yfUVbv9lap" role="2OqNvi">
-                  <ref role="3TsBF5" to="86kt:5yfUVbv5$Ys" resolve="color" />
+                  <ref role="3TsBF5" to="86kt:5yfUVbv5$Ys" resolve="colour" />
                 </node>
               </node>
             </node>

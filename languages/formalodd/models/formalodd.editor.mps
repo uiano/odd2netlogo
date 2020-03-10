@@ -94,7 +94,6 @@
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
-      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1240253180846" name="jetbrains.mps.lang.editor.structure.IndentLayoutNoWrapClassItem" flags="ln" index="34QqEe" />
       <concept id="3360401466585705291" name="jetbrains.mps.lang.editor.structure.CellModel_ContextAssistant" flags="ng" index="18a60v" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
@@ -3769,7 +3768,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2EFWiW_aoJO">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
     <ref role="1XX52x" to="86kt:2EFWiW_aoJz" resolve="TODO_Collides" />
     <node concept="3EZMnI" id="1zaawdvuX6n" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdvuX6o" role="2iSdaV" />
@@ -3835,23 +3834,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="2j8p7S3xVbl">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <ref role="1XX52x" to="86kt:2j8p7S3xTRH" resolve="TODO_CurrentEnviroment" />
-    <node concept="3EZMnI" id="1zaawdw2iwc" role="2wV5jI">
-      <node concept="3EZMnI" id="1zaawdw2iwj" role="3EZMnx">
-        <node concept="2iRfu4" id="1zaawdw2iwk" role="2iSdaV" />
-        <node concept="3F0ifn" id="1zaawdw2iwl" role="3EZMnx">
-          <property role="3F0ifm" value="is that the color of current enviroment is " />
-          <node concept="Vb9p2" id="1zaawdw2iwm" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="1zaawdw2iwn" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5vgYlnqdd_7" resolve="color" />
-        </node>
-      </node>
-      <node concept="2iRkQZ" id="1zaawdw2iwf" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="1zaawdvhWYd">
     <property role="3GE5qa" value="TODO_NotInUse.TODO_Scheduling.TODO_Conditions" />
     <ref role="1XX52x" to="86kt:1zaawdvhWY2" resolve="TODO_compoundCondition" />
@@ -3892,7 +3874,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdw2iy3">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
     <ref role="1XX52x" to="86kt:1zaawdw2ixu" resolve="NeighbourEnvironment" />
     <node concept="3EZMnI" id="1zaawdw2iyx" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdw2iyy" role="2iSdaV" />
@@ -3931,7 +3913,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdwHPWu">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
     <ref role="1XX52x" to="86kt:1zaawdwHPWl" resolve="TODO_OccupiedSpot" />
     <node concept="3EZMnI" id="1zaawdwLVtp" role="2wV5jI">
       <node concept="2iRkQZ" id="1zaawdwLVtq" role="2iSdaV" />
@@ -5521,45 +5503,15 @@
     </node>
   </node>
   <node concept="24kQdi" id="5yfUVbv5$Y_">
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_Conditions" />
-    <ref role="1XX52x" to="86kt:5yfUVbv5$Yr" resolve="ThisEnvironment" />
+    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <ref role="1XX52x" to="86kt:5yfUVbv5$Yr" resolve="CurrentEnvironment" />
     <node concept="3EZMnI" id="5yfUVbv5$YB" role="2wV5jI">
       <node concept="l2Vlx" id="5yfUVbv5$YC" role="2iSdaV" />
       <node concept="3F0ifn" id="5yfUVbv5$YD" role="3EZMnx">
-        <property role="3F0ifm" value="if this environment" />
-      </node>
-      <node concept="3F0ifn" id="5yfUVbv5$YE" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-        <node concept="11L4FC" id="5yfUVbv5$YF" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3mYdg7" id="5yfUVbv5$YG" role="3F10Kt">
-          <property role="1413C4" value="body-paren" />
-        </node>
-        <node concept="11LMrY" id="5yfUVbv5$YH" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="5yfUVbv5$YI" role="3EZMnx">
-        <property role="3F0ifm" value="color" />
-      </node>
-      <node concept="3F0ifn" id="5yfUVbv5$YJ" role="3EZMnx">
-        <property role="3F0ifm" value=":" />
-        <node concept="11L4FC" id="5yfUVbv5$YK" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+        <property role="3F0ifm" value="if this environment is" />
       </node>
       <node concept="3F0A7n" id="5yfUVbv5$YL" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5yfUVbv5$Ys" resolve="color" />
-      </node>
-      <node concept="3F0ifn" id="5yfUVbv5$YM" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-        <node concept="11L4FC" id="5yfUVbv5$YN" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3mYdg7" id="5yfUVbv5$YO" role="3F10Kt">
-          <property role="1413C4" value="body-paren" />
-        </node>
+        <ref role="1NtTu8" to="86kt:5yfUVbv5$Ys" resolve="colour" />
       </node>
     </node>
   </node>
