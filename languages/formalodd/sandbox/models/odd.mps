@@ -125,7 +125,6 @@
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="6620640720694329222" name="purpose" index="XAo8I" />
-        <child id="193207073764989693" name="initialisation" index="1ltb8M" />
         <child id="7610748055951433660" name="entities" index="3$p12O" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
@@ -145,8 +144,8 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="3864151261525253484" name="shapeOptions" index="1gdMhP" />
         <child id="193207073761136525" name="attribute" index="1l3At2" />
-        <child id="193207073759411052" name="AgentOptions" index="1laXez" />
-        <child id="7610748055951530955" name="DefaultColor" index="3$oDj3" />
+        <child id="193207073759411052" name="agentOptions" index="1laXez" />
+        <child id="7610748055951530955" name="defaultColor" index="3$oDj3" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
@@ -174,21 +173,8 @@
         <property id="193207073772188521" name="initialValue" index="1qTHIA" />
         <child id="193207073761750590" name="ValueOption" index="1l1KrL" />
       </concept>
-      <concept id="193207073767147263" name="formalodd.structure.TODO_InitalisationObject" flags="ng" index="1llqSK">
-        <property id="193207073767705738" name="Distribution" index="1qEyh5" />
-        <reference id="193207073767147264" name="entity" index="1llqZf" />
-        <child id="193207073767149194" name="whatisInitialised" index="1llqp5" />
-        <child id="193207073773196209" name="attributeOptions" index="1qXBHY" />
-      </concept>
-      <concept id="193207073764790659" name="formalodd.structure.TODO_Initialisation" flags="ng" index="1lur_c">
-        <child id="193207073767149214" name="InitalisationObject" index="1llqph" />
-      </concept>
       <concept id="193207073758944086" name="formalodd.structure.TODO_AgentStatisticOptions" flags="ng" index="1lOfep">
         <property id="193207073758944087" name="Option" index="1lOfeo" />
-      </concept>
-      <concept id="193207073772188500" name="formalodd.structure.TODO_AttributeOptions" flags="ng" index="1qTHIr">
-        <property id="193207073772188501" name="Options" index="1qTHIq" />
-        <reference id="193207073772240675" name="attribute" index="1qTLvG" />
       </concept>
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
@@ -196,9 +182,6 @@
       <concept id="999929643171596417" name="formalodd.structure.TODO_Relationship" flags="ng" index="1wg3SR">
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
-      </concept>
-      <concept id="2325324488108205419" name="formalodd.structure.TODO_SelectingType" flags="ng" index="1_stcA">
-        <property id="2325324488108205420" name="Who" index="1_stcx" />
       </concept>
       <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
@@ -254,15 +237,6 @@
           <property role="2oK_Ap" value="10" />
         </node>
         <node concept="RFdHg" id="1LeTgidgaQt" role="RFdH4" />
-      </node>
-    </node>
-    <node concept="1lur_c" id="qdXC$xpL8C" role="1ltb8M">
-      <node concept="1llqSK" id="qdXC$xs7hm" role="1llqph">
-        <property role="1qEyh5" value="random" />
-        <ref role="1llqZf" node="qdXC$xsGMq" resolve="frog" />
-        <node concept="1_stcA" id="qdXC$xsGMC" role="1llqp5">
-          <property role="1_stcx" value="The entity" />
-        </node>
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$xsGMF" role="2J7coG" />
@@ -962,7 +936,6 @@
     <node concept="XAmFv" id="3T3sBYikEpl" role="XAo8I">
       <property role="XAmFg" value="This model is a simple cellular automaton that simulates voting distribution by having each patch take a “vote” of its eight surrounding neighbors, then perhaps change its own vote according to the outcome." />
     </node>
-    <node concept="1lur_c" id="21KgVQ79S9V" role="1ltb8M" />
     <node concept="ZOwpU" id="24qWCY8d5XH" role="3$p12O">
       <node concept="ZOwrm" id="24yfUKsi0Xd" role="2kDK73">
         <property role="TrG5h" value="voter" />
@@ -1054,25 +1027,6 @@
           <property role="2oK_Ap" value="10" />
         </node>
         <node concept="RFdHg" id="7y2oNvCqeb" role="RFdH4" />
-      </node>
-    </node>
-    <node concept="1lur_c" id="35QCLExIsl9" role="1ltb8M">
-      <node concept="1llqSK" id="35QCLExIsln" role="1llqph">
-        <property role="1qEyh5" value="left" />
-        <ref role="1llqZf" node="35QCLExIhs4" resolve="Fire" />
-        <node concept="1qTHIr" id="35QCLExIueM" role="1qXBHY">
-          <property role="1qTHIq" value="2" />
-          <ref role="1qTLvG" node="35QCLExIskL" resolve="energy" />
-        </node>
-        <node concept="1qTHIr" id="35QCLExIHfm" role="1qXBHY">
-          <property role="1qTHIq" value="3" />
-        </node>
-        <node concept="1qTHIr" id="35QCLExIHkd" role="1qXBHY">
-          <property role="1qTHIq" value="4" />
-        </node>
-        <node concept="1_stcA" id="35QCLExIsls" role="1llqp5">
-          <property role="1_stcx" value="The entity" />
-        </node>
       </node>
     </node>
     <node concept="2lMhBk" id="35QCLExIslu" role="2J7coG">
@@ -1248,7 +1202,6 @@
         </node>
       </node>
     </node>
-    <node concept="1lur_c" id="3KJkjWHSOpM" role="1ltb8M" />
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
       <node concept="1g3uKF" id="7MNWMNCfI3g" role="2kDK7N">
         <property role="1jzKJm" value="100" />

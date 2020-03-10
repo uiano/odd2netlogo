@@ -961,28 +961,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="7qp8jK7OBFI">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1M2myG" to="86kt:5EtG2rRiGmh" resolve="REMOVE_Who2" />
-    <node concept="1N5Pfh" id="7qp8jK7OBFJ" role="1Mr941">
-      <ref role="1N5Vy1" to="86kt:5EtG2rRptBV" resolve="attribute" />
-      <node concept="1dDu$B" id="7qp8jK7OBFN" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="7qp8jK7OFNQ" role="1Mr941">
-      <ref role="1N5Vy1" to="86kt:5EtG2rRiGmi" resolve="entity" />
-      <node concept="1dDu$B" id="7qp8jK7OFNU" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
-      </node>
-    </node>
-    <node concept="1N5Pfh" id="7qp8jK7OFNW" role="1Mr941">
-      <ref role="1N5Vy1" to="86kt:5EtG2rRiGmj" resolve="environment" />
-      <node concept="1dDu$B" id="7qp8jK7OFO2" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGm$" resolve="EnvironmentEntity" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="7qp8jK7V$IP">
     <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
     <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="QuantifiedCondition" />
