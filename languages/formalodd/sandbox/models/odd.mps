@@ -135,7 +135,6 @@
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.TODO_Entity" flags="ng" index="ZOwpW">
         <property id="8247773779799260212" name="unwanted_size" index="2IKGqT" />
-        <property id="3864151261523101841" name="unwanted_showColors" index="1gPB68" />
         <property id="3864151261523101843" name="unwanted_showAttributes" index="1gPB6a" />
         <property id="4851181497929522624" name="unwanted_StartingNumber" index="3AmSou" />
         <property id="4851181497929522623" name="unwanted_maximumNumberOfEntitys" index="3AmSpx" />
@@ -220,7 +219,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xsGMq" role="ZOwpT">
         <property role="TrG5h" value="frog" />
-        <property role="1gPB68" value="is" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="3" />
         <property role="1gPB6a" value="does not" />
@@ -496,7 +494,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qt" role="ZOwpT">
         <property role="TrG5h" value="wolf" />
-        <property role="1gPB68" value="is" />
         <property role="2IKGqT" value="2" />
         <property role="1gPB6a" value="does" />
         <property role="3AmSou" value="1" />
@@ -533,7 +530,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qv" role="ZOwpT">
         <property role="TrG5h" value="sheep" />
-        <property role="1gPB68" value="is" />
         <property role="1gPB6a" value="does" />
         <property role="2IKGqT" value="1" />
         <property role="3AmSou" value="1" />
@@ -716,7 +712,6 @@
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
         <property role="TrG5h" value="blue-group" />
         <property role="1gPB6a" value="does" />
-        <property role="1gPB68" value="is" />
         <property role="3AmSou" value="10" />
         <property role="3AmSpx" value="100" />
         <property role="2IKGqT" value="2" />
@@ -779,7 +774,6 @@
       <node concept="ZOwpW" id="qdXC$ygXaQ" role="ZOwpT">
         <property role="TrG5h" value="red-group" />
         <property role="1gPB6a" value="does" />
-        <property role="1gPB68" value="is" />
         <property role="3AmSou" value="10" />
         <property role="3AmSpx" value="100" />
         <property role="2IKGqT" value="2" />
