@@ -1631,13 +1631,6 @@
       <ref role="1NtTu8" to="86kt:aIqcXnEcvG" resolve="ValueOption" />
     </node>
   </node>
-  <node concept="24kQdi" id="aIqcXnuSe8">
-    <property role="3GE5qa" value="Appearance" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlN" resolve="TODO_Shape" />
-    <node concept="3F0A7n" id="aIqcXnv1Pk" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:aIqcXnuSea" resolve="REMOVE_shape" />
-    </node>
-  </node>
   <node concept="24kQdi" id="3rTwIuRHRCU">
     <property role="3GE5qa" value="TODO_NotInUse" />
     <ref role="1XX52x" to="86kt:3rTwIuRHRCu" resolve="TODO_SliderOption" />
@@ -3511,11 +3504,8 @@
   </node>
   <node concept="24kQdi" id="2gGtP_V2vsH">
     <property role="3GE5qa" value="Appearance" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlP" resolve="TODO_DefaultShape" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlP" resolve="Shape" />
     <node concept="3EZMnI" id="5yfUVbvMa7X" role="2wV5jI">
-      <node concept="3F0A7n" id="5yfUVbvMa84" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:aIqcXnuSea" resolve="REMOVE_shape" />
-      </node>
       <node concept="3F0A7n" id="5yfUVbvMa8a" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:5yfUVbvM9V_" resolve="shape" />
       </node>

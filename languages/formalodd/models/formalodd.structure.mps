@@ -193,7 +193,7 @@
       <property role="IQ2ns" value="3840659476812055834" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="shape" />
-      <ref role="20lvS9" node="3lcKR8aBGlP" resolve="TODO_DefaultShape" />
+      <ref role="20lvS9" node="3lcKR8aBGlP" resolve="Shape" />
     </node>
     <node concept="1TJgyj" id="3mweh___LPG" role="1TKVEi">
       <property role="IQ2ns" value="3864151261525253484" />
@@ -422,17 +422,6 @@
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlN">
-    <property role="EcuMT" value="3840659476812055923" />
-    <property role="TrG5h" value="TODO_Shape" />
-    <property role="3GE5qa" value="Appearance" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="aIqcXnuSea" role="1TKVEl">
-      <property role="IQ2nx" value="193207073758741386" />
-      <property role="TrG5h" value="REMOVE_shape" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3lcKR8aBGlO">
     <property role="EcuMT" value="3840659476812055924" />
     <property role="TrG5h" value="Colour" />
@@ -442,9 +431,9 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlP">
     <property role="EcuMT" value="3840659476812055925" />
-    <property role="TrG5h" value="TODO_DefaultShape" />
+    <property role="TrG5h" value="Shape" />
     <property role="3GE5qa" value="Appearance" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlN" resolve="TODO_Shape" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5yfUVbvM9V_" role="1TKVEl">
       <property role="IQ2nx" value="6381578350498455269" />
       <property role="TrG5h" value="shape" />
@@ -455,25 +444,13 @@
       <property role="TrG5h" value="size" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyi" id="5vgYlnqdd$V" role="1TKVEl">
-      <property role="TrG5h" value="REMOVE_Shapeid" />
-      <property role="IQ2nx" value="3840659476812055927" />
-      <ref role="AX2Wp" to="tpck:3Ftr4R6BF32" resolve="SideTransformSide" />
-      <node concept="3l_iC" id="5vgYlnqdd$W" role="lGtFl">
-        <node concept="1TJgyi" id="3lcKR8aBGlR" role="3l_iP">
-          <property role="IQ2nx" value="3840659476812055927" />
-          <property role="TrG5h" value="Shapeid" />
-          <ref role="AX2Wp" to="tpck:Fg1jLUVynG" resolve="SideTransformSide" />
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlV">
     <property role="EcuMT" value="3840659476812055931" />
-    <property role="TrG5h" value="TODO_MoreShapes" />
+    <property role="TrG5h" value="MoreShapes" />
     <property role="R4oN_" value="constrainted to have 2 children at least" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlN" resolve="TODO_Shape" />
+    <property role="3GE5qa" value="4FutureUse" />
+    <ref role="1TJDcQ" node="3lcKR8aBGlP" resolve="Shape" />
     <node concept="1TJgyj" id="3lcKR8aBGlW" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055932" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
