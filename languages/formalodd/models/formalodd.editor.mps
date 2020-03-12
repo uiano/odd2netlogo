@@ -603,7 +603,6 @@
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
     <node concept="3EZMnI" id="6AuNKydYPlc" role="2wV5jI">
       <node concept="3EZMnI" id="6AuNKydYPlY" role="3EZMnx">
-        <node concept="3F0ifn" id="3mweh__uBB8" role="3EZMnx" />
         <node concept="3EZMnI" id="3mweh__ueMJ" role="3EZMnx">
           <node concept="VPM3Z" id="3mweh__ueML" role="3F10Kt" />
           <node concept="3F0ifn" id="3mweh__ueMN" role="3EZMnx">
@@ -653,9 +652,8 @@
           <node concept="3F0A7n" id="5yfUVbvKoWy" role="3EZMnx">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
-          <node concept="3F1sOY" id="5yfUVbvKoWz" role="3EZMnx">
-            <property role="1$x2rV" value="&lt;press enter&gt;" />
-            <ref role="1NtTu8" to="86kt:3mweh___LPG" resolve="shapeOptions" />
+          <node concept="3F0ifn" id="5yfUVbwbv0Z" role="3EZMnx">
+            <property role="3F0ifm" value="has a default shape which is" />
           </node>
           <node concept="3EZMnI" id="5yfUVbvKoW$" role="3EZMnx">
             <node concept="VPM3Z" id="5yfUVbvKoW_" role="3F10Kt" />
@@ -664,30 +662,6 @@
               <ref role="1NtTu8" to="86kt:3lcKR8aBGkq" resolve="shape" />
             </node>
             <node concept="2iRfu4" id="5yfUVbvKoWB" role="2iSdaV" />
-            <node concept="pkWqt" id="5yfUVbvKoWC" role="pqm2j">
-              <node concept="3clFbS" id="5yfUVbvKoWD" role="2VODD2">
-                <node concept="3clFbF" id="5yfUVbvKoWE" role="3cqZAp">
-                  <node concept="2OqwBi" id="5yfUVbvKoWF" role="3clFbG">
-                    <node concept="2OqwBi" id="5yfUVbvKoWG" role="2Oq$k0">
-                      <node concept="2OqwBi" id="5yfUVbvKoWH" role="2Oq$k0">
-                        <node concept="pncrf" id="5yfUVbvKoWI" role="2Oq$k0" />
-                        <node concept="3TrEf2" id="5yfUVbvKoWJ" role="2OqNvi">
-                          <ref role="3Tt5mk" to="86kt:3mweh___LPG" resolve="shapeOptions" />
-                        </node>
-                      </node>
-                      <node concept="3TrcHB" id="5yfUVbvKoWK" role="2OqNvi">
-                        <ref role="3TsBF5" to="86kt:3mweh___xQT" resolve="ShapeOption" />
-                      </node>
-                    </node>
-                    <node concept="3y1jeu" id="5yfUVbvKoWL" role="2OqNvi">
-                      <node concept="Xl_RD" id="5yfUVbvKoWM" role="3y1jev">
-                        <property role="Xl_RC" value="has a default shape which is" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
         </node>
         <node concept="3F0ifn" id="5yfUVbvKoVF" role="3EZMnx" />
@@ -1266,14 +1240,6 @@
           <node concept="Vb9p2" id="1D8fLg5t82I" role="3F10Kt" />
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="3mweh__ADZ$">
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1XX52x" to="86kt:3mweh___xQS" resolve="TODO_ShapeOptions" />
-    <node concept="3F0A7n" id="3mweh__ADZA" role="2wV5jI">
-      <property role="1$x2rV" value="press alt enter to get shape options" />
-      <ref role="1NtTu8" to="86kt:3mweh___xQT" resolve="ShapeOption" />
     </node>
   </node>
   <node concept="24kQdi" id="3mweh_A8ICj">

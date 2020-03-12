@@ -110,7 +110,7 @@
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
       <concept id="2387540760905107680" name="formalodd.structure.TODO_ConditionWithSame" flags="ng" index="XCvtc" />
-      <concept id="3840659476812055925" name="formalodd.structure.TODO_DefaultShape" flags="ng" index="ZOwo7">
+      <concept id="3840659476812055925" name="formalodd.structure.Shape" flags="ng" index="ZOwo7">
         <property id="6381578350498456053" name="size" index="27hOD7" />
         <property id="6381578350498455269" name="shape" index="27hRln" />
       </concept>
@@ -139,7 +139,6 @@
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
-        <child id="3864151261525253484" name="shapeOptions" index="1gdMhP" />
         <child id="193207073761136525" name="attribute" index="1l3At2" />
         <child id="193207073759411052" name="agentOptions" index="1laXez" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
@@ -157,9 +156,6 @@
         <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
-      </concept>
-      <concept id="3864151261525188024" name="formalodd.structure.TODO_ShapeOptions" flags="ng" index="1gdyix">
-        <property id="3864151261525188025" name="ShapeOption" index="1gdyiw" />
       </concept>
       <concept id="193207073761708011" name="formalodd.structure.TODO_AttributeValueOptions" flags="ng" index="1l1EW$">
         <property id="193207073761708012" name="ValueOption" index="1l1EWz" />
@@ -221,9 +217,6 @@
         <property role="3AmSpx" value="3" />
         <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XpM/green" />
-        </node>
-        <node concept="1gdyix" id="qdXC$xsGMu" role="1gdMhP">
-          <property role="1gdyiw" value="square" />
         </node>
         <node concept="1lOfep" id="qdXC$xsGMw" role="1laXez">
           <property role="1lOfeo" value="do not" />
@@ -496,9 +489,6 @@
         <node concept="ZOwrR" id="qdXC$xz0Q$" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XmI/grey" />
         </node>
-        <node concept="1gdyix" id="qdXC$xz0QC" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
-        </node>
         <node concept="ZOwo7" id="qdXC$xz0QF" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa7e/wolf" />
           <property role="27hOD7" value="2" />
@@ -533,9 +523,6 @@
         </node>
         <node concept="1lOfep" id="qdXC$xz0QY" role="1laXez">
           <property role="1lOfeo" value="do not" />
-        </node>
-        <node concept="1gdyix" id="qdXC$xz0R2" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
         </node>
         <node concept="ZOwo7" id="qdXC$xz0R5" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa18/sheep" />
@@ -711,9 +698,6 @@
         <node concept="ZOwrR" id="qdXC$ygXaM" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
         </node>
-        <node concept="1gdyix" id="qdXC$yky1l" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
-        </node>
         <node concept="ZOwo7" id="qdXC$yky1D" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa1z/square" />
           <property role="27hOD7" value="2" />
@@ -771,9 +755,6 @@
         <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$ygXaZ" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
-        </node>
-        <node concept="1gdyix" id="qdXC$yky1F" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
         </node>
         <node concept="ZOwo7" id="qdXC$yky1H" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa1z/square" />
@@ -1003,9 +984,6 @@
         <node concept="ZOwrR" id="35QCLExIhs6" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
         </node>
-        <node concept="1gdyix" id="35QCLExIH6O" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
-        </node>
         <node concept="ZOwo7" id="35QCLExIH7d" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa1z/square" />
           <property role="27hOD7" value="2" />
@@ -1061,9 +1039,6 @@
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa0l/person" />
           <property role="27hOD7" value="10" />
-        </node>
-        <node concept="1gdyix" id="4qxfPPPrnJb" role="1gdMhP">
-          <property role="1gdyiw" value="has a default shape which is" />
         </node>
         <node concept="RFdHg" id="4qxfPPPvE9z" role="RFdH4" />
         <node concept="21jJIL" id="4qxfPPPvE9x" role="RIgNU">

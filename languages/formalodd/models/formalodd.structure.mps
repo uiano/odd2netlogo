@@ -195,12 +195,6 @@
       <property role="20kJfa" value="shape" />
       <ref role="20lvS9" node="3lcKR8aBGlP" resolve="Shape" />
     </node>
-    <node concept="1TJgyj" id="3mweh___LPG" role="1TKVEi">
-      <property role="IQ2ns" value="3864151261525253484" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="shapeOptions" />
-      <ref role="20lvS9" node="3mweh___xQS" resolve="TODO_ShapeOptions" />
-    </node>
     <node concept="1TJgyj" id="aIqcXnxrHG" role="1TKVEi">
       <property role="IQ2ns" value="193207073759411052" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -624,18 +618,6 @@
     <node concept="1TJgyi" id="5JxfqxAuXCd" role="1TKVEl">
       <property role="IQ2nx" value="6620640720694532621" />
       <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3mweh___xQS">
-    <property role="EcuMT" value="3864151261525188024" />
-    <property role="TrG5h" value="TODO_ShapeOptions" />
-    <property role="R4oN_" value="the options aviable for shapes" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="3mweh___xQT" role="1TKVEl">
-      <property role="IQ2nx" value="3864151261525188025" />
-      <property role="TrG5h" value="ShapeOption" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
