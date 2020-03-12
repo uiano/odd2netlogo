@@ -195,12 +195,6 @@
       <property role="20kJfa" value="shape" />
       <ref role="20lvS9" node="3lcKR8aBGlP" resolve="Shape" />
     </node>
-    <node concept="1TJgyj" id="aIqcXnxrHG" role="1TKVEi">
-      <property role="IQ2ns" value="193207073759411052" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="agentOptions" />
-      <ref role="20lvS9" node="aIqcXnvDHm" resolve="TODO_AgentStatisticOptions" />
-    </node>
     <node concept="1TJgyj" id="aIqcXnC0Yd" role="1TKVEi">
       <property role="IQ2ns" value="193207073761136525" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -354,66 +348,6 @@
       <property role="IQ2nx" value="3840659476812055889" />
       <property role="TrG5h" value="mean" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlj">
-    <property role="EcuMT" value="3840659476812055891" />
-    <property role="TrG5h" value="TODO_AgentStatistic" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="aIqcXnxrHD" role="1TKVEi">
-      <property role="IQ2ns" value="193207073759411049" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Options" />
-      <ref role="20lvS9" node="aIqcXnvDHm" resolve="TODO_AgentStatisticOptions" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlk">
-    <property role="EcuMT" value="3840659476812055892" />
-    <property role="TrG5h" value="TODO_Max" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlj" resolve="TODO_AgentStatistic" />
-    <node concept="1TJgyj" id="3lcKR8aBGll" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055893" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <property role="20kJfa" value="attribute" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGln">
-    <property role="EcuMT" value="3840659476812055895" />
-    <property role="TrG5h" value="TODO_Min" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlj" resolve="TODO_AgentStatistic" />
-    <node concept="1TJgyj" id="3lcKR8aBGlo" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055896" />
-      <property role="20kJfa" value="min" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlq">
-    <property role="EcuMT" value="3840659476812055898" />
-    <property role="TrG5h" value="TODO_Average" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlj" resolve="TODO_AgentStatistic" />
-    <node concept="1TJgyj" id="3lcKR8aBGlr" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055899" />
-      <property role="20kJfa" value="attribute" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlw">
-    <property role="EcuMT" value="3840659476812055904" />
-    <property role="TrG5h" value="TODO_Sum" />
-    <property role="3GE5qa" value="TODO_NotInUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGlj" resolve="TODO_AgentStatistic" />
-    <node concept="1TJgyj" id="3lcKR8aBGlx" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055905" />
-      <property role="20kJfa" value="attribute" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlO">
@@ -673,17 +607,6 @@
     <node concept="1TJgyi" id="215d$P5delJ" role="1TKVEl">
       <property role="IQ2nx" value="2325324488108205423" />
       <property role="TrG5h" value="What" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="aIqcXnvDHm">
-    <property role="EcuMT" value="193207073758944086" />
-    <property role="TrG5h" value="TODO_AgentStatisticOptions" />
-    <property role="3GE5qa" value="TODO_Unwanted" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="aIqcXnvDHn" role="1TKVEl">
-      <property role="IQ2nx" value="193207073758944087" />
-      <property role="TrG5h" value="Option" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
@@ -2116,17 +2039,6 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
-  <node concept="1TIwiD" id="215d$P5kAta">
-    <property role="EcuMT" value="2325324488110139210" />
-    <property role="TrG5h" value="TODO_EntityReference" />
-    <property role="3GE5qa" value="TODO_NotInUse.TODO_Entity" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="2gGtP_Va5Ra" role="1TKVEi">
-      <property role="IQ2ns" value="2606589510542712266" />
-      <property role="20kJfa" value="entity" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
-    </node>
-  </node>
   <node concept="25R3W" id="5yfUVburW9D">
     <property role="3F6X1D" value="6381578350475854441" />
     <property role="3GE5qa" value="Actions" />
@@ -2350,6 +2262,45 @@
     <node concept="25R33" id="5yfUVbvMa7e" role="25R1y">
       <property role="3tVfz5" value="6381578350498456014" />
       <property role="TrG5h" value="wolf" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGlj">
+    <property role="EcuMT" value="3840659476812055891" />
+    <property role="TrG5h" value="AttributeStatistics" />
+    <property role="3GE5qa" value="Experiments" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="5yfUVbwhkGE" role="1TKVEi">
+      <property role="IQ2ns" value="6381578350506625834" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+    <node concept="1TJgyi" id="5yfUVbwhRMD" role="1TKVEl">
+      <property role="IQ2nx" value="6381578350506769577" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" node="5yfUVbwhRMr" resolve="StatisticsKind" />
+    </node>
+  </node>
+  <node concept="25R3W" id="5yfUVbwhRMr">
+    <property role="3F6X1D" value="6381578350506769563" />
+    <property role="3GE5qa" value="Experiments" />
+    <property role="TrG5h" value="StatisticsKind" />
+    <node concept="25R33" id="5yfUVbwhRMs" role="25R1y">
+      <property role="3tVfz5" value="6381578350506769564" />
+      <property role="TrG5h" value="min" />
+    </node>
+    <node concept="25R33" id="5yfUVbwhRMt" role="25R1y">
+      <property role="3tVfz5" value="6381578350506769565" />
+      <property role="TrG5h" value="max" />
+    </node>
+    <node concept="25R33" id="5yfUVbwhRMw" role="25R1y">
+      <property role="3tVfz5" value="6381578350506769568" />
+      <property role="TrG5h" value="average" />
+    </node>
+    <node concept="25R33" id="5yfUVbwhRM$" role="25R1y">
+      <property role="3tVfz5" value="6381578350506769572" />
+      <property role="TrG5h" value="sum" />
     </node>
   </node>
 </model>
