@@ -214,11 +214,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="aIqcXnA9xq" resolve="TODO_Attribute" />
     </node>
-    <node concept="1TJgyi" id="3mweh__t$yj" role="1TKVEl">
-      <property role="IQ2nx" value="3864151261523101843" />
-      <property role="TrG5h" value="unwanted_showAttributes" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="79PYCRsHNKO" role="1TKVEl">
       <property role="IQ2nx" value="8247773779799260212" />
       <property role="TrG5h" value="unwanted_size" />
