@@ -195,13 +195,6 @@
       <property role="20kJfa" value="shape" />
       <ref role="20lvS9" node="3lcKR8aBGlP" resolve="Shape" />
     </node>
-    <node concept="1TJgyj" id="aIqcXnC0Yd" role="1TKVEi">
-      <property role="IQ2ns" value="193207073761136525" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="attribute" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="aIqcXnA9xq" resolve="TODO_Attribute" />
-    </node>
     <node concept="1TJgyi" id="4diQXU_2lQZ" role="1TKVEl">
       <property role="IQ2nx" value="4851181497929522623" />
       <property role="TrG5h" value="unwanted_maximumNumberOfEntitys" />

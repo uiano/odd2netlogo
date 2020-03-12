@@ -139,7 +139,6 @@
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
-        <child id="193207073761136525" name="attribute" index="1l3At2" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
@@ -155,15 +154,6 @@
         <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
-      </concept>
-      <concept id="193207073761708011" name="formalodd.structure.TODO_AttributeValueOptions" flags="ng" index="1l1EW$">
-        <property id="193207073761708012" name="ValueOption" index="1l1EWz" />
-      </concept>
-      <concept id="193207073760647258" name="formalodd.structure.TODO_Attribute" flags="ng" index="1ldJ2l">
-        <property id="193207073763490983" name="max" index="1lrphC" />
-        <property id="193207073763490980" name="min" index="1lrphF" />
-        <property id="193207073772188521" name="initialValue" index="1qTHIA" />
-        <child id="193207073761750590" name="ValueOption" index="1l1KrL" />
       </concept>
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
@@ -959,15 +949,6 @@
             <property role="2oK_Ap" value="100" />
           </node>
         </node>
-        <node concept="1ldJ2l" id="35QCLExIskL" role="1l3At2">
-          <property role="TrG5h" value="energy" />
-          <property role="1lrphF" value="0" />
-          <property role="1lrphC" value="100" />
-          <property role="1qTHIA" value="0" />
-          <node concept="1l1EW$" id="35QCLExIskN" role="1l1KrL">
-            <property role="1l1EWz" value="float" />
-          </node>
-        </node>
         <node concept="ZOwrR" id="35QCLExIhs6" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
         </node>
@@ -999,29 +980,9 @@
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
-        <node concept="1ldJ2l" id="4xlWY3qEPlN" role="1l3At2">
-          <property role="TrG5h" value="refused interactions" />
-          <property role="1lrphF" value="0" />
-          <property role="1lrphC" value="100" />
-          <node concept="1l1EW$" id="28mu8oBQTDY" role="1l1KrL">
-            <property role="1l1EWz" value="integer" />
-          </node>
-        </node>
-        <node concept="1ldJ2l" id="4xlWY3qEPlH" role="1l3At2">
-          <property role="TrG5h" value="negative interactions" />
-          <property role="1lrphF" value="0" />
-          <property role="1lrphC" value="100" />
-          <node concept="1l1EW$" id="4xlWY3qEPlL" role="1l1KrL">
-            <property role="1l1EWz" value="integer" />
-          </node>
-        </node>
-        <node concept="1ldJ2l" id="4xlWY3qEPld" role="1l3At2">
-          <property role="TrG5h" value="positive interactions" />
-          <property role="1lrphF" value="0" />
-          <property role="1lrphC" value="100" />
-          <node concept="1l1EW$" id="4xlWY3qEPlf" role="1l1KrL">
-            <property role="1l1EWz" value="integer" />
-          </node>
+        <node concept="ZOwpH" id="5yfUVbwl$2H" role="1XCrbu">
+          <property role="TrG5h" value="refusedInteractions" />
+          <node concept="ZOwps" id="5yfUVbwl$2L" role="zGXb3" />
         </node>
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa0l/person" />
@@ -1036,6 +997,14 @@
         </node>
         <node concept="ZOwrR" id="22rmwLHGYvd" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
+        </node>
+        <node concept="ZOwpH" id="5yfUVbwl$3g" role="1XCrbu">
+          <property role="TrG5h" value="negativeInteractions" />
+          <node concept="ZOwps" id="5yfUVbwl$3k" role="zGXb3" />
+        </node>
+        <node concept="ZOwpH" id="5yfUVbwl$3m" role="1XCrbu">
+          <property role="TrG5h" value="positiveInteractions" />
+          <node concept="ZOwps" id="5yfUVbwl$3u" role="zGXb3" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yh" role="1XCrKs">
