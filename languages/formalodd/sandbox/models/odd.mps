@@ -111,9 +111,12 @@
       </concept>
       <concept id="2387540760905107680" name="formalodd.structure.TODO_ConditionWithSame" flags="ng" index="XCvtc" />
       <concept id="3840659476812055923" name="formalodd.structure.TODO_Shape" flags="ng" index="ZOwo1">
-        <property id="193207073758741386" name="shape" index="1lPuH5" />
+        <property id="193207073758741386" name="REMOVE_shape" index="1lPuH5" />
       </concept>
-      <concept id="3840659476812055925" name="formalodd.structure.TODO_DefaultShape" flags="ng" index="ZOwo7" />
+      <concept id="3840659476812055925" name="formalodd.structure.TODO_DefaultShape" flags="ng" index="ZOwo7">
+        <property id="6381578350498456053" name="size" index="27hOD7" />
+        <property id="6381578350498455269" name="shape" index="27hRln" />
+      </concept>
       <concept id="3840659476812055862" name="formalodd.structure.Float" flags="ng" index="ZOwp4" />
       <concept id="3840659476812055854" name="formalodd.structure.Integer" flags="ng" index="ZOwps" />
       <concept id="3840659476812055853" name="formalodd.structure.Boolean" flags="ng" index="ZOwpv" />
@@ -134,7 +137,6 @@
         <child id="8931575016887347252" name="userDefinedAttributes" index="1XCrKs" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.TODO_Entity" flags="ng" index="ZOwpW">
-        <property id="8247773779799260212" name="unwanted_size" index="2IKGqT" />
         <property id="4851181497929522624" name="unwanted_StartingNumber" index="3AmSou" />
         <property id="4851181497929522623" name="unwanted_maximumNumberOfEntitys" index="3AmSpx" />
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
@@ -492,7 +494,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qt" role="ZOwpT">
         <property role="TrG5h" value="wolf" />
-        <property role="2IKGqT" value="2" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$xz0Q$" role="3$oDj3">
@@ -503,6 +504,8 @@
         </node>
         <node concept="ZOwo7" id="qdXC$xz0QF" role="ZOwpC">
           <property role="1lPuH5" value="wolf" />
+          <property role="27hRln" value="5yfUVbvMa7e/wolf" />
+          <property role="27hOD7" value="2" />
         </node>
         <node concept="1lOfep" id="qdXC$xz0QH" role="1laXez">
           <property role="1lOfeo" value="do not" />
@@ -527,7 +530,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qv" role="ZOwpT">
         <property role="TrG5h" value="sheep" />
-        <property role="2IKGqT" value="1" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$xz0Qy" role="3$oDj3">
@@ -541,6 +543,8 @@
         </node>
         <node concept="ZOwo7" id="qdXC$xz0R5" role="ZOwpC">
           <property role="1lPuH5" value="sheep" />
+          <property role="27hRln" value="5yfUVbvMa18/sheep" />
+          <property role="27hOD7" value="1" />
         </node>
         <node concept="RFdHg" id="60Hvi7sbkhK" role="RFdH4" />
         <node concept="ZOwpH" id="60Hvi7rWx1g" role="1XCrbu">
@@ -709,7 +713,6 @@
         <property role="TrG5h" value="blue-group" />
         <property role="3AmSou" value="10" />
         <property role="3AmSpx" value="100" />
-        <property role="2IKGqT" value="2" />
         <node concept="ZOwrR" id="qdXC$ygXaM" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
         </node>
@@ -718,6 +721,8 @@
         </node>
         <node concept="ZOwo7" id="qdXC$yky1D" role="ZOwpC">
           <property role="1lPuH5" value="square" />
+          <property role="27hRln" value="5yfUVbvMa1z/square" />
+          <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDu" role="RFdH4" />
         <node concept="ZOwpH" id="6dSewhkDZXh" role="1XCrbu">
@@ -770,7 +775,6 @@
         <property role="TrG5h" value="red-group" />
         <property role="3AmSou" value="10" />
         <property role="3AmSpx" value="100" />
-        <property role="2IKGqT" value="2" />
         <node concept="ZOwrR" id="qdXC$ygXaZ" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
         </node>
@@ -779,6 +783,8 @@
         </node>
         <node concept="ZOwo7" id="qdXC$yky1H" role="ZOwpC">
           <property role="1lPuH5" value="square" />
+          <property role="27hRln" value="5yfUVbvMa1z/square" />
+          <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDy" role="RFdH4" />
         <node concept="ZOwpH" id="60Hvi7s7XyL" role="1XCrbu">
@@ -985,7 +991,6 @@
         <property role="TrG5h" value="Fire" />
         <property role="3AmSou" value="1" />
         <property role="3AmSpx" value="100" />
-        <property role="2IKGqT" value="2" />
         <node concept="ZOwpH" id="4qxfPPOMPu1" role="1XCrbu">
           <property role="TrG5h" value="energy" />
           <node concept="ZOwps" id="4qxfPPOMPuc" role="zGXb3" />
@@ -1010,6 +1015,8 @@
         </node>
         <node concept="ZOwo7" id="35QCLExIH7d" role="ZOwpC">
           <property role="1lPuH5" value="square" />
+          <property role="27hRln" value="5yfUVbvMa1z/square" />
+          <property role="27hOD7" value="2" />
         </node>
         <node concept="2oK_Am" id="7y2oNvCqd6" role="RIgNU">
           <property role="2oK_Ap" value="10" />
@@ -1035,7 +1042,6 @@
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
-        <property role="2IKGqT" value="10" />
         <node concept="1ldJ2l" id="4xlWY3qEPlN" role="1l3At2">
           <property role="TrG5h" value="refused interactions" />
           <property role="1lrphF" value="0" />
@@ -1062,6 +1068,8 @@
         </node>
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="1lPuH5" value="person" />
+          <property role="27hRln" value="5yfUVbvMa0l/person" />
+          <property role="27hOD7" value="10" />
         </node>
         <node concept="1gdyix" id="4qxfPPPrnJb" role="1gdMhP">
           <property role="1gdyiw" value="has a default shape which is" />
