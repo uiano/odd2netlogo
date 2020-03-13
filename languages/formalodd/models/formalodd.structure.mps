@@ -91,7 +91,7 @@
     <node concept="1TJgyj" id="6AuNKydYHYW" role="1TKVEi">
       <property role="IQ2ns" value="7610748055951433660" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="entities" />
+      <property role="20kJfa" value="entitiesAndVariables" />
       <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
     </node>
     <node concept="PrWs8" id="5JxfqxAtDu3" role="PzmwI">
@@ -161,7 +161,7 @@
     <node concept="1TJgyj" id="7JNl2w6kIwO" role="1TKVEi">
       <property role="IQ2ns" value="8931575016887347252" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="userDefinedAttributes" />
+      <property role="20kJfa" value="environmentAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
@@ -693,56 +693,6 @@
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
-  <node concept="1TIwiD" id="aIqcXnYWrZ">
-    <property role="EcuMT" value="193207073767147263" />
-    <property role="TrG5h" value="TODO_InitalisationObject" />
-    <property role="3GE5qa" value="TODO_Initialisation" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="aIqcXnYWs0" role="1TKVEi">
-      <property role="IQ2ns" value="193207073767147264" />
-      <property role="20kJfa" value="entity" />
-      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
-    </node>
-    <node concept="1TJgyj" id="aIqcXo37bG" role="1TKVEi">
-      <property role="IQ2ns" value="193207073768239852" />
-      <property role="20kJfa" value="environment" />
-      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    </node>
-    <node concept="1TJgyj" id="aIqcXnYWUa" role="1TKVEi">
-      <property role="IQ2ns" value="193207073767149194" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="whatisInitialised" />
-      <ref role="20lvS9" node="215d$P5delF" resolve="TODO_SelectingType" />
-    </node>
-    <node concept="1TJgyj" id="aIqcXom1eL" role="1TKVEi">
-      <property role="IQ2ns" value="193207073773196209" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <property role="20kJfa" value="attributeOptions" />
-      <ref role="20lvS9" node="aIqcXoibdk" resolve="TODO_AttributeOptions" />
-    </node>
-    <node concept="1TJgyj" id="5EtG2rOMf5$" role="1TKVEi">
-      <property role="IQ2ns" value="6529568716119142756" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="initialisationAttribute" />
-      <ref role="20lvS9" node="aIqcXo37bz" resolve="TODO_InitialisationAttribute" />
-    </node>
-    <node concept="1TJgyi" id="aIqcXo0Si7" role="1TKVEl">
-      <property role="IQ2nx" value="193207073767654535" />
-      <property role="TrG5h" value="maximumNumberOfEntitys" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="aIqcXo9KB$" role="1TKVEl">
-      <property role="IQ2nx" value="193207073769982436" />
-      <property role="TrG5h" value="StartingNumber" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="aIqcXo14Ma" role="1TKVEl">
-      <property role="IQ2nx" value="193207073767705738" />
-      <property role="TrG5h" value="Distribution" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="aIqcXo37bz">
     <property role="EcuMT" value="193207073768239843" />
     <property role="TrG5h" value="TODO_InitialisationAttribute" />
@@ -767,8 +717,8 @@
   </node>
   <node concept="1TIwiD" id="aIqcXoibdk">
     <property role="EcuMT" value="193207073772188500" />
-    <property role="TrG5h" value="TODO_AttributeOptions" />
-    <property role="3GE5qa" value="TODO_Attribute" />
+    <property role="TrG5h" value="REMOVE_AttributeOptions" />
+    <property role="3GE5qa" value="TO_REMOVE" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="aIqcXoibdl" role="1TKVEl">
       <property role="IQ2nx" value="193207073772188501" />
@@ -1411,15 +1361,15 @@
     <property role="TrG5h" value="GeneralEntity" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <node concept="PrWs8" id="2gGtP_Va5R5" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="7JNl2w6kIrQ" role="1TKVEi">
       <property role="IQ2ns" value="8931575016887346934" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="userDefinedAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+    <node concept="PrWs8" id="2gGtP_Va5R5" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="25R3W" id="5vgYlnqddzJ">
@@ -2284,6 +2234,56 @@
     <node concept="25R33" id="5yfUVbwhRM$" role="25R1y">
       <property role="3tVfz5" value="6381578350506769572" />
       <property role="TrG5h" value="sum" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="aIqcXnYWrZ">
+    <property role="EcuMT" value="193207073767147263" />
+    <property role="TrG5h" value="REMOVE_InitalisationObject" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="aIqcXnYWs0" role="1TKVEi">
+      <property role="IQ2ns" value="193207073767147264" />
+      <property role="20kJfa" value="entity" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXo37bG" role="1TKVEi">
+      <property role="IQ2ns" value="193207073768239852" />
+      <property role="20kJfa" value="environment" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXnYWUa" role="1TKVEi">
+      <property role="IQ2ns" value="193207073767149194" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="whatisInitialised" />
+      <ref role="20lvS9" node="215d$P5delF" resolve="TODO_SelectingType" />
+    </node>
+    <node concept="1TJgyj" id="aIqcXom1eL" role="1TKVEi">
+      <property role="IQ2ns" value="193207073773196209" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <property role="20kJfa" value="attributeOptions" />
+      <ref role="20lvS9" node="aIqcXoibdk" resolve="REMOVE_AttributeOptions" />
+    </node>
+    <node concept="1TJgyj" id="5EtG2rOMf5$" role="1TKVEi">
+      <property role="IQ2ns" value="6529568716119142756" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initialisationAttribute" />
+      <ref role="20lvS9" node="aIqcXo37bz" resolve="TODO_InitialisationAttribute" />
+    </node>
+    <node concept="1TJgyi" id="aIqcXo0Si7" role="1TKVEl">
+      <property role="IQ2nx" value="193207073767654535" />
+      <property role="TrG5h" value="maximumNumberOfEntitys" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="aIqcXo9KB$" role="1TKVEl">
+      <property role="IQ2nx" value="193207073769982436" />
+      <property role="TrG5h" value="StartingNumber" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="aIqcXo14Ma" role="1TKVEl">
+      <property role="IQ2nx" value="193207073767705738" />
+      <property role="TrG5h" value="Distribution" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
 </model>

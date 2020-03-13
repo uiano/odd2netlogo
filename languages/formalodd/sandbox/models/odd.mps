@@ -125,15 +125,15 @@
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="6620640720694329222" name="purpose" index="XAo8I" />
-        <child id="7610748055951433660" name="entities" index="3$p12O" />
+        <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
         <child id="999929643176201180" name="relationships" index="1w1JPE" />
-        <child id="8931575016887347252" name="userDefinedAttributes" index="1XCrKs" />
+        <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
       </concept>
-      <concept id="3840659476812055822" name="formalodd.structure.TODO_Entity" flags="ng" index="ZOwpW">
+      <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />

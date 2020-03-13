@@ -167,8 +167,8 @@
   </node>
   <node concept="3dkpOd" id="aIqcXojnZJ">
     <property role="TrG5h" value="initialisationAttributeOption" />
-    <property role="3GE5qa" value="TODO_Attribute" />
-    <ref role="2ZfgGC" to="86kt:aIqcXoibdk" resolve="TODO_AttributeOptions" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <ref role="2ZfgGC" to="86kt:aIqcXoibdk" resolve="REMOVE_AttributeOptions" />
     <node concept="2S6ZIM" id="aIqcXojnZK" role="2ZfVej">
       <node concept="3clFbS" id="aIqcXojnZL" role="2VODD2">
         <node concept="3cpWs8" id="aIqcXojvn1" role="3cqZAp">
@@ -1482,10 +1482,47 @@
       <node concept="17QB3L" id="5EtG2rQDhJJ" role="3ddBve" />
     </node>
   </node>
+  <node concept="2S6QgY" id="RwtFpHO3Dh">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="AddRelationship" />
+    <ref role="2ZfgGC" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
+    <node concept="2S6ZIM" id="RwtFpHO3Di" role="2ZfVej">
+      <node concept="3clFbS" id="RwtFpHO3Dj" role="2VODD2">
+        <node concept="3cpWs6" id="RwtFpHO4gq" role="3cqZAp">
+          <node concept="Xl_RD" id="RwtFpHO4lr" role="3cqZAk">
+            <property role="Xl_RC" value="Add Relationship" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="RwtFpHO3Dk" role="2ZfgGD">
+      <node concept="3clFbS" id="RwtFpHO3Dl" role="2VODD2">
+        <node concept="3clFbF" id="RwtFpHO4tE" role="3cqZAp">
+          <node concept="2OqwBi" id="RwtFpHTWcH" role="3clFbG">
+            <node concept="2OqwBi" id="RwtFpHTU11" role="2Oq$k0">
+              <node concept="2Sf5sV" id="RwtFpHTTTV" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="RwtFpHTU9l" role="2OqNvi">
+                <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="relationships" />
+              </node>
+            </node>
+            <node concept="TSZUe" id="RwtFpHTZ$y" role="2OqNvi">
+              <node concept="2ShNRf" id="RwtFpHTZJS" role="25WWJ7">
+                <node concept="3zrR0B" id="RwtFpHU00k" role="2ShVmc">
+                  <node concept="3Tqbb2" id="RwtFpHU00m" role="3zrR0E">
+                    <ref role="ehGHo" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="3dkpOd" id="2gGtP_TO3EM">
-    <property role="3GE5qa" value="TODO_Initialisation" />
+    <property role="3GE5qa" value="TO_REMOVE" />
     <property role="TrG5h" value="Distrubution" />
-    <ref role="2ZfgGC" to="86kt:aIqcXnYWrZ" resolve="TODO_InitalisationObject" />
+    <ref role="2ZfgGC" to="86kt:aIqcXnYWrZ" resolve="REMOVE_InitalisationObject" />
     <node concept="2S6ZIM" id="2gGtP_TO3EN" role="2ZfVej">
       <node concept="3clFbS" id="2gGtP_TO3EO" role="2VODD2">
         <node concept="3clFbF" id="2gGtP_TO9kB" role="3cqZAp">
@@ -1525,43 +1562,6 @@
         </node>
       </node>
       <node concept="17QB3L" id="2gGtP_TO3Zj" role="3ddBve" />
-    </node>
-  </node>
-  <node concept="2S6QgY" id="RwtFpHO3Dh">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="TrG5h" value="AddRelationship" />
-    <ref role="2ZfgGC" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
-    <node concept="2S6ZIM" id="RwtFpHO3Di" role="2ZfVej">
-      <node concept="3clFbS" id="RwtFpHO3Dj" role="2VODD2">
-        <node concept="3cpWs6" id="RwtFpHO4gq" role="3cqZAp">
-          <node concept="Xl_RD" id="RwtFpHO4lr" role="3cqZAk">
-            <property role="Xl_RC" value="Add Relationship" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Sbjvc" id="RwtFpHO3Dk" role="2ZfgGD">
-      <node concept="3clFbS" id="RwtFpHO3Dl" role="2VODD2">
-        <node concept="3clFbF" id="RwtFpHO4tE" role="3cqZAp">
-          <node concept="2OqwBi" id="RwtFpHTWcH" role="3clFbG">
-            <node concept="2OqwBi" id="RwtFpHTU11" role="2Oq$k0">
-              <node concept="2Sf5sV" id="RwtFpHTTTV" role="2Oq$k0" />
-              <node concept="3Tsc0h" id="RwtFpHTU9l" role="2OqNvi">
-                <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="relationships" />
-              </node>
-            </node>
-            <node concept="TSZUe" id="RwtFpHTZ$y" role="2OqNvi">
-              <node concept="2ShNRf" id="RwtFpHTZJS" role="25WWJ7">
-                <node concept="3zrR0B" id="RwtFpHU00k" role="2ShVmc">
-                  <node concept="3Tqbb2" id="RwtFpHU00m" role="3zrR0E">
-                    <ref role="ehGHo" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
 </model>
