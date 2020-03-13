@@ -598,7 +598,7 @@
   </node>
   <node concept="24kQdi" id="6AuNKydYPla">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6AuNKydYPlc" role="2wV5jI">
       <node concept="3EZMnI" id="6AuNKydYPlY" role="3EZMnx">
         <node concept="3EZMnI" id="3mweh__ueMJ" role="3EZMnx">
@@ -1143,7 +1143,7 @@
   <node concept="PKFIW" id="215d$P5k6mk">
     <property role="TrG5h" value="EntityMain" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3F0A7n" id="215d$P5kAuv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
@@ -1602,52 +1602,6 @@
         <node concept="3F0A7n" id="aIqcXo9KBc" role="3EZMnx">
           <property role="1$x2rV" value="alt enter to select distrubution" />
           <ref role="1NtTu8" to="86kt:aIqcXo14Ma" resolve="Distribution" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="aIqcXo14Lg" role="3EZMnx">
-        <node concept="2iRfu4" id="aIqcXo14Lh" role="2iSdaV" />
-        <node concept="3F0ifn" id="aIqcXo0SfI" role="3EZMnx">
-          <property role="3F0ifm" value="The initial number of the" />
-          <node concept="Vb9p2" id="aIqcXo9KBg" role="3F10Kt" />
-        </node>
-        <node concept="1iCGBv" id="aIqcXo14LD" role="3EZMnx">
-          <property role="1$x2rV" value="control space to select entity" />
-          <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
-          <node concept="1sVBvm" id="aIqcXo14LF" role="1sWHZn">
-            <node concept="3F0A7n" id="aIqcXo14LN" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-        <node concept="3F0ifn" id="aIqcXo14LW" role="3EZMnx">
-          <property role="3F0ifm" value="is defined " />
-          <node concept="Vb9p2" id="aIqcXo9KBi" role="3F10Kt" />
-        </node>
-        <node concept="1iCGBv" id="4diQXU_2mld" role="3EZMnx">
-          <property role="1$x2rV" value="enter  default start numeber for this entity" />
-          <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
-          <node concept="1sVBvm" id="4diQXU_2mlf" role="1sWHZn">
-            <node concept="3F0A7n" id="4diQXU_2mlB" role="2wV5jI">
-              <ref role="1NtTu8" to="86kt:4diQXU_2lR0" resolve="unwanted_StartingNumber" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3EZMnI" id="aIqcXo0ShK" role="3EZMnx">
-        <node concept="2iRfu4" id="aIqcXo0ShL" role="2iSdaV" />
-        <node concept="3F0ifn" id="aIqcXo0SfL" role="3EZMnx">
-          <property role="3F0ifm" value="The maximum possible number of entities is:" />
-          <node concept="Vb9p2" id="aIqcXo0Si5" role="3F10Kt" />
-        </node>
-        <node concept="1iCGBv" id="4diQXU_2wJY" role="3EZMnx">
-          <property role="1$x2rV" value="Enter maximum number of entitys" />
-          <ref role="1NtTu8" to="86kt:aIqcXnYWs0" resolve="entity" />
-          <node concept="1sVBvm" id="4diQXU_2wK0" role="1sWHZn">
-            <node concept="3F0A7n" id="4diQXU_2wKe" role="2wV5jI">
-              <ref role="1NtTu8" to="86kt:4diQXU_2lQZ" resolve="unwanted_maximumNumberOfEntitys" />
-            </node>
-          </node>
         </node>
       </node>
       <node concept="3F2HdR" id="aIqcXoaSSd" role="3EZMnx">
@@ -2719,7 +2673,7 @@
                     </node>
                     <node concept="1mIQ4w" id="7MNWMN$GaF$" role="2OqNvi">
                       <node concept="chp4Y" id="7MNWMN$GaOF" role="cj9EA">
-                        <ref role="cht4Q" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+                        <ref role="cht4Q" to="86kt:3lcKR8aBGke" resolve="Entity" />
                       </node>
                     </node>
                   </node>
@@ -2933,7 +2887,7 @@
   </node>
   <node concept="24kQdi" id="3okqQmmA0ou">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3F0A7n" id="3okqQmmA0o_" role="2wV5jI">
       <property role="1$x2rV" value="write name of entity" />
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -3533,7 +3487,7 @@
   </node>
   <node concept="24kQdi" id="6dSewhkwgCk">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3EZMnI" id="6dSewhkwgCo" role="2wV5jI">
       <node concept="3EZMnI" id="60Hvi7scWtS" role="3EZMnx">
         <node concept="2iRfu4" id="60Hvi7scWtT" role="2iSdaV" />
@@ -3927,7 +3881,7 @@
   <node concept="3ICXOK" id="4qxfPPOZJXH">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="Attributes_ContextAssistant" />
-    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="1Qtc8_" id="4qxfPPOZzhY" role="IW6Ez">
       <node concept="2j_NTm" id="4qxfPPOZzhZ" role="1Qtc8$" />
       <node concept="IWgqT" id="4qxfPPOZzi0" role="1Qtc8A">
@@ -4001,7 +3955,7 @@
     </node>
   </node>
   <node concept="IW6AY" id="4qxfPPOQmqW">
-    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="aqKnT" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="1Qtc8_" id="4qxfPPOQmqX" role="IW6Ez">
       <node concept="2j_NTm" id="4qxfPPOQmr1" role="1Qtc8$" />
       <node concept="mvV$s" id="4qxfPPOZJDk" role="1Qtc8A">
@@ -4027,12 +3981,12 @@
               <node concept="3cpWsn" id="4qxfPPPnFQ8" role="3cpWs9">
                 <property role="TrG5h" value="newEntity" />
                 <node concept="3Tqbb2" id="4qxfPPPnFQ3" role="1tU5fm">
-                  <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+                  <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="Entity" />
                 </node>
                 <node concept="2ShNRf" id="4qxfPPPnG3g" role="33vP2m">
                   <node concept="3zrR0B" id="4qxfPPPnG3e" role="2ShVmc">
                     <node concept="3Tqbb2" id="4qxfPPPnG3f" role="3zrR0E">
-                      <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+                      <ref role="ehGHo" to="86kt:3lcKR8aBGke" resolve="Entity" />
                     </node>
                   </node>
                 </node>

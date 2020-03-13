@@ -134,8 +134,6 @@
         <child id="8931575016887347252" name="userDefinedAttributes" index="1XCrKs" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.TODO_Entity" flags="ng" index="ZOwpW">
-        <property id="4851181497929522624" name="unwanted_StartingNumber" index="3AmSou" />
-        <property id="4851181497929522623" name="unwanted_maximumNumberOfEntitys" index="3AmSpx" />
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
@@ -199,8 +197,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xsGMq" role="ZOwpT">
         <property role="TrG5h" value="frog" />
-        <property role="3AmSou" value="1" />
-        <property role="3AmSpx" value="3" />
         <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XpM/green" />
         </node>
@@ -467,8 +463,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qt" role="ZOwpT">
         <property role="TrG5h" value="wolf" />
-        <property role="3AmSou" value="1" />
-        <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$xz0Q$" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XmI/grey" />
         </node>
@@ -496,8 +490,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qv" role="ZOwpT">
         <property role="TrG5h" value="sheep" />
-        <property role="3AmSou" value="1" />
-        <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$xz0Qy" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XlP/white" />
         </node>
@@ -670,8 +662,6 @@
     <node concept="ZOwpU" id="qdXC$ygXa6" role="3$p12O">
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
         <property role="TrG5h" value="blue-group" />
-        <property role="3AmSou" value="10" />
-        <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$ygXaM" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
         </node>
@@ -728,8 +718,6 @@
       </node>
       <node concept="ZOwpW" id="qdXC$ygXaQ" role="ZOwpT">
         <property role="TrG5h" value="red-group" />
-        <property role="3AmSou" value="10" />
-        <property role="3AmSpx" value="100" />
         <node concept="ZOwrR" id="qdXC$ygXaZ" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
         </node>
@@ -940,8 +928,6 @@
       </node>
       <node concept="ZOwpW" id="35QCLExIhs4" role="ZOwpT">
         <property role="TrG5h" value="Fire" />
-        <property role="3AmSou" value="1" />
-        <property role="3AmSpx" value="100" />
         <node concept="ZOwpH" id="4qxfPPOMPu1" role="1XCrbu">
           <property role="TrG5h" value="energy" />
           <node concept="ZOwps" id="4qxfPPOMPuc" role="zGXb3" />

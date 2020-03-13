@@ -303,13 +303,13 @@
             </node>
           </node>
           <node concept="Jncv_" id="1LeTgidm9Kj" role="3cqZAp">
-            <ref role="JncvD" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+            <ref role="JncvD" to="86kt:3lcKR8aBGke" resolve="Entity" />
             <node concept="2OqwBi" id="1LeTgidma6u" role="JncvB">
               <node concept="EsrRn" id="1LeTgidm9Rg" role="2Oq$k0" />
               <node concept="2Xjw5R" id="1LeTgidmaiq" role="2OqNvi">
                 <node concept="1xMEDy" id="1LeTgidmais" role="1xVPHs">
                   <node concept="chp4Y" id="1LeTgidmajK" role="ri$Ld">
-                    <ref role="cht4Q" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+                    <ref role="cht4Q" to="86kt:3lcKR8aBGke" resolve="Entity" />
                   </node>
                 </node>
               </node>
@@ -941,7 +941,7 @@
   </node>
   <node concept="1M2fIO" id="6dSewhkMfEO">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1M2myG" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="1M2myG" to="86kt:3lcKR8aBGke" resolve="Entity" />
   </node>
   <node concept="1M2fIO" id="24yfUKsi5QA">
     <property role="3GE5qa" value="TODO_Expression" />
@@ -981,13 +981,13 @@
     <node concept="1N5Pfh" id="6efIhqTp5qK" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:RwtFpHTCbt" resolve="from" />
       <node concept="1dDu$B" id="6efIhqTp5qO" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
       </node>
     </node>
     <node concept="1N5Pfh" id="6efIhqTp5qR" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:RwtFpHCeSE" resolve="to" />
       <node concept="1dDu$B" id="6efIhqTp5qV" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+        <ref role="1dDu$A" to="86kt:3lcKR8aBGke" resolve="Entity" />
       </node>
     </node>
   </node>

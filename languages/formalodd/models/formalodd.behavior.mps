@@ -199,7 +199,7 @@
             </node>
             <node concept="2Zo12i" id="7qp8jK7LuQJ" role="2OqNvi">
               <node concept="chp4Y" id="7qp8jK7L$Vo" role="2Zo12j">
-                <ref role="cht4Q" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+                <ref role="cht4Q" to="86kt:3lcKR8aBGke" resolve="Entity" />
               </node>
             </node>
           </node>
@@ -415,7 +415,7 @@
   </node>
   <node concept="13h7C7" id="3kYfzLXhXMR">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="13h7C2" to="86kt:3lcKR8aBGke" resolve="TODO_Entity" />
+    <ref role="13h7C2" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="13hLZK" id="3kYfzLXhXMS" role="13h7CW">
       <node concept="3clFbS" id="3kYfzLXhXMT" role="2VODD2" />
     </node>
