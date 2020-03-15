@@ -175,7 +175,7 @@
       <property role="IQ2ns" value="7167542597236373246" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="initialisationNumberOfEntities" />
-      <ref role="20lvS9" node="3tK0pynGt4u" resolve="TODO_ValueSelect" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     </node>
     <node concept="1TJgyj" id="6dSewhkPe50" role="1TKVEi">
       <property role="IQ2ns" value="7167542597237662016" />
@@ -224,7 +224,7 @@
   <node concept="1TIwiD" id="3lcKR8aBGky">
     <property role="EcuMT" value="3840659476812055842" />
     <property role="TrG5h" value="Type" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -258,19 +258,19 @@
   <node concept="1TIwiD" id="3lcKR8aBGkH">
     <property role="EcuMT" value="3840659476812055853" />
     <property role="TrG5h" value="Boolean" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkI">
     <property role="EcuMT" value="3840659476812055854" />
     <property role="TrG5h" value="Integer" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkQ">
     <property role="EcuMT" value="3840659476812055862" />
     <property role="TrG5h" value="Float" />
-    <property role="3GE5qa" value="Types" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkY">
@@ -498,7 +498,7 @@
   <node concept="1TIwiD" id="3lcKR8aBGn3">
     <property role="EcuMT" value="3840659476812056003" />
     <property role="TrG5h" value="TODO_Expression" />
-    <property role="3GE5qa" value="TODO_Expression" />
+    <property role="3GE5qa" value="Expression" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGng">
@@ -573,7 +573,7 @@
   <node concept="1TIwiD" id="3mweh_A8dKi">
     <property role="EcuMT" value="3864151261534280722" />
     <property role="TrG5h" value="Action" />
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
@@ -665,8 +665,8 @@
   <node concept="1TIwiD" id="3rTwIuRHR_m">
     <property role="EcuMT" value="3961341278980372822" />
     <property role="TrG5h" value="IntSlider" />
-    <property role="3GE5qa" value="TODO_ValueSelect" />
-    <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
+    <property role="3GE5qa" value="Initialization" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyi" id="3rTwIuRHR_n" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372823" />
       <property role="TrG5h" value="generatedName" />
@@ -750,7 +750,7 @@
   </node>
   <node concept="1TIwiD" id="6lHESjKCmJ_">
     <property role="EcuMT" value="7308686357753326565" />
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="Procedure" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="3kYfzLXiOT3" role="1TKVEi">
@@ -818,7 +818,7 @@
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9m">
     <property role="EcuMT" value="7308686357753541206" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="QuantifiedCondition" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyi" id="7y2oNwbJHy" role="1TKVEl">
@@ -973,14 +973,14 @@
   </node>
   <node concept="1TIwiD" id="5zjJPlgcA6V">
     <property role="EcuMT" value="6400669868562211259" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="SetAttribute" />
     <property role="R4oN_" value="updates values" />
     <ref role="1TJDcQ" node="7MNWMNBgngJ" resolve="AssignAttribute" />
   </node>
   <node concept="1TIwiD" id="5zjJPlgcAgd">
     <property role="EcuMT" value="6400669868562211853" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="ChangeEnvironment" />
     <property role="R4oN_" value="Changes the enviroment" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1052,7 +1052,7 @@
   </node>
   <node concept="1TIwiD" id="5zjJPlgCEfx">
     <property role="EcuMT" value="6400669868569568225" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="KillEntity" />
     <property role="R4oN_" value="despawns an entity" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1179,7 +1179,7 @@
   </node>
   <node concept="1TIwiD" id="2EFWiWzCelr">
     <property role="EcuMT" value="3074816355373999451" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect.TODO_Move" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="TODO_MoveRandom" />
     <property role="R4oN_" value="moves a entity randomly" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1191,7 +1191,7 @@
   </node>
   <node concept="1TIwiD" id="2EFWiW_aoJz">
     <property role="EcuMT" value="3074816355399732195" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_Collides" />
     <property role="R4oN_" value="Used to determind if entity colides" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
@@ -1208,7 +1208,7 @@
   </node>
   <node concept="1TIwiD" id="79PYCRrUEZI">
     <property role="EcuMT" value="8247773779785854958" />
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="TODO_Spawn" />
     <property role="R4oN_" value="Spawns a new entity" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1254,7 +1254,7 @@
   </node>
   <node concept="1TIwiD" id="1zaawdvpfAU">
     <property role="EcuMT" value="1786286396179544506" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="Condition" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
@@ -1268,7 +1268,7 @@
   </node>
   <node concept="1TIwiD" id="1zaawdw2ixu">
     <property role="EcuMT" value="1786286396190304350" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="NeighbourEnvironment" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
     <node concept="1TJgyi" id="5vgYlnqdd_9" role="1TKVEl">
@@ -1286,8 +1286,8 @@
   </node>
   <node concept="1TIwiD" id="1zaawdw5aVr">
     <property role="EcuMT" value="1786286396191059675" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
-    <property role="TrG5h" value="TODO_Sprout" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="TrG5h" value="REMOVE_Sprout" />
     <property role="R4oN_" value="spawn new entity at patch" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="1zaawdw5bqj" role="1TKVEi">
@@ -1299,13 +1299,13 @@
   </node>
   <node concept="1TIwiD" id="1zaawdwHPWl">
     <property role="EcuMT" value="1786286396201721621" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_OccupiedSpot" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
   </node>
   <node concept="1TIwiD" id="1zaawdwHRIC">
     <property role="EcuMT" value="1786286396201728936" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="CallAction" />
     <property role="R4oN_" value="calls a procedure or interaction" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1318,7 +1318,7 @@
   </node>
   <node concept="1TIwiD" id="4MYWhBhM02l">
     <property role="EcuMT" value="5530122485653569685" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_actionSelect" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="TODO_CenterOnPatch" />
     <property role="R4oN_" value="places the entity center on current patch" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1338,7 +1338,7 @@
   </node>
   <node concept="1TIwiD" id="qdXC$xsGIe">
     <property role="EcuMT" value="472304604775893902" />
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="Interaction" />
     <ref role="1TJDcQ" node="6lHESjKCmJ_" resolve="Procedure" />
     <node concept="1TJgyj" id="5yfUVbsWXs8" role="1TKVEi">
@@ -1462,25 +1462,11 @@
       <property role="TrG5h" value="green" />
     </node>
   </node>
-  <node concept="1TIwiD" id="3tK0pynGt4u">
-    <property role="EcuMT" value="3994694624369299742" />
-    <property role="TrG5h" value="TODO_ValueSelect" />
-    <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="TODO_ValueSelect" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
-  </node>
-  <node concept="1TIwiD" id="7AEkq7xbIsR">
-    <property role="EcuMT" value="8766909380339623735" />
-    <property role="TrG5h" value="TODO_NumericValueSelect" />
-    <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="TODO_ValueSelect" />
-    <ref role="1TJDcQ" node="3tK0pynGt4u" resolve="TODO_ValueSelect" />
-  </node>
   <node concept="1TIwiD" id="7AEkq7xq0wR">
     <property role="EcuMT" value="8766909380343367735" />
     <property role="TrG5h" value="IntegerConstant" />
-    <property role="3GE5qa" value="TODO_Expression" />
-    <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
+    <property role="3GE5qa" value="Expression" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyi" id="7AEkq7xq0wS" role="1TKVEl">
       <property role="IQ2nx" value="8766909380343367736" />
       <property role="TrG5h" value="value" />
@@ -1510,66 +1496,38 @@
     <property role="EcuMT" value="7167542597237662035" />
     <property role="TrG5h" value="TODO_InitialEntityDistribution" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="TODO_InitialEntityDistribution" />
+    <property role="3GE5qa" value="Initialization" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="6dSewhkPe5k">
     <property role="EcuMT" value="7167542597237662036" />
     <property role="TrG5h" value="TODO_Random" />
-    <property role="3GE5qa" value="TODO_InitialEntityDistribution" />
+    <property role="3GE5qa" value="Initialization" />
     <ref role="1TJDcQ" node="6dSewhkPe5j" resolve="TODO_InitialEntityDistribution" />
   </node>
   <node concept="1TIwiD" id="6dSewhkPe7U">
     <property role="EcuMT" value="7167542597237662202" />
     <property role="TrG5h" value="TODO_Left" />
-    <property role="3GE5qa" value="TODO_InitialEntityDistribution" />
+    <property role="3GE5qa" value="Initialization" />
     <ref role="1TJDcQ" node="6dSewhkPe5j" resolve="TODO_InitialEntityDistribution" />
   </node>
   <node concept="1TIwiD" id="60Hvi7s39O6">
     <property role="EcuMT" value="6930332985972268294" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="BooleanConstant" />
-    <ref role="1TJDcQ" node="60Hvi7s39O7" resolve="TODO_BooleanValueSelect" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyi" id="60Hvi7s3aFU" role="1TKVEl">
       <property role="IQ2nx" value="6930332985972271866" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
-  <node concept="1TIwiD" id="60Hvi7s39O7">
-    <property role="EcuMT" value="6930332985972268295" />
-    <property role="3GE5qa" value="TODO_ValueSelect" />
-    <property role="R5$K7" value="true" />
-    <property role="TrG5h" value="TODO_BooleanValueSelect" />
-    <ref role="1TJDcQ" node="3tK0pynGt4u" resolve="TODO_ValueSelect" />
-  </node>
   <node concept="1TIwiD" id="60Hvi7sIcIO">
     <property role="EcuMT" value="6930332985983552436" />
     <property role="TrG5h" value="Location" />
     <property role="R5$K7" value="true" />
-    <property role="3GE5qa" value="Location" />
+    <property role="3GE5qa" value="Initialization" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-  </node>
-  <node concept="25R3W" id="60Hvi7sndtu">
-    <property role="3F6X1D" value="6930332985977526110" />
-    <property role="3GE5qa" value="TODO_ValueSelect" />
-    <property role="TrG5h" value="TODO_ValueSelectOptions" />
-    <ref role="1H5jkz" node="60Hvi7sndtv" resolve="userDefined" />
-    <node concept="25R33" id="60Hvi7sndtv" role="25R1y">
-      <property role="3tVfz5" value="6930332985977526111" />
-      <property role="TrG5h" value="userDefined" />
-      <property role="1L1pqM" value="User defined (In Netlogo or as constant)" />
-    </node>
-    <node concept="25R33" id="60Hvi7sndtw" role="25R1y">
-      <property role="3tVfz5" value="6930332985977526112" />
-      <property role="TrG5h" value="expression" />
-      <property role="1L1pqM" value="Expression" />
-    </node>
-    <node concept="25R33" id="60Hvi7sndtz" role="25R1y">
-      <property role="3tVfz5" value="6930332985977526115" />
-      <property role="TrG5h" value="nothing" />
-      <property role="1L1pqM" value="Nothing" />
-    </node>
   </node>
   <node concept="1TIwiD" id="60Hvi7snd29">
     <property role="EcuMT" value="6930332985977524361" />
@@ -1584,7 +1542,7 @@
   </node>
   <node concept="1TIwiD" id="60Hvi7sLq0K">
     <property role="EcuMT" value="6930332985984393264" />
-    <property role="3GE5qa" value="Location" />
+    <property role="3GE5qa" value="Initialization" />
     <property role="TrG5h" value="Density" />
     <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="Location" />
     <node concept="1TJgyj" id="60Hvi7sLq0L" role="1TKVEi">
@@ -1592,12 +1550,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="percentage" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="1LeTgidavpN">
     <property role="EcuMT" value="2039819488956380787" />
-    <property role="3GE5qa" value="Location" />
+    <property role="3GE5qa" value="Initialization" />
     <property role="TrG5h" value="Area" />
     <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="Location" />
     <node concept="1TJgyi" id="1LeTgidcarw" role="1TKVEl">
@@ -1608,7 +1566,7 @@
   </node>
   <node concept="25R3W" id="1LeTgidavpO">
     <property role="3F6X1D" value="2039819488956380788" />
-    <property role="3GE5qa" value="Location" />
+    <property role="3GE5qa" value="Initialization" />
     <property role="TrG5h" value="AreaEnumeration" />
     <node concept="25R33" id="1LeTgidavpP" role="25R1y">
       <property role="3tVfz5" value="2039819488956380789" />
@@ -1633,23 +1591,23 @@
   </node>
   <node concept="1TIwiD" id="24yfUKsi5Q4">
     <property role="EcuMT" value="2387540760901213572" />
-    <property role="3GE5qa" value="TODO_Expression" />
+    <property role="3GE5qa" value="TO_REMOVE" />
     <property role="R5$K7" value="true" />
-    <property role="TrG5h" value="TODO_NumericExpression" />
+    <property role="TrG5h" value="REMOVE_NumericExpression" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
   </node>
   <node concept="1TIwiD" id="24yfUKsjki_">
     <property role="EcuMT" value="2387540760901534885" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
+    <property role="3GE5qa" value="Expression" />
     <property role="TrG5h" value="TODO_Count" />
     <property role="34LRSv" value="Counting" />
-    <ref role="1TJDcQ" node="24yfUKsi5Q4" resolve="TODO_NumericExpression" />
+    <ref role="1TJDcQ" node="24yfUKsi5Q4" resolve="REMOVE_NumericExpression" />
     <node concept="1TJgyj" id="24yfUKsjkLQ" role="1TKVEi">
       <property role="IQ2ns" value="2387540760901536886" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="countBase" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="24yfUKsjkLN" resolve="TODO_CountBase" />
+      <ref role="20lvS9" node="24yfUKsjkLN" resolve="REMOVE_CountBase" />
     </node>
     <node concept="1TJgyj" id="24yfUKsi5Qk" role="1TKVEi">
       <property role="IQ2ns" value="2387540760901213588" />
@@ -1661,13 +1619,13 @@
     <node concept="1TJgyi" id="24yfUKsoLFU" role="1TKVEl">
       <property role="IQ2nx" value="2387540760902966010" />
       <property role="TrG5h" value="typeToCount" />
-      <ref role="AX2Wp" node="24yfUKsoLFP" resolve="TODO_TypeToCount" />
+      <ref role="AX2Wp" node="24yfUKsoLFP" resolve="REMOVE_TypeToCount" />
     </node>
   </node>
   <node concept="1TIwiD" id="24yfUKsjkLN">
     <property role="EcuMT" value="2387540760901536883" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
-    <property role="TrG5h" value="TODO_CountBase" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="TrG5h" value="REMOVE_CountBase" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="24yfUKsjkLO" role="1TKVEl">
@@ -1678,7 +1636,7 @@
   </node>
   <node concept="1TIwiD" id="24yfUKsjkLU">
     <property role="EcuMT" value="2387540760901536890" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_ConditionWith" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
@@ -1705,30 +1663,23 @@
   </node>
   <node concept="1TIwiD" id="24yfUKsm9R4">
     <property role="EcuMT" value="2387540760902278596" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
-    <property role="TrG5h" value="TODO_CountSameLocation" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="TrG5h" value="REMOVE_CountSameLocation" />
     <property role="34LRSv" value="Same Location" />
-    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="TODO_CountBase" />
+    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="REMOVE_CountBase" />
   </node>
   <node concept="1TIwiD" id="24yfUKsm9R5">
     <property role="EcuMT" value="2387540760902278597" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
-    <property role="TrG5h" value="TODO_CountNeighbors" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="TrG5h" value="REMOVE_CountNeighbors" />
     <property role="34LRSv" value="Neighbors" />
     <property role="R4oN_" value="Neighbor patches" />
-    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="TODO_CountBase" />
-  </node>
-  <node concept="1TIwiD" id="24yfUKsnr5W">
-    <property role="EcuMT" value="2387540760902611324" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
-    <property role="TrG5h" value="TODO_CountAll" />
-    <property role="34LRSv" value="All" />
-    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="TODO_CountBase" />
+    <ref role="1TJDcQ" node="24yfUKsjkLN" resolve="REMOVE_CountBase" />
   </node>
   <node concept="25R3W" id="24yfUKsoLFP">
     <property role="3F6X1D" value="2387540760902966005" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_NumericExpressions.TODO_Count" />
-    <property role="TrG5h" value="TODO_TypeToCount" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="TrG5h" value="REMOVE_TypeToCount" />
     <node concept="25R33" id="24yfUKsoLFQ" role="25R1y">
       <property role="3tVfz5" value="2387540760902966006" />
       <property role="TrG5h" value="entities" />
@@ -1737,7 +1688,7 @@
   </node>
   <node concept="1TIwiD" id="24yfUKswWzv">
     <property role="EcuMT" value="2387540760905107679" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_ConditionWithSpecific" />
     <property role="34LRSv" value="With comparing to a specific value" />
     <ref role="1TJDcQ" node="24yfUKsjkLU" resolve="TODO_ConditionWith" />
@@ -1749,14 +1700,14 @@
   </node>
   <node concept="1TIwiD" id="24yfUKswWzw">
     <property role="EcuMT" value="2387540760905107680" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_ConditionWithSame" />
     <property role="34LRSv" value="With comparing to me" />
     <ref role="1TJDcQ" node="24yfUKsjkLU" resolve="TODO_ConditionWith" />
   </node>
   <node concept="25R3W" id="24yfUKsyf$H">
     <property role="3F6X1D" value="2387540760905447725" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="ComparisonOperators" />
     <node concept="25R33" id="24yfUKsyf$I" role="25R1y">
       <property role="3tVfz5" value="2387540760905447726" />
@@ -1791,7 +1742,7 @@
   </node>
   <node concept="25R3W" id="2kHWdXWIfBX">
     <property role="3F6X1D" value="2679062196016183805" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_ConditionWithAttributeSelectionEnum" />
     <node concept="25R33" id="2kHWdXWIfBY" role="25R1y">
       <property role="3tVfz5" value="2679062196016183806" />
@@ -1806,7 +1757,7 @@
   </node>
   <node concept="25R3W" id="2kHWdXWIfBZ">
     <property role="3F6X1D" value="2679062196016183807" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="TODO_EntityBaseAttributes" />
     <node concept="25R33" id="2kHWdXWIfC0" role="25R1y">
       <property role="3tVfz5" value="2679062196016183808" />
@@ -1826,7 +1777,7 @@
   </node>
   <node concept="25R3W" id="7y2oNwbJHk">
     <property role="3F6X1D" value="135681439435782996" />
-    <property role="3GE5qa" value="TODO_Scheduling.TODO_EndCondition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="Quantifier" />
     <node concept="25R33" id="7y2oNwbJHl" role="25R1y">
       <property role="3tVfz5" value="135681439435782997" />
@@ -1867,19 +1818,19 @@
   </node>
   <node concept="1TIwiD" id="7MNWMNAzpgj">
     <property role="EcuMT" value="8985793055706420243" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="IncrementAttribute" />
     <ref role="1TJDcQ" node="7MNWMNBgngJ" resolve="AssignAttribute" />
   </node>
   <node concept="1TIwiD" id="7MNWMNAzpgk">
     <property role="EcuMT" value="8985793055706420244" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="DecrementAttribute" />
     <ref role="1TJDcQ" node="7MNWMNBgngJ" resolve="AssignAttribute" />
   </node>
   <node concept="1TIwiD" id="7MNWMNBgngJ">
     <property role="EcuMT" value="8985793055718208559" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="AssignAttribute" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
@@ -1899,7 +1850,7 @@
   </node>
   <node concept="1TIwiD" id="7MNWMNBrfES">
     <property role="EcuMT" value="8985793055721061048" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="ConditionalAction" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyj" id="7MNWMNBrfEV" role="1TKVEi">
@@ -1944,8 +1895,8 @@
   <node concept="1TIwiD" id="7MNWMNCXZ_$">
     <property role="EcuMT" value="8985793055746947428" />
     <property role="TrG5h" value="FIX_FloatSlider" />
-    <property role="3GE5qa" value="TODO_ValueSelect" />
-    <ref role="1TJDcQ" node="7AEkq7xbIsR" resolve="TODO_NumericValueSelect" />
+    <property role="3GE5qa" value="Initialization" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyi" id="7MNWMNCXZ__" role="1TKVEl">
       <property role="IQ2nx" value="8985793055746947429" />
       <property role="TrG5h" value="generatedName" />
@@ -1974,7 +1925,7 @@
   </node>
   <node concept="25R3W" id="5yfUVburW9D">
     <property role="3F6X1D" value="6381578350475854441" />
-    <property role="3GE5qa" value="Actions" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="SpecialEntities" />
     <node concept="25R33" id="5yfUVburW9E" role="25R1y">
       <property role="3tVfz5" value="6381578350475854442" />
@@ -1987,7 +1938,7 @@
   </node>
   <node concept="1TIwiD" id="5yfUVbuMlWA">
     <property role="EcuMT" value="6381578350481727270" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="Comparison" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
     <node concept="1TJgyi" id="5yfUVbuMlWB" role="1TKVEl">
@@ -2012,7 +1963,7 @@
   </node>
   <node concept="1TIwiD" id="5yfUVbuQFWe">
     <property role="EcuMT" value="6381578350482865934" />
-    <property role="3GE5qa" value="TODO_Expression" />
+    <property role="3GE5qa" value="Expression" />
     <property role="TrG5h" value="AttributeAccess" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="TODO_Expression" />
     <node concept="1TJgyj" id="5yfUVbuQFWh" role="1TKVEi">
@@ -2024,7 +1975,7 @@
   </node>
   <node concept="1TIwiD" id="5yfUVbv5$Yr">
     <property role="EcuMT" value="6381578350486769563" />
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <property role="TrG5h" value="CurrentEnvironment" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
     <node concept="1TJgyi" id="5yfUVbv5$Ys" role="1TKVEl">

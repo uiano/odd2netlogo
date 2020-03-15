@@ -415,7 +415,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="24yfUKsyhVm">
-    <property role="3GE5qa" value="TODO_Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expression.TODO_Condition" />
     <ref role="13h7C2" to="86kt:24yfUKswWzw" resolve="TODO_ConditionWithSame" />
     <node concept="13hLZK" id="24yfUKsyhVn" role="13h7CW">
       <node concept="3clFbS" id="24yfUKsyhVo" role="2VODD2" />
@@ -494,7 +494,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="3kYfzLXo$cZ">
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="13h7C2" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
     <node concept="13hLZK" id="3kYfzLXo$d0" role="13h7CW">
       <node concept="3clFbS" id="3kYfzLXo$d1" role="2VODD2" />
@@ -692,7 +692,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="3kYfzLXqvbG">
-    <property role="3GE5qa" value="TODO_Scheduling" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="13h7C2" to="86kt:qdXC$xsGIe" resolve="Interaction" />
     <node concept="13hLZK" id="3kYfzLXqvbH" role="13h7CW">
       <node concept="3clFbS" id="3kYfzLXqvbI" role="2VODD2" />
