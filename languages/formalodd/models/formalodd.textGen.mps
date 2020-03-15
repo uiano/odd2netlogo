@@ -4250,7 +4250,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="2EFWiW_aoLj">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:2EFWiW_aoJz" resolve="TODO_Collides" />
     <node concept="11bSqf" id="2EFWiW_aoLk" role="11c4hB">
       <node concept="3clFbS" id="2EFWiW_aoLl" role="2VODD2">
@@ -4356,8 +4356,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="2EFWiW_cRmh">
-    <property role="3GE5qa" value="TODO_Unwanted" />
-    <ref role="WuzLi" to="86kt:aIqcXnA9xq" resolve="TODO_Attribute" />
+    <property role="3GE5qa" value="TO_REMOVE" />
+    <ref role="WuzLi" to="86kt:aIqcXnA9xq" resolve="REMOVE_Attribute" />
     <node concept="11bSqf" id="2EFWiW_cRmi" role="11c4hB">
       <node concept="3clFbS" id="2EFWiW_cRmj" role="2VODD2" />
     </node>
@@ -4742,7 +4742,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1zaawdw3aep">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:1zaawdw2ixu" resolve="NeighbourEnvironment" />
     <node concept="11bSqf" id="1zaawdw3aeq" role="11c4hB">
       <node concept="3clFbS" id="1zaawdw3aer" role="2VODD2">
@@ -4814,7 +4814,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1zaawdwHPXn">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:1zaawdwHPWl" resolve="TODO_OccupiedSpot" />
     <node concept="11bSqf" id="1zaawdwHPXo" role="11c4hB">
       <node concept="3clFbS" id="1zaawdwHPXp" role="2VODD2">
@@ -5402,7 +5402,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="24yfUKsq1bG">
-    <property role="3GE5qa" value="Expression" />
+    <property role="3GE5qa" value="Expressions" />
     <ref role="WuzLi" to="86kt:24yfUKsjki_" resolve="TODO_Count" />
     <node concept="11bSqf" id="24yfUKsq1bH" role="11c4hB">
       <node concept="3clFbS" id="24yfUKsq1bI" role="2VODD2">
@@ -5537,7 +5537,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="24yfUKsydsl">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:24yfUKswWzw" resolve="TODO_ConditionWithSame" />
     <node concept="11bSqf" id="24yfUKsydsm" role="11c4hB">
       <node concept="3clFbS" id="24yfUKsydsn" role="2VODD2">
@@ -5670,7 +5670,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="4HBtuojBnUW">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:24yfUKswWzv" resolve="TODO_ConditionWithSpecific" />
     <node concept="11bSqf" id="4HBtuojBnUX" role="11c4hB">
       <node concept="3clFbS" id="4HBtuojBnUY" role="2VODD2">
@@ -5874,7 +5874,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="7MNWMN$khew">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:6lHESjKDb9m" resolve="QuantifiedCondition" />
     <node concept="11bSqf" id="7MNWMN$khex" role="11c4hB">
       <node concept="3clFbS" id="7MNWMN$khey" role="2VODD2">
@@ -6360,7 +6360,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="7MNWMNAI9dZ">
-    <property role="3GE5qa" value="Expression" />
+    <property role="3GE5qa" value="Expressions" />
     <ref role="WuzLi" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
     <node concept="11bSqf" id="7MNWMNAI9e0" role="11c4hB">
       <node concept="3clFbS" id="7MNWMNAI9e1" role="2VODD2">
@@ -6556,7 +6556,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5yfUVbuUoIb">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:5yfUVbuMlWA" resolve="Comparison" />
     <node concept="11bSqf" id="5yfUVbuUoIc" role="11c4hB">
       <node concept="3clFbS" id="5yfUVbuUoId" role="2VODD2">
@@ -6615,7 +6615,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5yfUVbuY7nO">
-    <property role="3GE5qa" value="Expression" />
+    <property role="3GE5qa" value="Expressions" />
     <ref role="WuzLi" to="86kt:5yfUVbuQFWe" resolve="AttributeAccess" />
     <node concept="11bSqf" id="5yfUVbuY7nP" role="11c4hB">
       <node concept="3clFbS" id="5yfUVbuY7nQ" role="2VODD2">
@@ -6638,7 +6638,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5yfUVbv9l9U">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:5yfUVbv5$Yr" resolve="CurrentEnvironment" />
     <node concept="11bSqf" id="5yfUVbv9l9V" role="11c4hB">
       <node concept="3clFbS" id="5yfUVbv9l9W" role="2VODD2">
@@ -6666,7 +6666,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="5yfUVbvgOSX">
-    <property role="3GE5qa" value="Expression.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="WuzLi" to="86kt:60Hvi7s39O6" resolve="BooleanConstant" />
     <node concept="11bSqf" id="5yfUVbvgOSY" role="11c4hB">
       <node concept="3clFbS" id="5yfUVbvgOSZ" role="2VODD2">
