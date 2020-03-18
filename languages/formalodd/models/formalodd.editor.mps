@@ -2715,16 +2715,9 @@
       <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
     </node>
   </node>
-  <node concept="24kQdi" id="24yfUKsi5Qd">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:24yfUKsi5Q4" resolve="REMOVE_NumericExpression" />
-    <node concept="3F0ifn" id="24yfUKsjkiH" role="2wV5jI">
-      <property role="3F0ifm" value="Numeric Expression" />
-    </node>
-  </node>
   <node concept="24kQdi" id="24yfUKsjkj0">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_CountEntities" />
     <node concept="3EZMnI" id="24yfUKsypwQ" role="2wV5jI">
       <node concept="2iRkQZ" id="24yfUKsypwR" role="2iSdaV" />
       <node concept="3EZMnI" id="24yfUKsi5Qn" role="3EZMnx">
@@ -2757,11 +2750,8 @@
             </node>
           </node>
         </node>
-        <node concept="3F1sOY" id="24yfUKsmjBn" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:24yfUKsjkLQ" resolve="countBase" />
-        </node>
         <node concept="3F0A7n" id="24yfUKsoLNs" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:24yfUKsoLFU" resolve="typeToCount" />
+          <ref role="1NtTu8" to="86kt:5iGq3FqxFD3" resolve="where" />
         </node>
         <node concept="3F0ifn" id="24yfUKsmjB0" role="3EZMnx">
           <property role="3F0ifm" value="with the following criteria:" />
@@ -2798,13 +2788,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="24yfUKsnE7H">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:24yfUKsm9R5" resolve="REMOVE_CountNeighbors" />
-    <node concept="3F0ifn" id="24yfUKsnE7J" role="2wV5jI">
-      <property role="ilYzB" value="neighboring" />
     </node>
   </node>
   <node concept="24kQdi" id="7qp8jK7xuHC">
@@ -2924,7 +2907,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="24yfUKsx3LW">
-    <property role="3GE5qa" value="TO_REMOVE" />
+    <property role="3GE5qa" value="Expressions" />
     <ref role="1XX52x" to="86kt:60Hvi7snd29" resolve="REMOVE_NetlogoExpression" />
     <node concept="3EZMnI" id="24yfUKsx3M3" role="2wV5jI">
       <node concept="2iRfu4" id="24yfUKsx3M4" role="2iSdaV" />
@@ -3004,7 +2987,7 @@
   </node>
   <node concept="24kQdi" id="24yfUKsAS2v">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_Count" />
+    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_CountEntities" />
     <node concept="3EZMnI" id="24yfUKsAS2z" role="2wV5jI">
       <node concept="3F0ifn" id="28AKh6DkFOj" role="3EZMnx">
         <property role="3F0ifm" value="counting" />
@@ -3018,13 +3001,6 @@
     </node>
     <node concept="2aJ2om" id="24yfUKsHJVS" role="CpUAK">
       <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="4HBtuojTQi5">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:24yfUKsm9R4" resolve="REMOVE_CountSameLocation" />
-    <node concept="3F0ifn" id="4HBtuojTQi7" role="2wV5jI">
-      <property role="ilYzB" value="same location" />
     </node>
   </node>
   <node concept="24kQdi" id="7MNWMNAzpgt">

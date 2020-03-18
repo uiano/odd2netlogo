@@ -100,12 +100,10 @@
         <property id="5433441106477358816" name="baseEntityAttributes" index="1oWuG6" />
         <property id="2679062196016183840" name="selectionAttributes" index="1p_gFZ" />
       </concept>
-      <concept id="2387540760901534885" name="formalodd.structure.TODO_Count" flags="ng" index="XrRG9">
-        <property id="2387540760902966010" name="typeToCount" index="Xgilm" />
+      <concept id="2387540760901534885" name="formalodd.structure.TODO_CountEntities" flags="ng" index="XrRG9">
+        <property id="6101366197163833923" name="where" index="2eaH9T" />
         <child id="2387540760901213588" name="countCondition" index="XqA8S" />
-        <child id="2387540760901536886" name="countBase" index="XrRfq" />
       </concept>
-      <concept id="2387540760902278597" name="formalodd.structure.TODO_CountNeighbors" flags="ng" index="XuE9D" />
       <concept id="6620640720694302583" name="formalodd.structure.InformalConcept" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
@@ -674,34 +672,31 @@
           <property role="TrG5h" value="other-nearby" />
           <node concept="ZOwps" id="60Hvi7s7XxP" role="zGXb3" />
           <node concept="XrRG9" id="28AKh6DmYLV" role="2oy9Oj">
-            <property role="Xgilm" value="24yfUKsoLFQ/entities" />
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
             <node concept="XCvtc" id="4HBtuojWNAi" role="XqA8S">
               <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
               <property role="1oWuG6" value="2kHWdXWIfC0/color" />
               <property role="XEM5g" value="24yfUKsyf$J/unequal" />
             </node>
-            <node concept="XuE9D" id="28AKh6DmYLZ" role="XrRfq" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s7Xwx" role="1XCrbu">
           <property role="TrG5h" value="similar-nearby" />
           <node concept="ZOwps" id="4HBtuojTQ2q" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojwmd2" role="2oy9Oj">
-            <property role="Xgilm" value="24yfUKsoLFQ/entities" />
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
             <node concept="XCvtc" id="4HBtuojPhjh" role="XqA8S">
               <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
               <property role="1oWuG6" value="2kHWdXWIfC0/color" />
               <property role="XEM5g" value="24yfUKsyf$I/equal" />
             </node>
-            <node concept="XuE9D" id="4HBtuojwmd6" role="XrRfq" />
           </node>
         </node>
         <node concept="ZOwpH" id="24yfUKsqGXK" role="1XCrbu">
           <property role="TrG5h" value="total-nearby" />
           <node concept="ZOwps" id="24yfUKstj8f" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojD$nA" role="2oy9Oj">
-            <property role="Xgilm" value="24yfUKsoLFQ/entities" />
-            <node concept="XuE9D" id="4HBtuojD$nE" role="XrRfq" />
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s6oq6" role="1XCrbu">
@@ -730,34 +725,31 @@
           <property role="TrG5h" value="other-nearby" />
           <node concept="ZOwps" id="60Hvi7s7XyR" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojTQ2v" role="2oy9Oj">
-            <property role="Xgilm" value="24yfUKsoLFQ/entities" />
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
             <node concept="XCvtc" id="4HBtuojTQ2C" role="XqA8S">
               <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
               <property role="1oWuG6" value="2kHWdXWIfC0/color" />
               <property role="XEM5g" value="24yfUKsyf$J/unequal" />
             </node>
-            <node concept="XuE9D" id="4HBtuojTQ2z" role="XrRfq" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s7XyX" role="1XCrbu">
           <property role="TrG5h" value="similar-nearby" />
           <node concept="ZOwps" id="60Hvi7s7Xz6" role="zGXb3" />
           <node concept="XrRG9" id="4HBtuojTQ2F" role="2oy9Oj">
-            <property role="Xgilm" value="24yfUKsoLFQ/entities" />
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
             <node concept="XCvtc" id="4HBtuojTQ2O" role="XqA8S">
               <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
               <property role="1oWuG6" value="2kHWdXWIfC0/color" />
               <property role="XEM5g" value="24yfUKsyf$I/equal" />
             </node>
-            <node concept="XuE9D" id="4HBtuojTQ2J" role="XrRfq" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s7Xzc" role="1XCrbu">
           <property role="TrG5h" value="total-nearby" />
           <node concept="ZOwps" id="60Hvi7s7Xzo" role="zGXb3" />
           <node concept="XrRG9" id="24yfUKstj8i" role="2oy9Oj">
-            <property role="Xgilm" value="24yfUKsoLFQ/entities" />
-            <node concept="XuE9D" id="4HBtuojXZL$" role="XrRfq" />
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
           </node>
         </node>
         <node concept="ZOwpH" id="60Hvi7s81UW" role="1XCrbu">
