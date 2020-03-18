@@ -1122,51 +1122,12 @@
       <property role="3F0ifm" value=" " />
     </node>
   </node>
-  <node concept="PKFIW" id="215d$P5efwS">
-    <property role="TrG5h" value="Who" />
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="REMOVE_SelectingType" />
-    <node concept="3F0A7n" id="215d$P5efwU" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:215d$P5delG" resolve="Who" />
-    </node>
-  </node>
-  <node concept="PKFIW" id="215d$P5efwY">
-    <property role="TrG5h" value="What" />
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="REMOVE_SelectingType" />
-    <node concept="3F0A7n" id="215d$P5efx0" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:215d$P5delJ" resolve="What" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="215d$P5foT8">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:215d$P5delF" resolve="REMOVE_SelectingType" />
-    <node concept="3F0A7n" id="215d$P5foTa" role="2wV5jI">
-      <property role="1$x2rV" value="press alt enter to select what type of object to be initilised" />
-      <ref role="1NtTu8" to="86kt:215d$P5delG" resolve="Who" />
-    </node>
-  </node>
   <node concept="PKFIW" id="215d$P5k6mk">
     <property role="TrG5h" value="EntityMain" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="3F0A7n" id="215d$P5kAuv" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="aIqcXn_lWt">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:aIqcXn$cmK" resolve="REMOVE_AttributeStableOption" />
-    <node concept="3F0A7n" id="aIqcXn_lWv" role="2wV5jI">
-      <ref role="1NtTu8" to="86kt:aIqcXn$cmL" resolve="option" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="aIqcXnFUpZ">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:aIqcXnEcvF" resolve="REMOVE_AttributeValueOptions" />
-    <node concept="3F0A7n" id="aIqcXnFUq1" role="2wV5jI">
-      <property role="1$x2rV" value="press alt enter to get options for types" />
-      <ref role="1NtTu8" to="86kt:aIqcXnEcvG" resolve="ValueOption" />
     </node>
   </node>
   <node concept="24kQdi" id="3rTwIuRHR_Y">
@@ -1703,8 +1664,8 @@
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdw5aVO">
-    <property role="3GE5qa" value="TO_REMOVE" />
-    <ref role="1XX52x" to="86kt:1zaawdw5aVr" resolve="REMOVE_Sprout" />
+    <property role="3GE5qa" value="4FutureUse" />
+    <ref role="1XX52x" to="86kt:1zaawdw5aVr" resolve="TODO_Sprout" />
     <node concept="3EZMnI" id="qdXC$xWxDh" role="2wV5jI">
       <node concept="2iRkQZ" id="qdXC$xWxDi" role="2iSdaV" />
       <node concept="3EZMnI" id="1zaawdw5bql" role="3EZMnx">
