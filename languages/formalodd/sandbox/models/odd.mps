@@ -32,7 +32,7 @@
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
       <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
-        <property id="3074816355373999452" name="MovmentSpeed" index="92LhN" />
+        <property id="3074816355373999452" name="MovementSpeed" index="92LhN" />
       </concept>
       <concept id="3074816355399732195" name="formalodd.structure.TODO_Collides" flags="ng" index="fwBFc">
         <reference id="3074816355399732196" name="Target" index="fwBFb" />
@@ -818,6 +818,17 @@
           <ref role="2rWCsu" node="60Hvi7s7XyX" resolve="similar-nearby" />
           <node concept="2WsqQC" id="7MNWMNBj8Cx" role="2rWCss">
             <property role="2WsqQF" value="count (turtles-on neighbors) with [ color = [ color ] of myself ]" />
+          </node>
+        </node>
+        <node concept="8StVI" id="5iGq3FqZDAG" role="18tn1X">
+          <ref role="2rWCsu" node="60Hvi7s7XyX" resolve="similar-nearby" />
+          <node concept="XrRG9" id="5iGq3FqZDAU" role="2rWCss">
+            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
+            <node concept="XCvtc" id="5iGq3FqZDAX" role="XqA8S">
+              <property role="1p_gFZ" value="2kHWdXWIfBY/baseEntity" />
+              <property role="1oWuG6" value="2kHWdXWIfC0/color" />
+              <property role="XEM5g" value="24yfUKsyf$I/eq" />
+            </node>
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXpeb3" role="18tn1X">

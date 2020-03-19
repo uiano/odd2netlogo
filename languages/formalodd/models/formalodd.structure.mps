@@ -756,8 +756,8 @@
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="2EFWiWzCels" role="1TKVEl">
       <property role="IQ2nx" value="3074816355373999452" />
-      <property role="TrG5h" value="MovmentSpeed" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="MovementSpeed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
   <node concept="1TIwiD" id="2EFWiW_aoJz">
@@ -1091,7 +1091,6 @@
       <property role="IQ2ns" value="2387540760901213588" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="countCondition" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="24yfUKsjkLU" resolve="TODO_ConditionWith" />
     </node>
     <node concept="1TJgyi" id="5iGq3FqxFD3" role="1TKVEl">
@@ -1108,8 +1107,8 @@
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyi" id="24yfUKsyhVW" role="1TKVEl">
       <property role="IQ2nx" value="2387540760905457404" />
-      <property role="TrG5h" value="comparrison" />
-      <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparisonOperators" />
+      <property role="TrG5h" value="comparison" />
+      <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparisonOperator" />
     </node>
     <node concept="1TJgyi" id="2kHWdXWIfCw" role="1TKVEl">
       <property role="IQ2nx" value="2679062196016183840" />
@@ -1149,7 +1148,7 @@
   <node concept="25R3W" id="24yfUKsyf$H">
     <property role="3F6X1D" value="2387540760905447725" />
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
-    <property role="TrG5h" value="ComparisonOperators" />
+    <property role="TrG5h" value="ComparisonOperator" />
     <node concept="25R33" id="24yfUKsyf$I" role="25R1y">
       <property role="3tVfz5" value="2387540760905447726" />
       <property role="TrG5h" value="eq" />
@@ -1385,7 +1384,7 @@
     <node concept="1TJgyi" id="5yfUVbuMlWB" role="1TKVEl">
       <property role="IQ2nx" value="6381578350481727271" />
       <property role="TrG5h" value="operator" />
-      <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparisonOperators" />
+      <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparisonOperator" />
     </node>
     <node concept="1TJgyj" id="5yfUVbuMlWD" role="1TKVEi">
       <property role="IQ2ns" value="6381578350481727273" />
