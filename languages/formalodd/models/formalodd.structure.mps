@@ -1110,20 +1110,10 @@
       <property role="TrG5h" value="comparison" />
       <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparisonOperator" />
     </node>
-    <node concept="1TJgyi" id="2kHWdXWIfCw" role="1TKVEl">
-      <property role="IQ2nx" value="2679062196016183840" />
-      <property role="TrG5h" value="selectionAttributes" />
-      <ref role="AX2Wp" node="2kHWdXWIfBX" resolve="TODO_ConditionWithAttributeSelectionEnum" />
-    </node>
     <node concept="1TJgyi" id="4HBtuoj_DVw" role="1TKVEl">
       <property role="IQ2nx" value="5433441106477358816" />
       <property role="TrG5h" value="baseEntityAttributes" />
       <ref role="AX2Wp" node="2kHWdXWIfBZ" resolve="TODO_EntityBaseAttributes" />
-    </node>
-    <node concept="1TJgyj" id="2kHWdXWNjgW" role="1TKVEi">
-      <property role="IQ2ns" value="2679062196017509436" />
-      <property role="20kJfa" value="userDefinedAttribute" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="24yfUKswWzv">
@@ -1157,7 +1147,7 @@
     <node concept="25R33" id="24yfUKsyf$J" role="25R1y">
       <property role="3tVfz5" value="2387540760905447727" />
       <property role="TrG5h" value="ne" />
-      <property role="1L1pqM" value="&lt;&gt;" />
+      <property role="1L1pqM" value="!=" />
     </node>
     <node concept="25R33" id="5yfUVbuMlWg" role="25R1y">
       <property role="3tVfz5" value="6381578350481727248" />

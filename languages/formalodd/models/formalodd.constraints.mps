@@ -1000,16 +1000,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="3kYfzLXhXMK">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
-    <ref role="1M2myG" to="86kt:24yfUKsjkLU" resolve="TODO_ConditionWith" />
-    <node concept="1N5Pfh" id="3kYfzLXhXML" role="1Mr941">
-      <ref role="1N5Vy1" to="86kt:2kHWdXWNjgW" resolve="userDefinedAttribute" />
-      <node concept="1dDu$B" id="3kYfzLXhXMN" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="3kYfzLXmcAV">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1M2myG" to="86kt:1zaawdwHRIC" resolve="CallAction" />
