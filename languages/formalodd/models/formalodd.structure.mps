@@ -785,13 +785,13 @@
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Action" />
     <node concept="1TJgyi" id="79PYCRrUEZJ" role="1TKVEl">
       <property role="IQ2nx" value="8247773779785854959" />
-      <property role="TrG5h" value="AmuntOfSpawns" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="AmountOfSpawns" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
     <node concept="1TJgyj" id="4diQXU$VnUW" role="1TKVEi">
       <property role="IQ2ns" value="4851181497927696060" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="updateValue" />
+      <property role="20kJfa" value="spawnValues" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5zjJPlgcA6V" resolve="SetAttribute" />
     </node>

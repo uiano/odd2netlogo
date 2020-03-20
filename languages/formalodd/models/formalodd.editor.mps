@@ -591,38 +591,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F2HdR" id="7JNl2w6kIwf" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7JNl2w6kIwO" resolve="environmentAttributes" />
-        <node concept="2iRkQZ" id="7JNl2w6kIwg" role="2czzBx" />
-        <node concept="VPM3Z" id="7JNl2w6kIwh" role="3F10Kt" />
-        <node concept="3F0ifn" id="7JNl2w6kIwi" role="2czzBI">
-          <property role="3F0ifm" value="Press enter to define an attribute" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-        </node>
-        <node concept="2w$q5c" id="7JNl2w6kIwj" role="78xua">
-          <node concept="2aJ2om" id="7JNl2w6kIwk" role="2w$qW5">
-            <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-          </node>
-        </node>
-        <node concept="pkWqt" id="5yfUVbwCS5$" role="pqm2j">
-          <node concept="3clFbS" id="5yfUVbwCS5_" role="2VODD2">
-            <node concept="3clFbF" id="5yfUVbwCS9y" role="3cqZAp">
-              <node concept="3fqX7Q" id="5yfUVbwCS9w" role="3clFbG">
-                <node concept="2OqwBi" id="5yfUVbwCUHX" role="3fr31v">
-                  <node concept="2OqwBi" id="5yfUVbwCSn1" role="2Oq$k0">
-                    <node concept="pncrf" id="5yfUVbwCSaf" role="2Oq$k0" />
-                    <node concept="3Tsc0h" id="5yfUVbwCSzX" role="2OqNvi">
-                      <ref role="3TtcxE" to="86kt:7JNl2w6kIwO" resolve="environmentAttributes" />
-                    </node>
-                  </node>
-                  <node concept="1v1jN8" id="5yfUVbwCY$c" role="2OqNvi" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="7JNl2w6kIwl" role="3EZMnx" />
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydYPla">
@@ -1386,7 +1354,7 @@
       <node concept="3EZMnI" id="2EFWiW_aoJQ" role="3EZMnx">
         <node concept="2iRfu4" id="2EFWiW_aoJR" role="2iSdaV" />
         <node concept="3F0ifn" id="2EFWiW_aoK0" role="3EZMnx">
-          <property role="3F0ifm" value="if the actionere collides with" />
+          <property role="3F0ifm" value="if me collides with" />
           <node concept="Vb9p2" id="2EFWiW_aoLg" role="3F10Kt" />
         </node>
         <node concept="1iCGBv" id="2EFWiW_aoK9" role="3EZMnx">
@@ -1408,39 +1376,28 @@
       <node concept="2iRkQZ" id="79PYCRrYoow" role="2iSdaV" />
       <node concept="3EZMnI" id="79PYCRrUG$n" role="3EZMnx">
         <node concept="3F0ifn" id="79PYCRrUG$u" role="3EZMnx">
-          <property role="3F0ifm" value="Will spawn" />
+          <property role="3F0ifm" value="Spawn" />
           <node concept="Vb9p2" id="79PYCRrUGB7" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="79PYCRrUG$$" role="3EZMnx">
           <property role="1$x2rV" value="eneter the amount of objects that should spawn" />
-          <ref role="1NtTu8" to="86kt:79PYCRrUEZJ" resolve="AmuntOfSpawns" />
+          <ref role="1NtTu8" to="86kt:79PYCRrUEZJ" resolve="AmountOfSpawns" />
         </node>
         <node concept="3F0ifn" id="79PYCRrUG$G" role="3EZMnx">
-          <property role="3F0ifm" value="at the location of entity" />
+          <property role="3F0ifm" value="hatchling at the location of entity with values" />
           <node concept="Vb9p2" id="79PYCRrUGB9" role="3F10Kt" />
         </node>
         <node concept="2iRfu4" id="79PYCRrUG$q" role="2iSdaV" />
       </node>
-      <node concept="3EZMnI" id="2gGtP_UHeMQ" role="3EZMnx">
-        <node concept="2iRkQZ" id="2gGtP_UHeMR" role="2iSdaV" />
-        <node concept="3F0ifn" id="4diQXU$VnVy" role="3EZMnx">
-          <property role="3F0ifm" value="The hatchling will have their values set to:" />
-          <node concept="Vb9p2" id="2gGtP_UJ$aH" role="3F10Kt" />
-        </node>
-        <node concept="3F2HdR" id="4diQXU$VNtD" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:4diQXU$VnUW" resolve="updateValue" />
-          <node concept="2iRkQZ" id="4diQXU$VNtF" role="2czzBx" />
-          <node concept="3F0ifn" id="2gGtP_UJ$ay" role="2czzBI">
-            <property role="3F0ifm" value="press enter to add a new update value to hatchling" />
-            <node concept="Vb9p2" id="2gGtP_UJ$a$" role="3F10Kt" />
-            <node concept="VechU" id="2gGtP_UJ$aD" role="3F10Kt">
-              <property role="Vb096" value="fLJRk5_/gray" />
-            </node>
+      <node concept="3F2HdR" id="5iGq3FrerUi" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4diQXU$VnUW" resolve="spawnValues" />
+        <node concept="2iRkQZ" id="5iGq3FrerUj" role="2czzBx" />
+        <node concept="3F0ifn" id="5iGq3FrerUk" role="2czzBI">
+          <property role="3F0ifm" value="press enter to add a new update value to hatchling" />
+          <node concept="Vb9p2" id="5iGq3FrerUl" role="3F10Kt" />
+          <node concept="VechU" id="5iGq3FrerUm" role="3F10Kt">
+            <property role="Vb096" value="fLJRk5_/gray" />
           </node>
-        </node>
-        <node concept="3F0ifn" id="2gGtP_UHeMG" role="3EZMnx" />
-        <node concept="VPXOz" id="2gGtP_UHeN8" role="3F10Kt">
-          <property role="VOm3f" value="true" />
         </node>
       </node>
     </node>
@@ -2637,7 +2594,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="7MNWMNAzpgB" role="3EZMnx">
-          <property role="3F0ifm" value="is decremented with" />
+          <property role="3F0ifm" value="is decremented by" />
           <node concept="Vb9p2" id="7MNWMNAzpgC" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="7MNWMNAG5h3" role="3EZMnx">
@@ -2668,7 +2625,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="7MNWMNAzphd" role="3EZMnx">
-          <property role="3F0ifm" value="is incremented with" />
+          <property role="3F0ifm" value="is incremented by" />
           <node concept="Vb9p2" id="7MNWMNAzphe" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="7MNWMNAG5ho" role="3EZMnx">
