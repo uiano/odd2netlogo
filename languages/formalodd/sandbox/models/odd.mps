@@ -838,7 +838,7 @@
         <node concept="8StVI" id="3kYfzLXpebl" role="18tn1X">
           <ref role="2rWCsu" node="60Hvi7s81UW" resolve="happy" />
           <node concept="2WsqQC" id="7MNWMNBj8CB" role="2rWCss">
-            <property role="2WsqQF" value="similar-nearby &gt; = (similar-nearby-wanted * total-nearby / 100)" />
+            <property role="2WsqQF" value="similar-nearby &gt;= (similar-nearby-wanted * total-nearby / 100)" />
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXouX9" role="18tn1Z">
