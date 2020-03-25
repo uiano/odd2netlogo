@@ -955,12 +955,12 @@
   </node>
   <node concept="24kQdi" id="5zjJPlgalCy">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
+    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="Action" />
     <node concept="3EZMnI" id="5zjJPlgalC$" role="2wV5jI">
       <node concept="3EZMnI" id="5zjJPlgalCT" role="3EZMnx">
         <node concept="VPM3Z" id="5zjJPlgalCV" role="3F10Kt" />
         <node concept="3F0ifn" id="5zjJPlgalCX" role="3EZMnx">
-          <property role="3F0ifm" value="Procedure" />
+          <property role="3F0ifm" value="Action" />
           <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
         </node>
         <node concept="3F0A7n" id="5zjJPlgalDc" role="3EZMnx">
@@ -2526,20 +2526,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="24yfUKsx3LW">
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:60Hvi7snd29" resolve="REMOVE_NetlogoExpression" />
-    <node concept="3EZMnI" id="24yfUKsx3M3" role="2wV5jI">
-      <node concept="2iRfu4" id="24yfUKsx3M4" role="2iSdaV" />
-      <node concept="3F0ifn" id="24yfUKsx3M9" role="3EZMnx">
-        <property role="3F0ifm" value="netlogo expression" />
-      </node>
-      <node concept="3F0A7n" id="24yfUKsx3Mf" role="3EZMnx">
-        <property role="1$x2rV" value="add netlogo code here" />
-        <ref role="1NtTu8" to="86kt:60Hvi7snd2a" resolve="expression" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="4HBtuojBomv">
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="1XX52x" to="86kt:24yfUKswWzv" resolve="TODO_ConditionWithSpecific" />
@@ -2845,6 +2831,38 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1w00y4a7gwq">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:1w00y4a7gv$" resolve="Binary" />
+    <node concept="3EZMnI" id="1w00y4a7gws" role="2wV5jI">
+      <node concept="l2Vlx" id="1w00y4a7gwt" role="2iSdaV" />
+      <node concept="3F1sOY" id="1w00y4a7gwu" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1w00y4a7gwd" resolve="left" />
+      </node>
+      <node concept="3F0A7n" id="1w00y4a7gwv" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1w00y4a7gv_" resolve="operator" />
+      </node>
+      <node concept="3F1sOY" id="1w00y4a7gww" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1w00y4a7gwf" resolve="right" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1w00y4a8UpW">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:1w00y4a8UpL" resolve="Parenthesis" />
+    <node concept="3EZMnI" id="1w00y4a8UsE" role="2wV5jI">
+      <node concept="l2Vlx" id="1w00y4a8UsF" role="2iSdaV" />
+      <node concept="3F0ifn" id="1w00y4a8UsW" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F1sOY" id="1w00y4a8Ut6" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1w00y4a8UpM" resolve="inner" />
+      </node>
+      <node concept="3F0ifn" id="1w00y4a8Utl" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
       </node>
     </node>
   </node>

@@ -1026,7 +1026,7 @@
     <node concept="1N5Pfh" id="3kYfzLXmcAW" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:1zaawdwHRIF" resolve="called" />
       <node concept="1dDu$B" id="3kYfzLXmcB0" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
+        <ref role="1dDu$A" to="86kt:6lHESjKCmJ_" resolve="Action" />
       </node>
     </node>
   </node>

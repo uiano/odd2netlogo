@@ -40,6 +40,14 @@
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
+      <concept id="1729384597837121508" name="formalodd.structure.Binary" flags="ng" index="i7gn5">
+        <property id="1729384597837121509" name="operator" index="i7gn4" />
+        <child id="1729384597837121549" name="left" index="i7gCG" />
+        <child id="1729384597837121551" name="right" index="i7gCI" />
+      </concept>
+      <concept id="1729384597837555313" name="formalodd.structure.Parenthesis" flags="ng" index="i8Uhg">
+        <child id="1729384597837555314" name="inner" index="i8Uhj" />
+      </concept>
       <concept id="8985793055746947428" name="formalodd.structure.FIX_FloatSlider" flags="ng" index="2kh0D8">
         <property id="8985793055746947432" name="slideAmount" index="2kh0D4" />
         <property id="8985793055746947433" name="startValue" index="2kh0D5" />
@@ -89,9 +97,6 @@
       </concept>
       <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
       <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B" />
-      <concept id="6930332985977524361" name="formalodd.structure.REMOVE_NetlogoExpression" flags="ng" index="2WsqQC">
-        <property id="6930332985977524362" name="expression" index="2WsqQF" />
-      </concept>
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
       </concept>
@@ -241,10 +246,10 @@
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
         <ref role="24v3MU" node="1LeTgidqm5Z" resolve="grass" />
-        <node concept="2qfAsZ" id="5yfUVbu1okZ" role="18tn1X">
+        <node concept="2qfAsZ" id="1w00y4a7gvi" role="18tn1X">
           <ref role="2rWCsu" node="60Hvi7rWx1g" resolve="energy" />
-          <node concept="2WsqQC" id="5yfUVbu1ol0" role="2rWCss">
-            <property role="2WsqQF" value="energy-gain-from-grass" />
+          <node concept="26lliW" id="1w00y4a7gvr" role="2rWCss">
+            <ref role="26lliz" node="5Dmxhgox7rN" resolve="energy-gain-from-grass" />
           </node>
         </node>
         <node concept="8StHo" id="5yfUVbu1olf" role="18tn1X">
@@ -829,16 +834,42 @@
             </node>
           </node>
         </node>
-        <node concept="8StVI" id="3kYfzLXpebb" role="18tn1X">
+        <node concept="8StVI" id="1w00y4a8Unu" role="18tn1X">
           <ref role="2rWCsu" node="60Hvi7s7Xzc" resolve="total-nearby" />
-          <node concept="2WsqQC" id="7MNWMNBj8C_" role="2rWCss">
-            <property role="2WsqQF" value="similar-nearby + other-nearby" />
+          <node concept="i7gn5" id="1w00y4a8UnI" role="2rWCss">
+            <property role="i7gn4" value="1w00y4a7gvC/add" />
+            <node concept="26lliW" id="1w00y4a8UnR" role="i7gCG">
+              <ref role="26lliz" node="60Hvi7s7Xwx" resolve="similar-nearby" />
+            </node>
+            <node concept="26lliW" id="1w00y4a8UnU" role="i7gCI">
+              <ref role="26lliz" node="6dSewhkDZXh" resolve="other-nearby" />
+            </node>
           </node>
         </node>
         <node concept="8StVI" id="3kYfzLXpebl" role="18tn1X">
           <ref role="2rWCsu" node="60Hvi7s81UW" resolve="happy" />
-          <node concept="2WsqQC" id="7MNWMNBj8CB" role="2rWCss">
-            <property role="2WsqQF" value="similar-nearby &gt;= (similar-nearby-wanted * total-nearby / 100)" />
+          <node concept="26hFik" id="1w00y4a8Up_" role="2rWCss">
+            <property role="26hFil" value="5yfUVbuMlWv/ge" />
+            <node concept="26lliW" id="1w00y4a8UpI" role="26hFir">
+              <ref role="26lliz" node="60Hvi7s7Xwx" resolve="similar-nearby" />
+            </node>
+            <node concept="i8Uhg" id="1w00y4aanIb" role="26hFip">
+              <node concept="i7gn5" id="1w00y4aanIh" role="i8Uhj">
+                <property role="i7gn4" value="1w00y4a7gvD/divide" />
+                <node concept="i7gn5" id="1w00y4aanIq" role="i7gCG">
+                  <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
+                  <node concept="26lliW" id="1w00y4aanIG" role="i7gCG">
+                    <ref role="26lliz" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
+                  </node>
+                  <node concept="26lliW" id="1w00y4aanIA" role="i7gCI">
+                    <ref role="26lliz" node="24yfUKsqGXK" resolve="total-nearby" />
+                  </node>
+                </node>
+                <node concept="2oK_Am" id="1w00y4aanID" role="i7gCI">
+                  <property role="2oK_Ap" value="100" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXouX9" role="18tn1Z">

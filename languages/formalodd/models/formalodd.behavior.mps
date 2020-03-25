@@ -364,7 +364,7 @@
                   <node concept="2Rf3mk" id="3kYfzLXmhNU" role="2OqNvi">
                     <node concept="1xMEDy" id="3kYfzLXmhNW" role="1xVPHs">
                       <node concept="chp4Y" id="3kYfzLXmhW2" role="ri$Ld">
-                        <ref role="cht4Q" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
+                        <ref role="cht4Q" to="86kt:6lHESjKCmJ_" resolve="Action" />
                       </node>
                     </node>
                   </node>
@@ -378,7 +378,7 @@
             </node>
             <node concept="2Zo12i" id="3kYfzLXmdyQ" role="2OqNvi">
               <node concept="chp4Y" id="3kYfzLXmdBE" role="2Zo12j">
-                <ref role="cht4Q" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
+                <ref role="cht4Q" to="86kt:6lHESjKCmJ_" resolve="Action" />
               </node>
             </node>
           </node>
@@ -495,7 +495,7 @@
   </node>
   <node concept="13h7C7" id="3kYfzLXo$cZ">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="13h7C2" to="86kt:6lHESjKCmJ_" resolve="Procedure" />
+    <ref role="13h7C2" to="86kt:6lHESjKCmJ_" resolve="Action" />
     <node concept="13hLZK" id="3kYfzLXo$d0" role="13h7CW">
       <node concept="3clFbS" id="3kYfzLXo$d1" role="2VODD2" />
     </node>
