@@ -452,6 +452,32 @@
         </node>
       </node>
       <node concept="3F0ifn" id="3okqQmmA0iL" role="3EZMnx" />
+      <node concept="3F0ifn" id="6ow5IfzodHZ" role="3EZMnx">
+        <property role="3F0ifm" value="Entity Attributes" />
+        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+      </node>
+      <node concept="3EZMnI" id="6ow5IfzodI0" role="3EZMnx">
+        <node concept="3F0ifn" id="6ow5IfzodI1" role="3EZMnx">
+          <property role="3F0ifm" value="The shared entity attributes are:" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+        </node>
+        <node concept="2iRfu4" id="6ow5IfzodI2" role="2iSdaV" />
+        <node concept="3F2HdR" id="6ow5IfzodI3" role="3EZMnx">
+          <property role="2czwfO" value="," />
+          <ref role="1NtTu8" to="86kt:6ow5IfzodqW" resolve="entityAttributes" />
+          <node concept="2w$q5c" id="6ow5IfzodI4" role="78xua">
+            <node concept="2aJ2om" id="6ow5IfzodI5" role="2w$qW5">
+              <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
+            </node>
+          </node>
+          <node concept="2iRfu4" id="6ow5IfzodI6" role="2czzBx" />
+          <node concept="3F0ifn" id="6ow5IfzodI7" role="2czzBI">
+            <property role="3F0ifm" value="&lt;press enter to create shared entity attribute&gt;" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6ow5IfzodCX" role="3EZMnx" />
       <node concept="3F0ifn" id="RwtFpHTD6s" role="3EZMnx">
         <property role="3F0ifm" value="Relationships" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
@@ -1162,16 +1188,22 @@
       <node concept="3EZMnI" id="5zjJPlgJo16" role="3EZMnx">
         <node concept="3F0ifn" id="3OPyh9HQ0JO" role="3EZMnx">
           <property role="3F0ifm" value="Scheduling" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+        </node>
+        <node concept="3F2HdR" id="6ow5Ifz8iuK" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6ow5Ifz8iur" resolve="schedule" />
+          <node concept="2iRkQZ" id="6ow5Ifz8iuM" role="2czzBx" />
+          <node concept="3F0ifn" id="6ow5Ifz8iv4" role="2czzBI">
+            <property role="3F0ifm" value="press enter to create schedule" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          </node>
         </node>
         <node concept="3F2HdR" id="5zjJPlgnNRz" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5EtG2rQ5Lu$" resolve="procedures" />
           <node concept="2iRkQZ" id="5zjJPlgnNR_" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_TSOKM" role="2czzBI">
             <property role="3F0ifm" value="press enter to create a procedure" />
-            <node concept="Vb9p2" id="2gGtP_TSOKP" role="3F10Kt" />
-            <node concept="VechU" id="2gGtP_TSOKU" role="3F10Kt">
-              <property role="Vb096" value="fLJRk5_/gray" />
-            </node>
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           </node>
         </node>
         <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
@@ -1190,10 +1222,8 @@
           <node concept="2iRkQZ" id="5zjJPlgJo1u" role="2czzBx" />
           <node concept="3F0ifn" id="2gGtP_UOfg8" role="2czzBI">
             <property role="ilYzB" value="press control space to select the type of end conditon" />
-            <node concept="Vb9p2" id="2gGtP_UOfgb" role="3F10Kt" />
-            <node concept="VechU" id="2gGtP_UOfgg" role="3F10Kt">
-              <property role="Vb096" value="fLJRk5_/gray" />
-            </node>
+            <property role="3F0ifm" value="press enter to add end condition" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           </node>
         </node>
         <node concept="2iRkQZ" id="5zjJPlgJo1b" role="2iSdaV" />
@@ -1472,6 +1502,7 @@
         </node>
         <node concept="3F0ifn" id="5iGq3FqWp$t" role="3EZMnx">
           <property role="3F0ifm" value="." />
+          <ref role="1k5W1q" node="5yfUVbwRsLk" resolve="punctuation" />
         </node>
       </node>
     </node>
@@ -1686,6 +1717,50 @@
           </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="6ow5IfzpqdR" role="3EZMnx">
+        <node concept="VPM3Z" id="6ow5IfzpqdS" role="3F10Kt" />
+        <node concept="3F0ifn" id="6ow5IfzpqdT" role="3EZMnx">
+          <property role="3F0ifm" value="Initialize shared attributes" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+        </node>
+        <node concept="1iCGBv" id="6ow5IfzpqdU" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
+          <node concept="1sVBvm" id="6ow5IfzpqdV" role="1sWHZn">
+            <node concept="3F2HdR" id="6ow5IfzpqdW" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:6ow5IfzodqW" resolve="entityAttributes" />
+              <node concept="2iRkQZ" id="6ow5IfzpqdX" role="2czzBx" />
+              <node concept="3F0ifn" id="6ow5IfzpqdY" role="2czzBI">
+                <property role="3F0ifm" value="Press Enter to add attribute" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2iRkQZ" id="6ow5IfzpqdZ" role="2iSdaV" />
+        <node concept="pkWqt" id="6ow5Ifzpqe0" role="pqm2j">
+          <node concept="3clFbS" id="6ow5Ifzpqe1" role="2VODD2">
+            <node concept="3clFbF" id="6ow5Ifzpqe2" role="3cqZAp">
+              <node concept="3fqX7Q" id="6ow5Ifzpqe3" role="3clFbG">
+                <node concept="2OqwBi" id="6ow5Ifzpqe4" role="3fr31v">
+                  <node concept="2OqwBi" id="6ow5Ifzpqe5" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6ow5Ifzpqe6" role="2Oq$k0">
+                      <node concept="pncrf" id="6ow5Ifzpqe7" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6ow5Ifzpqe8" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="6ow5Ifzpqe9" role="2OqNvi">
+                      <ref role="3TtcxE" to="86kt:7JNl2w6kIwO" resolve="environmentAttributes" />
+                    </node>
+                  </node>
+                  <node concept="1v1jN8" id="6ow5Ifzpqea" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6ow5Ifzpq7e" role="3EZMnx" />
       <node concept="3EZMnI" id="5iGq3FoQySF" role="3EZMnx">
         <node concept="VPM3Z" id="5iGq3FoQySH" role="3F10Kt" />
         <node concept="3F0ifn" id="5iGq3FoQyUV" role="3EZMnx">
