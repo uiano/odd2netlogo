@@ -353,7 +353,7 @@
           <ref role="2JNnW9" node="5yfUVbtpZLV" resolve="newGrass" />
         </node>
         <node concept="8StVI" id="7MNWMNBA3s1" role="18tn1X">
-          <ref role="2rWCsu" node="1LeTgidqm69" resolve="grass-growth" />
+          <ref role="2rWCsu" node="6ow5IfzMtxQ" resolve="grass-growth" />
           <node concept="2oK_Am" id="7MNWMNBA3s2" role="2rWCss">
             <property role="2oK_Ap" value="0" />
           </node>
@@ -371,7 +371,7 @@
           <node concept="26hFik" id="5yfUVbviHlN" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWp/gt" />
             <node concept="26lliW" id="5yfUVbviHlZ" role="26hFir">
-              <ref role="26lliz" node="1LeTgidqm69" resolve="grass-growth" />
+              <ref role="26lliz" node="6ow5IfzMtxQ" resolve="grass-growth" />
             </node>
             <node concept="26lliW" id="5yfUVbviHlW" role="26hFip">
               <ref role="26lliz" node="5Dmxhgox7s2" resolve="grass-regrowth-delay" />
@@ -380,7 +380,7 @@
         </node>
         <node concept="2rRKAk" id="7MNWMNBA3vo" role="18tn1X">
           <node concept="2qfAsZ" id="7MNWMNBA3w8" role="2rRKAh">
-            <ref role="2rWCsu" node="1LeTgidqm69" resolve="grass-growth" />
+            <ref role="2rWCsu" node="6ow5IfzMtxQ" resolve="grass-growth" />
             <node concept="2oK_Am" id="7MNWMNBA3wc" role="2rWCss">
               <property role="2oK_Ap" value="1" />
             </node>
@@ -388,7 +388,7 @@
           <node concept="26hFik" id="5yfUVbviHmf" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWk/le" />
             <node concept="26lliW" id="5yfUVbviHmr" role="26hFir">
-              <ref role="26lliz" node="1LeTgidqm69" resolve="grass-growth" />
+              <ref role="26lliz" node="6ow5IfzMtxQ" resolve="grass-growth" />
             </node>
             <node concept="26lliW" id="5yfUVbviHmo" role="26hFip">
               <ref role="26lliz" node="5Dmxhgox7s2" resolve="grass-regrowth-delay" />
@@ -421,16 +421,6 @@
       </node>
       <node concept="ZOwrm" id="1LeTgidqm5Z" role="2kDK73">
         <property role="TrG5h" value="grass" />
-        <node concept="ZOwpH" id="1LeTgidqm69" role="1XCrbu">
-          <property role="TrG5h" value="grass-growth" />
-          <node concept="ZOwp4" id="1LeTgidqm6d" role="zGXb3" />
-          <node concept="21jJIL" id="1LeTgidqm6g" role="2oy9Oj">
-            <property role="21jJIY" value="0" />
-            <property role="21jJIV" value="100" />
-            <property role="2rHBro" value="30" />
-            <property role="21jJI7" value="5" />
-          </node>
-        </node>
         <node concept="ZOwrR" id="1LeTgidqm6i" role="21mi6N">
           <property role="ZOwrO" value="22rmwLH$XpM/green" />
         </node>
@@ -484,6 +474,10 @@
           <property role="21jJI7" value="5" />
         </node>
         <node concept="ZOwps" id="6dSewhl3yLb" role="zGXb3" />
+      </node>
+      <node concept="ZOwpH" id="6ow5IfzMtxQ" role="1XCrKs">
+        <property role="TrG5h" value="grass-growth" />
+        <node concept="ZOwps" id="6ow5IfzMty3" role="zGXb3" />
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qt" role="ZOwpT">
         <property role="TrG5h" value="wolf" />
