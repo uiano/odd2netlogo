@@ -822,11 +822,6 @@
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <property role="TrG5h" value="NeighbourEnvironment" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
-    <node concept="1TJgyi" id="5vgYlnqdd_9" role="1TKVEl">
-      <property role="TrG5h" value="color" />
-      <property role="IQ2nx" value="1786286396190304394" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1zaawdw5aVr">
     <property role="EcuMT" value="1786286396191059675" />
@@ -1411,11 +1406,6 @@
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <property role="TrG5h" value="CurrentEnvironment" />
     <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
-    <node concept="1TJgyi" id="5yfUVbv5$Ys" role="1TKVEl">
-      <property role="TrG5h" value="colour" />
-      <property role="IQ2nx" value="6381578350486769564" />
-      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
-    </node>
   </node>
   <node concept="25R3W" id="5yfUVbvM9VE">
     <property role="3F6X1D" value="6381578350498455274" />

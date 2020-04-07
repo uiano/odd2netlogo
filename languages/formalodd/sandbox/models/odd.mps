@@ -21,9 +21,7 @@
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
       </concept>
-      <concept id="6381578350486769563" name="formalodd.structure.CurrentEnvironment" flags="ng" index="27AqgD">
-        <property id="6381578350486769564" name="colour" index="27AqgI" />
-      </concept>
+      <concept id="6381578350486769563" name="formalodd.structure.CurrentEnvironment" flags="ng" index="27AqgD" />
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
         <property id="6381578350475854331" name="killWho" index="26S2D9" />
       </concept>
@@ -168,9 +166,7 @@
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
       </concept>
       <concept id="1786286396201721621" name="formalodd.structure.TODO_OccupiedSpot" flags="ng" index="1Svnkm" />
-      <concept id="1786286396190304350" name="formalodd.structure.NeighbourEnvironment" flags="ng" index="1SKK9t">
-        <property id="1786286396190304394" name="color" index="1SKKa9" />
-      </concept>
+      <concept id="1786286396190304350" name="formalodd.structure.NeighbourEnvironment" flags="ng" index="1SKK9t" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -282,9 +278,7 @@
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="27AqgD" id="5yfUVbvmKT0" role="17I3vM">
-          <property role="27AqgI" value="22rmwLH$XpM/green" />
-        </node>
+        <node concept="27AqgD" id="5yfUVbvmKT0" role="17I3vM" />
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
@@ -365,10 +359,7 @@
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXlrGb" role="18tn1Z">
-          <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
-        </node>
-        <node concept="27AqgD" id="5yfUVbviHld" role="2rNmBd">
-          <property role="27AqgI" value="22rmwLH$XoV/brown" />
+          <ref role="8YSiZ" node="5yfUVbtpZLs" resolve="soil" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrv$" role="2GyEu2">
@@ -405,10 +396,7 @@
           </node>
         </node>
         <node concept="2lNc1w" id="3kYfzLXlrwT" role="18tn1Z">
-          <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
-        </node>
-        <node concept="27AqgD" id="5yfUVbviHmu" role="2rNmBd">
-          <property role="27AqgI" value="22rmwLH$XoV/brown" />
+          <ref role="8YSiZ" node="5yfUVbtpZLs" resolve="soil" />
         </node>
       </node>
       <node concept="2lMhBi" id="qdXC$xz0RR" role="2lMhBt">
@@ -633,9 +621,7 @@
             <property role="2oK_Ap" value="20" />
           </node>
         </node>
-        <node concept="1SKK9t" id="1r3mgtKgnYK" role="17I3vM">
-          <property role="1SKKa9" value="22rmwLH$XpM/green" />
-        </node>
+        <node concept="1SKK9t" id="1r3mgtKgnYK" role="17I3vM" />
         <node concept="2lNc1w" id="6ow5IfzgRxg" role="18tn1Z">
           <ref role="8YSiZ" node="7MNWMNCnG1g" resolve="Fire" />
         </node>
@@ -665,9 +651,6 @@
         <node concept="2lNc1w" id="5yfUVbv3IvC" role="18tn1Z">
           <ref role="8YSiZ" node="7MNWMNCnG1g" resolve="Fire" />
         </node>
-        <node concept="27AqgD" id="5yfUVbv7tcx" role="2rNmBd">
-          <property role="27AqgI" value="22rmwLH$Xl$/red" />
-        </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXpedi" role="2GyEu2">
         <property role="TrG5h" value="ToDo" />
@@ -676,9 +659,6 @@
         </node>
         <node concept="1Svl6F" id="7MNWMNBA3nY" role="18tn1X">
           <ref role="1Svl6C" node="3kYfzLXpedU" resolve="ToDoList" />
-        </node>
-        <node concept="27AqgD" id="5yfUVbveXnQ" role="2rNmBd">
-          <property role="27AqgI" value="22rmwLH$Xl$/red" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXpedU" role="2GyEu2">

@@ -1435,18 +1435,9 @@
   <node concept="24kQdi" id="1zaawdw2iy3">
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="1XX52x" to="86kt:1zaawdw2ixu" resolve="NeighbourEnvironment" />
-    <node concept="3EZMnI" id="1zaawdw2iyx" role="2wV5jI">
-      <node concept="2iRkQZ" id="1zaawdw2iyy" role="2iSdaV" />
-      <node concept="3EZMnI" id="2j8p7S3LOay" role="3EZMnx">
-        <node concept="2iRfu4" id="2j8p7S3LOaz" role="2iSdaV" />
-        <node concept="3F0ifn" id="2j8p7S3LOa$" role="3EZMnx">
-          <property role="3F0ifm" value="neighbour environment colour is" />
-          <node concept="Vb9p2" id="2j8p7S3LOa_" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="2j8p7S3LOaA" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5vgYlnqdd_9" resolve="color" />
-        </node>
-      </node>
+    <node concept="3F0ifn" id="2j8p7S3LOa$" role="2wV5jI">
+      <property role="3F0ifm" value="is neighbour" />
+      <node concept="Vb9p2" id="2j8p7S3LOa_" role="3F10Kt" />
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdw5aVO">
@@ -2830,11 +2821,8 @@
     <node concept="3EZMnI" id="5yfUVbv5$YB" role="2wV5jI">
       <node concept="l2Vlx" id="5yfUVbv5$YC" role="2iSdaV" />
       <node concept="3F0ifn" id="5yfUVbv5$YD" role="3EZMnx">
-        <property role="3F0ifm" value="this environment is" />
+        <property role="3F0ifm" value="this environment" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="5yfUVbv5$YL" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5yfUVbv5$Ys" resolve="colour" />
       </node>
     </node>
   </node>
