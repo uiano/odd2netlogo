@@ -111,6 +111,12 @@
       <property role="20kJfa" value="experiments" />
       <ref role="20lvS9" node="7MNWMNC5fbs" resolve="Experiments" />
     </node>
+    <node concept="1TJgyj" id="5AVjrpYUlTB" role="1TKVEi">
+      <property role="IQ2ns" value="6465847136229088871" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ttt" />
+      <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
+    </node>
     <node concept="PrWs8" id="7qp8jK7Ll0s" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -992,6 +998,16 @@
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
     </node>
+    <node concept="1TJgyi" id="5p5RAoTc1MA" role="1TKVEl">
+      <property role="IQ2nx" value="6216619391282322598" />
+      <property role="TrG5h" value="todo_directed" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="5p5RAoTc1MC" role="1TKVEl">
+      <property role="IQ2nx" value="6216619391282322600" />
+      <property role="TrG5h" value="todo_shared" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6dSewhkPe5j">
     <property role="EcuMT" value="7167542597237662035" />
@@ -1686,6 +1702,19 @@
       <property role="IQ2ns" value="1729384597837555314" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5p5RAoTaflN">
+    <property role="EcuMT" value="6216619391281853811" />
+    <property role="TrG5h" value="TODO_Array" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+    <node concept="1TJgyj" id="5AVjrpYXjnk" role="1TKVEi">
+      <property role="IQ2ns" value="6465847136229864916" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="size" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>

@@ -299,6 +299,9 @@
             </node>
           </node>
           <node concept="2iRfu4" id="7y2oNvzb34" role="2iSdaV" />
+          <node concept="3F1sOY" id="5AVjrpYUlTR" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5AVjrpYUlTB" resolve="ttt" />
+          </node>
         </node>
         <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
           <property role="3F0ifm" value="Overview: Purpose" />
@@ -1935,6 +1938,22 @@
           </node>
         </node>
       </node>
+      <node concept="3EZMnI" id="5p5RAoTdeEk" role="3EZMnx">
+        <node concept="VPM3Z" id="5p5RAoTdeEm" role="3F10Kt" />
+        <node concept="3F0ifn" id="5p5RAoTdeEo" role="3EZMnx">
+          <property role="3F0ifm" value="The relationship is shared:" />
+        </node>
+        <node concept="2iRfu4" id="5p5RAoTdeEp" role="2iSdaV" />
+        <node concept="3F0A7n" id="5p5RAoTdeET" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5p5RAoTc1MC" resolve="todo_shared" />
+        </node>
+        <node concept="3F0ifn" id="5p5RAoTdeF1" role="3EZMnx">
+          <property role="3F0ifm" value="and directed:" />
+        </node>
+        <node concept="3F0A7n" id="5p5RAoTdeFb" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5p5RAoTc1MA" resolve="todo_directed" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="RwtFpHVAtU" role="3EZMnx">
         <property role="3F0ifm" value="The relationship has the following attributes:" />
         <node concept="Vb9p2" id="7qp8jK7ceFJ" role="3F10Kt" />
@@ -2926,6 +2945,28 @@
       </node>
       <node concept="3F0ifn" id="1w00y4a8Utl" role="3EZMnx">
         <property role="3F0ifm" value=")" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5p5RAoTaflW">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:5p5RAoTaflN" resolve="TODO_Array" />
+    <node concept="3EZMnI" id="5AVjrpYXjnp" role="2wV5jI">
+      <node concept="3F0ifn" id="5AVjrpYXjnr" role="3EZMnx">
+        <property role="3F0ifm" value="Array" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="2iRfu4" id="5AVjrpYXjns" role="2iSdaV" />
+      <node concept="3F0ifn" id="5AVjrpYXjnz" role="3EZMnx">
+        <property role="3F0ifm" value="(size " />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="3F1sOY" id="5AVjrpYXjnP" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5AVjrpYXjnk" resolve="size" />
+      </node>
+      <node concept="3F0ifn" id="5AVjrpYXjnF" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
     </node>
   </node>
