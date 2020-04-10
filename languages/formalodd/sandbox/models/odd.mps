@@ -21,7 +21,6 @@
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
       </concept>
-      <concept id="6381578350486769563" name="formalodd.structure.CurrentEnvironment" flags="ng" index="27AqgD" />
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
         <property id="6381578350475854331" name="killWho" index="26S2D9" />
       </concept>
@@ -31,9 +30,6 @@
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
       <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
         <property id="3074816355373999452" name="MovementSpeed" index="92LhN" />
-      </concept>
-      <concept id="3074816355399732195" name="formalodd.structure.TODO_Collides" flags="ng" index="fwBFc">
-        <reference id="3074816355399732196" name="Target" index="fwBFb" />
       </concept>
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
@@ -87,8 +83,8 @@
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
+        <property id="6465847136233012555" name="where" index="ABB3X" />
         <reference id="6381578350450956040" name="partner" index="24v3MU" />
-        <child id="1786286396180405745" name="partnerCondition" index="17I3vM" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
@@ -169,8 +165,6 @@
       <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
       </concept>
-      <concept id="1786286396201721621" name="formalodd.structure.TODO_OccupiedSpot" flags="ng" index="1Svnkm" />
-      <concept id="1786286396190304350" name="formalodd.structure.NeighbourEnvironment" flags="ng" index="1SKK9t" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -269,6 +263,7 @@
       </node>
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
+        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <ref role="24v3MU" node="1LeTgidqm5Z" resolve="grass" />
         <node concept="2qfAsZ" id="1w00y4a7gvi" role="18tn1X">
           <ref role="2rWCsu" node="6ow5IfzpoId" resolve="energy" />
@@ -282,10 +277,10 @@
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="27AqgD" id="5yfUVbvmKT0" role="17I3vM" />
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
+        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <ref role="24v3MU" node="qdXC$xz0Qv" resolve="sheep" />
         <node concept="8shMO" id="5yfUVbu1olx" role="18tn1X">
           <property role="26S2D9" value="5yfUVburW9F/target" />
@@ -298,9 +293,6 @@
         </node>
         <node concept="2lNc1w" id="3kYfzLXlriR" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
-        </node>
-        <node concept="fwBFc" id="3kYfzLXlrl9" role="17I3vM">
-          <ref role="fwBFb" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrpQ" role="2GyEu2">
@@ -609,6 +601,7 @@
       </node>
       <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
+        <property role="ABB3X" value="5AVjrpZ9jP5/neighbour" />
         <ref role="24v3MU" node="7MNWMNCnG0T" resolve="Trees" />
         <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
           <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
@@ -619,7 +612,6 @@
             <property role="2oK_Ap" value="20" />
           </node>
         </node>
-        <node concept="1SKK9t" id="1r3mgtKgnYK" role="17I3vM" />
         <node concept="2lNc1w" id="6ow5IfzgRxg" role="18tn1Z">
           <ref role="8YSiZ" node="7MNWMNCnG1g" resolve="Fire" />
         </node>
@@ -826,10 +818,10 @@
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
         <property role="TrG5h" value="occupied" />
+        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <node concept="1Svl6F" id="7MNWMNBlapA" role="18tn1X">
           <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
         </node>
-        <node concept="1Svnkm" id="qdXC$yrH6C" role="17I3vM" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXmcA8" role="2GyEu2">
         <property role="TrG5h" value="move" />

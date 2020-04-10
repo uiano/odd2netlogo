@@ -299,9 +299,6 @@
             </node>
           </node>
           <node concept="2iRfu4" id="7y2oNvzb34" role="2iSdaV" />
-          <node concept="3F1sOY" id="5AVjrpYUlTR" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:5AVjrpYUlTB" resolve="ttt" />
-          </node>
         </node>
         <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
           <property role="3F0ifm" value="Overview: Purpose" />
@@ -1379,29 +1376,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="2EFWiW_aoJO">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
-    <ref role="1XX52x" to="86kt:2EFWiW_aoJz" resolve="TODO_Collides" />
-    <node concept="3EZMnI" id="1zaawdvuX6n" role="2wV5jI">
-      <node concept="2iRkQZ" id="1zaawdvuX6o" role="2iSdaV" />
-      <node concept="3EZMnI" id="2EFWiW_aoJQ" role="3EZMnx">
-        <node concept="2iRfu4" id="2EFWiW_aoJR" role="2iSdaV" />
-        <node concept="3F0ifn" id="2EFWiW_aoK0" role="3EZMnx">
-          <property role="3F0ifm" value="if me collides with" />
-          <node concept="Vb9p2" id="2EFWiW_aoLg" role="3F10Kt" />
-        </node>
-        <node concept="1iCGBv" id="2EFWiW_aoK9" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:2EFWiW_aoJ$" resolve="Target" />
-          <node concept="1sVBvm" id="2EFWiW_aoKb" role="1sWHZn">
-            <node concept="3F0A7n" id="2EFWiW_aoKn" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="79PYCRrUG$l">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1XX52x" to="86kt:79PYCRrUEZI" resolve="TODO_Spawn" />
@@ -1433,14 +1407,6 @@
           </node>
         </node>
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="1zaawdw2iy3">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
-    <ref role="1XX52x" to="86kt:1zaawdw2ixu" resolve="NeighbourEnvironment" />
-    <node concept="3F0ifn" id="2j8p7S3LOa$" role="2wV5jI">
-      <property role="3F0ifm" value="is neighbour" />
-      <node concept="Vb9p2" id="2j8p7S3LOa_" role="3F10Kt" />
     </node>
   </node>
   <node concept="24kQdi" id="1zaawdw5aVO">
@@ -1554,12 +1520,12 @@
             </node>
           </node>
         </node>
-        <node concept="3F0ifn" id="5yfUVbsV4oC" role="3EZMnx">
-          <property role="3F0ifm" value="if" />
+        <node concept="3F0ifn" id="5AVjrpZ9jPl" role="3EZMnx">
+          <property role="3F0ifm" value="at" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
-        <node concept="3F1sOY" id="5yfUVbsV4oO" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:1zaawdvsxRL" resolve="partnerCondition" />
+        <node concept="3F0A7n" id="5AVjrpZ9jPB" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5AVjrpZ9jPb" resolve="where" />
         </node>
       </node>
       <node concept="3EZMnI" id="5yfUVbx2wpO" role="3EZMnx">
@@ -2831,17 +2797,6 @@
       </node>
       <node concept="3F1sOY" id="5yfUVbuMlY4" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:5yfUVbuMlWF" resolve="right" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5yfUVbv5$Y_">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
-    <ref role="1XX52x" to="86kt:5yfUVbv5$Yr" resolve="CurrentEnvironment" />
-    <node concept="3EZMnI" id="5yfUVbv5$YB" role="2wV5jI">
-      <node concept="l2Vlx" id="5yfUVbv5$YC" role="2iSdaV" />
-      <node concept="3F0ifn" id="5yfUVbv5$YD" role="3EZMnx">
-        <property role="3F0ifm" value="this environment" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
     </node>
   </node>
