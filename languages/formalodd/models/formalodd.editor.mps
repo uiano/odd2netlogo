@@ -709,23 +709,29 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     <node concept="3EZMnI" id="3tK0pynLqqL" role="2wV5jI">
-      <node concept="2iRfu4" id="3tK0pynLqqM" role="2iSdaV" />
-      <node concept="3F0ifn" id="3tK0pynLqqR" role="3EZMnx">
-        <property role="3F0ifm" value="Attribute" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="3tK0pynLqqW" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="3tK0pynLqr4" role="3EZMnx">
-        <property role="3F0ifm" value="of type" />
-        <node concept="Vb9p2" id="7AEkq7xjZ49" role="3F10Kt" />
-      </node>
-      <node concept="3F1sOY" id="5iGq3Fr5Zng" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
+      <node concept="2iRkQZ" id="4GwBkQEb_C" role="2iSdaV" />
+      <node concept="3EZMnI" id="4GwBkQEbKf" role="3EZMnx">
+        <node concept="2iRfu4" id="3tK0pynLqqM" role="2iSdaV" />
+        <node concept="3F0ifn" id="4GwBkQEbKg" role="3EZMnx">
+          <property role="3F0ifm" value="Attribute" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+        </node>
+        <node concept="3F0A7n" id="4GwBkQEbKh" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="4GwBkQEbKi" role="3EZMnx">
+          <property role="3F0ifm" value="of type" />
+          <node concept="Vb9p2" id="4GwBkQEbKj" role="3F10Kt" />
+        </node>
+        <node concept="3F1sOY" id="4GwBkQEbKk" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
+        </node>
       </node>
       <node concept="3EZMnI" id="24yfUKsjpE9" role="3EZMnx">
-        <node concept="2iRfu4" id="24yfUKsjpEa" role="2iSdaV" />
+        <node concept="2iRfu4" id="4GwBkQH4vH" role="2iSdaV" />
+        <node concept="3F0ifn" id="4GwBkQH4E5" role="3EZMnx">
+          <property role="3F0ifm" value="   " />
+        </node>
         <node concept="3F0ifn" id="24yfUKsjqPn" role="3EZMnx">
           <property role="3F0ifm" value="is initialized by" />
           <node concept="Vb9p2" id="24yfUKsjr0l" role="3F10Kt" />
@@ -2922,6 +2928,27 @@
       <node concept="3F0ifn" id="5AVjrpYXjnF" role="3EZMnx">
         <property role="3F0ifm" value=")" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4GwBkQIeLe">
+    <property role="3GE5qa" value="Initialization" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGl7" resolve="RandomNormal" />
+    <node concept="3EZMnI" id="4GwBkQIeLg" role="2wV5jI">
+      <node concept="3F0ifn" id="4GwBkQIeLh" role="3EZMnx">
+        <property role="3F0ifm" value="Normal distribution with mean" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="2iRfu4" id="4GwBkQIeLi" role="2iSdaV" />
+      <node concept="3F1sOY" id="4GwBkQIeLk" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4GwBkQIeL1" resolve="mean" />
+      </node>
+      <node concept="3F0ifn" id="4GwBkQIeL$" role="3EZMnx">
+        <property role="3F0ifm" value="and stdev" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="3F1sOY" id="4GwBkQIeLK" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4GwBkQIeL3" resolve="stdev" />
       </node>
     </node>
   </node>

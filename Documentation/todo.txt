@@ -1,0 +1,42 @@
+TODO list for development of ODD2Netlogo (Deadline May 3)
+- complete Bullying model: procedures
+- make applicable to and partner mandatory for interaction and action
+- add description for UDA
+- globals = model parameters
+- move UDA out of general entity
+- allow affects all/any (env / entity) - special general entity
+- remove center on patch and do it auto after move
+- wolf sheep scheduling
+- remove condition from action / interaction
+- number instead of real/integer
+- introduce common UDA for entities: wolf sheep
+- editor: type of UDA @ entity def
+- fix code Voting, Fire, FireAgents, Segregation cf. Library
+- why is occupied an interaction in segregation? fix it.
+- generate agent condition at call, not at proc. call is correct if parent applicable to same
+- 3 scenarios for Bullying = 3 experiments, intvalue -> repetitions
+- check all concepts with TODO
+- copy documentation 2019 and earlier into git: papers, reports 445, ...
+- endcondition, move to simulation / experiment
+- should sliders be expressions?
+- init: add init concept -> init -> experiment
+- move init entity state -> entity state (editor)
+- create predefined UDAs shape, size, colour
+
+TODO for student
+- remove branches from github
+- remove unused nameforentity editors
+- make all generated code work
+- make adding of interactions possible in UI
+- typing of expressions
+- constraints that names cannot be the same
+- use base styles consistently in editor
+- fix selection of agent and UI generally
+- fix editors (references)
+- fix focus (init vs. entities)
+- proper indent in editor
+- localize codegen
+- build stand-alone
+- use kernelF for expressions
+- create code for behavioural space
+- switch singular & plural for turtles
