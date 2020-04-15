@@ -6370,5 +6370,31 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4GwBkQPjbH">
+    <property role="3GE5qa" value="Initialization" />
+    <ref role="WuzLi" to="86kt:3lcKR8aBGl7" resolve="RandomNormal" />
+    <node concept="11bSqf" id="4GwBkQPjbI" role="11c4hB">
+      <node concept="3clFbS" id="4GwBkQPjbJ" role="2VODD2">
+        <node concept="lc7rE" id="4GwBkQPjc2" role="3cqZAp">
+          <node concept="la8eA" id="4GwBkQPjco" role="lcghm">
+            <property role="lacIc" value="Random distribution not implemented yet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="4GwBkQREb5">
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="WuzLi" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+    <node concept="11bSqf" id="4GwBkQREb6" role="11c4hB">
+      <node concept="3clFbS" id="4GwBkQREb7" role="2VODD2">
+        <node concept="lc7rE" id="4GwBkQREbq" role="3cqZAp">
+          <node concept="la8eA" id="4GwBkQREbK" role="lcghm">
+            <property role="lacIc" value="let activity not implemented yet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

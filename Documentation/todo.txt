@@ -1,9 +1,10 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
-- complete Bullying model: procedures
+- complete Bullying model: expression for arrays lhs and rhs
 - make applicable to and partner mandatory for interaction and action
 - add description for UDA
 - globals = model parameters
 - move UDA out of general entity
+- correct code generation for Bullying
 - allow affects all/any (env / entity) - special general entity
 - remove center on patch and do it auto after move
 - wolf sheep scheduling

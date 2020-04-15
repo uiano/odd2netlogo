@@ -91,6 +91,9 @@
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
       <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
+      <concept id="84585932955613678" name="formalodd.structure.LetActivity" flags="ng" index="RZfIr">
+        <child id="84585932955613689" name="value" index="RZfIc" />
+      </concept>
       <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B" />
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
@@ -1345,15 +1348,60 @@
         <node concept="2lNc1w" id="4GwBkQLLdD" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
-        <node concept="1Svl6F" id="4GwBkQLLdw" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWf1" resolve="refuseApproveInteraction1" />
+        <node concept="RZfIr" id="4GwBkQQuGx" role="18tn1X">
+          <property role="TrG5h" value="refuseApprove1" />
+          <node concept="26hFik" id="4GwBkQQuGy" role="RZfIc">
+            <property role="26hFil" value="5yfUVbuMlWk/le" />
+            <node concept="26lliW" id="4GwBkQQuGz" role="26hFir">
+              <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+            </node>
+            <node concept="ZOwoP" id="4GwBkQQuG$" role="26hFip">
+              <node concept="2oK_Am" id="4GwBkQQuG_" role="R_6SO">
+                <property role="2oK_Ap" value="1" />
+              </node>
+              <node concept="2oK_Am" id="4GwBkQQuGA" role="R_6SQ">
+                <property role="2oK_Ap" value="10" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="4GwBkQQuH_" role="18tn1X">
+          <property role="TrG5h" value="refuseApprove2" />
+          <node concept="26hFik" id="4GwBkQQuHA" role="RZfIc">
+            <property role="26hFil" value="5yfUVbuMlWk/le" />
+            <node concept="26lliW" id="4GwBkQQuHB" role="26hFir">
+              <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+            </node>
+            <node concept="ZOwoP" id="4GwBkQQuHC" role="26hFip">
+              <node concept="2oK_Am" id="4GwBkQQuHD" role="R_6SO">
+                <property role="2oK_Ap" value="1" />
+              </node>
+              <node concept="2oK_Am" id="4GwBkQQuHE" role="R_6SQ">
+                <property role="2oK_Ap" value="10" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1Svl6F" id="4GwBkQO7$R" role="18tn1X">
+          <ref role="1Svl6C" node="4GwBkQMWgM" resolve="refusedInteractions" />
+        </node>
+        <node concept="1Svl6F" id="4GwBkQO7_1" role="18tn1X">
+          <ref role="1Svl6C" node="4GwBkQMWhK" resolve="forcedInteractions" />
         </node>
       </node>
-      <node concept="BZNO7" id="4GwBkQMWf1" role="2GyEu2">
-        <property role="TrG5h" value="refuseApproveInteraction1" />
+      <node concept="BZNO7" id="4GwBkQMWgM" role="2GyEu2">
+        <property role="TrG5h" value="refusedInteractions" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="2lNc1w" id="4GwBkQMWf2" role="18tn1Z">
+        <node concept="2lNc1w" id="4GwBkQMWgN" role="18tn1Z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
+      </node>
+      <node concept="BZNO7" id="4GwBkQMWhK" role="2GyEu2">
+        <property role="TrG5h" value="forcedInteractions" />
+        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
+        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="2lNc1w" id="4GwBkQMWhL" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>

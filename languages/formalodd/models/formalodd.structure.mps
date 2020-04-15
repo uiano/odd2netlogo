@@ -1734,5 +1734,21 @@
       <property role="1L1pqM" value="anywhere" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4GwBkQO7BI">
+    <property role="EcuMT" value="84585932955613678" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <property role="TrG5h" value="LetActivity" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
+    <node concept="PrWs8" id="4GwBkQO7BJ" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="4GwBkQO7BT" role="1TKVEi">
+      <property role="IQ2ns" value="84585932955613689" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
 </model>
 

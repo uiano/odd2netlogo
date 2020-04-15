@@ -1448,28 +1448,25 @@
   <node concept="24kQdi" id="1zaawdwHRIP">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1XX52x" to="86kt:1zaawdwHRIC" resolve="CallAction" />
-    <node concept="3EZMnI" id="qdXC$ygXRO" role="2wV5jI">
-      <node concept="2iRkQZ" id="qdXC$ygXRP" role="2iSdaV" />
-      <node concept="3EZMnI" id="1zaawdwPXVZ" role="3EZMnx">
-        <node concept="2iRfu4" id="1zaawdwPXW0" role="2iSdaV" />
-        <node concept="3F0ifn" id="1zaawdwPXWe" role="3EZMnx">
-          <property role="3F0ifm" value="Perform the procedure" />
-          <node concept="Vb9p2" id="1zaawdwPXWk" role="3F10Kt" />
-        </node>
-        <node concept="1iCGBv" id="1zaawdwHRIR" role="3EZMnx">
-          <property role="1$x2rV" value="press control space to select procedure" />
-          <ref role="1NtTu8" to="86kt:1zaawdwHRIF" resolve="called" />
-          <node concept="1sVBvm" id="1zaawdwHRIT" role="1sWHZn">
-            <node concept="3F0A7n" id="1zaawdwHRJ0" role="2wV5jI">
-              <property role="1Intyy" value="true" />
-              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            </node>
+    <node concept="3EZMnI" id="1zaawdwPXVZ" role="2wV5jI">
+      <node concept="2iRfu4" id="1zaawdwPXW0" role="2iSdaV" />
+      <node concept="3F0ifn" id="1zaawdwPXWe" role="3EZMnx">
+        <property role="3F0ifm" value="Perform the procedure" />
+        <node concept="Vb9p2" id="1zaawdwPXWk" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="1zaawdwHRIR" role="3EZMnx">
+        <property role="1$x2rV" value="press control space to select procedure" />
+        <ref role="1NtTu8" to="86kt:1zaawdwHRIF" resolve="called" />
+        <node concept="1sVBvm" id="1zaawdwHRIT" role="1sWHZn">
+          <node concept="3F0A7n" id="1zaawdwHRJ0" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
-        <node concept="3F0ifn" id="5iGq3FqWp$t" role="3EZMnx">
-          <property role="3F0ifm" value="." />
-          <ref role="1k5W1q" node="5yfUVbwRsLk" resolve="punctuation" />
-        </node>
+      </node>
+      <node concept="3F0ifn" id="5iGq3FqWp$t" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <ref role="1k5W1q" node="5yfUVbwRsLk" resolve="punctuation" />
       </node>
     </node>
   </node>
@@ -2949,6 +2946,26 @@
       </node>
       <node concept="3F1sOY" id="4GwBkQIeLK" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:4GwBkQIeL3" resolve="stdev" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4GwBkQO7C3">
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+    <node concept="3EZMnI" id="4GwBkQO7C5" role="2wV5jI">
+      <node concept="2iRfu4" id="4GwBkQO7C6" role="2iSdaV" />
+      <node concept="3F0ifn" id="4GwBkQO7C7" role="3EZMnx">
+        <property role="3F0ifm" value="Let" />
+        <node concept="Vb9p2" id="4GwBkQO7C8" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="4GwBkQO7CA" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4GwBkQO7CS" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="4GwBkQO7De" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4GwBkQO7BT" resolve="value" />
       </node>
     </node>
   </node>
