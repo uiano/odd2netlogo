@@ -6396,5 +6396,18 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="4GwBkQWGlb">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="WuzLi" to="86kt:4GwBkQU3Kn" resolve="LetAccess" />
+    <node concept="11bSqf" id="4GwBkQWGlc" role="11c4hB">
+      <node concept="3clFbS" id="4GwBkQWGld" role="2VODD2">
+        <node concept="lc7rE" id="4GwBkQWGlw" role="3cqZAp">
+          <node concept="la8eA" id="4GwBkQWGlQ" role="lcghm">
+            <property role="lacIc" value="let access not implemented yet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -1750,5 +1750,17 @@
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4GwBkQU3Kn">
+    <property role="EcuMT" value="84585932957170711" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="LetAccess" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="4GwBkQU3Ko" role="1TKVEi">
+      <property role="IQ2ns" value="84585932957170712" />
+      <property role="20kJfa" value="let" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="4GwBkQO7BI" resolve="LetActivity" />
+    </node>
+  </node>
 </model>
 

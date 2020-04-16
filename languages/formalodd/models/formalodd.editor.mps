@@ -956,7 +956,7 @@
         <ref role="1NtTu8" to="86kt:3rTwIuRHR_s" resolve="maxAmount" />
       </node>
       <node concept="3F0ifn" id="7MNWMN_ZPJ2" role="3EZMnx">
-        <property role="3F0ifm" value="initially" />
+        <property role="3F0ifm" value="default" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="7MNWMN_ZPJk" role="3EZMnx">
@@ -2762,6 +2762,7 @@
     <node concept="3EZMnI" id="7MNWMNCXZAE" role="2wV5jI">
       <node concept="3F0ifn" id="7MNWMNCXZAF" role="3EZMnx">
         <property role="3F0ifm" value="float slider from" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="l2Vlx" id="7MNWMNCXZAG" role="2iSdaV" />
       <node concept="3F0A7n" id="7MNWMNCXZAH" role="3EZMnx">
@@ -2769,18 +2770,21 @@
       </node>
       <node concept="3F0ifn" id="7MNWMNCXZAI" role="3EZMnx">
         <property role="3F0ifm" value="with step" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="7MNWMNCXZAJ" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7MNWMNCXZ_C" resolve="slideAmount" />
       </node>
       <node concept="3F0ifn" id="7MNWMNCXZAK" role="3EZMnx">
         <property role="3F0ifm" value="to" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="7MNWMNCXZAL" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7MNWMNCXZ_B" resolve="maxAmount" />
       </node>
       <node concept="3F0ifn" id="7MNWMNCXZAM" role="3EZMnx">
-        <property role="3F0ifm" value="initially" />
+        <property role="3F0ifm" value="default" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="7MNWMNCXZAN" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7MNWMNCXZ_D" resolve="startValue" />
@@ -2966,6 +2970,21 @@
       </node>
       <node concept="3F1sOY" id="4GwBkQO7De" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:4GwBkQO7BT" resolve="value" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4GwBkQU3KL">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:4GwBkQU3Kn" resolve="LetAccess" />
+    <node concept="3EZMnI" id="4GwBkQU3KN" role="2wV5jI">
+      <node concept="l2Vlx" id="4GwBkQU3KO" role="2iSdaV" />
+      <node concept="1iCGBv" id="4GwBkQU3KP" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:4GwBkQU3Ko" resolve="let" />
+        <node concept="1sVBvm" id="4GwBkQU3KQ" role="1sWHZn">
+          <node concept="3F0A7n" id="4GwBkQU3KR" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

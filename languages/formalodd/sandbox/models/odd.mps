@@ -91,10 +91,15 @@
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
       <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
+      <concept id="84585932957170711" name="formalodd.structure.LetAccess" flags="ng" index="RLbTy">
+        <reference id="84585932957170712" name="let" index="RLbTH" />
+      </concept>
       <concept id="84585932955613678" name="formalodd.structure.LetActivity" flags="ng" index="RZfIr">
         <child id="84585932955613689" name="value" index="RZfIc" />
       </concept>
-      <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B" />
+      <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B">
+        <property id="6930332985972271866" name="value" index="2W8tvr" />
+      </concept>
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
       </concept>
@@ -1289,6 +1294,24 @@
         <node concept="1Svl6F" id="4GwBkQMWew" role="18tn1X">
           <ref role="1Svl6C" node="4GwBkQMWbN" resolve="updateInteractions" />
         </node>
+        <node concept="RZfIr" id="4GwBkQVhcL" role="18tn1X">
+          <property role="TrG5h" value="positiveInteraction" />
+          <node concept="2W8u0B" id="4GwBkQVhcX" role="RZfIc" />
+        </node>
+        <node concept="2rRKAk" id="4GwBkQVhda" role="18tn1X">
+          <node concept="26hFik" id="4GwBkQVhdr" role="2rRKAn">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="RLbTy" id="4GwBkQVhd$" role="26hFir">
+              <ref role="RLbTH" node="4GwBkQVhcL" resolve="positiveInteraction" />
+            </node>
+            <node concept="2W8u0B" id="4GwBkQVhdB" role="26hFip">
+              <property role="2W8tvr" value="true" />
+            </node>
+          </node>
+          <node concept="8shMO" id="4GwBkQVwpm" role="2rRKAh">
+            <property role="26S2D9" value="5yfUVburW9E/me" />
+          </node>
+        </node>
         <node concept="2lNc1w" id="4GwBkQLLdF" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
@@ -1382,27 +1405,59 @@
             </node>
           </node>
         </node>
-        <node concept="1Svl6F" id="4GwBkQO7$R" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWgM" resolve="refusedInteractions" />
+        <node concept="2rRKAk" id="4GwBkQVh7G" role="18tn1X">
+          <node concept="26hFik" id="4GwBkQVh83" role="2rRKAn">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="RLbTy" id="4GwBkQVh8c" role="26hFir">
+              <ref role="RLbTH" node="4GwBkQQuGx" resolve="refuseApprove1" />
+            </node>
+            <node concept="2W8u0B" id="4GwBkQVh8f" role="26hFip">
+              <property role="2W8tvr" value="true" />
+            </node>
+          </node>
+          <node concept="2rRKAk" id="4GwBkQVh8i" role="2rRKAh">
+            <node concept="26hFik" id="4GwBkQVh8r" role="2rRKAn">
+              <property role="26hFil" value="24yfUKsyf$I/eq" />
+              <node concept="RLbTy" id="4GwBkQVh8$" role="26hFir">
+                <ref role="RLbTH" node="4GwBkQQuH_" resolve="refuseApprove2" />
+              </node>
+              <node concept="2W8u0B" id="4GwBkQVh8B" role="26hFip" />
+            </node>
+            <node concept="2qfAsZ" id="4GwBkQVh8L" role="2rRKAh">
+              <ref role="2rWCsu" node="5yfUVbwl$2H" resolve="refusedInteractions" />
+              <node concept="2oK_Am" id="4GwBkQVh8R" role="2rWCss">
+                <property role="2oK_Ap" value="1" />
+              </node>
+            </node>
+          </node>
         </node>
-        <node concept="1Svl6F" id="4GwBkQO7_1" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWhK" resolve="forcedInteractions" />
-        </node>
-      </node>
-      <node concept="BZNO7" id="4GwBkQMWgM" role="2GyEu2">
-        <property role="TrG5h" value="refusedInteractions" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="2lNc1w" id="4GwBkQMWgN" role="18tn1Z">
-          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
-        </node>
-      </node>
-      <node concept="BZNO7" id="4GwBkQMWhK" role="2GyEu2">
-        <property role="TrG5h" value="forcedInteractions" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="2lNc1w" id="4GwBkQMWhL" role="18tn1Z">
-          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="2rRKAk" id="4GwBkQVhaB" role="18tn1X">
+          <node concept="26hFik" id="4GwBkQVhaC" role="2rRKAn">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="RLbTy" id="4GwBkQVhaD" role="26hFir">
+              <ref role="RLbTH" node="4GwBkQQuGx" resolve="refuseApprove1" />
+            </node>
+            <node concept="2W8u0B" id="4GwBkQVhaE" role="26hFip">
+              <property role="2W8tvr" value="true" />
+            </node>
+          </node>
+          <node concept="2rRKAk" id="4GwBkQVhaF" role="2rRKAh">
+            <node concept="26hFik" id="4GwBkQVhaG" role="2rRKAn">
+              <property role="26hFil" value="24yfUKsyf$I/eq" />
+              <node concept="RLbTy" id="4GwBkQVhaH" role="26hFir">
+                <ref role="RLbTH" node="4GwBkQQuH_" resolve="refuseApprove2" />
+              </node>
+              <node concept="2W8u0B" id="4GwBkQVhaI" role="26hFip">
+                <property role="2W8tvr" value="true" />
+              </node>
+            </node>
+            <node concept="2qfAsZ" id="4GwBkQVhaJ" role="2rRKAh">
+              <ref role="2rWCsu" node="5yfUVbwl$2H" resolve="refusedInteractions" />
+              <node concept="2oK_Am" id="4GwBkQVhaK" role="2rWCss">
+                <property role="2oK_Ap" value="1" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="1Svl6F" id="4GwBkQLLcz" role="250j5S">
