@@ -1015,7 +1015,7 @@
   </node>
   <node concept="1M2fIO" id="7qp8jK7Ll08">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1M2myG" to="86kt:6lHESjKCmJ$" resolve="EntityReference" />
+    <ref role="1M2myG" to="86kt:6lHESjKCmJ$" resolve="ConcreteEntityReference" />
     <node concept="1N5Pfh" id="7qp8jK7Ll09" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5zjJPlga3JE" resolve="generalEntity" />
       <node concept="1dDu$B" id="7qp8jK7Ll0b" role="1N6uqs">
