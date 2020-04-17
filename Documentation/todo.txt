@@ -1,22 +1,21 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
 - complete Bullying model: handling of relationships, see netlogo code
-- add description for UDA
 - allow affects all/any (env / entity) - code gen correct
-- globals = model parameters
+- globals = model parameters - gen correct code
 - move UDA out of general entity
+- relationship IS the attribute, not has
 - correct code generation for Bullying
 - remove center on patch and do it auto after move
 - wolf sheep scheduling - correct code gen ref Library
 - remove condition from action / interaction
 - number instead of real/integer
 - make partner in Interaction an EntityReference
-- editor: type of UDA @ entity def
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - 3 scenarios for Bullying = 3 experiments, intvalue -> repetitions
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
-- fix code Voting, Fire, FireAgents, Segregation cf. Library
+- fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
 - why is occupied an interaction in segregation? fix it.
 - check all concepts with TODO
 - should sliders be expressions?

@@ -122,6 +122,13 @@
   <node concept="1TIwiD" id="3lcKR8aBGk8">
     <property role="EcuMT" value="3840659476812055816" />
     <property role="TrG5h" value="EntitiesStateVariablesAndScales" />
+    <node concept="1TJgyj" id="4GwBkRrFmy" role="1TKVEi">
+      <property role="IQ2ns" value="84585932965983650" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="modelParameters" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
     <node concept="1TJgyj" id="3lcKR8aBGkb" role="1TKVEi">
       <property role="IQ2ns" value="3840659476812055819" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -211,6 +218,11 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="initialisation" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="4GwBkRmQAl" role="1TKVEl">
+      <property role="IQ2nx" value="84585932964718997" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGky">
