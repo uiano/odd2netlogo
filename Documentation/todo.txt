@@ -1,28 +1,26 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
-- complete Bullying model: expression for arrays lhs and rhs
-- make applicable to and partner mandatory for interaction and action
-- add description for UDA
-- globals = model parameters
+- complete Bullying model: handling of relationships, see netlogo code
+- allow affects all/any (env / entity) - code gen correct
+- globals = model parameters - gen correct code
 - move UDA out of general entity
+- relationship IS the attribute, not has
 - correct code generation for Bullying
-- allow affects all/any (env / entity) - special general entity
 - remove center on patch and do it auto after move
-- wolf sheep scheduling
+- wolf sheep scheduling - correct code gen ref Library
 - remove condition from action / interaction
 - number instead of real/integer
-- introduce common UDA for entities: wolf sheep
-- editor: type of UDA @ entity def
-- fix code Voting, Fire, FireAgents, Segregation cf. Library
-- why is occupied an interaction in segregation? fix it.
+- make partner in Interaction an EntityReference
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - 3 scenarios for Bullying = 3 experiments, intvalue -> repetitions
-- check all concepts with TODO
-- copy documentation 2019 and earlier into git: papers, reports 445, ...
-- endcondition, move to simulation / experiment
-- should sliders be expressions?
 - init: add init concept -> init -> experiment
+- endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
+- fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
+- why is occupied an interaction in segregation? fix it.
+- check all concepts with TODO
+- should sliders be expressions?
 - create predefined UDAs shape, size, colour
+- remove arrays? - not needed (move to later)
 
 TODO for student
 - remove branches from github
@@ -41,3 +39,4 @@ TODO for student
 - use kernelF for expressions
 - create code for behavioural space
 - switch singular & plural for turtles
+- copy documentation 2019 and earlier into git: papers, reports 445, ...
