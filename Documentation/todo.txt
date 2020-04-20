@@ -1,14 +1,13 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
-- complete Bullying model: handling of relationships, see netlogo code
+- complete MARG: handling of relationships, actions, see netlogo code
 - allow affects all/any (env / entity) - code gen correct
 - globals = model parameters - gen correct code
 - move UDA out of general entity
 - relationship IS the attribute, not has
-- correct code generation for Bullying
+- correct code generation for MARG
 - remove center on patch and do it auto after move
 - wolf sheep scheduling - correct code gen ref Library
 - remove condition from action / interaction
-- number instead of real/integer
 - make partner in Interaction an EntityReference
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - 3 scenarios for Bullying = 3 experiments, intvalue -> repetitions
@@ -20,7 +19,7 @@ TODO list for development of ODD2Netlogo (Deadline May 3)
 - check all concepts with TODO
 - should sliders be expressions?
 - create predefined UDAs shape, size, colour
-- remove arrays? - not needed (move to later)
+- remove arrays? - not needed (move to future use)
 
 TODO for student
 - remove branches from github

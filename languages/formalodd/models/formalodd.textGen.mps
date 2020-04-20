@@ -167,7 +167,6 @@
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
-      <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
       </concept>
@@ -3851,38 +3850,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="7MNWMNBT7k6" role="3cqZAp">
-              <node concept="3clFbS" id="7MNWMNBT7k7" role="3clFbx">
-                <node concept="lc7rE" id="7MNWMNBT7k8" role="3cqZAp">
-                  <node concept="2BGw6n" id="5iGq3FpYi$V" role="lcghm" />
-                  <node concept="la8eA" id="5iGq3FrgPIe" role="lcghm">
-                    <property role="lacIc" value="if " />
-                  </node>
-                  <node concept="l9hG8" id="7MNWMNBT7k9" role="lcghm">
-                    <node concept="2OqwBi" id="7MNWMNBT7ka" role="lb14g">
-                      <node concept="117lpO" id="7MNWMNBT7kb" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="7MNWMNBT7Bs" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:7MNWMNBvDFx" resolve="condition" />
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="la8eA" id="7MNWMNBT7ke" role="lcghm">
-                    <property role="lacIc" value=" [" />
-                  </node>
-                  <node concept="l8MVK" id="7MNWMNBT7kf" role="lcghm" />
-                </node>
-                <node concept="11p84A" id="5iGq3Fq1ksl" role="3cqZAp" />
-              </node>
-              <node concept="2OqwBi" id="7MNWMNBT7kk" role="3clFbw">
-                <node concept="2OqwBi" id="7MNWMNBT7kl" role="2Oq$k0">
-                  <node concept="117lpO" id="7MNWMNBT7km" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7MNWMNBT7zc" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:7MNWMNBvDFx" resolve="condition" />
-                  </node>
-                </node>
-                <node concept="3x8VRR" id="7MNWMNBT7ko" role="2OqNvi" />
-              </node>
-            </node>
             <node concept="2Gpval" id="3kYfzLXlG25" role="3cqZAp">
               <node concept="2GrKxI" id="3kYfzLXlG27" role="2Gsz3X">
                 <property role="TrG5h" value="action" />
@@ -3901,27 +3868,6 @@
                     </node>
                   </node>
                 </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="7MNWMNBT8fi" role="3cqZAp">
-              <node concept="3clFbS" id="7MNWMNBT8fj" role="3clFbx">
-                <node concept="11pn5k" id="5iGq3Fq1ktu" role="3cqZAp" />
-                <node concept="lc7rE" id="7MNWMNBT8fk" role="3cqZAp">
-                  <node concept="2BGw6n" id="5iGq3FpYj32" role="lcghm" />
-                  <node concept="la8eA" id="7MNWMNBT8fm" role="lcghm">
-                    <property role="lacIc" value="]" />
-                  </node>
-                  <node concept="l8MVK" id="7MNWMNBT8fn" role="lcghm" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="7MNWMNBT8fo" role="3clFbw">
-                <node concept="2OqwBi" id="7MNWMNBT8fp" role="2Oq$k0">
-                  <node concept="117lpO" id="7MNWMNBT8fq" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="7MNWMNBT8zF" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:7MNWMNBvDFx" resolve="condition" />
-                  </node>
-                </node>
-                <node concept="3x8VRR" id="7MNWMNBT8fs" role="2OqNvi" />
               </node>
             </node>
             <node concept="3clFbJ" id="4GwBkRaWg0" role="3cqZAp">

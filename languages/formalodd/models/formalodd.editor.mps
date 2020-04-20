@@ -1034,23 +1034,8 @@
         <node concept="3F1sOY" id="4GwBkRe_Hz" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
         </node>
-      </node>
-      <node concept="3EZMnI" id="5yfUVbxcusJ" role="3EZMnx">
-        <node concept="VPM3Z" id="5yfUVbxcusK" role="3F10Kt" />
-        <node concept="3F0ifn" id="5yfUVbxcusL" role="3EZMnx">
-          <property role="3F0ifm" value="Provided" />
-          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-        </node>
-        <node concept="3F1sOY" id="5yfUVbxcusM" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7MNWMNBvDFx" resolve="condition" />
-        </node>
-        <node concept="2iRfu4" id="5yfUVbxcusN" role="2iSdaV" />
-        <node concept="3F0ifn" id="5yfUVbxcusO" role="3EZMnx">
-          <property role="3F0ifm" value="," />
-          <ref role="1k5W1q" node="5yfUVbwRsLk" resolve="punctuation" />
-        </node>
-        <node concept="3F0ifn" id="5yfUVbxcusP" role="3EZMnx">
-          <property role="3F0ifm" value="we do the actions" />
+        <node concept="3F0ifn" id="3M5MOtLpx3W" role="3EZMnx">
+          <property role="3F0ifm" value=", performing the following actions" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
       </node>
@@ -1546,23 +1531,8 @@
         <node concept="3F0A7n" id="5AVjrpZ9jPB" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:5AVjrpZ9jPb" resolve="where" />
         </node>
-      </node>
-      <node concept="3EZMnI" id="5yfUVbx2wpO" role="3EZMnx">
-        <node concept="VPM3Z" id="5yfUVbx2wpQ" role="3F10Kt" />
-        <node concept="3F0ifn" id="5yfUVbx2wpS" role="3EZMnx">
-          <property role="3F0ifm" value="Provided" />
-          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-        </node>
-        <node concept="3F1sOY" id="5yfUVbx2wqp" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7MNWMNBvDFx" resolve="condition" />
-        </node>
-        <node concept="2iRfu4" id="5yfUVbx2wpT" role="2iSdaV" />
-        <node concept="3F0ifn" id="5yfUVbx2wqV" role="3EZMnx">
-          <property role="3F0ifm" value="," />
-          <ref role="1k5W1q" node="5yfUVbwRsLk" resolve="punctuation" />
-        </node>
-        <node concept="3F0ifn" id="5yfUVbx2wr5" role="3EZMnx">
-          <property role="3F0ifm" value="we do the actions" />
+        <node concept="3F0ifn" id="3M5MOtLpIq8" role="3EZMnx">
+          <property role="3F0ifm" value=", performing the following actions" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
       </node>
@@ -2707,34 +2677,35 @@
   <node concept="24kQdi" id="7MNWMNBrfFb">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1XX52x" to="86kt:7MNWMNBrfES" resolve="ConditionalAction" />
-    <node concept="3EZMnI" id="7MNWMNBrfFd" role="2wV5jI">
-      <node concept="3F0ifn" id="5yfUVbxeaix" role="3EZMnx">
-        <property role="3F0ifm" value="if" />
-        <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
+    <node concept="3EZMnI" id="3M5MOtLlj7_" role="2wV5jI">
+      <node concept="3EZMnI" id="3M5MOtLlj7H" role="3EZMnx">
+        <node concept="VPM3Z" id="3M5MOtLlj7I" role="3F10Kt" />
+        <node concept="3F0ifn" id="3M5MOtLlj8n" role="3EZMnx">
+          <property role="3F0ifm" value="if" />
+          <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
+        </node>
+        <node concept="3F1sOY" id="3M5MOtLlj8o" role="3EZMnx">
+          <property role="1$x2rV" value="press enter to create a condition" />
+          <ref role="1NtTu8" to="86kt:7MNWMNBrfEV" resolve="condition" />
+        </node>
+        <node concept="3F0ifn" id="3M5MOtLlj8p" role="3EZMnx">
+          <property role="3F0ifm" value="then" />
+          <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
+        </node>
+        <node concept="2iRfu4" id="3M5MOtLlj7L" role="2iSdaV" />
       </node>
-      <node concept="3F1sOY" id="7MNWMNBrfFe" role="3EZMnx">
-        <property role="1$x2rV" value="press enter to create a condition" />
-        <ref role="1NtTu8" to="86kt:7MNWMNBrfEV" resolve="condition" />
-      </node>
-      <node concept="3F0ifn" id="5yfUVbxeaiV" role="3EZMnx">
-        <property role="3F0ifm" value="then" />
-        <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
-      </node>
-      <node concept="3F2HdR" id="7MNWMNBti02" role="3EZMnx">
+      <node concept="3F2HdR" id="3M5MOtLlj7O" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7MNWMNBrfEX" resolve="actions" />
-        <node concept="2iRkQZ" id="7MNWMNBti03" role="2czzBx" />
-        <node concept="pVoyu" id="7MNWMNBti04" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F0ifn" id="7MNWMNBti06" role="2czzBI">
-          <property role="3F0ifm" value="Add new action press enter the control space to select type" />
-          <node concept="Vb9p2" id="7MNWMNBti07" role="3F10Kt" />
-          <node concept="VechU" id="7MNWMNBti08" role="3F10Kt">
-            <property role="Vb096" value="fLJRk5_/gray" />
-          </node>
+        <node concept="2iRkQZ" id="3M5MOtLlj7P" role="2czzBx" />
+        <node concept="3F0ifn" id="3M5MOtLlj7Q" role="2czzBI">
+          <property role="3F0ifm" value="press enter to add actions" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
         </node>
       </node>
-      <node concept="2iRfu4" id="5yfUVbxeaiG" role="2iSdaV" />
+      <node concept="2iRkQZ" id="3M5MOtLlj7R" role="2iSdaV" />
+      <node concept="VPXOz" id="3M5MOtLlj7S" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7MNWMNC7dYT">
