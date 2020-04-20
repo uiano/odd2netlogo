@@ -1862,7 +1862,7 @@
   </node>
   <node concept="24kQdi" id="RwtFpHCeSz">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
     <node concept="3EZMnI" id="7qp8jK78Yih" role="2wV5jI">
       <node concept="2iRkQZ" id="7qp8jK78Yii" role="2iSdaV" />
       <node concept="3EZMnI" id="7qp8jK78Ykb" role="3EZMnx">
@@ -2128,7 +2128,7 @@
   </node>
   <node concept="24kQdi" id="4qxfPPPABr0">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
     <node concept="2aJ2om" id="4qxfPPPABr2" role="CpUAK">
       <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
     </node>
@@ -2542,7 +2542,7 @@
   </node>
   <node concept="24kQdi" id="7qp8jK7xuHC">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
     <node concept="3F0A7n" id="7qp8jK7xuTt" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>

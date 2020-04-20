@@ -1039,7 +1039,7 @@
   </node>
   <node concept="1M2fIO" id="6efIhqTp5qJ">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1M2myG" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
+    <ref role="1M2myG" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
     <node concept="1N5Pfh" id="6efIhqTp5qK" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:RwtFpHTCbt" resolve="from" />
       <node concept="1dDu$B" id="6efIhqTp5qO" role="1N6uqs">

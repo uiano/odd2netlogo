@@ -97,7 +97,7 @@
               <node concept="2ShNRf" id="RwtFpHTZJS" role="25WWJ7">
                 <node concept="3zrR0B" id="RwtFpHU00k" role="2ShVmc">
                   <node concept="3Tqbb2" id="RwtFpHU00m" role="3zrR0E">
-                    <ref role="ehGHo" to="86kt:RwtFpHC4y1" resolve="TODO_Relationship" />
+                    <ref role="ehGHo" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
                   </node>
                 </node>
               </node>
