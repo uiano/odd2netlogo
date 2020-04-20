@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -1813,25 +1812,30 @@
     <property role="TrG5h" value="Purpose" />
     <property role="3GE5qa" value="Themis concepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="294onrmen8F" role="1TKVEl">
-      <property role="IQ2nx" value="2469205658733998635" />
-      <property role="TrG5h" value="Researchquestion" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="294onrmen8H" role="1TKVEl">
       <property role="IQ2nx" value="2469205658733998637" />
       <property role="TrG5h" value="Categorization" />
       <ref role="AX2Wp" node="294onrmen8K" resolve="Categoriesofmodels" />
     </node>
-    <node concept="1TJgyi" id="294onrmen8M" role="1TKVEl">
-      <property role="IQ2nx" value="2469205658733998642" />
-      <property role="TrG5h" value="targetgroup" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="7bwUywleRKS" role="1TKVEi">
+      <property role="IQ2ns" value="8277873572982783032" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="ResearchQuestion" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
-    <node concept="1TJgyi" id="294onrmen8Q" role="1TKVEl">
-      <property role="IQ2nx" value="2469205658733998646" />
-      <property role="TrG5h" value="purposedescription" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="1TJgyj" id="7bwUywleRKU" role="1TKVEi">
+      <property role="IQ2ns" value="8277873572982783034" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="Targetgroup" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+    </node>
+    <node concept="1TJgyj" id="7bwUywleRL0" role="1TKVEi">
+      <property role="IQ2ns" value="8277873572982783040" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="Purposedescription" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5grm">
@@ -1924,22 +1928,24 @@
     <node concept="1TJgyi" id="7j1C2e$5gqJ" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938095" />
       <property role="TrG5h" value="threshold" />
-      <ref role="AX2Wp" to="tpee:4_5hYVHKxAU" resolve="_FloatNumberValue" />
-    </node>
-    <node concept="1TJgyi" id="7j1C2e$5gqL" role="1TKVEl">
-      <property role="IQ2nx" value="8413181653841938097" />
-      <property role="TrG5h" value="characterizationbeforevalue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7j1C2e$5gqO" role="1TKVEl">
-      <property role="IQ2nx" value="8413181653841938100" />
-      <property role="TrG5h" value="characterizationaftervalue" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gqS" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938104" />
       <property role="20kJfa" value="alltypesofattributes" />
-      <ref role="20lvS9" to="tpck:4uZwTti3_$T" resolve="Attribute" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+    <node concept="1TJgyj" id="7bwUywleRL7" role="1TKVEi">
+      <property role="IQ2ns" value="8277873572982783047" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="Characterizationbeforevalue" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+    </node>
+    <node concept="1TJgyj" id="7bwUywleRLa" role="1TKVEi">
+      <property role="IQ2ns" value="8277873572982783050" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="Characterizationaftervalue" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gqr">
@@ -1961,15 +1967,16 @@
     <property role="3GE5qa" value="Themis concepts" />
     <property role="TrG5h" value="Themis_rationale" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="294onrmenaJ" role="1TKVEl">
-      <property role="IQ2nx" value="2469205658733998767" />
-      <property role="TrG5h" value="Description" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
     <node concept="1TJgyi" id="294onrmenaL" role="1TKVEl">
       <property role="IQ2nx" value="2469205658733998769" />
       <property role="TrG5h" value="Baseforrationale" />
       <ref role="AX2Wp" node="294onrmenaO" resolve="Rationalelist" />
+    </node>
+    <node concept="1TJgyj" id="7bwUywleRLh" role="1TKVEi">
+      <property role="IQ2ns" value="8277873572982783057" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="Description" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gpp">
@@ -2006,7 +2013,7 @@
     <node concept="1TJgyj" id="7j1C2e$5gq$" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938084" />
       <property role="20kJfa" value="allattributesthatexist" />
-      <ref role="20lvS9" to="tpck:4uZwTti3_$T" resolve="Attribute" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
   </node>
   <node concept="25R3W" id="294onrmenaO">
