@@ -958,10 +958,10 @@
   </node>
   <node concept="24kQdi" id="3rTwIuRHR_Y">
     <property role="3GE5qa" value="Initialization" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="IntSlider" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="Slider" />
     <node concept="3EZMnI" id="7MNWMN_ZPHA" role="2wV5jI">
       <node concept="3F0ifn" id="7MNWMN_ZPHE" role="3EZMnx">
-        <property role="3F0ifm" value="given by slider from" />
+        <property role="3F0ifm" value="slider from" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="l2Vlx" id="7MNWMNA8SJ0" role="2iSdaV" />
@@ -1596,16 +1596,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="3tK0pyo0$FJ">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Integer" />
-    <node concept="3EZMnI" id="7AEkq7y73pM" role="2wV5jI">
-      <node concept="3F0ifn" id="7AEkq7y73pT" role="3EZMnx">
-        <property role="3F0ifm" value="Integer" />
-      </node>
-      <node concept="2iRfu4" id="7AEkq7y73pP" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="3tK0pyo7url">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGky" resolve="Type" />
@@ -1614,22 +1604,9 @@
       <property role="ilYzB" value="Press ctrl space to select Type" />
     </node>
   </node>
-  <node concept="24kQdi" id="7AEkq7wWNwy">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Integer" />
-    <node concept="3EZMnI" id="7AEkq7xvBFu" role="2wV5jI">
-      <node concept="2iRfu4" id="7AEkq7xvBFv" role="2iSdaV" />
-      <node concept="3F0ifn" id="7AEkq7wWNwA" role="3EZMnx">
-        <property role="3F0ifm" value="Integer" />
-      </node>
-    </node>
-    <node concept="2aJ2om" id="7AEkq7wWNw$" role="CpUAK">
-      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-    </node>
-  </node>
   <node concept="24kQdi" id="7AEkq7xf3c$">
     <property role="3GE5qa" value="Initialization" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="IntSlider" />
+    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="Slider" />
     <node concept="3F0ifn" id="7AEkq7xf3cC" role="2wV5jI">
       <property role="3F0ifm" value="slider" />
     </node>
@@ -1639,7 +1616,7 @@
   </node>
   <node concept="24kQdi" id="7AEkq7xyz$q">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="IntegerConstant" />
+    <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="NumberConstant" />
     <node concept="3F0A7n" id="7AEkq7xyz$s" role="2wV5jI">
       <ref role="1NtTu8" to="86kt:7AEkq7xq0wS" resolve="value" />
     </node>
@@ -2090,13 +2067,6 @@
     </node>
     <node concept="2aJ2om" id="6dSewhkwgCm" role="CpUAK">
       <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="6dSewhkARS4">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkQ" resolve="Float" />
-    <node concept="3F0ifn" id="6dSewhkARS6" role="2wV5jI">
-      <property role="3F0ifm" value="Float" />
     </node>
   </node>
   <node concept="24kQdi" id="6dSewhkPe8j">
@@ -2814,41 +2784,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="7MNWMNCXZAC">
-    <property role="3GE5qa" value="Initialization" />
-    <ref role="1XX52x" to="86kt:7MNWMNCXZ_$" resolve="FIX_FloatSlider" />
-    <node concept="3EZMnI" id="7MNWMNCXZAE" role="2wV5jI">
-      <node concept="3F0ifn" id="7MNWMNCXZAF" role="3EZMnx">
-        <property role="3F0ifm" value="float slider from" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="l2Vlx" id="7MNWMNCXZAG" role="2iSdaV" />
-      <node concept="3F0A7n" id="7MNWMNCXZAH" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_A" resolve="minAmount" />
-      </node>
-      <node concept="3F0ifn" id="7MNWMNCXZAI" role="3EZMnx">
-        <property role="3F0ifm" value="with step" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="7MNWMNCXZAJ" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_C" resolve="slideAmount" />
-      </node>
-      <node concept="3F0ifn" id="7MNWMNCXZAK" role="3EZMnx">
-        <property role="3F0ifm" value="to" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="7MNWMNCXZAL" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_B" resolve="maxAmount" />
-      </node>
-      <node concept="3F0ifn" id="7MNWMNCXZAM" role="3EZMnx">
-        <property role="3F0ifm" value="default" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="7MNWMNCXZAN" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNCXZ_D" resolve="startValue" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="5yfUVbuMlWQ">
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="1XX52x" to="86kt:5yfUVbuMlWA" resolve="Comparison" />
@@ -3089,6 +3024,29 @@
       <node concept="3F0A7n" id="4GwBkRmQN9" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:4GwBkRmQAl" resolve="description" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="7AEkq7wWNwy">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="NumberType" />
+    <node concept="3EZMnI" id="7AEkq7xvBFu" role="2wV5jI">
+      <node concept="2iRfu4" id="7AEkq7xvBFv" role="2iSdaV" />
+      <node concept="3F0ifn" id="7AEkq7wWNwA" role="3EZMnx">
+        <property role="3F0ifm" value="Number" />
+      </node>
+    </node>
+    <node concept="2aJ2om" id="7AEkq7wWNw$" role="CpUAK">
+      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3tK0pyo0$FJ">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="NumberType" />
+    <node concept="3EZMnI" id="7AEkq7y73pM" role="2wV5jI">
+      <node concept="3F0ifn" id="7AEkq7y73pT" role="3EZMnx">
+        <property role="3F0ifm" value="Number" />
+      </node>
+      <node concept="2iRfu4" id="7AEkq7y73pP" role="2iSdaV" />
     </node>
   </node>
 </model>

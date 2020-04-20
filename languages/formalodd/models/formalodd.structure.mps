@@ -35,7 +35,6 @@
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
-      <concept id="1083243159079" name="jetbrains.mps.lang.structure.structure.PrimitiveDataTypeDeclaration" flags="ng" index="QkHVr" />
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
@@ -263,18 +262,6 @@
   <node concept="1TIwiD" id="3lcKR8aBGkH">
     <property role="EcuMT" value="3840659476812055853" />
     <property role="TrG5h" value="Boolean" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGkI">
-    <property role="EcuMT" value="3840659476812055854" />
-    <property role="TrG5h" value="Integer" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGkQ">
-    <property role="EcuMT" value="3840659476812055862" />
-    <property role="TrG5h" value="Float" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
@@ -556,7 +543,7 @@
   </node>
   <node concept="1TIwiD" id="3rTwIuRHR_m">
     <property role="EcuMT" value="3961341278980372822" />
-    <property role="TrG5h" value="IntSlider" />
+    <property role="TrG5h" value="Slider" />
     <property role="3GE5qa" value="Initialization" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyi" id="3rTwIuRHR_n" role="1TKVEl">
@@ -567,22 +554,22 @@
     <node concept="1TJgyi" id="3rTwIuRHR_p" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372825" />
       <property role="TrG5h" value="minAmount" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_s" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372828" />
       <property role="TrG5h" value="maxAmount" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
     <node concept="1TJgyi" id="3rTwIuRHR_w" role="1TKVEl">
       <property role="IQ2nx" value="3961341278980372832" />
       <property role="TrG5h" value="slideAmount" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
     <node concept="1TJgyi" id="7AEkq7y72tT" role="1TKVEl">
       <property role="IQ2nx" value="8766909380355172217" />
       <property role="TrG5h" value="startValue" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKCmJ$">
@@ -989,13 +976,13 @@
   </node>
   <node concept="1TIwiD" id="7AEkq7xq0wR">
     <property role="EcuMT" value="8766909380343367735" />
-    <property role="TrG5h" value="IntegerConstant" />
+    <property role="TrG5h" value="NumberConstant" />
     <property role="3GE5qa" value="Expressions" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyi" id="7AEkq7xq0wS" role="1TKVEl">
       <property role="IQ2nx" value="8766909380343367736" />
       <property role="TrG5h" value="value" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
   </node>
   <node concept="1TIwiD" id="RwtFpHC4y1">
@@ -1360,37 +1347,6 @@
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7MNWMNCXZ_$">
-    <property role="EcuMT" value="8985793055746947428" />
-    <property role="TrG5h" value="FIX_FloatSlider" />
-    <property role="3GE5qa" value="Initialization" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
-    <node concept="1TJgyi" id="7MNWMNCXZ__" role="1TKVEl">
-      <property role="IQ2nx" value="8985793055746947429" />
-      <property role="TrG5h" value="generatedName" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7MNWMNCXZ_A" role="1TKVEl">
-      <property role="IQ2nx" value="8985793055746947430" />
-      <property role="TrG5h" value="minAmount" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7MNWMNCXZ_B" role="1TKVEl">
-      <property role="IQ2nx" value="8985793055746947431" />
-      <property role="TrG5h" value="maxAmount" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7MNWMNCXZ_C" role="1TKVEl">
-      <property role="IQ2nx" value="8985793055746947432" />
-      <property role="TrG5h" value="slideAmount" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="7MNWMNCXZ_D" role="1TKVEl">
-      <property role="IQ2nx" value="8985793055746947433" />
-      <property role="TrG5h" value="startValue" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="25R3W" id="5yfUVburW9D">
     <property role="3F6X1D" value="6381578350475854441" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
@@ -1737,27 +1693,11 @@
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
-  <node concept="QkHVr" id="5AVjrpZ4CY0">
-    <property role="3F6X1D" value="6465847136231788416" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="TrG5h" value="todo_numberab" />
-  </node>
   <node concept="Az7Fb" id="5AVjrpZ7$G4">
     <property role="3F6X1D" value="6465847136232557316" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="TrG5h" value="todo_numberXX" />
-    <property role="FLfZY" value="[0-9]*.[0-9]*" />
-  </node>
-  <node concept="1TIwiD" id="5AVjrpZ7BHa">
-    <property role="EcuMT" value="6465847136232569674" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="TrG5h" value="TODO_Number" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-    <node concept="1TJgyi" id="5AVjrpZ7BHb" role="1TKVEl">
-      <property role="IQ2nx" value="6465847136232569675" />
-      <property role="TrG5h" value="nn" />
-      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="todo_numberXX" />
-    </node>
+    <property role="TrG5h" value="number" />
+    <property role="FLfZY" value="(0|[1-9][0-9]*)([.][0-9]+)?" />
   </node>
   <node concept="25R3W" id="5AVjrpZ9jP3">
     <property role="3F6X1D" value="6465847136233012547" />
@@ -2098,6 +2038,12 @@
     <property role="TrG5h" value="EntityReference" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="3lcKR8aBGkI">
+    <property role="EcuMT" value="3840659476812055854" />
+    <property role="TrG5h" value="NumberType" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
 </model>
 
