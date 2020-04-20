@@ -7,7 +7,6 @@ TODO list for development of ODD2Netlogo (Deadline May 3)
 - correct code generation for MARG
 - remove center on patch and do it auto after move
 - wolf sheep scheduling - correct code gen ref Library
-- remove condition from action / interaction
 - make partner in Interaction an EntityReference
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - 3 scenarios for Bullying = 3 experiments, intvalue -> repetitions
