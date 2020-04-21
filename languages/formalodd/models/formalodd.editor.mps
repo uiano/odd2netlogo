@@ -305,7 +305,7 @@
           <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
         </node>
         <node concept="3F2HdR" id="5JxfqxAuiuD" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5JxfqxAubY6" resolve="purpose" />
+          <ref role="1NtTu8" to="86kt:5JxfqxAubY6" resolve="purposeTOBEREMOVED" />
           <node concept="2iRkQZ" id="5JxfqxAuiuF" role="2czzBx" />
           <node concept="3F0ifn" id="5JxfqxAup2L" role="2czzBI">
             <property role="3F0ifm" value="&lt;press enter and write what the purpose model is. press enter to get new line&gt;" />
