@@ -516,7 +516,7 @@
   <node concept="1TIwiD" id="3mweh__FtkM">
     <property role="EcuMT" value="3864151261526742322" />
     <property role="TrG5h" value="GraphicsWindow" />
-    <property role="3GE5qa" value="Experiments" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="6JKNFtZ__1G" role="1TKVEi">
       <property role="IQ2ns" value="7777943843983741036" />
@@ -1569,7 +1569,7 @@
   <node concept="1TIwiD" id="3lcKR8aBGlj">
     <property role="EcuMT" value="3840659476812055891" />
     <property role="TrG5h" value="AttributeStatistics" />
-    <property role="3GE5qa" value="Experiments" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5yfUVbwhkGE" role="1TKVEi">
@@ -1586,7 +1586,7 @@
   </node>
   <node concept="25R3W" id="5yfUVbwhRMr">
     <property role="3F6X1D" value="6381578350506769563" />
-    <property role="3GE5qa" value="Experiments" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="StatisticsKind" />
     <node concept="25R33" id="5yfUVbwhRMs" role="25R1y">
       <property role="3tVfz5" value="6381578350506769564" />
@@ -1742,7 +1742,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5grZ">
     <property role="EcuMT" value="8413181653841938175" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="SensitivityAnalysis" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7j1C2e$5gsw" role="1TKVEi">
@@ -1755,12 +1755,12 @@
   <node concept="1TIwiD" id="294onrmen8E">
     <property role="EcuMT" value="2469205658733998634" />
     <property role="TrG5h" value="Purpose" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="294onrmen8H" role="1TKVEl">
       <property role="IQ2nx" value="2469205658733998637" />
       <property role="TrG5h" value="role" />
-      <ref role="AX2Wp" node="294onrmen8K" resolve="Categoriesofmodels" />
+      <ref role="AX2Wp" node="294onrmen8K" resolve="ModelCategories" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRKS" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783032" />
@@ -1783,7 +1783,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5grm">
     <property role="EcuMT" value="8413181653841938134" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Parameters" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7j1C2e$5gs2" role="1TKVEi">
@@ -1803,7 +1803,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gr1">
     <property role="EcuMT" value="8413181653841938113" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Experimentdefinition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7j1C2e$5grt" role="1TKVEl">
@@ -1832,8 +1832,8 @@
   </node>
   <node concept="25R3W" id="294onrmen8K">
     <property role="3F6X1D" value="2469205658733998640" />
-    <property role="3GE5qa" value="Themis concepts" />
-    <property role="TrG5h" value="Categoriesofmodels" />
+    <property role="3GE5qa" value="" />
+    <property role="TrG5h" value="ModelCategories" />
     <node concept="25R33" id="294onrmen8L" role="25R1y">
       <property role="3tVfz5" value="2469205658733998641" />
       <property role="TrG5h" value="Prediction" />
@@ -1842,7 +1842,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gra">
     <property role="EcuMT" value="8413181653841938122" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Experimentdesign" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="7j1C2e$5grp" role="1TKVEi">
@@ -1865,7 +1865,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gqI">
     <property role="EcuMT" value="8413181653841938094" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Characterization" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7j1C2e$5gqJ" role="1TKVEl">
@@ -1893,7 +1893,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gqr">
     <property role="EcuMT" value="8413181653841938075" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Syntheticattribute" />
     <property role="R4oN_" value="I am not sure if attribute is the general concept behind attributes but the reasoning is that synthetic has the properties of an attribute plus an expression for its definition based on other attributes." />
     <ref role="1TJDcQ" to="tpck:4uZwTti3_$T" resolve="Attribute" />
@@ -1907,7 +1907,7 @@
   </node>
   <node concept="1TIwiD" id="294onrmenaI">
     <property role="EcuMT" value="2469205658733998766" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="Rationale" />
     <ref role="1TJDcQ" node="5JxfqxAu5tR" resolve="InformalConcept" />
     <node concept="1TJgyi" id="294onrmenaL" role="1TKVEl">
@@ -1918,7 +1918,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gpp">
     <property role="EcuMT" value="8413181653841938009" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Datacollection" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7j1C2e$5gpq" role="1TKVEl">
@@ -1955,7 +1955,7 @@
   </node>
   <node concept="25R3W" id="294onrmenaO">
     <property role="3F6X1D" value="2469205658733998772" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="Rationalelist" />
     <node concept="25R33" id="294onrmenaP" role="25R1y">
       <property role="3tVfz5" value="2469205658733998773" />
@@ -1980,8 +1980,8 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gsc">
     <property role="EcuMT" value="8413181653841938188" />
-    <property role="3GE5qa" value="Themis concepts" />
-    <property role="TrG5h" value="Range" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="TODO_Range" />
     <ref role="1TJDcQ" node="7j1C2e$5gsb" resolve="Samplingmethod" />
     <node concept="1TJgyi" id="7j1C2e$5gsd" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938189" />
@@ -2001,7 +2001,7 @@
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gsb">
     <property role="EcuMT" value="8413181653841938187" />
-    <property role="3GE5qa" value="Themis concepts" />
+    <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="Samplingmethod" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
