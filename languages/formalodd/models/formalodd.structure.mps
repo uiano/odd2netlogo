@@ -167,7 +167,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="relationships" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
+      <ref role="20lvS9" node="RwtFpHC4y1" resolve="Network" />
     </node>
     <node concept="1TJgyj" id="7JNl2w6kIwO" role="1TKVEi">
       <property role="IQ2ns" value="8931575016887347252" />
@@ -992,7 +992,7 @@
   </node>
   <node concept="1TIwiD" id="RwtFpHC4y1">
     <property role="EcuMT" value="999929643171596417" />
-    <property role="TrG5h" value="TODO_RelationshipNetowrk" />
+    <property role="TrG5h" value="Network" />
     <property role="R4oN_" value="Relationship between entities" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
@@ -1010,18 +1010,18 @@
     </node>
     <node concept="1TJgyi" id="5p5RAoTc1MA" role="1TKVEl">
       <property role="IQ2nx" value="6216619391282322598" />
-      <property role="TrG5h" value="todo_directed" />
+      <property role="TrG5h" value="directed" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
-    <node concept="1TJgyi" id="5p5RAoTc1MC" role="1TKVEl">
-      <property role="IQ2nx" value="6216619391282322600" />
-      <property role="TrG5h" value="todo_shared" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    <node concept="1TJgyi" id="3M5MOtL$6zN" role="1TKVEl">
+      <property role="IQ2nx" value="4361115321886599411" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="294onrmenbc" role="1TKVEi">
       <property role="IQ2ns" value="2469205658733998796" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Rationale" />
+      <property role="20kJfa" value="rationale" />
       <ref role="20lvS9" node="294onrmenaI" resolve="Rationale" />
     </node>
   </node>

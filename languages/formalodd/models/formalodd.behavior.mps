@@ -220,7 +220,7 @@
             </node>
             <node concept="2Zo12i" id="7qp8jK7L$Zo" role="2OqNvi">
               <node concept="chp4Y" id="7qp8jK7L_bn" role="2Zo12j">
-                <ref role="cht4Q" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
+                <ref role="cht4Q" to="86kt:RwtFpHC4y1" resolve="Network" />
               </node>
             </node>
           </node>

@@ -127,7 +127,7 @@
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
-        <child id="6620640720694329222" name="purpose" index="XAo8I" />
+        <child id="6620640720694329222" name="purposeTOBEREMOVED" index="XAo8I" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
@@ -161,14 +161,17 @@
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
       </concept>
-      <concept id="999929643171596417" name="formalodd.structure.TODO_RelationshipNetowrk" flags="ng" index="1wg3SR">
+      <concept id="999929643171596417" name="formalodd.structure.TODO_Network" flags="ng" index="1wg3SR">
+        <property id="4361115321886599411" name="description" index="1d5qeO" />
         <property id="6216619391282322598" name="todo_directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
+        <child id="2469205658733998796" name="Rationale" index="3OvheU" />
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
         <child id="6465847136229864916" name="size" index="BjBxy" />
       </concept>
+      <concept id="2469205658733998766" name="formalodd.structure.Rationale" flags="ng" index="3Ovhfo" />
       <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
       </concept>
@@ -1036,36 +1039,9 @@
   <node concept="ZOwpP" id="4xlWY3qEPkU">
     <property role="TrG5h" value="MARG" />
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
-      <node concept="ZOwpH" id="5p5RAoTafld" role="25gc1v">
-        <property role="TrG5h" value="idealExternalCharacteristics" />
-        <node concept="1JriGl" id="5AVjrpYXjn8" role="zGXb3">
-          <node concept="26lliW" id="5AVjrpYYKt7" role="BjBxy">
-            <ref role="26lliz" node="4qxfPPOK$yn" resolve="num-external-characteristics" />
-          </node>
-        </node>
-        <node concept="21jJIL" id="3M5MOtLfgYo" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.05" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
-        </node>
-      </node>
-      <node concept="ZOwpH" id="5p5RAoTaflr" role="25gc1v">
-        <property role="TrG5h" value="idealInternalCharacteristics" />
-        <node concept="1JriGl" id="5AVjrpYXjnb" role="zGXb3">
-          <node concept="26lliW" id="5AVjrpYYKt9" role="BjBxy">
-            <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
-          </node>
-        </node>
-        <node concept="21jJIL" id="3M5MOtLfgYI" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.05" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
-        </node>
-      </node>
       <node concept="ZOwpH" id="5p5RAoTaflx" role="25gc1v">
         <property role="TrG5h" value="externalCharacteristics" />
+        <property role="QtYJw" value="each student has an array of external characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjne" role="zGXb3">
           <node concept="26lliW" id="5AVjrpZ0i3h" role="BjBxy">
             <ref role="26lliz" node="4qxfPPOK$yn" resolve="num-external-characteristics" />
@@ -1082,6 +1058,7 @@
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflD" role="25gc1v">
         <property role="TrG5h" value="internalCharacteristics" />
+        <property role="QtYJw" value="each student has an array of internal characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjnh" role="zGXb3">
           <node concept="26lliW" id="5AVjrpZ0i3j" role="BjBxy">
             <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
@@ -1096,15 +1073,67 @@
           </node>
         </node>
       </node>
-      <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
-        <property role="TrG5h" value="student" />
-        <node concept="ZOwpH" id="5yfUVbwl$2H" role="1XCrbu">
-          <property role="TrG5h" value="refusedInteractions" />
-          <node concept="ZOwps" id="5yfUVbwl$2L" role="zGXb3" />
-          <node concept="2oK_Am" id="5AVjrpZ0i3r" role="2oy9Oj">
-            <property role="2oK_Ap" value="0" />
+      <node concept="ZOwpH" id="5p5RAoTaflh" role="25gc1v">
+        <property role="TrG5h" value="tolerance" />
+        <property role="QtYJw" value="this number reflects half the range for accepting char as positive, with middle value the IDM" />
+        <node concept="ZOwps" id="3M5MOtLapCC" role="zGXb3" />
+      </node>
+      <node concept="ZOwpH" id="5yfUVbwl$3m" role="25gc1v">
+        <property role="TrG5h" value="positiveInteractions" />
+        <property role="QtYJw" value="the number of positive interactions for a student so far" />
+        <node concept="ZOwps" id="5yfUVbwl$3u" role="zGXb3" />
+        <node concept="2oK_Am" id="5AVjrpZ0i3n" role="2oy9Oj">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="5yfUVbwl$3g" role="25gc1v">
+        <property role="TrG5h" value="negativeInteractions" />
+        <property role="QtYJw" value="the number of negative interactions for a student so far" />
+        <node concept="ZOwps" id="5yfUVbwl$3k" role="zGXb3" />
+        <node concept="2oK_Am" id="5AVjrpZ0i3p" role="2oy9Oj">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="5yfUVbwl$2H" role="25gc1v">
+        <property role="TrG5h" value="refusedInteractions" />
+        <property role="QtYJw" value="the number of refused interactions for a student so far" />
+        <node concept="ZOwps" id="5yfUVbwl$2L" role="zGXb3" />
+        <node concept="2oK_Am" id="5AVjrpZ0i3r" role="2oy9Oj">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="5p5RAoTafld" role="Qgzvn">
+        <property role="TrG5h" value="idealExternalCharacteristics" />
+        <property role="QtYJw" value="cultural values and norms for external characteristics reflected in a discrete value" />
+        <node concept="1JriGl" id="5AVjrpYXjn8" role="zGXb3">
+          <node concept="26lliW" id="5AVjrpYYKt7" role="BjBxy">
+            <ref role="26lliz" node="4qxfPPOK$yn" resolve="num-external-characteristics" />
           </node>
         </node>
+        <node concept="21jJIL" id="3M5MOtLfgYo" role="2oy9Oj">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.05" />
+          <property role="21jJIV" value="1" />
+          <property role="2rHBro" value="0.5" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="5p5RAoTaflr" role="Qgzvn">
+        <property role="TrG5h" value="idealInternalCharacteristics" />
+        <property role="QtYJw" value="cultural values and norms for internal characteristics reflected in a discrete value" />
+        <node concept="1JriGl" id="5AVjrpYXjnb" role="zGXb3">
+          <node concept="26lliW" id="5AVjrpYYKt9" role="BjBxy">
+            <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
+          </node>
+        </node>
+        <node concept="21jJIL" id="3M5MOtLfgYI" role="2oy9Oj">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.05" />
+          <property role="21jJIV" value="1" />
+          <property role="2rHBro" value="0.5" />
+        </node>
+      </node>
+      <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
+        <property role="TrG5h" value="student" />
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa0l/person" />
           <property role="27hOD7" value="10" />
@@ -1118,24 +1147,6 @@
         </node>
         <node concept="ZOwrR" id="22rmwLHGYvd" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
-        </node>
-        <node concept="ZOwpH" id="5yfUVbwl$3g" role="1XCrbu">
-          <property role="TrG5h" value="negativeInteractions" />
-          <node concept="ZOwps" id="5yfUVbwl$3k" role="zGXb3" />
-          <node concept="2oK_Am" id="5AVjrpZ0i3p" role="2oy9Oj">
-            <property role="2oK_Ap" value="0" />
-          </node>
-        </node>
-        <node concept="ZOwpH" id="5yfUVbwl$3m" role="1XCrbu">
-          <property role="TrG5h" value="positiveInteractions" />
-          <node concept="ZOwps" id="5yfUVbwl$3u" role="zGXb3" />
-          <node concept="2oK_Am" id="5AVjrpZ0i3n" role="2oy9Oj">
-            <property role="2oK_Ap" value="0" />
-          </node>
-        </node>
-        <node concept="ZOwpH" id="5p5RAoTaflh" role="1XCrbu">
-          <property role="TrG5h" value="tolerance" />
-          <node concept="ZOwps" id="3M5MOtLapCC" role="zGXb3" />
         </node>
       </node>
       <node concept="ZOwpH" id="4qxfPPOK$yh" role="1XCrKs">
@@ -1241,10 +1252,23 @@
       <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
         <property role="TrG5h" value="universityRelationship" />
         <property role="1Jtsb0" value="true" />
+        <property role="1d5qeO" value="students have relationships with other students, the relationships are 2 directionals (are different in each direction)" />
         <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
         <ref role="1wg9ys" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="ZOwpH" id="4qxfPPPteTY" role="1XCrbu">
+          <property role="TrG5h" value="attraction" />
+          <property role="QtYJw" value="each student has an attraction towards each of the other students (attraction is reflected on a number from 0 to 1 with 1 the maximum and 0 the lowest)" />
+          <node concept="ZOwps" id="3M5MOtLapCF" role="zGXb3" />
+          <node concept="21jJIL" id="3M5MOtLgIQT" role="2oy9Oj">
+            <property role="21jJIY" value="0" />
+            <property role="21jJI7" value="0.01" />
+            <property role="21jJIV" value="1" />
+            <property role="2rHBro" value="0.5" />
+          </node>
+        </node>
         <node concept="ZOwpH" id="5p5RAoTafl6" role="1XCrbu">
           <property role="TrG5h" value="knownIndices" />
+          <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
           <node concept="1JriGl" id="5AVjrpZ0i3w" role="zGXb3">
             <node concept="26lliW" id="5AVjrpZ0i3A" role="BjBxy">
               <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
@@ -1254,15 +1278,8 @@
             <property role="2oK_Ap" value="0" />
           </node>
         </node>
-        <node concept="ZOwpH" id="4qxfPPPteTY" role="1XCrbu">
-          <property role="TrG5h" value="attraction" />
-          <node concept="ZOwps" id="3M5MOtLapCF" role="zGXb3" />
-          <node concept="21jJIL" id="3M5MOtLgIQT" role="2oy9Oj">
-            <property role="21jJIY" value="0" />
-            <property role="21jJI7" value="0.01" />
-            <property role="21jJIV" value="1" />
-            <property role="2rHBro" value="0.5" />
-          </node>
+        <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheU">
+          <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
         </node>
       </node>
     </node>

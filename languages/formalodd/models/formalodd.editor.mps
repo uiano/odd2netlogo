@@ -479,12 +479,12 @@
       </node>
       <node concept="3F0ifn" id="3okqQmmA0iL" role="3EZMnx" />
       <node concept="3F0ifn" id="6ow5IfzodHZ" role="3EZMnx">
-        <property role="3F0ifm" value="Shared Attributes of all Entities" />
+        <property role="3F0ifm" value="Common Attributes of all Entities" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
       <node concept="3EZMnI" id="6ow5IfzodI0" role="3EZMnx">
         <node concept="3F0ifn" id="6ow5IfzodI1" role="3EZMnx">
-          <property role="3F0ifm" value="The shared entity attributes are:" />
+          <property role="3F0ifm" value="The common entity attributes are:" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="2iRfu4" id="6ow5IfzodI2" role="2iSdaV" />
@@ -1867,7 +1867,7 @@
   </node>
   <node concept="24kQdi" id="RwtFpHCeSz">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Network" />
     <node concept="3EZMnI" id="7qp8jK78Yih" role="2wV5jI">
       <node concept="2iRkQZ" id="7qp8jK78Yii" role="2iSdaV" />
       <node concept="3EZMnI" id="7qp8jK78Ykb" role="3EZMnx">
@@ -1915,17 +1915,17 @@
       <node concept="3EZMnI" id="5p5RAoTdeEk" role="3EZMnx">
         <node concept="VPM3Z" id="5p5RAoTdeEm" role="3F10Kt" />
         <node concept="3F0ifn" id="5p5RAoTdeEo" role="3EZMnx">
-          <property role="3F0ifm" value="The relationship is shared:" />
+          <property role="3F0ifm" value="The relationship is directed:" />
         </node>
         <node concept="2iRfu4" id="5p5RAoTdeEp" role="2iSdaV" />
-        <node concept="3F0A7n" id="5p5RAoTdeET" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5p5RAoTc1MC" resolve="todo_shared" />
-        </node>
-        <node concept="3F0ifn" id="5p5RAoTdeF1" role="3EZMnx">
-          <property role="3F0ifm" value="and directed:" />
-        </node>
         <node concept="3F0A7n" id="5p5RAoTdeFb" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5p5RAoTc1MA" resolve="todo_directed" />
+          <ref role="1NtTu8" to="86kt:5p5RAoTc1MA" resolve="directed" />
+        </node>
+        <node concept="3F0ifn" id="3M5MOtL$6zX" role="3EZMnx">
+          <property role="3F0ifm" value="and it describes" />
+        </node>
+        <node concept="3F0A7n" id="3M5MOtL$6$7" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3M5MOtL$6zN" resolve="description" />
         </node>
       </node>
       <node concept="3F0ifn" id="RwtFpHVAtU" role="3EZMnx">
@@ -2126,7 +2126,7 @@
   </node>
   <node concept="24kQdi" id="4qxfPPPABr0">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Network" />
     <node concept="2aJ2om" id="4qxfPPPABr2" role="CpUAK">
       <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
     </node>
@@ -2540,7 +2540,7 @@
   </node>
   <node concept="24kQdi" id="7qp8jK7xuHC">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="TODO_RelationshipNetowrk" />
+    <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Network" />
     <node concept="3F0A7n" id="7qp8jK7xuTt" role="2wV5jI">
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
