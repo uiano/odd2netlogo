@@ -19,6 +19,7 @@
         <child id="6381578350481727273" name="left" index="26hFir" />
       </concept>
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
+        <property id="4361115321892423118" name="accessWho" index="1dr8U9" />
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
@@ -71,6 +72,7 @@
         <child id="8985793055721061051" name="condition" index="2rRKAn" />
       </concept>
       <concept id="8985793055718208559" name="formalodd.structure.AssignAttribute" flags="ng" index="2rWCs3">
+        <property id="4361115321892802048" name="writeWho" index="1dqGl7" />
         <reference id="8985793055718208562" name="attribute" index="2rWCsu" />
         <child id="8985793055718208560" name="expression" index="2rWCss" />
       </concept>
@@ -151,6 +153,7 @@
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
+      <concept id="4361115321891670174" name="formalodd.structure.Empty" flags="ng" index="1dm0fp" />
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
         <property id="827001546371602890" name="wrapHorizontal" index="1jlS1c" />
         <property id="827001546371602896" name="wrapVertical" index="1jlS1m" />
@@ -161,12 +164,12 @@
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
       </concept>
-      <concept id="999929643171596417" name="formalodd.structure.TODO_Network" flags="ng" index="1wg3SR">
+      <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="4361115321886599411" name="description" index="1d5qeO" />
-        <property id="6216619391282322598" name="todo_directed" index="1Jtsb0" />
+        <property id="6216619391282322598" name="directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
-        <child id="2469205658733998796" name="Rationale" index="3OvheU" />
+        <child id="2469205658733998796" name="rationale" index="3OvheU" />
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
         <child id="6465847136229864916" name="size" index="BjBxy" />
@@ -1274,9 +1277,7 @@
               <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
             </node>
           </node>
-          <node concept="2oK_Am" id="5AVjrpZ0i3D" role="2oy9Oj">
-            <property role="2oK_Ap" value="0" />
-          </node>
+          <node concept="1dm0fp" id="3M5MOtLUknb" role="2oy9Oj" />
         </node>
         <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheU">
           <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
@@ -1328,6 +1329,37 @@
           </node>
           <node concept="8shMO" id="4GwBkQVwpm" role="2rRKAh">
             <property role="26S2D9" value="5yfUVburW9E/me" />
+          </node>
+          <node concept="2qfAsS" id="3M5MOtLUlEF" role="2rRKAh">
+            <ref role="2rWCsu" node="5yfUVbwl$2H" resolve="refusedInteractions" />
+            <node concept="26lliW" id="3M5MOtLUlEN" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9F/other" />
+              <ref role="26lliz" node="5yfUVbwl$2H" resolve="refusedInteractions" />
+            </node>
+          </node>
+          <node concept="2qfAsS" id="3M5MOtLXsPt" role="2rRKAh">
+            <property role="1dqGl7" value="5yfUVburW9F/other" />
+            <ref role="2rWCsu" node="5yfUVbwl$2H" resolve="refusedInteractions" />
+            <node concept="26lliW" id="3M5MOtLXsPu" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="5yfUVbwl$2H" resolve="refusedInteractions" />
+            </node>
+          </node>
+          <node concept="2qfAsS" id="3M5MOtM97fw" role="2rRKAh">
+            <property role="1dqGl7" value="5yfUVburW9E/me" />
+            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
+            <node concept="26lliW" id="3M5MOtM97fJ" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9F/other" />
+              <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+            </node>
+          </node>
+          <node concept="2qfAsS" id="3M5MOtM0o76" role="2rRKAh">
+            <property role="1dqGl7" value="5yfUVburW9F/other" />
+            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
+            <node concept="26lliW" id="3M5MOtMa_Vm" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+            </node>
           </node>
         </node>
         <node concept="2lNc1w" id="4GwBkQLLdF" role="18tn1Z">

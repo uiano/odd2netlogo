@@ -1,9 +1,4 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
-- MARG: empty set
-- MARG: read attribute of other
-- MARG: write attribute of other
-- MARG: read network
-- MARG: write network
 - MARG: functions
 - complete MARG: actions, see netlogo code
 - allow affects all/any (env / entity) - code gen correct
@@ -14,6 +9,7 @@ TODO list for development of ODD2Netlogo (Deadline May 3)
 - wolf sheep scheduling - correct code gen ref Library
 - make partner in Interaction an EntityReference
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
+- better structure for read and write other and network
 - 3 scenarios for Bullying = 3 experiments, intvalue -> repetitions
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
@@ -37,6 +33,9 @@ TODO for student
 - localize codegen
 - differentiate between user input text and template text (font, colour, ...)
 - remove unused nameforentity editors
+- better editor display for increment, decrement, set
+- editor input for attribute access of other
+- do not allow attribute of other for actions
 - make adding of interactions possible in UI
 - typing of expressions
 - remove branches from github
