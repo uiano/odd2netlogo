@@ -23,7 +23,6 @@
       <concept id="1082978499127" name="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" flags="ng" index="Az7Fb">
         <property id="1083066089218" name="constraint" index="FLfZY" />
       </concept>
-      <concept id="2992811758677295509" name="jetbrains.mps.lang.structure.structure.AttributeInfo" flags="ng" index="M6xJ_" />
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -55,7 +54,6 @@
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
-        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
@@ -1758,7 +1756,7 @@
     <node concept="1TJgyj" id="7j1C2e$5gsw" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938208" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="samplingmethod" />
+      <property role="20kJfa" value="samplinMmethod" />
       <ref role="20lvS9" node="7j1C2e$5gsb" resolve="Samplingmethod" />
     </node>
   </node>
@@ -1799,14 +1797,14 @@
     <node concept="1TJgyj" id="7j1C2e$5gs2" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938178" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Experimentparameterdefintion" />
+      <property role="20kJfa" value="experimentParameterDefintion" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gs4" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938180" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Sensitivityanalysisdefinition" />
+      <property role="20kJfa" value="sensitivityAnalysisDefinition" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7j1C2e$5grZ" resolve="SensitivityAnalysis" />
     </node>
@@ -1814,7 +1812,7 @@
   <node concept="1TIwiD" id="7j1C2e$5gr1">
     <property role="EcuMT" value="8413181653841938113" />
     <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Experimentdefinition" />
+    <property role="TrG5h" value="ExperimentDefinition" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7j1C2e$5grt" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938141" />
@@ -1830,13 +1828,13 @@
     <node concept="1TJgyj" id="7j1C2e$5grR" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938167" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="simulationlength" />
+      <property role="20kJfa" value="simulationLength" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5grV" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938171" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Sensitivityanalysis" />
+      <property role="20kJfa" value="sensitivityAnalysis" />
       <ref role="20lvS9" node="7j1C2e$5grZ" resolve="SensitivityAnalysis" />
     </node>
   </node>
@@ -1860,7 +1858,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="Experimentdefinition" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7j1C2e$5gr1" resolve="Experimentdefinition" />
+      <ref role="20lvS9" node="7j1C2e$5gr1" resolve="ExperimentDefinition" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gsp" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938201" />
@@ -1881,39 +1879,25 @@
     <node concept="1TJgyi" id="7j1C2e$5gqJ" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938095" />
       <property role="TrG5h" value="threshold" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gqS" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938104" />
-      <property role="20kJfa" value="alltypesofattributes" />
+      <property role="20kJfa" value="allTypesOfAttributes" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRL7" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783047" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Characterizationbeforevalue" />
+      <property role="20kJfa" value="characterizationBeforeValue" />
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRLa" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783050" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Characterizationaftervalue" />
+      <property role="20kJfa" value="characterizationAfterValue" />
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="7j1C2e$5gqr">
-    <property role="EcuMT" value="8413181653841938075" />
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Syntheticattribute" />
-    <property role="R4oN_" value="I am not sure if attribute is the general concept behind attributes but the reasoning is that synthetic has the properties of an attribute plus an expression for its definition based on other attributes." />
-    <ref role="1TJDcQ" to="tpck:4uZwTti3_$T" resolve="Attribute" />
-    <node concept="1TJgyj" id="7j1C2e$5gqU" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938106" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Definition" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-    <node concept="M6xJ_" id="7j1C2e$5gsy" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="294onrmenaI">
     <property role="EcuMT" value="2469205658733998766" />
@@ -1939,14 +1923,14 @@
     <node concept="1TJgyj" id="7j1C2e$5gpu" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938014" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="syntheticattributes" />
+      <property role="20kJfa" value="syntheticAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7j1C2e$5gqr" resolve="Syntheticattribute" />
+      <ref role="20lvS9" node="422sZWpxn8v" resolve="Syntheticattribute" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gqE" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938090" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Characterization" />
+      <property role="20kJfa" value="characterization" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="7j1C2e$5gqI" resolve="Characterization" />
     </node>
@@ -1959,7 +1943,7 @@
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gq$" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938084" />
-      <property role="20kJfa" value="allattributesthatexist" />
+      <property role="20kJfa" value="allAttributesThatExist" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
   </node>
@@ -1995,18 +1979,18 @@
     <ref role="1TJDcQ" node="7j1C2e$5gsb" resolve="Samplingmethod" />
     <node concept="1TJgyi" id="7j1C2e$5gsd" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938189" />
-      <property role="TrG5h" value="lowerbound" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="lowerBound" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
     <node concept="1TJgyi" id="7j1C2e$5gsf" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938191" />
-      <property role="TrG5h" value="upperbound" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <property role="TrG5h" value="upperBound" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
     <node concept="1TJgyi" id="7j1C2e$5gsi" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938194" />
       <property role="TrG5h" value="increment" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gsb">
@@ -2057,6 +2041,18 @@
     <property role="3GE5qa" value="Expressions" />
     <property role="TrG5h" value="Empty" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="422sZWpxn8v">
+    <property role="EcuMT" value="4648405304881803807" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="Syntheticattribute" />
+    <ref role="1TJDcQ" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <node concept="1TJgyj" id="422sZWpxn8w" role="1TKVEi">
+      <property role="IQ2ns" value="4648405304881803808" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="definition" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
   </node>
 </model>
 
