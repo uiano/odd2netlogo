@@ -1,7 +1,8 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
-- complete MARG: actions, see netlogo code
-- MARG: functions
-- define if-then-else
+- complete MARG: Free action, see netlogo code
+- MARG: functions (calculations) and parameters for them (also for actions)
+- MARG: number ranges as types - no need to adjust the inc and dec
+- MARG: define if-then-else
 - allow affects all/any (env / entity) - code gen correct
 - globals = model parameters - gen correct code
 - move UDA out of general entity
