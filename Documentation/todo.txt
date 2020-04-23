@@ -1,6 +1,7 @@
 TODO list for development of ODD2Netlogo (Deadline May 3)
-- MARG: functions
 - complete MARG: actions, see netlogo code
+- MARG: functions
+- define if-then-else
 - allow affects all/any (env / entity) - code gen correct
 - globals = model parameters - gen correct code
 - move UDA out of general entity
@@ -36,6 +37,7 @@ TODO for student
 - better editor display for increment, decrement, set
 - editor input for attribute access of other
 - do not allow attribute of other for actions
+- introduce proper constraints for names
 - make adding of interactions possible in UI
 - typing of expressions
 - remove branches from github
