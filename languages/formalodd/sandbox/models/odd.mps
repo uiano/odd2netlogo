@@ -130,6 +130,7 @@
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="6620640720694329222" name="purposeTOBEREMOVED" index="XAo8I" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
+        <child id="8277873572982783228" name="purpose" index="1BQTrk" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
@@ -172,6 +173,11 @@
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
         <child id="6465847136229864916" name="size" index="BjBxy" />
+      </concept>
+      <concept id="2469205658733998634" name="formalodd.structure.Purpose" flags="ng" index="3Ovhds">
+        <property id="2469205658733998637" name="role" index="3Ovhdr" />
+        <child id="8277873572982783032" name="researchQuestion" index="1BQTog" />
+        <child id="8277873572982783034" name="targetGroup" index="1BQToi" />
       </concept>
       <concept id="2469205658733998766" name="formalodd.structure.Rationale" flags="ng" index="3Ovhfo" />
       <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
@@ -526,6 +532,15 @@
         </node>
       </node>
     </node>
+    <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
+      <property role="3Ovhdr" value="6Uof7aieTi5/Theoretical_Expositon" />
+      <node concept="XAmFv" id="6Uof7aignIZ" role="1BQTog">
+        <property role="XAmFg" value="What effects the stability of predator-prey ecosystems?" />
+      </node>
+      <node concept="XAmFv" id="6Uof7aignJ1" role="1BQToi">
+        <property role="XAmFg" value="Everybody interested." />
+      </node>
+    </node>
   </node>
   <node concept="ZOwpP" id="1r3mgtJEVoW">
     <property role="TrG5h" value="Fire" />
@@ -658,6 +673,15 @@
       <node concept="1g3uKF" id="7MNWMNCbdfS" role="2kDK7N">
         <property role="1jzKJm" value="100" />
         <property role="1jzt_n" value="2" />
+      </node>
+    </node>
+    <node concept="3Ovhds" id="6Uof7aieThc" role="1BQTrk">
+      <property role="3Ovhdr" value="294onrmen8L/Prediction" />
+      <node concept="XAmFv" id="6Uof7aieThg" role="1BQTog">
+        <property role="XAmFg" value="How does forest fire spread based on the density of the woods?" />
+      </node>
+      <node concept="XAmFv" id="6Uof7aieThk" role="1BQToi">
+        <property role="XAmFg" value="Everybody with an interrest to see how fire spreads." />
       </node>
     </node>
   </node>
@@ -978,9 +1002,6 @@
   </node>
   <node concept="ZOwpP" id="35QCLExIhrZ">
     <property role="TrG5h" value="Forest fire with agent" />
-    <node concept="XAmFv" id="35QCLExIhs0" role="XAo8I">
-      <property role="XAmFg" value="Model to simulate forest fire. :) @@@???¿¿¿ éóá" />
-    </node>
     <node concept="ZOwpU" id="35QCLExIhs2" role="3$p12O">
       <node concept="ZOwrm" id="24yfUKsi0Xo" role="2kDK73">
         <property role="TrG5h" value="Tree" />
