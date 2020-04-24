@@ -1,8 +1,8 @@
-TODO list for development of ODD2Netlogo (Deadline May 3)
-- complete MARG: Free action, see netlogo code
+TODO list for development of ODD2Netlogo
 - MARG: functions (calculations) and parameters for them (also for actions)
-- MARG: number ranges as types - no need to adjust the inc and dec
+- complete MARG: Learn-about, positive-interaction, see netlogo code
 - MARG: define if-then-else
+- MARG: number ranges as types - no need to adjust the inc and dec
 - allow affects all/any (env / entity) - code gen correct
 - globals = model parameters - gen correct code
 - move UDA out of general entity
@@ -24,8 +24,10 @@ TODO list for development of ODD2Netlogo (Deadline May 3)
 - remove arrays? - not needed (move to future use)
 
 TODO for student
-1. create editor for purpose
 2. create editor for rationale
+3. differentiate between user input text and template text (font, colour, ...)
+4. make boxes around the proper syntactic entities (actions, interactions)
+5. make adding of interactions possible in UI
 - fix editors (references)
 - proper indent in editor
 - use base styles consistently in editor
@@ -33,18 +35,15 @@ TODO for student
 - good editor for optional parts: boolean attributes - should have a text for present and another text for not present
 - constraints that names cannot be the same
 - localize codegen
-3. differentiate between user input text and template text (font, colour, ...)
 - remove unused nameforentity editors
 - better editor display for increment, decrement, set
 - editor input for attribute access of other
 - do not allow attribute of other for actions
 - introduce proper constraints for names
-5. make adding of interactions possible in UI
 - typing of expressions
 - remove branches from github
 - build stand-alone
 - make all generated code work
-4. make boxes around the proper syntactic entities (actions, interactions)
 - fix selection of agent and UI generally
 - fix focus (init vs. entities)
 - use kernelF for expressions

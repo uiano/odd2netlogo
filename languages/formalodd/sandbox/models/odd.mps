@@ -19,6 +19,7 @@
         <child id="6381578350481727273" name="left" index="26hFir" />
       </concept>
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
+        <property id="4361115321892423118" name="accessWho" index="1dr8U9" />
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
@@ -41,6 +42,10 @@
       </concept>
       <concept id="1729384597837555313" name="formalodd.structure.Parenthesis" flags="ng" index="i8Uhg">
         <child id="1729384597837555314" name="inner" index="i8Uhj" />
+      </concept>
+      <concept id="3629783491417542689" name="formalodd.structure.RandomUniform" flags="ng" index="2jQCjV">
+        <child id="3629783491417542690" name="from" index="2jQCjS" />
+        <child id="3629783491417542691" name="to" index="2jQCjT" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
         <child id="8985793055732069087" name="world" index="2kDK7N" />
@@ -1315,6 +1320,9 @@
         <property role="TrG5h" value="Forced-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="1Svl6F" id="39v_dExxgYh" role="18tn1X">
+          <ref role="1Svl6C" node="4GwBkQLLe0" resolve="Learn-about" />
+        </node>
         <node concept="1Svl6F" id="39v_dExukB0" role="18tn1X">
           <ref role="1Svl6C" node="4GwBkQLLdf" resolve="Evaluate-interaction" />
         </node>
@@ -1438,7 +1446,7 @@
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
-        <property role="TrG5h" value="learnAboutOther" />
+        <property role="TrG5h" value="Learn-about" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
@@ -1461,54 +1469,46 @@
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
         <node concept="RZfIr" id="4GwBkQQuGx" role="18tn1X">
-          <property role="TrG5h" value="refuseApprove1" />
+          <property role="TrG5h" value="meAccept" />
           <node concept="26hFik" id="4GwBkQQuGy" role="RZfIc">
             <property role="26hFil" value="5yfUVbuMlWk/le" />
             <node concept="26lliW" id="4GwBkQQuGz" role="26hFir">
               <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
             </node>
-            <node concept="ZOwoP" id="4GwBkQQuG$" role="26hFip">
-              <node concept="2oK_Am" id="4GwBkQQuG_" role="R_6SO">
-                <property role="2oK_Ap" value="1" />
+            <node concept="2jQCjV" id="39v_dExyJUq" role="26hFip">
+              <node concept="2oK_Am" id="39v_dExyJUz" role="2jQCjS">
+                <property role="2oK_Ap" value="0" />
               </node>
-              <node concept="2oK_Am" id="4GwBkQQuGA" role="R_6SQ">
-                <property role="2oK_Ap" value="10" />
+              <node concept="2oK_Am" id="39v_dExyJUA" role="2jQCjT">
+                <property role="2oK_Ap" value="1" />
               </node>
             </node>
           </node>
         </node>
         <node concept="RZfIr" id="4GwBkQQuH_" role="18tn1X">
-          <property role="TrG5h" value="refuseApprove2" />
+          <property role="TrG5h" value="otherAccept" />
           <node concept="26hFik" id="4GwBkQQuHA" role="RZfIc">
             <property role="26hFil" value="5yfUVbuMlWk/le" />
             <node concept="26lliW" id="4GwBkQQuHB" role="26hFir">
+              <property role="1dr8U9" value="5yfUVburW9F/other" />
               <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
             </node>
-            <node concept="ZOwoP" id="4GwBkQQuHC" role="26hFip">
-              <node concept="2oK_Am" id="4GwBkQQuHD" role="R_6SO">
-                <property role="2oK_Ap" value="1" />
+            <node concept="2jQCjV" id="39v_dExyJUD" role="26hFip">
+              <node concept="2oK_Am" id="39v_dExyJUE" role="2jQCjS">
+                <property role="2oK_Ap" value="0" />
               </node>
-              <node concept="2oK_Am" id="4GwBkQQuHE" role="R_6SQ">
-                <property role="2oK_Ap" value="10" />
+              <node concept="2oK_Am" id="39v_dExyJUF" role="2jQCjT">
+                <property role="2oK_Ap" value="1" />
               </node>
             </node>
           </node>
         </node>
         <node concept="2rRKAk" id="4GwBkQVh7G" role="18tn1X">
-          <node concept="26hFik" id="4GwBkQVh83" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="4GwBkQVh8c" role="26hFir">
-              <ref role="RLbTH" node="4GwBkQQuGx" resolve="refuseApprove1" />
-            </node>
-            <node concept="2W8u0B" id="4GwBkQVh8f" role="26hFip">
-              <property role="2W8tvr" value="true" />
-            </node>
-          </node>
           <node concept="2rRKAk" id="4GwBkQVh8i" role="2rRKAh">
             <node concept="26hFik" id="4GwBkQVh8r" role="2rRKAn">
               <property role="26hFil" value="24yfUKsyf$I/eq" />
               <node concept="RLbTy" id="4GwBkQVh8$" role="26hFir">
-                <ref role="RLbTH" node="4GwBkQQuH_" resolve="refuseApprove2" />
+                <ref role="RLbTH" node="4GwBkQQuH_" resolve="otherAccept" />
               </node>
               <node concept="2W8u0B" id="4GwBkQVh8B" role="26hFip" />
             </node>
@@ -1519,32 +1519,30 @@
               </node>
             </node>
           </node>
-        </node>
-        <node concept="2rRKAk" id="4GwBkQVhaB" role="18tn1X">
-          <node concept="26hFik" id="4GwBkQVhaC" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="4GwBkQVhaD" role="26hFir">
-              <ref role="RLbTH" node="4GwBkQQuGx" resolve="refuseApprove1" />
+          <node concept="2rRKAk" id="39v_dExyJWE" role="2rRKAh">
+            <node concept="1Svl6F" id="39v_dExyJX8" role="2rRKAh">
+              <ref role="1Svl6C" node="4GwBkQLLe0" resolve="Learn-about" />
             </node>
-            <node concept="2W8u0B" id="4GwBkQVhaE" role="26hFip">
-              <property role="2W8tvr" value="true" />
+            <node concept="1Svl6F" id="39v_dExyJX_" role="2rRKAh">
+              <ref role="1Svl6C" node="4GwBkQLLdf" resolve="Evaluate-interaction" />
             </node>
-          </node>
-          <node concept="2rRKAk" id="4GwBkQVhaF" role="2rRKAh">
-            <node concept="26hFik" id="4GwBkQVhaG" role="2rRKAn">
+            <node concept="26hFik" id="39v_dExyJX2" role="2rRKAn">
               <property role="26hFil" value="24yfUKsyf$I/eq" />
-              <node concept="RLbTy" id="4GwBkQVhaH" role="26hFir">
-                <ref role="RLbTH" node="4GwBkQQuH_" resolve="refuseApprove2" />
+              <node concept="RLbTy" id="39v_dExyJX3" role="26hFir">
+                <ref role="RLbTH" node="4GwBkQQuH_" resolve="otherAccept" />
               </node>
-              <node concept="2W8u0B" id="4GwBkQVhaI" role="26hFip">
+              <node concept="2W8u0B" id="39v_dExyJX4" role="26hFip">
                 <property role="2W8tvr" value="true" />
               </node>
             </node>
-            <node concept="2qfAsZ" id="4GwBkQVhaJ" role="2rRKAh">
-              <ref role="2rWCsu" node="5yfUVbwl$2H" resolve="#refused-interactions" />
-              <node concept="2oK_Am" id="4GwBkQVhaK" role="2rWCss">
-                <property role="2oK_Ap" value="1" />
-              </node>
+          </node>
+          <node concept="26hFik" id="39v_dExyJWm" role="2rRKAn">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="RLbTy" id="39v_dExyJWn" role="26hFir">
+              <ref role="RLbTH" node="4GwBkQQuGx" resolve="meAccept" />
+            </node>
+            <node concept="2W8u0B" id="39v_dExyJWo" role="26hFip">
+              <property role="2W8tvr" value="true" />
             </node>
           </node>
         </node>

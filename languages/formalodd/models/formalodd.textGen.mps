@@ -6347,5 +6347,18 @@
       </node>
     </node>
   </node>
+  <node concept="WtQ9Q" id="39v_dExxh1f">
+    <property role="3GE5qa" value="Initialization" />
+    <ref role="WuzLi" to="86kt:39v_dExxh0x" resolve="RandomUniform" />
+    <node concept="11bSqf" id="39v_dExxh1g" role="11c4hB">
+      <node concept="3clFbS" id="39v_dExxh1h" role="2VODD2">
+        <node concept="lc7rE" id="39v_dExxh1$" role="3cqZAp">
+          <node concept="la8eA" id="39v_dExxh1_" role="lcghm">
+            <property role="lacIc" value="Random distribution not implemented yet" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
