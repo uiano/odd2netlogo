@@ -1774,18 +1774,21 @@
       <property role="IQ2ns" value="8277873572982783032" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="researchQuestion" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRKU" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783034" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="targetGroup" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRL0" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783040" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="purposeDescription" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
   </node>

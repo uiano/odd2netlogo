@@ -3610,33 +3610,22 @@
     <ref role="1XX52x" to="86kt:294onrmen8E" resolve="Purpose" />
     <node concept="3EZMnI" id="6Uof7ahb9Z9" role="2wV5jI">
       <node concept="2iRkQZ" id="6Uof7ahb9Za" role="2iSdaV" />
-      <node concept="3EZMnI" id="6Uof7ahb9Zf" role="3EZMnx">
-        <node concept="2iRfu4" id="6Uof7ahb9Zg" role="2iSdaV" />
-        <node concept="3F0ifn" id="6Uof7ahb9Zl" role="3EZMnx">
-          <property role="3F0ifm" value="What is the research question?" />
-          <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
-        </node>
+      <node concept="3F0ifn" id="6Uof7ahb9Zl" role="3EZMnx">
+        <property role="3F0ifm" value="What is the research question?" />
+        <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
       </node>
-      <node concept="3F1sOY" id="6Uof7ai3aE$" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;press enter and describe the model research question&gt;" />
+      <node concept="3F2HdR" id="6Uof7aimquD" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7bwUywleRKS" resolve="researchQuestion" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-        <node concept="3Xmtl4" id="6Uof7ai7BoM" role="3F10Kt">
-          <node concept="1wgc9g" id="6Uof7ai7BoT" role="3XvnJa">
-            <ref role="1wgcnl" node="6Uof7ai68wd" resolve="hintIfNull" />
-          </node>
+        <node concept="2iRkQZ" id="6Uof7aimquF" role="2czzBx" />
+        <node concept="3F0ifn" id="6Uof7aimqwE" role="2czzBI">
+          <property role="3F0ifm" value="&lt;press enter and describe the model research question&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
         </node>
       </node>
-      <node concept="3EZMnI" id="6Uof7ahsvEX" role="3EZMnx">
-        <node concept="VPM3Z" id="6Uof7ahsvEZ" role="3F10Kt" />
-        <node concept="27yT$n" id="6Uof7ahsvFy" role="3F10Kt">
-          <property role="3$6WeP" value="1" />
-        </node>
-        <node concept="3F0ifn" id="6Uof7ahsvF1" role="3EZMnx">
-          <property role="3F0ifm" value="How would you categorize the role of the model?" />
-          <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
-        </node>
-        <node concept="2iRfu4" id="6Uof7ahsvF2" role="2iSdaV" />
+      <node concept="3F0ifn" id="6Uof7ahsvF1" role="3EZMnx">
+        <property role="3F0ifm" value="How would you categorize the role of the model?" />
+        <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
       </node>
       <node concept="3F0A7n" id="6Uof7ahwOiu" role="3EZMnx">
         <property role="1$x2rV" value="Press ctrl + space to select model category" />
@@ -3666,38 +3655,30 @@
           </node>
         </node>
       </node>
-      <node concept="3EZMnI" id="6Uof7ahPxN_" role="3EZMnx">
-        <node concept="2iRfu4" id="6Uof7ahPxNA" role="2iSdaV" />
-        <node concept="3F0ifn" id="6Uof7ahO26T" role="3EZMnx">
-          <property role="3F0ifm" value="For whom is the model designed?" />
-          <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
-        </node>
+      <node concept="3F0ifn" id="6Uof7ahO26T" role="3EZMnx">
+        <property role="3F0ifm" value="For whom is the model designed?" />
+        <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
       </node>
-      <node concept="3F1sOY" id="6Uof7ahYOaB" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;press enter and describe the puropse of the model&gt;" />
+      <node concept="3F2HdR" id="6Uof7aimqIx" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7bwUywleRKU" resolve="targetGroup" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-        <node concept="3Xmtl4" id="6Uof7ai7BeB" role="3F10Kt">
-          <node concept="1wgc9g" id="6Uof7ai7BeF" role="3XvnJa">
-            <ref role="1wgcnl" node="6Uof7ai68wd" resolve="hintIfNull" />
-          </node>
+        <node concept="2iRkQZ" id="6Uof7aimqIz" role="2czzBx" />
+        <node concept="3F0ifn" id="6Uof7aimqPO" role="2czzBI">
+          <property role="3F0ifm" value="&lt;press enter and describe the puropse of the model&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
         </node>
       </node>
-      <node concept="3EZMnI" id="6Uof7ahPy1C" role="3EZMnx">
-        <node concept="2iRfu4" id="6Uof7ahPy1D" role="2iSdaV" />
-        <node concept="3F0ifn" id="6Uof7ahPy0s" role="3EZMnx">
-          <property role="3F0ifm" value="Description of purpose:" />
-          <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
-        </node>
+      <node concept="3F0ifn" id="6Uof7ahPy0s" role="3EZMnx">
+        <property role="3F0ifm" value="Description of purpose:" />
+        <ref role="1k5W1q" node="6Uof7ahyjEJ" resolve="heading1" />
       </node>
-      <node concept="3F1sOY" id="6Uof7ai3atw" role="3EZMnx">
-        <property role="1$x2rV" value="&lt;press enter and describe the model research question&gt;" />
+      <node concept="3F2HdR" id="6Uof7aimrb1" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7bwUywleRL0" resolve="purposeDescription" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-        <node concept="3Xmtl4" id="6Uof7ai7Bdd" role="3F10Kt">
-          <node concept="1wgc9g" id="6Uof7ai7Bdh" role="3XvnJa">
-            <ref role="1wgcnl" node="6Uof7ai68wd" resolve="hintIfNull" />
-          </node>
+        <node concept="2iRkQZ" id="6Uof7aimrb3" role="2czzBx" />
+        <node concept="3F0ifn" id="6Uof7aimrcm" role="2czzBI">
+          <property role="3F0ifm" value="&lt;press enter and describe the model research question&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
         </node>
       </node>
     </node>
