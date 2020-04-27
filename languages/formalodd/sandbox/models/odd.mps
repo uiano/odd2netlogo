@@ -43,9 +43,24 @@
       <concept id="1729384597837555313" name="formalodd.structure.Parenthesis" flags="ng" index="i8Uhg">
         <child id="1729384597837555314" name="inner" index="i8Uhj" />
       </concept>
+      <concept id="3629783491425129924" name="formalodd.structure.TODO_ElementWise" flags="ng" index="2jDO4u">
+        <child id="3629783491425129925" name="inner" index="2jDO4v" />
+      </concept>
+      <concept id="3629783491423938124" name="formalodd.structure.TODO_ForEach" flags="ng" index="2jIjam">
+        <child id="3629783491423938129" name="collection" index="2jIjab" />
+        <child id="3629783491423938126" name="actions" index="2jIjak" />
+      </concept>
       <concept id="3629783491417542689" name="formalodd.structure.RandomUniform" flags="ng" index="2jQCjV">
         <child id="3629783491417542690" name="from" index="2jQCjS" />
         <child id="3629783491417542691" name="to" index="2jQCjT" />
+      </concept>
+      <concept id="3629783491419484631" name="formalodd.structure.TODO_Function" flags="ng" index="2jZikd">
+        <child id="3629783491419484634" name="result" index="2jZik0" />
+        <child id="3629783491419484632" name="parameters" index="2jZik2" />
+        <child id="3629783491419484637" name="locals" index="2jZik7" />
+      </concept>
+      <concept id="3629783491419484641" name="formalodd.structure.TODO_Parameter" flags="ng" index="2jZikV">
+        <child id="3629783491419484644" name="type" index="2jZikY" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
         <child id="8985793055732069087" name="world" index="2kDK7N" />
@@ -56,6 +71,7 @@
       </concept>
       <concept id="7308686357753541200" name="formalodd.structure.ProcessOverviewAndScheduling" flags="ng" index="2lMhBk">
         <child id="7358906959147378587" name="schedule" index="250j5S" />
+        <child id="3629783491420721113" name="functions" index="2jUxG3" />
         <child id="7308686357753541209" name="endConditions" index="2lMhBt" />
         <child id="6529568716141041572" name="procedures" index="2GyEu2" />
       </concept>
@@ -1316,6 +1332,95 @@
       </node>
     </node>
     <node concept="2lMhBk" id="4GwBkQLLcy" role="2J7coG">
+      <node concept="2jZikd" id="39v_dExISFb" role="2jUxG3">
+        <property role="TrG5h" value="positive-interaction" />
+        <node concept="RZfIr" id="39v_dExZIS2" role="2jZik7">
+          <property role="TrG5h" value="diff-ext" />
+          <node concept="2jDO4u" id="39v_dExZISm" role="RZfIc">
+            <node concept="i7gn5" id="39v_dExZISs" role="2jDO4v">
+              <property role="i7gn4" value="39v_dExZITw/distance" />
+              <node concept="26lliW" id="39v_dExZISt" role="i7gCG">
+                <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
+              </node>
+              <node concept="26lliW" id="39v_dExZISu" role="i7gCI">
+                <property role="1dr8U9" value="5yfUVburW9F/other" />
+                <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dExZISQ" role="2jZik7">
+          <property role="TrG5h" value="eval-ext" />
+          <node concept="2jDO4u" id="39v_dExZITb" role="RZfIc">
+            <node concept="26hFik" id="39v_dExZITh" role="2jDO4v">
+              <property role="26hFil" value="5yfUVbuMlWk/le" />
+              <node concept="RLbTy" id="39v_dExZITq" role="26hFir">
+                <ref role="RLbTH" node="39v_dExZIS2" resolve="diff-ext" />
+              </node>
+              <node concept="26lliW" id="39v_dExZITt" role="26hFip">
+                <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dExTEn$" role="2jZik7">
+          <property role="TrG5h" value="sumOfDiff" />
+          <node concept="i7gn5" id="39v_dExTEnG" role="RZfIc">
+            <property role="i7gn4" value="1w00y4a7gvC/add" />
+            <node concept="RLbTy" id="39v_dExZISN" role="i7gCG">
+              <ref role="RLbTH" node="39v_dExZIS2" resolve="diff-ext" />
+            </node>
+            <node concept="2oK_Am" id="39v_dExTEnS" role="i7gCI">
+              <property role="2oK_Ap" value="0" />
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dExTEnV" role="2jZik7">
+          <property role="TrG5h" value="evaluation-internal" />
+          <node concept="2oK_Am" id="39v_dExTEoC" role="RZfIc">
+            <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dExTEol" role="2jZik7">
+          <property role="TrG5h" value="evaluation-external" />
+          <node concept="2oK_Am" id="39v_dExTEo_" role="RZfIc">
+            <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dExTEo7" role="2jZik7">
+          <property role="TrG5h" value="evaluation" />
+          <node concept="i7gn5" id="39v_dExTEoF" role="RZfIc">
+            <property role="i7gn4" value="1w00y4a7gvC/add" />
+            <node concept="RLbTy" id="39v_dExTEoO" role="i7gCG">
+              <ref role="RLbTH" node="39v_dExTEnV" resolve="evaluation-internal" />
+            </node>
+            <node concept="RLbTy" id="39v_dExTEoR" role="i7gCI">
+              <ref role="RLbTH" node="39v_dExTEol" resolve="evaluation-external" />
+            </node>
+          </node>
+        </node>
+        <node concept="2jZikV" id="39v_dExISFc" role="2jZik2">
+          <property role="TrG5h" value="par1" />
+          <node concept="2lNc1w" id="39v_dExM7uL" role="2jZikY">
+            <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+          </node>
+        </node>
+        <node concept="2jZikV" id="39v_dExM7uS" role="2jZik2">
+          <property role="TrG5h" value="par2" />
+          <node concept="2lNc1w" id="39v_dExM7uY" role="2jZikY">
+            <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+          </node>
+        </node>
+        <node concept="26hFik" id="39v_dExTEoU" role="2jZik0">
+          <property role="26hFil" value="5yfUVbuMlWv/ge" />
+          <node concept="RLbTy" id="39v_dExTEp3" role="26hFir">
+            <ref role="RLbTH" node="39v_dExTEo7" resolve="evaluation" />
+          </node>
+          <node concept="2oK_Am" id="39v_dExTEp6" role="26hFip">
+            <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+      </node>
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
         <property role="TrG5h" value="Forced-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
@@ -1335,7 +1440,7 @@
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="1Svl6F" id="39v_dExsSpx" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWaj" resolve="positive-interaction" />
+          <ref role="1Svl6C" node="4GwBkQMWaj" resolve="positive-interaction-old" />
         </node>
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
           <property role="TrG5h" value="positiveInteraction" />
@@ -1387,7 +1492,7 @@
           </node>
         </node>
         <node concept="1Svl6F" id="39v_dExrqnD" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWaj" resolve="positive-interaction" />
+          <ref role="1Svl6C" node="4GwBkQMWaj" resolve="positive-interaction-old" />
         </node>
         <node concept="RZfIr" id="4GwBkQVhcL" role="18tn1X">
           <property role="TrG5h" value="positiveInteraction" />
@@ -1454,9 +1559,18 @@
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQMWaj" role="2GyEu2">
-        <property role="TrG5h" value="positive-interaction" />
+        <property role="TrG5h" value="positive-interaction-old" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="2jIjam" id="39v_dExVbDc" role="18tn1X">
+          <property role="TrG5h" value="index" />
+          <node concept="8shMO" id="39v_dExVbDn" role="2jIjak">
+            <property role="26S2D9" value="5yfUVburW9E/me" />
+          </node>
+          <node concept="2oK_Am" id="39v_dExVbDk" role="2jIjab">
+            <property role="2oK_Ap" value="10909" />
+          </node>
+        </node>
         <node concept="2lNc1w" id="4GwBkQMWal" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
