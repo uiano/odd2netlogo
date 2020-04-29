@@ -1088,14 +1088,17 @@
         <property role="QtYJw" value="each student has an array of external characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjne" role="zGXb3">
           <node concept="26lliW" id="5AVjrpZ0i3h" role="BjBxy">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yn" resolve="num-external-characteristics" />
           </node>
         </node>
         <node concept="ZOwoP" id="4GwBkQJqql" role="2oy9Oj">
           <node concept="26lliW" id="4GwBkQJqqr" role="R_6SO">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yG" resolve="Average_char" />
           </node>
           <node concept="26lliW" id="4GwBkQJqqu" role="R_6SQ">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yV" resolve="Stdev_char" />
           </node>
         </node>
@@ -1105,14 +1108,17 @@
         <property role="QtYJw" value="each student has an array of internal characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjnh" role="zGXb3">
           <node concept="26lliW" id="5AVjrpZ0i3j" role="BjBxy">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
           </node>
         </node>
         <node concept="ZOwoP" id="4GwBkQJqq_" role="2oy9Oj">
           <node concept="26lliW" id="4GwBkQJqqA" role="R_6SO">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yG" resolve="Average_char" />
           </node>
           <node concept="26lliW" id="4GwBkQJqqB" role="R_6SQ">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yV" resolve="Stdev_char" />
           </node>
         </node>
@@ -1151,6 +1157,7 @@
         <property role="QtYJw" value="cultural values and norms for external characteristics reflected in a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjn8" role="zGXb3">
           <node concept="26lliW" id="5AVjrpYYKt7" role="BjBxy">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yn" resolve="num-external-characteristics" />
           </node>
         </node>
@@ -1166,6 +1173,7 @@
         <property role="QtYJw" value="cultural values and norms for internal characteristics reflected in a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjnb" role="zGXb3">
           <node concept="26lliW" id="5AVjrpYYKt9" role="BjBxy">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
           </node>
         </node>
@@ -1315,6 +1323,7 @@
           <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
           <node concept="1JriGl" id="5AVjrpZ0i3w" role="zGXb3">
             <node concept="26lliW" id="5AVjrpZ0i3A" role="BjBxy">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="4qxfPPOK$yh" resolve="num-internal-characteristics" />
             </node>
           </node>
@@ -1340,6 +1349,7 @@
             <node concept="i7gn5" id="39v_dExZISs" role="2jDO4v">
               <property role="i7gn4" value="39v_dExZITw/distance" />
               <node concept="26lliW" id="39v_dExZISt" role="i7gCG">
+                <property role="1dr8U9" value="5yfUVburW9E/me" />
                 <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
               </node>
               <node concept="26lliW" id="39v_dExZISu" role="i7gCI">
@@ -1358,6 +1368,7 @@
                 <ref role="RLbTH" node="39v_dExZIS2" resolve="diff-ext" />
               </node>
               <node concept="26lliW" id="39v_dExZITt" role="26hFip">
+                <property role="1dr8U9" value="5yfUVburW9E/me" />
                 <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
               </node>
             </node>
@@ -1460,6 +1471,7 @@
             <property role="1dqGl7" value="5yfUVburW9E/me" />
             <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
             <node concept="26lliW" id="39v_dExsSpD" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="4qxfPPOK$$l" resolve="Attraction_change" />
             </node>
           </node>
@@ -1481,6 +1493,7 @@
           <node concept="2qfAsS" id="39v_dExsSpK" role="2rRKAh">
             <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
             <node concept="26lliW" id="39v_dExsSpL" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="4qxfPPOK$$l" resolve="Attraction_change" />
             </node>
           </node>
@@ -1512,6 +1525,7 @@
             <property role="1dqGl7" value="5yfUVburW9F/other" />
             <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
             <node concept="26lliW" id="39v_dExsSos" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="4qxfPPOK$$l" resolve="Attraction_change" />
             </node>
           </node>
@@ -1535,6 +1549,7 @@
             <property role="1dqGl7" value="5yfUVburW9F/other" />
             <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
             <node concept="26lliW" id="39v_dExsSp5" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="4qxfPPOK$$l" resolve="Attraction_change" />
             </node>
           </node>
@@ -1587,6 +1602,7 @@
           <node concept="26hFik" id="4GwBkQQuGy" role="RZfIc">
             <property role="26hFil" value="5yfUVbuMlWk/le" />
             <node concept="26lliW" id="4GwBkQQuGz" role="26hFir">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
             </node>
             <node concept="2jQCjV" id="39v_dExyJUq" role="26hFip">
