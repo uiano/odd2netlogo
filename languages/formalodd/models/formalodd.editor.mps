@@ -3780,42 +3780,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="39v_dExTEpv">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:39v_dExTEpc" resolve="TODO_ForEach" />
-    <node concept="3EZMnI" id="39v_dExTEpx" role="2wV5jI">
-      <node concept="3EZMnI" id="39v_dExTEpy" role="3EZMnx">
-        <node concept="VPM3Z" id="39v_dExTEpz" role="3F10Kt" />
-        <node concept="3F0ifn" id="39v_dExTEp$" role="3EZMnx">
-          <property role="3F0ifm" value="foreach" />
-          <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
-        </node>
-        <node concept="3F0A7n" id="39v_dExTEpY" role="3EZMnx">
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-        <node concept="3F0ifn" id="39v_dExTEqa" role="3EZMnx">
-          <property role="3F0ifm" value="in" />
-        </node>
-        <node concept="3F1sOY" id="39v_dExTEp_" role="3EZMnx">
-          <property role="1$x2rV" value="press enter to create a condition" />
-          <ref role="1NtTu8" to="86kt:39v_dExTEph" resolve="collection" />
-        </node>
-        <node concept="2iRfu4" id="39v_dExTEpB" role="2iSdaV" />
-      </node>
-      <node concept="3F2HdR" id="39v_dExTEpC" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:39v_dExTEpe" resolve="actions" />
-        <node concept="2iRkQZ" id="39v_dExTEpD" role="2czzBx" />
-        <node concept="3F0ifn" id="39v_dExTEpE" role="2czzBI">
-          <property role="3F0ifm" value="press enter to add actions" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-        </node>
-      </node>
-      <node concept="2iRkQZ" id="39v_dExTEpF" role="2iSdaV" />
-      <node concept="VPXOz" id="39v_dExTEpG" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="39v_dExYdnh">
     <property role="3GE5qa" value="Expressions" />
     <ref role="1XX52x" to="86kt:39v_dExYdn4" resolve="TODO_ElementWise" />
@@ -3871,6 +3835,72 @@
       <node concept="l2Vlx" id="39v_dEyneo0" role="2iSdaV" />
       <node concept="3F0A7n" id="39v_dEyneo9" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:39v_dEynenN" resolve="who" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="39v_dEyvelv">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:39v_dEytDLr" resolve="TODO_IfThenElse" />
+    <node concept="3EZMnI" id="39v_dEyvelx" role="2wV5jI">
+      <node concept="l2Vlx" id="39v_dEyvely" role="2iSdaV" />
+      <node concept="3F0ifn" id="39v_dEyvelz" role="3EZMnx">
+        <property role="3F0ifm" value="if" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyvelF" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEytDLs" resolve="condition" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEyvelG" role="3EZMnx">
+        <property role="3F0ifm" value="then" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyvemv" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEyvelX" resolve="positive" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEyvemJ" role="3EZMnx">
+        <property role="3F0ifm" value="else" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyvenb" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEyvem0" resolve="negative" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEyvenv" role="3EZMnx">
+        <property role="3F0ifm" value="endif" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="39v_dEywMS2">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:39v_dEywMRR" resolve="TODO_Collect" />
+    <node concept="3EZMnI" id="39v_dEywMS4" role="2wV5jI">
+      <node concept="l2Vlx" id="39v_dEywMS5" role="2iSdaV" />
+      <node concept="3F0ifn" id="39v_dEywMS6" role="3EZMnx">
+        <property role="3F0ifm" value="collect" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEywMSe" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEywMRS" resolve="inner" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEywMSf" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+      </node>
+      <node concept="3F0A7n" id="39v_dEywMT4" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEywMSX" resolve="kind" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="39v_dEyymsX">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:39v_dEyymsJ" resolve="FilterIndex" />
+    <node concept="3EZMnI" id="39v_dEyymsZ" role="2wV5jI">
+      <node concept="l2Vlx" id="39v_dEyymt0" role="2iSdaV" />
+      <node concept="3F0ifn" id="39v_dEyymt1" role="3EZMnx">
+        <property role="3F0ifm" value="filter index of" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyymuq" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEyymsM" resolve="argument" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEyymuQ" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyymt9" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEyymsK" resolve="filterCondition" />
       </node>
     </node>
   </node>

@@ -1,8 +1,9 @@
 TODO list for development of ODD2Netlogo
-- call functions is an expression
-- MARG: parameters in calls for actions
-- complete MARG: Learn-about, positive-interaction, see netlogo code
+- complete MARG: positive-interaction, Learn-about, see netlogo code
 - MARG: define if-then-else
+- allow collection of values
+- define function parameters as entities
+- MARG: parameters in calls for actions
 - MARG: number ranges as types - no need to adjust the inc and dec
 - allow affects all/any (env / entity) - code gen correct
 - avoid "of me" for globals

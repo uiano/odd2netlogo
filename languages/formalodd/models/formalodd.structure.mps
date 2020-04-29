@@ -2176,28 +2176,6 @@
     <property role="TrG5h" value="TODO_ParameterType" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
-  <node concept="1TIwiD" id="39v_dExTEpc">
-    <property role="EcuMT" value="3629783491423938124" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="TODO_ForEach" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-    <node concept="1TJgyj" id="39v_dExTEph" role="1TKVEi">
-      <property role="IQ2ns" value="3629783491423938129" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="collection" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="39v_dExTEpe" role="1TKVEi">
-      <property role="IQ2ns" value="3629783491423938126" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="actions" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
-    </node>
-    <node concept="PrWs8" id="39v_dExTEpf" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="39v_dExYdn4">
     <property role="EcuMT" value="3629783491425129924" />
     <property role="3GE5qa" value="Expressions" />
@@ -2248,6 +2226,87 @@
       <property role="IQ2nx" value="3629783491431687667" />
       <property role="TrG5h" value="who" />
       <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39v_dEytDLr">
+    <property role="EcuMT" value="3629783491433372763" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="TODO_IfThenElse" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="39v_dEytDLs" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491433372764" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="condition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="39v_dEyvelX" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491433784701" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="positive" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="39v_dEyvem0" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491433784704" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="negative" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39v_dEywMRR">
+    <property role="EcuMT" value="3629783491434196471" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="TODO_Collect" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="39v_dEywMRS" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491434196472" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="39v_dEywMSX" role="1TKVEl">
+      <property role="IQ2nx" value="3629783491434196541" />
+      <property role="TrG5h" value="kind" />
+      <ref role="AX2Wp" node="39v_dEywMSO" resolve="CollectionKind" />
+    </node>
+  </node>
+  <node concept="25R3W" id="39v_dEywMSO">
+    <property role="3F6X1D" value="3629783491434196532" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="CollectionKind" />
+    <node concept="25R33" id="39v_dEywMSP" role="25R1y">
+      <property role="3tVfz5" value="3629783491434196533" />
+      <property role="TrG5h" value="Sum" />
+    </node>
+    <node concept="25R33" id="39v_dEywMSQ" role="25R1y">
+      <property role="3tVfz5" value="3629783491434196534" />
+      <property role="TrG5h" value="Average" />
+    </node>
+    <node concept="25R33" id="39v_dEywMST" role="25R1y">
+      <property role="3tVfz5" value="3629783491434196537" />
+      <property role="TrG5h" value="Count" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39v_dEyymsJ">
+    <property role="EcuMT" value="3629783491434604335" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="FilterIndex" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="39v_dEyymsK" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491434604336" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="filterCondition" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="39v_dEyymsM" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491434604338" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="argument" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
 </model>

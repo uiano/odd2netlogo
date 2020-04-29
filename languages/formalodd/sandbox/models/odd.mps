@@ -35,9 +35,22 @@
       <concept id="3629783491431687666" name="formalodd.structure.EntityExpression" flags="ng" index="2g0R4C">
         <property id="3629783491431687667" name="who" index="2g0R4D" />
       </concept>
+      <concept id="3629783491433372763" name="formalodd.structure.TODO_IfThenElse" flags="ng" index="2gagy1">
+        <child id="3629783491433784704" name="negative" index="2g8R5q" />
+        <child id="3629783491433784701" name="positive" index="2g8R6B" />
+        <child id="3629783491433372764" name="condition" index="2gagy6" />
+      </concept>
       <concept id="3629783491428039827" name="formalodd.structure.TODO_FunctionCall" flags="ng" index="2guEx9">
         <reference id="3629783491428039828" name="function" index="2guExe" />
         <child id="3629783491428039830" name="actuals" index="2guExc" />
+      </concept>
+      <concept id="3629783491434604335" name="formalodd.structure.FilterIndex" flags="ng" index="2gPJfP">
+        <child id="3629783491434604338" name="argument" index="2gPJfC" />
+        <child id="3629783491434604336" name="filterCondition" index="2gPJfE" />
+      </concept>
+      <concept id="3629783491434196471" name="formalodd.structure.TODO_Collect" flags="ng" index="2gRb$H">
+        <property id="3629783491434196541" name="kind" index="2gRbFB" />
+        <child id="3629783491434196472" name="inner" index="2gRb$y" />
       </concept>
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
@@ -1087,7 +1100,7 @@
     <property role="TrG5h" value="MARG" />
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
       <node concept="ZOwpH" id="5p5RAoTaflx" role="25gc1v">
-        <property role="TrG5h" value="external-characteristics" />
+        <property role="TrG5h" value="intexternal-characteristics" />
         <property role="QtYJw" value="each student has an array of external characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjne" role="zGXb3">
           <node concept="26lliW" id="5AVjrpZ0i3h" role="BjBxy">
@@ -1156,7 +1169,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTafld" role="Qgzvn">
-        <property role="TrG5h" value="ideal-external-characteristics" />
+        <property role="TrG5h" value="inideal-external-characteristics" />
         <property role="QtYJw" value="cultural values and norms for external characteristics reflected in a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjn8" role="zGXb3">
           <node concept="26lliW" id="5AVjrpYYKt7" role="BjBxy">
@@ -1347,58 +1360,123 @@
       <node concept="2jZikd" id="39v_dExISFb" role="2jUxG3">
         <property role="TrG5h" value="positive-interaction" />
         <node concept="RZfIr" id="39v_dExZIS2" role="2jZik7">
-          <property role="TrG5h" value="diff-ext" />
+          <property role="TrG5h" value="distance-external" />
           <node concept="2jDO4u" id="39v_dExZISm" role="RZfIc">
             <node concept="i7gn5" id="39v_dExZISs" role="2jDO4v">
               <property role="i7gn4" value="39v_dExZITw/distance" />
               <node concept="26lliW" id="39v_dExZISt" role="i7gCG">
                 <property role="1dr8U9" value="5yfUVburW9E/me" />
-                <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
+                <ref role="26lliz" node="5p5RAoTafld" resolve="inideal-external-characteristics" />
               </node>
               <node concept="26lliW" id="39v_dExZISu" role="i7gCI">
                 <property role="1dr8U9" value="5yfUVburW9F/other" />
-                <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
+                <ref role="26lliz" node="5p5RAoTaflx" resolve="intexternal-characteristics" />
               </node>
             </node>
           </node>
         </node>
         <node concept="RZfIr" id="39v_dExZISQ" role="2jZik7">
-          <property role="TrG5h" value="eval-ext" />
+          <property role="TrG5h" value="verdict-external" />
           <node concept="2jDO4u" id="39v_dExZITb" role="RZfIc">
-            <node concept="26hFik" id="39v_dExZITh" role="2jDO4v">
-              <property role="26hFil" value="5yfUVbuMlWk/le" />
-              <node concept="RLbTy" id="39v_dExZITq" role="26hFir">
-                <ref role="RLbTH" node="39v_dExZIS2" resolve="diff-ext" />
+            <node concept="2gagy1" id="39v_dEywMRi" role="2jDO4v">
+              <node concept="26hFik" id="39v_dEywMRj" role="2gagy6">
+                <property role="26hFil" value="5yfUVbuMlWk/le" />
+                <node concept="RLbTy" id="39v_dEywMRk" role="26hFir">
+                  <ref role="RLbTH" node="39v_dExZIS2" resolve="distance-external" />
+                </node>
+                <node concept="26lliW" id="39v_dEywMRl" role="26hFip">
+                  <property role="1dr8U9" value="5yfUVburW9E/me" />
+                  <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+                </node>
               </node>
-              <node concept="26lliW" id="39v_dExZITt" role="26hFip">
-                <property role="1dr8U9" value="5yfUVburW9E/me" />
-                <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+              <node concept="2oK_Am" id="39v_dEywMRm" role="2g8R6B">
+                <property role="2oK_Ap" value="1" />
+              </node>
+              <node concept="2oK_Am" id="39v_dEywMRn" role="2g8R5q">
+                <property role="2oK_Ap" value="-1" />
               </node>
             </node>
           </node>
         </node>
-        <node concept="RZfIr" id="39v_dExTEn$" role="2jZik7">
-          <property role="TrG5h" value="sumOfDiff" />
-          <node concept="i7gn5" id="39v_dExTEnG" role="RZfIc">
-            <property role="i7gn4" value="1w00y4a7gvC/add" />
-            <node concept="RLbTy" id="39v_dExZISN" role="i7gCG">
-              <ref role="RLbTH" node="39v_dExZIS2" resolve="diff-ext" />
+        <node concept="RZfIr" id="39v_dExTEol" role="2jZik7">
+          <property role="TrG5h" value="evaluation-external" />
+          <node concept="2gRb$H" id="39v_dEyymqQ" role="RZfIc">
+            <property role="2gRbFB" value="39v_dEywMSP/Sum" />
+            <node concept="RLbTy" id="39v_dEyymqR" role="2gRb$y">
+              <ref role="RLbTH" node="39v_dExZISQ" resolve="verdict-external" />
             </node>
-            <node concept="2oK_Am" id="39v_dExTEnS" role="i7gCI">
-              <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dEyzTxJ" role="2jZik7">
+          <property role="TrG5h" value="internal-other" />
+          <node concept="2gPJfP" id="39v_dEyzTym" role="RZfIc">
+            <node concept="26lliW" id="39v_dEyzTyu" role="2gPJfE">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="5p5RAoTafl6" resolve="known-indices" />
+            </node>
+            <node concept="26lliW" id="39v_dEyzTys" role="2gPJfC">
+              <property role="1dr8U9" value="5yfUVburW9F/other" />
+              <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dEyzTyx" role="2jZik7">
+          <property role="TrG5h" value="internal-ideal" />
+          <node concept="2gPJfP" id="39v_dEyzTyy" role="RZfIc">
+            <node concept="26lliW" id="39v_dEyzTyz" role="2gPJfE">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="5p5RAoTafl6" resolve="known-indices" />
+            </node>
+            <node concept="26lliW" id="39v_dEyzTzg" role="2gPJfC">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dEyzTwZ" role="2jZik7">
+          <property role="TrG5h" value="distance-internal" />
+          <node concept="2jDO4u" id="39v_dEyzTx0" role="RZfIc">
+            <node concept="i7gn5" id="39v_dEyzTx1" role="2jDO4v">
+              <property role="i7gn4" value="39v_dExZITw/distance" />
+              <node concept="RLbTy" id="39v_dEyzTzj" role="i7gCG">
+                <ref role="RLbTH" node="39v_dEyzTyx" resolve="internal-ideal" />
+              </node>
+              <node concept="RLbTy" id="39v_dEyzTzm" role="i7gCI">
+                <ref role="RLbTH" node="39v_dEyzTxJ" resolve="internal-other" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="RZfIr" id="39v_dEyzTx4" role="2jZik7">
+          <property role="TrG5h" value="verdict-internal" />
+          <node concept="2jDO4u" id="39v_dEyzTx5" role="RZfIc">
+            <node concept="2gagy1" id="39v_dEyzTx6" role="2jDO4v">
+              <node concept="26hFik" id="39v_dEyzTx7" role="2gagy6">
+                <property role="26hFil" value="5yfUVbuMlWk/le" />
+                <node concept="RLbTy" id="39v_dEyzTx8" role="26hFir">
+                  <ref role="RLbTH" node="39v_dEyzTwZ" resolve="distance-internal" />
+                </node>
+                <node concept="26lliW" id="39v_dEyzTx9" role="26hFip">
+                  <property role="1dr8U9" value="5yfUVburW9E/me" />
+                  <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+                </node>
+              </node>
+              <node concept="2oK_Am" id="39v_dEyzTxa" role="2g8R6B">
+                <property role="2oK_Ap" value="1" />
+              </node>
+              <node concept="2oK_Am" id="39v_dEyzTxb" role="2g8R5q">
+                <property role="2oK_Ap" value="-1" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="RZfIr" id="39v_dExTEnV" role="2jZik7">
           <property role="TrG5h" value="evaluation-internal" />
-          <node concept="2oK_Am" id="39v_dExTEoC" role="RZfIc">
-            <property role="2oK_Ap" value="0" />
-          </node>
-        </node>
-        <node concept="RZfIr" id="39v_dExTEol" role="2jZik7">
-          <property role="TrG5h" value="evaluation-external" />
-          <node concept="2oK_Am" id="39v_dExTEo_" role="RZfIc">
-            <property role="2oK_Ap" value="0" />
+          <node concept="2gRb$H" id="39v_dEyzTzp" role="RZfIc">
+            <property role="2gRbFB" value="39v_dEywMSP/Sum" />
+            <node concept="RLbTy" id="39v_dEyzTzt" role="2gRb$y">
+              <ref role="RLbTH" node="39v_dEyzTx4" resolve="verdict-internal" />
+            </node>
           </node>
         </node>
         <node concept="RZfIr" id="39v_dExTEo7" role="2jZik7">
@@ -1414,13 +1492,13 @@
           </node>
         </node>
         <node concept="2jZikV" id="39v_dExISFc" role="2jZik2">
-          <property role="TrG5h" value="par1" />
+          <property role="TrG5h" value="me" />
           <node concept="2lNc1w" id="39v_dExM7uL" role="2jZikY">
             <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
           </node>
         </node>
         <node concept="2jZikV" id="39v_dExM7uS" role="2jZik2">
-          <property role="TrG5h" value="par2" />
+          <property role="TrG5h" value="other" />
           <node concept="2lNc1w" id="39v_dExM7uY" role="2jZikY">
             <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
           </node>
