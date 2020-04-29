@@ -1071,7 +1071,7 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0ifn" id="5zjJPlgalDp" role="3EZMnx">
-          <property role="3F0ifm" value="applicable to" />
+          <property role="3F0ifm" value="applicable to me of type" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
@@ -1680,7 +1680,7 @@
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
         <node concept="3F0ifn" id="61ib3USx8Bo" role="3EZMnx">
-          <property role="3F0ifm" value="applicable to" />
+          <property role="3F0ifm" value="applicable to me of type" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="3F1sOY" id="4GwBkReNRD" role="3EZMnx">
@@ -1690,7 +1690,7 @@
       <node concept="3EZMnI" id="qdXC$xsGLT" role="3EZMnx">
         <node concept="2iRfu4" id="qdXC$xsGLU" role="2iSdaV" />
         <node concept="3F0ifn" id="qdXC$xsGLi" role="3EZMnx">
-          <property role="3F0ifm" value="interacting with" />
+          <property role="3F0ifm" value="interacting with other of type" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="1iCGBv" id="5yfUVbsWXsm" role="3EZMnx">
