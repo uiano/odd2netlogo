@@ -3829,5 +3829,50 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="39v_dEy9jMx">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:39v_dEy9jMj" resolve="TODO_FunctionCall" />
+    <node concept="3EZMnI" id="39v_dEy9jMz" role="2wV5jI">
+      <node concept="l2Vlx" id="39v_dEy9jM$" role="2iSdaV" />
+      <node concept="3F0ifn" id="39v_dEy9jM_" role="3EZMnx">
+        <property role="3F0ifm" value="calculate using" />
+      </node>
+      <node concept="1iCGBv" id="39v_dEy9jMB" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEy9jMk" resolve="function" />
+        <node concept="1sVBvm" id="39v_dEy9jME" role="1sWHZn">
+          <node concept="3F0A7n" id="39v_dEy9jMG" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="39v_dEy9jMH" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+        <node concept="3mYdg7" id="39v_dEy9jMJ" role="3F10Kt">
+          <property role="1413C4" value="body-paren" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="39v_dEy9jMQ" role="3EZMnx">
+        <property role="2czwfO" value=" and" />
+        <ref role="1NtTu8" to="86kt:39v_dEy9jMm" resolve="actuals" />
+        <node concept="l2Vlx" id="39v_dEy9jMR" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEy9jMS" role="3EZMnx">
+        <property role="3F0ifm" value="endcalc" />
+        <node concept="3mYdg7" id="39v_dEy9jMU" role="3F10Kt">
+          <property role="1413C4" value="paren-actuals" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="39v_dEynenX">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:39v_dEynenM" resolve="EntityExpression" />
+    <node concept="3EZMnI" id="39v_dEynenZ" role="2wV5jI">
+      <node concept="l2Vlx" id="39v_dEyneo0" role="2iSdaV" />
+      <node concept="3F0A7n" id="39v_dEyneo9" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEynenN" resolve="who" />
+      </node>
+    </node>
+  </node>
 </model>
 

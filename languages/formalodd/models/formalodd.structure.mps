@@ -483,7 +483,7 @@
     <property role="EcuMT" value="3840659476812056003" />
     <property role="TrG5h" value="Expression" />
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="39v_dEyk7ZE" resolve="Actual" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGng">
     <property role="EcuMT" value="3840659476812056016" />
@@ -2209,6 +2209,45 @@
       <property role="20kJfa" value="inner" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39v_dEy9jMj">
+    <property role="EcuMT" value="3629783491428039827" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="TODO_FunctionCall" />
+    <property role="34LRSv" value="calculate" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="39v_dEy9jMm" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491428039830" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="39v_dEyk7ZE" resolve="Actual" />
+    </node>
+    <node concept="1TJgyj" id="39v_dEy9jMk" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491428039828" />
+      <property role="20kJfa" value="function" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="39v_dExCF7n" resolve="TODO_Function" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="39v_dEyk7ZE">
+    <property role="EcuMT" value="3629783491430875114" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="Actual" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="39v_dEynenM">
+    <property role="EcuMT" value="3629783491431687666" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="EntityExpression" />
+    <property role="34LRSv" value="entity" />
+    <ref role="1TJDcQ" node="39v_dEyk7ZE" resolve="Actual" />
+    <node concept="1TJgyi" id="39v_dEynenN" role="1TKVEl">
+      <property role="IQ2nx" value="3629783491431687667" />
+      <property role="TrG5h" value="who" />
+      <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
     </node>
   </node>
 </model>

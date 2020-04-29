@@ -32,6 +32,13 @@
       <concept id="3074816355373999451" name="formalodd.structure.TODO_MoveRandom" flags="ng" index="92LhO">
         <property id="3074816355373999452" name="MovementSpeed" index="92LhN" />
       </concept>
+      <concept id="3629783491431687666" name="formalodd.structure.EntityExpression" flags="ng" index="2g0R4C">
+        <property id="3629783491431687667" name="who" index="2g0R4D" />
+      </concept>
+      <concept id="3629783491428039827" name="formalodd.structure.TODO_FunctionCall" flags="ng" index="2guEx9">
+        <reference id="3629783491428039828" name="function" index="2guExe" />
+        <child id="3629783491428039830" name="actuals" index="2guExc" />
+      </concept>
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
@@ -45,10 +52,6 @@
       </concept>
       <concept id="3629783491425129924" name="formalodd.structure.TODO_ElementWise" flags="ng" index="2jDO4u">
         <child id="3629783491425129925" name="inner" index="2jDO4v" />
-      </concept>
-      <concept id="3629783491423938124" name="formalodd.structure.TODO_ForEach" flags="ng" index="2jIjam">
-        <child id="3629783491423938129" name="collection" index="2jIjab" />
-        <child id="3629783491423938126" name="actions" index="2jIjak" />
       </concept>
       <concept id="3629783491417542689" name="formalodd.structure.RandomUniform" flags="ng" index="2jQCjV">
         <child id="3629783491417542690" name="from" index="2jQCjS" />
@@ -1450,18 +1453,23 @@
         <property role="TrG5h" value="Evaluate-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="1Svl6F" id="39v_dExsSpx" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWaj" resolve="positive-interaction-old" />
-        </node>
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
-          <property role="TrG5h" value="positiveInteraction" />
-          <node concept="2W8u0B" id="39v_dExsSpz" role="RZfIc" />
+          <property role="TrG5h" value="is-positive-me" />
+          <node concept="2guEx9" id="39v_dEyk7Z_" role="RZfIc">
+            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction" />
+            <node concept="2g0R4C" id="39v_dEyqyM9" role="2guExc">
+              <property role="2g0R4D" value="5yfUVburW9E/me" />
+            </node>
+            <node concept="2g0R4C" id="39v_dEys68P" role="2guExc">
+              <property role="2g0R4D" value="5yfUVburW9F/other" />
+            </node>
+          </node>
         </node>
         <node concept="2rRKAk" id="39v_dExsSp$" role="18tn1X">
           <node concept="26hFik" id="39v_dExsSp_" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="RLbTy" id="39v_dExsSpA" role="26hFir">
-              <ref role="RLbTH" node="39v_dExsSpy" resolve="positiveInteraction" />
+              <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
             </node>
             <node concept="2W8u0B" id="39v_dExsSpB" role="26hFip">
               <property role="2W8tvr" value="true" />
@@ -1486,7 +1494,7 @@
           <node concept="26hFik" id="39v_dExsSpH" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="RLbTy" id="39v_dExsSpI" role="26hFir">
-              <ref role="RLbTH" node="39v_dExsSpy" resolve="positiveInteraction" />
+              <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
             </node>
             <node concept="2W8u0B" id="39v_dExsSpJ" role="26hFip" />
           </node>
@@ -1504,18 +1512,23 @@
             </node>
           </node>
         </node>
-        <node concept="1Svl6F" id="39v_dExrqnD" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQMWaj" resolve="positive-interaction-old" />
-        </node>
-        <node concept="RZfIr" id="4GwBkQVhcL" role="18tn1X">
-          <property role="TrG5h" value="positiveInteraction" />
-          <node concept="2W8u0B" id="4GwBkQVhcX" role="RZfIc" />
+        <node concept="RZfIr" id="39v_dEytDJT" role="18tn1X">
+          <property role="TrG5h" value="is-positive-other" />
+          <node concept="2guEx9" id="39v_dEytDJU" role="RZfIc">
+            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction" />
+            <node concept="2g0R4C" id="39v_dEytDKB" role="2guExc">
+              <property role="2g0R4D" value="5yfUVburW9F/other" />
+            </node>
+            <node concept="2g0R4C" id="39v_dEytDKE" role="2guExc">
+              <property role="2g0R4D" value="5yfUVburW9E/me" />
+            </node>
+          </node>
         </node>
         <node concept="2rRKAk" id="39v_dExsSon" role="18tn1X">
           <node concept="26hFik" id="39v_dExsSoo" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="39v_dExsSop" role="26hFir">
-              <ref role="RLbTH" node="4GwBkQVhcL" resolve="positiveInteraction" />
+            <node concept="RLbTy" id="39v_dEytDLl" role="26hFir">
+              <ref role="RLbTH" node="39v_dEytDJT" resolve="is-positive-other" />
             </node>
             <node concept="2W8u0B" id="39v_dExsSoq" role="26hFip">
               <property role="2W8tvr" value="true" />
@@ -1540,8 +1553,8 @@
         <node concept="2rRKAk" id="4GwBkQVhda" role="18tn1X">
           <node concept="26hFik" id="4GwBkQVhdr" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="4GwBkQVhd$" role="26hFir">
-              <ref role="RLbTH" node="4GwBkQVhcL" resolve="positiveInteraction" />
+            <node concept="RLbTy" id="39v_dEytDLo" role="26hFir">
+              <ref role="RLbTH" node="39v_dEytDJT" resolve="is-positive-other" />
             </node>
             <node concept="2W8u0B" id="39v_dExsSoM" role="26hFip" />
           </node>
@@ -1570,23 +1583,6 @@
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
-          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
-        </node>
-      </node>
-      <node concept="BZNO7" id="4GwBkQMWaj" role="2GyEu2">
-        <property role="TrG5h" value="positive-interaction-old" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="2jIjam" id="39v_dExVbDc" role="18tn1X">
-          <property role="TrG5h" value="index" />
-          <node concept="8shMO" id="39v_dExVbDn" role="2jIjak">
-            <property role="26S2D9" value="5yfUVburW9E/me" />
-          </node>
-          <node concept="2oK_Am" id="39v_dExVbDk" role="2jIjab">
-            <property role="2oK_Ap" value="10909" />
-          </node>
-        </node>
-        <node concept="2lNc1w" id="4GwBkQMWal" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>
