@@ -52,6 +52,10 @@
         <property id="3629783491434196541" name="kind" index="2gRbFB" />
         <child id="3629783491434196472" name="inner" index="2gRb$y" />
       </concept>
+      <concept id="3629783491436646477" name="formalodd.structure.SelectN" flags="ng" index="2gXKin">
+        <child id="3629783491436646478" name="count" index="2gXKik" />
+        <child id="3629783491436646479" name="argument" index="2gXKil" />
+      </concept>
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
       </concept>
@@ -1670,6 +1674,25 @@
         <property role="TrG5h" value="Learn-about" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
+          <property role="TrG5h" value="learned-characteristics" />
+          <node concept="2gXKin" id="39v_dEyFGku" role="RZfIc">
+            <node concept="26lliW" id="39v_dEyFGkB" role="2gXKik">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
+            </node>
+            <node concept="26lliW" id="39v_dEyFGkE" role="2gXKil">
+              <property role="1dr8U9" value="5yfUVburW9F/other" />
+              <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+            </node>
+          </node>
+        </node>
+        <node concept="2qfAsZ" id="39v_dEyFGkN" role="18tn1X">
+          <ref role="2rWCsu" node="5p5RAoTafl6" resolve="known-indices" />
+          <node concept="RLbTy" id="39v_dEyFGkX" role="2rWCss">
+            <ref role="RLbTH" node="39v_dEyE917" resolve="learned-characteristics" />
+          </node>
+        </node>
         <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>

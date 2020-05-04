@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- complete MARG: Learn-about, see netlogo code
 - define function parameters as entities (not types)
 - MARG: parameters in calls for actions
 - MARG: number ranges as types - no need to adjust the inc and dec

@@ -3904,5 +3904,24 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="39v_dEyE91q">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:39v_dEyE91d" resolve="SelectN" />
+    <node concept="3EZMnI" id="39v_dEyE91s" role="2wV5jI">
+      <node concept="l2Vlx" id="39v_dEyE91t" role="2iSdaV" />
+      <node concept="3F0ifn" id="39v_dEyE91u" role="3EZMnx">
+        <property role="3F0ifm" value="select" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyE91A" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEyE91e" resolve="count" />
+      </node>
+      <node concept="3F0ifn" id="39v_dEyE91D" role="3EZMnx">
+        <property role="3F0ifm" value="elements from" />
+      </node>
+      <node concept="3F1sOY" id="39v_dEyE91G" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:39v_dEyE91f" resolve="argument" />
+      </node>
+    </node>
+  </node>
 </model>
 
