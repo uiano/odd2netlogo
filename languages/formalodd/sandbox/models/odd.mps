@@ -182,6 +182,7 @@
         <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
+        <child id="3629783491437474269" name="userDefinedAttributesXX" index="2gUEk7" />
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
@@ -202,14 +203,12 @@
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
-      <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
-        <child id="8931575016887346934" name="userDefinedAttributes" index="1XCrbu" />
-      </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="4361115321886599411" name="description" index="1d5qeO" />
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
+        <child id="3629783491437474275" name="userDefinedAttributesXX" index="2gUEkT" />
         <child id="2469205658733998796" name="rationale" index="3OvheU" />
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
@@ -589,18 +588,18 @@
       <property role="XAmFg" value="Simulate forest fire based on density of the woods" />
     </node>
     <node concept="ZOwpU" id="1r3mgtJEVoZ" role="3$p12O">
+      <node concept="ZOwpH" id="39v_dEyLZBh" role="1XCrKs">
+        <property role="TrG5h" value="materials" />
+        <node concept="ZOwps" id="39v_dEyLZBi" role="zGXb3" />
+        <node concept="21jJIL" id="39v_dEyLZBj" role="2oy9Oj">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="50" />
+          <property role="21jJI7" value="5" />
+        </node>
+      </node>
       <node concept="ZOwrm" id="7MNWMNCnG0T" role="2kDK73">
         <property role="TrG5h" value="Trees" />
-        <node concept="ZOwpH" id="7MNWMNCnG0U" role="1XCrbu">
-          <property role="TrG5h" value="materials" />
-          <node concept="ZOwps" id="7MNWMNCnG0V" role="zGXb3" />
-          <node concept="21jJIL" id="7MNWMNCnG0W" role="2oy9Oj">
-            <property role="21jJIY" value="0" />
-            <property role="21jJIV" value="100" />
-            <property role="2rHBro" value="50" />
-            <property role="21jJI7" value="5" />
-          </node>
-        </node>
         <node concept="2WUdOh" id="7MNWMNCnG0X" role="2W_r1q">
           <node concept="21jJIL" id="7MNWMNCnG0Y" role="2WUdOg">
             <property role="21jJIY" value="0" />
@@ -650,7 +649,7 @@
           <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
         </node>
         <node concept="8StVI" id="7MNWMNBiKRk" role="18tn1X">
-          <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
+          <ref role="2rWCsu" node="39v_dEyLZBh" resolve="materials" />
           <node concept="2oK_Am" id="7MNWMNBiKRl" role="2rWCss">
             <property role="2oK_Ap" value="20" />
           </node>
@@ -662,7 +661,7 @@
       <node concept="2lNc1x" id="3kYfzLXpecx" role="2GyEu2">
         <property role="TrG5h" value="Extinguish" />
         <node concept="2qfAsS" id="5yfUVbtXA6w" role="18tn1X">
-          <ref role="2rWCsu" node="7MNWMNCnG0U" resolve="materials" />
+          <ref role="2rWCsu" node="39v_dEyLZBh" resolve="materials" />
           <node concept="2oK_Am" id="5yfUVbtXA6x" role="2rWCss">
             <property role="2oK_Ap" value="1" />
           </node>
@@ -674,7 +673,8 @@
           <node concept="26hFik" id="5yfUVbuQFW2" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWg/lt" />
             <node concept="26lliW" id="5yfUVbuSxxG" role="26hFir">
-              <ref role="26lliz" node="7MNWMNCnG0U" resolve="materials" />
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyLZBh" resolve="materials" />
             </node>
             <node concept="2oK_Am" id="5yfUVbuQFWb" role="26hFip">
               <property role="2oK_Ap" value="0" />
@@ -729,6 +729,16 @@
   <node concept="ZOwpP" id="qdXC$ygXa5">
     <property role="TrG5h" value="Seggregation" />
     <node concept="ZOwpU" id="qdXC$ygXa6" role="3$p12O">
+      <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
+        <property role="TrG5h" value="similar-nearby-wanted" />
+        <node concept="ZOwps" id="6dSewhkDZHV" role="zGXb3" />
+        <node concept="21jJIL" id="6dSewhkDZHY" role="2oy9Oj">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="50" />
+          <property role="21jJI7" value="20" />
+        </node>
+      </node>
       <node concept="ZOwpH" id="4GwBkR9iWB" role="25gc1v">
         <property role="TrG5h" value="other-nearby" />
         <node concept="ZOwps" id="4GwBkR9iWC" role="zGXb3" />
@@ -773,40 +783,6 @@
           <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDu" role="RFdH4" />
-        <node concept="ZOwpH" id="6dSewhkDZXh" role="1XCrbu">
-          <property role="TrG5h" value="other-nearby" />
-          <node concept="ZOwps" id="60Hvi7s7XxP" role="zGXb3" />
-          <node concept="XrRG9" id="28AKh6DmYLV" role="2oy9Oj">
-            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-            <node concept="XCvtc" id="4HBtuojWNAi" role="XqA8S">
-              <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-              <property role="XEM5g" value="24yfUKsyf$J/unequal" />
-            </node>
-          </node>
-        </node>
-        <node concept="ZOwpH" id="60Hvi7s7Xwx" role="1XCrbu">
-          <property role="TrG5h" value="similar-nearby" />
-          <node concept="ZOwps" id="4HBtuojTQ2q" role="zGXb3" />
-          <node concept="XrRG9" id="4HBtuojwmd2" role="2oy9Oj">
-            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-            <node concept="XCvtc" id="4HBtuojPhjh" role="XqA8S">
-              <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-              <property role="XEM5g" value="24yfUKsyf$I/equal" />
-            </node>
-          </node>
-        </node>
-        <node concept="ZOwpH" id="24yfUKsqGXK" role="1XCrbu">
-          <property role="TrG5h" value="total-nearby" />
-          <node concept="ZOwps" id="24yfUKstj8f" role="zGXb3" />
-          <node concept="XrRG9" id="4HBtuojD$nA" role="2oy9Oj">
-            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-          </node>
-        </node>
-        <node concept="ZOwpH" id="60Hvi7s6oq6" role="1XCrbu">
-          <property role="TrG5h" value="happy" />
-          <node concept="ZOwpv" id="60Hvi7s6qEm" role="zGXb3" />
-          <node concept="2W8u0B" id="60Hvi7s6oqi" role="2oy9Oj" />
-        </node>
         <node concept="21jJIL" id="60Hvi7s81Ve" role="RIgNU">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
@@ -824,55 +800,11 @@
           <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDy" role="RFdH4" />
-        <node concept="ZOwpH" id="60Hvi7s7XyL" role="1XCrbu">
-          <property role="TrG5h" value="other-nearby" />
-          <node concept="ZOwps" id="60Hvi7s7XyR" role="zGXb3" />
-          <node concept="XrRG9" id="4HBtuojTQ2v" role="2oy9Oj">
-            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-            <node concept="XCvtc" id="4HBtuojTQ2C" role="XqA8S">
-              <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-              <property role="XEM5g" value="24yfUKsyf$J/unequal" />
-            </node>
-          </node>
-        </node>
-        <node concept="ZOwpH" id="60Hvi7s7XyX" role="1XCrbu">
-          <property role="TrG5h" value="similar-nearby" />
-          <node concept="ZOwps" id="60Hvi7s7Xz6" role="zGXb3" />
-          <node concept="XrRG9" id="4HBtuojTQ2F" role="2oy9Oj">
-            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-            <node concept="XCvtc" id="4HBtuojTQ2O" role="XqA8S">
-              <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-              <property role="XEM5g" value="24yfUKsyf$I/equal" />
-            </node>
-          </node>
-        </node>
-        <node concept="ZOwpH" id="60Hvi7s7Xzc" role="1XCrbu">
-          <property role="TrG5h" value="total-nearby" />
-          <node concept="ZOwps" id="60Hvi7s7Xzo" role="zGXb3" />
-          <node concept="XrRG9" id="24yfUKstj8i" role="2oy9Oj">
-            <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-          </node>
-        </node>
-        <node concept="ZOwpH" id="60Hvi7s81UW" role="1XCrbu">
-          <property role="TrG5h" value="happy" />
-          <node concept="ZOwpv" id="60Hvi7s81V9" role="zGXb3" />
-          <node concept="2W8u0B" id="60Hvi7s81Vc" role="2oy9Oj" />
-        </node>
         <node concept="21jJIL" id="60Hvi7s81Vg" role="RIgNU">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
           <property role="2rHBro" value="50" />
           <property role="21jJI7" value="5" />
-        </node>
-      </node>
-      <node concept="ZOwpH" id="6dSewhkDZHP" role="1XCrKs">
-        <property role="TrG5h" value="similar-nearby-wanted" />
-        <node concept="ZOwps" id="6dSewhkDZHV" role="zGXb3" />
-        <node concept="21jJIL" id="6dSewhkDZHY" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="20" />
         </node>
       </node>
     </node>
@@ -892,7 +824,7 @@
           <node concept="26hFik" id="3M5MOtLlj6q" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="26lliW" id="3M5MOtLlj6r" role="26hFir">
-              <ref role="26lliz" node="60Hvi7s6oq6" resolve="happy" />
+              <ref role="26lliz" node="4GwBkR9iXG" resolve="happy" />
             </node>
             <node concept="2W8u0B" id="3M5MOtLlj6s" role="26hFip" />
           </node>
@@ -946,10 +878,10 @@
           <node concept="i7gn5" id="1w00y4a8UnI" role="2rWCss">
             <property role="i7gn4" value="1w00y4a7gvC/add" />
             <node concept="26lliW" id="1w00y4a8UnR" role="i7gCG">
-              <ref role="26lliz" node="60Hvi7s7Xwx" resolve="similar-nearby" />
+              <ref role="26lliz" node="4GwBkR9iWR" resolve="similar-nearby" />
             </node>
             <node concept="26lliW" id="1w00y4a8UnU" role="i7gCI">
-              <ref role="26lliz" node="6dSewhkDZXh" resolve="other-nearby" />
+              <ref role="26lliz" node="4GwBkR9iWB" resolve="other-nearby" />
             </node>
           </node>
         </node>
@@ -958,7 +890,7 @@
           <node concept="26hFik" id="1w00y4a8Up_" role="2rWCss">
             <property role="26hFil" value="5yfUVbuMlWv/ge" />
             <node concept="26lliW" id="1w00y4a8UpI" role="26hFir">
-              <ref role="26lliz" node="60Hvi7s7Xwx" resolve="similar-nearby" />
+              <ref role="26lliz" node="4GwBkR9iWR" resolve="similar-nearby" />
             </node>
             <node concept="i8Uhg" id="1w00y4aanIb" role="26hFip">
               <node concept="i7gn5" id="1w00y4aanIh" role="i8Uhj">
@@ -969,7 +901,7 @@
                     <ref role="26lliz" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
                   </node>
                   <node concept="26lliW" id="1w00y4aanIA" role="i7gCI">
-                    <ref role="26lliz" node="24yfUKsqGXK" resolve="total-nearby" />
+                    <ref role="26lliz" node="4GwBkR9iXf" resolve="total-nearby" />
                   </node>
                 </node>
                 <node concept="2oK_Am" id="1w00y4aanID" role="i7gCI">
@@ -1060,7 +992,7 @@
       </node>
       <node concept="ZOwpW" id="35QCLExIhs4" role="ZOwpT">
         <property role="TrG5h" value="Fire" />
-        <node concept="ZOwpH" id="4qxfPPOMPu1" role="1XCrbu">
+        <node concept="ZOwpH" id="4qxfPPOMPu1" role="2gUEk7">
           <property role="TrG5h" value="energy" />
           <node concept="ZOwps" id="4qxfPPOMPuc" role="zGXb3" />
           <node concept="2oK_Am" id="4qxfPPOMPuh" role="2oy9Oj">
@@ -1337,7 +1269,7 @@
         <property role="1d5qeO" value="students have relationships with other students, the relationships are 2 directionals (are different in each direction)" />
         <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
         <ref role="1wg9ys" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="ZOwpH" id="4qxfPPPteTY" role="1XCrbu">
+        <node concept="ZOwpH" id="4qxfPPPteTY" role="2gUEkT">
           <property role="TrG5h" value="attraction" />
           <property role="QtYJw" value="each student has an attraction towards each of the other students (attraction is reflected on a number from 0 to 1 with 1 the maximum and 0 the lowest)" />
           <node concept="ZOwps" id="3M5MOtLapCF" role="zGXb3" />
@@ -1348,7 +1280,7 @@
             <property role="2rHBro" value="0.5" />
           </node>
         </node>
-        <node concept="ZOwpH" id="5p5RAoTafl6" role="1XCrbu">
+        <node concept="ZOwpH" id="5p5RAoTafl6" role="2gUEkT">
           <property role="TrG5h" value="known-indices" />
           <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
           <node concept="1JriGl" id="5AVjrpZ0i3w" role="zGXb3">

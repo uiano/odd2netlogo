@@ -187,6 +187,13 @@
     <property role="TrG5h" value="Entity" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+    <node concept="1TJgyj" id="39v_dEyHj7t" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491437474269" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="userDefinedAttributes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
     <node concept="1TJgyj" id="6dSewhkKjrY" role="1TKVEi">
       <property role="IQ2ns" value="7167542597236373246" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -905,13 +912,6 @@
     <property role="TrG5h" value="GeneralEntity" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <node concept="1TJgyj" id="7JNl2w6kIrQ" role="1TKVEi">
-      <property role="IQ2ns" value="8931575016887346934" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="userDefinedAttributes" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
-    </node>
     <node concept="PrWs8" id="2gGtP_Va5R5" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -1019,6 +1019,13 @@
       <property role="IQ2nx" value="4361115321886599411" />
       <property role="TrG5h" value="description" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="39v_dEyHj7z" role="1TKVEi">
+      <property role="IQ2ns" value="3629783491437474275" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="userDefinedAttributes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
     <node concept="1TJgyj" id="294onrmenbc" role="1TKVEi">
       <property role="IQ2ns" value="2469205658733998796" />
