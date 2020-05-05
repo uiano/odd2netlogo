@@ -182,7 +182,7 @@
         <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
-        <child id="3629783491437474269" name="userDefinedAttributesXX" index="2gUEk7" />
+        <child id="3629783491437474269" name="userDefinedAttributes" index="2gUEk7" />
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
@@ -208,7 +208,7 @@
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
-        <child id="3629783491437474275" name="userDefinedAttributesXX" index="2gUEkT" />
+        <child id="3629783491437474275" name="userDefinedAttributes" index="2gUEkT" />
         <child id="2469205658733998796" name="rationale" index="3OvheU" />
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
@@ -1047,7 +1047,7 @@
         <node concept="ZOwoP" id="4GwBkQJqql" role="2oy9Oj">
           <node concept="26lliW" id="39v_dEyCArO" role="R_6SO">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average_characteristic" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
           </node>
           <node concept="26lliW" id="39v_dEyCAsc" role="R_6SQ">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1067,7 +1067,7 @@
         <node concept="ZOwoP" id="4GwBkQJqq_" role="2oy9Oj">
           <node concept="26lliW" id="39v_dEyCArR" role="R_6SO">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average_characteristic" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
           </node>
           <node concept="26lliW" id="39v_dEyCAsf" role="R_6SQ">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1159,7 +1159,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApv" role="Qgzvn">
-        <property role="TrG5h" value="average_characteristic" />
+        <property role="TrG5h" value="average-characteristic" />
         <property role="QtYJw" value="average value of characteristics" />
         <node concept="ZOwps" id="39v_dEyCApw" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApx" role="2oy9Oj">
