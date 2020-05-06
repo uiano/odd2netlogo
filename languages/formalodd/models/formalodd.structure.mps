@@ -632,7 +632,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="endConditions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="6lHESjKDb9m" resolve="QuantifiedCondition" />
+      <ref role="20lvS9" node="1R8dC2EgQxb" resolve="EndCondition" />
     </node>
     <node concept="1TJgyj" id="5EtG2rQ5Lu$" role="1TKVEi">
       <property role="IQ2ns" value="6529568716141041572" />
@@ -660,7 +660,7 @@
     <property role="EcuMT" value="7308686357753541206" />
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <property role="TrG5h" value="QuantifiedCondition" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" node="1R8dC2EgQxb" resolve="EndCondition" />
     <node concept="1TJgyi" id="7y2oNwbJHy" role="1TKVEl">
       <property role="IQ2nx" value="135681439435783010" />
       <property role="TrG5h" value="quantifier" />
@@ -2333,6 +2333,30 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="argument" />
       <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1R8dC2EgQxb">
+    <property role="EcuMT" value="2146025148682299467" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
+    <property role="TrG5h" value="EndCondition" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
+  </node>
+  <node concept="1TIwiD" id="1R8dC2EgQxc">
+    <property role="EcuMT" value="2146025148682299468" />
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
+    <property role="TrG5h" value="TimedCondition" />
+    <ref role="1TJDcQ" node="1R8dC2EgQxb" resolve="EndCondition" />
+    <node concept="1TJgyi" id="1R8dC2EgQxf" role="1TKVEl">
+      <property role="IQ2nx" value="2146025148682299471" />
+      <property role="TrG5h" value="operator" />
+      <ref role="AX2Wp" node="24yfUKsyf$H" resolve="ComparisonOperator" />
+    </node>
+    <node concept="1TJgyj" id="1R8dC2EgQzq" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148682299610" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>

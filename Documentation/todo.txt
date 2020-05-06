@@ -41,6 +41,8 @@ TODO for student
 - introduce proper constraints for names
 - typing of expressions
 - remove branches from github
+- move [stop] out of generation for end condition
+- sort between github and tools.uia version and remove the tools.uia version
 - build stand-alone
 - make all generated code work
 - fix selection of agent and UI generally

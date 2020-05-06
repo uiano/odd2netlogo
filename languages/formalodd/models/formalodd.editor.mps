@@ -3943,5 +3943,21 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="1R8dC2EgQxp">
+    <property role="3GE5qa" value="Expressions.TODO_Condition" />
+    <ref role="1XX52x" to="86kt:1R8dC2EgQxc" resolve="TimedCondition" />
+    <node concept="3EZMnI" id="1R8dC2EgQxr" role="2wV5jI">
+      <node concept="l2Vlx" id="1R8dC2EgQxs" role="2iSdaV" />
+      <node concept="3F0ifn" id="1R8dC2EgQxt" role="3EZMnx">
+        <property role="3F0ifm" value="NOW" />
+      </node>
+      <node concept="3F0A7n" id="1R8dC2EgQyO" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1R8dC2EgQxf" resolve="operator" />
+      </node>
+      <node concept="3F1sOY" id="1R8dC2EgQzu" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1R8dC2EgQzq" resolve="value" />
+      </node>
+    </node>
+  </node>
 </model>
 

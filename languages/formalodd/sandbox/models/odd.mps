@@ -126,6 +126,10 @@
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
+      <concept id="2146025148682299468" name="formalodd.structure.TimedCondition" flags="ng" index="2RyPVc">
+        <property id="2146025148682299471" name="operator" index="2RyPVf" />
+        <child id="2146025148682299610" name="value" index="2RyPTq" />
+      </concept>
       <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
       <concept id="84585932957170711" name="formalodd.structure.LetAccess" flags="ng" index="RLbTy">
         <reference id="84585932957170712" name="let" index="RLbTH" />
@@ -1303,6 +1307,12 @@
       </node>
     </node>
     <node concept="2lMhBk" id="4GwBkQLLcy" role="2J7coG">
+      <node concept="2RyPVc" id="1R8dC2Ek0PO" role="2lMhBt">
+        <property role="2RyPVf" value="24yfUKsyf$I/eq" />
+        <node concept="2oK_Am" id="1R8dC2Ek0PR" role="2RyPTq">
+          <property role="2oK_Ap" value="100" />
+        </node>
+      </node>
       <node concept="2jZikd" id="39v_dExISFb" role="2jUxG3">
         <property role="TrG5h" value="positive-interaction" />
         <node concept="RZfIr" id="39v_dExZIS2" role="2jZik7">
@@ -1460,21 +1470,21 @@
         </node>
       </node>
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
-        <property role="TrG5h" value="Forced-interaction" />
+        <property role="TrG5h" value="forced-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="1Svl6F" id="39v_dExxgYh" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQLLe0" resolve="Learn-about" />
+          <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
         </node>
         <node concept="1Svl6F" id="39v_dExukB0" role="18tn1X">
-          <ref role="1Svl6C" node="4GwBkQLLdf" resolve="Evaluate-interaction" />
+          <ref role="1Svl6C" node="4GwBkQLLdf" resolve="evaluate-interaction" />
         </node>
         <node concept="2lNc1w" id="39v_dExukBA" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
-        <property role="TrG5h" value="Evaluate-interaction" />
+        <property role="TrG5h" value="evaluate-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
@@ -1603,7 +1613,7 @@
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
-        <property role="TrG5h" value="Learn-about" />
+        <property role="TrG5h" value="learn-about" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
@@ -1630,7 +1640,7 @@
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdv" role="2GyEu2">
-        <property role="TrG5h" value="Free" />
+        <property role="TrG5h" value="free-interaction" />
         <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="2lNc1w" id="4GwBkQLLdD" role="18tn1Z">
@@ -1690,10 +1700,10 @@
           </node>
           <node concept="2rRKAk" id="39v_dExyJWE" role="2rRKAh">
             <node concept="1Svl6F" id="39v_dExyJX8" role="2rRKAh">
-              <ref role="1Svl6C" node="4GwBkQLLe0" resolve="Learn-about" />
+              <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
             </node>
             <node concept="1Svl6F" id="39v_dExyJX_" role="2rRKAh">
-              <ref role="1Svl6C" node="4GwBkQLLdf" resolve="Evaluate-interaction" />
+              <ref role="1Svl6C" node="4GwBkQLLdf" resolve="evaluate-interaction" />
             </node>
             <node concept="26hFik" id="39v_dExyJX2" role="2rRKAn">
               <property role="26hFil" value="24yfUKsyf$I/eq" />
@@ -1717,10 +1727,10 @@
         </node>
       </node>
       <node concept="1Svl6F" id="4GwBkQLLcz" role="250j5S">
-        <ref role="1Svl6C" node="39v_dExukAZ" resolve="Forced-interaction" />
+        <ref role="1Svl6C" node="39v_dExukAZ" resolve="forced-interaction" />
       </node>
       <node concept="1Svl6F" id="4GwBkQLLcK" role="250j5S">
-        <ref role="1Svl6C" node="4GwBkQLLdv" resolve="Free" />
+        <ref role="1Svl6C" node="4GwBkQLLdv" resolve="free-interaction" />
       </node>
     </node>
   </node>
