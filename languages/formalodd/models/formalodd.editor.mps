@@ -105,6 +105,7 @@
         <reference id="6591946374543067572" name="conceptDeclaration" index="aqKnT" />
       </concept>
       <concept id="1233758997495" name="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" flags="ln" index="11L4FC" />
+      <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1240253180846" name="jetbrains.mps.lang.editor.structure.IndentLayoutNoWrapClassItem" flags="ln" index="34QqEe" />
       <concept id="3383245079137382180" name="jetbrains.mps.lang.editor.structure.StyleClass" flags="ig" index="14StLt" />
       <concept id="3360401466585705291" name="jetbrains.mps.lang.editor.structure.CellModel_ContextAssistant" flags="ng" index="18a60v" />
@@ -1639,8 +1640,38 @@
     <node concept="3EZMnI" id="1zaawdwPXVZ" role="2wV5jI">
       <node concept="2iRfu4" id="1zaawdwPXW0" role="2iSdaV" />
       <node concept="3F0ifn" id="1zaawdwPXWe" role="3EZMnx">
-        <property role="3F0ifm" value="Perform the procedure" />
-        <node concept="Vb9p2" id="1zaawdwPXWk" role="3F10Kt" />
+        <property role="3F0ifm" value="Perform the" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="3F0ifn" id="1R8dC2EncKh" role="3EZMnx">
+        <property role="3F0ifm" value="inter" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+        <node concept="11LMrY" id="1R8dC2EncKv" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pkWqt" id="1R8dC2EncKx" role="pqm2j">
+          <node concept="3clFbS" id="1R8dC2EncKy" role="2VODD2">
+            <node concept="3clFbF" id="1R8dC2EncOu" role="3cqZAp">
+              <node concept="2OqwBi" id="1R8dC2EndFh" role="3clFbG">
+                <node concept="2OqwBi" id="1R8dC2End1W" role="2Oq$k0">
+                  <node concept="pncrf" id="1R8dC2EncOt" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="1R8dC2Endgq" role="2OqNvi">
+                    <ref role="3Tt5mk" to="86kt:1zaawdwHRIF" resolve="called" />
+                  </node>
+                </node>
+                <node concept="1mIQ4w" id="1R8dC2EnebS" role="2OqNvi">
+                  <node concept="chp4Y" id="1R8dC2EneiF" role="cj9EA">
+                    <ref role="cht4Q" to="86kt:qdXC$xsGIe" resolve="Interaction" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1R8dC2EncJM" role="3EZMnx">
+        <property role="3F0ifm" value="action" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="1iCGBv" id="1zaawdwHRIR" role="3EZMnx">
         <property role="1$x2rV" value="press control space to select procedure" />
@@ -3505,7 +3536,7 @@
   </node>
   <node concept="24kQdi" id="4GwBkQO7C3">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+    <ref role="1XX52x" to="86kt:4GwBkQO7BI" resolve="TODO_LetActivity" />
     <node concept="3EZMnI" id="4GwBkQO7C5" role="2wV5jI">
       <node concept="2iRfu4" id="4GwBkQO7C6" role="2iSdaV" />
       <node concept="3F0ifn" id="4GwBkQO7C7" role="3EZMnx">
@@ -3525,7 +3556,7 @@
   </node>
   <node concept="24kQdi" id="4GwBkQU3KL">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:4GwBkQU3Kn" resolve="LetAccess" />
+    <ref role="1XX52x" to="86kt:4GwBkQU3Kn" resolve="TODO_LetAccess" />
     <node concept="3EZMnI" id="4GwBkQU3KN" role="2wV5jI">
       <node concept="l2Vlx" id="4GwBkQU3KO" role="2iSdaV" />
       <node concept="1iCGBv" id="4GwBkQU3KP" role="3EZMnx">
@@ -3907,7 +3938,7 @@
   </node>
   <node concept="24kQdi" id="39v_dEyymsX">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:39v_dEyymsJ" resolve="FilterIndex" />
+    <ref role="1XX52x" to="86kt:39v_dEyymsJ" resolve="TODO_FilterIndex" />
     <node concept="3EZMnI" id="39v_dEyymsZ" role="2wV5jI">
       <node concept="l2Vlx" id="39v_dEyymt0" role="2iSdaV" />
       <node concept="3F0ifn" id="39v_dEyymt1" role="3EZMnx">
@@ -3926,7 +3957,7 @@
   </node>
   <node concept="24kQdi" id="39v_dEyE91q">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:39v_dEyE91d" resolve="SelectN" />
+    <ref role="1XX52x" to="86kt:39v_dEyE91d" resolve="TODO_SelectN" />
     <node concept="3EZMnI" id="39v_dEyE91s" role="2wV5jI">
       <node concept="l2Vlx" id="39v_dEyE91t" role="2iSdaV" />
       <node concept="3F0ifn" id="39v_dEyE91u" role="3EZMnx">

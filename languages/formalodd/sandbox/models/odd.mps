@@ -44,7 +44,7 @@
         <reference id="3629783491428039828" name="function" index="2guExe" />
         <child id="3629783491428039830" name="actuals" index="2guExc" />
       </concept>
-      <concept id="3629783491434604335" name="formalodd.structure.FilterIndex" flags="ng" index="2gPJfP">
+      <concept id="3629783491434604335" name="formalodd.structure.TODO_FilterIndex" flags="ng" index="2gPJfP">
         <child id="3629783491434604338" name="argument" index="2gPJfC" />
         <child id="3629783491434604336" name="filterCondition" index="2gPJfE" />
       </concept>
@@ -52,7 +52,7 @@
         <property id="3629783491434196541" name="kind" index="2gRbFB" />
         <child id="3629783491434196472" name="inner" index="2gRb$y" />
       </concept>
-      <concept id="3629783491436646477" name="formalodd.structure.SelectN" flags="ng" index="2gXKin">
+      <concept id="3629783491436646477" name="formalodd.structure.TODO_SelectN" flags="ng" index="2gXKin">
         <child id="3629783491436646478" name="count" index="2gXKik" />
         <child id="3629783491436646479" name="argument" index="2gXKil" />
       </concept>
@@ -131,10 +131,10 @@
         <child id="2146025148682299610" name="value" index="2RyPTq" />
       </concept>
       <concept id="7167542597237662036" name="formalodd.structure.TODO_Random" flags="ng" index="RFdHg" />
-      <concept id="84585932957170711" name="formalodd.structure.LetAccess" flags="ng" index="RLbTy">
+      <concept id="84585932957170711" name="formalodd.structure.TODO_LetAccess" flags="ng" index="RLbTy">
         <reference id="84585932957170712" name="let" index="RLbTH" />
       </concept>
-      <concept id="84585932955613678" name="formalodd.structure.LetActivity" flags="ng" index="RZfIr">
+      <concept id="84585932955613678" name="formalodd.structure.TODO_LetActivity" flags="ng" index="RZfIr">
         <child id="84585932955613689" name="value" index="RZfIc" />
       </concept>
       <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B">
@@ -1117,11 +1117,13 @@
             <ref role="26lliz" node="39v_dEyCAps" resolve="num-external-characteristics" />
           </node>
         </node>
-        <node concept="21jJIL" id="3M5MOtLfgYo" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.05" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
+        <node concept="ZOwoP" id="1R8dC2ECY58" role="2oy9Oj">
+          <node concept="26lliW" id="1R8dC2ECY5e" role="R_6SO">
+            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+          </node>
+          <node concept="26lliW" id="1R8dC2ECY5h" role="R_6SQ">
+            <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflr" role="Qgzvn">
@@ -1133,11 +1135,13 @@
             <ref role="26lliz" node="39v_dEyCApp" resolve="num-internal-characteristics" />
           </node>
         </node>
-        <node concept="21jJIL" id="3M5MOtLfgYI" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.05" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
+        <node concept="ZOwoP" id="1R8dC2ECY5k" role="2oy9Oj">
+          <node concept="26lliW" id="1R8dC2ECY5l" role="R_6SO">
+            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+          </node>
+          <node concept="26lliW" id="1R8dC2ECY5m" role="R_6SQ">
+            <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApp" role="Qgzvn">
@@ -1314,9 +1318,9 @@
         </node>
       </node>
       <node concept="2jZikd" id="39v_dExISFb" role="2jUxG3">
-        <property role="TrG5h" value="positive-interaction" />
+        <property role="TrG5h" value="positive-interaction?" />
         <node concept="RZfIr" id="39v_dExZIS2" role="2jZik7">
-          <property role="TrG5h" value="distance-external" />
+          <property role="TrG5h" value="deviations-external" />
           <node concept="2jDO4u" id="39v_dExZISm" role="RZfIc">
             <node concept="i7gn5" id="39v_dExZISs" role="2jDO4v">
               <property role="i7gn4" value="39v_dExZITw/distance" />
@@ -1338,7 +1342,7 @@
               <node concept="26hFik" id="39v_dEywMRj" role="2gagy6">
                 <property role="26hFil" value="5yfUVbuMlWk/le" />
                 <node concept="RLbTy" id="39v_dEywMRk" role="26hFir">
-                  <ref role="RLbTH" node="39v_dExZIS2" resolve="distance-external" />
+                  <ref role="RLbTH" node="39v_dExZIS2" resolve="deviations-external" />
                 </node>
                 <node concept="26lliW" id="39v_dEywMRl" role="26hFip">
                   <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1390,7 +1394,7 @@
           </node>
         </node>
         <node concept="RZfIr" id="39v_dEyzTwZ" role="2jZik7">
-          <property role="TrG5h" value="distance-internal" />
+          <property role="TrG5h" value="deviations-internal" />
           <node concept="2jDO4u" id="39v_dEyzTx0" role="RZfIc">
             <node concept="i7gn5" id="39v_dEyzTx1" role="2jDO4v">
               <property role="i7gn4" value="39v_dExZITw/distance" />
@@ -1410,7 +1414,7 @@
               <node concept="26hFik" id="39v_dEyzTx7" role="2gagy6">
                 <property role="26hFil" value="5yfUVbuMlWk/le" />
                 <node concept="RLbTy" id="39v_dEyzTx8" role="26hFir">
-                  <ref role="RLbTH" node="39v_dEyzTwZ" resolve="distance-internal" />
+                  <ref role="RLbTH" node="39v_dEyzTwZ" resolve="deviations-internal" />
                 </node>
                 <node concept="26lliW" id="39v_dEyzTx9" role="26hFip">
                   <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1439,11 +1443,11 @@
           <property role="TrG5h" value="evaluation" />
           <node concept="i7gn5" id="39v_dExTEoF" role="RZfIc">
             <property role="i7gn4" value="1w00y4a7gvC/add" />
-            <node concept="RLbTy" id="39v_dExTEoO" role="i7gCG">
-              <ref role="RLbTH" node="39v_dExTEnV" resolve="evaluation-internal" />
-            </node>
-            <node concept="RLbTy" id="39v_dExTEoR" role="i7gCI">
+            <node concept="RLbTy" id="1R8dC2EBjYP" role="i7gCG">
               <ref role="RLbTH" node="39v_dExTEol" resolve="evaluation-external" />
+            </node>
+            <node concept="RLbTy" id="1R8dC2EBjYS" role="i7gCI">
+              <ref role="RLbTH" node="39v_dExTEnV" resolve="evaluation-internal" />
             </node>
           </node>
         </node>
@@ -1490,7 +1494,7 @@
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
           <property role="TrG5h" value="is-positive-me" />
           <node concept="2guEx9" id="39v_dEyk7Z_" role="RZfIc">
-            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction" />
+            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction?" />
             <node concept="2g0R4C" id="39v_dEyqyM9" role="2guExc">
               <property role="2g0R4D" value="5yfUVburW9E/me" />
             </node>
@@ -1549,7 +1553,7 @@
         <node concept="RZfIr" id="39v_dEytDJT" role="18tn1X">
           <property role="TrG5h" value="is-positive-other" />
           <node concept="2guEx9" id="39v_dEytDJU" role="RZfIc">
-            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction" />
+            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction?" />
             <node concept="2g0R4C" id="39v_dEytDKB" role="2guExc">
               <property role="2g0R4D" value="5yfUVburW9F/other" />
             </node>

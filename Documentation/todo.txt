@@ -1,11 +1,11 @@
 TODO list for development of ODD2Netlogo
-- allow affects all/any (env / entity) - code gen correct
 - globals = model parameters - gen correct code
-- correct code generation for MARG
+- correct code generation for MARG: positive-interaction(filter, collect, elementwise), free-interaction, forced-interaction, learn-about, ...
 - 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
 - define function parameters as entities (not types)
 - MARG: parameters in calls for actions
 - MARG: number ranges as types - no need to adjust the inc and dec
+- allow affects all/any (env / entity) - code gen correct
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
 - wolf sheep scheduling - correct code gen ref Library
