@@ -1952,11 +1952,18 @@
     <property role="EcuMT" value="2469205658733998766" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="Rationale" />
-    <ref role="1TJDcQ" node="5JxfqxAu5tR" resolve="InformalConcept" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="294onrmenaL" role="1TKVEl">
       <property role="IQ2nx" value="2469205658733998769" />
       <property role="TrG5h" value="Baseforrationale" />
       <ref role="AX2Wp" node="294onrmenaO" resolve="Rationalelist" />
+    </node>
+    <node concept="1TJgyj" id="6p7Q678XMyN" role="1TKVEi">
+      <property role="IQ2ns" value="7370097229710174387" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sentence" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gpp">

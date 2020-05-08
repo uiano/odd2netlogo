@@ -183,6 +183,7 @@
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
         <child id="999929643176201180" name="relationships" index="1w1JPE" />
+        <child id="2469205658733998759" name="rationale" index="3Ovhfh" />
         <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
@@ -223,7 +224,10 @@
         <child id="8277873572982783032" name="researchQuestion" index="1BQTog" />
         <child id="8277873572982783034" name="targetGroup" index="1BQToi" />
       </concept>
-      <concept id="2469205658733998766" name="formalodd.structure.Rationale" flags="ng" index="3Ovhfo" />
+      <concept id="2469205658733998766" name="formalodd.structure.Rationale" flags="ng" index="3Ovhfo">
+        <property id="2469205658733998769" name="Baseforrationale" index="3Ovhf7" />
+        <child id="7370097229710174387" name="sentence" index="2IGf3i" />
+      </concept>
       <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
       </concept>
@@ -237,6 +241,31 @@
   <node concept="ZOwpP" id="qdXC$xpL8p">
     <property role="TrG5h" value="test" />
     <node concept="ZOwpU" id="qdXC$xpL8y" role="3$p12O">
+      <node concept="ZOwpH" id="1jC05GNft6w" role="25gc1v">
+        <property role="TrG5h" value="health" />
+        <property role="QtYJw" value="the health." />
+        <node concept="ZOwps" id="1jC05GNft6$" role="zGXb3" />
+      </node>
+      <node concept="ZOwpH" id="1jC05GNft6B" role="25gc1v">
+        <property role="TrG5h" value="hunger" />
+        <property role="QtYJw" value="if the entity is hungry" />
+        <node concept="ZOwpv" id="1jC05GNft6H" role="zGXb3" />
+      </node>
+      <node concept="3Ovhfo" id="1jC05GNfsI0" role="3Ovhfh">
+        <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+        <node concept="XAmFv" id="1jC05GNfsI2" role="2IGf3i">
+          <property role="XAmFg" value="This is my rationale." />
+        </node>
+        <node concept="XAmFv" id="1jC05GNfsI4" role="2IGf3i">
+          <property role="XAmFg" value="This is sentence #2 in my adhoc rationale." />
+        </node>
+      </node>
+      <node concept="3Ovhfo" id="1jC05GNfsId" role="3Ovhfh">
+        <property role="3Ovhf7" value="294onrmenaT/Observation" />
+        <node concept="XAmFv" id="1jC05GNfsIi" role="2IGf3i">
+          <property role="XAmFg" value="Some other rationale." />
+        </node>
+      </node>
       <node concept="ZOwrm" id="24yfUKsi0X2" role="2kDK73">
         <property role="TrG5h" value="test-environment" />
         <node concept="2WUdOh" id="24yfUKsi0X4" role="2W_r1q">
