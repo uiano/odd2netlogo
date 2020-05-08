@@ -317,6 +317,7 @@
       </concept>
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
       <concept id="1165530316231" name="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" flags="nn" index="1v1jN8" />
+      <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
     </language>
   </registry>
   <node concept="24kQdi" id="6AuNKydYrMg">
@@ -3181,11 +3182,52 @@
         <node concept="2iRfu4" id="3M5MOtLlj7L" role="2iSdaV" />
       </node>
       <node concept="3F2HdR" id="3M5MOtLlj7O" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNBrfEX" resolve="actions" />
+        <ref role="1NtTu8" to="86kt:7MNWMNBrfEX" resolve="yesActions" />
         <node concept="2iRkQZ" id="3M5MOtLlj7P" role="2czzBx" />
         <node concept="3F0ifn" id="3M5MOtLlj7Q" role="2czzBI">
           <property role="3F0ifm" value="press enter to add actions" />
           <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1R8dC2ELi0M" role="3EZMnx">
+        <property role="3F0ifm" value="else" />
+        <node concept="pkWqt" id="1R8dC2ELi10" role="pqm2j">
+          <node concept="3clFbS" id="1R8dC2ELi11" role="2VODD2">
+            <node concept="3clFbF" id="1R8dC2ELi4X" role="3cqZAp">
+              <node concept="2OqwBi" id="1R8dC2ELkyS" role="3clFbG">
+                <node concept="2OqwBi" id="1R8dC2ELiir" role="2Oq$k0">
+                  <node concept="pncrf" id="1R8dC2ELi4W" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="1R8dC2ELiCj" role="2OqNvi">
+                    <ref role="3TtcxE" to="86kt:1R8dC2ELi03" resolve="noActions" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="1R8dC2ELm7c" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F2HdR" id="1R8dC2ELi0m" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:1R8dC2ELi03" resolve="noActions" />
+        <node concept="2iRkQZ" id="1R8dC2ELi0n" role="2czzBx" />
+        <node concept="3F0ifn" id="1R8dC2ELi0o" role="2czzBI">
+          <property role="3F0ifm" value="press enter to add actions" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        </node>
+        <node concept="pkWqt" id="1R8dC2ELmbX" role="pqm2j">
+          <node concept="3clFbS" id="1R8dC2ELmbY" role="2VODD2">
+            <node concept="3clFbF" id="1R8dC2ELmfU" role="3cqZAp">
+              <node concept="2OqwBi" id="1R8dC2ELoHP" role="3clFbG">
+                <node concept="2OqwBi" id="1R8dC2ELmto" role="2Oq$k0">
+                  <node concept="pncrf" id="1R8dC2ELmfT" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="1R8dC2ELmNg" role="2OqNvi">
+                    <ref role="3TtcxE" to="86kt:1R8dC2ELi03" resolve="noActions" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="1R8dC2ELrVh" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
       <node concept="2iRkQZ" id="3M5MOtLlj7R" role="2iSdaV" />

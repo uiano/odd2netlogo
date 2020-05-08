@@ -108,8 +108,9 @@
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="8985793055721061048" name="formalodd.structure.ConditionalAction" flags="ng" index="2rRKAk">
-        <child id="8985793055721061053" name="actions" index="2rRKAh" />
+        <child id="8985793055721061053" name="yesActions" index="2rRKAh" />
         <child id="8985793055721061051" name="condition" index="2rRKAn" />
+        <child id="2146025148690800643" name="noActions" index="2R3hq3" />
       </concept>
       <concept id="8985793055718208559" name="formalodd.structure.AssignAttribute" flags="ng" index="2rWCs3">
         <property id="4361115321892802048" name="writeWho" index="1dqGl7" />
@@ -1536,6 +1537,19 @@
           </node>
         </node>
         <node concept="2rRKAk" id="39v_dExsSp$" role="18tn1X">
+          <node concept="2qfAsS" id="1R8dC2EPbnm" role="2R3hq3">
+            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
+            <node concept="26lliW" id="1R8dC2EPbnn" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
+            </node>
+          </node>
+          <node concept="2qfAsZ" id="1R8dC2EPbno" role="2R3hq3">
+            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+            <node concept="2oK_Am" id="1R8dC2EPbnp" role="2rWCss">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
           <node concept="26hFik" id="39v_dExsSp_" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="RLbTy" id="39v_dExsSpA" role="26hFir">
@@ -1560,28 +1574,6 @@
             </node>
           </node>
         </node>
-        <node concept="2rRKAk" id="39v_dExsSpG" role="18tn1X">
-          <node concept="26hFik" id="39v_dExsSpH" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="39v_dExsSpI" role="26hFir">
-              <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
-            </node>
-            <node concept="2W8u0B" id="39v_dExsSpJ" role="26hFip" />
-          </node>
-          <node concept="2qfAsS" id="39v_dExsSpK" role="2rRKAh">
-            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
-            <node concept="26lliW" id="39v_dEyCAsZ" role="2rWCss">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="39v_dExsSpM" role="2rRKAh">
-            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-            <node concept="2oK_Am" id="39v_dExsSpN" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-        </node>
         <node concept="RZfIr" id="39v_dEytDJT" role="18tn1X">
           <property role="TrG5h" value="is-positive-other" />
           <node concept="2guEx9" id="39v_dEytDJU" role="RZfIc">
@@ -1595,6 +1587,21 @@
           </node>
         </node>
         <node concept="2rRKAk" id="39v_dExsSon" role="18tn1X">
+          <node concept="2qfAsS" id="1R8dC2EVJnh" role="2R3hq3">
+            <property role="1dqGl7" value="5yfUVburW9F/other" />
+            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
+            <node concept="26lliW" id="1R8dC2EVJni" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
+            </node>
+          </node>
+          <node concept="2qfAsZ" id="1R8dC2EVJnj" role="2R3hq3">
+            <property role="1dqGl7" value="5yfUVburW9F/other" />
+            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+            <node concept="2oK_Am" id="1R8dC2EVJnk" role="2rWCss">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
           <node concept="26hFik" id="39v_dExsSoo" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="RLbTy" id="39v_dEytDLl" role="26hFir">
@@ -1616,30 +1623,6 @@
             <property role="1dqGl7" value="5yfUVburW9F/other" />
             <ref role="2rWCsu" node="5yfUVbwl$3m" resolve="#positive-interactions" />
             <node concept="2oK_Am" id="39v_dExsSou" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-        </node>
-        <node concept="2rRKAk" id="4GwBkQVhda" role="18tn1X">
-          <node concept="26hFik" id="4GwBkQVhdr" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="39v_dEytDLo" role="26hFir">
-              <ref role="RLbTH" node="39v_dEytDJT" resolve="is-positive-other" />
-            </node>
-            <node concept="2W8u0B" id="39v_dExsSoM" role="26hFip" />
-          </node>
-          <node concept="2qfAsS" id="39v_dExsSoV" role="2rRKAh">
-            <property role="1dqGl7" value="5yfUVburW9F/other" />
-            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
-            <node concept="26lliW" id="39v_dEyCAt5" role="2rWCss">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="39v_dExsSld" role="2rRKAh">
-            <property role="1dqGl7" value="5yfUVburW9F/other" />
-            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-            <node concept="2oK_Am" id="39v_dExsSlt" role="2rWCss">
               <property role="2oK_Ap" value="1" />
             </node>
           </node>
