@@ -1329,7 +1329,10 @@
           <node concept="1dm0fp" id="3M5MOtLUknb" role="2oy9Oj" />
         </node>
         <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheU">
-          <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="1R8dC2EI4ci" role="2IGf3i">
+            <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
+          </node>
         </node>
       </node>
     </node>
