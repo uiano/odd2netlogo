@@ -804,7 +804,7 @@
   </node>
   <node concept="24kQdi" id="6AuNKydYPoA">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
     <node concept="3EZMnI" id="3tK0pynLqqL" role="2wV5jI">
       <node concept="2iRkQZ" id="4GwBkQEb_C" role="2iSdaV" />
       <node concept="3EZMnI" id="4GwBkQEbKf" role="3EZMnx">
@@ -2180,7 +2180,7 @@
           </node>
         </node>
         <node concept="A1WHr" id="7qp8jK7DEfh" role="3vIgyS">
-          <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+          <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
         </node>
         <node concept="3F0ifn" id="7qp8jK7FiRI" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to create an attribute&gt;" />
@@ -2391,7 +2391,7 @@
   </node>
   <node concept="IW6AY" id="4qxfPPP1DtN">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="aqKnT" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <ref role="aqKnT" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
     <node concept="1Qtc8_" id="4qxfPPP1DtO" role="IW6Ez">
       <node concept="IWgqT" id="4qxfPPP1Du1" role="1Qtc8A">
         <node concept="1hCUdq" id="4qxfPPP1Du3" role="1hCUd6">
@@ -2429,12 +2429,12 @@
                   <node concept="3cpWsn" id="6CN9jWnHXUh" role="3cpWs9">
                     <property role="TrG5h" value="uda" />
                     <node concept="3Tqbb2" id="6CN9jWnHXZy" role="1tU5fm">
-                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
                     </node>
                     <node concept="2ShNRf" id="6CN9jWnHWUF" role="33vP2m">
                       <node concept="3zrR0B" id="6CN9jWnHXdI" role="2ShVmc">
                         <node concept="3Tqbb2" id="6CN9jWnHXdK" role="3zrR0E">
-                          <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                          <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
                         </node>
                       </node>
                     </node>
@@ -2576,12 +2576,12 @@
               <node concept="3cpWsn" id="4qxfPPPcJI1" role="3cpWs9">
                 <property role="TrG5h" value="uda" />
                 <node concept="3Tqbb2" id="4qxfPPPcJI2" role="1tU5fm">
-                  <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                  <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
                 </node>
                 <node concept="2ShNRf" id="4qxfPPPcJI3" role="33vP2m">
                   <node concept="3zrR0B" id="4qxfPPPcJI4" role="2ShVmc">
                     <node concept="3Tqbb2" id="4qxfPPPcJI5" role="3zrR0E">
-                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+                      <ref role="ehGHo" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
                     </node>
                   </node>
                 </node>
@@ -3668,7 +3668,7 @@
   </node>
   <node concept="24kQdi" id="4GwBkRmQKU">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
     <node concept="2aJ2om" id="4GwBkRmQM9" role="CpUAK">
       <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
     </node>
@@ -4075,7 +4075,7 @@
   </node>
   <node concept="24kQdi" id="6p7Q678EjJS">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:294onrmenaI" resolve="Rationale" />
+    <ref role="1XX52x" to="86kt:294onrmenaI" resolve="TODO_Rationale" />
     <node concept="3EZMnI" id="6p7Q678RhLo" role="2wV5jI">
       <node concept="3F0ifn" id="6p7Q6794BXD" role="3EZMnx">
         <property role="3F0ifm" value="Rationale" />

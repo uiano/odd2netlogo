@@ -1,21 +1,29 @@
 TODO list for development of ODD2Netlogo
-- handling of entity sets (all, half of them, ...)
-- handle filter
-- handle collect
-- handle elementwise
+- syntax for of entity sets (all, half of them, ...)
+- add comments for definitions (ICommentedNamedConcept)
+- MARG: parameters in calls for actions
+- experiments
+- data collection
+- characterization
+- sensing
+- randomness
+- correct indents
+- do only one direction is evaluate-interaction and in learn-about
+- MARG: number ranges as types - no need to adjust the inc and dec
+- have separate concepts for link UDA, entity UDA, global UDA
+- 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
+- codegen filter
+- codegen collect
+- codegen elementwise
 - correct code generation for MARG: positive-interaction(filter, collect, elementwise), free-interaction, forced-interaction, learn-about, ...
 - 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
 - define function parameters as entities (not types)
-- MARG: parameters in calls for actions
-- do only one direction is evaluate-interaction and in learn-about
-- MARG: number ranges as types - no need to adjust the inc and dec
 - allow affects all/any (env / entity) - code gen correct
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
 - wolf sheep scheduling - correct code gen ref Library
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - better structure for read and write other and network
-- 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
@@ -23,10 +31,12 @@ TODO list for development of ODD2Netlogo
 - why is occupied an interaction in segregation? fix it.
 - check all concepts with TODO
 - should sliders be expressions?
-- create predefined UDAs shape, size, colour
 - remove arrays? - not needed (move to future use)
 
-TODO for student
+TODO later
+- create predefined UDAs shape, size, colour
+
+TODO for Martin
 2. create editor for rationale
 3. differentiate between user input text and template text (font, colour, ...)
 4. make boxes around the proper syntactic entities (actions, interactions)
