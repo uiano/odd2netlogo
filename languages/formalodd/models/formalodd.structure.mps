@@ -31,6 +31,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -912,8 +915,8 @@
     <property role="TrG5h" value="GeneralEntity" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <node concept="PrWs8" id="2gGtP_Va5R5" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="1R8dC2Fa$w8" role="PzmwI">
+      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
     </node>
   </node>
   <node concept="25R3W" id="5vgYlnqddzM">
@@ -1014,11 +1017,6 @@
       <property role="IQ2nx" value="6216619391282322598" />
       <property role="TrG5h" value="directed" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="3M5MOtL$6zN" role="1TKVEl">
-      <property role="IQ2nx" value="4361115321886599411" />
-      <property role="TrG5h" value="description" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="39v_dEyHj7z" role="1TKVEi">
       <property role="IQ2ns" value="3629783491437474275" />
@@ -2142,8 +2140,8 @@
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="TODO_Code" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="39v_dEx_GLb" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="1R8dC2FeqDL" role="PzmwI">
+      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="39v_dExCF7n">
@@ -2378,8 +2376,22 @@
     <property role="EcuMT" value="2146025148693967709" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="UserDefinedAttribute" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="1R8dC2EXndu" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="1R8dC2Fa$w3">
+    <property role="EcuMT" value="2146025148697430019" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="IDescribedConcept" />
+    <node concept="1TJgyi" id="1R8dC2Fa$w6" role="1TKVEl">
+      <property role="IQ2nx" value="2146025148697430022" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="PrWs8" id="1R8dC2Fa$w4" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

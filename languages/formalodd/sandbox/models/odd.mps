@@ -127,6 +127,9 @@
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
+      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
+        <property id="2146025148697430022" name="description" index="2QSBU6" />
+      </concept>
       <concept id="2146025148682299468" name="formalodd.structure.TimedCondition" flags="ng" index="2RyPVc">
         <property id="2146025148682299471" name="operator" index="2RyPVf" />
         <child id="2146025148682299610" name="value" index="2RyPTq" />
@@ -166,7 +169,7 @@
       </concept>
       <concept id="3840659476812055854" name="formalodd.structure.NumberType" flags="ng" index="ZOwps" />
       <concept id="3840659476812055853" name="formalodd.structure.Boolean" flags="ng" index="ZOwpv" />
-      <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
+      <concept id="3840659476812055839" name="formalodd.structure.TODO_EntityAttribute" flags="ng" index="ZOwpH">
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
@@ -210,7 +213,6 @@
         <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
-        <property id="4361115321886599411" name="description" index="1d5qeO" />
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
@@ -225,7 +227,7 @@
         <child id="8277873572982783032" name="researchQuestion" index="1BQTog" />
         <child id="8277873572982783034" name="targetGroup" index="1BQToi" />
       </concept>
-      <concept id="2469205658733998766" name="formalodd.structure.Rationale" flags="ng" index="3Ovhfo">
+      <concept id="2469205658733998766" name="formalodd.structure.TODO_Rationale" flags="ng" index="3Ovhfo">
         <property id="2469205658733998769" name="Baseforrationale" index="3Ovhf7" />
         <child id="7370097229710174387" name="sentence" index="2IGf3i" />
       </concept>
@@ -1286,6 +1288,7 @@
       </node>
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
+        <property role="2QSBU6" value="students at university" />
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa0l/person" />
           <property role="27hOD7" value="10" />
@@ -1304,7 +1307,7 @@
       <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
         <property role="TrG5h" value="universityRelationship" />
         <property role="1Jtsb0" value="true" />
-        <property role="1d5qeO" value="students have relationships with other students, the relationships are 2 directionals (are different in each direction)" />
+        <property role="2QSBU6" value="students have relationships with other students , the relationships are 2 directionals (are different in each direction)" />
         <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
         <ref role="1wg9ys" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="ZOwpH" id="4qxfPPPteTY" role="2gUEkT">
@@ -1352,6 +1355,7 @@
       </node>
       <node concept="2jZikd" id="39v_dExISFb" role="2jUxG3">
         <property role="TrG5h" value="positive-interaction?" />
+        <property role="2QSBU6" value="when an interaction is considered positive" />
         <node concept="RZfIr" id="39v_dExZIS2" role="2jZik7">
           <property role="TrG5h" value="deviations-external" />
           <node concept="2jDO4u" id="39v_dExZISm" role="RZfIc">
@@ -1509,6 +1513,7 @@
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
         <property role="TrG5h" value="forced-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
+        <property role="2QSBU6" value="interactions in classroom settings" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="1Svl6F" id="39v_dExxgYh" role="18tn1X">
           <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
@@ -1523,6 +1528,7 @@
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
         <property role="TrG5h" value="evaluate-interaction" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
+        <property role="2QSBU6" value="evaluation of the interaction" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
           <property role="TrG5h" value="is-positive-me" />
@@ -1634,6 +1640,7 @@
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
         <property role="TrG5h" value="learn-about" />
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
+        <property role="2QSBU6" value="what the students learn from each other during interaction" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
           <property role="TrG5h" value="learned-characteristics" />
@@ -1661,6 +1668,7 @@
       <node concept="BZNO7" id="4GwBkQLLdv" role="2GyEu2">
         <property role="TrG5h" value="free-interaction" />
         <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
+        <property role="2QSBU6" value="spare time interactions" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="2lNc1w" id="4GwBkQLLdD" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
@@ -1752,6 +1760,7 @@
         <ref role="1Svl6C" node="4GwBkQLLdv" resolve="free-interaction" />
       </node>
     </node>
+    <node concept="3Ovhds" id="1R8dC2F7fAs" role="1BQTrk" />
   </node>
 </model>
 

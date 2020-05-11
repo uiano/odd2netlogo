@@ -1,6 +1,5 @@
 TODO list for development of ODD2Netlogo
 - syntax for of entity sets (all, half of them, ...)
-- add comments for definitions (ICommentedNamedConcept)
 - MARG: parameters in calls for actions
 - experiments
 - data collection
@@ -32,6 +31,7 @@ TODO list for development of ODD2Netlogo
 - check all concepts with TODO
 - should sliders be expressions?
 - remove arrays? - not needed (move to future use)
+- remove styling hintIfNull?
 
 TODO later
 - create predefined UDAs shape, size, colour
