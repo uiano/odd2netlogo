@@ -237,6 +237,7 @@
         <property id="2469205658733998637" name="role" index="3Ovhdr" />
         <child id="8277873572982783032" name="researchQuestion" index="1BQTog" />
         <child id="8277873572982783034" name="targetGroup" index="1BQToi" />
+        <child id="8277873572982783040" name="purposeDescription" index="1BQTpC" />
       </concept>
       <concept id="2469205658733998766" name="formalodd.structure.TODO_Rationale" flags="ng" index="3Ovhfo">
         <property id="2469205658733998769" name="Baseforrationale" index="3Ovhf7" />
@@ -1825,7 +1826,18 @@
         </node>
       </node>
     </node>
-    <node concept="3Ovhds" id="1R8dC2F7fAs" role="1BQTrk" />
+    <node concept="3Ovhds" id="1R8dC2F7fAs" role="1BQTrk">
+      <property role="3Ovhdr" value="6Uof7aieThm/Explanation" />
+      <node concept="XAmFv" id="ALSMvQuLMZ" role="1BQTpC">
+        <property role="XAmFg" value="The purpose of the study is to explore under whether university students can experience intense marginalisation (which is how we defined bullying) by the process of selecting interaction partners. " />
+      </node>
+      <node concept="XAmFv" id="ALSMvQuLMX" role="1BQToi">
+        <property role="XAmFg" value="For everyone interested in inclusion- exclusion and bullying phenomena." />
+      </node>
+      <node concept="XAmFv" id="ALSMvQuLMV" role="1BQTog">
+        <property role="XAmFg" value="is it possible for bullying to emerge from an ethically acceptable action such as choosing an interaction partner?" />
+      </node>
+    </node>
   </node>
 </model>
 
