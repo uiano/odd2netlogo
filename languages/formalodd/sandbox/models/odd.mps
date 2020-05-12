@@ -231,8 +231,9 @@
         <property id="2469205658733998769" name="Baseforrationale" index="3Ovhf7" />
         <child id="7370097229710174387" name="sentence" index="2IGf3i" />
       </concept>
-      <concept id="1786286396201728936" name="formalodd.structure.CallAction" flags="ng" index="1Svl6F">
+      <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
+        <child id="2146025148701641578" name="actuals" index="2QCFRE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1515,153 +1516,43 @@
         <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <property role="2QSBU6" value="interactions in classroom settings" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="1Svl6F" id="1R8dC2FskE6" role="18tn1X">
+          <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
+          <node concept="2g0R4C" id="1R8dC2FskEg" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9E/me" />
+          </node>
+          <node concept="2g0R4C" id="1R8dC2FskHB" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9F/other" />
+          </node>
+        </node>
         <node concept="1Svl6F" id="39v_dExxgYh" role="18tn1X">
           <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
+          <node concept="2g0R4C" id="1R8dC2FskHE" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9F/other" />
+          </node>
+          <node concept="2g0R4C" id="1R8dC2FskDW" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9E/me" />
+          </node>
+        </node>
+        <node concept="1Svl6F" id="1R8dC2FskHo" role="18tn1X">
+          <ref role="1Svl6C" node="4GwBkQLLdf" resolve="evaluate-interaction" />
+          <node concept="2g0R4C" id="1R8dC2FskHp" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9E/me" />
+          </node>
+          <node concept="2g0R4C" id="1R8dC2FskHH" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9F/other" />
+          </node>
         </node>
         <node concept="1Svl6F" id="39v_dExukB0" role="18tn1X">
           <ref role="1Svl6C" node="4GwBkQLLdf" resolve="evaluate-interaction" />
+          <node concept="2g0R4C" id="1R8dC2FskHK" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9F/other" />
+          </node>
+          <node concept="2g0R4C" id="1R8dC2FskEw" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9E/me" />
+          </node>
         </node>
         <node concept="2lNc1w" id="39v_dExukBA" role="18tn1Z">
-          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
-        </node>
-      </node>
-      <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
-        <property role="TrG5h" value="evaluate-interaction" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
-        <property role="2QSBU6" value="evaluation of the interaction" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
-          <property role="TrG5h" value="is-positive-me" />
-          <node concept="2guEx9" id="39v_dEyk7Z_" role="RZfIc">
-            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction?" />
-            <node concept="2g0R4C" id="39v_dEyqyM9" role="2guExc">
-              <property role="2g0R4D" value="5yfUVburW9E/me" />
-            </node>
-            <node concept="2g0R4C" id="39v_dEys68P" role="2guExc">
-              <property role="2g0R4D" value="5yfUVburW9F/other" />
-            </node>
-          </node>
-        </node>
-        <node concept="2rRKAk" id="39v_dExsSp$" role="18tn1X">
-          <node concept="2qfAsS" id="1R8dC2EPbnm" role="2R3hq3">
-            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
-            <node concept="26lliW" id="1R8dC2EPbnn" role="2rWCss">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="1R8dC2EPbno" role="2R3hq3">
-            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-            <node concept="2oK_Am" id="1R8dC2EPbnp" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-          <node concept="26hFik" id="39v_dExsSp_" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="39v_dExsSpA" role="26hFir">
-              <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
-            </node>
-            <node concept="2W8u0B" id="39v_dExsSpB" role="26hFip">
-              <property role="2W8tvr" value="true" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="39v_dExsSpC" role="2rRKAh">
-            <property role="1dqGl7" value="5yfUVburW9E/me" />
-            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
-            <node concept="26lliW" id="39v_dEyCAsW" role="2rWCss">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="39v_dExsSpE" role="2rRKAh">
-            <ref role="2rWCsu" node="5yfUVbwl$3m" resolve="#positive-interactions" />
-            <node concept="2oK_Am" id="39v_dExsSpF" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-        </node>
-        <node concept="RZfIr" id="39v_dEytDJT" role="18tn1X">
-          <property role="TrG5h" value="is-positive-other" />
-          <node concept="2guEx9" id="39v_dEytDJU" role="RZfIc">
-            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction?" />
-            <node concept="2g0R4C" id="39v_dEytDKB" role="2guExc">
-              <property role="2g0R4D" value="5yfUVburW9F/other" />
-            </node>
-            <node concept="2g0R4C" id="39v_dEytDKE" role="2guExc">
-              <property role="2g0R4D" value="5yfUVburW9E/me" />
-            </node>
-          </node>
-        </node>
-        <node concept="2rRKAk" id="39v_dExsSon" role="18tn1X">
-          <node concept="2qfAsS" id="1R8dC2EVJnh" role="2R3hq3">
-            <property role="1dqGl7" value="5yfUVburW9F/other" />
-            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
-            <node concept="26lliW" id="1R8dC2EVJni" role="2rWCss">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="1R8dC2EVJnj" role="2R3hq3">
-            <property role="1dqGl7" value="5yfUVburW9F/other" />
-            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-            <node concept="2oK_Am" id="1R8dC2EVJnk" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-          <node concept="26hFik" id="39v_dExsSoo" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="RLbTy" id="39v_dEytDLl" role="26hFir">
-              <ref role="RLbTH" node="39v_dEytDJT" resolve="is-positive-other" />
-            </node>
-            <node concept="2W8u0B" id="39v_dExsSoq" role="26hFip">
-              <property role="2W8tvr" value="true" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="39v_dExsSor" role="2rRKAh">
-            <property role="1dqGl7" value="5yfUVburW9F/other" />
-            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
-            <node concept="26lliW" id="39v_dEyCAt2" role="2rWCss">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-            </node>
-          </node>
-          <node concept="2qfAsZ" id="39v_dExsSot" role="2rRKAh">
-            <property role="1dqGl7" value="5yfUVburW9F/other" />
-            <ref role="2rWCsu" node="5yfUVbwl$3m" resolve="#positive-interactions" />
-            <node concept="2oK_Am" id="39v_dExsSou" role="2rWCss">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-        </node>
-        <node concept="2lNc1w" id="4GwBkQLLdF" role="18tn1Z">
-          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
-        </node>
-      </node>
-      <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
-        <property role="TrG5h" value="learn-about" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
-        <property role="2QSBU6" value="what the students learn from each other during interaction" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
-        <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
-          <property role="TrG5h" value="learned-characteristics" />
-          <node concept="2gXKin" id="39v_dEyFGku" role="RZfIc">
-            <node concept="26lliW" id="39v_dEyFGkB" role="2gXKik">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
-            </node>
-            <node concept="26lliW" id="39v_dEyFGkE" role="2gXKil">
-              <property role="1dr8U9" value="5yfUVburW9F/other" />
-              <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
-            </node>
-          </node>
-        </node>
-        <node concept="2qfAsZ" id="39v_dEyFGkN" role="18tn1X">
-          <ref role="2rWCsu" node="5p5RAoTafl6" resolve="known-indices" />
-          <node concept="RLbTy" id="39v_dEyFGkX" role="2rWCss">
-            <ref role="RLbTH" node="39v_dEyE917" resolve="learned-characteristics" />
-          </node>
-        </node>
-        <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>
@@ -1726,11 +1617,41 @@
             </node>
           </node>
           <node concept="2rRKAk" id="39v_dExyJWE" role="2rRKAh">
-            <node concept="1Svl6F" id="39v_dExyJX8" role="2rRKAh">
+            <node concept="1Svl6F" id="1R8dC2FskHR" role="2rRKAh">
               <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
+              <node concept="2g0R4C" id="1R8dC2FskHS" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9E/me" />
+              </node>
+              <node concept="2g0R4C" id="1R8dC2FskHT" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9F/other" />
+              </node>
             </node>
-            <node concept="1Svl6F" id="39v_dExyJX_" role="2rRKAh">
+            <node concept="1Svl6F" id="1R8dC2FskHU" role="2rRKAh">
+              <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
+              <node concept="2g0R4C" id="1R8dC2FskHV" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9F/other" />
+              </node>
+              <node concept="2g0R4C" id="1R8dC2FskHW" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9E/me" />
+              </node>
+            </node>
+            <node concept="1Svl6F" id="1R8dC2FskHX" role="2rRKAh">
               <ref role="1Svl6C" node="4GwBkQLLdf" resolve="evaluate-interaction" />
+              <node concept="2g0R4C" id="1R8dC2FskHY" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9E/me" />
+              </node>
+              <node concept="2g0R4C" id="1R8dC2FskHZ" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9F/other" />
+              </node>
+            </node>
+            <node concept="1Svl6F" id="1R8dC2FskI0" role="2rRKAh">
+              <ref role="1Svl6C" node="4GwBkQLLdf" resolve="evaluate-interaction" />
+              <node concept="2g0R4C" id="1R8dC2FskI1" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9F/other" />
+              </node>
+              <node concept="2g0R4C" id="1R8dC2FskI2" role="2QCFRE">
+                <property role="2g0R4D" value="5yfUVburW9E/me" />
+              </node>
             </node>
             <node concept="26hFik" id="39v_dExyJX2" role="2rRKAn">
               <property role="26hFil" value="24yfUKsyf$I/eq" />
@@ -1753,11 +1674,104 @@
           </node>
         </node>
       </node>
+      <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
+        <property role="TrG5h" value="evaluate-interaction" />
+        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
+        <property role="2QSBU6" value="evaluation of the interaction" />
+        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
+          <property role="TrG5h" value="is-positive-me" />
+          <node concept="2guEx9" id="39v_dEyk7Z_" role="RZfIc">
+            <ref role="2guExe" node="39v_dExISFb" resolve="positive-interaction?" />
+            <node concept="2g0R4C" id="39v_dEyqyM9" role="2guExc">
+              <property role="2g0R4D" value="5yfUVburW9E/me" />
+            </node>
+            <node concept="2g0R4C" id="39v_dEys68P" role="2guExc">
+              <property role="2g0R4D" value="5yfUVburW9F/other" />
+            </node>
+          </node>
+        </node>
+        <node concept="2rRKAk" id="39v_dExsSp$" role="18tn1X">
+          <node concept="2qfAsS" id="1R8dC2EPbnm" role="2R3hq3">
+            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
+            <node concept="26lliW" id="1R8dC2EPbnn" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
+            </node>
+          </node>
+          <node concept="2qfAsZ" id="1R8dC2EPbno" role="2R3hq3">
+            <ref role="2rWCsu" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+            <node concept="2oK_Am" id="1R8dC2EPbnp" role="2rWCss">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
+          <node concept="26hFik" id="39v_dExsSp_" role="2rRKAn">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="RLbTy" id="39v_dExsSpA" role="26hFir">
+              <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
+            </node>
+            <node concept="2W8u0B" id="39v_dExsSpB" role="26hFip">
+              <property role="2W8tvr" value="true" />
+            </node>
+          </node>
+          <node concept="2qfAsZ" id="39v_dExsSpC" role="2rRKAh">
+            <property role="1dqGl7" value="5yfUVburW9E/me" />
+            <ref role="2rWCsu" node="4qxfPPPteTY" resolve="attraction" />
+            <node concept="26lliW" id="39v_dEyCAsW" role="2rWCss">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
+            </node>
+          </node>
+          <node concept="2qfAsZ" id="39v_dExsSpE" role="2rRKAh">
+            <ref role="2rWCsu" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+            <node concept="2oK_Am" id="39v_dExsSpF" role="2rWCss">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
+        </node>
+        <node concept="2lNc1w" id="4GwBkQLLdF" role="18tn1Z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
+      </node>
+      <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
+        <property role="TrG5h" value="learn-about" />
+        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
+        <property role="2QSBU6" value="what the students learn from each other during interaction" />
+        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
+          <property role="TrG5h" value="learned-characteristics" />
+          <node concept="2gXKin" id="39v_dEyFGku" role="RZfIc">
+            <node concept="26lliW" id="39v_dEyFGkB" role="2gXKik">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
+            </node>
+            <node concept="26lliW" id="39v_dEyFGkE" role="2gXKil">
+              <property role="1dr8U9" value="5yfUVburW9F/other" />
+              <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+            </node>
+          </node>
+        </node>
+        <node concept="2qfAsZ" id="39v_dEyFGkN" role="18tn1X">
+          <ref role="2rWCsu" node="5p5RAoTafl6" resolve="known-indices" />
+          <node concept="RLbTy" id="39v_dEyFGkX" role="2rWCss">
+            <ref role="RLbTH" node="39v_dEyE917" resolve="learned-characteristics" />
+          </node>
+        </node>
+        <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
+      </node>
       <node concept="1Svl6F" id="4GwBkQLLcz" role="250j5S">
         <ref role="1Svl6C" node="39v_dExukAZ" resolve="forced-interaction" />
+        <node concept="2g0R4C" id="1R8dC2FskDw" role="2QCFRE">
+          <property role="2g0R4D" value="5yfUVburW9E/me" />
+        </node>
       </node>
       <node concept="1Svl6F" id="4GwBkQLLcK" role="250j5S">
         <ref role="1Svl6C" node="4GwBkQLLdv" resolve="free-interaction" />
+        <node concept="2g0R4C" id="1R8dC2FskDD" role="2QCFRE">
+          <property role="2g0R4D" value="5yfUVburW9E/me" />
+        </node>
       </node>
     </node>
     <node concept="3Ovhds" id="1R8dC2F7fAs" role="1BQTrk" />

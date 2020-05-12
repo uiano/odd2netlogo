@@ -4279,7 +4279,7 @@
   </node>
   <node concept="WtQ9Q" id="1zaawdwHRJ3">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:1zaawdwHRIC" resolve="CallAction" />
+    <ref role="WuzLi" to="86kt:1zaawdwHRIC" resolve="ActionCall" />
     <node concept="11bSqf" id="1zaawdwHRJ4" role="11c4hB">
       <node concept="3clFbS" id="1zaawdwHRJ5" role="2VODD2">
         <node concept="3cpWs8" id="6ow5IfzdWX0" role="3cqZAp">

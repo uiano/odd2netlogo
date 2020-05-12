@@ -977,7 +977,7 @@
   </node>
   <node concept="1M2fIO" id="3kYfzLXmcAV">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1M2myG" to="86kt:1zaawdwHRIC" resolve="CallAction" />
+    <ref role="1M2myG" to="86kt:1zaawdwHRIC" resolve="ActionCall" />
     <node concept="1N5Pfh" id="3kYfzLXmcAW" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:1zaawdwHRIF" resolve="called" />
       <node concept="1dDu$B" id="3kYfzLXmcB0" role="1N6uqs">

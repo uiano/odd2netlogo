@@ -656,7 +656,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="schedule" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="1zaawdwHRIC" resolve="CallAction" />
+      <ref role="20lvS9" node="1zaawdwHRIC" resolve="ActionCall" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9m">
@@ -873,9 +873,16 @@
   <node concept="1TIwiD" id="1zaawdwHRIC">
     <property role="EcuMT" value="1786286396201728936" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="CallAction" />
+    <property role="TrG5h" value="ActionCall" />
     <property role="R4oN_" value="calls a procedure or interaction" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
+    <node concept="1TJgyj" id="1R8dC2FqCHE" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148701641578" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="actuals" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="39v_dEyk7ZE" resolve="Actual" />
+    </node>
     <node concept="1TJgyj" id="1zaawdwHRIF" role="1TKVEi">
       <property role="IQ2ns" value="1786286396201728939" />
       <property role="20kJfa" value="called" />

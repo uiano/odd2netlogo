@@ -1,6 +1,5 @@
 TODO list for development of ODD2Netlogo
 - syntax for of entity sets (all, half of them, ...)
-- MARG: parameters in calls for actions
 - experiments
 - data collection
 - characterization
