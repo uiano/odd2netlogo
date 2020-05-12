@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- syntax for of entity sets (all, half of them, ...)
 - experiments
 - data collection
 - characterization

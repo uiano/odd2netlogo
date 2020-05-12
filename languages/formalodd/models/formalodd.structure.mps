@@ -2414,16 +2414,39 @@
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
     </node>
-    <node concept="1TJgyj" id="1R8dC2Fu1ej" role="1TKVEi">
-      <property role="IQ2ns" value="2146025148702528403" />
-      <property role="20kJfa" value="entities" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+    <node concept="1TJgyj" id="1R8dC2FDVt0" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148705650496" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="collection" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
     <node concept="1TJgyi" id="1R8dC2F$OcF" role="1TKVEl">
       <property role="IQ2nx" value="2146025148704310059" />
       <property role="TrG5h" value="who" />
       <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1R8dC2FCe__">
+    <property role="EcuMT" value="2146025148705204581" />
+    <property role="TrG5h" value="Percentage" />
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyi" id="1R8dC2FCe_A" role="1TKVEl">
+      <property role="IQ2nx" value="2146025148705204582" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1R8dC2FFCN0">
+    <property role="EcuMT" value="2146025148706098368" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="TODO_EntityAccess" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="1R8dC2FFCN1" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148706098369" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     </node>
   </node>
 </model>
