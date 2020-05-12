@@ -127,6 +127,11 @@
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
+      <concept id="2146025148702527993" name="formalodd.structure.TODO_ForEach" flags="ng" index="2QG2tT">
+        <property id="2146025148704310059" name="who" index="2QmRmF" />
+        <reference id="2146025148702528403" name="entities" index="2QG2kj" />
+        <child id="2146025148702528398" name="activities" index="2QG2ke" />
+      </concept>
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
@@ -1761,16 +1766,24 @@
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>
-      <node concept="1Svl6F" id="4GwBkQLLcz" role="250j5S">
-        <ref role="1Svl6C" node="39v_dExukAZ" resolve="forced-interaction" />
-        <node concept="2g0R4C" id="1R8dC2FskDw" role="2QCFRE">
-          <property role="2g0R4D" value="5yfUVburW9E/me" />
+      <node concept="2QG2tT" id="1R8dC2F$ObN" role="250j5S">
+        <property role="2QmRmF" value="5yfUVburW9E/me" />
+        <ref role="2QG2kj" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="1Svl6F" id="1R8dC2F$ObX" role="2QG2ke">
+          <ref role="1Svl6C" node="39v_dExukAZ" resolve="forced-interaction" />
+          <node concept="2g0R4C" id="1R8dC2F$ObY" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9E/me" />
+          </node>
         </node>
       </node>
-      <node concept="1Svl6F" id="4GwBkQLLcK" role="250j5S">
-        <ref role="1Svl6C" node="4GwBkQLLdv" resolve="free-interaction" />
-        <node concept="2g0R4C" id="1R8dC2FskDD" role="2QCFRE">
-          <property role="2g0R4D" value="5yfUVburW9E/me" />
+      <node concept="2QG2tT" id="1R8dC2F$Ock" role="250j5S">
+        <property role="2QmRmF" value="5yfUVburW9E/me" />
+        <ref role="2QG2kj" node="4xlWY3qEPkZ" resolve="student" />
+        <node concept="1Svl6F" id="1R8dC2F$Ocx" role="2QG2ke">
+          <ref role="1Svl6C" node="4GwBkQLLdv" resolve="free-interaction" />
+          <node concept="2g0R4C" id="1R8dC2F$Ocy" role="2QCFRE">
+            <property role="2g0R4D" value="5yfUVburW9E/me" />
+          </node>
         </node>
       </node>
     </node>

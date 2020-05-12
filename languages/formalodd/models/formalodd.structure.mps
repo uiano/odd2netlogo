@@ -656,7 +656,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="schedule" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="1zaawdwHRIC" resolve="ActionCall" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKDb9m">
@@ -2400,6 +2400,30 @@
     </node>
     <node concept="PrWs8" id="1R8dC2Fa$w4" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1R8dC2Fu17T">
+    <property role="EcuMT" value="2146025148702527993" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <property role="TrG5h" value="TODO_ForEach" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
+    <node concept="1TJgyj" id="1R8dC2Fu1ee" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148702528398" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="activities" />
+      <property role="20lbJX" value="fLJekj6/_1__n" />
+      <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
+    </node>
+    <node concept="1TJgyj" id="1R8dC2Fu1ej" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148702528403" />
+      <property role="20kJfa" value="entities" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+    </node>
+    <node concept="1TJgyi" id="1R8dC2F$OcF" role="1TKVEl">
+      <property role="IQ2nx" value="2146025148704310059" />
+      <property role="TrG5h" value="who" />
+      <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
     </node>
   </node>
 </model>
