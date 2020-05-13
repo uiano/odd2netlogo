@@ -100,8 +100,7 @@
       <property role="IQ2ns" value="1952338154144031538" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="designConcepts" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="ALSMvQyfai" resolve="DesignConcepts" />
     </node>
     <node concept="1TJgyj" id="7y2oNvokSC" role="1TKVEi">
       <property role="IQ2ns" value="135681439422303784" />
@@ -1974,7 +1973,7 @@
   </node>
   <node concept="1TIwiD" id="294onrmenaI">
     <property role="EcuMT" value="2469205658733998766" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <property role="TrG5h" value="TODO_Rationale" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="294onrmenaL" role="1TKVEl">
@@ -2029,7 +2028,7 @@
   </node>
   <node concept="25R3W" id="294onrmenaO">
     <property role="3F6X1D" value="2469205658733998772" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <property role="TrG5h" value="Rationalelist" />
     <node concept="25R33" id="294onrmenaP" role="25R1y">
       <property role="3tVfz5" value="2469205658733998773" />
@@ -2529,6 +2528,7 @@
   <node concept="1TIwiD" id="ALSMvQyfak">
     <property role="EcuMT" value="698589177998537364" />
     <property role="TrG5h" value="BasicPrinciples" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfat" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537373" />
@@ -2552,6 +2552,7 @@
   <node concept="1TIwiD" id="ALSMvQyfal">
     <property role="EcuMT" value="698589177998537365" />
     <property role="TrG5h" value="Emergence" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfaz" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537379" />
@@ -2563,6 +2564,7 @@
   <node concept="1TIwiD" id="ALSMvQyfam">
     <property role="EcuMT" value="698589177998537366" />
     <property role="TrG5h" value="Adaptation" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfa_" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537381" />
@@ -2574,6 +2576,7 @@
   <node concept="1TIwiD" id="ALSMvQyfan">
     <property role="EcuMT" value="698589177998537367" />
     <property role="TrG5h" value="Objectives" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfaB" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537383" />
@@ -2585,6 +2588,7 @@
   <node concept="1TIwiD" id="ALSMvQyfao">
     <property role="EcuMT" value="698589177998537368" />
     <property role="TrG5h" value="Learning" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfaE" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537386" />
@@ -2596,6 +2600,7 @@
   <node concept="1TIwiD" id="ALSMvQyfap">
     <property role="EcuMT" value="698589177998537369" />
     <property role="TrG5h" value="Sensing" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfax" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537377" />
@@ -2607,6 +2612,7 @@
   <node concept="1TIwiD" id="ALSMvQyfar">
     <property role="EcuMT" value="698589177998537371" />
     <property role="TrG5h" value="Stochasticity" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfaJ" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537391" />
@@ -2618,6 +2624,7 @@
   <node concept="1TIwiD" id="ALSMvQyfas">
     <property role="EcuMT" value="698589177998537372" />
     <property role="TrG5h" value="Collectives" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfaK" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537392" />
@@ -2629,6 +2636,7 @@
   <node concept="1TIwiD" id="ALSMvQyfaF">
     <property role="EcuMT" value="698589177998537387" />
     <property role="TrG5h" value="Prediction" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="ALSMvQyfaG" role="1TKVEi">
       <property role="IQ2ns" value="698589177998537388" />

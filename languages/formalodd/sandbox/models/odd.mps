@@ -186,6 +186,7 @@
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
+        <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="6620640720694329222" name="purposeTOBEREMOVED" index="XAo8I" />
@@ -247,6 +248,7 @@
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
         <child id="2146025148701641578" name="actuals" index="2QCFRE" />
       </concept>
+      <concept id="698589177998537362" name="formalodd.structure.DesignConcepts" flags="ng" index="3Zeh6P" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1838,6 +1840,7 @@
         <property role="XAmFg" value="is it possible for bullying to emerge from an ethically acceptable action such as choosing an interaction partner?" />
       </node>
     </node>
+    <node concept="3Zeh6P" id="1R8dC2FVTzf" role="kaBC7" />
   </node>
 </model>
 

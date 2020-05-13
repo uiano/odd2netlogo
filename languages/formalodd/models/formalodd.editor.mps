@@ -392,16 +392,8 @@
           <property role="3F0ifm" value="Design concepts" />
           <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
         </node>
-        <node concept="3F2HdR" id="7y2oNvt$1m" role="3EZMnx">
+        <node concept="3F1sOY" id="1R8dC2FSdOK" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:1Go6jkfcAcM" resolve="designConcepts" />
-          <node concept="2iRkQZ" id="7y2oNvt$1n" role="2czzBx" />
-          <node concept="3F0ifn" id="7y2oNvt$1o" role="2czzBI">
-            <property role="3F0ifm" value="&lt;press enter and write about the design concepts of the model. press enter to get new line&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-          </node>
-          <node concept="VPXOz" id="7y2oNvt$1q" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
         </node>
         <node concept="3F0ifn" id="7y2oNvtzZB" role="3EZMnx">
           <property role="3F0ifm" value="Details: Initialization" />
@@ -4117,7 +4109,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="6p7Q678EjJS">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1XX52x" to="86kt:294onrmenaI" resolve="TODO_Rationale" />
     <node concept="3EZMnI" id="6p7Q678RhLo" role="2wV5jI">
       <node concept="3F0ifn" id="6p7Q6794BXD" role="3EZMnx">

@@ -4,6 +4,7 @@ TODO list for development of ODD2Netlogo
 - characterization
 - sensing
 - randomness
+- remove spatial comments "anywhere" and "same spot"
 - correct indents for everything within Actions and procedures
 - do only one direction is evaluate-interaction and in learn-about
 - MARG: number ranges as types - no need to adjust the inc and dec
