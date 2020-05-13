@@ -221,6 +221,12 @@
       <property role="20kJfa" value="shape" />
       <ref role="20lvS9" node="3lcKR8aBGlP" resolve="Shape" />
     </node>
+    <node concept="1TJgyj" id="ALSMvQyfag" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537360" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationale" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
     <node concept="PrWs8" id="3kYfzLXhXMP" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -620,6 +626,12 @@
       <property role="20kJfa" value="actions" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfau" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537374" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationale" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
     </node>
     <node concept="PrWs8" id="3kYfzLXo$cV" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
@@ -2385,6 +2397,12 @@
     <property role="TrG5h" value="UserDefinedAttribute" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfah" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537361" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="Rationale" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
     <node concept="PrWs8" id="1R8dC2EXndu" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -2447,6 +2465,176 @@
       <property role="20kJfa" value="entity" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfai">
+    <property role="EcuMT" value="698589177998537362" />
+    <property role="TrG5h" value="DesignConcepts" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaj" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537363" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="basicPrinciples" />
+      <ref role="20lvS9" node="ALSMvQyfak" resolve="BasicPrinciples" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfay" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537378" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="sensing" />
+      <ref role="20lvS9" node="ALSMvQyfap" resolve="Sensing" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfa$" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537380" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="emergence" />
+      <ref role="20lvS9" node="ALSMvQyfal" resolve="Emergence" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaA" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537382" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="adaptation" />
+      <ref role="20lvS9" node="ALSMvQyfam" resolve="Adaptation" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaC" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537384" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="objectives" />
+      <ref role="20lvS9" node="ALSMvQyfan" resolve="Objectives" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaD" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537385" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="learning" />
+      <ref role="20lvS9" node="ALSMvQyfao" resolve="Learning" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaH" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537389" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="prediction" />
+      <ref role="20lvS9" node="ALSMvQyfaF" resolve="Prediction" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaI" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537390" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="stochasticity" />
+      <ref role="20lvS9" node="ALSMvQyfar" resolve="Stochasticity" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaL" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537393" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="collectives" />
+      <ref role="20lvS9" node="ALSMvQyfas" resolve="Collectives" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfak">
+    <property role="EcuMT" value="698589177998537364" />
+    <property role="TrG5h" value="BasicPrinciples" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfat" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537373" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForScales" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfav" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537375" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForSchedulingAndProcedures" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+    <node concept="1TJgyj" id="ALSMvQyfaw" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537376" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForInitialization" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfal">
+    <property role="EcuMT" value="698589177998537365" />
+    <property role="TrG5h" value="Emergence" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaz" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537379" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForEmergence" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfam">
+    <property role="EcuMT" value="698589177998537366" />
+    <property role="TrG5h" value="Adaptation" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfa_" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537381" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForAdaptation" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfan">
+    <property role="EcuMT" value="698589177998537367" />
+    <property role="TrG5h" value="Objectives" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaB" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537383" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForObjective" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfao">
+    <property role="EcuMT" value="698589177998537368" />
+    <property role="TrG5h" value="Learning" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaE" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537386" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForLearning" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfap">
+    <property role="EcuMT" value="698589177998537369" />
+    <property role="TrG5h" value="Sensing" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfax" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537377" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForSensing" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfar">
+    <property role="EcuMT" value="698589177998537371" />
+    <property role="TrG5h" value="Stochasticity" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaJ" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537391" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForStochasticity" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfas">
+    <property role="EcuMT" value="698589177998537372" />
+    <property role="TrG5h" value="Collectives" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaK" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537392" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForCollectiveds" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="ALSMvQyfaF">
+    <property role="EcuMT" value="698589177998537387" />
+    <property role="TrG5h" value="Prediction" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="ALSMvQyfaG" role="1TKVEi">
+      <property role="IQ2ns" value="698589177998537388" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="rationaleForPrediction" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
     </node>
   </node>
 </model>
