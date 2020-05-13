@@ -83,6 +83,7 @@
         <child id="3629783491419484644" name="type" index="2jZikY" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
+        <child id="8985793055732069090" name="experiments" index="2kDK7e" />
         <child id="8985793055732069087" name="world" index="2kDK7N" />
       </concept>
       <concept id="7308686357753541206" name="formalodd.structure.QuantifiedCondition" flags="ng" index="2lMhBi">
@@ -166,7 +167,7 @@
         <property id="6101366197163833923" name="where" index="2eaH9T" />
         <child id="2387540760901213588" name="countCondition" index="XqA8S" />
       </concept>
-      <concept id="6620640720694302583" name="formalodd.structure.InformalConcept" flags="ng" index="XAmFv">
+      <concept id="6620640720694302583" name="formalodd.structure.InformalText" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
       <concept id="2387540760905107680" name="formalodd.structure.TODO_ConditionWithSame" flags="ng" index="XCvtc" />
@@ -223,6 +224,11 @@
         <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
+      </concept>
+      <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
+        <property id="8413181653841938141" name="repetitions" index="3gParY" />
+        <child id="2146025148712410535" name="experimentValues" index="2LLIGB" />
+        <child id="8413181653841938167" name="simulationEnd" index="3gPark" />
       </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
@@ -1356,6 +1362,82 @@
       </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
+      <node concept="3gPary" id="1R8dC2G5svz" role="2kDK7e">
+        <property role="TrG5h" value="Experiment 1" />
+        <property role="3gParY" value="5" />
+        <node concept="8StVI" id="1R8dC2G5svF" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApC" resolve="max-judgement" />
+          <node concept="2oK_Am" id="1R8dC2G5svJ" role="2rWCss">
+            <property role="2oK_Ap" value="0.25" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5svM" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApv" resolve="average-characteristic" />
+          <node concept="2oK_Am" id="1R8dC2G5svN" role="2rWCss">
+            <property role="2oK_Ap" value="0.5" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5svS" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+          <node concept="2oK_Am" id="1R8dC2G5svT" role="2rWCss">
+            <property role="2oK_Ap" value="0.2" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5sw0" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCAp_" resolve="attitude" />
+          <node concept="2oK_Am" id="1R8dC2G5sw1" role="2rWCss">
+            <property role="2oK_Ap" value="0.5" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5swa" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApC" resolve="max-judgement" />
+          <node concept="2oK_Am" id="1R8dC2G5swb" role="2rWCss">
+            <property role="2oK_Ap" value="0.25" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5swm" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApp" resolve="num-internal-characteristics" />
+          <node concept="2oK_Am" id="1R8dC2G5swn" role="2rWCss">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5sw$" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCAps" resolve="num-external-characteristics" />
+          <node concept="2oK_Am" id="1R8dC2G5sw_" role="2rWCss">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5swO" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApI" resolve="attraction-change" />
+          <node concept="2oK_Am" id="1R8dC2G5swP" role="2rWCss">
+            <property role="2oK_Ap" value="0.02" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5sxI" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
+          <node concept="2oK_Am" id="1R8dC2G5sxJ" role="2rWCss">
+            <property role="2oK_Ap" value="1" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5sy2" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+          <node concept="2oK_Am" id="1R8dC2G5sy3" role="2rWCss">
+            <property role="2oK_Ap" value="0.5" />
+          </node>
+        </node>
+        <node concept="8StVI" id="1R8dC2G5syo" role="2LLIGB">
+          <ref role="2rWCsu" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+          <node concept="2oK_Am" id="1R8dC2G5syp" role="2rWCss">
+            <property role="2oK_Ap" value="0.5" />
+          </node>
+        </node>
+        <node concept="2RyPVc" id="1R8dC2G5svB" role="3gPark">
+          <property role="2RyPVf" value="24yfUKsyf$I/eq" />
+          <node concept="2oK_Am" id="1R8dC2G5svD" role="2RyPTq">
+            <property role="2oK_Ap" value="100" />
+          </node>
+        </node>
+      </node>
       <node concept="1g3uKF" id="7MNWMNCfI3g" role="2kDK7N">
         <property role="1jzKJm" value="100" />
         <property role="1jzt_n" value="2" />

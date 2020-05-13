@@ -73,7 +73,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="purposeTOBEREMOVED" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRNW" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783228" />
@@ -107,14 +107,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="input" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7y2oNvokSJ" role="1TKVEi">
       <property role="IQ2ns" value="135681439422303791" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="submodels" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7MNWMNC5fbA" role="1TKVEi">
       <property role="IQ2ns" value="8985793055732069094" />
@@ -518,7 +518,7 @@
   </node>
   <node concept="1TIwiD" id="5JxfqxAu5tR">
     <property role="EcuMT" value="6620640720694302583" />
-    <property role="TrG5h" value="InformalConcept" />
+    <property role="TrG5h" value="InformalText" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5JxfqxAu5tS" role="1TKVEl">
       <property role="IQ2nx" value="6620640720694302584" />
@@ -1373,7 +1373,7 @@
       <property role="IQ2ns" value="8985793055732069085" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dataCollection" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7MNWMNC5fbv" role="1TKVEi">
       <property role="IQ2ns" value="8985793055732069087" />
@@ -1386,7 +1386,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="experiments" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="7j1C2e$5gr1" resolve="ExperimentDefinition" />
     </node>
   </node>
   <node concept="25R3W" id="5yfUVburW9D">
@@ -1795,8 +1795,8 @@
     <node concept="1TJgyj" id="7j1C2e$5gsw" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938208" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="samplinMmethod" />
-      <ref role="20lvS9" node="7j1C2e$5gsb" resolve="Samplingmethod" />
+      <property role="20kJfa" value="samplingMethod" />
+      <ref role="20lvS9" node="7j1C2e$5gsb" resolve="SamplingMethod" />
     </node>
   </node>
   <node concept="1TIwiD" id="294onrmen8E">
@@ -1814,21 +1814,21 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="researchQuestion" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRKU" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783034" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="targetGroup" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRL0" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783040" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="purposeDescription" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5grm">
@@ -1865,19 +1865,30 @@
       <property role="IQ2ns" value="8413181653841938147" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="rationale" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5grR" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938167" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="simulationLength" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+      <property role="20kJfa" value="simulationEnd" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="1R8dC2EgQxb" resolve="EndCondition" />
+    </node>
+    <node concept="1TJgyj" id="1R8dC2G3HQB" role="1TKVEi">
+      <property role="IQ2ns" value="2146025148712410535" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="experimentValues" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="SetAttribute" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5grV" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938171" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sensitivityAnalysis" />
       <ref role="20lvS9" node="7j1C2e$5grZ" resolve="SensitivityAnalysis" />
+    </node>
+    <node concept="PrWs8" id="1R8dC2FZk_2" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
   <node concept="25R3W" id="294onrmen8K">
@@ -1962,13 +1973,13 @@
       <property role="IQ2ns" value="8277873572982783047" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="characterizationBeforeValue" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
     <node concept="1TJgyj" id="7bwUywleRLa" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783050" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="characterizationAfterValue" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
   </node>
   <node concept="1TIwiD" id="294onrmenaI">
@@ -1986,7 +1997,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="sentence" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalConcept" />
+      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gpp">
@@ -2055,7 +2066,7 @@
     <property role="EcuMT" value="8413181653841938188" />
     <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="TODO_Range" />
-    <ref role="1TJDcQ" node="7j1C2e$5gsb" resolve="Samplingmethod" />
+    <ref role="1TJDcQ" node="7j1C2e$5gsb" resolve="SamplingMethod" />
     <node concept="1TJgyi" id="7j1C2e$5gsd" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938189" />
       <property role="TrG5h" value="lowerBound" />
@@ -2075,7 +2086,7 @@
   <node concept="1TIwiD" id="7j1C2e$5gsb">
     <property role="EcuMT" value="8413181653841938187" />
     <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Samplingmethod" />
+    <property role="TrG5h" value="SamplingMethod" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4GwBkR7Q83">
