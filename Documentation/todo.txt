@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- experiments
 - data collection
 - characterization
 - sensing
@@ -41,8 +40,9 @@ TODO for Martin
 3. differentiate between user input text and template text (font, colour, ...)
 4. make boxes around the proper syntactic entities (actions, interactions)
 5. make adding of interactions possible in UI
+- experiments editor
 - fix editors (references)
-- proper indent in editor
+- proper indent in editor (see condionalAction)
 - use base styles consistently in editor
 - copy documentation 2019 and earlier into git: papers, reports 445, ...
 - good editor for optional parts: boolean attributes - should have a text for present and another text for not present
