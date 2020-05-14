@@ -185,6 +185,7 @@
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
+        <child id="2469205658733998786" name="rationale" index="3OvheO" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
@@ -235,7 +236,6 @@
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
         <child id="3629783491437474275" name="userDefinedAttributes" index="2gUEkT" />
-        <child id="2469205658733998796" name="rationale" index="3OvheU" />
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
         <child id="6465847136229864916" name="size" index="BjBxy" />
@@ -1352,11 +1352,11 @@
             </node>
           </node>
           <node concept="1dm0fp" id="3M5MOtLUknb" role="2oy9Oj" />
-        </node>
-        <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheU">
-          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="1R8dC2EI4ci" role="2IGf3i">
-            <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
+          <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheO">
+            <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+            <node concept="XAmFv" id="1R8dC2EI4ci" role="2IGf3i">
+              <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
+            </node>
           </node>
         </node>
       </node>
