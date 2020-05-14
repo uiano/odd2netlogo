@@ -396,7 +396,7 @@
           <ref role="1NtTu8" to="86kt:1Go6jkfcAcM" resolve="designConcepts" />
         </node>
         <node concept="3F0ifn" id="7y2oNvtzZB" role="3EZMnx">
-          <property role="3F0ifm" value="Details: Initialization" />
+          <property role="3F0ifm" value="Details: Initialization AKA Manual Experiments" />
           <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
         </node>
         <node concept="PMmxH" id="5DmxhgogvoG" role="3EZMnx">
@@ -4336,165 +4336,100 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="1R8dC2G3HQO">
+  <node concept="24kQdi" id="52HbUMTy9GN">
     <property role="3GE5qa" value="TODO_Experiments" />
-    <ref role="1XX52x" to="86kt:7j1C2e$5gr1" resolve="ExperimentDefinition" />
-    <node concept="3EZMnI" id="1R8dC2G3HQQ" role="2wV5jI">
-      <node concept="l2Vlx" id="1R8dC2G3HQR" role="2iSdaV" />
-      <node concept="3F0ifn" id="1R8dC2G3HQS" role="3EZMnx">
-        <property role="3F0ifm" value="experiment definition" />
+    <ref role="1XX52x" to="86kt:52HbUMTwHlW" resolve="FixedValue" />
+    <node concept="3EZMnI" id="52HbUMTy9GP" role="2wV5jI">
+      <node concept="3F0ifn" id="52HbUMTy9HQ" role="3EZMnx">
+        <property role="3F0ifm" value="fixed value" />
+        <node concept="Vb9p2" id="52HbUMTy9HR" role="3F10Kt" />
       </node>
-      <node concept="3F0A7n" id="1R8dC2G3HQT" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="3F1sOY" id="52HbUMTy9HS" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:52HbUMTwHlX" resolve="value" />
       </node>
-      <node concept="3F0ifn" id="1R8dC2G3HQU" role="3EZMnx">
-        <property role="3F0ifm" value="{" />
-        <node concept="3mYdg7" id="1R8dC2G3HQV" role="3F10Kt">
-          <property role="1413C4" value="body-brace" />
-        </node>
-        <node concept="ljvvj" id="1R8dC2G3HQW" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
+      <node concept="2iRfu4" id="52HbUMTy9HT" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="52HbUMTyakb">
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <ref role="1XX52x" to="86kt:52HbUMTyajP" resolve="AttributeSampling" />
+    <node concept="3EZMnI" id="52HbUMTyakd" role="2wV5jI">
+      <node concept="3F0ifn" id="52HbUMTyake" role="3EZMnx">
+        <property role="3F0ifm" value="The attribute" />
+        <node concept="Vb9p2" id="52HbUMTyakf" role="3F10Kt" />
       </node>
-      <node concept="3EZMnI" id="1R8dC2G3HQX" role="3EZMnx">
-        <node concept="l2Vlx" id="1R8dC2G3HQY" role="2iSdaV" />
-        <node concept="lj46D" id="1R8dC2G3HQZ" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HR0" role="3EZMnx">
-          <property role="3F0ifm" value="repetitions" />
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HR1" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="1R8dC2G3HR2" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0A7n" id="1R8dC2G3HR3" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grt" resolve="repetitions" />
-          <node concept="ljvvj" id="1R8dC2G3HR4" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HR5" role="3EZMnx">
-          <node concept="ljvvj" id="1R8dC2G3HR6" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HR7" role="3EZMnx">
-          <property role="3F0ifm" value="rationale" />
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HR8" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="1R8dC2G3HR9" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRa" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="1R8dC2G3HRb" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grz" resolve="rationale" />
-          <node concept="lj46D" id="1R8dC2G3HRc" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRd" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRe" role="3EZMnx">
-          <node concept="ljvvj" id="1R8dC2G3HRf" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRg" role="3EZMnx">
-          <property role="3F0ifm" value="simulation end" />
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRh" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="1R8dC2G3HRi" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRj" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F2HdR" id="1R8dC2G3HRk" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grR" resolve="simulationEnd" />
-          <node concept="l2Vlx" id="1R8dC2G3HRl" role="2czzBx" />
-          <node concept="pj6Ft" id="1R8dC2G3HRm" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="1R8dC2G3HRn" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRo" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRp" role="3EZMnx">
-          <node concept="ljvvj" id="1R8dC2G3HRq" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRr" role="3EZMnx">
-          <property role="3F0ifm" value="experiment values" />
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRs" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="1R8dC2G3HRt" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRu" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F2HdR" id="1R8dC2G3HRv" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:1R8dC2G3HQB" resolve="experimentValues" />
-          <node concept="l2Vlx" id="1R8dC2G3HRw" role="2czzBx" />
-          <node concept="pj6Ft" id="1R8dC2G3HRx" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="lj46D" id="1R8dC2G3HRy" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRz" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HR$" role="3EZMnx">
-          <node concept="ljvvj" id="1R8dC2G3HR_" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRA" role="3EZMnx">
-          <property role="3F0ifm" value="sensitivity analysis" />
-        </node>
-        <node concept="3F0ifn" id="1R8dC2G3HRB" role="3EZMnx">
-          <property role="3F0ifm" value=":" />
-          <node concept="11L4FC" id="1R8dC2G3HRC" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRD" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="1R8dC2G3HRE" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grV" resolve="sensitivityAnalysis" />
-          <node concept="lj46D" id="1R8dC2G3HRF" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="1R8dC2G3HRG" role="3F10Kt">
-            <property role="VOm3f" value="true" />
+      <node concept="1iCGBv" id="52HbUMTyakg" role="3EZMnx">
+        <property role="1$x2rV" value="press control space to select attribute" />
+        <ref role="1NtTu8" to="86kt:52HbUMTyajQ" resolve="attribute" />
+        <node concept="1sVBvm" id="52HbUMTyakh" role="1sWHZn">
+          <node concept="3F0A7n" id="52HbUMTyaki" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>
-      <node concept="3F0ifn" id="1R8dC2G3HRH" role="3EZMnx">
-        <property role="3F0ifm" value="}" />
-        <node concept="3mYdg7" id="1R8dC2G3HRI" role="3F10Kt">
-          <property role="1413C4" value="body-brace" />
+      <node concept="3F0ifn" id="52HbUMTC1Wf" role="3EZMnx">
+        <property role="3F0ifm" value="is sampled with" />
+        <node concept="Vb9p2" id="52HbUMTC1Wg" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="52HbUMTC1Wh" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:52HbUMTC1Wd" resolve="method" />
+      </node>
+      <node concept="2iRfu4" id="52HbUMTyakm" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="52HbUMTyakM">
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <ref role="1XX52x" to="86kt:7j1C2e$5gsc" resolve="TODO_Range" />
+    <node concept="3EZMnI" id="52HbUMTyakO" role="2wV5jI">
+      <node concept="3F0ifn" id="52HbUMTyakP" role="3EZMnx">
+        <property role="3F0ifm" value="all numbers from" />
+        <node concept="Vb9p2" id="52HbUMTyakQ" role="3F10Kt" />
+      </node>
+      <node concept="2iRfu4" id="52HbUMTyakS" role="2iSdaV" />
+      <node concept="3F0A7n" id="52HbUMTyali" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7j1C2e$5gsd" resolve="lowerBound" />
+      </node>
+      <node concept="3F0ifn" id="52HbUMTyals" role="3EZMnx">
+        <property role="3F0ifm" value="to" />
+      </node>
+      <node concept="3F0A7n" id="52HbUMTyalC" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7j1C2e$5gsf" resolve="upperBound" />
+      </node>
+      <node concept="3F0ifn" id="52HbUMTyalQ" role="3EZMnx">
+        <property role="3F0ifm" value="with increment" />
+      </node>
+      <node concept="3F0A7n" id="52HbUMTyam6" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7j1C2e$5gsi" resolve="increment" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="52HbUMTEY72">
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <ref role="1XX52x" to="86kt:52HbUMTEY6S" resolve="EntitySampling" />
+    <node concept="3EZMnI" id="52HbUMTEY74" role="2wV5jI">
+      <node concept="3F0ifn" id="52HbUMTEY75" role="3EZMnx">
+        <property role="3F0ifm" value="The number of" />
+        <node concept="Vb9p2" id="52HbUMTEY76" role="3F10Kt" />
+      </node>
+      <node concept="1iCGBv" id="52HbUMTEY77" role="3EZMnx">
+        <property role="1$x2rV" value="press control space to select attribute" />
+        <ref role="1NtTu8" to="86kt:52HbUMTEY6T" resolve="entity" />
+        <node concept="1sVBvm" id="52HbUMTEY78" role="1sWHZn">
+          <node concept="3F0A7n" id="52HbUMTEY79" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
         </node>
       </node>
+      <node concept="3F0ifn" id="52HbUMTEY7a" role="3EZMnx">
+        <property role="3F0ifm" value="is sampled with" />
+        <node concept="Vb9p2" id="52HbUMTEY7b" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="52HbUMTEY7c" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:52HbUMTC1Wd" resolve="method" />
+      </node>
+      <node concept="2iRfu4" id="52HbUMTEY7d" role="2iSdaV" />
     </node>
   </node>
 </model>

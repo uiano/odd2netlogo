@@ -1600,7 +1600,6 @@
     <property role="EcuMT" value="3840659476812055891" />
     <property role="TrG5h" value="AttributeStatistics" />
     <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5yfUVbwhkGE" role="1TKVEi">
       <property role="IQ2ns" value="6381578350506625834" />
@@ -1775,18 +1774,6 @@
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7j1C2e$5grZ">
-    <property role="EcuMT" value="8413181653841938175" />
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="SensitivityAnalysis" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7j1C2e$5gsw" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938208" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="samplingMethod" />
-      <ref role="20lvS9" node="7j1C2e$5gsb" resolve="SamplingMethod" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="294onrmen8E">
     <property role="EcuMT" value="2469205658733998634" />
     <property role="TrG5h" value="Purpose" />
@@ -1819,26 +1806,6 @@
       <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
     </node>
   </node>
-  <node concept="1TIwiD" id="7j1C2e$5grm">
-    <property role="EcuMT" value="8413181653841938134" />
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Parameters" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7j1C2e$5gs2" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938178" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="experimentParameterDefintion" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="7j1C2e$5gs4" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938180" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="sensitivityAnalysisDefinition" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7j1C2e$5grZ" resolve="SensitivityAnalysis" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="7j1C2e$5gr1">
     <property role="EcuMT" value="8413181653841938113" />
     <property role="3GE5qa" value="TODO_Experiments" />
@@ -1862,18 +1829,12 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="1R8dC2EgQxb" resolve="EndCondition" />
     </node>
-    <node concept="1TJgyj" id="1R8dC2G3HQB" role="1TKVEi">
-      <property role="IQ2ns" value="2146025148712410535" />
+    <node concept="1TJgyj" id="52HbUMTy9v9" role="1TKVEi">
+      <property role="IQ2ns" value="5813355112898795465" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="experimentValues" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5zjJPlgcA6V" resolve="SetAttribute" />
-    </node>
-    <node concept="1TJgyj" id="7j1C2e$5grV" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938171" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="sensitivityAnalysis" />
-      <ref role="20lvS9" node="7j1C2e$5grZ" resolve="SensitivityAnalysis" />
+      <ref role="20lvS9" node="52HbUMTA$0S" resolve="Sampling" />
     </node>
     <node concept="PrWs8" id="1R8dC2FZk_2" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -1917,29 +1878,6 @@
       <property role="3tVfz5" value="7969186003409409175" />
       <property role="TrG5h" value="Social_Learning" />
       <property role="1L1pqM" value="Social Learning: When it encapsulates a shared understanding (or set of understandings) of a group of people." />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="7j1C2e$5gra">
-    <property role="EcuMT" value="8413181653841938122" />
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Experimentdesign" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="7j1C2e$5grp" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938137" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Experimentdefinition" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="7j1C2e$5gr1" resolve="ExperimentDefinition" />
-    </node>
-    <node concept="1TJgyj" id="7j1C2e$5gsp" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938201" />
-      <property role="20kJfa" value="modelparameters" />
-      <ref role="20lvS9" node="7j1C2e$5grm" resolve="Parameters" />
-    </node>
-    <node concept="1TJgyj" id="7j1C2e$5gss" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938204" />
-      <property role="20kJfa" value="experimentparameters" />
-      <ref role="20lvS9" node="7j1C2e$5grm" resolve="Parameters" />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gqI">
@@ -1991,11 +1929,11 @@
   <node concept="1TIwiD" id="7j1C2e$5gpp">
     <property role="EcuMT" value="8413181653841938009" />
     <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Datacollection" />
+    <property role="TrG5h" value="DataCollection" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7j1C2e$5gpq" role="1TKVEl">
       <property role="IQ2nx" value="8413181653841938010" />
-      <property role="TrG5h" value="datacollectionpoint" />
+      <property role="TrG5h" value="dataCollectionPoint" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gpu" role="1TKVEi">
@@ -2003,7 +1941,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="syntheticAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="422sZWpxn8v" resolve="Syntheticattribute" />
+      <ref role="20lvS9" node="422sZWpxn8v" resolve="TODO_SyntheticAttribute" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5gqE" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938090" />
@@ -2075,6 +2013,7 @@
     <property role="EcuMT" value="8413181653841938187" />
     <property role="3GE5qa" value="TODO_Experiments" />
     <property role="TrG5h" value="SamplingMethod" />
+    <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="4GwBkR7Q83">
@@ -2123,7 +2062,7 @@
   <node concept="1TIwiD" id="422sZWpxn8v">
     <property role="EcuMT" value="4648405304881803807" />
     <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="Syntheticattribute" />
+    <property role="TrG5h" value="TODO_SyntheticAttribute" />
     <ref role="1TJDcQ" node="3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
     <node concept="1TJgyj" id="422sZWpxn8w" role="1TKVEi">
       <property role="IQ2ns" value="4648405304881803808" />
@@ -2565,6 +2504,59 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="rationale" />
       <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52HbUMTwHlW">
+    <property role="EcuMT" value="5813355112898418044" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="FixedValue" />
+    <ref role="1TJDcQ" node="7j1C2e$5gsb" resolve="SamplingMethod" />
+    <node concept="1TJgyj" id="52HbUMTwHlX" role="1TKVEi">
+      <property role="IQ2ns" value="5813355112898418045" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52HbUMTyajP">
+    <property role="EcuMT" value="5813355112898798837" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="AttributeSampling" />
+    <property role="34LRSv" value="attribute sampling" />
+    <ref role="1TJDcQ" node="52HbUMTA$0S" resolve="Sampling" />
+    <node concept="1TJgyj" id="52HbUMTyajQ" role="1TKVEi">
+      <property role="IQ2ns" value="5813355112898798838" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="1R8dC2EXndt" resolve="UserDefinedAttribute" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52HbUMTA$0S">
+    <property role="EcuMT" value="5813355112899952696" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="Sampling" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="52HbUMTC1Wd" role="1TKVEi">
+      <property role="IQ2ns" value="5813355112900337421" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="method" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="7j1C2e$5gsb" resolve="SamplingMethod" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="52HbUMTEY6S">
+    <property role="EcuMT" value="5813355112901108152" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="EntitySampling" />
+    <property role="34LRSv" value="entity sampling" />
+    <ref role="1TJDcQ" node="52HbUMTA$0S" resolve="Sampling" />
+    <node concept="1TJgyj" id="52HbUMTEY6T" role="1TKVEi">
+      <property role="IQ2ns" value="5813355112901108153" />
+      <property role="20kJfa" value="entity" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
     </node>
   </node>
 </model>

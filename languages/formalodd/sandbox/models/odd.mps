@@ -228,14 +228,31 @@
       </concept>
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
         <property id="8413181653841938141" name="repetitions" index="3gParY" />
-        <child id="2146025148712410535" name="experimentValues" index="2LLIGB" />
         <child id="8413181653841938167" name="simulationEnd" index="3gPark" />
+        <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
+      </concept>
+      <concept id="8413181653841938188" name="formalodd.structure.TODO_Range" flags="ng" index="3gPasJ">
+        <property id="8413181653841938191" name="upperBound" index="3gPasG" />
+        <property id="8413181653841938189" name="lowerBound" index="3gPasI" />
+        <property id="8413181653841938194" name="increment" index="3gPasL" />
       </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
         <reference id="999929643171638826" name="to" index="1wg9ys" />
         <child id="3629783491437474275" name="userDefinedAttributes" index="2gUEkT" />
+      </concept>
+      <concept id="5813355112901108152" name="formalodd.structure.EntitySampling" flags="ng" index="3D1GSk">
+        <reference id="5813355112901108153" name="entity" index="3D1GSl" />
+      </concept>
+      <concept id="5813355112898798837" name="formalodd.structure.AttributeSampling" flags="ng" index="3D9oHp">
+        <reference id="5813355112898798838" name="attribute" index="3D9oHq" />
+      </concept>
+      <concept id="5813355112898418044" name="formalodd.structure.FixedValue" flags="ng" index="3DbZFg">
+        <child id="5813355112898418045" name="value" index="3DbZFh" />
+      </concept>
+      <concept id="5813355112899952696" name="formalodd.structure.Sampling" flags="ng" index="3DdQYk">
+        <child id="5813355112900337421" name="method" index="3D3j2x" />
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.TODO_Array" flags="ng" index="1JriGl">
         <child id="6465847136229864916" name="size" index="BjBxy" />
@@ -1365,70 +1382,60 @@
       <node concept="3gPary" id="1R8dC2G5svz" role="2kDK7e">
         <property role="TrG5h" value="Experiment 1" />
         <property role="3gParY" value="5" />
-        <node concept="8StVI" id="1R8dC2G5svF" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApC" resolve="max-judgement" />
-          <node concept="2oK_Am" id="1R8dC2G5svJ" role="2rWCss">
-            <property role="2oK_Ap" value="0.25" />
+        <node concept="3D1GSk" id="52HbUMTKRn$" role="3D9rx_">
+          <ref role="3D1GSl" node="4xlWY3qEPkZ" resolve="student" />
+          <node concept="3gPasJ" id="52HbUMTKRos" role="3D3j2x">
+            <property role="3gPasI" value="10" />
+            <property role="3gPasG" value="50" />
+            <property role="3gPasL" value="10" />
           </node>
         </node>
-        <node concept="8StVI" id="1R8dC2G5svM" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApv" resolve="average-characteristic" />
-          <node concept="2oK_Am" id="1R8dC2G5svN" role="2rWCss">
-            <property role="2oK_Ap" value="0.5" />
+        <node concept="3D9oHp" id="52HbUMT_7C9" role="3D9rx_">
+          <ref role="3D9oHq" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
+          <node concept="3DbZFg" id="52HbUMTDwfz" role="3D3j2x">
+            <node concept="2oK_Am" id="52HbUMTDwf$" role="3DbZFh">
+              <property role="2oK_Ap" value="1" />
+            </node>
           </node>
         </node>
-        <node concept="8StVI" id="1R8dC2G5svS" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
-          <node concept="2oK_Am" id="1R8dC2G5svT" role="2rWCss">
-            <property role="2oK_Ap" value="0.2" />
+        <node concept="3D9oHp" id="52HbUMT_7AS" role="3D9rx_">
+          <ref role="3D9oHq" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+          <node concept="3gPasJ" id="52HbUMTDwfD" role="3D3j2x">
+            <property role="3gPasI" value="0.1" />
+            <property role="3gPasG" value="0.5" />
+            <property role="3gPasL" value="0.1" />
           </node>
         </node>
-        <node concept="8StVI" id="1R8dC2G5sw0" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCAp_" resolve="attitude" />
-          <node concept="2oK_Am" id="1R8dC2G5sw1" role="2rWCss">
-            <property role="2oK_Ap" value="0.5" />
+        <node concept="3D9oHp" id="52HbUMT_7AZ" role="3D9rx_">
+          <ref role="3D9oHq" node="39v_dEyCApI" resolve="attraction-change" />
+          <node concept="3gPasJ" id="52HbUMT_7B5" role="3D3j2x">
+            <property role="3gPasI" value="0.02" />
+            <property role="3gPasG" value="0.1" />
+            <property role="3gPasL" value="0.02" />
           </node>
         </node>
-        <node concept="8StVI" id="1R8dC2G5swa" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApC" resolve="max-judgement" />
-          <node concept="2oK_Am" id="1R8dC2G5swb" role="2rWCss">
-            <property role="2oK_Ap" value="0.25" />
+        <node concept="3D9oHp" id="52HbUMT_7B8" role="3D9rx_">
+          <ref role="3D9oHq" node="39v_dEyCApC" resolve="max-judgement" />
+          <node concept="3gPasJ" id="52HbUMT_7Bg" role="3D3j2x">
+            <property role="3gPasI" value="0.1" />
+            <property role="3gPasG" value="0.5" />
+            <property role="3gPasL" value="0.1" />
           </node>
         </node>
-        <node concept="8StVI" id="1R8dC2G5swm" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApp" resolve="num-internal-characteristics" />
-          <node concept="2oK_Am" id="1R8dC2G5swn" role="2rWCss">
-            <property role="2oK_Ap" value="10" />
+        <node concept="3D9oHp" id="52HbUMT_7Bj" role="3D9rx_">
+          <ref role="3D9oHq" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+          <node concept="3gPasJ" id="52HbUMT_7Bt" role="3D3j2x">
+            <property role="3gPasI" value="0.5" />
+            <property role="3gPasG" value="1" />
+            <property role="3gPasL" value="0.5" />
           </node>
         </node>
-        <node concept="8StVI" id="1R8dC2G5sw$" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCAps" resolve="num-external-characteristics" />
-          <node concept="2oK_Am" id="1R8dC2G5sw_" role="2rWCss">
-            <property role="2oK_Ap" value="10" />
-          </node>
-        </node>
-        <node concept="8StVI" id="1R8dC2G5swO" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApI" resolve="attraction-change" />
-          <node concept="2oK_Am" id="1R8dC2G5swP" role="2rWCss">
-            <property role="2oK_Ap" value="0.02" />
-          </node>
-        </node>
-        <node concept="8StVI" id="1R8dC2G5sxI" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
-          <node concept="2oK_Am" id="1R8dC2G5sxJ" role="2rWCss">
-            <property role="2oK_Ap" value="1" />
-          </node>
-        </node>
-        <node concept="8StVI" id="1R8dC2G5sy2" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
-          <node concept="2oK_Am" id="1R8dC2G5sy3" role="2rWCss">
-            <property role="2oK_Ap" value="0.5" />
-          </node>
-        </node>
-        <node concept="8StVI" id="1R8dC2G5syo" role="2LLIGB">
-          <ref role="2rWCsu" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
-          <node concept="2oK_Am" id="1R8dC2G5syp" role="2rWCss">
-            <property role="2oK_Ap" value="0.5" />
+        <node concept="3D9oHp" id="52HbUMT_7Bw" role="3D9rx_">
+          <ref role="3D9oHq" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+          <node concept="3DbZFg" id="52HbUMT_7BG" role="3D3j2x">
+            <node concept="26lliW" id="52HbUMT_7BM" role="3DbZFh">
+              <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+            </node>
           </node>
         </node>
         <node concept="2RyPVc" id="1R8dC2G5svB" role="3gPark">
