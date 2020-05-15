@@ -248,6 +248,9 @@
         <property id="8413181653841938189" name="lowerBound" index="3gPasI" />
         <property id="8413181653841938194" name="increment" index="3gPasL" />
       </concept>
+      <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
+        <child id="5813355112896542813" name="rationale" index="3DMLvL" />
+      </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
         <reference id="999929643176198877" name="from" index="1w1JhF" />
@@ -1352,6 +1355,18 @@
         </node>
         <node concept="ZOwrR" id="22rmwLHGYvd" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
+        </node>
+        <node concept="3Ovhfo" id="7gxBiws4JVF" role="3DMLvL">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="7gxBiws4JVS" role="2IGf3i">
+            <property role="XAmFg" value="We chose to include only students because we are interested in the marginalization" />
+          </node>
+          <node concept="XAmFv" id="7gxBiws4JVJ" role="2IGf3i">
+            <property role="XAmFg" value="that emerges from the interactions among students and not as a result of student -teachers" />
+          </node>
+          <node concept="XAmFv" id="7gxBiws4JWc" role="2IGf3i">
+            <property role="XAmFg" value="relationships for example." />
+          </node>
         </node>
       </node>
       <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
