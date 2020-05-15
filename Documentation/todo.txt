@@ -1,6 +1,4 @@
 TODO list for development of ODD2Netlogo
-- data collection
-- characterization
 - sensing
 - randomness
 - remove spatial comments "anywhere" and "same spot"

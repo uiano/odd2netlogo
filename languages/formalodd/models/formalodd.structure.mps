@@ -2017,18 +2017,6 @@
     <property role="TrG5h" value="Empty" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
   </node>
-  <node concept="1TIwiD" id="422sZWpxn8v">
-    <property role="EcuMT" value="4648405304881803807" />
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <property role="TrG5h" value="TODO_SyntheticAttribute" />
-    <ref role="1TJDcQ" node="3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
-    <node concept="1TJgyj" id="422sZWpxn8w" role="1TKVEi">
-      <property role="IQ2ns" value="4648405304881803808" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="definition" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="39v_dExxh0x">
     <property role="EcuMT" value="3629783491417542689" />
     <property role="TrG5h" value="RandomUniform" />
