@@ -175,6 +175,11 @@
         <property id="6381578350498456053" name="size" index="27hOD7" />
         <property id="6381578350498455269" name="shape" index="27hRln" />
       </concept>
+      <concept id="3840659476812055891" name="formalodd.structure.DataStatistics" flags="ng" index="ZOwox">
+        <property id="6381578350506769577" name="kind" index="2SM9sr" />
+        <reference id="6381578350506625834" name="data" index="2SME2o" />
+        <child id="5813355112906306081" name="dependence" index="3DlxQd" />
+      </concept>
       <concept id="3840659476812055879" name="formalodd.structure.RandomNormal" flags="ng" index="ZOwoP">
         <child id="84585932954070081" name="mean" index="R_6SO" />
         <child id="84585932954070083" name="stdev" index="R_6SQ" />
@@ -226,10 +231,17 @@
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
+      <concept id="8413181653841938009" name="formalodd.structure.DataCollection" flags="ng" index="3gPapU">
+        <property id="5813355112904206453" name="timesteps" index="3Dtwvp" />
+        <child id="8413181653841938014" name="syntheticAttributes" index="3gPapX" />
+        <child id="8413181653841938108" name="statistics" index="3gPaqv" />
+      </concept>
+      <concept id="8413181653841938094" name="formalodd.structure.Characterization" flags="ng" index="3gPaqd" />
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
         <property id="8413181653841938141" name="repetitions" index="3gParY" />
         <child id="8413181653841938167" name="simulationEnd" index="3gPark" />
         <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
+        <child id="5813355112903429099" name="dataCollection" index="3DoAh7" />
       </concept>
       <concept id="8413181653841938188" name="formalodd.structure.TODO_Range" flags="ng" index="3gPasJ">
         <property id="8413181653841938191" name="upperBound" index="3gPasG" />
@@ -1121,7 +1133,7 @@
         <node concept="ZOwoP" id="4GwBkQJqql" role="2oy9Oj">
           <node concept="26lliW" id="39v_dEyCArO" role="R_6SO">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
           </node>
           <node concept="26lliW" id="39v_dEyCAsc" role="R_6SQ">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1141,7 +1153,7 @@
         <node concept="ZOwoP" id="4GwBkQJqq_" role="2oy9Oj">
           <node concept="26lliW" id="39v_dEyCArR" role="R_6SO">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
           </node>
           <node concept="26lliW" id="39v_dEyCAsf" role="R_6SQ">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1189,7 +1201,7 @@
         </node>
         <node concept="ZOwoP" id="1R8dC2ECY58" role="2oy9Oj">
           <node concept="26lliW" id="1R8dC2ECY5e" role="R_6SO">
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
           </node>
           <node concept="26lliW" id="1R8dC2ECY5h" role="R_6SQ">
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
@@ -1207,7 +1219,7 @@
         </node>
         <node concept="ZOwoP" id="1R8dC2ECY5k" role="2oy9Oj">
           <node concept="26lliW" id="1R8dC2ECY5l" role="R_6SO">
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
           </node>
           <node concept="26lliW" id="1R8dC2ECY5m" role="R_6SQ">
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
@@ -1237,7 +1249,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApv" role="Qgzvn">
-        <property role="TrG5h" value="average-characteristic" />
+        <property role="TrG5h" value="att" />
         <property role="QtYJw" value="average value of characteristics" />
         <node concept="ZOwps" id="39v_dEyCApw" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApx" role="2oy9Oj">
@@ -1442,6 +1454,99 @@
           <property role="2RyPVf" value="24yfUKsyf$I/eq" />
           <node concept="2oK_Am" id="1R8dC2G5svD" role="2RyPTq">
             <property role="2oK_Ap" value="100" />
+          </node>
+        </node>
+        <node concept="3gPapU" id="52HbUMTPjer" role="3DoAh7">
+          <property role="3Dtwvp" value="0" />
+          <node concept="ZOwox" id="52HbUMU0kow" role="3gPaqv">
+            <property role="2SM9sr" value="39v_dEywMSQ/Average" />
+            <ref role="2SME2o" node="52HbUMTSj4d" resolve="excluded-students" />
+            <node concept="26lliW" id="52HbUMU0ko_" role="3DlxQd">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+            </node>
+            <node concept="26lliW" id="52HbUMU0koV" role="3DlxQd">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgement" />
+            </node>
+          </node>
+          <node concept="ZOwox" id="52HbUMU0koy" role="3gPaqv">
+            <property role="2SM9sr" value="39v_dEywMSQ/Average" />
+            <ref role="2SME2o" node="52HbUMTX2Ah" resolve="average-attraction" />
+            <node concept="26lliW" id="52HbUMU0koJ" role="3DlxQd">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+            </node>
+          </node>
+          <node concept="RZfIr" id="52HbUMTPjet" role="3gPapX">
+            <property role="TrG5h" value="exclusion-index" />
+            <node concept="i7gn5" id="52HbUMTPjeD" role="RZfIc">
+              <property role="i7gn4" value="1w00y4a7gvD/divide" />
+              <node concept="i8Uhg" id="52HbUMTPjeM" role="i7gCG">
+                <node concept="i7gn5" id="52HbUMTPjeS" role="i8Uhj">
+                  <property role="i7gn4" value="1w00y4a7gvC/add" />
+                  <node concept="26lliW" id="52HbUMTPjf1" role="i7gCG">
+                    <property role="1dr8U9" value="5yfUVburW9E/me" />
+                    <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+                  </node>
+                  <node concept="26lliW" id="52HbUMTPjf4" role="i7gCI">
+                    <property role="1dr8U9" value="5yfUVburW9E/me" />
+                    <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+                  </node>
+                </node>
+              </node>
+              <node concept="i8Uhg" id="52HbUMTPjf7" role="i7gCI">
+                <node concept="i7gn5" id="52HbUMTPjfd" role="i8Uhj">
+                  <property role="i7gn4" value="1w00y4a7gvC/add" />
+                  <node concept="26lliW" id="52HbUMTPjfm" role="i7gCG">
+                    <property role="1dr8U9" value="5yfUVburW9E/me" />
+                    <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+                  </node>
+                  <node concept="i7gn5" id="52HbUMTPjft" role="i7gCI">
+                    <property role="i7gn4" value="1w00y4a7gvC/add" />
+                    <node concept="26lliW" id="52HbUMTPjfA" role="i7gCG">
+                      <property role="1dr8U9" value="5yfUVburW9E/me" />
+                      <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+                    </node>
+                    <node concept="26lliW" id="52HbUMTPjfD" role="i7gCI">
+                      <property role="1dr8U9" value="5yfUVburW9E/me" />
+                      <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3gPaqd" id="52HbUMTQMxk" role="3gPapX">
+            <property role="TrG5h" value="excluded" />
+            <node concept="26hFik" id="52HbUMTQMx$" role="RZfIc">
+              <property role="26hFil" value="5yfUVbuMlWv/ge" />
+              <node concept="RLbTy" id="52HbUMTQMxH" role="26hFir">
+                <ref role="RLbTH" node="52HbUMTPjet" resolve="exclusion-index" />
+              </node>
+              <node concept="2oK_Am" id="52HbUMTQMxK" role="26hFip">
+                <property role="2oK_Ap" value="0.8" />
+              </node>
+            </node>
+          </node>
+          <node concept="RZfIr" id="52HbUMTSj4d" role="3gPapX">
+            <property role="TrG5h" value="excluded-students" />
+            <node concept="2gRb$H" id="52HbUMTSj4x" role="RZfIc">
+              <property role="2gRbFB" value="39v_dEywMST/Count" />
+              <node concept="RLbTy" id="52HbUMTSj4J" role="2gRb$y">
+                <ref role="RLbTH" node="52HbUMTQMxk" resolve="excluded" />
+              </node>
+            </node>
+          </node>
+          <node concept="RZfIr" id="52HbUMTX2Ah" role="3gPapX">
+            <property role="TrG5h" value="average-attraction" />
+            <node concept="2gRb$H" id="52HbUMTX2AC" role="RZfIc">
+              <property role="2gRbFB" value="39v_dEywMSQ/Average" />
+              <node concept="26lliW" id="52HbUMTX2AI" role="2gRb$y">
+                <property role="1dr8U9" value="5yfUVburW9E/me" />
+                <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
