@@ -279,7 +279,7 @@
         <child id="8277873572982783040" name="purposeDescription" index="1BQTpC" />
       </concept>
       <concept id="2469205658733998766" name="formalodd.structure.TODO_Rationale" flags="ng" index="3Ovhfo">
-        <property id="2469205658733998769" name="Baseforrationale" index="3Ovhf7" />
+        <property id="2469205658733998769" name="Base4Rationale" index="3Ovhf7" />
         <child id="7370097229710174387" name="sentence" index="2IGf3i" />
       </concept>
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
@@ -314,12 +314,6 @@
         </node>
         <node concept="XAmFv" id="1jC05GNfsI4" role="2IGf3i">
           <property role="XAmFg" value="This is sentence #2 in my adhoc rationale." />
-        </node>
-      </node>
-      <node concept="3Ovhfo" id="1jC05GNfsId" role="3Ovhfh">
-        <property role="3Ovhf7" value="294onrmenaT/Observation" />
-        <node concept="XAmFv" id="1jC05GNfsIi" role="2IGf3i">
-          <property role="XAmFg" value="Some other rationale." />
         </node>
       </node>
       <node concept="ZOwrm" id="24yfUKsi0X2" role="2kDK73">
