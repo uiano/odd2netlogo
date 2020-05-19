@@ -142,6 +142,9 @@
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
+      <concept id="2146025148693967709" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="2Rfknt">
+        <child id="2469205658733998786" name="rationale" index="3OvheO" />
+      </concept>
       <concept id="2146025148682299468" name="formalodd.structure.TimedCondition" flags="ng" index="2RyPVc">
         <property id="2146025148682299471" name="operator" index="2RyPVf" />
         <child id="2146025148682299610" name="value" index="2RyPTq" />
@@ -190,7 +193,6 @@
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
-        <child id="2469205658733998786" name="rationale" index="3OvheO" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
@@ -1130,7 +1132,7 @@
         <node concept="ZOwoP" id="4GwBkQJqql" role="2oy9Oj">
           <node concept="26lliW" id="39v_dEyCArO" role="R_6SO">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="attitude" />
           </node>
           <node concept="26lliW" id="39v_dEyCAsc" role="R_6SQ">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1150,7 +1152,7 @@
         <node concept="ZOwoP" id="4GwBkQJqq_" role="2oy9Oj">
           <node concept="26lliW" id="39v_dEyCArR" role="R_6SO">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="attitude" />
           </node>
           <node concept="26lliW" id="39v_dEyCAsf" role="R_6SQ">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -1198,7 +1200,7 @@
         </node>
         <node concept="ZOwoP" id="1R8dC2ECY58" role="2oy9Oj">
           <node concept="26lliW" id="1R8dC2ECY5e" role="R_6SO">
-            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="attitude" />
           </node>
           <node concept="26lliW" id="1R8dC2ECY5h" role="R_6SQ">
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
@@ -1216,7 +1218,7 @@
         </node>
         <node concept="ZOwoP" id="1R8dC2ECY5k" role="2oy9Oj">
           <node concept="26lliW" id="1R8dC2ECY5l" role="R_6SO">
-            <ref role="26lliz" node="39v_dEyCApv" resolve="att" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="attitude" />
           </node>
           <node concept="26lliW" id="1R8dC2ECY5m" role="R_6SQ">
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
@@ -1246,7 +1248,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApv" role="Qgzvn">
-        <property role="TrG5h" value="att" />
+        <property role="TrG5h" value="attitude" />
         <property role="QtYJw" value="average value of characteristics" />
         <node concept="ZOwps" id="39v_dEyCApw" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApx" role="2oy9Oj">
