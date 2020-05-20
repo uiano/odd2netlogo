@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- remove spatial comments "anywhere" and "same spot"
 - where to put the world in experiments (once or each? - both)
 - correct indents for everything within Actions and procedures
 - do only one direction is evaluate-interaction and in learn-about

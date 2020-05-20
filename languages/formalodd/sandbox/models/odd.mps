@@ -120,7 +120,6 @@
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
-        <property id="6465847136233012555" name="where" index="ABB3X" />
         <reference id="6381578350450956040" name="partner" index="24v3MU" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
@@ -402,7 +401,6 @@
       </node>
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
-        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <ref role="24v3MU" node="1LeTgidqm5Z" resolve="grass" />
         <node concept="2qfAsZ" id="1w00y4a7gvi" role="18tn1X">
           <ref role="2rWCsu" node="6ow5IfzpoId" resolve="energy" />
@@ -419,7 +417,6 @@
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
-        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <ref role="24v3MU" node="qdXC$xz0Qv" resolve="sheep" />
         <node concept="8shMO" id="5yfUVbu1olx" role="18tn1X">
           <property role="26S2D9" value="5yfUVburW9F/target" />
@@ -728,7 +725,6 @@
       </node>
       <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
-        <property role="ABB3X" value="5AVjrpZ9jP5/neighbour" />
         <ref role="24v3MU" node="7MNWMNCnG0T" resolve="Trees" />
         <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
           <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
@@ -918,7 +914,6 @@
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
         <property role="TrG5h" value="occupied" />
-        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <ref role="24v3MU" node="qdXC$ygXa8" resolve="blue-group" />
         <node concept="1Svl6F" id="7MNWMNBlapA" role="18tn1X">
           <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
@@ -1732,7 +1727,6 @@
       </node>
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
         <property role="TrG5h" value="forced-interaction" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <property role="2QSBU6" value="interactions in classroom settings" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="1Svl6F" id="1R8dC2FskE6" role="18tn1X">
@@ -1777,7 +1771,6 @@
       </node>
       <node concept="BZNO7" id="4GwBkQLLdv" role="2GyEu2">
         <property role="TrG5h" value="free-interaction" />
-        <property role="ABB3X" value="5AVjrpZ9jP4/sameSpot" />
         <property role="2QSBU6" value="spare time interactions" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="2lNc1w" id="4GwBkQLLdD" role="18tn1Z">
@@ -1895,7 +1888,6 @@
       </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
         <property role="TrG5h" value="evaluate-interaction" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <property role="2QSBU6" value="evaluation of the interaction" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
@@ -1954,7 +1946,6 @@
       </node>
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
         <property role="TrG5h" value="learn-about" />
-        <property role="ABB3X" value="4GwBkQLLec/anywhere" />
         <property role="2QSBU6" value="what the students learn from each other during interaction" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">

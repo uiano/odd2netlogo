@@ -1877,13 +1877,6 @@
             </node>
           </node>
         </node>
-        <node concept="3F0ifn" id="5AVjrpZ9jPl" role="3EZMnx">
-          <property role="3F0ifm" value="at" />
-          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-        </node>
-        <node concept="3F0A7n" id="5AVjrpZ9jPB" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5AVjrpZ9jPb" resolve="where" />
-        </node>
         <node concept="3F0ifn" id="3M5MOtLpIq8" role="3EZMnx">
           <property role="3F0ifm" value=", performing the following actions" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />

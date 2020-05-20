@@ -915,11 +915,6 @@
     <node concept="PrWs8" id="3kYfzLXqvbR" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
-    <node concept="1TJgyi" id="5AVjrpZ9jPb" role="1TKVEl">
-      <property role="IQ2nx" value="6465847136233012555" />
-      <property role="TrG5h" value="where" />
-      <ref role="AX2Wp" node="5AVjrpZ9jP3" resolve="Where" />
-    </node>
   </node>
   <node concept="1TIwiD" id="2gGtP_Va5R4">
     <property role="EcuMT" value="2606589510542712260" />
