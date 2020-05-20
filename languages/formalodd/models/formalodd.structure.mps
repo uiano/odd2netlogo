@@ -1366,7 +1366,7 @@
     <node concept="1TJgyj" id="7MNWMNC5fbv" role="1TKVEi">
       <property role="IQ2ns" value="8985793055732069087" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="world" />
+      <property role="20kJfa" value="defaultWorld" />
       <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
     </node>
     <node concept="1TJgyj" id="7MNWMNC5fby" role="1TKVEi">
@@ -1827,6 +1827,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="dataCollection" />
       <ref role="20lvS9" node="7j1C2e$5gpp" resolve="DataCollection" />
+    </node>
+    <node concept="1TJgyj" id="1z3v1JWOmeB" role="1TKVEi">
+      <property role="IQ2ns" value="1784406337016390567" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="experimentWorld" />
+      <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
     </node>
     <node concept="PrWs8" id="1R8dC2FZk_2" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />

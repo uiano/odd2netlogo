@@ -479,11 +479,54 @@
           </node>
         </node>
         <node concept="3F0ifn" id="7y2oNvtzZB" role="3EZMnx">
-          <property role="3F0ifm" value="Details: Initialization AKA Manual Experiments" />
+          <property role="3F0ifm" value="Details: Manual Experiments AKA Initialization" />
           <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
         </node>
+        <node concept="3F0ifn" id="1z3v1JWOmAX" role="3EZMnx">
+          <property role="3F0ifm" value="Initialization of attributes and entities" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+        </node>
+        <node concept="3F0ifn" id="1z3v1JWOm_M" role="3EZMnx" />
         <node concept="PMmxH" id="5DmxhgogvoG" role="3EZMnx">
           <ref role="PMmxG" node="5DmxhgogsFL" resolve="Initialize_EntityStateScales" />
+        </node>
+        <node concept="3F0ifn" id="1z3v1JWOm$_" role="3EZMnx">
+          <property role="3F0ifm" value="Appearance" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+        </node>
+        <node concept="1iCGBv" id="1z3v1JWOmEH" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:7MNWMNC5fbA" resolve="experiments" />
+          <node concept="1sVBvm" id="1z3v1JWOmEJ" role="1sWHZn">
+            <node concept="3F1sOY" id="1z3v1JWOmG5" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:7MNWMNC5fbv" resolve="defaultWorld" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="1z3v1JWOmC9" role="3EZMnx">
+          <property role="3F0ifm" value="Experiment end" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+        </node>
+        <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
+          <node concept="VPM3Z" id="5zjJPlgJo0J" role="3F10Kt" />
+          <node concept="3F0ifn" id="5zjJPlgJo0L" role="3EZMnx">
+            <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
+            <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+          </node>
+          <node concept="2iRfu4" id="5zjJPlgJo0M" role="2iSdaV" />
+        </node>
+        <node concept="1iCGBv" id="1z3v1JWOmHn" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5EtG2rPwnoa" resolve="processAndScheduling" />
+          <node concept="1sVBvm" id="1z3v1JWOmHp" role="1sWHZn">
+            <node concept="3F2HdR" id="1z3v1JWOmII" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endConditions" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <node concept="3F0ifn" id="1z3v1JWOmLM" role="2czzBI">
+                <property role="3F0ifm" value="press enter to add end condition" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              </node>
+              <node concept="2iRkQZ" id="1z3v1JWOmPO" role="2czzBx" />
+            </node>
+          </node>
         </node>
         <node concept="3F0ifn" id="7y2oNvtXgN" role="3EZMnx">
           <property role="3F0ifm" value="Details: Input" />
@@ -1507,26 +1550,9 @@
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           </node>
         </node>
-        <node concept="3F0ifn" id="39v_dExHoZu" role="3EZMnx" />
-        <node concept="3EZMnI" id="5zjJPlgJo0H" role="3EZMnx">
-          <node concept="VPM3Z" id="5zjJPlgJo0J" role="3F10Kt" />
-          <node concept="3F0ifn" id="5zjJPlgJo0L" role="3EZMnx">
-            <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
-          </node>
-          <node concept="2iRfu4" id="5zjJPlgJo0M" role="2iSdaV" />
-        </node>
         <node concept="VPM3Z" id="5zjJPlgJo18" role="3F10Kt" />
         <node concept="VPXOz" id="3OPyh9HQ0Ka" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F2HdR" id="5zjJPlgJo1s" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endConditions" />
-          <node concept="2iRkQZ" id="5zjJPlgJo1u" role="2czzBx" />
-          <node concept="3F0ifn" id="2gGtP_UOfg8" role="2czzBI">
-            <property role="ilYzB" value="press control space to select the type of end conditon" />
-            <property role="3F0ifm" value="press enter to add end condition" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-          </node>
         </node>
         <node concept="2iRkQZ" id="5zjJPlgJo1b" role="2iSdaV" />
       </node>
@@ -3363,7 +3389,7 @@
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
       <node concept="3F1sOY" id="7MNWMNC7dZh" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNC5fbv" resolve="world" />
+        <ref role="1NtTu8" to="86kt:7MNWMNC5fbv" resolve="defaultWorld" />
         <node concept="lj46D" id="7MNWMNC7dZi" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
