@@ -84,7 +84,7 @@
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
         <child id="8985793055732069090" name="experiments" index="2kDK7e" />
-        <child id="8985793055732069087" name="world" index="2kDK7N" />
+        <child id="8985793055732069087" name="defaultWorld" index="2kDK7N" />
       </concept>
       <concept id="7308686357753541206" name="formalodd.structure.QuantifiedCondition" flags="ng" index="2lMhBi">
         <property id="135681439435783010" name="quantifier" index="3xNfbI" />
@@ -141,9 +141,6 @@
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
-      <concept id="2146025148693967709" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="2Rfknt">
-        <child id="2469205658733998786" name="rationale" index="3OvheO" />
-      </concept>
       <concept id="2146025148682299468" name="formalodd.structure.TimedCondition" flags="ng" index="2RyPVc">
         <property id="2146025148682299471" name="operator" index="2RyPVf" />
         <child id="2146025148682299610" name="value" index="2RyPTq" />
@@ -192,6 +189,7 @@
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
+        <child id="2469205658733998786" name="rationale" index="3OvheO" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />

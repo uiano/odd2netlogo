@@ -6459,7 +6459,7 @@
   </node>
   <node concept="WtQ9Q" id="1R8dC2E20Ju">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="WuzLi" to="86kt:3lcKR8aBGkv" resolve="TODO_EntityAttribute" />
+    <ref role="WuzLi" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     <node concept="11bSqf" id="1R8dC2E20Jv" role="11c4hB">
       <node concept="3clFbS" id="1R8dC2E20Jw" role="2VODD2">
         <node concept="Jncv_" id="1R8dC2EEACq" role="3cqZAp">
