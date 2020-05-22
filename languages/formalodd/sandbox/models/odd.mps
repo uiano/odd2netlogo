@@ -185,7 +185,7 @@
       </concept>
       <concept id="3840659476812055854" name="formalodd.structure.NumberType" flags="ng" index="ZOwps" />
       <concept id="3840659476812055853" name="formalodd.structure.Boolean" flags="ng" index="ZOwpv" />
-      <concept id="3840659476812055839" name="formalodd.structure.TODO_EntityAttribute" flags="ng" index="ZOwpH">
+      <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
@@ -335,6 +335,11 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xsGMq" role="ZOwpT">
         <property role="TrG5h" value="frog" />
+        <property role="2QSBU6" value="My Frog Description" />
+        <node concept="ZOwpH" id="7eFC9EokzbM" role="2gUEk7">
+          <property role="TrG5h" value="leap length" />
+          <node concept="ZOwps" id="7eFC9EokzbQ" role="zGXb3" />
+        </node>
         <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XpM/green" />
         </node>
@@ -342,6 +347,29 @@
           <property role="2oK_Ap" value="10" />
         </node>
         <node concept="RFdHg" id="1LeTgidgaQt" role="RFdH4" />
+        <node concept="3Ovhfo" id="7eFC9Eo9YPF" role="3DMLvL">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="7eFC9Eo9YPH" role="2IGf3i">
+            <property role="XAmFg" value="My text is here. I would like some room above" />
+          </node>
+          <node concept="XAmFv" id="7eFC9Eo9YPJ" role="2IGf3i">
+            <property role="XAmFg" value="and below so that I know what this text is about." />
+          </node>
+        </node>
+        <node concept="ZOwo7" id="7eFC9EoZAAF" role="ZOwpC">
+          <property role="27hRln" value="5yfUVbvM9VJ/arrow" />
+          <property role="27hOD7" value="2" />
+        </node>
+        <node concept="ZOwpH" id="7eFC9Ep4KXv" role="2gUEk7">
+          <property role="TrG5h" value="unnamed attribute" />
+        </node>
+      </node>
+      <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
+        <property role="TrG5h" value="lizard" />
+        <node concept="2oK_Am" id="7eFC9Eoo2Bd" role="RIgNU">
+          <property role="2oK_Ap" value="10" />
+        </node>
+        <node concept="RFdHg" id="7eFC9Eoo2Bf" role="RFdH4" />
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$xsGMF" role="2J7coG">
@@ -350,7 +378,20 @@
       </node>
       <node concept="2lNc1x" id="6ow5Ifzbdeq" role="2GyEu2">
         <property role="TrG5h" value="Dummy" />
+        <property role="2QSBU6" value="My description of Dummy" />
         <node concept="Qbqaq" id="4GwBkRgJab" role="18tn1Z" />
+      </node>
+    </node>
+    <node concept="3Ovhds" id="7eFC9Ep51ms" role="1BQTrk">
+      <property role="3Ovhdr" value="6Uof7aieThp/Description" />
+      <node concept="XAmFv" id="7eFC9Ep51m$" role="1BQTpC">
+        <property role="XAmFg" value="Lorum ipsum" />
+      </node>
+      <node concept="XAmFv" id="7eFC9Ep51my" role="1BQToi">
+        <property role="XAmFg" value="Lorum ipsum" />
+      </node>
+      <node concept="XAmFv" id="7eFC9Ep51mw" role="1BQTog">
+        <property role="XAmFg" value="My reason question" />
       </node>
     </node>
   </node>
