@@ -222,6 +222,10 @@
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
+      <concept id="5732058420649734839" name="formalodd.structure.RangeType" flags="ng" index="354mTO">
+        <property id="5732058420649734840" name="upper" index="354mTV" />
+        <property id="5732058420649734846" name="lower" index="354mTX" />
+      </concept>
       <concept id="4361115321891670174" name="formalodd.structure.Empty" flags="ng" index="1dm0fp" />
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
         <property id="827001546371602890" name="wrapHorizontal" index="1jlS1c" />
@@ -362,6 +366,7 @@
         </node>
         <node concept="ZOwpH" id="7eFC9Ep4KXv" role="2gUEk7">
           <property role="TrG5h" value="unnamed attribute" />
+          <node concept="ZOwps" id="1z3v1JXiZRE" role="zGXb3" />
         </node>
       </node>
       <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
@@ -1408,7 +1413,10 @@
         <node concept="ZOwpH" id="4qxfPPPteTY" role="2gUEkT">
           <property role="TrG5h" value="attraction" />
           <property role="QtYJw" value="each student has an attraction towards each of the other students (attraction is reflected on a number from 0 to 1 with 1 the maximum and 0 the lowest)" />
-          <node concept="ZOwps" id="3M5MOtLapCF" role="zGXb3" />
+          <node concept="354mTO" id="6iw2eE2C6_Y" role="zGXb3">
+            <property role="354mTX" value="0" />
+            <property role="354mTV" value="1" />
+          </node>
           <node concept="21jJIL" id="3M5MOtLgIQT" role="2oy9Oj">
             <property role="21jJIY" value="0" />
             <property role="21jJI7" value="0.01" />
@@ -2072,7 +2080,7 @@
         <property role="XAmFg" value="For everyone interested in inclusion- exclusion and bullying phenomena." />
       </node>
       <node concept="XAmFv" id="ALSMvQuLMV" role="1BQTog">
-        <property role="XAmFg" value="is it possible for bullying to emerge from an ethically acceptable action such as choosing an interaction partner?" />
+        <property role="XAmFg" value="Is it possible for bullying to emerge from an ethically acceptable action such as choosing an interaction partner?" />
       </node>
     </node>
     <node concept="3Zeh6P" id="1R8dC2FVTzf" role="kaBC7" />

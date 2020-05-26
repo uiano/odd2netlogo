@@ -2502,5 +2502,22 @@
       <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4YcnceaBjaR">
+    <property role="EcuMT" value="5732058420649734839" />
+    <property role="TrG5h" value="RangeType" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="34LRSv" value="Range" />
+    <ref role="1TJDcQ" node="3lcKR8aBGkI" resolve="NumberType" />
+    <node concept="1TJgyi" id="4YcnceaBjaY" role="1TKVEl">
+      <property role="IQ2nx" value="5732058420649734846" />
+      <property role="TrG5h" value="lower" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
+    </node>
+    <node concept="1TJgyi" id="4YcnceaBjaS" role="1TKVEl">
+      <property role="IQ2nx" value="5732058420649734840" />
+      <property role="TrG5h" value="upper" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
+    </node>
+  </node>
 </model>
 

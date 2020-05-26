@@ -1,5 +1,6 @@
 TODO list for development of ODD2Netlogo
-- MARG: number ranges as types - no need to adjust the inc and dec
+- list of procedures per entity before rationales
+- list of procedures per attribute before rationales
 - codegen filter
 - codegen collect
 - codegen elementwise
@@ -21,6 +22,8 @@ TODO list for development of ODD2Netlogo
 - should sliders be expressions?
 - remove arrays? - not needed (move to future use)
 - remove styling hintIfNull?
+- make good stylings for sections and user input and definitions and hints and comments
+- recheck all constraints
 
 TODO later
 - create predefined UDAs shape, size, colour
