@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- list of procedures per entity before rationales
 - list of procedures per attribute before rationales
 - codegen filter
 - codegen collect
