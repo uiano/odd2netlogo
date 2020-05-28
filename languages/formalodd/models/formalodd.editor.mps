@@ -4996,13 +4996,6 @@
         <node concept="3F0A7n" id="52HbUMU7nS5" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         </node>
-        <node concept="3F0ifn" id="52HbUMU7nS6" role="3EZMnx">
-          <property role="3F0ifm" value="of type" />
-          <node concept="Vb9p2" id="52HbUMU7nS7" role="3F10Kt" />
-        </node>
-        <node concept="3F1sOY" id="52HbUMU7nS8" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
-        </node>
       </node>
       <node concept="3EZMnI" id="6iw2eE2Q5v7" role="3EZMnx">
         <node concept="VPM3Z" id="6iw2eE2Q5v9" role="3F10Kt" />
