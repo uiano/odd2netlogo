@@ -2242,6 +2242,10 @@
       <property role="3tVfz5" value="5813355112904601898" />
       <property role="TrG5h" value="Percentage" />
     </node>
+    <node concept="25R33" id="6iw2eE3feoN" role="25R1y">
+      <property role="3tVfz5" value="7250805203383674419" />
+      <property role="TrG5h" value="StdDeviation" />
+    </node>
   </node>
   <node concept="1TIwiD" id="39v_dEyymsJ">
     <property role="EcuMT" value="3629783491434604335" />

@@ -1220,11 +1220,41 @@
         </node>
       </node>
       <node concept="RZfIr" id="6iw2eE30kp5" role="3AlXHa">
-        <property role="TrG5h" value="average-attraction" />
+        <property role="TrG5h" value="average-attraction-out" />
         <node concept="2gRb$H" id="6iw2eE30kp6" role="RZfIc">
           <property role="2gRbFB" value="39v_dEywMSQ/Average" />
           <node concept="26lliW" id="6iw2eE30kp7" role="2gRb$y">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+          </node>
+        </node>
+      </node>
+      <node concept="RZfIr" id="6iw2eE3fenM" role="3AlXHa">
+        <property role="TrG5h" value="stdev-attraction-out" />
+        <node concept="2gRb$H" id="6iw2eE3fenN" role="RZfIc">
+          <property role="2gRbFB" value="6iw2eE3feoN/StdDeviation" />
+          <node concept="26lliW" id="6iw2eE3fenO" role="2gRb$y">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+          </node>
+        </node>
+      </node>
+      <node concept="RZfIr" id="6iw2eE3femI" role="3AlXHa">
+        <property role="TrG5h" value="average-attraction-in" />
+        <node concept="2gRb$H" id="6iw2eE3femJ" role="RZfIc">
+          <property role="2gRbFB" value="39v_dEywMSQ/Average" />
+          <node concept="26lliW" id="6iw2eE3femK" role="2gRb$y">
+            <property role="1dr8U9" value="5yfUVburW9F/other" />
+            <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+          </node>
+        </node>
+      </node>
+      <node concept="RZfIr" id="6iw2eE3feoh" role="3AlXHa">
+        <property role="TrG5h" value="stdev-attraction-in" />
+        <node concept="2gRb$H" id="6iw2eE3feoi" role="RZfIc">
+          <property role="2gRbFB" value="6iw2eE3feoN/StdDeviation" />
+          <node concept="26lliW" id="6iw2eE3feoj" role="2gRb$y">
+            <property role="1dr8U9" value="5yfUVburW9F/other" />
             <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
           </node>
         </node>
@@ -1402,7 +1432,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApF" role="Qgzvn">
         <property role="TrG5h" value="chararacteristics-learned-in-interaction" />
-        <property role="QtYJw" value="number of learned characteristics during interaction" />
+        <property role="QtYJw" value="speed of learning" />
         <node concept="ZOwps" id="39v_dEyCApG" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApH" role="2oy9Oj">
           <property role="21jJIY" value="0" />
@@ -1413,7 +1443,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApI" role="Qgzvn">
         <property role="TrG5h" value="attraction-change" />
-        <property role="QtYJw" value="How much does attraction change with interactions?" />
+        <property role="QtYJw" value="Level of attraction change in interactions" />
         <node concept="ZOwps" id="39v_dEyCApJ" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApK" role="2oy9Oj">
           <property role="21jJIY" value="0" />
@@ -1424,7 +1454,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApL" role="Qgzvn">
         <property role="TrG5h" value="internal-ideal-characteristics" />
-        <property role="QtYJw" value="initialise the values of internal characteristics" />
+        <property role="QtYJw" value="initial internal characteristics" />
         <node concept="ZOwps" id="39v_dEyCApM" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApN" role="2oy9Oj">
           <property role="21jJIY" value="0" />
@@ -1435,7 +1465,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApO" role="Qgzvn">
         <property role="TrG5h" value="external-ideal-characteristics" />
-        <property role="QtYJw" value="initialise the values of external characteristics" />
+        <property role="QtYJw" value="initial external characteristics" />
         <node concept="ZOwps" id="39v_dEyCApP" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApQ" role="2oy9Oj">
           <property role="21jJIY" value="0" />
@@ -1446,7 +1476,7 @@
       </node>
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
-        <property role="2QSBU6" value="students at university" />
+        <property role="2QSBU6" value="university students" />
         <node concept="ZOwo7" id="4xlWY3qEPla" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa0l/person" />
           <property role="27hOD7" value="10" />
@@ -1515,7 +1545,7 @@
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
       <node concept="3gPary" id="1R8dC2G5svz" role="2kDK7e">
-        <property role="TrG5h" value="Experiment 1" />
+        <property role="TrG5h" value="1" />
         <property role="3gParY" value="5" />
         <node concept="3D1GSk" id="52HbUMTKRn$" role="3D9rx_">
           <ref role="3D1GSl" node="4xlWY3qEPkZ" resolve="student" />
@@ -1595,8 +1625,32 @@
           </node>
           <node concept="ZOwox" id="52HbUMU0koy" role="3gPaqv">
             <property role="2SM9sr" value="39v_dEywMSQ/Average" />
-            <ref role="2SME2o" node="6iw2eE30kp5" resolve="average-attraction" />
+            <ref role="2SME2o" node="6iw2eE30kp5" resolve="average-attraction-out" />
             <node concept="26lliW" id="52HbUMU0koJ" role="3DlxQd">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+            </node>
+          </node>
+          <node concept="ZOwox" id="6iw2eE3fenq" role="3gPaqv">
+            <property role="2SM9sr" value="39v_dEywMSQ/Average" />
+            <ref role="2SME2o" node="6iw2eE30kp5" resolve="average-attraction-out" />
+            <node concept="26lliW" id="6iw2eE3fenr" role="3DlxQd">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+            </node>
+          </node>
+          <node concept="ZOwox" id="6iw2eE3fenh" role="3gPaqv">
+            <property role="2SM9sr" value="39v_dEywMSQ/Average" />
+            <ref role="2SME2o" node="6iw2eE3femI" resolve="average-attraction-in" />
+            <node concept="26lliW" id="6iw2eE3feni" role="3DlxQd">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
+              <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+            </node>
+          </node>
+          <node concept="ZOwox" id="6iw2eE3fen_" role="3gPaqv">
+            <property role="2SM9sr" value="39v_dEywMSQ/Average" />
+            <ref role="2SME2o" node="6iw2eE30kp5" resolve="average-attraction-out" />
+            <node concept="26lliW" id="6iw2eE3fenA" role="3DlxQd">
               <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
             </node>
