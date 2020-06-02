@@ -1,8 +1,7 @@
 TODO list for development of ODD2Netlogo
 - codegen filter
 - codegen collect
-- codegen elementwise
-- correct code generation for MARG: positive-interaction(filter, collect, elementwise), free-interaction, forced-interaction, learn-about, ...
+- correct code generation for MARG: positive-interaction(filter, collect), free-interaction, learn-about, ...
 - 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
 - define function parameters as entities (not types)
 - allow affects all/any (env / entity) - code gen correct
@@ -16,12 +15,14 @@ TODO list for development of ODD2Netlogo
 - move init entity state -> entity state (editor)
 - fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
 - why is occupied an interaction in segregation? fix it.
+- improve appearance of MARG
 - check all concepts with TODO
 - should sliders be expressions?
 - remove arrays? - not needed (move to future use)
 - remove styling hintIfNull?
 - make good stylings for sections and user input and definitions and hints and comments
 - recheck all constraints
+- make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
 
 TODO later
 - create predefined UDAs shape, size, colour
@@ -34,8 +35,10 @@ TODO for Martin
 - experiments editor
 - fix editors (references)
 - proper indent in editor (see condionalAction)
+- recreate MARG and fix UI on the way
+- go to new version of MPS
 - use base styles consistently in editor
-- adjust virtual packages for editor and other aspects to match structure
+- adjust virtual packages for editor and other aspects to match packages in structure
 - copy documentation 2019 and earlier into git: papers, reports 445, ...
 - good editor for optional parts: boolean attributes - should have a text for present and another text for not present
 - constraints that names cannot be the same
