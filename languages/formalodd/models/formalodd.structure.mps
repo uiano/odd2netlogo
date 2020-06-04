@@ -2221,30 +2221,37 @@
     <node concept="25R33" id="39v_dEywMSP" role="25R1y">
       <property role="3tVfz5" value="3629783491434196533" />
       <property role="TrG5h" value="Sum" />
+      <property role="1L1pqM" value="sum" />
     </node>
     <node concept="25R33" id="52HbUMTYyOY" role="25R1y">
       <property role="3tVfz5" value="5813355112906239294" />
       <property role="TrG5h" value="Min" />
+      <property role="1L1pqM" value="min" />
     </node>
     <node concept="25R33" id="52HbUMTYyP4" role="25R1y">
       <property role="3tVfz5" value="5813355112906239300" />
       <property role="TrG5h" value="Max" />
+      <property role="1L1pqM" value="max" />
     </node>
     <node concept="25R33" id="39v_dEywMSQ" role="25R1y">
       <property role="3tVfz5" value="3629783491434196534" />
       <property role="TrG5h" value="Average" />
+      <property role="1L1pqM" value="average" />
     </node>
     <node concept="25R33" id="39v_dEywMST" role="25R1y">
       <property role="3tVfz5" value="3629783491434196537" />
       <property role="TrG5h" value="Count" />
+      <property role="1L1pqM" value="count" />
     </node>
     <node concept="25R33" id="52HbUMTSj4E" role="25R1y">
       <property role="3tVfz5" value="5813355112904601898" />
       <property role="TrG5h" value="Percentage" />
+      <property role="1L1pqM" value="percentage" />
     </node>
     <node concept="25R33" id="6iw2eE3feoN" role="25R1y">
       <property role="3tVfz5" value="7250805203383674419" />
       <property role="TrG5h" value="StdDeviation" />
+      <property role="1L1pqM" value="stdev" />
     </node>
   </node>
   <node concept="1TIwiD" id="39v_dEyymsJ">

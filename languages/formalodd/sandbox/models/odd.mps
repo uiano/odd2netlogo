@@ -1671,7 +1671,7 @@
       </node>
       <node concept="2jZikd" id="39v_dExISFb" role="2jUxG3">
         <property role="TrG5h" value="positive-interaction?" />
-        <property role="2QSBU6" value="evaluate the interaction based on the known characteristics of the interacting partner and the tolerance of the evaluating student, 2 inputs: the other-turtle is the student who is evaluated and me is the evaluator" />
+        <property role="2QSBU6" value="evaluate the interaction based on the known characteristics of the interacting partner and the tolerance of the evaluating student, 2 inputs: the other is the student who is evaluated and me is the evaluator" />
         <node concept="RZfIr" id="39v_dExZIS2" role="2jZik7">
           <property role="TrG5h" value="deviations-external" />
           <node concept="2jDO4u" id="39v_dExZISm" role="RZfIc">
@@ -2047,7 +2047,7 @@
       </node>
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
         <property role="TrG5h" value="learn-about" />
-        <property role="2QSBU6" value="what the students learn from each other during interaction" />
+        <property role="2QSBU6" value="learn characteristics during interaction" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
           <property role="TrG5h" value="learned-characteristics" />
