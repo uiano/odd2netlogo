@@ -145,6 +145,7 @@
         <property id="1140114345053" name="allowEmptyText" index="1O74Pk" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
+      <concept id="7667708318090725848" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentAnchorStyleClassItem" flags="ln" index="1Bsynf" />
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
         <property id="1130859485024" name="attractsFocus" index="1cu_pB" />
         <child id="1142887637401" name="renderingCondition" index="pqm2j" />
@@ -975,9 +976,9 @@
         </node>
       </node>
       <node concept="3EZMnI" id="24yfUKsjpE9" role="3EZMnx">
-        <node concept="2iRfu4" id="4GwBkQH4vH" role="2iSdaV" />
-        <node concept="3F0ifn" id="4GwBkQH4E5" role="3EZMnx">
-          <property role="3F0ifm" value="   " />
+        <node concept="3F0A7n" id="166q1ILcXUZ" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         </node>
         <node concept="3F0ifn" id="24yfUKsjqPn" role="3EZMnx">
           <property role="3F0ifm" value="is initialized by" />
@@ -1005,6 +1006,16 @@
               <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
             </node>
           </node>
+        </node>
+        <node concept="l2Vlx" id="166q1ILcY5D" role="2iSdaV" />
+        <node concept="lj46D" id="166q1ILeYFY" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="1Bsynf" id="166q1ILeYHq" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="166q1ILeYS1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
     </node>
@@ -3469,11 +3480,13 @@
     </node>
     <node concept="14StLt" id="1R8dC2F3XBo" role="V601i">
       <property role="TrG5h" value="comment" />
-      <node concept="30gYXW" id="7eFC9Eppz5F" role="3F10Kt">
-        <property role="Vb096" value="fLJRk5A/lightGray" />
-        <node concept="1iSF2X" id="7eFC9EprfLn" role="VblUZ">
-          <property role="1iTho6" value="f6f6f6" />
+      <node concept="30gYXW" id="166q1IKabSF" role="3F10Kt">
+        <node concept="1iSF2X" id="166q1IKabSL" role="VblUZ">
+          <property role="1iTho6" value="f6f4e3" />
         </node>
+      </node>
+      <node concept="VSNWy" id="166q1IJVD$1" role="3F10Kt">
+        <property role="1lJzqX" value="13" />
       </node>
     </node>
     <node concept="14StLt" id="6Uof7ai68wd" role="V601i">

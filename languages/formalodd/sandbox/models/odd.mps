@@ -196,6 +196,7 @@
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="6620640720694329222" name="purposeTOBEREMOVED" index="XAo8I" />
+        <child id="135681439422303784" name="input" index="3uwOu$" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
         <child id="8277873572982783228" name="purpose" index="1BQTrk" />
       </concept>
@@ -299,6 +300,15 @@
   </registry>
   <node concept="ZOwpP" id="qdXC$xpL8p">
     <property role="TrG5h" value="test" />
+    <node concept="XAmFv" id="166q1ILl1Fh" role="3uwOu$">
+      <property role="XAmFg" value="Test" />
+    </node>
+    <node concept="XAmFv" id="166q1ILl1Fj" role="3uwOu$">
+      <property role="XAmFg" value="TEst" />
+    </node>
+    <node concept="XAmFv" id="166q1ILl1Fm" role="3uwOu$">
+      <property role="XAmFg" value="test" />
+    </node>
     <node concept="ZOwpU" id="qdXC$xpL8y" role="3$p12O">
       <node concept="ZOwpH" id="1jC05GNft6w" role="25gc1v">
         <property role="TrG5h" value="health" />
@@ -339,9 +349,10 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xsGMq" role="ZOwpT">
         <property role="TrG5h" value="frog" />
-        <property role="2QSBU6" value="My Frog Description" />
+        <property role="2QSBU6" value="My Frog Descridssption" />
         <node concept="ZOwpH" id="7eFC9EokzbM" role="2gUEk7">
           <property role="TrG5h" value="leap length" />
+          <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="7eFC9EokzbQ" role="zGXb3" />
         </node>
         <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
@@ -366,11 +377,24 @@
         </node>
         <node concept="ZOwpH" id="7eFC9Ep4KXv" role="2gUEk7">
           <property role="TrG5h" value="unnamed attribute" />
+          <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="1z3v1JXiZRE" role="zGXb3" />
         </node>
       </node>
       <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
         <property role="TrG5h" value="lizard" />
+        <property role="2QSBU6" value="m" />
+        <node concept="ZOwpH" id="166q1IL2R3S" role="2gUEk7">
+          <property role="TrG5h" value="some attribute" />
+          <property role="QtYJw" value="t" />
+          <node concept="ZOwps" id="166q1IL2R3W" role="zGXb3" />
+          <node concept="21jJIL" id="166q1IL2R3Z" role="2oy9Oj">
+            <property role="21jJIY" value="0" />
+            <property role="21jJI7" value="5" />
+            <property role="21jJIV" value="30" />
+            <property role="2rHBro" value="5" />
+          </node>
+        </node>
         <node concept="2oK_Am" id="7eFC9Eoo2Bd" role="RIgNU">
           <property role="2oK_Ap" value="10" />
         </node>
