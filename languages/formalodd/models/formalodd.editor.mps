@@ -32,6 +32,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
+        <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
@@ -50,6 +51,7 @@
       <concept id="1142886221719" name="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" flags="in" index="pkWqt" />
       <concept id="1142886811589" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" flags="nn" index="pncrf" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="1233148810477" name="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration" flags="ng" index="tppnM" />
       <concept id="4242538589859161874" name="jetbrains.mps.lang.editor.structure.ExplicitHintsSpecification" flags="ng" index="2w$q5c">
         <child id="4242538589859162459" name="hints" index="2w$qW5" />
       </concept>
@@ -651,8 +653,13 @@
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           </node>
         </node>
+        <node concept="27z8qx" id="5wSz0kzyeFl" role="3F10Kt">
+          <property role="3$6WeP" value="20" />
+          <property role="2hoDZC" value="hQhnRQp/PIXELS" />
+        </node>
       </node>
       <node concept="3F2HdR" id="3okqQmmA0iR" role="3EZMnx">
+        <property role="2czwfO" value="---------------" />
         <ref role="1NtTu8" to="86kt:3lcKR8aBGkb" resolve="entities" />
         <node concept="2iRkQZ" id="3okqQmmA0iT" role="2czzBx" />
         <node concept="3F0ifn" id="1D8fLg5hDyE" role="2czzBI">
@@ -674,6 +681,12 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+        <node concept="tppnM" id="5wSz0kzyfoO" role="sWeuL">
+          <node concept="27z8qx" id="5wSz0kzyfv_" role="3F10Kt">
+            <property role="3$6WeP" value="15" />
+            <property role="2hoDZC" value="hQhnRQp/PIXELS" />
           </node>
         </node>
       </node>
@@ -763,9 +776,6 @@
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
       <node concept="2iRkQZ" id="3OPyh9HNrCf" role="2iSdaV" />
-      <node concept="VPXOz" id="3OPyh9HNrFb" role="3F10Kt">
-        <property role="VOm3f" value="true" />
-      </node>
       <node concept="3EZMnI" id="5yfUVbwCKpD" role="3EZMnx">
         <node concept="3F0ifn" id="5yfUVbwCKpE" role="3EZMnx">
           <property role="3F0ifm" value="The environment entities in this model are:" />
@@ -2402,6 +2412,7 @@
         </node>
         <node concept="3F0A7n" id="6dSewhkKjFY" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
           <node concept="Vb9p2" id="6dSewhkU1pY" role="3F10Kt">
             <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
@@ -2423,6 +2434,7 @@
         </node>
         <node concept="3F0A7n" id="6dSewhkPeEL" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         </node>
         <node concept="3F0ifn" id="6dSewhkPeJn" role="3EZMnx">
           <property role="3F0ifm" value="are on initialisation distributed " />
@@ -2454,6 +2466,7 @@
         </node>
         <node concept="3F0A7n" id="60Hvi7s89zU" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
           <node concept="Vb9p2" id="60Hvi7s89zZ" role="3F10Kt">
             <property role="Vbekb" value="g1_k_vY/BOLD" />
           </node>
@@ -3523,6 +3536,7 @@
       <node concept="pVoyu" id="5yfUVbwzCwO" role="3F10Kt">
         <property role="VOm3f" value="true" />
       </node>
+      <node concept="VPM3Z" id="5wSz0kzIdB8" role="3F10Kt" />
     </node>
     <node concept="14StLt" id="5yfUVbwKIaY" role="V601i">
       <property role="TrG5h" value="subsection" />
@@ -3540,6 +3554,7 @@
       <node concept="VSNWy" id="5yfUVbwKIqt" role="3F10Kt">
         <property role="1lJzqX" value="18" />
       </node>
+      <node concept="VPM3Z" id="5wSz0kzIdBl" role="3F10Kt" />
     </node>
     <node concept="14StLt" id="7gxBiwsbhVY" role="V601i">
       <property role="TrG5h" value="subsubsection" />
@@ -4744,6 +4759,7 @@
         </node>
         <node concept="3F0A7n" id="6iw2eE2PV1S" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         </node>
         <node concept="3F0ifn" id="6iw2eE2PVv9" role="3EZMnx">
           <property role="3F0ifm" value="is used in" />
