@@ -37,6 +37,9 @@
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="8954657570917870539" name="jetbrains.mps.lang.editor.structure.TransformationLocation_ContextAssistant" flags="ng" index="2j_NTm" />
+      <concept id="6820251943131810950" name="jetbrains.mps.lang.editor.structure.TableComponentStyleClassItem" flags="ln" index="2jF6I7">
+        <property id="6820251943131810955" name="tableComponent" index="2jF6Ia" />
+      </concept>
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
@@ -397,6 +400,9 @@
           </node>
           <node concept="VPXOz" id="6Uof7ahp_3G" role="3F10Kt">
             <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2jF6I7" id="6iw2eE58pLU" role="3F10Kt">
+            <property role="2jF6Ia" value="5UApK7d2wMa/VERTICAL_COLLECTION" />
           </node>
         </node>
         <node concept="3F0ifn" id="7y2oNvtzZh" role="3EZMnx">
@@ -3748,10 +3754,13 @@
     <ref role="1XX52x" to="86kt:5p5RAoTaflN" resolve="TODO_Array" />
     <node concept="3EZMnI" id="5AVjrpYXjnp" role="2wV5jI">
       <node concept="3F0ifn" id="5AVjrpYXjnr" role="3EZMnx">
-        <property role="3F0ifm" value="Array" />
+        <property role="3F0ifm" value="Array of" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="2iRfu4" id="5AVjrpYXjns" role="2iSdaV" />
+      <node concept="3F1sOY" id="6iw2eE5nmA7" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6iw2eE5nm_V" resolve="inner" />
+      </node>
       <node concept="3F0ifn" id="5AVjrpYXjnz" role="3EZMnx">
         <property role="3F0ifm" value="(size " />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
