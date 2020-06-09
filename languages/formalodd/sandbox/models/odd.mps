@@ -1344,6 +1344,14 @@
         <property role="TrG5h" value="tolerance" />
         <property role="QtYJw" value="this number reflects half the range for accepting char as positive, with middle value the IDM" />
         <node concept="ZOwps" id="3M5MOtLapCC" role="zGXb3" />
+        <node concept="2jQCjV" id="6iw2eE5$bLM" role="2oy9Oj">
+          <node concept="2oK_Am" id="6iw2eE5$bLS" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="26lliW" id="6iw2eE5$bLV" role="2jQCjT">
+            <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$3m" role="25gc1v">
         <property role="TrG5h" value="#positive-interactions" />
@@ -1469,7 +1477,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApC" role="Qgzvn">
-        <property role="TrG5h" value="max-judgement" />
+        <property role="TrG5h" value="max-judgment" />
         <property role="QtYJw" value="setting up tolerance value for each student" />
         <node concept="ZOwps" id="39v_dEyCApD" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApE" role="2oy9Oj">
@@ -1576,7 +1584,7 @@
         </node>
       </node>
       <node concept="1wg3SR" id="4qxfPPPteTW" role="1w1JPE">
-        <property role="TrG5h" value="universityRelationship" />
+        <property role="TrG5h" value="university-relationship" />
         <property role="1Jtsb0" value="true" />
         <property role="2QSBU6" value="students have relationships with other students , the relationships are 2 directionals (are different in each direction)" />
         <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
@@ -1649,7 +1657,7 @@
           </node>
         </node>
         <node concept="3D9oHp" id="52HbUMT_7B8" role="3D9rx_">
-          <ref role="3D9oHq" node="39v_dEyCApC" resolve="max-judgement" />
+          <ref role="3D9oHq" node="39v_dEyCApC" resolve="max-judgment" />
           <node concept="3gPasJ" id="52HbUMT_7Bg" role="3D3j2x">
             <property role="3gPasI" value="0.1" />
             <property role="3gPasG" value="0.5" />
@@ -1689,7 +1697,7 @@
             </node>
             <node concept="26lliW" id="52HbUMU0koV" role="3DlxQd">
               <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgement" />
+              <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
             </node>
           </node>
           <node concept="ZOwox" id="52HbUMU0koy" role="3gPaqv">
