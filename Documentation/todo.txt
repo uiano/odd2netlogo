@@ -1,7 +1,10 @@
 TODO list for development of ODD2Netlogo
-- correct code generation for MARG: positive-interaction, free-interaction, learn-about, init
+- correct access to link attributes
+- correct handling of element-wise (new variables)
+- generate slider for num-external-chracteristic
+- correct code generation for MARG: positive-interaction, learn-about, init
 - 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
-- define function parameters as entities (not types)
+- define function parameters as entities (not types), sort parameters of functions
 - allow affects all/any (env / entity) - code gen correct
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
@@ -40,7 +43,8 @@ TODO for Martin
 - adjust virtual packages for editor and other aspects to match packages in structure
 - copy documentation 2019 and earlier into git: papers, reports 445, ...
 - good editor for optional parts: boolean attributes - should have a text for present and another text for not present
-- constraints that names cannot be the same
+- constraints that names cannot be the same, maybe related to INamedConcept: All primitives, global and agent variable names, and procedure names share a single global case-insensitive namespace; local names (let variables and the names of procedure inputs) may not shadow global names or each other. Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
+- constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
 - localize codegen
 - remove unused nameforentity editors
 - better editor display for increment, decrement, set
