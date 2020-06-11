@@ -1488,7 +1488,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApF" role="Qgzvn">
-        <property role="TrG5h" value="chararacteristics-learned-in-interaction" />
+        <property role="TrG5h" value="amount-learned-in-interaction" />
         <property role="QtYJw" value="speed of learning" />
         <node concept="ZOwps" id="39v_dEyCApG" role="zGXb3" />
         <node concept="21jJIL" id="39v_dEyCApH" role="2oy9Oj">
@@ -1633,7 +1633,7 @@
           </node>
         </node>
         <node concept="3D9oHp" id="52HbUMT_7C9" role="3D9rx_">
-          <ref role="3D9oHq" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
+          <ref role="3D9oHq" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
           <node concept="3DbZFg" id="52HbUMTDwfz" role="3D3j2x">
             <node concept="2oK_Am" id="52HbUMTDwf$" role="3DbZFh">
               <property role="2oK_Ap" value="1" />
@@ -2063,7 +2063,7 @@
       </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
         <property role="TrG5h" value="evaluate-interaction" />
-        <property role="2QSBU6" value="evaluation of the interaction" />
+        <property role="2QSBU6" value="evaluation of the interaction from me to other" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
           <property role="TrG5h" value="is-positive-me" />
@@ -2124,11 +2124,11 @@
         <property role="2QSBU6" value="learn characteristics during interaction" />
         <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
-          <property role="TrG5h" value="learned-characteristics" />
+          <property role="TrG5h" value="learned-indices" />
           <node concept="2gXKin" id="39v_dEyFGku" role="RZfIc">
             <node concept="26lliW" id="39v_dEyFGkB" role="2gXKik">
               <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApF" resolve="chararacteristics-learned-in-interaction" />
+              <ref role="26lliz" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
             </node>
             <node concept="26lliW" id="39v_dEyFGkE" role="2gXKil">
               <property role="1dr8U9" value="5yfUVburW9F/other" />
@@ -2139,7 +2139,7 @@
         <node concept="2qfAsZ" id="39v_dEyFGkN" role="18tn1X">
           <ref role="2rWCsu" node="5p5RAoTafl6" resolve="known-indices" />
           <node concept="RLbTy" id="39v_dEyFGkX" role="2rWCss">
-            <ref role="RLbTH" node="39v_dEyE917" resolve="learned-characteristics" />
+            <ref role="RLbTH" node="39v_dEyE917" resolve="learned-indices" />
           </node>
         </node>
         <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
