@@ -126,6 +126,12 @@
         <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
+      <concept id="2473444682900410212" name="formalodd.structure.TODO_Indices" flags="ng" index="2HyfYL">
+        <child id="2473444682900410213" name="inner" index="2HyfYK" />
+      </concept>
+      <concept id="2473444682901074821" name="formalodd.structure.TODO_Set" flags="ng" index="2HHGdg">
+        <child id="2473444682901074823" name="inner" index="2HHGdi" />
+      </concept>
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="2146025148706098368" name="formalodd.structure.TODO_EntityAccess" flags="ng" index="2QpFD0">
         <reference id="2146025148706098369" name="entity" index="2QpFD1" />
@@ -1603,19 +1609,15 @@
         <node concept="ZOwpH" id="5p5RAoTafl6" role="2gUEkT">
           <property role="TrG5h" value="known-indices" />
           <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
-          <node concept="1JriGl" id="5AVjrpZ0i3w" role="zGXb3">
-            <node concept="26lliW" id="39v_dEyCAqW" role="BjBxy">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
-              <ref role="26lliz" node="39v_dEyCApp" resolve="num-internal-characteristics" />
-            </node>
-            <node concept="ZOwps" id="6iw2eE5pPgS" role="3xZm6h" />
-          </node>
           <node concept="1dm0fp" id="3M5MOtLUknb" role="2oy9Oj" />
           <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheO">
             <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
             <node concept="XAmFv" id="1R8dC2EI4ci" role="2IGf3i">
               <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
             </node>
+          </node>
+          <node concept="2HHGdg" id="29jsdmfYwYB" role="zGXb3">
+            <node concept="ZOwps" id="29jsdmfYwYH" role="2HHGdi" />
           </node>
         </node>
       </node>
@@ -2130,9 +2132,11 @@
               <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
             </node>
-            <node concept="26lliW" id="39v_dEyFGkE" role="2gXKil">
-              <property role="1dr8U9" value="5yfUVburW9F/other" />
-              <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+            <node concept="2HyfYL" id="29jsdmfTrdQ" role="2gXKil">
+              <node concept="26lliW" id="29jsdmfTrdW" role="2HyfYK">
+                <property role="1dr8U9" value="5yfUVburW9F/other" />
+                <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+              </node>
             </node>
           </node>
         </node>

@@ -1,7 +1,6 @@
 TODO list for development of ODD2Netlogo
-- correct access to link attributes
 - correct handling of element-wise (new variables)
-- correct code generation for MARG: positive-interaction, learn-about, main
+- correct code generation for MARG: positive-interaction, main
 - 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
 - define function parameters as entities (not types), sort parameters of functions
 - allow affects all/any (env / entity) - code gen correct
