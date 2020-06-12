@@ -7201,7 +7201,7 @@
                   </node>
                 </node>
                 <node concept="la8eA" id="29jsdmg3G0y" role="lcghm">
-                  <property role="lacIc" value="] of other" />
+                  <property role="lacIc" value="] of _other" />
                 </node>
               </node>
             </node>
