@@ -1,6 +1,4 @@
 TODO list for development of ODD2Netlogo
-- correct handling of element-wise (new variables)
-- correct code generation for MARG: positive-interaction, main
 - 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
 - define function parameters as entities (not types), sort parameters of functions
 - allow affects all/any (env / entity) - code gen correct
@@ -23,6 +21,7 @@ TODO list for development of ODD2Netlogo
 - recheck all constraints
 - make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
 - improve codegen for element-wise
+- fill netlogo info
 
 TODO later
 - create predefined UDAs shape, size, colour
