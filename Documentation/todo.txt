@@ -23,15 +23,26 @@ TODO list for development of ODD2Netlogo
 - improve codegen for element-wise
 - fill netlogo info
 
+TO DO (from Themis)
+Rename global model parameters to model parameters
+Rename relationships to network
+Rename now
+
+
 TODO later
 - create predefined UDAs shape, size, colour
 
 TODO for Martin
-2. create editor for rationale
-3. differentiate between user input text and template text (font, colour, ...)
-4. make boxes around the proper syntactic entities (actions, interactions)
+2. create editor for rationale (fix the rationale editor for Prediction, Scales and Emergence)
+3. make editor for expressions
+4. differentiate between user input text and template text (font, colour, ...)
+- make boxes around the proper syntactic entities (actions, interactions)
 5. make adding of interactions possible in UI
+- create user instructions and insert option list in the scheduling and the procedure editor
+- make sure that an action specification can be deleted
 - experiments editor
+- ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted
+- ensure that when the user creates something , she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
 - fix editors (references)
 - proper indent in editor (see condionalAction)
 - recreate MARG and fix UI on the way
