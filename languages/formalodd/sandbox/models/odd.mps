@@ -2041,6 +2041,13 @@
           </node>
         </node>
       </node>
+      <node concept="2lNc1x" id="3oOohpo8qBL" role="2GyEu2">
+        <property role="TrG5h" value="abc" />
+        <property role="2QSBU6" value="fdsfs" />
+        <node concept="2lNc1w" id="3oOohpo8qD6" role="18tn1Z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
+      </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
         <property role="TrG5h" value="evaluate-interaction" />
         <property role="2QSBU6" value="evaluation of the interaction from me to other" />
@@ -2187,7 +2194,7 @@
         <property role="XAmFg" value="The purpose of the study is to explore under whether university students can experience intense marginalisation (which is how we defined bullying) by the process of selecting interaction partners. " />
       </node>
       <node concept="XAmFv" id="ALSMvQuLMX" role="1BQToi">
-        <property role="XAmFg" value="For everyone interested in inclusion- exclusion and bullying phenomena." />
+        <property role="XAmFg" value="For everyone interested in inclusion-, exclusion- and bullying phenomena." />
       </node>
       <node concept="XAmFv" id="ALSMvQuLMV" role="1BQTog">
         <property role="XAmFg" value="Is it possible for bullying to emerge from an ethically acceptable action such as choosing an interaction partner?" />

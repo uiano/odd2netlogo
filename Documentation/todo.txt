@@ -22,9 +22,11 @@ TODO list for development of ODD2Netlogo
 - make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
 - improve codegen for element-wise
 - fill netlogo info
+- put make actions and functions into the same category
 
 TODO later
 - create predefined UDAs shape, size, colour
+- make sections of ODD collapsable
 
 TODO for Martin
 2. create editor for rationale (fix the rationale editor for Prediction, Scales and Emergence)
