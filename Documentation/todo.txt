@@ -1,5 +1,5 @@
 TODO list for development of ODD2Netlogo
-- 3 scenarios for MARG = 3 experiments, intvalue -> repetitions
+- 2 scenarios for MARG = 2 experiments, intvalue -> repetitions
 - define function parameters as entities (not types), sort parameters of functions
 - allow affects all/any (env / entity) - code gen correct
 - make partner in Interaction an EntityReference
@@ -22,12 +22,6 @@ TODO list for development of ODD2Netlogo
 - make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
 - improve codegen for element-wise
 - fill netlogo info
-
-TO DO (from Themis)
-Rename global model parameters to model parameters
-Rename relationships to network
-Rename now
-
 
 TODO later
 - create predefined UDAs shape, size, colour

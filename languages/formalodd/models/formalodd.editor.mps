@@ -634,7 +634,7 @@
       </node>
       <node concept="3EZMnI" id="4GwBkRrF$C" role="3EZMnx">
         <node concept="3F0ifn" id="4GwBkRrF$D" role="3EZMnx">
-          <property role="3F0ifm" value="The global model parameters are:" />
+          <property role="3F0ifm" value="The model parameters are:" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="2iRfu4" id="4GwBkRrF$E" role="2iSdaV" />
@@ -740,18 +740,18 @@
       </node>
       <node concept="3F0ifn" id="6ow5IfzodCX" role="3EZMnx" />
       <node concept="3F0ifn" id="RwtFpHTD6s" role="3EZMnx">
-        <property role="3F0ifm" value="Relationships" />
+        <property role="3F0ifm" value="Networks" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
       <node concept="3EZMnI" id="7qp8jK7vQzT" role="3EZMnx">
         <node concept="2iRfu4" id="7qp8jK7vQzU" role="2iSdaV" />
         <node concept="3F0ifn" id="7qp8jK7vQzc" role="3EZMnx">
-          <property role="3F0ifm" value="The relationships in this model are:" />
+          <property role="3F0ifm" value="The networks in this model are:" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="3F2HdR" id="7qp8jK7xuFM" role="3EZMnx">
           <property role="2czwfO" value="," />
-          <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
+          <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="networks" />
           <node concept="2iRfu4" id="7qp8jK7xuFO" role="2czzBx" />
           <node concept="2w$q5c" id="7qp8jK7z7if" role="78xua">
             <node concept="2aJ2om" id="7qp8jK7Aoup" role="2w$qW5">
@@ -765,7 +765,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="RwtFpHTD5T" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
+        <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="networks" />
         <node concept="2iRkQZ" id="RwtFpHTD5V" role="2czzBx" />
         <node concept="2o9xnK" id="7qp8jK7ueg8" role="2gpyvW">
           <node concept="3clFbS" id="7qp8jK7ueg9" role="2VODD2">
@@ -784,7 +784,7 @@
                   <node concept="2OqwBi" id="5yfUVbwAXDP" role="2Oq$k0">
                     <node concept="pncrf" id="5yfUVbwAXt3" role="2Oq$k0" />
                     <node concept="3Tsc0h" id="5yfUVbwAXZM" role="2OqNvi">
-                      <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="relationships" />
+                      <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="networks" />
                     </node>
                   </node>
                   <node concept="1v1jN8" id="5yfUVbwB537" role="2OqNvi" />
@@ -2233,7 +2233,7 @@
           <node concept="1sVBvm" id="5iGq3FoQyUY" role="1sWHZn">
             <node concept="3F2HdR" id="5iGq3FoQyUZ" role="2wV5jI">
               <property role="2czwfO" value="----" />
-              <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
+              <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="networks" />
               <node concept="2iRkQZ" id="5iGq3FoQyV0" role="2czzBx" />
               <node concept="2w$q5c" id="5iGq3FoQyV1" role="78xua">
                 <node concept="2aJ2om" id="5iGq3FoQyV2" role="2w$qW5">
@@ -2257,7 +2257,7 @@
                       </node>
                     </node>
                     <node concept="3Tsc0h" id="5iGq3FoQ$Dw" role="2OqNvi">
-                      <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="relationships" />
+                      <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="networks" />
                     </node>
                   </node>
                   <node concept="1v1jN8" id="5iGq3FoQFqB" role="2OqNvi" />
@@ -2369,7 +2369,7 @@
       <node concept="3EZMnI" id="7qp8jK78Ykb" role="3EZMnx">
         <node concept="2iRfu4" id="7qp8jK78Ykc" role="2iSdaV" />
         <node concept="3F0ifn" id="RwtFpHVAt$" role="3EZMnx">
-          <property role="3F0ifm" value="The relationship" />
+          <property role="3F0ifm" value="The network" />
         </node>
         <node concept="3F0A7n" id="RwtFpHVAt_" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -2412,7 +2412,7 @@
       <node concept="3EZMnI" id="5p5RAoTdeEk" role="3EZMnx">
         <node concept="VPM3Z" id="5p5RAoTdeEm" role="3F10Kt" />
         <node concept="3F0ifn" id="5p5RAoTdeEo" role="3EZMnx">
-          <property role="3F0ifm" value="The relationship is directed:" />
+          <property role="3F0ifm" value="The network is directed:" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
         <node concept="2iRfu4" id="5p5RAoTdeEp" role="2iSdaV" />
@@ -2429,7 +2429,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="RwtFpHVAtU" role="3EZMnx">
-        <property role="3F0ifm" value="The relationship has the following attributes:" />
+        <property role="3F0ifm" value="The network has the following attributes:" />
         <node concept="Vb9p2" id="7qp8jK7ceFJ" role="3F10Kt" />
       </node>
       <node concept="3F2HdR" id="7qp8jK7koFR" role="3EZMnx">
@@ -2640,7 +2640,7 @@
       <node concept="3EZMnI" id="4qxfPPPEfpv" role="3EZMnx">
         <node concept="2iRfu4" id="4qxfPPPEfpw" role="2iSdaV" />
         <node concept="3F0ifn" id="4qxfPPPCrLx" role="3EZMnx">
-          <property role="3F0ifm" value="Initialize relationship" />
+          <property role="3F0ifm" value="Initialize network" />
         </node>
         <node concept="3F0A7n" id="4qxfPPPCrLp" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -4289,7 +4289,7 @@
     <node concept="3EZMnI" id="1R8dC2EgQxr" role="2wV5jI">
       <node concept="l2Vlx" id="1R8dC2EgQxs" role="2iSdaV" />
       <node concept="3F0ifn" id="1R8dC2EgQxt" role="3EZMnx">
-        <property role="3F0ifm" value="NOW" />
+        <property role="3F0ifm" value="The current model time" />
       </node>
       <node concept="3F0A7n" id="1R8dC2EgQyO" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:1R8dC2EgQxf" resolve="operator" />
@@ -4717,7 +4717,7 @@
         </node>
       </node>
       <node concept="3F0ifn" id="52HbUMUaFTo" role="3EZMnx">
-        <property role="3F0ifm" value="Rationales for globals" />
+        <property role="3F0ifm" value="Rationales for model parameters" />
         <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
       </node>
       <node concept="3F2HdR" id="52HbUMUaFTp" role="3EZMnx">
@@ -4780,7 +4780,7 @@
       </node>
       <node concept="3F2HdR" id="52HbUMUaHkb" role="3EZMnx">
         <property role="2czwfO" value="----" />
-        <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
+        <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="networks" />
         <node concept="2iRkQZ" id="52HbUMUaHkc" role="2czzBx" />
         <node concept="pkWqt" id="52HbUMUaHkd" role="pqm2j">
           <node concept="3clFbS" id="52HbUMUaHke" role="2VODD2">
@@ -4789,7 +4789,7 @@
                 <node concept="2OqwBi" id="52HbUMUaHkh" role="2Oq$k0">
                   <node concept="pncrf" id="52HbUMUaHki" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="52HbUMUaHZi" role="2OqNvi">
-                    <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="relationships" />
+                    <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="networks" />
                   </node>
                 </node>
                 <node concept="3GX2aA" id="52HbUMUaHkk" role="2OqNvi" />
@@ -5508,7 +5508,7 @@
       <node concept="3EZMnI" id="52HbUMUcgpy" role="3EZMnx">
         <node concept="2iRfu4" id="52HbUMUcgpz" role="2iSdaV" />
         <node concept="3F0ifn" id="52HbUMUcgp$" role="3EZMnx">
-          <property role="3F0ifm" value="The relationship" />
+          <property role="3F0ifm" value="The network" />
         </node>
         <node concept="3F0A7n" id="52HbUMUcgp_" role="3EZMnx">
           <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
@@ -5883,7 +5883,7 @@
         </node>
       </node>
       <node concept="3F2HdR" id="52HbUMUuS7X" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="relationships" />
+        <ref role="1NtTu8" to="86kt:RwtFpHTCJs" resolve="networks" />
         <node concept="2iRkQZ" id="52HbUMUuS7Z" role="2czzBx" />
         <node concept="pkWqt" id="52HbUMUKsK4" role="pqm2j">
           <node concept="3clFbS" id="52HbUMUKsK5" role="2VODD2">
@@ -5892,7 +5892,7 @@
                 <node concept="2OqwBi" id="52HbUMUKt0H" role="2Oq$k0">
                   <node concept="pncrf" id="52HbUMUKsO0" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="52HbUMUKtmv" role="2OqNvi">
-                    <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="relationships" />
+                    <ref role="3TtcxE" to="86kt:RwtFpHTCJs" resolve="networks" />
                   </node>
                 </node>
                 <node concept="3GX2aA" id="52HbUMUK$$_" role="2OqNvi" />

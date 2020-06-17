@@ -255,7 +255,7 @@
                 </node>
                 <node concept="359W_D" id="7qp8jK7L$Zw" role="37wK5m">
                   <ref role="359W_E" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
-                  <ref role="359W_F" to="86kt:RwtFpHTCJs" resolve="relationships" />
+                  <ref role="359W_F" to="86kt:RwtFpHTCJs" resolve="networks" />
                 </node>
               </node>
             </node>

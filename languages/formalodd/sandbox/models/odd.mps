@@ -211,7 +211,7 @@
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
-        <child id="999929643176201180" name="relationships" index="1w1JPE" />
+        <child id="999929643176201180" name="networks" index="1w1JPE" />
         <child id="7250805203379147680" name="syntheticAttributes" index="3AlXHa" />
         <child id="2469205658733998759" name="rationale" index="3Ovhfh" />
         <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
@@ -1397,8 +1397,8 @@
           </node>
         </node>
         <node concept="ZOwoP" id="1R8dC2ECY58" role="2oy9Oj">
-          <node concept="26lliW" id="6iw2eE5ipgj" role="R_6SO">
-            <ref role="26lliz" node="6iw2eE5ipfw" resolve="ex-ideal-chars" />
+          <node concept="26lliW" id="3oOohpnpIXK" role="R_6SO">
+            <ref role="26lliz" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
           </node>
           <node concept="2oK_Am" id="6iw2eE5ipdK" role="R_6SQ">
             <property role="2oK_Ap" value="0" />
@@ -1419,8 +1419,8 @@
           </node>
         </node>
         <node concept="ZOwoP" id="6iw2eE5ipdN" role="2oy9Oj">
-          <node concept="26lliW" id="6iw2eE5ipeD" role="R_6SO">
-            <ref role="26lliz" node="6iw2eE5fSYM" resolve="in-ideal-chars" />
+          <node concept="26lliW" id="3oOohpnpIXH" role="R_6SO">
+            <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
           </node>
           <node concept="2oK_Am" id="6iw2eE5ipdP" role="R_6SQ">
             <property role="2oK_Ap" value="0" />
@@ -1537,28 +1537,6 @@
           <property role="2rHBro" value="1" />
         </node>
       </node>
-      <node concept="ZOwpH" id="6iw2eE5fSYM" role="Qgzvn">
-        <property role="TrG5h" value="in-ideal-chars" />
-        <property role="QtYJw" value="base value for internal ideal characteristics" />
-        <node concept="ZOwps" id="6iw2eE5fSZy" role="zGXb3" />
-        <node concept="21jJIL" id="6iw2eE5fSZw" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
-        </node>
-      </node>
-      <node concept="ZOwpH" id="6iw2eE5ipfw" role="Qgzvn">
-        <property role="TrG5h" value="ex-ideal-chars" />
-        <property role="QtYJw" value="base value for internal ideal characteristics" />
-        <node concept="ZOwps" id="6iw2eE5ipfx" role="zGXb3" />
-        <node concept="21jJIL" id="6iw2eE5ipfy" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
-        </node>
-      </node>
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
         <property role="TrG5h" value="student" />
         <property role="2QSBU6" value="university students" />
@@ -1569,8 +1547,8 @@
         <node concept="RFdHg" id="4qxfPPPvE9z" role="RFdH4" />
         <node concept="21jJIL" id="4qxfPPPvE9x" role="RIgNU">
           <property role="21jJIY" value="2" />
-          <property role="21jJIV" value="1000" />
-          <property role="2rHBro" value="100" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="30" />
           <property role="21jJI7" value="1" />
         </node>
         <node concept="ZOwrR" id="22rmwLHGYvd" role="3$oDj3">
