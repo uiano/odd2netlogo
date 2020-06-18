@@ -1602,7 +1602,7 @@
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
       <node concept="3gPary" id="1R8dC2G5svz" role="2kDK7e">
-        <property role="TrG5h" value="1" />
+        <property role="TrG5h" value="experiment 1" />
         <property role="3gParY" value="5" />
         <node concept="3D1GSk" id="52HbUMTKRn$" role="3D9rx_">
           <ref role="3D1GSl" node="4xlWY3qEPkZ" resolve="student" />
@@ -1646,17 +1646,17 @@
         </node>
         <node concept="3D9oHp" id="52HbUMT_7Bj" role="3D9rx_">
           <ref role="3D9oHq" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
-          <node concept="3gPasJ" id="52HbUMT_7Bt" role="3D3j2x">
-            <property role="3gPasI" value="0.5" />
-            <property role="3gPasG" value="1" />
-            <property role="3gPasL" value="0.5" />
+          <node concept="3DbZFg" id="3oOohppwXS3" role="3D3j2x">
+            <node concept="2oK_Am" id="3oOohppwXS4" role="3DbZFh">
+              <property role="2oK_Ap" value="0" />
+            </node>
           </node>
         </node>
         <node concept="3D9oHp" id="52HbUMT_7Bw" role="3D9rx_">
           <ref role="3D9oHq" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
           <node concept="3DbZFg" id="52HbUMT_7BG" role="3D3j2x">
-            <node concept="26lliW" id="52HbUMT_7BM" role="3DbZFh">
-              <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+            <node concept="2oK_Am" id="3oOohppwXS0" role="3DbZFh">
+              <property role="2oK_Ap" value="0" />
             </node>
           </node>
         </node>
