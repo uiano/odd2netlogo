@@ -1437,6 +1437,12 @@
           <property role="21jJI7" value="1" />
         </node>
         <node concept="ZOwps" id="39v_dEyCApr" role="zGXb3" />
+        <node concept="3Ovhfo" id="3oOohppzyM2" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="3oOohppzyM4" role="2IGf3i">
+            <property role="XAmFg" value="some text" />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCAps" role="Qgzvn">
         <property role="TrG5h" value="num-external-characteristics" />
