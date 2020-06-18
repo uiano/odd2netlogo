@@ -23,6 +23,7 @@ TODO list for development of ODD2Netlogo
 - improve codegen for element-wise
 - fill netlogo info
 - put make actions and functions into the same category
+- do not have text as selectable
 
 TODO later
 - create predefined UDAs shape, size, colour
