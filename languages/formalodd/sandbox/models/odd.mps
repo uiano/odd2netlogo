@@ -2,7 +2,7 @@
 <model ref="r:11a70a87-64cd-4b20-847c-00c2f08d740c(odd)">
   <persistence version="9" />
   <languages>
-    <use id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd" version="-1" />
+    <use id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd" version="0" />
   </languages>
   <imports />
   <registry>
@@ -213,6 +213,7 @@
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
         <child id="999929643176201180" name="networks" index="1w1JPE" />
         <child id="7250805203379147680" name="syntheticAttributes" index="3AlXHa" />
+        <child id="5813355112907901457" name="scales" index="3EJEmX" />
         <child id="2469205658733998759" name="rationale" index="3Ovhfh" />
         <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
       </concept>
@@ -298,6 +299,10 @@
         <child id="2146025148701641578" name="actuals" index="2QCFRE" />
       </concept>
       <concept id="698589177998537362" name="formalodd.structure.DesignConcepts" flags="ng" index="3Zeh6P" />
+      <concept id="698589177998537369" name="formalodd.structure.InformalWithRationale" flags="ng" index="3Zeh6Y">
+        <child id="5813355112897155285" name="description" index="3DKFXT" />
+        <child id="698589177998537377" name="rationale" index="3Zeh66" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -1196,7 +1201,7 @@
     </node>
   </node>
   <node concept="ZOwpP" id="4xlWY3qEPkU">
-    <property role="TrG5h" value="MARG" />
+    <property role="TrG5h" value=" MARG" />
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
       <node concept="RZfIr" id="6iw2eE30koM" role="3AlXHa">
         <property role="TrG5h" value="exclusion-index" />
@@ -1404,6 +1409,12 @@
             <property role="2oK_Ap" value="0" />
           </node>
         </node>
+        <node concept="3Ovhfo" id="bXNtWssbqE" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="bXNtWssbqG" role="2IGf3i">
+            <property role="XAmFg" value="Theory of Norms. The ideal external values represent the cultural norms that pass to people. We use different numbers to represent different characteristics of the same type (eg hair). Numbers close in value represent characteristics that resemble. The ideal value represents the characteristic that is estimed highly by the society. If an interaction partner holds the value of this characteristic,he/she is evaluated positively in respect to this characteristic. Therefore, idealises values represent cultural expectations for agent characteristics. Different cultures value different characteristics. Thus, two agents from different cultures may have different idealised values. " />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflr" role="Qgzvn">
         <property role="TrG5h" value="ideal-internal-characteristics" />
@@ -1426,6 +1437,12 @@
             <property role="2oK_Ap" value="0" />
           </node>
         </node>
+        <node concept="3Ovhfo" id="bXNtWssbqI" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="bXNtWssbqK" role="2IGf3i">
+            <property role="XAmFg" value="Theory of Norms. The explanation is the same as with the ideal-external characteristics." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApp" role="Qgzvn">
         <property role="TrG5h" value="num-internal-characteristics" />
@@ -1437,10 +1454,10 @@
           <property role="21jJI7" value="1" />
         </node>
         <node concept="ZOwps" id="39v_dEyCApr" role="zGXb3" />
-        <node concept="3Ovhfo" id="3oOohppzyM2" role="3OvheO">
+        <node concept="3Ovhfo" id="bXNtWssbqM" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="3oOohppzyM4" role="2IGf3i">
-            <property role="XAmFg" value="some text" />
+          <node concept="XAmFv" id="bXNtWssbqO" role="2IGf3i">
+            <property role="XAmFg" value="The number represents the amount of internal characteristics each agent holds that is relevant for social interactions.These are the characteristics that the interaction partner evaluates. Therefore, we are also interested in the ideal values of these specific characteristics. As such, each agent has the same ideal internal characteristics and internal characteristics. Each value represents different modes of the same characteristic (eg brown and blonde hair) and the different position of the characteristic represents a different characteristic (for example hair and height). The position of ideal internal and internal characteristics match. All agents are assigned the same number of characteristics." />
           </node>
         </node>
       </node>
@@ -1454,6 +1471,15 @@
           <property role="2rHBro" value="10" />
           <property role="21jJI7" value="1" />
         </node>
+        <node concept="3Ovhfo" id="bXNtWssbqQ" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="bXNtWssbqS" role="2IGf3i">
+            <property role="XAmFg" value="The number represents the amount" />
+          </node>
+          <node concept="XAmFv" id="bXNtWssbqX" role="2IGf3i">
+            <property role="XAmFg" value="The explanation is the same as with the num-internal-characteristics." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApv" role="Qgzvn">
         <property role="TrG5h" value="average-characteristic" />
@@ -1464,6 +1490,12 @@
           <property role="21jJI7" value="0.01" />
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="0.5" />
+        </node>
+        <node concept="3Ovhfo" id="bXNtWssbr3" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="bXNtWssbr5" role="2IGf3i">
+            <property role="XAmFg" value="The average characgeristic represents the average value of the characteristic in the community we investigate. " />
+          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="39v_dEyCApy" role="Qgzvn">
@@ -1605,8 +1637,19 @@
           </node>
         </node>
       </node>
+      <node concept="3Zeh6Y" id="bXNtWsn4h3" role="3EJEmX">
+        <node concept="XAmFv" id="bXNtWssbqA" role="3DKFXT">
+          <property role="XAmFg" value="Each time step represents a day and therefore the simulation lasts 100 time steps, resembling thus a whole university semester. Space is not included in the model." />
+        </node>
+        <node concept="3Ovhfo" id="bXNtWssbqC" role="3Zeh66">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+        </node>
+      </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
+      <node concept="3gPary" id="bXNtWsn4h5" role="2kDK7e">
+        <property role="TrG5h" value="Unrealistic society " />
+      </node>
       <node concept="3gPary" id="1R8dC2G5svz" role="2kDK7e">
         <property role="TrG5h" value="experiment 1" />
         <property role="3gParY" value="5" />
@@ -2045,13 +2088,6 @@
             </node>
             <node concept="2W8u0B" id="39v_dExyJWo" role="26hFip" />
           </node>
-        </node>
-      </node>
-      <node concept="2lNc1x" id="3oOohpo8qBL" role="2GyEu2">
-        <property role="TrG5h" value="abc" />
-        <property role="2QSBU6" value="fdsfs" />
-        <node concept="2lNc1w" id="3oOohpo8qD6" role="18tn1Z">
-          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
