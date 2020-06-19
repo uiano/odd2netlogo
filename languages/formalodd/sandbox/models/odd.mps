@@ -208,6 +208,7 @@
         <child id="135681439422303784" name="input" index="3uwOu$" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
         <child id="8277873572982783228" name="purpose" index="1BQTrk" />
+        <child id="5813355112911201440" name="rationale4Init" index="3EUcGc" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
@@ -2365,6 +2366,15 @@
       </node>
     </node>
     <node concept="3Zeh6P" id="1R8dC2FVTzf" role="kaBC7" />
+    <node concept="3Ovhfo" id="h2iSnEiPy5" role="3EUcGc">
+      <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+      <node concept="XAmFv" id="h2iSnEiPy7" role="2IGf3i">
+        <property role="XAmFg" value="We assume that students do not know each other in the beginning. Thus known-indiced are empty, count of interactions are 0 (we also assume that past experiences do not impact university relationships), attraction is set to attitude. Attitude is considered neutral (set to attraction neutral 0.5). " />
+      </node>
+      <node concept="XAmFv" id="h2iSnEiPy9" role="2IGf3i">
+        <property role="XAmFg" value="I" />
+      </node>
+    </node>
   </node>
 </model>
 
