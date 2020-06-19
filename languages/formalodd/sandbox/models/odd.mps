@@ -70,6 +70,9 @@
       <concept id="3629783491425129924" name="formalodd.structure.TODO_ElementWise" flags="ng" index="2jDO4u">
         <child id="3629783491425129925" name="inner" index="2jDO4v" />
       </concept>
+      <concept id="3629783491418704968" name="formalodd.structure.TODO_Code" flags="ng" index="2jMlyi">
+        <child id="698589177998537374" name="rationale" index="3Zeh6T" />
+      </concept>
       <concept id="3629783491417542689" name="formalodd.structure.RandomUniform" flags="ng" index="2jQCjV">
         <child id="3629783491417542690" name="from" index="2jQCjS" />
         <child id="3629783491417542691" name="to" index="2jQCjT" />
@@ -1377,7 +1380,9 @@
         </node>
         <node concept="3Ovhfo" id="h2iSnEfCEL" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEfCEN" role="2IGf3i" />
+          <node concept="XAmFv" id="h2iSnEfCEN" role="2IGf3i">
+            <property role="XAmFg" value="Comformity to norms. Agents do not always stick to norms but they adapt their preferences by their individual tolerance. " />
+          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$3m" role="25gc1v">
@@ -1387,6 +1392,12 @@
         <node concept="2oK_Am" id="5AVjrpZ0i3n" role="2oy9Oj">
           <property role="2oK_Ap" value="0" />
         </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxp" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEiPxr" role="2IGf3i">
+            <property role="XAmFg" value="Social Exchange Theory. Interactions can lead to positive or to negative outcomes depending on the compatability of agents. The parameter registers the positive outcomes." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$3g" role="25gc1v">
         <property role="TrG5h" value="#negative-interactions" />
@@ -1395,6 +1406,12 @@
         <node concept="2oK_Am" id="5AVjrpZ0i3p" role="2oy9Oj">
           <property role="2oK_Ap" value="0" />
         </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxt" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEiPxv" role="2IGf3i">
+            <property role="XAmFg" value="Social Exchange Theory. Interactions can lead to positive or to negative outcomes depending on the compatability of agents. The parameter registers the negative outcomes." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$2H" role="25gc1v">
         <property role="TrG5h" value="#refused-interactions" />
@@ -1402,6 +1419,12 @@
         <node concept="ZOwps" id="5yfUVbwl$2L" role="zGXb3" />
         <node concept="2oK_Am" id="5AVjrpZ0i3r" role="2oy9Oj">
           <property role="2oK_Ap" value="0" />
+        </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxx" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEiPxz" role="2IGf3i">
+            <property role="XAmFg" value="We assume that when an agent perceives that the interaction partner does not want to interact he/she register the interaction as a refused interaction." />
+          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTafld" role="Qgzvn">
@@ -1678,19 +1701,31 @@
           <node concept="26lliW" id="h2iSnEfCzS" role="2oy9Oj">
             <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
           </node>
+          <node concept="3Ovhfo" id="h2iSnEiPxD" role="3OvheO">
+            <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+            <node concept="XAmFv" id="h2iSnEiPxF" role="2IGf3i">
+              <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
+            </node>
+          </node>
         </node>
         <node concept="ZOwpH" id="5p5RAoTafl6" role="2gUEkT">
           <property role="TrG5h" value="known-indices" />
           <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
           <node concept="1dm0fp" id="3M5MOtLUknb" role="2oy9Oj" />
-          <node concept="3Ovhfo" id="3M5MOtLyqY0" role="3OvheO">
-            <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-            <node concept="XAmFv" id="1R8dC2EI4ci" role="2IGf3i">
-              <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
-            </node>
-          </node>
           <node concept="2HHGdg" id="29jsdmfYwYB" role="zGXb3">
             <node concept="ZOwps" id="29jsdmfYwYH" role="2HHGdi" />
+          </node>
+          <node concept="3Ovhfo" id="h2iSnEiPxH" role="3OvheO">
+            <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+            <node concept="XAmFv" id="h2iSnEiPxJ" role="2IGf3i">
+              <property role="XAmFg" value="We assume that agents store their interaction partners internal characteristics in their memory, portrayed in the parameter called known-indices." />
+            </node>
+          </node>
+        </node>
+        <node concept="3Ovhfo" id="h2iSnEiPx_" role="3DMLvL">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEiPxB" role="2IGf3i">
+            <property role="XAmFg" value="Human relationships are two directional. One agent could have attraction A for another agent but the other agent may not return the same sentiment. University relations are relations build on the university interactions including acquaintances to study partners to friends." />
           </node>
         </node>
       </node>
@@ -1988,6 +2023,12 @@
             <property role="2oK_Ap" value="0" />
           </node>
         </node>
+        <node concept="3Ovhfo" id="h2iSnEiPy1" role="3Zeh6T">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEiPy3" role="2IGf3i">
+            <property role="XAmFg" value="Social Exchange Theory. An agent evaluates as positive the characteristic that falls into individual preference. Individual preference is formed by ideal value +- individual tolerance." />
+          </node>
+        </node>
       </node>
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
         <property role="TrG5h" value="forced-interaction" />
@@ -2031,6 +2072,12 @@
         </node>
         <node concept="2lNc1w" id="39v_dExukBA" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxL" role="3Zeh6T">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEiPxN" role="2IGf3i">
+            <property role="XAmFg" value="In a classroom setting, students do not get to choose with whom they intearct as they do not have a choice on their classmates. When they interact, we assume that they find out about their classmates' characteristics. We assume that they interact approximately with about 50% of the other students with classroom dialogues and groupwork." />
+          </node>
         </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdv" role="2GyEu2">
@@ -2146,6 +2193,12 @@
             <node concept="2W8u0B" id="39v_dExyJWo" role="26hFip" />
           </node>
         </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxP" role="3Zeh6T">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEiPxR" role="2IGf3i">
+            <property role="XAmFg" value="In opposition with forced interactions, during recess or study time, students choose with whom to interact and of course learn about the other students' characteristics. We assume again that they interact with 50% of their classmates through eating together, chatting in recess, hanging out together, studying together etc." />
+          </node>
+        </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
         <property role="TrG5h" value="evaluate-interaction" />
@@ -2204,6 +2257,12 @@
         <node concept="2lNc1w" id="4GwBkQLLdF" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxT" role="3Zeh6T">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEiPxV" role="2IGf3i">
+            <property role="XAmFg" value="Social Exchange theory. The result of the interaction is based on the compatibility of each agent’s characteristics. The agents learn characteristics about the other during interactions. The agents always know the external characteristics of the other agent and the internal characteristics known by memory and with current interaction. A positive interaction increases attraction, a negative decreases attraction." />
+          </node>
+        </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
         <property role="TrG5h" value="learn-about" />
@@ -2232,6 +2291,12 @@
         </node>
         <node concept="2lNc1w" id="4GwBkQLLe2" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
+        <node concept="3Ovhfo" id="h2iSnEiPxX" role="3Zeh6T">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEiPxZ" role="2IGf3i">
+            <property role="XAmFg" value="We assume that each agent is exposed in specific number of characteristics of their interaction partner. The characteristics are stored in memory. Sometimes the exposed characteristics are already known. " />
+          </node>
         </node>
       </node>
       <node concept="2QG2tT" id="1R8dC2F$ObN" role="250j5S">
