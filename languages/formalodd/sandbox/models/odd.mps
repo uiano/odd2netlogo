@@ -1326,6 +1326,12 @@
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
           </node>
         </node>
+        <node concept="3Ovhfo" id="h2iSnEfCCp" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEfCCr" role="2IGf3i">
+            <property role="XAmFg" value="We assume that some agent characteristics are not visible prior to an interaction and we call them internal characteristics." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflD" role="25gc1v">
         <property role="TrG5h" value="internal-characteristics" />
@@ -1350,6 +1356,12 @@
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
           </node>
         </node>
+        <node concept="3Ovhfo" id="h2iSnEfCDz" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEfCD_" role="2IGf3i">
+            <property role="XAmFg" value="We assume that some agent characteristics are not visible prior to an interaction and we call them internal characteristics." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflh" role="25gc1v">
         <property role="TrG5h" value="tolerance" />
@@ -1362,6 +1374,10 @@
           <node concept="26lliW" id="6iw2eE5$bLV" role="2jQCjT">
             <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
           </node>
+        </node>
+        <node concept="3Ovhfo" id="h2iSnEfCEL" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEfCEN" role="2IGf3i" />
         </node>
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$3m" role="25gc1v">
@@ -1576,10 +1592,10 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="1" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCwx" role="3OvheO">
-          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCwz" role="2IGf3i">
-            <property role="XAmFg" value="We assume that some agent characteristics are not visible prior to an interaction and we call them internal characteristics." />
+        <node concept="3Ovhfo" id="h2iSnEfCED" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEfCEF" role="2IGf3i">
+            <property role="XAmFg" value="Theory of Norms. For simplification all ideal characteristics have the same value." />
           </node>
         </node>
       </node>
@@ -1593,10 +1609,10 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="1" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCw_" role="3OvheO">
-          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCxE" role="2IGf3i">
-            <property role="XAmFg" value="We assume that some characteristics about an agent are conveyed prior to an interaction." />
+        <node concept="3Ovhfo" id="h2iSnEfCEH" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="h2iSnEfCEJ" role="2IGf3i">
+            <property role="XAmFg" value="Theory of Norms. For simplification all ideal characteristics have the same value." />
           </node>
         </node>
       </node>
@@ -1608,6 +1624,12 @@
           <property role="21jJI7" value="0.1" />
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="0.5" />
+        </node>
+        <node concept="3Ovhfo" id="h2iSnEfCzX" role="3OvheO">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="h2iSnEfCCn" role="2IGf3i">
+            <property role="XAmFg" value="We assume that agents have a predisposition towards others. The more a person is positive towards others the higher the initial attraction, which is the attitude." />
+          </node>
         </node>
       </node>
       <node concept="ZOwpW" id="4xlWY3qEPkZ" role="ZOwpT">
