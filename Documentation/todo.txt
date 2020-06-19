@@ -2,8 +2,11 @@ TODO list for development of ODD2Netlogo
 - 2 scenarios for MARG = 2 experiments, intvalue -> repetitions
 - partner 1 and partner 2 in Interaction
 - no me in Action
+- no need for appearance for automatic runs
+- do we need rationales for experiments? - maybe rather a description
 - define function parameters as entities (not types), sort parameters of functions
 - allow affects all/any (env / entity) - code gen correct
+- data handling in experiments and runs
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
 - wolf sheep scheduling - correct code gen ref Library
