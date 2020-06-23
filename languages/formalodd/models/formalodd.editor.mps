@@ -6292,10 +6292,15 @@
       </node>
       <node concept="3F0A7n" id="6iw2eE3ajXX" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
       </node>
       <node concept="3F0ifn" id="6iw2eE3ajXY" role="3EZMnx">
-        <property role="3F0ifm" value="has the following rationale" />
+        <property role="3F0ifm" value="describes" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="3F0A7n" id="3oOohppRESu" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:3oOohppREOr" resolve="description" />
+        <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
         <node concept="ljvvj" id="6iw2eE3akw4" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -6304,12 +6309,6 @@
         <node concept="l2Vlx" id="6iw2eE3ajY2" role="2iSdaV" />
         <node concept="lj46D" id="6iw2eE3ajY3" role="3F10Kt">
           <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F1sOY" id="6iw2eE3ajYf" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grz" resolve="rationale" />
-          <node concept="ljvvj" id="6iw2eE3ajYh" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
         </node>
         <node concept="3F0ifn" id="6iw2eE3ajY4" role="3EZMnx">
           <property role="3F0ifm" value="Each experiment is run" />
@@ -6339,7 +6338,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="6iw2eE3ak$X" role="3EZMnx">
-          <property role="3F0ifm" value="Appearance" />
+          <property role="3F0ifm" value="Size of the simulated world" />
           <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
           <node concept="ljvvj" id="6iw2eE3akAT" role="3F10Kt">
             <property role="VOm3f" value="true" />

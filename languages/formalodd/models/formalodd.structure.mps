@@ -1824,11 +1824,10 @@
       <property role="TrG5h" value="repetitions" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
-    <node concept="1TJgyj" id="7j1C2e$5grz" role="1TKVEi">
-      <property role="IQ2ns" value="8413181653841938147" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="rationale" />
-      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
+    <node concept="1TJgyi" id="3oOohppREOr" role="1TKVEl">
+      <property role="IQ2nx" value="3905853525462002971" />
+      <property role="TrG5h" value="description" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
     <node concept="1TJgyj" id="7j1C2e$5grR" role="1TKVEi">
       <property role="IQ2ns" value="8413181653841938167" />
