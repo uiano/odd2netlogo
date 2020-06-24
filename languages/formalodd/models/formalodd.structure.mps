@@ -922,7 +922,7 @@
     <ref role="1TJDcQ" node="6lHESjKCmJ_" resolve="Action" />
     <node concept="1TJgyj" id="5yfUVbsWXs8" role="1TKVEi">
       <property role="IQ2ns" value="6381578350450956040" />
-      <property role="20kJfa" value="partner" />
+      <property role="20kJfa" value="partner2" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     </node>
@@ -1399,10 +1399,12 @@
     <node concept="25R33" id="5yfUVburW9E" role="25R1y">
       <property role="3tVfz5" value="6381578350475854442" />
       <property role="TrG5h" value="me" />
+      <property role="1L1pqM" value="partner 1" />
     </node>
     <node concept="25R33" id="5yfUVburW9F" role="25R1y">
       <property role="3tVfz5" value="6381578350475854443" />
       <property role="TrG5h" value="other" />
+      <property role="1L1pqM" value="partner 2" />
     </node>
   </node>
   <node concept="1TIwiD" id="5yfUVbuMlWA">
@@ -1613,7 +1615,7 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlj">
     <property role="EcuMT" value="3840659476812055891" />
-    <property role="TrG5h" value="DataStatistics" />
+    <property role="TrG5h" value="TODO_DataStatistics" />
     <property role="3GE5qa" value="TODO_Experiments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="5yfUVbwhkGE" role="1TKVEi">
@@ -1933,7 +1935,14 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="statistics" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGlj" resolve="DataStatistics" />
+      <ref role="20lvS9" node="3lcKR8aBGlj" resolve="TODO_DataStatistics" />
+    </node>
+    <node concept="1TJgyj" id="56OEWG_t910" role="1TKVEi">
+      <property role="IQ2ns" value="5887519501875187776" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="collect" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="56OEWG_t913" resolve="TODO_DataCollect" />
     </node>
     <node concept="1TJgyi" id="52HbUMTQMxP" role="1TKVEl">
       <property role="IQ2nx" value="5813355112904206453" />
@@ -2560,6 +2569,18 @@
       <property role="20kJfa" value="inner" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="56OEWG_t913">
+    <property role="EcuMT" value="5887519501875187779" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="TODO_DataCollect" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="56OEWG_t914" role="1TKVEi">
+      <property role="IQ2ns" value="5887519501875187780" />
+      <property role="20kJfa" value="attribute" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     </node>
   </node>
 </model>

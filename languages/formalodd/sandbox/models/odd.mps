@@ -123,7 +123,7 @@
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
-        <reference id="6381578350450956040" name="partner" index="24v3MU" />
+        <reference id="6381578350450956040" name="partner2" index="24v3MU" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
@@ -183,7 +183,7 @@
         <property id="6381578350498456053" name="size" index="27hOD7" />
         <property id="6381578350498455269" name="shape" index="27hRln" />
       </concept>
-      <concept id="3840659476812055891" name="formalodd.structure.DataStatistics" flags="ng" index="ZOwox">
+      <concept id="3840659476812055891" name="formalodd.structure.TODO_DataStatistics" flags="ng" index="ZOwox">
         <property id="6381578350506769577" name="kind" index="2SM9sr" />
         <reference id="6381578350506625834" name="data" index="2SME2o" />
         <child id="5813355112906306081" name="dependence" index="3DlxQd" />
@@ -250,6 +250,7 @@
       <concept id="8413181653841938009" name="formalodd.structure.DataCollection" flags="ng" index="3gPapU">
         <property id="5813355112904206453" name="timesteps" index="3Dtwvp" />
         <child id="8413181653841938108" name="statistics" index="3gPaqv" />
+        <child id="5887519501875187776" name="collect" index="1OK3Ib" />
       </concept>
       <concept id="8413181653841938094" name="formalodd.structure.Characterization" flags="ng" index="3gPaqd" />
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
@@ -297,6 +298,9 @@
       <concept id="2469205658733998766" name="formalodd.structure.TODO_Rationale" flags="ng" index="3Ovhfo">
         <property id="2469205658733998769" name="Base4Rationale" index="3Ovhf7" />
         <child id="7370097229710174387" name="sentence" index="2IGf3i" />
+      </concept>
+      <concept id="5887519501875187779" name="formalodd.structure.TODO_DataCollect" flags="ng" index="1OK3I8">
+        <reference id="5887519501875187780" name="attribute" index="1OK3If" />
       </concept>
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
@@ -704,6 +708,7 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qt" role="ZOwpT">
         <property role="TrG5h" value="wolf" />
+        <property role="2QSBU6" value="wolves" />
         <node concept="ZOwrR" id="qdXC$xz0Q$" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XmI/grey" />
         </node>
@@ -721,6 +726,7 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qv" role="ZOwpT">
         <property role="TrG5h" value="sheep" />
+        <property role="2QSBU6" value="sheep" />
         <node concept="ZOwrR" id="qdXC$xz0Qy" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XlP/white" />
         </node>
@@ -1557,6 +1563,7 @@
       </node>
       <node concept="ZOwpH" id="h2iSnEfCyG" role="Qgzvn">
         <property role="TrG5h" value="attitude" />
+        <property role="QtYJw" value="initial attraction between students" />
         <node concept="ZOwps" id="h2iSnEfCzK" role="zGXb3" />
         <node concept="21jJIL" id="h2iSnEfCzP" role="2oy9Oj">
           <property role="21jJIY" value="0" />
@@ -1839,6 +1846,27 @@
         </node>
         <node concept="3gPapU" id="52HbUMTPjer" role="3DoAh7">
           <property role="3Dtwvp" value="0" />
+          <node concept="1OK3I8" id="56OEWG_v_RN" role="1OK3Ib">
+            <ref role="1OK3If" node="4qxfPPPteTY" resolve="attraction" />
+          </node>
+          <node concept="1OK3I8" id="56OEWG_v_SF" role="1OK3Ib">
+            <ref role="1OK3If" node="5p5RAoTaflD" resolve="internal-characteristics" />
+          </node>
+          <node concept="1OK3I8" id="56OEWG_v_SI" role="1OK3Ib">
+            <ref role="1OK3If" node="5p5RAoTaflx" resolve="external-characteristics" />
+          </node>
+          <node concept="1OK3I8" id="56OEWG_v_SM" role="1OK3Ib">
+            <ref role="1OK3If" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+          </node>
+          <node concept="1OK3I8" id="56OEWG_v_SR" role="1OK3Ib">
+            <ref role="1OK3If" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+          </node>
+          <node concept="1OK3I8" id="56OEWG_v_SX" role="1OK3Ib">
+            <ref role="1OK3If" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+          </node>
+          <node concept="1OK3I8" id="56OEWG_v_T4" role="1OK3Ib">
+            <ref role="1OK3If" node="5p5RAoTaflh" resolve="tolerance" />
+          </node>
           <node concept="ZOwox" id="52HbUMU0kow" role="3gPaqv">
             <property role="2SM9sr" value="39v_dEywMSQ/Average" />
             <ref role="2SME2o" node="6iw2eE30kp2" resolve="excluded-students" />
