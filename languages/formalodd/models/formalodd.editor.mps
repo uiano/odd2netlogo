@@ -3532,7 +3532,7 @@
     <node concept="3EZMnI" id="7MNWMNC7dYV" role="2wV5jI">
       <node concept="2iRkQZ" id="5iGq3Fp4fVR" role="2iSdaV" />
       <node concept="3F0ifn" id="7MNWMNC7dZ4" role="3EZMnx">
-        <property role="3F0ifm" value="Data collection" />
+        <property role="3F0ifm" value="Data to be collected in experiments" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
       <node concept="3F1sOY" id="5iGq3Fp4fVq" role="3EZMnx">
@@ -4765,7 +4765,7 @@
   </node>
   <node concept="24kQdi" id="52HbUMTYN8G">
     <property role="3GE5qa" value="TODO_Experiments" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGlj" resolve="TODO_DataStatistics" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGlj" resolve="REMOVE_DataStatistics" />
     <node concept="3EZMnI" id="52HbUMTYN8I" role="2wV5jI">
       <node concept="l2Vlx" id="52HbUMTYN8J" role="2iSdaV" />
       <node concept="3F0ifn" id="52HbUMTYN8K" role="3EZMnx">
@@ -6387,15 +6387,6 @@
           <property role="3F0ifm" value="Data collection" />
           <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
           <node concept="ljvvj" id="6iw2eE3akJW" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="6iw2eE3ajYI" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:52HbUMTNOJF" resolve="dataCollection" />
-          <node concept="lj46D" id="6iw2eE3ajYJ" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="6iw2eE3ajYK" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>

@@ -2,7 +2,11 @@ TODO list for development of ODD2Netlogo
 - complete correct codeGen MARG: informal model text, synthetic, data collection, plot excluded students, experiment metric
 - define function parameters as entities (not types), sort parameters of functions
 - data handling in experiments and runs
+- data collection time should be per experiment
 - remove "of partner 1" for actions
+- make the whole experiments optional and the data collection mandatory
+- create behaviour for attributes to select kinds of attributes (network and agent)
+- remove DataCollect and use AttributeReference instead?
 - fill netlogo info
 - disallow changing names outside the definition
 - make partner in Interaction an EntityReference
