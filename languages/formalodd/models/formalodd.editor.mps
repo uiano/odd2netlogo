@@ -3642,6 +3642,10 @@
         </node>
       </node>
     </node>
+    <node concept="14StLt" id="2f1jPQEXKKd" role="V601i">
+      <property role="TrG5h" value="seletable" />
+      <node concept="VPM3Z" id="2f1jPQEXKLC" role="3F10Kt" />
+    </node>
     <node concept="14StLt" id="5yfUVbwzCw$" role="V601i">
       <property role="TrG5h" value="section" />
       <node concept="27yT$n" id="6Uof7aidt1r" role="3F10Kt">
@@ -3657,6 +3661,11 @@
       </node>
       <node concept="pVoyu" id="5yfUVbwzCwO" role="3F10Kt">
         <property role="VOm3f" value="true" />
+      </node>
+      <node concept="3Xmtl4" id="2f1jPQEXKLL" role="3F10Kt">
+        <node concept="1wgc9g" id="2f1jPQEXL1X" role="3XvnJa">
+          <ref role="1wgcnl" node="2f1jPQEXKKd" resolve="seletable" />
+        </node>
       </node>
     </node>
     <node concept="14StLt" id="5yfUVbwKIaY" role="V601i">
@@ -3675,6 +3684,11 @@
       <node concept="VSNWy" id="5yfUVbwKIqt" role="3F10Kt">
         <property role="1lJzqX" value="18" />
       </node>
+      <node concept="3Xmtl4" id="2f1jPQEXL26" role="3F10Kt">
+        <node concept="1wgc9g" id="2f1jPQEXL2g" role="3XvnJa">
+          <ref role="1wgcnl" node="2f1jPQEXKKd" resolve="seletable" />
+        </node>
+      </node>
     </node>
     <node concept="14StLt" id="7gxBiwsbhVY" role="V601i">
       <property role="TrG5h" value="subsubsection" />
@@ -3691,6 +3705,11 @@
       </node>
       <node concept="Vb9p2" id="7gxBiwsbhXr" role="3F10Kt">
         <property role="Vbekb" value="g1_tSyq/BOLD_ITALIC" />
+      </node>
+      <node concept="3Xmtl4" id="2f1jPQEXL2p" role="3F10Kt">
+        <node concept="1wgc9g" id="2f1jPQEXL2z" role="3XvnJa">
+          <ref role="1wgcnl" node="2f1jPQEXKKd" resolve="seletable" />
+        </node>
       </node>
     </node>
     <node concept="14StLt" id="5yfUVbx0PFg" role="V601i">
