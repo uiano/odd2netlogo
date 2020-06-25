@@ -3542,21 +3542,24 @@
         <property role="3F0ifm" value="Experiments" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
-      <node concept="3F2HdR" id="7MNWMNC7dZq" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNC5fby" resolve="experiments" />
-        <node concept="l2Vlx" id="7MNWMNC7dZr" role="2czzBx" />
-        <node concept="pj6Ft" id="7MNWMNC7dZs" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="lj46D" id="7MNWMNC7dZt" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="7MNWMNC7dZu" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F0ifn" id="5iGq3Fp4fXh" role="2czzBI">
-          <property role="3F0ifm" value="Press enter to add experiments" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+      <node concept="3EZMnI" id="2f1jPQEjtXJ" role="3EZMnx">
+        <node concept="2iRfu4" id="2f1jPQEjtXK" role="2iSdaV" />
+        <node concept="3F2HdR" id="2f1jPQEjtY2" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:7MNWMNC5fby" resolve="experiments" />
+          <node concept="l2Vlx" id="2f1jPQEjtY3" role="2czzBx" />
+          <node concept="pj6Ft" id="2f1jPQEjtY4" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="lj46D" id="2f1jPQEjtY5" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="ljvvj" id="2f1jPQEjtY6" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+          <node concept="3F0ifn" id="2f1jPQEjtY7" role="2czzBI">
+            <property role="3F0ifm" value="Press enter to add experiments" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          </node>
         </node>
       </node>
     </node>
@@ -6290,106 +6293,112 @@
   <node concept="24kQdi" id="6iw2eE3ajXS">
     <property role="3GE5qa" value="TODO_Experiments" />
     <ref role="1XX52x" to="86kt:7j1C2e$5gr1" resolve="ExperimentDefinition" />
-    <node concept="3EZMnI" id="6iw2eE3ajXU" role="2wV5jI">
-      <node concept="l2Vlx" id="6iw2eE3ajXV" role="2iSdaV" />
-      <node concept="3F0ifn" id="6iw2eE3ajXW" role="3EZMnx">
-        <property role="3F0ifm" value="experiment" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="6iw2eE3ajXX" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
-      </node>
-      <node concept="3F0ifn" id="6iw2eE3ajXY" role="3EZMnx">
-        <property role="3F0ifm" value="describes" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0A7n" id="3oOohppRESu" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3oOohppREOr" resolve="description" />
-        <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
-        <node concept="ljvvj" id="6iw2eE3akw4" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
-      <node concept="3EZMnI" id="6iw2eE3ajY1" role="3EZMnx">
-        <node concept="l2Vlx" id="6iw2eE3ajY2" role="2iSdaV" />
-        <node concept="lj46D" id="6iw2eE3ajY3" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3F0ifn" id="6iw2eE3ajY4" role="3EZMnx">
-          <property role="3F0ifm" value="Each experiment is run" />
+    <node concept="3EZMnI" id="2f1jPQEjuaU" role="2wV5jI">
+      <node concept="2iRfu4" id="2f1jPQEjuaV" role="2iSdaV" />
+      <node concept="3EZMnI" id="6iw2eE3ajXU" role="3EZMnx">
+        <node concept="l2Vlx" id="6iw2eE3ajXV" role="2iSdaV" />
+        <node concept="3F0ifn" id="6iw2eE3ajXW" role="3EZMnx">
+          <property role="3F0ifm" value="experiment" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
-        <node concept="3F0A7n" id="6iw2eE3ajY7" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grt" resolve="repetitions" />
+        <node concept="3F0A7n" id="6iw2eE3ajXX" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         </node>
-        <node concept="3F0ifn" id="6iw2eE3akG9" role="3EZMnx">
-          <property role="3F0ifm" value="times with the following parameter variations" />
+        <node concept="3F0ifn" id="6iw2eE3ajXY" role="3EZMnx">
+          <property role="3F0ifm" value="describes" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-          <node concept="ljvvj" id="6iw2eE3akHF" role="3F10Kt">
+        </node>
+        <node concept="3F0A7n" id="3oOohppRESu" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3oOohppREOr" resolve="description" />
+          <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
+          <node concept="ljvvj" id="6iw2eE3akw4" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
         </node>
-        <node concept="3F2HdR" id="6iw2eE3ajYz" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:52HbUMTy9v9" resolve="experimentValues" />
-          <node concept="l2Vlx" id="6iw2eE3ajY$" role="2czzBx" />
-          <node concept="pj6Ft" id="6iw2eE3ajY_" role="3F10Kt">
+        <node concept="3EZMnI" id="6iw2eE3ajY1" role="3EZMnx">
+          <node concept="l2Vlx" id="6iw2eE3ajY2" role="2iSdaV" />
+          <node concept="lj46D" id="6iw2eE3ajY3" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
-          <node concept="lj46D" id="6iw2eE3ajYA" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="ljvvj" id="6iw2eE3ajYB" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="6iw2eE3ak$X" role="3EZMnx">
-          <property role="3F0ifm" value="Size of the simulated world" />
-          <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
-          <node concept="ljvvj" id="6iw2eE3akAT" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F1sOY" id="6iw2eE3akBT" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:1z3v1JWOmeB" resolve="experimentWorld" />
-          <node concept="ljvvj" id="6iw2eE3akCS" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3F0ifn" id="6iw2eE3akv0" role="3EZMnx">
-          <property role="3F0ifm" value="Experiment end" />
-          <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
-          <node concept="ljvvj" id="6iw2eE3akw7" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
-        <node concept="3EZMnI" id="6iw2eE3akv1" role="3EZMnx">
-          <node concept="ljvvj" id="6iw2eE3ak$L" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-          <node concept="3F0ifn" id="6iw2eE3akv3" role="3EZMnx">
-            <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
+          <node concept="3F0ifn" id="6iw2eE3ajY4" role="3EZMnx">
+            <property role="3F0ifm" value="Each experiment is run" />
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
           </node>
-          <node concept="2iRfu4" id="6iw2eE3akv4" role="2iSdaV" />
-        </node>
-        <node concept="3F2HdR" id="6iw2eE3aky2" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:7j1C2e$5grR" resolve="simulationEnd" />
-          <node concept="l2Vlx" id="6iw2eE3aky4" role="2czzBx" />
-          <node concept="lj46D" id="6iw2eE3ak$T" role="3F10Kt">
-            <property role="VOm3f" value="true" />
+          <node concept="3F0A7n" id="6iw2eE3ajY7" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:7j1C2e$5grt" resolve="repetitions" />
           </node>
-          <node concept="ljvvj" id="6iw2eE3ak$O" role="3F10Kt">
-            <property role="VOm3f" value="true" />
+          <node concept="3F0ifn" id="6iw2eE3akG9" role="3EZMnx">
+            <property role="3F0ifm" value="times with the following parameter variations" />
+            <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+            <node concept="ljvvj" id="6iw2eE3akHF" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F2HdR" id="6iw2eE3ajYz" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:52HbUMTy9v9" resolve="experimentValues" />
+            <node concept="l2Vlx" id="6iw2eE3ajY$" role="2czzBx" />
+            <node concept="pj6Ft" id="6iw2eE3ajY_" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="lj46D" id="6iw2eE3ajYA" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="6iw2eE3ajYB" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="6iw2eE3ak$X" role="3EZMnx">
+            <property role="3F0ifm" value="Size of the simulated world" />
+            <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
+            <node concept="ljvvj" id="6iw2eE3akAT" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F1sOY" id="6iw2eE3akBT" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:1z3v1JWOmeB" resolve="experimentWorld" />
+            <node concept="ljvvj" id="6iw2eE3akCS" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="6iw2eE3akv0" role="3EZMnx">
+            <property role="3F0ifm" value="Experiment end" />
+            <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
+            <node concept="ljvvj" id="6iw2eE3akw7" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3EZMnI" id="6iw2eE3akv1" role="3EZMnx">
+            <node concept="ljvvj" id="6iw2eE3ak$L" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="6iw2eE3akv3" role="3EZMnx">
+              <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
+              <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+            </node>
+            <node concept="2iRfu4" id="6iw2eE3akv4" role="2iSdaV" />
+          </node>
+          <node concept="3F2HdR" id="6iw2eE3aky2" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:7j1C2e$5grR" resolve="simulationEnd" />
+            <node concept="l2Vlx" id="6iw2eE3aky4" role="2czzBx" />
+            <node concept="lj46D" id="6iw2eE3ak$T" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="ljvvj" id="6iw2eE3ak$O" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="6iw2eE3ajYE" role="3EZMnx">
+            <property role="3F0ifm" value="Data collection" />
+            <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
+            <node concept="ljvvj" id="6iw2eE3akJW" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
         </node>
-        <node concept="3F0ifn" id="6iw2eE3ajYE" role="3EZMnx">
-          <property role="3F0ifm" value="Data collection" />
-          <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
-          <node concept="ljvvj" id="6iw2eE3akJW" role="3F10Kt">
-            <property role="VOm3f" value="true" />
-          </node>
-        </node>
+      </node>
+      <node concept="VPXOz" id="2f1jPQEjuc4" role="3F10Kt">
+        <property role="VOm3f" value="true" />
       </node>
     </node>
   </node>
