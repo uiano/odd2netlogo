@@ -300,10 +300,12 @@
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
         <child id="2146025148701641578" name="actuals" index="2QCFRE" />
       </concept>
-      <concept id="698589177998537362" name="formalodd.structure.DesignConcepts" flags="ng" index="3Zeh6P" />
+      <concept id="698589177998537362" name="formalodd.structure.DesignConcepts" flags="ng" index="3Zeh6P">
+        <child id="698589177998537380" name="emergence" index="3Zeh63" />
+        <child id="698589177998537389" name="prediction" index="3Zeh6a" />
+      </concept>
       <concept id="698589177998537369" name="formalodd.structure.InformalWithRationale" flags="ng" index="3Zeh6Y">
         <child id="5813355112897155285" name="description" index="3DKFXT" />
-        <child id="698589177998537377" name="rationale" index="3Zeh66" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -1735,9 +1737,6 @@
         <node concept="XAmFv" id="bXNtWssbqA" role="3DKFXT">
           <property role="XAmFg" value="Each time step represents a day and therefore the simulation lasts 100 time steps, resembling thus a whole university semester. Space is not included in the model." />
         </node>
-        <node concept="3Ovhfo" id="bXNtWssbqC" role="3Zeh66">
-          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-        </node>
       </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
@@ -2568,7 +2567,10 @@
         <property role="XAmFg" value="Is it possible for bullying to emerge from an ethically acceptable action such as choosing an interaction partner?" />
       </node>
     </node>
-    <node concept="3Zeh6P" id="1R8dC2FVTzf" role="kaBC7" />
+    <node concept="3Zeh6P" id="1R8dC2FVTzf" role="kaBC7">
+      <node concept="3Zeh6Y" id="2f1jPQES7Qr" role="3Zeh63" />
+      <node concept="3Zeh6Y" id="2f1jPQES7Qt" role="3Zeh6a" />
+    </node>
     <node concept="3Ovhfo" id="h2iSnEiPy5" role="3EUcGc">
       <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
       <node concept="XAmFv" id="h2iSnEiPy7" role="2IGf3i">
