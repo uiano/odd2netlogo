@@ -137,6 +137,7 @@
         <child id="2473444682901074823" name="inner" index="2HHGdi" />
       </concept>
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
+      <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
       <concept id="2146025148706098368" name="formalodd.structure.TODO_EntityAccess" flags="ng" index="2QpFD0">
         <reference id="2146025148706098369" name="entity" index="2QpFD1" />
       </concept>
@@ -448,9 +449,11 @@
       </node>
       <node concept="2lNc1x" id="2_t31HRntdC" role="2GyEu2">
         <property role="TrG5h" value="undefined action" />
+        <node concept="Qbqaq" id="56OEWGAQ_9l" role="18tn1Z" />
       </node>
       <node concept="2lNc1x" id="2_t31HRntdG" role="2GyEu2">
         <property role="TrG5h" value="undefined action" />
+        <node concept="QcY1Q" id="56OEWGAQ_9n" role="18tn1Z" />
       </node>
       <node concept="BZNO7" id="2_t31HRthW0" role="2GyEu2">
         <property role="TrG5h" value="undefined interaction" />
@@ -470,6 +473,10 @@
       </node>
       <node concept="BZNO7" id="2_t31HRw5eN" role="2GyEu2">
         <property role="TrG5h" value="undefined interaction" />
+        <ref role="24v3MU" node="7MNWMNCnG1g" resolve="Fire" />
+        <node concept="2lNc1w" id="56OEWGAQ_9p" role="18tn1Z">
+          <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
+        </node>
       </node>
     </node>
   </node>

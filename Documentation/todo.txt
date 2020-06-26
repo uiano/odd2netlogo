@@ -1,5 +1,5 @@
 TODO list for development of ODD2Netlogo
-- complete correct codeGen MARG: informal model text, synthetic, data collection, plot excluded students, experiment metric
+- complete correct codeGen MARG: informal model text, synthetic, plot excluded students
 - define function parameters as entities (not types), sort parameters of functions
 - data handling in experiments and runs
 - data collection time should be per experiment
@@ -35,6 +35,7 @@ TODO list for development of ODD2Netlogo
 - The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
 - I do not think we need the rationales for Interaction and Stochasticity.
 - avoid showing the rationales that are not filled
+- use textgen base components in order to simplify textgen
 
 TODO later
 - create predefined UDAs shape, size, colour
