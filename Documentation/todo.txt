@@ -42,15 +42,15 @@ TODO later
 - make sections of ODD collapsable
 
 TODO for Martin
-2. create editor for rationale (fix the rationale editor for Prediction, Scales and Emergence)
+2. create editor for rationale (fix the rationale editor for Prediction, Scales and Emergence) (DONE)
 3. make editor for expressions
-4. differentiate between user input text and template text (font, colour, ...)
-- make boxes around the proper syntactic entities (actions, interactions)
-5. make adding of interactions possible in UI
+4. differentiate between user input text and template text (font, colour, ...) (DONE)
+- make boxes around the proper syntactic entities (actions, interactions) (DONE, but will probably need revisiting and editing)
+5. make adding of interactions possible in UI (DONE)
 - create user instructions and insert option list in the scheduling and the procedure editor
-- make sure that an action specification can be deleted
+- make sure that an action specification can be deleted (DONE, with the use of contextAssistant)
 - experiments editor
-- ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted
+- ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)
 - ensure that when the user creates something , she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
 - fix editors (references)
 - proper indent in editor (see condionalAction)
