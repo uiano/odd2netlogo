@@ -2244,7 +2244,7 @@
     </node>
     <node concept="25R33" id="39v_dEywMSQ" role="25R1y">
       <property role="3tVfz5" value="3629783491434196534" />
-      <property role="TrG5h" value="Average" />
+      <property role="TrG5h" value="Mean" />
       <property role="1L1pqM" value="average" />
     </node>
     <node concept="25R33" id="39v_dEywMST" role="25R1y">
@@ -2259,8 +2259,8 @@
     </node>
     <node concept="25R33" id="6iw2eE3feoN" role="25R1y">
       <property role="3tVfz5" value="7250805203383674419" />
-      <property role="TrG5h" value="StdDeviation" />
-      <property role="1L1pqM" value="stdev" />
+      <property role="TrG5h" value="StdDev" />
+      <property role="1L1pqM" value="standard deviation" />
     </node>
   </node>
   <node concept="1TIwiD" id="39v_dEyymsJ">

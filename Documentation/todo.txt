@@ -1,7 +1,5 @@
 TODO list for development of ODD2Netlogo
-- complete correct codeGen MARG: informal model text, synthetic, plot excluded students
-- create code for behavioural space
-- fill netlogo info
+- complete correct codeGen MARG: informal model text, plot excluded students
 - define function parameters as entities (not types), sort parameters of functions
 - data handling in experiments and runs
 - data collection time should be per experiment
