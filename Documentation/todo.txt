@@ -1,5 +1,7 @@
 TODO list for development of ODD2Netlogo
 - complete correct codeGen MARG: informal model text, synthetic, plot excluded students
+- create code for behavioural space
+- fill netlogo info
 - define function parameters as entities (not types), sort parameters of functions
 - data handling in experiments and runs
 - data collection time should be per experiment
@@ -7,7 +9,9 @@ TODO list for development of ODD2Netlogo
 - make the whole experiments optional and the data collection mandatory
 - create behaviour for attributes to select kinds of attributes (network and agent)
 - remove DataCollect and use AttributeReference instead?
-- fill netlogo info
+- better editor display for increment, decrement, set
+- editor input for attribute access of other
+- do not allow attribute of other for actions
 - disallow changing names outside the definition
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
@@ -42,16 +46,10 @@ TODO later
 - make sections of ODD collapsable
 
 TODO for Martin
-2. create editor for rationale (fix the rationale editor for Prediction, Scales and Emergence) (DONE)
-3. make editor for expressions
-4. differentiate between user input text and template text (font, colour, ...) (DONE)
-- make boxes around the proper syntactic entities (actions, interactions) (DONE, but will probably need revisiting and editing)
-5. make adding of interactions possible in UI (DONE)
+- make editor for expressions
 - create user instructions and insert option list in the scheduling and the procedure editor
-- make sure that an action specification can be deleted (DONE, with the use of contextAssistant)
-- experiments editor
 - ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)
-- ensure that when the user creates something , she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
+- ensure that when the user creates something, she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
 - fix editors (references)
 - proper indent in editor (see condionalAction)
 - recreate MARG and fix UI on the way
@@ -64,9 +62,6 @@ TODO for Martin
 - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
 - localize codegen
 - remove unused nameforentity editors
-- better editor display for increment, decrement, set
-- editor input for attribute access of other
-- do not allow attribute of other for actions
 - introduce proper constraints for names
 - typing of expressions
 - remove branches from github
@@ -77,4 +72,3 @@ TODO for Martin
 - fix selection of agent and UI generally
 - fix focus (init vs. entities)
 - use kernelF for expressions
-- create code for behavioural space
