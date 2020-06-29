@@ -40,6 +40,7 @@ TODO list for development of ODD2Netlogo
 - I do not think we need the rationales for Interaction and Stochasticity.
 - avoid showing the rationales that are not filled
 - use textgen base components in order to simplify textgen
+- make dataCollection more uniform
 
 TODO later
 - create predefined UDAs shape, size, colour

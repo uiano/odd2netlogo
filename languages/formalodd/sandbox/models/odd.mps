@@ -13,6 +13,9 @@
         <property id="3961341278980372825" name="minAmount" index="21jJIY" />
         <property id="8766909380355172217" name="startValue" index="2rHBro" />
       </concept>
+      <concept id="8112596015356748572" name="formalodd.structure.TODO_LetCollect" flags="ng" index="250Lwb">
+        <reference id="8112596015356748573" name="attribute" index="250Lwa" />
+      </concept>
       <concept id="6381578350481727270" name="formalodd.structure.Comparison" flags="ng" index="26hFik">
         <property id="6381578350481727271" name="operator" index="26hFil" />
         <child id="6381578350481727275" name="right" index="26hFip" />
@@ -246,6 +249,7 @@
       </concept>
       <concept id="8413181653841938009" name="formalodd.structure.DataCollection" flags="ng" index="3gPapU">
         <property id="5813355112904206453" name="timesteps" index="3Dtwvp" />
+        <child id="8112596015356748543" name="collectsyn" index="250LBC" />
         <child id="5887519501875187776" name="collect" index="1OK3Ib" />
       </concept>
       <concept id="8413181653841938094" name="formalodd.structure.Characterization" flags="ng" index="3gPaqd" />
@@ -2072,6 +2076,18 @@
       </node>
       <node concept="3gPapU" id="56OEWGAgfO$" role="2kDK7L">
         <property role="3Dtwvp" value="0" />
+        <node concept="250Lwb" id="72lILvPC1D9" role="250LBC">
+          <ref role="250Lwa" node="6iw2eE30kp5" resolve="average-attraction-out" />
+        </node>
+        <node concept="250Lwb" id="72lILvPC1Db" role="250LBC">
+          <ref role="250Lwa" node="6iw2eE3fenM" resolve="stdev-attraction-out" />
+        </node>
+        <node concept="250Lwb" id="72lILvPC1De" role="250LBC">
+          <ref role="250Lwa" node="6iw2eE3femI" resolve="average-attraction-in" />
+        </node>
+        <node concept="250Lwb" id="72lILvPC1Di" role="250LBC">
+          <ref role="250Lwa" node="6iw2eE3feoh" resolve="stdev-attraction-in" />
+        </node>
         <node concept="1OK3I8" id="56OEWGAgfOE" role="1OK3Ib">
           <ref role="1OK3If" node="4qxfPPPteTY" resolve="attraction" />
         </node>

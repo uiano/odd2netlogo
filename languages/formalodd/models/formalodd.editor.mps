@@ -4593,16 +4593,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F2HdR" id="52HbUMTQMyw" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7j1C2e$5gqW" resolve="statistics" />
-        <node concept="l2Vlx" id="52HbUMTQMyx" role="2czzBx" />
-        <node concept="pj6Ft" id="52HbUMTQMyy" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="52HbUMTQMy$" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="3F2HdR" id="56OEWG_t92f" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:56OEWG_t910" resolve="collect" />
         <node concept="l2Vlx" id="56OEWG_t92g" role="2czzBx" />
@@ -4610,6 +4600,16 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="ljvvj" id="56OEWG_t92i" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="72lILvP_Ecc" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:72lILvP_EbZ" resolve="collectsyn" />
+        <node concept="l2Vlx" id="72lILvP_Ecd" role="2czzBx" />
+        <node concept="pj6Ft" id="72lILvP_Ece" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="72lILvP_Ecf" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -6323,13 +6323,6 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
-          <node concept="3F0ifn" id="6iw2eE3ajYE" role="3EZMnx">
-            <property role="3F0ifm" value="Data collection" />
-            <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
-            <node concept="ljvvj" id="6iw2eE3akJW" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
         </node>
         <node concept="VPXOz" id="2_t31HS5EBn" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -6869,6 +6862,24 @@
         </node>
       </node>
       <node concept="2j_NTm" id="2_t31HRFpIG" role="1Qtc8$" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="72lILvP_Ec_">
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <ref role="1XX52x" to="86kt:72lILvP_Ecs" resolve="TODO_LetCollect" />
+    <node concept="3EZMnI" id="72lILvP_EcB" role="2wV5jI">
+      <node concept="l2Vlx" id="72lILvP_EcC" role="2iSdaV" />
+      <node concept="3F0ifn" id="72lILvP_EcD" role="3EZMnx">
+        <property role="3F0ifm" value="collect synthetic" />
+      </node>
+      <node concept="1iCGBv" id="72lILvP_EcF" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:72lILvP_Ect" resolve="attribute" />
+        <node concept="1sVBvm" id="72lILvP_EcI" role="1sWHZn">
+          <node concept="3F0A7n" id="72lILvP_EcK" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
