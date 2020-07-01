@@ -1,5 +1,5 @@
 TODO list for development of ODD2Netlogo
-- complete correct codeGen MARG: informal model text, plot excluded students
+- make run of data calculation correct
 - define function parameters as entities (not types), sort parameters of functions
 - data handling in experiments and runs
 - data collection time should be per experiment
@@ -7,7 +7,9 @@ TODO list for development of ODD2Netlogo
 - make the whole experiments optional and the data collection mandatory
 - create behaviour for attributes to select kinds of attributes (network and agent)
 - remove DataCollect and use AttributeReference instead?
-- better editor display for increment, decrement, set
+- better editor display context menu for increment, decrement, set
+- remove purposeTOBEREMOVED from ODD
+- use reference for presentation item
 - editor input for attribute access of other
 - do not allow attribute of other for actions
 - disallow changing names outside the definition

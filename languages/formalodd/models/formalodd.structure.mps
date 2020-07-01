@@ -1371,6 +1371,13 @@
     <property role="EcuMT" value="8985793055732069084" />
     <property role="TrG5h" value="Experiments" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6_m3sCU5vdI" role="1TKVEi">
+      <property role="IQ2ns" value="7590269384188621678" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dataPresentation" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6_m3sCU921O" resolve="TODO_PresentationItem" />
+    </node>
     <node concept="1TJgyj" id="7MNWMNC5fbt" role="1TKVEi">
       <property role="IQ2ns" value="8985793055732069085" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2587,6 +2594,32 @@
       <property role="20kJfa" value="attribute" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="4GwBkQO7BI" resolve="TODO_LetActivity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6_m3sCU921O">
+    <property role="EcuMT" value="7590269384189550708" />
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="TrG5h" value="TODO_PresentationItem" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="6_m3sCU921P" role="1TKVEl">
+      <property role="IQ2nx" value="7590269384189550709" />
+      <property role="TrG5h" value="itemName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6_m3sCU921R" role="1TKVEl">
+      <property role="IQ2nx" value="7590269384189550711" />
+      <property role="TrG5h" value="TODO_value" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="6_m3sCU921U" role="1TKVEl">
+      <property role="IQ2nx" value="7590269384189550714" />
+      <property role="TrG5h" value="method" />
+      <ref role="AX2Wp" node="39v_dEywMSO" resolve="CollectionKind" />
+    </node>
+    <node concept="1TJgyi" id="6_m3sCUiMTh" role="1TKVEl">
+      <property role="IQ2nx" value="7590269384192110161" />
+      <property role="TrG5h" value="scaling" />
+      <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
     </node>
   </node>
 </model>

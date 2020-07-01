@@ -92,6 +92,7 @@
         <child id="8985793055732069090" name="experiments" index="2kDK7e" />
         <child id="8985793055732069085" name="dataCollection" index="2kDK7L" />
         <child id="8985793055732069087" name="defaultWorld" index="2kDK7N" />
+        <child id="7590269384188621678" name="dataPresentation" index="1jgZU$" />
       </concept>
       <concept id="7308686357753541206" name="formalodd.structure.QuantifiedCondition" flags="ng" index="2lMhBi">
         <property id="135681439435783010" name="quantifier" index="3xNfbI" />
@@ -262,6 +263,12 @@
         <property id="8413181653841938191" name="upperBound" index="3gPasG" />
         <property id="8413181653841938189" name="lowerBound" index="3gPasI" />
         <property id="8413181653841938194" name="increment" index="3gPasL" />
+      </concept>
+      <concept id="7590269384189550708" name="formalodd.structure.TODO_PresentationItem" flags="ng" index="1jsyQY">
+        <property id="7590269384192110161" name="scaling" index="1j7ier" />
+        <property id="7590269384189550714" name="method" index="1jsyQK" />
+        <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
+        <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="5813355112896542813" name="rationale" index="3DMLvL" />
@@ -1296,15 +1303,6 @@
           </node>
         </node>
       </node>
-      <node concept="RZfIr" id="6iw2eE30kp2" role="3AlXHa">
-        <property role="TrG5h" value="excluded-students" />
-        <node concept="2gRb$H" id="6iw2eE30kp3" role="RZfIc">
-          <property role="2gRbFB" value="39v_dEywMST/Count" />
-          <node concept="RLbTy" id="6iw2eE30kp4" role="2gRb$y">
-            <ref role="RLbTH" node="6iw2eE30koY" resolve="excluded" />
-          </node>
-        </node>
-      </node>
       <node concept="RZfIr" id="6iw2eE30kp5" role="3AlXHa">
         <property role="TrG5h" value="average-attraction-out" />
         <node concept="2gRb$H" id="6iw2eE30kp6" role="RZfIc">
@@ -1567,7 +1565,7 @@
           <property role="21jJIY" value="0" />
           <property role="21jJI7" value="0.01" />
           <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
+          <property role="2rHBro" value="0.8" />
         </node>
         <node concept="3Ovhfo" id="bXNtWssbr3" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -1584,7 +1582,7 @@
           <property role="21jJIY" value="0" />
           <property role="21jJI7" value="0.01" />
           <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.5" />
+          <property role="2rHBro" value="0.25" />
         </node>
         <node concept="3Ovhfo" id="h2iSnEfCvh" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -1601,7 +1599,7 @@
           <property role="21jJIY" value="0" />
           <property role="21jJI7" value="0.1" />
           <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.5" />
+          <property role="2rHBro" value="0.7" />
         </node>
         <node concept="3Ovhfo" id="h2iSnEfCzX" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -1618,7 +1616,7 @@
           <property role="21jJIY" value="0" />
           <property role="21jJI7" value="0.05" />
           <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.5" />
+          <property role="2rHBro" value="0.3" />
         </node>
         <node concept="3Ovhfo" id="h2iSnEfCvp" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -1776,6 +1774,24 @@
       </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
+      <node concept="1jsyQY" id="6_m3sCUfCzx" role="1jgZU$">
+        <property role="1jsyQZ" value="#students" />
+        <property role="1jsyQX" value="students" />
+        <property role="1jsyQK" value="39v_dEywMST/Count" />
+        <property role="1j7ier" value="1" />
+      </node>
+      <node concept="1jsyQY" id="6_m3sCUfCzz" role="1jgZU$">
+        <property role="1jsyQZ" value="average attraction" />
+        <property role="1jsyQX" value="[attraction] of university-relationships" />
+        <property role="1jsyQK" value="39v_dEywMSQ/Mean" />
+        <property role="1j7ier" value="100" />
+      </node>
+      <node concept="1jsyQY" id="6_m3sCUfCzA" role="1jgZU$">
+        <property role="1jsyQZ" value="excluded students" />
+        <property role="1jsyQX" value="students with [ excluded = true ]" />
+        <property role="1jsyQK" value="39v_dEywMST/Count" />
+        <property role="1j7ier" value="1" />
+      </node>
       <node concept="3gPary" id="1R8dC2G5svz" role="2kDK7e">
         <property role="TrG5h" value="experiment 1" />
         <property role="3gParY" value="5" />

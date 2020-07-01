@@ -3341,6 +3341,14 @@
     <node concept="3EZMnI" id="7MNWMNC7dYV" role="2wV5jI">
       <node concept="2iRkQZ" id="5iGq3Fp4fVR" role="2iSdaV" />
       <node concept="3F0ifn" id="7MNWMNC7dZ4" role="3EZMnx">
+        <property role="3F0ifm" value="Data to be shown in manual experiments" />
+        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+      </node>
+      <node concept="3F2HdR" id="6_m3sCUcy8$" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6_m3sCU5vdI" resolve="dataPresentation" />
+        <node concept="2iRkQZ" id="6_m3sCUcy8A" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="6_m3sCU5veA" role="3EZMnx">
         <property role="3F0ifm" value="Data to be collected in experiments" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
@@ -6879,6 +6887,37 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6_m3sCU922d">
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <ref role="1XX52x" to="86kt:6_m3sCU921O" resolve="TODO_PresentationItem" />
+    <node concept="3EZMnI" id="6_m3sCU922f" role="2wV5jI">
+      <node concept="l2Vlx" id="6_m3sCU922g" role="2iSdaV" />
+      <node concept="3F0ifn" id="6_m3sCU922h" role="3EZMnx">
+        <property role="3F0ifm" value="present" />
+      </node>
+      <node concept="3F0A7n" id="6_m3sCU922i" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6_m3sCU921P" resolve="itemName" />
+      </node>
+      <node concept="3F0ifn" id="6_m3sCU922n" role="3EZMnx">
+        <property role="3F0ifm" value="using" />
+      </node>
+      <node concept="3F0A7n" id="6_m3sCU922q" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6_m3sCU921R" resolve="TODO_value" />
+      </node>
+      <node concept="3F0ifn" id="6_m3sCU922t" role="3EZMnx">
+        <property role="3F0ifm" value="by" />
+      </node>
+      <node concept="3F0A7n" id="6_m3sCU922w" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6_m3sCU921U" resolve="method" />
+      </node>
+      <node concept="3F0ifn" id="6_m3sCUiMTu" role="3EZMnx">
+        <property role="3F0ifm" value="scaling" />
+      </node>
+      <node concept="3F0A7n" id="6_m3sCUiMTK" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6_m3sCUiMTh" resolve="scaling" />
       </node>
     </node>
   </node>
