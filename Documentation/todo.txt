@@ -1,5 +1,10 @@
+TODO later and larger
+- create predefined UDAs shape, size, colour
+- make sections of ODD collapsable
+- use kernelF for expressions
+- implement Status Arena ODD in the tool
+
 TODO list for development of ODD2Netlogo
-- make run of data calculation correct
 - define function parameters as entities (not types), sort parameters of functions
 - data handling in experiments and runs
 - data collection time should be per experiment
@@ -15,13 +20,13 @@ TODO list for development of ODD2Netlogo
 - disallow changing names outside the definition
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
+- fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
 - wolf sheep scheduling - correct code gen ref Library
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - better structure for read and write other and network
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
-- fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
 - why is occupied an interaction in segregation? fix it.
 - improve appearance of MARG
 - check all concepts with TODO
@@ -41,10 +46,6 @@ TODO list for development of ODD2Netlogo
 - avoid showing the rationales that are not filled
 - use textgen base components in order to simplify textgen
 - make dataCollection more uniform
-
-TODO later
-- create predefined UDAs shape, size, colour
-- make sections of ODD collapsable
 
 TODO for Martin
 - make editor for expressions
@@ -69,7 +70,5 @@ TODO for Martin
 - move [stop] out of generation for end condition
 - sort between github and tools.uia version and remove the tools.uia version
 - build stand-alone
-- make all generated code work
 - fix selection of agent and UI generally
 - fix focus (init vs. entities)
-- use kernelF for expressions
