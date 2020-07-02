@@ -1321,23 +1321,19 @@
     <property role="TrG5h" value="AssignAttribute" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-    <node concept="1TJgyj" id="7MNWMNBgngM" role="1TKVEi">
-      <property role="IQ2ns" value="8985793055718208562" />
-      <property role="20kJfa" value="attribute" />
+    <node concept="1TJgyj" id="t7PfuNUHYT" role="1TKVEi">
+      <property role="IQ2ns" value="524622041952477113" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="lhs" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
     </node>
     <node concept="1TJgyj" id="7MNWMNBgngK" role="1TKVEi">
       <property role="IQ2ns" value="8985793055718208560" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="rhs" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-    <node concept="1TJgyi" id="3M5MOtLVKS0" role="1TKVEl">
-      <property role="IQ2nx" value="4361115321892802048" />
-      <property role="TrG5h" value="writeWho" />
-      <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MNWMNBrfES">
