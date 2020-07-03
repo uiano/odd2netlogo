@@ -5,7 +5,6 @@ TODO later and larger
 - implement Status Arena ODD in the tool
 
 TODO list for development of ODD2Netlogo
-- create behaviour for attributes to select kinds of attributes (network and agent)
 - remove DataCollect and use AttributeReference instead?
 - better editor display context menu for increment, decrement, set
 - remove purposeTOBEREMOVED from ODD

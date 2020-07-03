@@ -10,6 +10,7 @@
     <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="ljrj" ref="r:d4ff666f-2c7b-4f41-a181-c315d3033674(formalodd.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -205,6 +206,7 @@
       <concept id="1138411891628" name="jetbrains.mps.lang.smodel.structure.SNodeOperation" flags="nn" index="eCIE_">
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
@@ -8343,16 +8345,15 @@
               </node>
             </node>
           </node>
-          <node concept="2OqwBi" id="6iw2eE5N$S0" role="3clFbw">
+          <node concept="2OqwBi" id="t7PfuOBHAO" role="3clFbw">
             <node concept="2OqwBi" id="6iw2eE5N$sf" role="2Oq$k0">
               <node concept="117lpO" id="6iw2eE5N$jA" role="2Oq$k0" />
               <node concept="3TrEf2" id="6iw2eE5N$_K" role="2OqNvi">
                 <ref role="3Tt5mk" to="86kt:5yfUVbuQFWh" resolve="attribute" />
               </node>
             </node>
-            <node concept="1BlSNk" id="6iw2eE5NAp5" role="2OqNvi">
-              <ref role="1BmUXE" to="86kt:RwtFpHC4y1" resolve="Network" />
-              <ref role="1Bn3mz" to="86kt:39v_dEyHj7z" resolve="userDefinedAttributes" />
+            <node concept="2qgKlT" id="t7PfuOBHMv" role="2OqNvi">
+              <ref role="37wK5l" to="ljrj:t7PfuOBDp6" resolve="isNetworkAttribute" />
             </node>
           </node>
           <node concept="3eNFk2" id="29jsdmg3DF6" role="3eNLev">
@@ -8394,30 +8395,15 @@
                 </node>
               </node>
               <node concept="1eOMI4" id="29jsdmg3EDN" role="3uHU7B">
-                <node concept="22lmx$" id="1z3v1JX6Elh" role="1eOMHV">
-                  <node concept="2OqwBi" id="29jsdmg3DVS" role="3uHU7B">
-                    <node concept="2OqwBi" id="29jsdmg3DVT" role="2Oq$k0">
-                      <node concept="117lpO" id="29jsdmg3DVU" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="29jsdmg3DVV" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5yfUVbuQFWh" resolve="attribute" />
-                      </node>
-                    </node>
-                    <node concept="1BlSNk" id="29jsdmg3DVW" role="2OqNvi">
-                      <ref role="1BmUXE" to="86kt:3lcKR8aBGke" resolve="Entity" />
-                      <ref role="1Bn3mz" to="86kt:39v_dEyHj7t" resolve="userDefinedAttributes" />
+                <node concept="2OqwBi" id="29jsdmg3DVS" role="1eOMHV">
+                  <node concept="2OqwBi" id="29jsdmg3DVT" role="2Oq$k0">
+                    <node concept="117lpO" id="29jsdmg3DVU" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="29jsdmg3DVV" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:5yfUVbuQFWh" resolve="attribute" />
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="29jsdmg3Ew9" role="3uHU7w">
-                    <node concept="2OqwBi" id="29jsdmg3Ewa" role="2Oq$k0">
-                      <node concept="117lpO" id="29jsdmg3Ewb" role="2Oq$k0" />
-                      <node concept="3TrEf2" id="29jsdmg3Ewc" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:5yfUVbuQFWh" resolve="attribute" />
-                      </node>
-                    </node>
-                    <node concept="1BlSNk" id="29jsdmg3Ewd" role="2OqNvi">
-                      <ref role="1BmUXE" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
-                      <ref role="1Bn3mz" to="86kt:6ow5IfzodqW" resolve="entityAttributes" />
-                    </node>
+                  <node concept="2qgKlT" id="t7PfuOBGuQ" role="2OqNvi">
+                    <ref role="37wK5l" to="ljrj:t7PfuOBDKY" resolve="isEntityAttribute" />
                   </node>
                 </node>
               </node>
