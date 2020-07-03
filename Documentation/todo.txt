@@ -5,7 +5,7 @@ TODO later and larger
 - implement Status Arena ODD in the tool
 
 TODO list for development of ODD2Netlogo
-- better editor display context menu for increment, decrement, set
+- (wait for answer from Vaclav) better editor display context menu for increment, decrement, set
 - remove purposeTOBEREMOVED from ODD
 - use reference for presentation item
 - editor input for attribute access of other
