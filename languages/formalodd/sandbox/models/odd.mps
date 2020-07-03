@@ -247,7 +247,7 @@
       <concept id="8413181653841938009" name="formalodd.structure.DataCollection" flags="ng" index="3gPapU">
         <property id="5813355112904206453" name="timesteps" index="3Dtwvp" />
         <child id="8112596015356748543" name="collectsyn" index="250LBC" />
-        <child id="5887519501875187776" name="collect" index="1OK3Ib" />
+        <child id="524622041965069812" name="collect" index="2NVd43" />
       </concept>
       <concept id="8413181653841938094" name="formalodd.structure.Characterization" flags="ng" index="3gPaqd" />
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
@@ -300,9 +300,6 @@
       <concept id="2469205658733998766" name="formalodd.structure.TODO_Rationale" flags="ng" index="3Ovhfo">
         <property id="2469205658733998769" name="Base4Rationale" index="3Ovhf7" />
         <child id="7370097229710174387" name="sentence" index="2IGf3i" />
-      </concept>
-      <concept id="5887519501875187779" name="formalodd.structure.TODO_DataCollect" flags="ng" index="1OK3I8">
-        <reference id="5887519501875187780" name="attribute" index="1OK3If" />
       </concept>
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
@@ -2083,26 +2080,26 @@
         <node concept="250Lwb" id="72lILvPC1Di" role="250LBC">
           <ref role="250Lwa" node="6iw2eE3feoh" resolve="stdev-attraction-in" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOE" role="1OK3Ib">
-          <ref role="1OK3If" node="4qxfPPPteTY" resolve="attraction" />
+        <node concept="26lliW" id="t7PfuOHI2x" role="2NVd43">
+          <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOF" role="1OK3Ib">
-          <ref role="1OK3If" node="5p5RAoTaflD" resolve="internal-characteristics" />
+        <node concept="26lliW" id="t7PfuOHI2A" role="2NVd43">
+          <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOG" role="1OK3Ib">
-          <ref role="1OK3If" node="5p5RAoTaflx" resolve="external-characteristics" />
+        <node concept="26lliW" id="t7PfuOHI2I" role="2NVd43">
+          <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOH" role="1OK3Ib">
-          <ref role="1OK3If" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+        <node concept="26lliW" id="t7PfuOHI2S" role="2NVd43">
+          <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOI" role="1OK3Ib">
-          <ref role="1OK3If" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+        <node concept="26lliW" id="t7PfuOHI34" role="2NVd43">
+          <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOJ" role="1OK3Ib">
-          <ref role="1OK3If" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+        <node concept="26lliW" id="t7PfuOHI3i" role="2NVd43">
+          <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
         </node>
-        <node concept="1OK3I8" id="56OEWGAgfOK" role="1OK3Ib">
-          <ref role="1OK3If" node="5p5RAoTaflh" resolve="tolerance" />
+        <node concept="26lliW" id="t7PfuOHI3y" role="2NVd43">
+          <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
         </node>
       </node>
     </node>

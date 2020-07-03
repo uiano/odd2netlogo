@@ -4267,14 +4267,21 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F2HdR" id="56OEWG_t92f" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:56OEWG_t910" resolve="collect" />
-        <node concept="l2Vlx" id="56OEWG_t92g" role="2czzBx" />
-        <node concept="pj6Ft" id="56OEWG_t92h" role="3F10Kt">
+      <node concept="3F0ifn" id="t7PfuOEKoG" role="3EZMnx">
+        <property role="3F0ifm" value="collect the following data:" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="3F2HdR" id="t7PfuOEKpf" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="86kt:t7PfuOEKnO" resolve="collect" />
+        <node concept="l2Vlx" id="t7PfuOEKpi" role="2czzBx" />
+        <node concept="ljvvj" id="t7PfuOEKpy" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="ljvvj" id="56OEWG_t92i" role="3F10Kt">
-          <property role="VOm3f" value="true" />
+        <node concept="2w$q5c" id="t7PfuOHI3F" role="78xua">
+          <node concept="2aJ2om" id="t7PfuOHI3G" role="2w$qW5">
+            <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
+          </node>
         </node>
       </node>
       <node concept="3F2HdR" id="72lILvP_Ecc" role="3EZMnx">
@@ -6031,24 +6038,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="56OEWG_t91e">
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <ref role="1XX52x" to="86kt:56OEWG_t913" resolve="TODO_DataCollect" />
-    <node concept="3EZMnI" id="56OEWG_t91g" role="2wV5jI">
-      <node concept="l2Vlx" id="56OEWG_t91h" role="2iSdaV" />
-      <node concept="3F0ifn" id="56OEWG_t91i" role="3EZMnx">
-        <property role="3F0ifm" value="collect" />
-      </node>
-      <node concept="1iCGBv" id="56OEWG_t91k" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:56OEWG_t914" resolve="attribute" />
-        <node concept="1sVBvm" id="56OEWG_t91n" role="1sWHZn">
-          <node concept="3F0A7n" id="56OEWG_t91p" role="2wV5jI">
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="2f1jPQEMw2v">
     <property role="3GE5qa" value="TODO_DesignConcepts" />
     <ref role="1XX52x" to="86kt:ALSMvQyfap" resolve="InformalWithRationale" />
@@ -6584,6 +6573,21 @@
       </node>
       <node concept="3F0A7n" id="6_m3sCUiMTK" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6_m3sCUiMTh" resolve="scaling" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="t7PfuOKI2O">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:5yfUVbuQFWe" resolve="AttributeAccess" />
+    <node concept="2aJ2om" id="t7PfuOKIsq" role="CpUAK">
+      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
+    </node>
+    <node concept="1iCGBv" id="t7PfuOKI2R" role="2wV5jI">
+      <ref role="1NtTu8" to="86kt:5yfUVbuQFWh" resolve="attribute" />
+      <node concept="1sVBvm" id="t7PfuOKI2S" role="1sWHZn">
+        <node concept="3F0A7n" id="t7PfuOKI2T" role="2wV5jI">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
       </node>
     </node>
   </node>
