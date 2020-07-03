@@ -2621,10 +2621,8 @@
   <node concept="PlHQZ" id="4_ZgD2xxlg3">
     <property role="EcuMT" value="5296024875763586051" />
     <property role="TrG5h" value="INamedConceptODD" />
-    <node concept="1TJgyi" id="4_ZgD2xxlg4" role="1TKVEl">
-      <property role="IQ2nx" value="5296024875763586052" />
-      <property role="TrG5h" value="name" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="PrWs8" id="4_ZgD2xHaHg" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
 </model>
