@@ -241,11 +241,8 @@
       </concept>
       <concept id="4361115321891670174" name="formalodd.structure.Empty" flags="ng" index="1dm0fp" />
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
-        <property id="827001546371602890" name="wrapHorizontal" index="1jlS1c" />
-        <property id="827001546371602896" name="wrapVertical" index="1jlS1m" />
         <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
-        <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
       <concept id="8413181653841938009" name="formalodd.structure.DataCollection" flags="ng" index="3gPapU">
         <property id="5813355112904206453" name="timesteps" index="3Dtwvp" />
@@ -793,15 +790,6 @@
         </node>
       </node>
     </node>
-    <node concept="2kDK7K" id="7MNWMNCfI3w" role="2kDK7a">
-      <node concept="1g3uKF" id="5Dmxhgox7rb" role="2kDK7N">
-        <property role="1jzKJm" value="10" />
-        <property role="1jzt_n" value="10" />
-        <node concept="ZOwrR" id="5Dmxhgox7rd" role="kpDVr">
-          <property role="ZOwrO" value="22rmwLH$Xmq/black" />
-        </node>
-      </node>
-    </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
       <property role="3Ovhdr" value="6Uof7aieTi5/Theoretical_Expositon" />
       <node concept="XAmFv" id="6Uof7aignIZ" role="1BQTog">
@@ -941,12 +929,6 @@
       </node>
       <node concept="1Svl6F" id="6ow5Ifza1KR" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXpedi" resolve="ToDo" />
-      </node>
-    </node>
-    <node concept="2kDK7K" id="7MNWMNCbdfQ" role="2kDK7a">
-      <node concept="1g3uKF" id="7MNWMNCbdfS" role="2kDK7N">
-        <property role="1jzKJm" value="100" />
-        <property role="1jzt_n" value="2" />
       </node>
     </node>
     <node concept="3Ovhds" id="6Uof7aieThc" role="1BQTrk">
@@ -1154,15 +1136,6 @@
         <node concept="Qbqaq" id="4GwBkR93M2" role="18tn1Z" />
       </node>
     </node>
-    <node concept="2kDK7K" id="7MNWMNCfI3l" role="2kDK7a">
-      <node concept="1g3uKF" id="7MNWMNCfI3s" role="2kDK7N">
-        <property role="1jzKJm" value="10" />
-        <property role="1jzt_n" value="10" />
-        <node concept="ZOwrR" id="7MNWMNCfI3u" role="kpDVr">
-          <property role="ZOwrO" value="22rmwLH$XlP/white" />
-        </node>
-      </node>
-    </node>
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">
     <property role="TrG5h" value="voting" />
@@ -1199,17 +1172,6 @@
       <node concept="2lMhBi" id="24qWCY8di$6" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <ref role="2I6lkX" node="7MNWMN$KkSO" resolve="orange" />
-      </node>
-    </node>
-    <node concept="2kDK7K" id="7MNWMNCfI3$" role="2kDK7a">
-      <node concept="1g3uKF" id="24qWCY8d5XV" role="2kDK7N">
-        <property role="1jzKJm" value="32" />
-        <property role="1jzt_n" value="4" />
-        <property role="1jlS1c" value="true" />
-        <property role="1jlS1m" value="true" />
-        <node concept="ZOwrR" id="24qWCY8d5XX" role="kpDVr">
-          <property role="ZOwrO" value="22rmwLH$Xmq/black" />
-        </node>
       </node>
     </node>
   </node>
@@ -1263,12 +1225,6 @@
       <node concept="2lMhBi" id="35QCLExIH8L" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="35QCLExIhs4" resolve="Fire" />
-      </node>
-    </node>
-    <node concept="2kDK7K" id="7MNWMNCfI3i" role="2kDK7a">
-      <node concept="1g3uKF" id="3XcUSIkJNRx" role="2kDK7N">
-        <property role="1jzKJm" value="100" />
-        <property role="1jzt_n" value="5" />
       </node>
     </node>
   </node>
