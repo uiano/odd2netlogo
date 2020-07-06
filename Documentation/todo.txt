@@ -3,11 +3,15 @@ TODO later and larger
 - make sections of ODD collapsable
 - use kernelF for expressions
 - implement Status Arena ODD in the tool
+- streamline scoping using super and ODD scopes
 
 TODO list for development of ODD2Netlogo
-- (wait for answer from Vaclav) better editor display context menu for increment, decrement, set
 - remove purposeTOBEREMOVED from ODD
-- use reference for presentation item
+- remove double elements for UDA in contest assist
+- make references for change environment to xyz local
+- improve context menu for MARG for remaining concepts
+- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
+- use reference for presentation item (data presentation)
 - editor input for attribute access of other
 - do not allow attribute of other for actions
 - disallow changing names outside the definition
@@ -50,7 +54,6 @@ TODO for Martin
 - create user instructions and insert option list in the scheduling and the procedure editor
 - ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)
 - ensure that when the user creates something, she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
-- fix editors (references)
 - proper indent in editor (see condionalAction)
 - recreate MARG and fix UI on the way
 - go to new version of MPS

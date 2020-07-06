@@ -704,7 +704,7 @@
       </node>
       <node concept="ZOwpH" id="4GwBkRvkn6" role="Qgzvn">
         <property role="TrG5h" value="grass-regrowth-delay" />
-        <property role="QtYJw" value="time delay before graas starts regrowing" />
+        <property role="QtYJw" value="time delay before gras starts regrowing" />
         <node concept="21jJIL" id="4GwBkRvkn7" role="2oy9Oj">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="10" />
