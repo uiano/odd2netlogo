@@ -6,19 +6,16 @@ TODO later and larger
 - streamline scoping using super and ODD scopes
 
 TODO list for development of ODD2Netlogo
-- make references for change environment to xyz local
 - improve context menu for MARG for remaining concepts
-- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
 - use reference for presentation item (data presentation)
 - editor input for attribute access of other
-- do not allow attribute of other for actions
 - disallow changing names outside the definition
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
+- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
 - fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
 - wolf sheep scheduling - correct code gen ref Library
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
-- better structure for read and write other and network
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
