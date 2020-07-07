@@ -69,13 +69,6 @@
     <property role="TrG5h" value="ODD" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="5JxfqxAubY6" role="1TKVEi">
-      <property role="IQ2ns" value="6620640720694329222" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="purposeTOBEREMOVED" />
-      <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="5JxfqxAu5tR" resolve="InformalText" />
-    </node>
     <node concept="1TJgyj" id="7bwUywleRNW" role="1TKVEi">
       <property role="IQ2ns" value="8277873572982783228" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

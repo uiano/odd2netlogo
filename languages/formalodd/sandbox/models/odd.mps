@@ -204,7 +204,6 @@
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
-        <child id="6620640720694329222" name="purposeTOBEREMOVED" index="XAo8I" />
         <child id="135681439422303784" name="input" index="3uwOu$" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
         <child id="8277873572982783228" name="purpose" index="1BQTrk" />
@@ -486,18 +485,6 @@
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
-    <node concept="XAmFv" id="61ib3USCg3C" role="XAo8I">
-      <property role="XAmFg" value="This model explores the stability of predator-prey ecosystems." />
-    </node>
-    <node concept="XAmFv" id="61ib3USIaeZ" role="XAo8I">
-      <property role="XAmFg" value="Such a system is called unstable if it tends to result in extinction for one or more species involved." />
-    </node>
-    <node concept="XAmFv" id="61ib3USIaf2" role="XAo8I">
-      <property role="XAmFg" value="In contrast, a system is stable if it tends to maintain itself over time," />
-    </node>
-    <node concept="XAmFv" id="61ib3USIaf6" role="XAo8I">
-      <property role="XAmFg" value="despite fluctuations in population sizes." />
-    </node>
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
       <node concept="1Svl6F" id="6ow5Ifzbde6" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlqG4" resolve="move" />
@@ -792,6 +779,12 @@
       <node concept="XAmFv" id="6Uof7aignIZ" role="1BQTog">
         <property role="XAmFg" value="What effects the stability of predator-prey ecosystems?" />
       </node>
+      <node concept="XAmFv" id="4UvEPNybpO1" role="1BQTog">
+        <property role="XAmFg" value="Such a system is called unstable if it tends to result in the extinction for one or more species involved." />
+      </node>
+      <node concept="XAmFv" id="4UvEPNybpO6" role="1BQTog">
+        <property role="XAmFg" value="A system is stable if it tends to maintain itself over time despite fluctuations in population sizes." />
+      </node>
       <node concept="XAmFv" id="6Uof7aignJ1" role="1BQToi">
         <property role="XAmFg" value="Everybody interested." />
       </node>
@@ -799,9 +792,6 @@
   </node>
   <node concept="ZOwpP" id="1r3mgtJEVoW">
     <property role="TrG5h" value="Fire" />
-    <node concept="XAmFv" id="1r3mgtJEVoX" role="XAo8I">
-      <property role="XAmFg" value="Simulate forest fire based on density of the woods" />
-    </node>
     <node concept="ZOwpU" id="1r3mgtJEVoZ" role="3$p12O">
       <node concept="ZOwpH" id="39v_dEyLZBh" role="1XCrKs">
         <property role="TrG5h" value="materials" />
@@ -1136,9 +1126,6 @@
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">
     <property role="TrG5h" value="voting" />
-    <node concept="XAmFv" id="3T3sBYikEpl" role="XAo8I">
-      <property role="XAmFg" value="This model is a simple cellular automaton that simulates voting distribution by having each patch take a “vote” of its eight surrounding neighbors, then perhaps change its own vote according to the outcome." />
-    </node>
     <node concept="ZOwpU" id="24qWCY8d5XH" role="3$p12O">
       <node concept="ZOwrm" id="24yfUKsi0Xd" role="2kDK73">
         <property role="TrG5h" value="voter" />
@@ -1169,6 +1156,11 @@
       <node concept="2lMhBi" id="24qWCY8di$6" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <ref role="2I6lkX" node="7MNWMN$KkSO" resolve="orange" />
+      </node>
+    </node>
+    <node concept="3Ovhds" id="4UvEPNybpOb" role="1BQTrk">
+      <node concept="XAmFv" id="4UvEPNybpOd" role="1BQTpC">
+        <property role="XAmFg" value="This model is a simple cellular automaton that simulates voting distribution by having each patch take a “vote” of its eight surrounding neighbors, then perhaps change its own vote according to the outcome." />
       </node>
     </node>
   </node>

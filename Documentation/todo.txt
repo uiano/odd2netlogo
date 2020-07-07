@@ -6,8 +6,6 @@ TODO later and larger
 - streamline scoping using super and ODD scopes
 
 TODO list for development of ODD2Netlogo
-- remove purposeTOBEREMOVED from ODD
-- remove double elements for UDA in contest assist
 - make references for change environment to xyz local
 - improve context menu for MARG for remaining concepts
 - maybe use a direct reference to UDA instead of AttributeAccess for better context menu
