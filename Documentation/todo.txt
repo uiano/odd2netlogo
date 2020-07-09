@@ -1,14 +1,4 @@
-TODO later and larger
-- create predefined UDAs shape, size, colour
-- make sections of ODD collapsable
-- use kernelF for expressions
-- implement Status Arena ODD in the tool
-- streamline scoping using super and ODD scopes
-
 TODO list for development of ODD2Netlogo
-- improve context menu for MARG for remaining concepts
-- use reference for presentation item (data presentation)
-- editor input for attribute access of other
 - disallow changing names outside the definition
 - make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
@@ -24,6 +14,7 @@ TODO list for development of ODD2Netlogo
 - check all concepts with TODO
 - define function parameters as entities (not types), sort parameters of functions
 - should sliders be expressions?
+- use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
 - remove styling hintIfNull?
 - styling hint versus comment? should they be selectable?
@@ -43,6 +34,7 @@ TODO list for development of ODD2Netlogo
 - recreate MARG and fix UI on the way
 - Editor should consistently say "Press enter to create new entity" for all collections
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
+- improve context menu for MARG for normal activities
 
 TODO for Martin
 - make editor for expressions
@@ -68,3 +60,10 @@ TODO for Martin
 - build stand-alone
 - fix selection of agent and UI generally
 - fix focus (init vs. entities)
+
+TODO later and larger
+- create predefined UDAs shape, size, colour
+- make sections of ODD collapsable
+- use kernelF for expressions
+- implement Status Arena ODD in the tool
+- streamline scoping using super and ODD scopes
