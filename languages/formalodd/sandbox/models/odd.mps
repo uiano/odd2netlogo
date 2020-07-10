@@ -227,6 +227,7 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
+      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -265,6 +266,7 @@
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
+      <concept id="3864151261534280722" name="formalodd.structure.Activity" flags="ng" index="1jwekb" />
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="5813355112896542813" name="rationale" index="3DMLvL" />
       </concept>
@@ -460,7 +462,7 @@
       </node>
       <node concept="BZNO7" id="2_t31HRthW0" role="2GyEu2">
         <property role="TrG5h" value="undefined interaction0" />
-        <ref role="24v3MU" node="7MNWMNCnG1H" resolve="Ash" />
+        <ref role="24v3MU" node="7eFC9Eoo2B2" resolve="lizard" />
         <node concept="Qbqaq" id="2_t31HRthWS" role="18tn1Z" />
         <node concept="1Svl6F" id="2_t31HRthX8" role="18tn1X">
           <ref role="1Svl6C" node="2_t31HRthWV" resolve="test" />
@@ -476,7 +478,14 @@
       </node>
       <node concept="BZNO7" id="2_t31HRw5eN" role="2GyEu2">
         <property role="TrG5h" value="undefined interaction1" />
-        <ref role="24v3MU" node="7MNWMNCnG1g" resolve="Fire" />
+        <ref role="24v3MU" node="qdXC$xsGMq" resolve="frog" />
+        <node concept="2rRKAk" id="jax00Yrfus" role="18tn1X">
+          <node concept="26hFik" id="jax00Yuq_4" role="2rRKAn">
+            <node concept="ZOwqL" id="jax00Yuq_6" role="26hFir" />
+            <node concept="ZOwqL" id="jax00Yuq_8" role="26hFip" />
+          </node>
+          <node concept="1jwekb" id="jax00Yrfuw" role="2rRKAh" />
+        </node>
         <node concept="2lNc1w" id="56OEWGAQ_9p" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
         </node>
