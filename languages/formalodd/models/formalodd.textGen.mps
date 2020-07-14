@@ -6059,21 +6059,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="4MYWhBhM02_">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:4MYWhBhM02l" resolve="TODO_CenterOnPatch" />
-    <node concept="11bSqf" id="4MYWhBhM02A" role="11c4hB">
-      <node concept="3clFbS" id="4MYWhBhM02B" role="2VODD2">
-        <node concept="lc7rE" id="4MYWhBhM02U" role="3cqZAp">
-          <node concept="2BGw6n" id="1w00y4a2Uqb" role="lcghm" />
-          <node concept="la8eA" id="4MYWhBhM03g" role="lcghm">
-            <property role="lacIc" value="move-to patch-here" />
-          </node>
-          <node concept="l8MVK" id="qdXC$y_7ts" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="qdXC$xz0Sv">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="WuzLi" to="86kt:qdXC$xsGIe" resolve="Interaction" />

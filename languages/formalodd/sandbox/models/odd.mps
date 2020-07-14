@@ -125,7 +125,6 @@
         <child id="8985793055718208560" name="rhs" index="2rWCss" />
         <child id="524622041952477113" name="lhs" index="2OFgHe" />
       </concept>
-      <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
       </concept>
@@ -227,7 +226,6 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
-      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -481,8 +479,13 @@
         <property role="TrG5h" value="undefined interaction1" />
         <node concept="2rRKAk" id="jax00Yrfus" role="18tn1X">
           <node concept="26hFik" id="jax00Yuq_4" role="2rRKAn">
-            <node concept="ZOwqL" id="jax00Yuq_6" role="26hFir" />
-            <node concept="ZOwqL" id="jax00Yuq_8" role="26hFip" />
+            <property role="26hFil" value="24yfUKsyf$J/ne" />
+            <node concept="2oK_Am" id="5gquUl5oeCm" role="26hFir">
+              <property role="2oK_Ap" value="1" />
+            </node>
+            <node concept="2oK_Am" id="5gquUl5oeCp" role="26hFip">
+              <property role="2oK_Ap" value="2" />
+            </node>
           </node>
           <node concept="1Svl6F" id="5gquUl56N$2" role="2rRKAh">
             <ref role="1Svl6C" node="2_t31HRthWV" resolve="test" />
@@ -1069,7 +1072,6 @@
         <node concept="1Svl6F" id="3kYfzLXouWE" role="18tn1X">
           <ref role="1Svl6C" node="qdXC$yrH6d" resolve="occupied" />
         </node>
-        <node concept="2ttJ6c" id="3kYfzLXouWM" role="18tn1X" />
         <node concept="Qbqaq" id="4GwBkRgJa9" role="18tn1Z" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXouWR" role="2GyEu2">

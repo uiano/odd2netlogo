@@ -904,13 +904,6 @@
       <ref role="20lvS9" node="6lHESjKCmJ_" resolve="Action" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4MYWhBhM02l">
-    <property role="EcuMT" value="5530122485653569685" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="TODO_CenterOnPatch" />
-    <property role="R4oN_" value="places the entity center on current patch" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-  </node>
   <node concept="1TIwiD" id="qdXC$xsGIe">
     <property role="EcuMT" value="472304604775893902" />
     <property role="3GE5qa" value="ActionsAndProcedures" />

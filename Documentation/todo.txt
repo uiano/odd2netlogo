@@ -1,25 +1,22 @@
 TODO list for development of ODD2Netlogo
-- remove center on patch and do it auto after move
-- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
-- fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
 - wolf sheep scheduling - correct code gen ref Library
+- fix code Voting, Fire, FireAgents, Segregation cf. Library
+- why is occupied an interaction in segregation? fix it.
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
 - disallow changing names outside the definition
-- why is occupied an interaction in segregation? fix it.
-- improve appearance of MARG
 - check all concepts with TODO
 - define function parameters as entities (not types), sort parameters of functions
 - should sliders be expressions?
 - use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
 - remove styling hintIfNull?
+- improve appearance of MARG
 - styling hint versus comment? should they be selectable?
 - make good stylings for sections and user input and definitions and hints and comments
 - recheck all constraints
-- make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
 - improve codegen for element-wise
 - put make actions and functions into the same category
 - do not have text as selectable
@@ -34,6 +31,9 @@ TODO list for development of ODD2Netlogo
 - Editor should consistently say "Press enter to create new entity" for all collections
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
 - improve context menu for MARG for normal activities
+- build stand-alone
+- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
+- context menu for expressions
 
 TODO for Martin
 - make editor for expressions
@@ -42,7 +42,6 @@ TODO for Martin
 - ensure that when the user creates something, she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
 - proper indent in editor (see condionalAction)
 - recreate MARG and fix UI on the way
-- go to new version of MPS
 - use base styles consistently in editor
 - adjust virtual packages for editor and other aspects to match packages in structure
 - copy documentation 2019 and earlier into git: papers, reports 445, ...
@@ -56,7 +55,6 @@ TODO for Martin
 - remove branches from github
 - move [stop] out of generation for end condition
 - sort between github and tools.uia version and remove the tools.uia version
-- build stand-alone
 - fix selection of agent and UI generally
 - fix focus (init vs. entities)
 
@@ -66,3 +64,4 @@ TODO later and larger
 - use kernelF for expressions
 - implement Status Arena ODD in the tool
 - streamline scoping using super and ODD scopes
+- make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
