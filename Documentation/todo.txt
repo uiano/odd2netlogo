@@ -1,6 +1,4 @@
 TODO list for development of ODD2Netlogo
-- disallow changing names outside the definition
-- make partner in Interaction an EntityReference
 - remove center on patch and do it auto after move
 - maybe use a direct reference to UDA instead of AttributeAccess for better context menu
 - fix code Wolf Sheep, Voting, Fire, FireAgents, Segregation cf. Library
@@ -9,6 +7,7 @@ TODO list for development of ODD2Netlogo
 - init: add init concept -> init -> experiment
 - endcondition, move to simulation / experiment
 - move init entity state -> entity state (editor)
+- disallow changing names outside the definition
 - why is occupied an interaction in segregation? fix it.
 - improve appearance of MARG
 - check all concepts with TODO

@@ -2066,18 +2066,18 @@
             <property role="3F0ifm" value="and partner 2 is a" />
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
           </node>
-          <node concept="1iCGBv" id="56OEWG_oUlr" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:5yfUVbsWXs8" resolve="partner2" />
-            <node concept="1sVBvm" id="56OEWG_oUls" role="1sWHZn">
-              <node concept="3F0A7n" id="56OEWG_oUlt" role="2wV5jI">
-                <property role="1Intyy" value="true" />
-                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
+          <node concept="3F1sOY" id="5gquUl59qEi" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:5gquUl59qE6" resolve="partner2" />
+          </node>
+          <node concept="3F0ifn" id="5gquUl59qEA" role="3EZMnx">
+            <property role="3F0ifm" value="old:" />
           </node>
           <node concept="3F0ifn" id="3M5MOtLpIq8" role="3EZMnx">
             <property role="3F0ifm" value=", together performing the following actions." />
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+            <node concept="11L4FC" id="5gquUl5crWf" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
           </node>
         </node>
         <node concept="3F2HdR" id="1z3v1JWWDr8" role="3EZMnx">

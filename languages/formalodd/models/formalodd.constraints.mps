@@ -763,15 +763,5 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="jax00YkXXh">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1M2myG" to="86kt:qdXC$xsGIe" resolve="Interaction" />
-    <node concept="1N5Pfh" id="jax00YkXXx" role="1Mr941">
-      <ref role="1N5Vy1" to="86kt:5yfUVbsWXs8" resolve="partner2" />
-      <node concept="1dDu$B" id="jax00YkXXz" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
-      </node>
-    </node>
-  </node>
 </model>
 

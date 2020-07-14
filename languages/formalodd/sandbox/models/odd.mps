@@ -127,7 +127,7 @@
       </concept>
       <concept id="5530122485653569685" name="formalodd.structure.TODO_CenterOnPatch" flags="ng" index="2ttJ6c" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
-        <reference id="6381578350450956040" name="partner2" index="24v3MU" />
+        <child id="6060292198340340358" name="partner2" index="hfX4z" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
@@ -266,7 +266,6 @@
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
-      <concept id="3864151261534280722" name="formalodd.structure.Activity" flags="ng" index="1jwekb" />
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="5813355112896542813" name="rationale" index="3DMLvL" />
       </concept>
@@ -462,13 +461,15 @@
       </node>
       <node concept="BZNO7" id="2_t31HRthW0" role="2GyEu2">
         <property role="TrG5h" value="undefined interaction0" />
-        <ref role="24v3MU" node="7eFC9Eoo2B2" resolve="lizard" />
         <node concept="Qbqaq" id="2_t31HRthWS" role="18tn1Z" />
         <node concept="1Svl6F" id="2_t31HRthX8" role="18tn1X">
           <ref role="1Svl6C" node="2_t31HRthWV" resolve="test" />
           <node concept="2QpFD0" id="2_t31HRthXa" role="2QCFRE">
             <ref role="2QpFD1" node="7MNWMNCnG1H" resolve="Ash" />
           </node>
+        </node>
+        <node concept="2lNc1w" id="5gquUl5c0qY" role="hfX4z">
+          <ref role="8YSiZ" node="7eFC9Eoo2B2" resolve="lizard" />
         </node>
       </node>
       <node concept="2lNc1x" id="2_t31HRthWV" role="2GyEu2">
@@ -478,15 +479,19 @@
       </node>
       <node concept="BZNO7" id="2_t31HRw5eN" role="2GyEu2">
         <property role="TrG5h" value="undefined interaction1" />
-        <ref role="24v3MU" node="qdXC$xsGMq" resolve="frog" />
         <node concept="2rRKAk" id="jax00Yrfus" role="18tn1X">
           <node concept="26hFik" id="jax00Yuq_4" role="2rRKAn">
             <node concept="ZOwqL" id="jax00Yuq_6" role="26hFir" />
             <node concept="ZOwqL" id="jax00Yuq_8" role="26hFip" />
           </node>
-          <node concept="1jwekb" id="jax00Yrfuw" role="2rRKAh" />
+          <node concept="1Svl6F" id="5gquUl56N$2" role="2rRKAh">
+            <ref role="1Svl6C" node="2_t31HRthWV" resolve="test" />
+          </node>
         </node>
         <node concept="2lNc1w" id="56OEWGAQ_9p" role="18tn1Z">
+          <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
+        </node>
+        <node concept="2lNc1w" id="5gquUl5c0qW" role="hfX4z">
           <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
         </node>
       </node>
@@ -527,7 +532,6 @@
       </node>
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
-        <ref role="24v3MU" node="1LeTgidqm5Z" resolve="grass" />
         <node concept="2qfAsZ" id="1w00y4a7gvi" role="18tn1X">
           <node concept="26lliW" id="1w00y4a7gvr" role="2rWCss">
             <ref role="26lliz" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
@@ -542,10 +546,12 @@
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
+        <node concept="2lNc1w" id="5gquUl5c0qu" role="hfX4z">
+          <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
+        </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
-        <ref role="24v3MU" node="qdXC$xz0Qv" resolve="sheep" />
         <node concept="8shMO" id="5yfUVbu1olx" role="18tn1X">
           <property role="26S2D9" value="5yfUVburW9F/target" />
         </node>
@@ -559,6 +565,9 @@
         </node>
         <node concept="2lNc1w" id="3kYfzLXlriR" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
+        </node>
+        <node concept="2lNc1w" id="5gquUl5c0qw" role="hfX4z">
+          <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrpQ" role="2GyEu2">
@@ -857,7 +866,6 @@
       </node>
       <node concept="BZNO7" id="1r3mgtK4Z3N" role="2GyEu2">
         <property role="TrG5h" value="Burn" />
-        <ref role="24v3MU" node="7MNWMNCnG0T" resolve="Trees" />
         <node concept="8StHo" id="7MNWMNB2dNj" role="18tn1X">
           <ref role="2JNnW9" node="7MNWMNCnG1g" resolve="Fire" />
         </node>
@@ -871,6 +879,9 @@
         </node>
         <node concept="2lNc1w" id="6ow5IfzgRxg" role="18tn1Z">
           <ref role="8YSiZ" node="7MNWMNCnG1g" resolve="Fire" />
+        </node>
+        <node concept="2lNc1w" id="5gquUl5c0qq" role="hfX4z">
+          <ref role="8YSiZ" node="7MNWMNCnG0T" resolve="Trees" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXpecx" role="2GyEu2">
@@ -1044,11 +1055,11 @@
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
         <property role="TrG5h" value="occupied" />
-        <ref role="24v3MU" node="qdXC$ygXa8" resolve="blue-group" />
         <node concept="1Svl6F" id="7MNWMNBlapA" role="18tn1X">
           <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
         </node>
         <node concept="Qbqaq" id="4GwBkRgJa7" role="18tn1Z" />
+        <node concept="Qbqaq" id="5gquUl5c0qs" role="hfX4z" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXmcA8" role="2GyEu2">
         <property role="TrG5h" value="move" />
@@ -2277,7 +2288,6 @@
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
         <property role="TrG5h" value="forced-interaction" />
         <property role="2QSBU6" value="interactions in classroom settings" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="1Svl6F" id="1R8dC2FskE6" role="18tn1X">
           <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
           <node concept="2g0R4C" id="1R8dC2FskEg" role="2QCFRE">
@@ -2323,11 +2333,13 @@
             <property role="XAmFg" value="In a classroom setting, students do not get to choose with whom they intearct as they do not have a choice on their classmates. When they interact, we assume that they find out about their classmates' characteristics. We assume that they interact approximately with about 50% of the other students with classroom dialogues and groupwork." />
           </node>
         </node>
+        <node concept="2lNc1w" id="5gquUl5c0qi" role="hfX4z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdv" role="2GyEu2">
         <property role="TrG5h" value="free-interaction" />
         <property role="2QSBU6" value="spare time interactions" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="2lNc1w" id="4GwBkQLLdD" role="18tn1Z">
           <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
@@ -2445,11 +2457,13 @@
             <property role="XAmFg" value="In opposition with forced interactions, during recess or study time, students choose with whom to interact and of course learn about the other students' characteristics. We assume again that they interact with 50% of their classmates through eating together, chatting in recess, hanging out together, studying together etc." />
           </node>
         </node>
+        <node concept="2lNc1w" id="5gquUl5c0qk" role="hfX4z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLdf" role="2GyEu2">
         <property role="TrG5h" value="evaluate-interaction" />
         <property role="2QSBU6" value="evaluation of the interaction from me to other" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dExsSpy" role="18tn1X">
           <property role="TrG5h" value="is-positive-me" />
           <node concept="2guEx9" id="39v_dEyk7Z_" role="RZfIc">
@@ -2516,11 +2530,13 @@
             <property role="XAmFg" value="Social Exchange theory. The result of the interaction is based on the compatibility of each agent’s characteristics. The agents learn characteristics about the other during interactions. The agents always know the external characteristics of the other agent and the internal characteristics known by memory and with current interaction. A positive interaction increases attraction, a negative decreases attraction." />
           </node>
         </node>
+        <node concept="2lNc1w" id="5gquUl5c0qm" role="hfX4z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
+        </node>
       </node>
       <node concept="BZNO7" id="4GwBkQLLe0" role="2GyEu2">
         <property role="TrG5h" value="learn-about" />
         <property role="2QSBU6" value="learn characteristics during interaction" />
-        <ref role="24v3MU" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="RZfIr" id="39v_dEyE917" role="18tn1X">
           <property role="TrG5h" value="learned-indices" />
           <node concept="2gXKin" id="39v_dEyFGku" role="RZfIc">
@@ -2552,6 +2568,9 @@
           <node concept="XAmFv" id="h2iSnEiPxZ" role="2IGf3i">
             <property role="XAmFg" value="We assume that each agent is exposed in specific number of characteristics of their interaction partner. The characteristics are stored in memory. Sometimes the exposed characteristics are already known. " />
           </node>
+        </node>
+        <node concept="2lNc1w" id="5gquUl5c0qo" role="hfX4z">
+          <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
         </node>
       </node>
       <node concept="2QG2tT" id="1R8dC2F$ObN" role="250j5S">

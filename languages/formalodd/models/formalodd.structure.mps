@@ -916,11 +916,12 @@
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="Interaction" />
     <ref role="1TJDcQ" node="6lHESjKCmJ_" resolve="Action" />
-    <node concept="1TJgyj" id="5yfUVbsWXs8" role="1TKVEi">
-      <property role="IQ2ns" value="6381578350450956040" />
+    <node concept="1TJgyj" id="5gquUl59qE6" role="1TKVEi">
+      <property role="IQ2ns" value="6060292198340340358" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="partner2" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+      <ref role="20lvS9" node="4GwBkR1uQB" resolve="EntityReference" />
     </node>
     <node concept="PrWs8" id="3kYfzLXqvbR" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
