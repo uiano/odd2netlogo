@@ -2692,32 +2692,6 @@
       <ref role="1NtTu8" to="86kt:60Hvi7s3aFU" resolve="value" />
     </node>
   </node>
-  <node concept="24kQdi" id="60Hvi7sQavk">
-    <property role="3GE5qa" value="Initialization" />
-    <ref role="1XX52x" to="86kt:60Hvi7sLq0K" resolve="Density" />
-    <node concept="3EZMnI" id="60Hvi7sQawh" role="2wV5jI">
-      <node concept="2iRkQZ" id="60Hvi7sQawi" role="2iSdaV" />
-      <node concept="3EZMnI" id="60Hvi7sQavp" role="3EZMnx">
-        <node concept="2iRfu4" id="60Hvi7sQavq" role="2iSdaV" />
-        <node concept="3F0ifn" id="60Hvi7sQavm" role="3EZMnx">
-          <property role="3F0ifm" value="Density" />
-        </node>
-      </node>
-    </node>
-    <node concept="2aJ2om" id="60Hvi7sQaw5" role="CpUAK">
-      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="60Hvi7sLq1H">
-    <property role="3GE5qa" value="Initialization" />
-    <ref role="1XX52x" to="86kt:60Hvi7sIcIO" resolve="Location" />
-    <node concept="3F0ifn" id="60Hvi7sLq1L" role="2wV5jI">
-      <property role="3F0ifm" value="LocationValueSelect" />
-    </node>
-    <node concept="2aJ2om" id="60Hvi7sLq1J" role="CpUAK">
-      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-    </node>
-  </node>
   <node concept="24kQdi" id="4qxfPPPABr0">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Network" />

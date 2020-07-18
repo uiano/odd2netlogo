@@ -226,6 +226,10 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
+      <concept id="3840659476812056016" name="formalodd.structure.Coordinates" flags="ng" index="ZOwqy">
+        <property id="3840659476812056019" name="y" index="ZOwqx" />
+        <property id="3840659476812056017" name="x" index="ZOwqz" />
+      </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -350,13 +354,26 @@
       </node>
       <node concept="ZOwrm" id="24yfUKsi0X2" role="2kDK73">
         <property role="TrG5h" value="test-environment" />
-        <node concept="2WUdOh" id="24yfUKsi0X4" role="2W_r1q">
-          <node concept="2oK_Am" id="24yfUKsi0X8" role="2WUdOg">
-            <property role="2oK_Ap" value="50" />
-          </node>
-        </node>
         <node concept="ZOwrR" id="24yfUKsi0Xb" role="21mi6N">
           <property role="ZOwrO" value="22rmwLH$XpM/green" />
+        </node>
+        <node concept="2WUdOh" id="7Y7DVQi$r3k" role="2W_r1q">
+          <node concept="2oK_Am" id="7Y7DVQi$r3o" role="2WUdOg">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="ZOwrm" id="7Y7DVQi$r3r" role="2kDK73">
+        <property role="TrG5h" value="MyNewEnvironment" />
+        <node concept="2hpLdR" id="7Y7DVQi$r3x" role="2W_r1q">
+          <property role="2hv$f$" value="1LeTgidavpP/bottom" />
+        </node>
+      </node>
+      <node concept="ZOwrm" id="7Y7DVQi$r3z" role="2kDK73">
+        <property role="TrG5h" value="AnotherEnivonment" />
+        <node concept="ZOwqy" id="7Y7DVQi$r3F" role="2W_r1q">
+          <property role="ZOwqz" value="10" />
+          <property role="ZOwqx" value="200" />
         </node>
       </node>
       <node concept="ZOwpH" id="24yfUKskJQh" role="1XCrKs">
@@ -380,7 +397,6 @@
         <node concept="2oK_Am" id="1LeTgidgaQr" role="RIgNU">
           <property role="2oK_Ap" value="10" />
         </node>
-        <node concept="RFdHg" id="1LeTgidgaQt" role="RFdH4" />
         <node concept="3Ovhfo" id="7eFC9Eo9YPF" role="3DMLvL">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="7eFC9Eo9YPH" role="2IGf3i">
@@ -407,6 +423,7 @@
           <property role="TrG5h" value="unnamed attribute2" />
           <node concept="ZOwps" id="5wSz0kzyecS" role="zGXb3" />
         </node>
+        <node concept="RFdHg" id="7Y7DVQi$r2u" role="RFdH4" />
       </node>
       <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
         <property role="TrG5h" value="lizard" />
