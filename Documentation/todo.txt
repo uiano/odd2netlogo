@@ -49,14 +49,15 @@ TODO for Martin
 - constraints that names cannot be the same, maybe related to INamedConcept: All primitives, global and agent variable names, and procedure names share a single global case-insensitive namespace; local names (let variables and the names of procedure inputs) may not shadow global names or each other. Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
 - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
 - localize codegen
-- remove unused nameforentity editors
+- remove unused nameforentity editors (Done. Also found two instances where NameForEntity was used in context hint, but the target concpet had no such editor. The concepts are EnvironmentEntites (in formalodd.editor.EntitiesStateVariablesAndScales_Editor) and Action (in formalodd.editor.ODD_Editor. Didnt find any sub concepts which extend action to also have NameForEntity)
 - introduce proper constraints for names
 - typing of expressions
-- remove branches from github
+- remove branches from github (Done)
 - move [stop] out of generation for end condition
 - sort between github and tools.uia version and remove the tools.uia version
 - fix selection of agent and UI generally
 - fix focus (init vs. entities)
+- make names (and other properties) showing in multiple places R/O model access. (Tried, but introduces more problems than it solves, as focus is redirected to a read-only cell)
 
 TODO later and larger
 - create predefined UDAs shape, size, colour
