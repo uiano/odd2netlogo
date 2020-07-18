@@ -2135,16 +2135,6 @@
       <property role="ilYzB" value="Press ctrl space to select Type" />
     </node>
   </node>
-  <node concept="24kQdi" id="7AEkq7xf3c$">
-    <property role="3GE5qa" value="Initialization" />
-    <ref role="1XX52x" to="86kt:3rTwIuRHR_m" resolve="Slider" />
-    <node concept="3F0ifn" id="7AEkq7xf3cC" role="2wV5jI">
-      <property role="3F0ifm" value="slider" />
-    </node>
-    <node concept="2aJ2om" id="7AEkq7xf3cA" role="CpUAK">
-      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-    </node>
-  </node>
   <node concept="24kQdi" id="7AEkq7xyz$q">
     <property role="3GE5qa" value="Expressions" />
     <ref role="1XX52x" to="86kt:7AEkq7xq0wR" resolve="NumberConstant" />
@@ -2881,24 +2871,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="24yfUKsAS2v">
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_CountEntities" />
-    <node concept="3EZMnI" id="24yfUKsAS2z" role="2wV5jI">
-      <node concept="3F0ifn" id="28AKh6DkFOj" role="3EZMnx">
-        <property role="3F0ifm" value="counting" />
-        <node concept="Vb9p2" id="4HBtuojO5C6" role="3F10Kt" />
-      </node>
-      <node concept="2iRfu4" id="24yfUKsAS2$" role="2iSdaV" />
-      <node concept="3F0ifn" id="24yfUKsAS2D" role="3EZMnx">
-        <property role="3F0ifm" value="in the simulation environment" />
-        <node concept="Vb9p2" id="24yfUKsAS2G" role="3F10Kt" />
-      </node>
-    </node>
-    <node concept="2aJ2om" id="24yfUKsHJVS" role="CpUAK">
-      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
-    </node>
-  </node>
   <node concept="24kQdi" id="7MNWMNAzpgt">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1XX52x" to="86kt:7MNWMNAzpgk" resolve="DecrementAttribute" />
@@ -3548,20 +3520,6 @@
         <ref role="1NtTu8" to="86kt:4GwBkRmQAl" resolve="description" />
         <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
       </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="7AEkq7wWNwy">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="NumberType" />
-    <node concept="3EZMnI" id="7AEkq7xvBFu" role="2wV5jI">
-      <node concept="2iRfu4" id="7AEkq7xvBFv" role="2iSdaV" />
-      <node concept="3F0ifn" id="7AEkq7wWNwA" role="3EZMnx">
-        <property role="3F0ifm" value="Number" />
-        <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
-      </node>
-    </node>
-    <node concept="2aJ2om" id="7AEkq7wWNw$" role="CpUAK">
-      <ref role="2$4xQ3" node="3okqQmmA0os" resolve="NameForEntity" />
     </node>
   </node>
   <node concept="24kQdi" id="3tK0pyo0$FJ">
