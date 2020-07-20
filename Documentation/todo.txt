@@ -1,5 +1,6 @@
 TODO list for development of ODD2Netlogo
 - wolf sheep scheduling - correct code gen ref Library
+- recheck MARG generated code
 - fix code Voting, Fire, FireAgents, Segregation cf. Library
 - why is occupied an interaction in segregation? fix it.
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
@@ -12,6 +13,7 @@ TODO list for development of ODD2Netlogo
 - should sliders be expressions?
 - use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
+- allow comments in the code (see ACT ONE)
 - remove styling hintIfNull?
 - improve appearance of MARG
 - styling hint versus comment? should they be selectable?
@@ -49,10 +51,8 @@ TODO for Martin
 - constraints that names cannot be the same, maybe related to INamedConcept: All primitives, global and agent variable names, and procedure names share a single global case-insensitive namespace; local names (let variables and the names of procedure inputs) may not shadow global names or each other. Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
 - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
 - localize codegen
-- remove unused nameforentity editors (Done. Also found two instances where NameForEntity was used in context hint, but the target concpet had no such editor. The concepts are EnvironmentEntites (in formalodd.editor.EntitiesStateVariablesAndScales_Editor) and Action (in formalodd.editor.ODD_Editor. Didnt find any sub concepts which extend action to also have NameForEntity)
 - introduce proper constraints for names
 - typing of expressions
-- remove branches from github (Done)
 - move [stop] out of generation for end condition
 - sort between github and tools.uia version and remove the tools.uia version
 - fix selection of agent and UI generally

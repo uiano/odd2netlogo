@@ -705,6 +705,11 @@
         <property role="QtYJw" value="growth rate of grass" />
         <node concept="ZOwps" id="4GwBkRvyr0" role="zGXb3" />
       </node>
+      <node concept="ZOwpH" id="5gquUl5I$UV" role="1XCrKs">
+        <property role="TrG5h" value="countdown" />
+        <property role="QtYJw" value="this is for the sheep-wolves-grass model version" />
+        <node concept="ZOwps" id="5gquUl5I$V1" role="zGXb3" />
+      </node>
       <node concept="ZOwpH" id="4GwBkRvkmH" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-sheep" />
         <property role="QtYJw" value="energy that wolf gets from eating sheep" />
@@ -738,9 +743,17 @@
         </node>
         <node concept="ZOwps" id="4GwBkRvkn8" role="zGXb3" />
       </node>
+      <node concept="ZOwpH" id="5gquUl5xb9_" role="Qgzvn">
+        <property role="TrG5h" value="max-sheep" />
+        <property role="QtYJw" value="don't let the sheep population grow too large" />
+        <node concept="ZOwps" id="5gquUl5xb9M" role="zGXb3" />
+        <node concept="2oK_Am" id="5gquUl5Lebi" role="2oy9Oj">
+          <property role="2oK_Ap" value="30000" />
+        </node>
+      </node>
       <node concept="ZOwpH" id="6ow5IfzpoId" role="25gc1v">
         <property role="TrG5h" value="energy" />
-        <property role="QtYJw" value="life energy of the animal" />
+        <property role="QtYJw" value="both wolves and sheep have energy" />
         <node concept="ZOwps" id="3M5MOtLapCL" role="zGXb3" />
         <node concept="21jJIL" id="6ow5Ifzq_Z8" role="2oy9Oj">
           <property role="21jJIY" value="0" />
@@ -779,7 +792,7 @@
         <property role="TrG5h" value="wolf" />
         <property role="2QSBU6" value="wolves" />
         <node concept="ZOwrR" id="qdXC$xz0Q$" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XmI/grey" />
+          <property role="ZOwrO" value="22rmwLH$Xmq/black" />
         </node>
         <node concept="ZOwo7" id="qdXC$xz0QF" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa7e/wolf" />
@@ -801,7 +814,7 @@
         </node>
         <node concept="ZOwo7" id="qdXC$xz0R5" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa18/sheep" />
-          <property role="27hOD7" value="1" />
+          <property role="27hOD7" value="1.5" />
         </node>
         <node concept="RFdHg" id="60Hvi7sbkhK" role="RFdH4" />
         <node concept="21jJIL" id="60Hvi7seuHH" role="RIgNU">
