@@ -554,7 +554,7 @@
         <property role="TrG5h" value="eat-grass" />
         <node concept="2qfAsZ" id="1w00y4a7gvi" role="18tn1X">
           <node concept="26lliW" id="1w00y4a7gvr" role="2rWCss">
-            <ref role="26lliz" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
+            <ref role="26lliz" node="4GwBkRvkmT" resolve="sheep-gain-from-food" />
           </node>
           <node concept="26lliW" id="t7PfuNXOjr" role="2OFgHe">
             <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
@@ -577,7 +577,7 @@
         </node>
         <node concept="2qfAsZ" id="5iGq3FrbSL5" role="18tn1X">
           <node concept="26lliW" id="5iGq3FrbSLh" role="2rWCss">
-            <ref role="26lliz" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
+            <ref role="26lliz" node="4GwBkRvkmH" resolve="wolf-gain-from-food" />
           </node>
           <node concept="26lliW" id="t7PfuNXOjt" role="2OFgHe">
             <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
@@ -711,7 +711,7 @@
         <node concept="ZOwps" id="5gquUl5I$V1" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmH" role="Qgzvn">
-        <property role="TrG5h" value="energy-gain-from-sheep" />
+        <property role="TrG5h" value="wolf-gain-from-food" />
         <property role="QtYJw" value="energy that wolf gets from eating sheep" />
         <node concept="ZOwps" id="3M5MOtLapCI" role="zGXb3" />
         <node concept="21jJIL" id="3M5MOtLfgXN" role="2oy9Oj">
@@ -722,7 +722,7 @@
         </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmT" role="Qgzvn">
-        <property role="TrG5h" value="energy-gain-from-grass" />
+        <property role="TrG5h" value="sheep-gain-from-food" />
         <property role="QtYJw" value="energy that sheep gets from eating grass" />
         <node concept="ZOwps" id="4GwBkRvkmU" role="zGXb3" />
         <node concept="21jJIL" id="4GwBkRvkmV" role="2oy9Oj">
@@ -755,11 +755,19 @@
         <property role="TrG5h" value="energy" />
         <property role="QtYJw" value="both wolves and sheep have energy" />
         <node concept="ZOwps" id="3M5MOtLapCL" role="zGXb3" />
-        <node concept="21jJIL" id="6ow5Ifzq_Z8" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="5" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="30" />
+        <node concept="2jQCjV" id="6o6DKlVfj6Y" role="2oy9Oj">
+          <node concept="2oK_Am" id="6o6DKlVfj74" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="i7gn5" id="6o6DKlVfj7a" role="2jQCjT">
+            <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
+            <node concept="2oK_Am" id="6o6DKlVfj7j" role="i7gCG">
+              <property role="2oK_Ap" value="2" />
+            </node>
+            <node concept="26lliW" id="6o6DKlVfj7m" role="i7gCI">
+              <ref role="26lliz" node="4GwBkRvkmT" resolve="sheep-gain-from-food" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="ZOwrm" id="1LeTgidqm5Z" role="2kDK73">

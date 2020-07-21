@@ -1,5 +1,7 @@
 TODO list for development of ODD2Netlogo
 - wolf sheep scheduling - correct code gen ref Library
+- howto handle focus problem?
+- init shared attributes in the entities?!
 - recheck MARG generated code
 - fix code Voting, Fire, FireAgents, Segregation cf. Library
 - why is occupied an interaction in segregation? fix it.
