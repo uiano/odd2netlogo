@@ -2058,9 +2058,6 @@
           <node concept="3F1sOY" id="5gquUl59qEi" role="3EZMnx">
             <ref role="1NtTu8" to="86kt:5gquUl59qE6" resolve="partner2" />
           </node>
-          <node concept="3F0ifn" id="5gquUl59qEA" role="3EZMnx">
-            <property role="3F0ifm" value="old:" />
-          </node>
           <node concept="3F0ifn" id="3M5MOtLpIq8" role="3EZMnx">
             <property role="3F0ifm" value=", together performing the following actions." />
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
@@ -7120,6 +7117,27 @@
       </node>
     </node>
     <node concept="22hDWj" id="4UvEPNzctMB" role="22hAXT" />
+  </node>
+  <node concept="24kQdi" id="6o6DKlW0nMg">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:6o6DKlW0nLI" resolve="EnvironmentEntityReference" />
+    <node concept="3EZMnI" id="6o6DKlW0nMi" role="2wV5jI">
+      <node concept="l2Vlx" id="6o6DKlW0nMj" role="2iSdaV" />
+      <node concept="1iCGBv" id="6o6DKlW0nMm" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6o6DKlW0nLJ" resolve="generalEntity" />
+        <node concept="1sVBvm" id="6o6DKlW0nMp" role="1sWHZn">
+          <node concept="3F0A7n" id="6o6DKlW0nMr" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6o6DKlW0nMw" role="3EZMnx">
+        <property role="3F0ifm" value="at" />
+      </node>
+      <node concept="3F0A7n" id="6o6DKlW0nMz" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6o6DKlW0nLO" resolve="where" />
+      </node>
+    </node>
   </node>
 </model>
 

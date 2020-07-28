@@ -114,6 +114,9 @@
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
+      <concept id="7351747083726060654" name="formalodd.structure.EnvironmentEntityReference" flags="ng" index="q1XHF">
+        <reference id="7351747083726060655" name="generalEntity" index="q1XHE" />
+      </concept>
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="8985793055721061048" name="formalodd.structure.ConditionalAction" flags="ng" index="2rRKAk">
@@ -581,6 +584,9 @@
       <node concept="BZNO7" id="3kYfzLXlqIr" role="2GyEu2">
         <property role="TrG5h" value="eat-grass" />
         <property role="2QSBU6" value="sheep eat grass and turn the patch brown" />
+        <node concept="8StHo" id="5yfUVbu1olf" role="18tn1X">
+          <ref role="2JNnW9" node="5yfUVbtpZLs" resolve="soil" />
+        </node>
         <node concept="2qfAsZ" id="1w00y4a7gvi" role="18tn1X">
           <node concept="26lliW" id="1w00y4a7gvr" role="2rWCss">
             <ref role="26lliz" node="4GwBkRvkmT" resolve="sheep-gain-from-food" />
@@ -589,18 +595,16 @@
             <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
           </node>
         </node>
-        <node concept="8StHo" id="5yfUVbu1olf" role="18tn1X">
-          <ref role="2JNnW9" node="5yfUVbtpZLs" resolve="soil" />
-        </node>
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="2lNc1w" id="5gquUl5c0qu" role="hfX4z">
-          <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
+        <node concept="q1XHF" id="6o6DKlW3xPx" role="hfX4z">
+          <ref role="q1XHE" node="1LeTgidqm5Z" resolve="grass" />
         </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
+        <property role="2QSBU6" value="wolf can eat sheep" />
         <node concept="8shMO" id="5yfUVbu1olx" role="18tn1X">
           <property role="26S2D9" value="5yfUVburW9F/target" />
         </node>
@@ -640,6 +644,7 @@
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrsz" role="2GyEu2">
         <property role="TrG5h" value="reproduce-sheep" />
+        <property role="2QSBU6" value="produce new sheep" />
         <node concept="2rRKAk" id="3M5MOtLpx1f" role="18tn1X">
           <node concept="2DBPlz" id="3M5MOtLpx1x" role="2rRKAh">
             <property role="2DBPly" value="1" />
@@ -666,6 +671,7 @@
       </node>
       <node concept="2lNc1x" id="6o6DKlVsVhg" role="2GyEu2">
         <property role="TrG5h" value="reproduce-wolves" />
+        <property role="2QSBU6" value="produce new wolves" />
         <node concept="2rRKAk" id="6o6DKlVsVhh" role="18tn1X">
           <node concept="2DBPlz" id="6o6DKlVsVhi" role="2rRKAh">
             <property role="2DBPly" value="1" />

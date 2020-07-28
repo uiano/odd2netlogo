@@ -1746,6 +1746,7 @@
     <property role="3F6X1D" value="6465847136233012547" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="Where" />
+    <ref role="1H5jkz" node="5AVjrpZ9jP4" resolve="sameSpot" />
     <node concept="25R33" id="5AVjrpZ9jP4" role="25R1y">
       <property role="3tVfz5" value="6465847136233012548" />
       <property role="TrG5h" value="sameSpot" />
@@ -2608,6 +2609,22 @@
     <property role="TrG5h" value="INamedConceptODD" />
     <node concept="PrWs8" id="4_ZgD2xHaHg" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6o6DKlW0nLI">
+    <property role="EcuMT" value="7351747083726060654" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="EnvironmentEntityReference" />
+    <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
+    <node concept="1TJgyi" id="6o6DKlW0nLO" role="1TKVEl">
+      <property role="IQ2nx" value="7351747083726060660" />
+      <property role="TrG5h" value="where" />
+      <ref role="AX2Wp" node="5AVjrpZ9jP3" resolve="Where" />
+    </node>
+    <node concept="1TJgyj" id="6o6DKlW0nLJ" role="1TKVEi">
+      <property role="IQ2ns" value="7351747083726060655" />
+      <property role="20kJfa" value="generalEntity" />
+      <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
 </model>
