@@ -214,6 +214,7 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
+        <child id="7351747083731037866" name="test_init" index="qiWAJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
         <child id="999929643176201180" name="networks" index="1w1JPE" />
@@ -1342,6 +1343,9 @@
   <node concept="ZOwpP" id="4xlWY3qEPkU">
     <property role="TrG5h" value=" MARG" />
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
+      <node concept="26lliW" id="6o6DKlWpO7x" role="qiWAJ">
+        <ref role="26lliz" node="39v_dEyCApp" resolve="num-internal-characteristics" />
+      </node>
       <node concept="RZfIr" id="6iw2eE30koM" role="3AlXHa">
         <property role="TrG5h" value="exclusion-index" />
         <node concept="i7gn5" id="6iw2eE30koN" role="RZfIc">

@@ -195,6 +195,13 @@
       <property role="20kJfa" value="scales" />
       <ref role="20lvS9" node="ALSMvQyfap" resolve="InformalWithRationale" />
     </node>
+    <node concept="1TJgyj" id="6o6DKlWjmUE" role="1TKVEi">
+      <property role="IQ2ns" value="7351747083731037866" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="test_init" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
+    </node>
     <node concept="PrWs8" id="3nK6aP_5otG" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>

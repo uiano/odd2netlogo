@@ -1170,11 +1170,7 @@
           </node>
           <node concept="3F1sOY" id="5iGq3Fr7bwo" role="3EZMnx">
             <ref role="1NtTu8" to="86kt:7AEkq7x8GMM" resolve="initialisation" />
-            <node concept="2w$q5c" id="5iGq3Fr7bwp" role="3xwHhi">
-              <node concept="2aJ2om" id="5iGq3Fr7bwq" role="2w$qW5">
-                <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
-              </node>
-            </node>
+            <node concept="2w$q5c" id="5iGq3Fr7bwp" role="3xwHhi" />
           </node>
           <node concept="l2Vlx" id="166q1ILcY5D" role="2iSdaV" />
           <node concept="lj46D" id="166q1ILeYFY" role="3F10Kt">
@@ -2144,6 +2140,32 @@
     <property role="TrG5h" value="Initialize_EntityStateScales" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
     <node concept="3EZMnI" id="5DmxhgoqSCJ" role="2wV5jI">
+      <node concept="3EZMnI" id="6o6DKlWjnro" role="3EZMnx">
+        <node concept="VPM3Z" id="6o6DKlWjnrp" role="3F10Kt" />
+        <node concept="3F0ifn" id="6o6DKlWjnrq" role="3EZMnx">
+          <property role="3F0ifm" value="Testing references to UDA" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+        </node>
+        <node concept="1iCGBv" id="6o6DKlWjnrr" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
+          <node concept="1sVBvm" id="6o6DKlWjnrs" role="1sWHZn">
+            <node concept="3F2HdR" id="6o6DKlWjnrt" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:6o6DKlWjmUE" resolve="test_init" />
+              <node concept="2EHx9g" id="6o6DKlWjnru" role="2czzBx" />
+              <node concept="3F0ifn" id="6o6DKlWjnrv" role="2czzBI">
+                <property role="3F0ifm" value="Press Enter to add attribute" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              </node>
+              <node concept="2w$q5c" id="6o6DKlWpOnH" role="78xua">
+                <node concept="2aJ2om" id="6o6DKlWpOnI" role="2w$qW5">
+                  <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2iRkQZ" id="6o6DKlWjnrw" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="4GwBkRsSUo" role="3EZMnx">
         <node concept="VPM3Z" id="4GwBkRsSUp" role="3F10Kt" />
         <node concept="3F0ifn" id="4GwBkRsSUq" role="3EZMnx">
@@ -7136,6 +7158,38 @@
       </node>
       <node concept="3F0A7n" id="6o6DKlW0nMz" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6o6DKlW0nLO" resolve="where" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6o6DKlWjnRM">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:5yfUVbuQFWe" resolve="AttributeAccess" />
+    <node concept="2aJ2om" id="6o6DKlWjnRR" role="CpUAK">
+      <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
+    </node>
+    <node concept="3EZMnI" id="6o6DKlWjnSt" role="2wV5jI">
+      <node concept="3F0ifn" id="6o6DKlWjnSD" role="3EZMnx">
+        <property role="3F0ifm" value="attribute" />
+      </node>
+      <node concept="1iCGBv" id="6o6DKlWjnRO" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5yfUVbuQFWh" resolve="attribute" />
+        <node concept="1sVBvm" id="6o6DKlWjnRP" role="1sWHZn">
+          <node concept="3F0A7n" id="6o6DKlWjnRQ" role="2wV5jI">
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="2iRfu4" id="6o6DKlWjnSu" role="2iSdaV" />
+      <node concept="3F0ifn" id="6o6DKlWjnSP" role="3EZMnx">
+        <property role="3F0ifm" value="is initialized by" />
+      </node>
+      <node concept="1iCGBv" id="6o6DKlWjnT3" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5yfUVbuQFWh" resolve="attribute" />
+        <node concept="1sVBvm" id="6o6DKlWjnT5" role="1sWHZn">
+          <node concept="3F1sOY" id="6o6DKlWjnTh" role="2wV5jI">
+            <ref role="1NtTu8" to="86kt:7AEkq7x8GMM" resolve="initialisation" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
