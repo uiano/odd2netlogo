@@ -5811,10 +5811,10 @@
               <node concept="lc7rE" id="5yfUVbutPxU" role="3cqZAp">
                 <node concept="2BGw6n" id="5iGq3FrgPrN" role="lcghm" />
                 <node concept="la8eA" id="5iGq3FrgPq6" role="lcghm">
-                  <property role="lacIc" value="ask target" />
+                  <property role="lacIc" value="ask _other" />
                 </node>
                 <node concept="la8eA" id="5yfUVbutPxV" role="lcghm">
-                  <property role="lacIc" value=" [ die ] " />
+                  <property role="lacIc" value=" [ die ]" />
                 </node>
                 <node concept="l8MVK" id="5yfUVbutPxW" role="lcghm" />
               </node>

@@ -56,6 +56,7 @@
         <child id="3629783491434196472" name="inner" index="2gRb$y" />
       </concept>
       <concept id="3629783491436646477" name="formalodd.structure.TODO_SelectN" flags="ng" index="2gXKin">
+        <property id="7351747083734467931" name="where" index="qxQ9u" />
         <child id="3629783491436646478" name="count" index="2gXKik" />
         <child id="3629783491436646479" name="argument" index="2gXKil" />
       </concept>
@@ -553,6 +554,19 @@
         <node concept="1Svl6F" id="6o6DKlVsVjC" role="2QG2ke">
           <ref role="1Svl6C" node="3kYfzLXlrhO" resolve="eat-sheep" />
           <node concept="2g0R4C" id="6o6DKlVsVjD" role="2QCFRE" />
+        </node>
+        <node concept="1Svl6F" id="6o6DKlWwsiC" role="2QG2ke">
+          <ref role="1Svl6C" node="3kYfzLXlrhO" resolve="eat-sheep" />
+          <node concept="2g0R4C" id="6o6DKlWzEbe" role="2QCFRE" />
+          <node concept="2gXKin" id="6o6DKlWwsiN" role="2QCFRE">
+            <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
+            <node concept="2oK_Am" id="6o6DKlWwsiT" role="2gXKik">
+              <property role="2oK_Ap" value="1" />
+            </node>
+            <node concept="2QpFD0" id="6o6DKlWwsj4" role="2gXKil">
+              <ref role="2QpFD1" node="qdXC$xz0Qv" resolve="sheep" />
+            </node>
+          </node>
         </node>
         <node concept="1Svl6F" id="6o6DKlVsVjE" role="2QG2ke">
           <ref role="1Svl6C" node="3kYfzLXlrpQ" resolve="death" />
