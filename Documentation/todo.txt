@@ -1,6 +1,5 @@
 TODO list for development of ODD2Netlogo
 - wolf sheep scheduling - correct code gen ref Library
-- howto handle focus problem?
 - init shared attributes in the entities?!
 - recheck MARG generated code
 - fix code Voting, Fire, FireAgents, Segregation cf. Library
@@ -61,6 +60,7 @@ TODO for Martin
 - fix focus (init vs. entities)
 - make names (and other properties) showing in multiple places R/O model access. (Tried, but introduces more problems than it solves, as focus is redirected to a read-only cell)
 - in editor allow sections to be folded (i.e. shown as just one line with the option to unfold)
+- indent in spawn is missing - spawn should also better be called "clone"
 
 TODO later and larger
 - create predefined UDAs shape, size, colour

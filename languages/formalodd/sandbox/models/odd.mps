@@ -134,7 +134,6 @@
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
-        <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
       <concept id="2473444682900410212" name="formalodd.structure.TODO_Indices" flags="ng" index="2HyfYL">
         <child id="2473444682900410213" name="inner" index="2HyfYK" />
@@ -659,54 +658,76 @@
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrsz" role="2GyEu2">
         <property role="TrG5h" value="reproduce-sheep" />
-        <property role="2QSBU6" value="produce new sheep" />
-        <node concept="2rRKAk" id="3M5MOtLpx1f" role="18tn1X">
-          <node concept="2DBPlz" id="3M5MOtLpx1x" role="2rRKAh">
-            <property role="2DBPly" value="1" />
-            <node concept="8StVI" id="3M5MOtLpx1y" role="3BJUly">
-              <node concept="2oK_Am" id="3M5MOtLpx1z" role="2rWCss">
+        <property role="2QSBU6" value="produce new sheep, divide energy between parent and child" />
+        <node concept="2rRKAk" id="6o6DKlX04u7" role="18tn1X">
+          <node concept="26hFik" id="6o6DKlX04uo" role="2rRKAn">
+            <property role="26hFil" value="5yfUVbuMlWg/lt" />
+            <node concept="2jQCjV" id="6o6DKlX04uB" role="26hFir">
+              <node concept="2oK_Am" id="6o6DKlX04uK" role="2jQCjS">
+                <property role="2oK_Ap" value="0" />
+              </node>
+              <node concept="2oK_Am" id="6o6DKlX04uN" role="2jQCjT">
                 <property role="2oK_Ap" value="100" />
               </node>
-              <node concept="26lliW" id="t7PfuNXOjv" role="2OFgHe">
+            </node>
+            <node concept="26lliW" id="6o6DKlX04u$" role="26hFip">
+              <ref role="26lliz" node="6o6DKlX04st" resolve="sheep-reproduce" />
+            </node>
+          </node>
+          <node concept="8StVI" id="6o6DKlX04uQ" role="2rRKAh">
+            <node concept="26lliW" id="6o6DKlX04uR" role="2OFgHe">
+              <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
+            </node>
+            <node concept="i7gn5" id="6o6DKlX04uU" role="2rWCss">
+              <property role="i7gn4" value="1w00y4a7gvD/divide" />
+              <node concept="26lliW" id="6o6DKlX04v0" role="i7gCG">
                 <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
+              </node>
+              <node concept="2oK_Am" id="6o6DKlX04v3" role="i7gCI">
+                <property role="2oK_Ap" value="2" />
               </node>
             </node>
           </node>
-          <node concept="26hFik" id="3M5MOtLpx1r" role="2rRKAn">
-            <property role="26hFil" value="5yfUVbuMlWp/gt" />
-            <node concept="26lliW" id="3M5MOtLpx1s" role="26hFir">
-              <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
-            </node>
-            <node concept="2oK_Am" id="3M5MOtLpx1t" role="26hFip">
-              <property role="2oK_Ap" value="200" />
-            </node>
+          <node concept="2DBPlz" id="6o6DKlX04vd" role="2rRKAh">
+            <property role="2DBPly" value="1" />
           </node>
         </node>
         <node concept="Qbqaq" id="4GwBkR93MA" role="18tn1Z" />
       </node>
       <node concept="2lNc1x" id="6o6DKlVsVhg" role="2GyEu2">
         <property role="TrG5h" value="reproduce-wolves" />
-        <property role="2QSBU6" value="produce new wolves" />
-        <node concept="2rRKAk" id="6o6DKlVsVhh" role="18tn1X">
-          <node concept="2DBPlz" id="6o6DKlVsVhi" role="2rRKAh">
-            <property role="2DBPly" value="1" />
-            <node concept="8StVI" id="6o6DKlVsVhj" role="3BJUly">
-              <node concept="2oK_Am" id="6o6DKlVsVhk" role="2rWCss">
+        <property role="2QSBU6" value="produce new wolves, divide energy between parent and child" />
+        <node concept="2rRKAk" id="6o6DKlX04yb" role="18tn1X">
+          <node concept="26hFik" id="6o6DKlX04yc" role="2rRKAn">
+            <property role="26hFil" value="5yfUVbuMlWg/lt" />
+            <node concept="2jQCjV" id="6o6DKlX04yd" role="26hFir">
+              <node concept="2oK_Am" id="6o6DKlX04ye" role="2jQCjS">
+                <property role="2oK_Ap" value="0" />
+              </node>
+              <node concept="2oK_Am" id="6o6DKlX04yf" role="2jQCjT">
                 <property role="2oK_Ap" value="100" />
               </node>
-              <node concept="26lliW" id="6o6DKlVsVhl" role="2OFgHe">
+            </node>
+            <node concept="26lliW" id="6o6DKlX04yz" role="26hFip">
+              <ref role="26lliz" node="6o6DKlX04sM" resolve="wolf-reproduce" />
+            </node>
+          </node>
+          <node concept="8StVI" id="6o6DKlX04yh" role="2rRKAh">
+            <node concept="26lliW" id="6o6DKlX04yi" role="2OFgHe">
+              <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
+            </node>
+            <node concept="i7gn5" id="6o6DKlX04yj" role="2rWCss">
+              <property role="i7gn4" value="1w00y4a7gvD/divide" />
+              <node concept="26lliW" id="6o6DKlX04yk" role="i7gCG">
                 <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
+              </node>
+              <node concept="2oK_Am" id="6o6DKlX04yl" role="i7gCI">
+                <property role="2oK_Ap" value="2" />
               </node>
             </node>
           </node>
-          <node concept="26hFik" id="6o6DKlVsVhm" role="2rRKAn">
-            <property role="26hFil" value="5yfUVbuMlWp/gt" />
-            <node concept="26lliW" id="6o6DKlVsVhn" role="26hFir">
-              <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
-            </node>
-            <node concept="2oK_Am" id="6o6DKlVsVho" role="26hFip">
-              <property role="2oK_Ap" value="200" />
-            </node>
+          <node concept="2DBPlz" id="6o6DKlX04ym" role="2rRKAh">
+            <property role="2DBPly" value="1" />
           </node>
         </node>
         <node concept="Qbqaq" id="6o6DKlVsVhp" role="18tn1Z" />
@@ -826,6 +847,28 @@
         <node concept="ZOwps" id="5gquUl5xb9M" role="zGXb3" />
         <node concept="2oK_Am" id="5gquUl5Lebi" role="2oy9Oj">
           <property role="2oK_Ap" value="30000" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="6o6DKlX04st" role="Qgzvn">
+        <property role="TrG5h" value="sheep-reproduce" />
+        <property role="QtYJw" value="reproduce rate of sheep" />
+        <node concept="ZOwps" id="6o6DKlX04sH" role="zGXb3" />
+        <node concept="21jJIL" id="6o6DKlX04sK" role="2oy9Oj">
+          <property role="21jJIY" value="1" />
+          <property role="21jJI7" value="1" />
+          <property role="21jJIV" value="20" />
+          <property role="2rHBro" value="4" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="6o6DKlX04sM" role="Qgzvn">
+        <property role="TrG5h" value="wolf-reproduce" />
+        <property role="QtYJw" value="reproduce rate of wolves" />
+        <node concept="ZOwps" id="6o6DKlX04sN" role="zGXb3" />
+        <node concept="21jJIL" id="6o6DKlX04sO" role="2oy9Oj">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="1" />
+          <property role="21jJIV" value="20" />
+          <property role="2rHBro" value="5" />
         </node>
       </node>
       <node concept="ZOwpH" id="6ow5IfzpoId" role="25gc1v">
