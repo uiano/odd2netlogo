@@ -699,7 +699,7 @@
   <node concept="1TIwiD" id="6lHESjKDbbO">
     <property role="EcuMT" value="7308686357753541364" />
     <property role="3GE5qa" value="4FutureUse" />
-    <property role="TrG5h" value="TODO_Move" />
+    <property role="TrG5h" value="REMOVE_Move" />
     <property role="R4oN_" value="not implemented" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
@@ -722,7 +722,7 @@
       <property role="IQ2ns" value="6529568716151007763" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="turnRandom" />
-      <ref role="20lvS9" node="5EtG2rQDhqe" resolve="TODO_TurnRandom" />
+      <ref role="20lvS9" node="5EtG2rQDhqe" resolve="TODO_Turn" />
     </node>
     <node concept="1TJgyj" id="5EtG2rQFMCp" role="1TKVEi">
       <property role="IQ2ns" value="6529568716151007769" />
@@ -774,7 +774,7 @@
     <property role="3GE5qa" value="4FutureUse" />
     <property role="TrG5h" value="TODO_TurnRight" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="TODO_Move" />
+    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="REMOVE_Move" />
     <node concept="1TJgyi" id="5EtG2rQFMz8" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007432" />
       <property role="TrG5h" value="turnRight" />
@@ -786,7 +786,7 @@
     <property role="3GE5qa" value="4FutureUse" />
     <property role="TrG5h" value="TODO_TurnLeft" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="TODO_Move" />
+    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="REMOVE_Move" />
     <node concept="1TJgyi" id="5EtG2rQFMza" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007434" />
       <property role="TrG5h" value="turnLeft" />
@@ -795,19 +795,16 @@
   </node>
   <node concept="1TIwiD" id="5EtG2rQDhqe">
     <property role="EcuMT" value="6529568716150347406" />
-    <property role="3GE5qa" value="4FutureUse" />
-    <property role="TrG5h" value="TODO_TurnRandom" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <property role="TrG5h" value="TODO_Turn" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="TODO_Move" />
-    <node concept="1TJgyi" id="5EtG2rQFMz3" role="1TKVEl">
-      <property role="IQ2nx" value="6529568716151007427" />
-      <property role="TrG5h" value="randomLeft" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="5EtG2rQFMz5" role="1TKVEl">
-      <property role="IQ2nx" value="6529568716151007429" />
-      <property role="TrG5h" value="randomRight" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
+    <node concept="1TJgyj" id="6o6DKlXk0ym" role="1TKVEi">
+      <property role="IQ2ns" value="7351747083747985558" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="direction" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="5EtG2rQDhqf">
@@ -815,7 +812,7 @@
     <property role="3GE5qa" value="4FutureUse" />
     <property role="TrG5h" value="TODO_MoveForward" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="TODO_Move" />
+    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="REMOVE_Move" />
     <node concept="1TJgyi" id="5EtG2rQFMz1" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007425" />
       <property role="TrG5h" value="forward" />
@@ -827,7 +824,7 @@
     <property role="3GE5qa" value="4FutureUse" />
     <property role="TrG5h" value="TODO_MoveBack" />
     <property role="R4oN_" value="not implemented" />
-    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="TODO_Move" />
+    <ref role="1TJDcQ" node="6lHESjKDbbO" resolve="REMOVE_Move" />
     <node concept="1TJgyi" id="5EtG2rQFMyZ" role="1TKVEl">
       <property role="IQ2nx" value="6529568716151007423" />
       <property role="TrG5h" value="back" />
@@ -837,12 +834,12 @@
   <node concept="1TIwiD" id="2EFWiWzCelr">
     <property role="EcuMT" value="3074816355373999451" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="TODO_MoveRandom" />
+    <property role="TrG5h" value="REMOVE_MoveRandom" />
     <property role="R4oN_" value="moves a entity randomly" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
     <node concept="1TJgyi" id="2EFWiWzCels" role="1TKVEl">
       <property role="IQ2nx" value="3074816355373999452" />
-      <property role="TrG5h" value="MovementSpeed" />
+      <property role="TrG5h" value="MovementDistance" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
@@ -850,7 +847,7 @@
     <property role="EcuMT" value="8247773779785854958" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="TODO_Spawn" />
-    <property role="R4oN_" value="Spawns a new entity" />
+    <property role="R4oN_" value="Clones a new entity based on the current entity" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
     <node concept="1TJgyi" id="79PYCRrUEZJ" role="1TKVEl">
       <property role="IQ2nx" value="8247773779785854959" />
@@ -876,7 +873,7 @@
     <property role="EcuMT" value="1786286396191059675" />
     <property role="3GE5qa" value="4FutureUse" />
     <property role="TrG5h" value="TODO_Sprout" />
-    <property role="R4oN_" value="spawn new entity at patch" />
+    <property role="R4oN_" value="Creates a new entity from someone else (patch or entity)" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
     <node concept="1TJgyj" id="1zaawdw5bqj" role="1TKVEi">
       <property role="IQ2ns" value="1786286396191061651" />
@@ -2132,7 +2129,7 @@
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="TODO_ParameterType" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="39v_dExYdn4">
     <property role="EcuMT" value="3629783491425129924" />
@@ -2650,6 +2647,37 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="collection" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6o6DKlXk0y3">
+    <property role="EcuMT" value="7351747083747985539" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <property role="TrG5h" value="Move" />
+    <property role="R4oN_" value="moves a entity randomly" />
+    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
+    <node concept="1TJgyi" id="6o6DKlXk0y4" role="1TKVEl">
+      <property role="IQ2nx" value="7351747083747985540" />
+      <property role="TrG5h" value="MovementDistance" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6o6DKlXEK69">
+    <property role="EcuMT" value="7351747083753947529" />
+    <property role="3GE5qa" value="Initialization" />
+    <property role="TrG5h" value="Everywhere" />
+    <ref role="1TJDcQ" node="60Hvi7sIcIO" resolve="Location" />
+  </node>
+  <node concept="1TIwiD" id="6o6DKlXS2V0">
+    <property role="EcuMT" value="7351747083757432512" />
+    <property role="3GE5qa" value="Appearance" />
+    <property role="TrG5h" value="ScaledColour" />
+    <ref role="1TJDcQ" node="3lcKR8aBGm5" resolve="ColourConstant" />
+    <node concept="1TJgyj" id="6o6DKlXS2V3" role="1TKVEi">
+      <property role="IQ2ns" value="7351747083757432515" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="scalingValue" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
     </node>
   </node>
 </model>

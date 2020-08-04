@@ -1,8 +1,12 @@
 TODO list for development of ODD2Netlogo
-- wolf sheep scheduling - correct code gen ref Library
-- init shared attributes in the entities?!
+- wolf sheep scheduling - correct code gen ref Library (WSS1)
+- use range for regrow-grass
+- init shared attributes in the entities (for each of them)
 - recheck MARG generated code
-- fix code Voting, Fire, FireAgents, Segregation cf. Library
+- fix code Voting cf. Library
+- fix code Fire cf. Library
+- fix code FireAgents cf. Library
+- fix code Segregation cf. Library
 - why is occupied an interaction in segregation? fix it.
 - generate agent condition at call, not at proc. call is correct if parent applicable to same
 - init: add init concept -> init -> experiment
@@ -12,6 +16,7 @@ TODO list for development of ODD2Netlogo
 - check all concepts with TODO
 - define function parameters as entities (not types), sort parameters of functions
 - should sliders be expressions?
+- add stop button?
 - use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
 - allow comments in the code (see ACT ONE)

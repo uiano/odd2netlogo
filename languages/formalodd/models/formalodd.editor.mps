@@ -1820,30 +1820,20 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMBw">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TODO_TurnRandom" />
-    <node concept="3EZMnI" id="5EtG2rQFMBy" role="2wV5jI">
-      <node concept="3EZMnI" id="5EtG2rQFMBz" role="3EZMnx">
-        <node concept="VPM3Z" id="5EtG2rQFMB$" role="3F10Kt" />
-        <node concept="2iRfu4" id="5EtG2rQFMB_" role="2iSdaV" />
-        <node concept="3F0ifn" id="5EtG2rQFMBA" role="3EZMnx">
-          <property role="3F0ifm" value="Should randomly turn" />
-        </node>
-        <node concept="3F0A7n" id="5EtG2rQFMBB" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQFMz3" resolve="randomLeft" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rQFMBC" role="3EZMnx">
-          <property role="3F0ifm" value="degrees to the left, and randomly turn" />
-        </node>
-        <node concept="3F0A7n" id="5EtG2rQFMBR" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQFMz5" resolve="randomRight" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rQFMC3" role="3EZMnx">
-          <property role="3F0ifm" value="degrees to the right." />
-        </node>
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TODO_Turn" />
+    <node concept="3EZMnI" id="5EtG2rQFMBz" role="2wV5jI">
+      <node concept="VPM3Z" id="5EtG2rQFMB$" role="3F10Kt" />
+      <node concept="2iRfu4" id="5EtG2rQFMB_" role="2iSdaV" />
+      <node concept="3F0ifn" id="5EtG2rQFMBA" role="3EZMnx">
+        <property role="3F0ifm" value="Turn for" />
       </node>
-      <node concept="3F0ifn" id="5EtG2rQJylm" role="3EZMnx" />
-      <node concept="2iRkQZ" id="5EtG2rQFMBD" role="2iSdaV" />
+      <node concept="3F1sOY" id="6o6DKlXk0yv" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6o6DKlXk0ym" resolve="direction" />
+      </node>
+      <node concept="3F0ifn" id="5EtG2rQFMBC" role="3EZMnx">
+        <property role="3F0ifm" value="degrees." />
+      </node>
     </node>
   </node>
   <node concept="2ABfQD" id="3okqQmmA05m">
@@ -1868,7 +1858,7 @@
   </node>
   <node concept="24kQdi" id="2EFWiWzCelB">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="TODO_MoveRandom" />
+    <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="REMOVE_MoveRandom" />
     <node concept="3EZMnI" id="2EFWiW$K15A" role="2wV5jI">
       <node concept="2iRkQZ" id="2EFWiW$K15B" role="2iSdaV" />
       <node concept="3EZMnI" id="2EFWiWzCelD" role="3EZMnx">
@@ -1878,7 +1868,7 @@
           <node concept="Vb9p2" id="2EFWiWzCem2" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="2EFWiWzCelW" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:2EFWiWzCels" resolve="MovementSpeed" />
+          <ref role="1NtTu8" to="86kt:2EFWiWzCels" resolve="MovementDistance" />
         </node>
         <node concept="3F0ifn" id="2EFWiWzDFiQ" role="3EZMnx">
           <property role="3F0ifm" value="pixels per frame." />
@@ -7242,6 +7232,55 @@
       </node>
       <node concept="3F1sOY" id="6o6DKlWtb8V" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6o6DKlWtaLR" resolve="collection" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6o6DKlXk0y5">
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:6o6DKlXk0y3" resolve="Move" />
+    <node concept="3EZMnI" id="6o6DKlXk0y7" role="2wV5jI">
+      <node concept="2iRfu4" id="6o6DKlXk0y8" role="2iSdaV" />
+      <node concept="3F0ifn" id="6o6DKlXk0y9" role="3EZMnx">
+        <property role="3F0ifm" value="Move for a distance of" />
+        <node concept="Vb9p2" id="6o6DKlXk0ya" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="6o6DKlXk0yb" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6o6DKlXk0y4" resolve="MovementDistance" />
+      </node>
+      <node concept="3F0ifn" id="6o6DKlXk0yc" role="3EZMnx">
+        <property role="3F0ifm" value="pixels." />
+        <node concept="Vb9p2" id="6o6DKlXk0yd" role="3F10Kt" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6o6DKlXEK6_">
+    <property role="3GE5qa" value="Initialization" />
+    <ref role="1XX52x" to="86kt:6o6DKlXEK69" resolve="Everywhere" />
+    <node concept="3F0ifn" id="6o6DKlXEK6B" role="2wV5jI">
+      <property role="3F0ifm" value="everywhere" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6o6DKlXS2Vv">
+    <property role="3GE5qa" value="Appearance" />
+    <ref role="1XX52x" to="86kt:6o6DKlXS2V0" resolve="ScaledColour" />
+    <node concept="3EZMnI" id="6o6DKlXS3eQ" role="2wV5jI">
+      <node concept="2iRfu4" id="6o6DKlXS3eR" role="2iSdaV" />
+      <node concept="3F0A7n" id="6o6DKlXS3ff" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:5vgYlnqdd$Z" resolve="colour" />
+      </node>
+      <node concept="3F0ifn" id="6o6DKlXS3eS" role="3EZMnx">
+        <property role="3F0ifm" value="scaled by" />
+        <node concept="Vb9p2" id="6o6DKlXS3eT" role="3F10Kt" />
+      </node>
+      <node concept="3F1sOY" id="6o6DKlXS3eU" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6o6DKlXS2V3" resolve="scalingValue" />
+        <node concept="2w$q5c" id="6o6DKlXS3eV" role="3xwHhi" />
+      </node>
+      <node concept="pVoyu" id="6o6DKlXS3eX" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="LD5Jc" id="6o6DKlXS3eY" role="3F10Kt">
+        <property role="LDHlv" value="hGLCI6j/next_line" />
       </node>
     </node>
   </node>
