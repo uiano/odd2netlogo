@@ -44,6 +44,7 @@ TODO list for development of ODD2Netlogo
 - context menu for expressions
 
 TODO for Martin
+- build tutorial / cheat sheet how to create the Wolf-Sheep model
 - make editor for expressions
 - create user instructions and insert option list in the scheduling and the procedure editor
 - ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)

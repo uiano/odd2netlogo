@@ -2639,7 +2639,7 @@
   <node concept="1TIwiD" id="6o6DKlWtaLN">
     <property role="EcuMT" value="7351747083733609587" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="InteractionCall" />
+    <property role="TrG5h" value="REMOVE_InteractionCall" />
     <property role="R4oN_" value="calls an interaction" />
     <ref role="1TJDcQ" node="1zaawdwHRIC" resolve="ActionCall" />
     <node concept="1TJgyj" id="6o6DKlWtaLR" role="1TKVEi">

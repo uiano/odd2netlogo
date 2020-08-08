@@ -43,6 +43,9 @@
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
         <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
+      <concept id="1196434649611" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_SimpleString" flags="ng" index="2h3Zct">
+        <property id="1196434851095" name="text" index="2h4Kg1" />
+      </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="8954657570917870539" name="jetbrains.mps.lang.editor.structure.TransformationLocation_ContextAssistant" flags="ng" index="2j_NTm" />
@@ -7129,7 +7132,7 @@
             <node concept="3clFbS" id="4UvEPNzbUdJ" role="3clFbx">
               <node concept="3cpWs6" id="4UvEPNzbUW6" role="3cqZAp">
                 <node concept="Xl_RD" id="4UvEPNzbUWU" role="3cqZAk">
-                  <property role="Xl_RC" value="interaction" />
+                  <property role="Xl_RC" value="interaction called by action" />
                 </node>
               </node>
             </node>
@@ -7203,7 +7206,7 @@
   </node>
   <node concept="24kQdi" id="6o6DKlWtaLT">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:6o6DKlWtaLN" resolve="InteractionCall" />
+    <ref role="1XX52x" to="86kt:6o6DKlWtaLN" resolve="REMOVE_InteractionCall" />
     <node concept="3EZMnI" id="6o6DKlWtaXR" role="2wV5jI">
       <node concept="2iRfu4" id="6o6DKlWtaXS" role="2iSdaV" />
       <node concept="3F0ifn" id="6o6DKlWtaXT" role="3EZMnx">
@@ -7281,6 +7284,20 @@
       </node>
       <node concept="LD5Jc" id="6o6DKlXS3eY" role="3F10Kt">
         <property role="LDHlv" value="hGLCI6j/next_line" />
+      </node>
+    </node>
+  </node>
+  <node concept="22mcaB" id="6lHtNhnkGLA">
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="aqKnT" to="86kt:6o6DKlWtaLN" resolve="REMOVE_InteractionCall" />
+    <node concept="22hDWj" id="6lHtNhnkGLB" role="22hAXT" />
+    <node concept="3XHNnq" id="6lHtNhnkGLD" role="3ft7WO">
+      <ref role="3XGfJA" to="86kt:1zaawdwHRIF" resolve="called" />
+      <node concept="1W_72q" id="6lHtNhnkGLF" role="3PHfNJ">
+        <property role="1W_73P" value="interaction call" />
+      </node>
+      <node concept="2h3Zct" id="6lHtNhnkGLH" role="1WZ6hz">
+        <property role="2h4Kg1" value="interaction called by interaction" />
       </node>
     </node>
   </node>
