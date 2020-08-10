@@ -1,8 +1,11 @@
 TODO list for development of ODD2Netlogo
 - wolf sheep scheduling - correct code gen ref Library (WSS1)
+- manual experiments should work without adding automatic experiments
+- use expressions for plots, improve plot: name for plot and name for y-axis
 - use range for regrow-grass
 - init shared attributes in the entities (for each of them)
 - recheck MARG generated code
+  - do not calculate in plot, but in go
 - fix code Voting cf. Library
 - fix code Fire cf. Library
 - fix code FireAgents cf. Library

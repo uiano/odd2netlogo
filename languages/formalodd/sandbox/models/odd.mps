@@ -255,6 +255,8 @@
       </concept>
       <concept id="4361115321891670174" name="formalodd.structure.Empty" flags="ng" index="1dm0fp" />
       <concept id="3864151261526742322" name="formalodd.structure.GraphicsWindow" flags="ng" index="1g3uKF">
+        <property id="827001546371602890" name="wrapHorizontal" index="1jlS1c" />
+        <property id="827001546371602896" name="wrapVertical" index="1jlS1m" />
         <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
       </concept>
@@ -793,9 +795,9 @@
         <node concept="ZOwps" id="3M5MOtLapCI" role="zGXb3" />
         <node concept="21jJIL" id="3M5MOtLfgXN" role="2oy9Oj">
           <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.5" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50.5" />
+          <property role="21jJI7" value="0.1" />
+          <property role="21jJIV" value="10" />
+          <property role="2rHBro" value="3.5" />
         </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmT" role="Qgzvn">
@@ -804,9 +806,9 @@
         <node concept="ZOwps" id="4GwBkRvkmU" role="zGXb3" />
         <node concept="21jJIL" id="4GwBkRvkmV" role="2oy9Oj">
           <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="5" />
+          <property role="21jJIV" value="2" />
+          <property role="2rHBro" value="1.7" />
+          <property role="21jJI7" value="0.1" />
         </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkn6" role="Qgzvn">
@@ -814,33 +816,11 @@
         <property role="QtYJw" value="rate at which grass is regrowing" />
         <node concept="21jJIL" id="4GwBkRvkn7" role="2oy9Oj">
           <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="10" />
-          <property role="2rHBro" value="10" />
-          <property role="21jJI7" value="5" />
+          <property role="21jJIV" value="2" />
+          <property role="2rHBro" value="0.3" />
+          <property role="21jJI7" value="0.1" />
         </node>
         <node concept="ZOwps" id="4GwBkRvkn8" role="zGXb3" />
-      </node>
-      <node concept="ZOwpH" id="6o6DKlX04st" role="Qgzvn">
-        <property role="TrG5h" value="sheep-reproduce" />
-        <property role="QtYJw" value="reproduce rate of sheep" />
-        <node concept="ZOwps" id="6o6DKlX04sH" role="zGXb3" />
-        <node concept="21jJIL" id="6o6DKlX04sK" role="2oy9Oj">
-          <property role="21jJIY" value="1" />
-          <property role="21jJI7" value="1" />
-          <property role="21jJIV" value="20" />
-          <property role="2rHBro" value="4" />
-        </node>
-      </node>
-      <node concept="ZOwpH" id="6o6DKlX04sM" role="Qgzvn">
-        <property role="TrG5h" value="wolf-reproduce" />
-        <property role="QtYJw" value="reproduce rate of wolves" />
-        <node concept="ZOwps" id="6o6DKlX04sN" role="zGXb3" />
-        <node concept="21jJIL" id="6o6DKlX04sO" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="1" />
-          <property role="21jJIV" value="20" />
-          <property role="2rHBro" value="5" />
-        </node>
       </node>
       <node concept="ZOwpH" id="6o6DKlXk0pC" role="Qgzvn">
         <property role="TrG5h" value="movement-cost" />
@@ -885,8 +865,8 @@
         <node concept="21jJIL" id="6dSewhkQP5L" role="RIgNU">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="5" />
-          <property role="21jJI7" value="5" />
+          <property role="2rHBro" value="10" />
+          <property role="21jJI7" value="1" />
         </node>
       </node>
       <node concept="ZOwpW" id="qdXC$xz0Qv" role="ZOwpT">
@@ -902,9 +882,9 @@
         <node concept="RFdHg" id="60Hvi7sbkhK" role="RFdH4" />
         <node concept="21jJIL" id="60Hvi7seuHH" role="RIgNU">
           <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="5" />
+          <property role="21jJIV" value="1000" />
+          <property role="2rHBro" value="500" />
+          <property role="21jJI7" value="1" />
         </node>
       </node>
     </node>
@@ -921,6 +901,34 @@
       </node>
       <node concept="XAmFv" id="6Uof7aignJ1" role="1BQToi">
         <property role="XAmFg" value="Everybody interested." />
+      </node>
+    </node>
+    <node concept="2kDK7K" id="6lHtNhoC3XW" role="2kDK7a">
+      <node concept="1jsyQY" id="6lHtNhoC3Y4" role="1jgZU$">
+        <property role="1jsyQX" value="wolfs" />
+        <property role="1jsyQZ" value="#wolfs" />
+        <property role="1jsyQK" value="39v_dEywMST/Count" />
+        <property role="1j7ier" value="10" />
+      </node>
+      <node concept="1jsyQY" id="6lHtNhoC3Y6" role="1jgZU$">
+        <property role="1jsyQZ" value="#sheeps" />
+        <property role="1jsyQX" value="sheeps" />
+        <property role="1jsyQK" value="39v_dEywMST/Count" />
+        <property role="1j7ier" value="1" />
+      </node>
+      <node concept="1jsyQY" id="6lHtNhoC3Y$" role="1jgZU$">
+        <property role="1jsyQZ" value="grass" />
+        <property role="1jsyQK" value="39v_dEywMSQ/Mean" />
+        <property role="1jsyQX" value="[ grass-amount ] of patches" />
+        <property role="1j7ier" value="25" />
+      </node>
+      <node concept="3gPapU" id="6lHtNhoC3XX" role="2kDK7L" />
+      <node concept="3gPary" id="6lHtNhoC3XY" role="2kDK7e" />
+      <node concept="1g3uKF" id="6lHtNhoC3Y2" role="2kDK7N">
+        <property role="1jzKJm" value="17" />
+        <property role="1jzt_n" value="13" />
+        <property role="1jlS1c" value="true" />
+        <property role="1jlS1m" value="true" />
       </node>
     </node>
   </node>
