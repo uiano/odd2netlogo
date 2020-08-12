@@ -3581,7 +3581,7 @@
             <ref role="1NtTu8" to="86kt:7bwUywleRKS" resolve="researchQuestion" />
             <node concept="2iRkQZ" id="6Uof7aimquF" role="2czzBx" />
             <node concept="3F0ifn" id="6Uof7aimqwE" role="2czzBI">
-              <property role="3F0ifm" value="&lt;press enter and describe the model research question&gt;" />
+              <property role="3F0ifm" value="&lt;press enter and write the model research question&gt;" />
               <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
             </node>
           </node>
@@ -3644,7 +3644,7 @@
             <ref role="1NtTu8" to="86kt:7bwUywleRKU" resolve="targetGroup" />
             <node concept="2iRkQZ" id="6Uof7aimqIz" role="2czzBx" />
             <node concept="3F0ifn" id="6Uof7aimqPO" role="2czzBI">
-              <property role="3F0ifm" value="&lt;press enter and describe the puropse of the model&gt;" />
+              <property role="3F0ifm" value="&lt;press enter and describe the target users of the model&gt;" />
               <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
             </node>
           </node>
@@ -3666,7 +3666,7 @@
             <ref role="1NtTu8" to="86kt:7bwUywleRL0" resolve="purposeDescription" />
             <node concept="2iRkQZ" id="6Uof7aimrb3" role="2czzBx" />
             <node concept="3F0ifn" id="6Uof7aimrcm" role="2czzBI">
-              <property role="3F0ifm" value="&lt;press enter and describe the model research question&gt;" />
+              <property role="3F0ifm" value="&lt;press enter and describe the purpose of the model&gt;" />
               <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
             </node>
           </node>
