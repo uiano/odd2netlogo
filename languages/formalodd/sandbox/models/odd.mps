@@ -268,6 +268,7 @@
       <concept id="8413181653841938094" name="formalodd.structure.Characterization" flags="ng" index="3gPaqd" />
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
         <property id="8413181653841938141" name="repetitions" index="3gParY" />
+        <property id="3905853525462002971" name="description" index="1JUGKd" />
         <child id="8413181653841938167" name="simulationEnd" index="3gPark" />
         <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
       </concept>
@@ -932,6 +933,165 @@
     </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
       <property role="3Ovhdr" value="6Uof7aieTi5/Theoretical_Expositon" />
+      <node concept="XAmFv" id="285h6zCrx1d" role="1BQTpC">
+        <property role="XAmFg" value="This is the fifth model in a set of models that build towards a predator prey model of population dynamics. This fifth model adds wolves and completes the predator prey model." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_sI" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCrx1f" role="1BQTpC">
+        <property role="XAmFg" value="It extends the model Wolf Sheep Simple 4." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Gx" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Go" role="1BQTpC">
+        <property role="XAmFg" value="## ACKNOWLEDGMENT" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_tV" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Gs" role="1BQTpC">
+        <property role="XAmFg" value="This model is from Chapter Four of the book &quot;Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo&quot;, by Uri Wilensky &amp; William Rand." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$GN" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$GU" role="1BQTpC">
+        <property role="XAmFg" value="* Wilensky, U. &amp; Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$H2" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Hb" role="1BQTpC">
+        <property role="XAmFg" value="This model is in the IABM Textbook folder of the NetLogo Models Library. The model, as well as any updates to the model, can also be found on the textbook website: http://www.intro-to-abm.com/." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Hl" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Hw" role="1BQTpC">
+        <property role="XAmFg" value="## HOW IT WORKS" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_ry" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$HG" role="1BQTpC">
+        <property role="XAmFg" value="The model creates a population of sheep that wander around the landscape.  For each step the sheep take it costs them some energy and if there energy gets too low they die.  However, the sheep can eat grass in the environment to regain energy and the grass regrows over time.  If the energy of the sheep gets above a certain level then they can reproduce." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$HT" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$I7" role="1BQTpC">
+        <property role="XAmFg" value="In this fifth model, there are also wolves.  Wolves have the same behaviors as sheep except for eating; rather than grass, they eat sheep." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Im" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$IA" role="1BQTpC">
+        <property role="XAmFg" value="## HOW TO USE IT" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$IR" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$J9" role="1BQTpC">
+        <property role="XAmFg" value="Set the NUMBER-OF-SHEEP slider and press SETUP to create the initial population. You can also change the MOVEMENT-COST slider to affect the energy cost of movement for the sheep.  The GRASS-REGROWTH-RATE slider affects how fast the grass grows back, while the ENERGY-GAIN-FROM-GRASS slider affects how much energy the sheep can gain from eating the grass, and the ENERGY-GAIN-FROM-SHEEP slider affects how much energy the wolves gain from eating sheep." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Js" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$JK" role="1BQTpC">
+        <property role="XAmFg" value="After this, press the GO button to make the sheep and wolves move around the landscape, and interact." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$K5" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Kr" role="1BQTpC">
+        <property role="XAmFg" value="## THINGS TO NOTICE" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$KM" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$La" role="1BQTpC">
+        <property role="XAmFg" value="How does the number of sheep affect the population levels?  How does the number of wolves affect the population levels?" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Lz" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$LX" role="1BQTpC">
+        <property role="XAmFg" value="Is there a spatial relationship between where the sheep do well and where the wolves do well?" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Mo" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$MO" role="1BQTpC">
+        <property role="XAmFg" value="How does the presence of wolves affect the system?" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Nh" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$NJ" role="1BQTpC">
+        <property role="XAmFg" value="## THINGS TO TRY" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Oe" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$OI" role="1BQTpC">
+        <property role="XAmFg" value="Change the NUMBER-OF-WOLVES, while leaving the NUMBER-OF-SHEEP constant, how does this affect the model results?" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Pf" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$PL" role="1BQTpC">
+        <property role="XAmFg" value="How does the ENERGY-GAIN-FROM-SHEEP affect the model results?" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Qk" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$QS" role="1BQTpC">
+        <property role="XAmFg" value="Try to play around with ENERGY-GAIN-FROM-GRASS and GRASS-REGROWTH-RATE. Does keeping the influx of energy constant but with different slider valeus (e.g. ENERGY-GAIN-FROM-GRASS as 1 and GRASS-REGROWTH-RATE as 2, and vice versa) give the same or different results? Why might that be?" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Rt" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$S3" role="1BQTpC">
+        <property role="XAmFg" value="## RELATED MODELS" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$SE" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Ti" role="1BQTpC">
+        <property role="XAmFg" value="The Wolf Sheep Predation Model in the Biology section of the NetLogo models library." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$TV" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$U_" role="1BQTpC">
+        <property role="XAmFg" value="## CREDITS AND REFERENCES" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Vg" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$VW" role="1BQTpC">
+        <property role="XAmFg" value="This model is a simplified version of:" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$WD" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$Xn" role="1BQTpC">
+        <property role="XAmFg" value="* Wilensky, U. (1997).  NetLogo Wolf Sheep Predation model.  http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation.  Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$Y6" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr$YQ" role="1BQTpC">
+        <property role="XAmFg" value="## HOW TO CITE" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr$ZB" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_0p" role="1BQTpC">
+        <property role="XAmFg" value="This model is part of the textbook, “Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo.”" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_1c" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_20" role="1BQTpC">
+        <property role="XAmFg" value="If you mention this model or the NetLogo software in a publication, we ask that you include the citations below." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_2P" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_3F" role="1BQTpC">
+        <property role="XAmFg" value="For the model itself:" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_4y" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_5q" role="1BQTpC">
+        <property role="XAmFg" value="* Wilensky, U. (2007).  NetLogo Wolf Sheep Simple 5 model.  http://ccl.northwestern.edu/netlogo/models/WolfSheepSimple5.  Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_6j" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_7d" role="1BQTpC">
+        <property role="XAmFg" value="Please cite the NetLogo software as:" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_88" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_94" role="1BQTpC">
+        <property role="XAmFg" value="* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_a1" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_aZ" role="1BQTpC">
+        <property role="XAmFg" value="Please cite the textbook as:" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_bY" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_cY" role="1BQTpC">
+        <property role="XAmFg" value="* Wilensky, U. &amp; Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_dZ" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_f1" role="1BQTpC">
+        <property role="XAmFg" value="## COPYRIGHT AND LICENSE" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_g4" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_h8" role="1BQTpC">
+        <property role="XAmFg" value="Copyright 2007 Uri Wilensky." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_id" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_jj" role="1BQTpC">
+        <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_kq" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_ly" role="1BQTpC">
+        <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License.  To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_mF" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_nP" role="1BQTpC">
+        <property role="XAmFg" value="Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu." />
+      </node>
+      <node concept="XAmFv" id="285h6zCr_xF" role="1BQTpC" />
+      <node concept="XAmFv" id="285h6zCr_yU" role="1BQTpC">
+        <property role="XAmFg" value="&lt;!-- 2007 --&gt;" />
+      </node>
       <node concept="XAmFv" id="6Uof7aignIZ" role="1BQTog">
         <property role="XAmFg" value="What effects the stability of predator-prey ecosystems?" />
       </node>
@@ -946,6 +1106,59 @@
       </node>
     </node>
     <node concept="2kDK7K" id="6lHtNhoC3XW" role="2kDK7a">
+      <node concept="3gPary" id="285h6zCr__Q" role="2kDK7e">
+        <property role="TrG5h" value="Wolf Sheep Simple model analysis" />
+        <property role="1JUGKd" value="some description" />
+        <property role="3gParY" value="10" />
+        <node concept="3D9oHp" id="285h6zCr_AV" role="3D9rx_">
+          <ref role="3D9oHq" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
+          <node concept="3DbZFg" id="285h6zCr_B3" role="3D3j2x">
+            <node concept="2oK_Am" id="285h6zCr_B9" role="3DbZFh">
+              <property role="2oK_Ap" value="2" />
+            </node>
+          </node>
+        </node>
+        <node concept="3D1GSk" id="285h6zCr_Bj" role="3D9rx_">
+          <ref role="3D1GSl" node="qdXC$xz0Qt" resolve="wolf" />
+          <node concept="3gPasJ" id="285h6zCr_Bu" role="3D3j2x">
+            <property role="3gPasI" value="5" />
+            <property role="3gPasG" value="15" />
+            <property role="3gPasL" value="1" />
+          </node>
+        </node>
+        <node concept="3D9oHp" id="285h6zCr_BE" role="3D9rx_">
+          <ref role="3D9oHq" node="6o6DKlXk0pC" resolve="movement-cost" />
+          <node concept="3DbZFg" id="285h6zCr_BR" role="3D3j2x">
+            <node concept="2oK_Am" id="285h6zCr_BX" role="3DbZFh">
+              <property role="2oK_Ap" value="0.5" />
+            </node>
+          </node>
+        </node>
+        <node concept="3D9oHp" id="285h6zCr_Cc" role="3D9rx_">
+          <ref role="3D9oHq" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
+          <node concept="3DbZFg" id="285h6zCr_Cs" role="3D3j2x">
+            <node concept="2oK_Am" id="285h6zCr_Ct" role="3DbZFh">
+              <property role="2oK_Ap" value="5" />
+            </node>
+          </node>
+        </node>
+        <node concept="3D1GSk" id="285h6zCr_Cw" role="3D9rx_">
+          <ref role="3D1GSl" node="qdXC$xz0Qv" resolve="sheep" />
+          <node concept="3DbZFg" id="285h6zCr_CL" role="3D3j2x">
+            <node concept="2oK_Am" id="285h6zCr_CR" role="3DbZFh">
+              <property role="2oK_Ap" value="500" />
+            </node>
+          </node>
+        </node>
+        <node concept="3D9oHp" id="285h6zCr_Dc" role="3D9rx_">
+          <ref role="3D9oHq" node="4GwBkRvkn6" resolve="grass-regrowth-rate" />
+          <node concept="3DbZFg" id="285h6zCr_Dy" role="3D3j2x">
+            <node concept="2oK_Am" id="285h6zCr_Dz" role="3DbZFh">
+              <property role="2oK_Ap" value="0.3" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="1jsyQY" id="6lHtNhoC3Y6" role="1jgZU$">
         <property role="1jsyQZ" value="sheep" />
         <property role="1jsyQX" value="sheeps" />
@@ -969,6 +1182,12 @@
         <property role="1jzt_n" value="13" />
         <property role="1jlS1c" value="true" />
         <property role="1jlS1m" value="true" />
+      </node>
+      <node concept="3gPapU" id="285h6zCr_AI" role="2kDK7L">
+        <property role="3Dtwvp" value="0" />
+        <node concept="26lliW" id="285h6zCr_AO" role="2NVd43">
+          <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
+        </node>
       </node>
     </node>
   </node>

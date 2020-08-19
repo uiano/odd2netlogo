@@ -49,7 +49,6 @@
         <module reference="8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)" version="0" />
         <module reference="32c6af6f-c921-41d7-a19e-61a23bec1a47(formalodd)" version="0" />
         <module reference="683a71e2-ddf5-460d-ace8-cdfa708b19b2(formalodd#01)" version="0" />
-        <module reference="bd8346ca-ce64-4682-8782-4930984132dd(formalodd.runtime)" version="0" />
         <module reference="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" version="0" />
         <module reference="9e98f4e2-decf-4e97-bf80-9109e8b759aa(jetbrains.mps.lang.feedback.context)" version="0" />
       </dependencyVersions>
@@ -118,9 +117,6 @@
     <module reference="d7eb0a2a-bd50-4576-beae-e4a89db35f20(jetbrains.mps.lang.scopes.runtime)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
   </dependencyVersions>
-  <runtime>
-    <dependency reexport="false">bd8346ca-ce64-4682-8782-4930984132dd(formalodd.runtime)</dependency>
-  </runtime>
   <extendedLanguages />
 </language>
 

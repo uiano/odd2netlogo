@@ -1,6 +1,17 @@
+# MPS
 classes_gen
 source_gen
 source_gen_OK
 source_gen.caches
-test_gen
-.mps/workspace.xml
+test_gen.caches
+workspace.xml
+artifacts
+tmp
+.gradle/
+build/generated/
+build/mps/
+/build/
+test_gen/
+site
+.DS_Store
+.gradletasknamecache
