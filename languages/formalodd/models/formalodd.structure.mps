@@ -198,7 +198,7 @@
     <node concept="1TJgyj" id="6o6DKlWjmUE" role="1TKVEi">
       <property role="IQ2ns" value="7351747083731037866" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="test_init" />
+      <property role="20kJfa" value="initAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
     </node>

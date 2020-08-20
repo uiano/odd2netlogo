@@ -1,6 +1,6 @@
 TODO list for development of ODD2Netlogo
 - remove name4entity (UDA) editors
-- remove init UDA editors
+- remove init UDA editors: entity attributes, shared attributes, environment attributes
 - remove stochasticity UDA editors
 - remove rationale UDA editors
 - manual experiments should work without adding automatic experiments

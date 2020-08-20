@@ -303,7 +303,7 @@
                           <ref role="1YBMHb" node="2gJyhPFox0a" resolve="entitiesStateVariablesAndScales" />
                         </node>
                         <node concept="3Tsc0h" id="2gJyhPFoFb2" role="2OqNvi">
-                          <ref role="3TtcxE" to="86kt:6o6DKlWjmUE" resolve="test_init" />
+                          <ref role="3TtcxE" to="86kt:6o6DKlWjmUE" resolve="initAttributes" />
                         </node>
                       </node>
                       <node concept="3zZkjj" id="2gJyhPFoEsT" role="2OqNvi">
@@ -482,7 +482,7 @@
                   <ref role="3cqZAo" node="2gJyhPFvDDU" resolve="entities" />
                 </node>
                 <node concept="3Tsc0h" id="2gJyhPFvEoa" role="2OqNvi">
-                  <ref role="3TtcxE" to="86kt:6o6DKlWjmUE" resolve="test_init" />
+                  <ref role="3TtcxE" to="86kt:6o6DKlWjmUE" resolve="initAttributes" />
                 </node>
               </node>
               <node concept="2DeJg1" id="2gJyhPFvIuI" role="2OqNvi" />
