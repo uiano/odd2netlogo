@@ -108,30 +108,28 @@ On a new line, select  `increase energy` and set amount to the attribute `energy
 On another new line select  `decrement grass-amount` and set the amount to the attribute `energy-gain-from-grass` 
 
 ##### Interaction `eat-sheep`
-**Description**: wolf eat sheep
-1. Create an Interaction, and name it `eat-sheep`
-1. There are two parties involved, both of which is a `ConcreteEntityReference`. Partner 1 is `wolf`, partner 2 is `sheep`
+**Description**: wolf eat sheep.
+1. Create an Interaction, and name it `eat-sheep`.
+1. There are two parties involved, both of which is a `ConcreteEntityReference`. Partner 1 is `wolf`, partner 2 is `sheep`.
 1. First empty line, select `KillEntity` and make sure that the sheep (partner 2) is the target.
 1. Increase the wolf's energy by adding new line, select `increase energy` and this is to be incremented by 
-the attribute `energy-gain-from-sheep`
+the attribute `energy-gain-from-sheep`.
 
 ##### Action `check-if-dead`
 **Description**: when energy dips below zero, the entity dies.
-1. Create an Action, and name it `check-if-dead`
+1. Create an Action, and name it `check-if-dead`.
 1. Make it applicable to **AnyEntity**.
 1. Make a `ConditionalAction`, and compare the `energy` attribute to make sure that it is operator < compared 
 against the NumericConstant `0`.
-1. If the condition is met, select `KillEntity` and partner 1 (self in this case)
+1. If the condition is met, select `KillEntity` and partner 1 (self in this case).
 
 ##### Action `reproduce`
-**Description**: produce new sheep, divide energy between parent and child
-1.  Create an Action, and name it `reproduce`
-1. Make it applicable to **AnyEntity**
+**Description**: produce new sheep, divide energy between parent and child.
+1.  Create an Action, and name it `reproduce`.
+1. Make it applicable to **AnyEntity**.
 1. Made a `ConditionalAction` and a `Comparrison`, where the first expression is a `RandomUniform` of range 0 and 100\
-Compare this value to the attribute `sheep-reproduce` with the operator `<` (Random number is less than the reproduce rate)
-1. If this condition is fulfulled, set the energy to `energy / 2`
-
-
+Compare this value to the attribute `sheep-reproduce` with the operator `<` (Random number is less than the reproduce rate).
+1. If this condition is fulfulled, set the energy to `energy / 2`.
 
 
 ## Running the model
