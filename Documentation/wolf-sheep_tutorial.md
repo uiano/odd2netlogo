@@ -11,60 +11,107 @@ More details of the Wolf Sheep model can be found [here](https://ccl.northwester
 ### Setup
 Before making the model, verify that the version of your MPS is the same as the one used in the project.
 Next, generate the project by right clicking on `formalodd` in the Logical View of MPS (left sidebar) 
-and clicking `Rebuld language 'formalodd'`
+and clicking `Rebuld language 'formalodd'`, as seen below \
+![mps rebuild language](images/rebuild_language.png)
 
-To create a new model, in the Logical View, open formalodd.sandbox, right click `odd` and select `New -> ODD`
+To create a new model, in the Logical View, open formalodd.sandbox, right click `odd` and select `New -> ODD` \
+![mps new odd](images/new_odd.png)
+### General Tips
+### Adding Elements 
+Adding elements is done by pressing **ENTER** in the editor. Adding elements can either be done through clicking 
+and marking a specific section belonging to a type of element, or to mark the last element of a list and pressing enter.
 
-### Writing the model
-#### Defining model entities
-1. The first step  is to identify all entities involved in the model. In our case we have the two entites, wolf and sheep. \
-   These needs to be defined within the section `Overview: Entites, state variables, and scales`. \
-   Click on the text `Press enter to create EntitesStateScales` and press Enter.
+See examples:
+
+**First element**\
+![Adding element in the editor](images/add-item-small.png)
+
+**Adding to list of elements**\
+![Adding element to list in the editor](images/add-new-element-to-list-small.png)
+
+#### Selecting Elements
+Selecting elements is done by pressing **CTRL + Space**.
+
+Example:
+
+When selecting shape for an entity, click the field which has `<no shape>`, and press **CTRL + SPACE** for alternatives.
+See image below.
+
+![Select element](images/selecting-shape-for-entity-small.png)\
+Between each step we press ctrl+space to get further alternatives.
+
+---
+
+## Writing the model
+After rebuilding the language, and creating a new `odd`, we can write the model in our editor.
+
+#### Overview: Purpose
+The first section of the editor is the **purpose**. This section lets the user answer general questions to get an overview of the model itself. These questions are as follows: 
+1. What is the research question?
+1. How would you categorize the role of the model?
+1. For whom is the model designed?
+1. Description of purpose:
+
+When writing text, press enter to add new lines.\
+None of these questions are required from a simulation perspective, and can be regarded as optional.
+
+**Example**: Wolf-Sheep shortened Purpose\
+![wolf-sheep-purpose](images/purpose-small.png)
+
+### Overview:Entities, state variables and scales
+#### Model Parameters
+Model parameters are defined in this section, in this case we need numerous parameters defined for our model. \
+These will serve as something similar to global variables, and is adjusted to change aspects the simulation.\
+Insert the following attributes and give them type **Number**
+
+1. `energy-gain-from-sheep`
+1. `energy-gain-from-grass`
+1. `grass-regrowth-rate`
+1. `sheep-reproduce`
+1. `wolf-reproduce`
+1. `movement-cost`
+
+It should look as follows in the editor: \
+![wolf-sheep-model-parameters](images/model-parameters.png)
+
+
+#### Entities
+1. We need to identify all entities involved in a model. In our case we have the two entites: wolf and sheep.
 1. Locate the Entities subsection, click on the text `<press enter to create entity>` and press enter to add an entity. \
     We need two entities for this model: `wolf` and `sheep`.\
     To add multiple entities, press the bottom-most empty line in the Entities section, and either use the 
-    context assistant menu buttons, or press enter. (Should be more intuitive)
+    context assistant menu buttons, or press enter.\
+    ![context assistant menu buttons](images/context-menu.png)
+1. For each of the entites, type the appropriate color, and select (using CTRL+space) an appropriate shape and size.
+    
+It should look as follows in the editor: \
+![wolf-sheep-model-entities](images/entities.png)
+    
+#### Common Attributes of all Entities
+In this model, all of the defined entities needs an attribute `energy`, and this can be added in this subsection.
 
-1. In addition to entities, we can also add environment entities. In this case, we want the environment entity `grass`.\
-    Locate the Environment entities section and add a new environment entity and name it `grass`. 
+1. Add the entity common attribute `energy`.
+
+It should look as follows: \
+![wolf-sheep-common-attributes](images/common-attributes.png)
+
+1. 
     
     In this case, we want the color of the `grass` to be scaled, to indicate the amount of grass during the simulation.\
     Select ScaledColor, the color green and leave `<no attribute>` empty for now.
 
-#### Attributes
-The simulation also needs attributes (or variables), and these are added depending on how they are going to be used \
-    in actions. 
-    
-1. Start by adding the environment attribute grass-amount. \
-    Locate the section Environment Attributes, and add a new attribute `grass-amount` and set it to type **Number** \
-    Go back to the Environment Entity Grass, and set the ScaledColor attribute to the newly created `grass-amount`
+#### Environment Entities
+In addition to entities, we can also add environment entities. In this case, we want the environment entity `grass`.\
+1.Locate the Environment entities section and add a new environment entity and name it `grass`. 
 
-1. Model parameters are defined in the section Model parameters, in this case we need numerous attributes defined here. \
-These will serve as something similar to global variables. Insert all of the following attributes of type **Number**
-    1. `energy-gain-from-sheep`
-    1. `energy-gain-from-grass`
-    1. `grass-regrowth-rate`
-    1. `sheep-reproduce`
-    1. `wolf-reproduce`
-    1. `movement-cost`
-    
-1. All entities need a attribute Energy, and this can be added in the subsection 'Common Attributes of all Entities'\
-Add a entity common attribute `energy`.
-    
-    
-#### Initialization
-We need to specify how the entities and attributes are initialized in the model. This is done in the section 'Details: Manual Experiments AKA Initialization'
+#### Environment Attributes
+1. Locate the section Environment Attributes, and add a new attribute `grass-amount` and set it to type **Number** \
+1. Go back to the Environment Entity Grass, and set the ScaledColor attribute to the newly created `grass-amount`
 
-1. Set all model parameters to be initialized by method of Slider.
-1. Configure initial amount of both entities to be of type Slider. \
-Set the initialization distribution to **random**.
-1. Set the Share Attribute `energy` to be of type NumericConstant, and set it to `100`
-1. Our Environment attribute `grass-amount` should be initialized randomly, press ctrl+space and select RandomUniform,
-in each of the `expression` blocks: go to the beginning of the text and hit ctrl+space and select **NumberConstant**, 
-and specify the  lower and upper limits to `0` and `100` respectively.
-1. Configure the grass environment initial location to `everywhere`
-
-#### Process overview and scheduling
+How it should look in the editor: \
+![wolf-sheep-environment-entity-attribute](images/env-entity-attribute.png)
+    
+### Overview:Process overview and scheduling
 The section process overview and scheduling contains the logic aspect of the model. We will define several  \
 Actions and Interactions which will be callable and perform different functions during the simulation.
 
@@ -92,6 +139,10 @@ See image for the resulting Action.
 1. Another new line, press ctrl+space and select `Decrement energy`, and in the field `<no rhs>`, press ctrl+space and
 select the attribute `movement-cost`
 
+See below for how it looks in MPS \
+![Action move implemented in MPS](images/action_move.png)
+
+
 ##### Interaction `eat-grass`
 **Description**: sheep eat grass
 1. Create an Interaction, and name it `eat-grass`
@@ -107,6 +158,10 @@ and make sure that the operator chosen is `>=`.
 On a new line, select  `increase energy` and set amount to the attribute `energy-gain-from-grass` \
 On another new line select  `decrement grass-amount` and set the amount to the attribute `energy-gain-from-grass` 
 
+See below for how it looks in MPS \
+![Interaction eat-grass implemented in MPS](images/interaction_eat-grass.png)
+
+
 ##### Interaction `eat-sheep`
 **Description**: wolf eat sheep.
 1. Create an Interaction, and name it `eat-sheep`.
@@ -114,6 +169,9 @@ On another new line select  `decrement grass-amount` and set the amount to the a
 1. First empty line, select `KillEntity` and make sure that the sheep (partner 2) is the target.
 1. Increase the wolf's energy by adding new line, select `increase energy` and this is to be incremented by 
 the attribute `energy-gain-from-sheep`.
+
+See below for how it looks in MPS \
+![Interaction eat-sheep implemented in MPS](images/interaction_eat-sheep.png)
 
 ##### Action `check-if-dead`
 **Description**: when energy dips below zero, the entity dies.
@@ -123,13 +181,53 @@ the attribute `energy-gain-from-sheep`.
 against the NumericConstant `0`.
 1. If the condition is met, select `KillEntity` and partner 1 (self in this case).
 
+See below for how it looks in MPS \
+![Action check-if-dead implemented in MPS](images/action_check-if-dead.png)
+
 ##### Action `reproduce`
-**Description**: produce new sheep, divide energy between parent and child.
+**Description**: if this entity has enough energy to reproduce, then transfer energy to the offpsring.
 1.  Create an Action, and name it `reproduce`.
 1. Make it applicable to **AnyEntity**.
-1. Made a `ConditionalAction` and a `Comparrison`, where the first expression is a `RandomUniform` of range 0 and 100\
-Compare this value to the attribute `sheep-reproduce` with the operator `<` (Random number is less than the reproduce rate).
-1. If this condition is fulfulled, set the energy to `energy / 2`.
+1. Made a `ConditionalAction` and a `Comparrison`, where the first expression is `energy` and
+Compare this value `200` with the operator `>`
+1. If this condition is fulfulled, then:
+    1. Decrease energy by 100.
+    1. Spawn 1 hatchling at the same location
+    1. Attribute energy is set to 100.
+
+See below for how it looks in MPS \
+![Action reproduce implemented in MPS](images/action_reproduce.png)
+
+
+##### Action `regrow-grass`
+**Description**: regrow the grass
+1.  Create an Action, and name it `regrow-grass`.
+1. Make it applicable to **AnyEnvironment**.
+1. Made a `ConditionalAction` and a `Comparrison`, where the first expression is `energy` and
+Compare this value `200` with the operator `>`
+1. If this condition is fulfulled, then:
+    1. Decrease energy by 100.
+    1. Spawn 1 hatchling at the same location
+    1. Attribute energy is set to 100.
+
+See below for how it looks in MPS \
+![Action reproduce implemented in MPS](images/action_reproduce.png)
+
+
+
+#### Initialization
+We need to specify how the defined entities and attributes are initialized in the model. This is done in the section 'Details: Manual Experiments AKA Initialization'
+
+1. Set all model parameters to be initialized by method of Slider.
+1. Configure initial amount of both entities to be of type Slider. \
+Set the initialization distribution to **random**.
+1. Set the Share Attribute `energy` to be of type NumericConstant, and set it to `100`
+1. Our Environment attribute `grass-amount` should be initialized randomly, press ctrl+space and select RandomUniform,
+in each of the `expression` blocks: go to the beginning of the text and hit ctrl+space and select **NumberConstant**, 
+and specify the  lower and upper limits to `0` and `100` respectively.
+1. Configure the grass environment initial location to `everywhere`
+
+#### Process overview and scheduling
 
 
 ## Running the model
