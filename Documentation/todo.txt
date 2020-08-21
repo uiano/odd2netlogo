@@ -8,7 +8,7 @@ TODO list for development of ODD2Netlogo
 - use range for regrow-grass (wolf sheep)
 - calculate should be done in go, not in plot
 - init shared attributes in the entities (for each of them)
-- recheck MARG generated code
+- recheck MARG generated code - remove csv see Wolf-Sheep
 - fix code Voting cf. Library
 - fix code Fire cf. Library
 - fix code FireAgents cf. Library
@@ -30,6 +30,7 @@ TODO list for development of ODD2Netlogo
 - styling hint versus comment? should they be selectable?
 - make good stylings for sections and user input and definitions and hints and comments
 - recheck all constraints
+- timed condition does not need comparison operator
 - improve codegen for element-wise
 - put make actions and functions into the same category
 - do not have text as selectable
