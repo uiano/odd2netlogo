@@ -457,9 +457,16 @@
           </node>
           <node concept="2iRfu4" id="7y2oNvzb34" role="2iSdaV" />
         </node>
+        <node concept="3F0A7n" id="6mCZXi$mObO" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
+        </node>
         <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
-          <property role="3F0ifm" value="Overview: Purpose" />
+          <property role="3F0ifm" value="Overview: General Description" />
           <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
+        </node>
+        <node concept="3F0ifn" id="6mCZXi$mNLl" role="3EZMnx">
+          <property role="3F0ifm" value="Purpose" />
+          <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
         </node>
         <node concept="3F1sOY" id="6Uof7aho7vp" role="3EZMnx">
           <property role="2ru_X1" value="true" />
@@ -468,6 +475,10 @@
             <property role="3F0ifm" value="&lt;press enter and write what the purpose model is. press enter to get a new line&gt;" />
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           </node>
+        </node>
+        <node concept="3F2HdR" id="6mCZXi$mNYA" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:6mCZXi$mNMS" resolve="generalDescriptions" />
+          <node concept="2iRkQZ" id="6mCZXi$mNYC" role="2czzBx" />
         </node>
         <node concept="3EZMnI" id="6o6DKlWtaK8" role="3EZMnx">
           <node concept="3F0ifn" id="6o6DKlWtaLG" role="3EZMnx">
@@ -630,7 +641,7 @@
             </node>
           </node>
           <node concept="3F0ifn" id="31ZFDPSj137" role="3EZMnx">
-            <property role="3F0ifm" value="Experiment end" />
+            <property role="3F0ifm" value="Simulation end" />
             <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
           </node>
           <node concept="3EZMnI" id="31ZFDPSj138" role="3EZMnx">
@@ -4232,7 +4243,7 @@
       </node>
       <node concept="3F2HdR" id="t7PfuOEKpf" role="3EZMnx">
         <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="86kt:t7PfuOEKnO" resolve="collect" />
+        <ref role="1NtTu8" to="86kt:t7PfuOEKnO" resolve="REMOVE_collect" />
         <node concept="l2Vlx" id="t7PfuOEKpi" role="2czzBx" />
         <node concept="ljvvj" id="t7PfuOEKpy" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -4244,12 +4255,22 @@
         </node>
       </node>
       <node concept="3F2HdR" id="72lILvP_Ecc" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:72lILvP_EbZ" resolve="collectsyn" />
+        <ref role="1NtTu8" to="86kt:72lILvP_EbZ" resolve="REMOVE_collectsyn" />
         <node concept="l2Vlx" id="72lILvP_Ecd" role="2czzBx" />
         <node concept="pj6Ft" id="72lILvP_Ece" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
         <node concept="ljvvj" id="72lILvP_Ecf" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="6mCZXi$CSSg" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6mCZXi$CSRW" resolve="collectItem" />
+        <node concept="l2Vlx" id="6mCZXi$CSSh" role="2czzBx" />
+        <node concept="pj6Ft" id="6mCZXi$CSSi" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="ljvvj" id="6mCZXi$CSSj" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -5948,7 +5969,7 @@
               <property role="VOm3f" value="true" />
             </node>
             <node concept="3F0ifn" id="6iw2eE3akv3" role="3EZMnx">
-              <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
+              <property role="3F0ifm" value="Any of the following conditions end the experiment" />
               <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
             </node>
             <node concept="2iRfu4" id="6iw2eE3akv4" role="2iSdaV" />
@@ -7362,6 +7383,47 @@
       </node>
       <node concept="2h3Zct" id="6lHtNhnkGLH" role="1WZ6hz">
         <property role="2h4Kg1" value="interaction called by interaction" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6mCZXi$vS0x">
+    <ref role="1XX52x" to="86kt:6mCZXi$mNMP" resolve="DescriptionElement" />
+    <node concept="3EZMnI" id="6mCZXi$vS0z" role="2wV5jI">
+      <node concept="2iRkQZ" id="6mCZXi$vS0$" role="2iSdaV" />
+      <node concept="3F0A7n" id="6mCZXi$vS0R" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+      </node>
+      <node concept="3F2HdR" id="6mCZXi$vS0A" role="3EZMnx">
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+        <ref role="1NtTu8" to="86kt:6mCZXi$t3qd" resolve="descriptionText" />
+        <node concept="2iRkQZ" id="6mCZXi$vS0B" role="2czzBx" />
+        <node concept="3F0ifn" id="6mCZXi$vS0C" role="2czzBI">
+          <property role="3F0ifm" value="&lt;press enter and write the model research question&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        </node>
+      </node>
+      <node concept="VPXOz" id="6mCZXi$vS0D" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="6mCZXi$CSRg">
+    <property role="3GE5qa" value="TODO_Experiments" />
+    <ref role="1XX52x" to="86kt:6mCZXi$CSQG" resolve="TODO_CollectionItem" />
+    <node concept="3EZMnI" id="6mCZXi$CSRi" role="2wV5jI">
+      <node concept="l2Vlx" id="6mCZXi$CSRj" role="2iSdaV" />
+      <node concept="3F0ifn" id="6mCZXi$CSRk" role="3EZMnx">
+        <property role="3F0ifm" value="collect" />
+      </node>
+      <node concept="3F0A7n" id="6mCZXi$CSRn" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6mCZXi$CSQI" resolve="TODO_value" />
+      </node>
+      <node concept="3F0ifn" id="6mCZXi$CSRo" role="3EZMnx">
+        <property role="3F0ifm" value="by" />
+      </node>
+      <node concept="3F0A7n" id="6mCZXi$CSRp" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6mCZXi$CSQJ" resolve="method" />
       </node>
     </node>
   </node>
