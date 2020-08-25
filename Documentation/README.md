@@ -20,7 +20,7 @@ Make sure you have installed Java (Version at least 1.8)
 9. When you create the model, go to "Used Languages", press the "+", select "formalodd", and press "ok" once for the used languages and once for the model.
 10. Go to the model you have created, right click, create "New-->ODD".
 
-You can input your model specifications according to the manual (link) and tutorial (link). Go to the Project and right click "Rebuild" to integrate whatever changes you make. 
+You can input your model specifications according to the manual (link) and [tutorial] (https://github.com/uiano/odd2netlogo/blob/master/Documentation/wolf-sheep_tutorial.md). Go to the Project and right click "Rebuild" to integrate whatever changes you make. 
 
 The tool includes some build in ODDS apart from the ones your store in your new solution/solution. The build ins ODDs cannot be changed by you, you can only view them. If you want to experiment with the already existing ODDs, copy them (one by one) and paste them into your own model. To do that, create an empty ODD, copy the build in ODD, and paste it in the empty ODD.
 
