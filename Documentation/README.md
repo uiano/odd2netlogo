@@ -1,12 +1,12 @@
-#What is ODD2ABM?
+# What is ODD2ABM?
 ODD2ABM takes a model description written in its user-interface in an ODD format and coverts it into an ABM model. ODD2ABM is defined in the MPS platform. The ABM model is created in the NetLogo platform. 
 
-#When to create an ABM?
+# When to create an ABM?
 ABM is used for modelling of social, socioecological, ecological, socioeconomical and other type of mixed systems. The paradigm suggests that we conceptualise these systems as entities living in an environment (physical or social). The entities have properties and behaviors, they interact with each other and change their states.The strengnth of Agent Based Modelling is the emergence of patterns. We use ABM to test whether the properties or behaviors of the entities respond well to observed patterns (real life patterns) or to test what patterns can emerge from observed behaviors and properties of entities. Finally, we can also use ABM to experiment with hypothetical properties and behaviors and hypothetical patterns.
 
 
 
-#Installation steps
+# Installation steps
 Make sure you have installed Java (Version at least 1.8)
 
 Step 1: Go to https://github.com/uiano/odd2netlogo/releases/tag/v0.5
@@ -26,8 +26,8 @@ The tool includes some build in ODDS apart from the ones your store in your new 
 
  
 
-#Liscence
+# License
 
 
 
-#CONTACT
+# CONTACT
