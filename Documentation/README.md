@@ -22,9 +22,17 @@ Make sure you have installed Java (Version at least 1.8)
 
 You can input your model specifications according to the [manual](link) and [tutorial](https://github.com/uiano/odd2netlogo/blob/master/Documentation/wolf-sheep_tutorial.md). Go to the Project and right click `Rebuild` to integrate whatever changes you make. 
 
-The tool includes some build in ODDS apart from the ones your store in your new solution/solution. The build ins ODDs cannot be changed by you, you can only view them. If you want to experiment with the already existing ODDs, copy them (one by one) and paste them into your own model. To do that, create an empty ODD, copy the build in ODD, and paste it in the empty ODD.
+The tool includes some build in ODDS apart from the ones your store in your new solution/model. The build ins ODDs cannot be changed by you, you can only view them. If you want to experiment with the already existing ODDs, copy them (one by one) and paste them into your own model. To do that, create an empty ODD, copy the build in ODD, and paste it in the empty ODD.
 
- 
+# Running the model in NetLogo
+
+Make sure you have installed NetLogo [link here](https://ccl.northwestern.edu/netlogo/).
+
+1. Copy the generated text.
+2. Paste it in an empty text file.
+3. Save the text file as `nameofthemodel.nlogo`.
+4. Open the model, with NetLogo. The model is ready to run.
+
 
 # License
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
