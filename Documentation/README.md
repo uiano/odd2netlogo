@@ -29,6 +29,6 @@ The tool includes some build in ODDS apart from the ones your store in your new 
 # License
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
 
-![Image of Copyright]()
+![Image of Copyright](https://github.com/uiano/odd2netlogo/blob/master/Documentation/images/creative%20commons.jpg)
 
 # Contact
