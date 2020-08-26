@@ -250,6 +250,13 @@
       <property role="20kJfa" value="shape" />
       <ref role="20lvS9" node="3lcKR8aBGlP" resolve="Shape" />
     </node>
+    <node concept="1TJgyj" id="64QC5GX7lG9" role="1TKVEi">
+      <property role="IQ2ns" value="7004962584149187337" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initAttributes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
+    </node>
     <node concept="PrWs8" id="3kYfzLXhXMP" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>

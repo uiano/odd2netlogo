@@ -237,6 +237,7 @@
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
+        <child id="7004962584149187337" name="initAttributes" index="1saZHi" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
       <concept id="3840659476812056016" name="formalodd.structure.Coordinates" flags="ng" index="ZOwqy">
@@ -448,6 +449,18 @@
           <node concept="ZOwps" id="5wSz0kzyecS" role="zGXb3" />
         </node>
         <node concept="RFdHg" id="7Y7DVQi$r2u" role="RFdH4" />
+        <node concept="26lliW" id="64QC5GXdT_7" role="1saZHi">
+          <ref role="26lliz" node="5wSz0kzyecz" resolve="unnamed attribute1" />
+        </node>
+        <node concept="26lliW" id="64QC5GXdT_9" role="1saZHi">
+          <ref role="26lliz" node="7eFC9EokzbM" resolve="leap length" />
+        </node>
+        <node concept="26lliW" id="64QC5GXdT_c" role="1saZHi">
+          <ref role="26lliz" node="7eFC9Ep4KXv" resolve="unnamed attribute0" />
+        </node>
+        <node concept="26lliW" id="64QC5GXdT_g" role="1saZHi">
+          <ref role="26lliz" node="5wSz0kzyecF" resolve="unnamed attribute2" />
+        </node>
       </node>
       <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
         <property role="TrG5h" value="lizard" />
@@ -467,6 +480,9 @@
           <property role="2oK_Ap" value="10" />
         </node>
         <node concept="RFdHg" id="7eFC9Eoo2Bf" role="RFdH4" />
+        <node concept="26lliW" id="64QC5GXdT_5" role="1saZHi">
+          <ref role="26lliz" node="166q1IL2R3S" resolve="some attribute" />
+        </node>
       </node>
       <node concept="26lliW" id="2gJyhPFz8Vg" role="qiWAJ">
         <ref role="26lliz" node="166q1IL2R3S" resolve="some attribute" />
@@ -1570,8 +1586,11 @@
           <property role="2oK_Ap" value="10" />
         </node>
         <node concept="RFdHg" id="7y2oNvCqeb" role="RFdH4" />
+        <node concept="26lliW" id="64QC5GXdT_2" role="1saZHi">
+          <ref role="26lliz" node="4qxfPPOMPu1" resolve="energy" />
+        </node>
       </node>
-      <node concept="26lliW" id="2gJyhPFz8Vc" role="qiWAJ">
+      <node concept="26lliW" id="64QC5GXajl7" role="qiWAJ">
         <ref role="26lliz" node="4qxfPPOMPu1" resolve="energy" />
       </node>
     </node>
