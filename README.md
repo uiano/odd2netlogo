@@ -34,9 +34,6 @@ Make sure you have installed NetLogo [link here](https://ccl.northwestern.edu/ne
 
 # License
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. 
-
-![Image of Copyright](https://github.com/uiano/odd2netlogo/blob/master/Documentation/images/creative%20commons.jpg)
-
-![Image of Copyright](https://mirrors.creativecommons.org/presskit/buttons/88x31/png/by-sa.png)
+![Image of Copyright](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)
 
 # Contact
