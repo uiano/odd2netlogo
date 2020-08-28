@@ -206,9 +206,37 @@
     <node concept="1TJgyj" id="6o6DKlWjmUE" role="1TKVEi">
       <property role="IQ2ns" value="7351747083731037866" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="initAttributes" />
+      <property role="20kJfa" value="attributesInit" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
+    </node>
+    <node concept="1TJgyj" id="64QC5GXsLCR" role="1TKVEi">
+      <property role="IQ2ns" value="7004962584154806839" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="attributesStochasticity" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
+    </node>
+    <node concept="1TJgyj" id="64QC5GXsLC8" role="1TKVEi">
+      <property role="IQ2ns" value="7004962584154806792" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="entityStochasticity" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6lHESjKCmJ$" resolve="ConcreteEntityReference" />
+    </node>
+    <node concept="1TJgyj" id="64QC5GXsLD5" role="1TKVEi">
+      <property role="IQ2ns" value="7004962584154806853" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="attributesRationales" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
+    </node>
+    <node concept="1TJgyj" id="64QC5GXsLCD" role="1TKVEi">
+      <property role="IQ2ns" value="7004962584154806825" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="entityRationale" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="6lHESjKCmJ$" resolve="ConcreteEntityReference" />
     </node>
     <node concept="PrWs8" id="3nK6aP_5otG" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />

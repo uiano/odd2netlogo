@@ -223,9 +223,11 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
-        <child id="7351747083731037866" name="initAttributes" index="qiWAJ" />
+        <child id="7351747083731037866" name="attributesInit" index="qiWAJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
+        <child id="7004962584154806853" name="attributesRationales" index="1shrCu" />
+        <child id="7004962584154806839" name="attributesStochasticity" index="1shrDG" />
         <child id="999929643176201180" name="networks" index="1w1JPE" />
         <child id="7250805203379147680" name="syntheticAttributes" index="3AlXHa" />
         <child id="5813355112907901457" name="scales" index="3EJEmX" />
@@ -1030,11 +1032,14 @@
       <node concept="26lliW" id="2gJyhPFz8US" role="qiWAJ">
         <ref role="26lliz" node="6o6DKlXk0pC" resolve="movement-cost" />
       </node>
-      <node concept="26lliW" id="2gJyhPFz8UX" role="qiWAJ">
-        <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
-      </node>
       <node concept="26lliW" id="2gJyhPFz8V3" role="qiWAJ">
         <ref role="26lliz" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
+      </node>
+      <node concept="26lliW" id="64QC5GXz7XP" role="qiWAJ">
+        <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEa" role="1shrDG">
+        <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
       </node>
     </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
@@ -2164,15 +2169,6 @@
       <node concept="26lliW" id="2gJyhPFz8Qr" role="qiWAJ">
         <ref role="26lliz" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
       </node>
-      <node concept="26lliW" id="2gJyhPFz8QD" role="qiWAJ">
-        <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8QS" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8R8" role="qiWAJ">
-        <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
-      </node>
       <node concept="26lliW" id="2gJyhPFz8Rp" role="qiWAJ">
         <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
       </node>
@@ -2182,14 +2178,98 @@
       <node concept="26lliW" id="2gJyhPFz8RY" role="qiWAJ">
         <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
       </node>
-      <node concept="26lliW" id="2gJyhPFz8Si" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
-      </node>
       <node concept="26lliW" id="2gJyhPFz8SB" role="qiWAJ">
         <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
       </node>
-      <node concept="26lliW" id="2gJyhPFz8T$" role="qiWAJ">
+      <node concept="26lliW" id="64QC5GXAPEc" role="1shrCu">
+        <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEe" role="1shrCu">
         <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEh" role="1shrCu">
+        <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEl" role="1shrCu">
+        <ref role="26lliz" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEq" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEw" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEB" role="1shrCu">
+        <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPEJ" role="1shrCu">
+        <ref role="26lliz" node="5p5RAoTafl6" resolve="known-indices" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPES" role="1shrCu">
+        <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPF2" role="1shrCu">
+        <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPFd" role="1shrCu">
+        <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPFp" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPFA" role="1shrCu">
+        <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPFO" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPG3" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApp" resolve="num-internal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPGj" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPG$" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPGQ" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCAps" resolve="num-external-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPH9" role="1shrCu">
+        <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPHt" role="1shrCu">
+        <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPHM" role="1shrDG">
+        <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPHO" role="1shrDG">
+        <ref role="26lliz" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPHR" role="1shrDG">
+        <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPHV" role="1shrDG">
+        <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPI0" role="1shrDG">
+        <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPY7" role="qiWAJ">
+        <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPYL" role="qiWAJ">
+        <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAPZs" role="qiWAJ">
+        <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAQ08" role="qiWAJ">
+        <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+      </node>
+      <node concept="26lliW" id="64QC5GXAQ0P" role="qiWAJ">
+        <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
       </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
