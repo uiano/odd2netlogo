@@ -2,7 +2,9 @@
 ODD2ABM takes as input  a model description written in the user-interface in an ODD format and converts it into an ABM model. ODD2ABM is defined in the MPS platform. The ABM model is created in the NetLogo platform. 
 
 # When to create an ABM?
-ABM is used for modeling of social, socioecological, ecological, socio-economical and other types of mixed systems. The paradigm suggests that we conceptualise these systems as entities living in an environment (physical or social). The entities have properties and behaviours; they interact with each other and change their states. The strength  of Agent-Based Modelling is the emergence of patterns. We use ABM to test whether the properties or behaviours of the entities respond well to observed patterns (real-life patterns) or to test what patterns can emerge from observed behaviours and properties of entities. Finally, we can also use ABM to experiment with hypothetical properties and behaviours and hypothetical patterns.
+ABM is used for modeling of social, socioecological, ecological, socio-economical and other types of mixed systems. The paradigm suggests that we conceptualise these systems as entities living in an environment (physical or social). The entities have properties and behaviours; they interact with each other and change their states. One major aspect of the paradigm is time. Normally, the time progresses and this enables the unfolding of the model based on the modelled behaviors. 
+
+The strength  of Agent-Based Modelling is the emergence of patterns. We use ABM to test whether the properties or behaviours of the entities respond well to observed patterns (real-life patterns) or to test what patterns can emerge from observed behaviours and properties of entities. Finally, we can also use ABM to experiment with hypothetical properties and behaviours and hypothetical patterns.
 
 # Installation steps
 Make sure you have installed Java (Version at least 1.8)
