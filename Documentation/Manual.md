@@ -24,3 +24,6 @@ We should list the experiment end conditions.
  We need suggestions for size of entities and
 ## Procedures(expression)
 We need to analyze what entails. For example that we can put sliders in expression. Probably write what can be implemented in which place
+## Conditions
+### Simulation time
+As time is an important aspect of the ABM models, one type of condition is connected to the time step in the model. When you want to create a condition like this, after selecting the type of condition, select simulation time to make the condition related to time. 
