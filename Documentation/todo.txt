@@ -3,6 +3,7 @@ TODO list for development of ODD2Netlogo
 - remove rationale UDA editors
 - check that all stochasticity and init and rationale editors are over references
 - remove name4entity (UDA) editors
+- add random uniform stochasticity editor
 - manual experiments should work without adding automatic experiments
 - use expressions for plots, improve plot: name for plot and name for y-axis, allow colours to be defined for plot
 - use range for regrow-grass (wolf sheep)

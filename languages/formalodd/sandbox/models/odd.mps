@@ -360,6 +360,23 @@
       <property role="XAmFg" value="test" />
     </node>
     <node concept="ZOwpU" id="qdXC$xpL8y" role="3$p12O">
+      <node concept="1wg3SR" id="64QC5GXDXV5" role="1w1JPE">
+        <property role="TrG5h" value="nnn" />
+        <ref role="1w1JhF" node="qdXC$xsGMq" resolve="frog" />
+        <ref role="1wg9ys" node="7eFC9Eoo2B2" resolve="lizard" />
+        <node concept="ZOwpH" id="64QC5GXDXVb" role="2gUEkT">
+          <property role="TrG5h" value="nnn-a" />
+          <node concept="ZOwps" id="64QC5GXDXVf" role="zGXb3" />
+          <node concept="2jQCjV" id="64QC5GXDYrA" role="2oy9Oj">
+            <node concept="2oK_Am" id="64QC5GXDYrG" role="2jQCjS">
+              <property role="2oK_Ap" value="0" />
+            </node>
+            <node concept="2oK_Am" id="64QC5GXDYrJ" role="2jQCjT">
+              <property role="2oK_Ap" value="10" />
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="ZOwpH" id="1jC05GNft6w" role="25gc1v">
         <property role="TrG5h" value="health" />
         <property role="QtYJw" value="the health." />
@@ -369,6 +386,14 @@
         <property role="TrG5h" value="hunger" />
         <property role="QtYJw" value="if the entity is hungry" />
         <node concept="ZOwpv" id="1jC05GNft6H" role="zGXb3" />
+        <node concept="2jQCjV" id="64QC5GXDYrM" role="2oy9Oj">
+          <node concept="2oK_Am" id="64QC5GXDYs9" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="2oK_Am" id="64QC5GXDYsc" role="2jQCjT">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
       </node>
       <node concept="3Ovhfo" id="1jC05GNfsI0" role="3Ovhfh">
         <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -445,6 +470,14 @@
         <node concept="ZOwpH" id="5wSz0kzyecz" role="2gUEk7">
           <property role="TrG5h" value="unnamed attribute1" />
           <node concept="ZOwps" id="5wSz0kzyecP" role="zGXb3" />
+          <node concept="ZOwoP" id="64QC5GXB1K2" role="2oy9Oj">
+            <node concept="2oK_Am" id="64QC5GXB1Ka" role="R_6SO">
+              <property role="2oK_Ap" value="10" />
+            </node>
+            <node concept="2oK_Am" id="64QC5GXB1Kd" role="R_6SQ">
+              <property role="2oK_Ap" value="10" />
+            </node>
+          </node>
         </node>
         <node concept="ZOwpH" id="5wSz0kzyecF" role="2gUEk7">
           <property role="TrG5h" value="unnamed attribute2" />
@@ -509,6 +542,18 @@
       </node>
       <node concept="26lliW" id="2gJyhPFz8WV" role="qiWAJ">
         <ref role="26lliz" node="5wSz0kzyecF" resolve="unnamed attribute2" />
+      </node>
+      <node concept="26lliW" id="64QC5GXB1K8" role="1shrDG">
+        <ref role="26lliz" node="5wSz0kzyecz" resolve="unnamed attribute1" />
+      </node>
+      <node concept="26lliW" id="64QC5GXDYrS" role="qiWAJ">
+        <ref role="26lliz" node="64QC5GXDXVb" resolve="nnn-a" />
+      </node>
+      <node concept="26lliW" id="64QC5GXDYs2" role="1shrDG">
+        <ref role="26lliz" node="1jC05GNft6B" resolve="hunger" />
+      </node>
+      <node concept="26lliW" id="64QC5GXDYs5" role="1shrDG">
+        <ref role="26lliz" node="64QC5GXDXVb" resolve="nnn-a" />
       </node>
     </node>
     <node concept="3Ovhds" id="7eFC9Ep51ms" role="1BQTrk">

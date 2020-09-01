@@ -1061,7 +1061,7 @@
   <node concept="1TIwiD" id="RwtFpHC4y1">
     <property role="EcuMT" value="999929643171596417" />
     <property role="TrG5h" value="Network" />
-    <property role="R4oN_" value="Relationship between entities" />
+    <property role="R4oN_" value="Networks of entities" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1TJDcQ" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     <node concept="1TJgyj" id="RwtFpHTCbt" role="1TKVEi">
