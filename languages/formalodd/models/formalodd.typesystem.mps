@@ -155,6 +155,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -273,7 +276,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="2gJyhPFox07">
-    <property role="TrG5h" value="check_initAttributes_global" />
+    <property role="TrG5h" value="check_attribute_references" />
     <node concept="3clFbS" id="2gJyhPFox08" role="18ibNy">
       <node concept="3clFbF" id="2gJyhPFox0f" role="3cqZAp">
         <node concept="2OqwBi" id="2gJyhPFozeg" role="3clFbG">
@@ -1255,6 +1258,268 @@
               </node>
               <node concept="3TrEf2" id="64QC5GXzc8k" role="2OqNvi">
                 <ref role="3Tt5mk" to="86kt:5yfUVbuQFWh" resolve="attribute" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="18kY7G" id="64QC5GXT3Th">
+    <property role="TrG5h" value="check_code_references" />
+    <property role="3GE5qa" value="" />
+    <node concept="3clFbS" id="64QC5GXT3Ti" role="18ibNy">
+      <node concept="3clFbF" id="64QC5GXT3Xt" role="3cqZAp">
+        <node concept="2OqwBi" id="64QC5GXT3Xu" role="3clFbG">
+          <node concept="2OqwBi" id="64QC5GXT3Xv" role="2Oq$k0">
+            <node concept="1YBJjd" id="64QC5GXT51D" role="2Oq$k0">
+              <ref role="1YBMHb" node="64QC5GXT3Tk" resolve="processOverviewAndScheduling" />
+            </node>
+            <node concept="2Rf3mk" id="64QC5GXT3Xx" role="2OqNvi">
+              <node concept="1xMEDy" id="64QC5GXT3Xy" role="1xVPHs">
+                <node concept="chp4Y" id="64QC5GXT6iY" role="ri$Ld">
+                  <ref role="cht4Q" to="86kt:39v_dEx_GL8" resolve="TODO_Code" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2es0OD" id="64QC5GXT3X$" role="2OqNvi">
+            <node concept="1bVj0M" id="64QC5GXT3X_" role="23t8la">
+              <node concept="3clFbS" id="64QC5GXT3XA" role="1bW5cS">
+                <node concept="3cpWs8" id="64QC5GXT3XB" role="3cqZAp">
+                  <node concept="3cpWsn" id="64QC5GXT3XC" role="3cpWs9">
+                    <property role="TrG5h" value="coderefs" />
+                    <node concept="A3Dl8" id="64QC5GXT3XD" role="1tU5fm">
+                      <node concept="3Tqbb2" id="64QC5GXT3XE" role="A3Ik2">
+                        <ref role="ehGHo" to="86kt:64QC5GXT2e1" resolve="CodeReference" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="64QC5GXT3XF" role="33vP2m">
+                      <node concept="2OqwBi" id="64QC5GXT3XG" role="2Oq$k0">
+                        <node concept="1YBJjd" id="64QC5GXT5s1" role="2Oq$k0">
+                          <ref role="1YBMHb" node="64QC5GXT3Tk" resolve="processOverviewAndScheduling" />
+                        </node>
+                        <node concept="3Tsc0h" id="64QC5GXT5Hs" role="2OqNvi">
+                          <ref role="3TtcxE" to="86kt:64QC5GXT2dU" resolve="stochasticityCode" />
+                        </node>
+                      </node>
+                      <node concept="3zZkjj" id="64QC5GXT3XJ" role="2OqNvi">
+                        <node concept="1bVj0M" id="64QC5GXT3XK" role="23t8la">
+                          <node concept="3clFbS" id="64QC5GXT3XL" role="1bW5cS">
+                            <node concept="3clFbF" id="64QC5GXT3XM" role="3cqZAp">
+                              <node concept="17R0WA" id="64QC5GXT3XN" role="3clFbG">
+                                <node concept="37vLTw" id="64QC5GXT3XO" role="3uHU7w">
+                                  <ref role="3cqZAo" node="64QC5GXT3Y_" resolve="code" />
+                                </node>
+                                <node concept="2OqwBi" id="64QC5GXT3XP" role="3uHU7B">
+                                  <node concept="37vLTw" id="64QC5GXT3XQ" role="2Oq$k0">
+                                    <ref role="3cqZAo" node="64QC5GXT3XS" resolve="it" />
+                                  </node>
+                                  <node concept="3TrEf2" id="64QC5GXT7rh" role="2OqNvi">
+                                    <ref role="3Tt5mk" to="86kt:64QC5GXT2e2" resolve="myCode" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="Rh6nW" id="64QC5GXT3XS" role="1bW2Oz">
+                            <property role="TrG5h" value="it" />
+                            <node concept="2jxLKc" id="64QC5GXT3XT" role="1tU5fm" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="64QC5GXT3XU" role="3cqZAp">
+                  <node concept="3clFbS" id="64QC5GXT3XV" role="3clFbx">
+                    <node concept="3clFbF" id="64QC5GXT3XW" role="3cqZAp">
+                      <node concept="2OqwBi" id="64QC5GXT3XX" role="3clFbG">
+                        <node concept="37vLTw" id="64QC5GXT3XY" role="2Oq$k0">
+                          <ref role="3cqZAo" node="64QC5GXT3XC" resolve="coderefs" />
+                        </node>
+                        <node concept="2es0OD" id="64QC5GXT3XZ" role="2OqNvi">
+                          <node concept="1bVj0M" id="64QC5GXT3Y0" role="23t8la">
+                            <node concept="3clFbS" id="64QC5GXT3Y1" role="1bW5cS">
+                              <node concept="2MkqsV" id="64QC5GXT3Y2" role="3cqZAp">
+                                <node concept="3cpWs3" id="64QC5GXT3Y3" role="2MkJ7o">
+                                  <node concept="2OqwBi" id="64QC5GXT3Y4" role="3uHU7w">
+                                    <node concept="37vLTw" id="64QC5GXT3Y5" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="64QC5GXT3Y_" resolve="code" />
+                                    </node>
+                                    <node concept="3TrcHB" id="64QC5GXT3Y6" role="2OqNvi">
+                                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                                    </node>
+                                  </node>
+                                  <node concept="Xl_RD" id="64QC5GXT3Y7" role="3uHU7B">
+                                    <property role="Xl_RC" value="multiple stochasticity for code " />
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="64QC5GXT3Y8" role="1urrMF">
+                                  <ref role="3cqZAo" node="64QC5GXT3Y9" resolve="it" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="64QC5GXT3Y9" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="64QC5GXT3Ya" role="1tU5fm" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3eOSWO" id="64QC5GXT3Yb" role="3clFbw">
+                    <node concept="3cmrfG" id="64QC5GXT3Yc" role="3uHU7w">
+                      <property role="3cmrfH" value="1" />
+                    </node>
+                    <node concept="2OqwBi" id="64QC5GXT3Yd" role="3uHU7B">
+                      <node concept="37vLTw" id="64QC5GXT3Ye" role="2Oq$k0">
+                        <ref role="3cqZAo" node="64QC5GXT3XC" resolve="coderefs" />
+                      </node>
+                      <node concept="34oBXx" id="64QC5GXT3Yf" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="64QC5GXT3Yg" role="3cqZAp">
+                  <node concept="3clFbS" id="64QC5GXT3Yh" role="3clFbx">
+                    <node concept="2MkqsV" id="64QC5GXT3Yi" role="3cqZAp">
+                      <node concept="3cpWs3" id="64QC5GXT3Yj" role="2MkJ7o">
+                        <node concept="2OqwBi" id="64QC5GXT3Yk" role="3uHU7w">
+                          <node concept="37vLTw" id="64QC5GXT3Yl" role="2Oq$k0">
+                            <ref role="3cqZAo" node="64QC5GXT3Y_" resolve="code" />
+                          </node>
+                          <node concept="3TrcHB" id="64QC5GXT3Ym" role="2OqNvi">
+                            <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                          </node>
+                        </node>
+                        <node concept="Xl_RD" id="64QC5GXT3Yn" role="3uHU7B">
+                          <property role="Xl_RC" value="code misses stochasticity " />
+                        </node>
+                      </node>
+                      <node concept="37vLTw" id="64QC5GXT3Yo" role="1urrMF">
+                        <ref role="3cqZAo" node="64QC5GXT3Y_" resolve="code" />
+                      </node>
+                      <node concept="3Cnw8n" id="64QC5GXT82Z" role="1urrFz">
+                        <property role="ARO6o" value="true" />
+                        <ref role="QpYPw" node="64QC5GXT82W" resolve="fix_missing_code_stochasticity" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1Wc70l" id="64QC5GXT3Yq" role="3clFbw">
+                    <node concept="2OqwBi" id="64QC5GXT3Yr" role="3uHU7w">
+                      <node concept="2OqwBi" id="64QC5GXT3Ys" role="2Oq$k0">
+                        <node concept="37vLTw" id="64QC5GXT3Yt" role="2Oq$k0">
+                          <ref role="3cqZAo" node="64QC5GXT3Y_" resolve="code" />
+                        </node>
+                        <node concept="2Rf3mk" id="64QC5GXT3Yu" role="2OqNvi">
+                          <node concept="1xMEDy" id="64QC5GXT3Yv" role="1xVPHs">
+                            <node concept="chp4Y" id="64QC5GXT3Yw" role="ri$Ld">
+                              <ref role="cht4Q" to="86kt:3lcKR8aBGkY" resolve="RandomNumber" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3GX2aA" id="64QC5GXT3Yx" role="2OqNvi" />
+                    </node>
+                    <node concept="2OqwBi" id="64QC5GXT3Yy" role="3uHU7B">
+                      <node concept="37vLTw" id="64QC5GXT3Yz" role="2Oq$k0">
+                        <ref role="3cqZAo" node="64QC5GXT3XC" resolve="coderefs" />
+                      </node>
+                      <node concept="1v1jN8" id="64QC5GXT3Y$" role="2OqNvi" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="Rh6nW" id="64QC5GXT3Y_" role="1bW2Oz">
+                <property role="TrG5h" value="code" />
+                <node concept="2jxLKc" id="64QC5GXT3YA" role="1tU5fm" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="64QC5GXT3Tk" role="1YuTPh">
+      <property role="TrG5h" value="processOverviewAndScheduling" />
+      <ref role="1YaFvo" to="86kt:6lHESjKDb9g" resolve="ProcessOverviewAndScheduling" />
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="64QC5GXT82W">
+    <property role="TrG5h" value="fix_missing_code_stochasticity" />
+    <node concept="Q6JDH" id="64QC5GXT8SU" role="Q6Id_">
+      <property role="TrG5h" value="code" />
+      <node concept="3Tqbb2" id="64QC5GXT8SV" role="Q6QK4">
+        <ref role="ehGHo" to="86kt:39v_dEx_GL8" resolve="TODO_Code" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="64QC5GXT82X" role="Q6x$H">
+      <node concept="3clFbS" id="64QC5GXT82Y" role="2VODD2">
+        <node concept="3cpWs8" id="64QC5GXT9mZ" role="3cqZAp">
+          <node concept="3cpWsn" id="64QC5GXT9n0" role="3cpWs9">
+            <property role="TrG5h" value="code" />
+            <node concept="3Tqbb2" id="64QC5GXT9n1" role="1tU5fm">
+              <ref role="ehGHo" to="86kt:39v_dEx_GL8" resolve="TODO_Code" />
+            </node>
+            <node concept="1PxgMI" id="64QC5GXT9n2" role="33vP2m">
+              <property role="1BlNFB" value="true" />
+              <node concept="chp4Y" id="64QC5GXT9ws" role="3oSUPX">
+                <ref role="cht4Q" to="86kt:39v_dEx_GL8" resolve="TODO_Code" />
+              </node>
+              <node concept="Q6c8r" id="64QC5GXT9n4" role="1m5AlR" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="64QC5GXT9n5" role="3cqZAp">
+          <node concept="3cpWsn" id="64QC5GXT9n6" role="3cpWs9">
+            <property role="TrG5h" value="overview" />
+            <node concept="3Tqbb2" id="64QC5GXT9n7" role="1tU5fm">
+              <ref role="ehGHo" to="86kt:6lHESjKDb9g" resolve="ProcessOverviewAndScheduling" />
+            </node>
+            <node concept="2OqwBi" id="64QC5GXT9n8" role="33vP2m">
+              <node concept="37vLTw" id="64QC5GXT9n9" role="2Oq$k0">
+                <ref role="3cqZAo" node="64QC5GXT9n0" resolve="code" />
+              </node>
+              <node concept="2Xjw5R" id="64QC5GXT9na" role="2OqNvi">
+                <node concept="1xMEDy" id="64QC5GXT9nb" role="1xVPHs">
+                  <node concept="chp4Y" id="64QC5GXTa3O" role="ri$Ld">
+                    <ref role="cht4Q" to="86kt:6lHESjKDb9g" resolve="ProcessOverviewAndScheduling" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="64QC5GXT9nd" role="3cqZAp">
+          <node concept="3cpWsn" id="64QC5GXT9ne" role="3cpWs9">
+            <property role="TrG5h" value="stochasticity" />
+            <node concept="3Tqbb2" id="64QC5GXT9nf" role="1tU5fm">
+              <ref role="ehGHo" to="86kt:64QC5GXT2e1" resolve="CodeReference" />
+            </node>
+            <node concept="2OqwBi" id="64QC5GXT9ng" role="33vP2m">
+              <node concept="2OqwBi" id="64QC5GXT9nh" role="2Oq$k0">
+                <node concept="37vLTw" id="64QC5GXT9ni" role="2Oq$k0">
+                  <ref role="3cqZAo" node="64QC5GXT9n6" resolve="overview" />
+                </node>
+                <node concept="3Tsc0h" id="64QC5GXTaba" role="2OqNvi">
+                  <ref role="3TtcxE" to="86kt:64QC5GXT2dU" resolve="stochasticityCode" />
+                </node>
+              </node>
+              <node concept="2DeJg1" id="64QC5GXT9nk" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="64QC5GXT9nl" role="3cqZAp">
+          <node concept="37vLTI" id="64QC5GXT9nm" role="3clFbG">
+            <node concept="37vLTw" id="64QC5GXT9nn" role="37vLTx">
+              <ref role="3cqZAo" node="64QC5GXT9n0" resolve="code" />
+            </node>
+            <node concept="2OqwBi" id="64QC5GXT9no" role="37vLTJ">
+              <node concept="37vLTw" id="64QC5GXT9np" role="2Oq$k0">
+                <ref role="3cqZAo" node="64QC5GXT9ne" resolve="stochasticity" />
+              </node>
+              <node concept="3TrEf2" id="64QC5GXTaDS" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:64QC5GXT2e2" resolve="myCode" />
               </node>
             </node>
           </node>

@@ -5157,145 +5157,14 @@
   <node concept="24kQdi" id="52HbUMUO1Uu">
     <ref role="1XX52x" to="86kt:6lHESjKDb9g" resolve="ProcessOverviewAndScheduling" />
     <node concept="3EZMnI" id="52HbUMUO1U_" role="2wV5jI">
-      <node concept="1HlG4h" id="64QC5GXJS8S" role="3EZMnx">
-        <node concept="1HfYo3" id="64QC5GXJS8U" role="1HlULh">
-          <node concept="3TQlhw" id="64QC5GXJS8W" role="1Hhtcw">
-            <node concept="3clFbS" id="64QC5GXJS8Y" role="2VODD2">
-              <node concept="3cpWs6" id="64QC5GXJSdC" role="3cqZAp">
-                <node concept="Xl_RD" id="64QC5GXJSe6" role="3cqZAk">
-                  <property role="Xl_RC" value="hallo&lt;br&gt;world" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3F2HdR" id="52HbUMUO1UG" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:5EtG2rQ5Lu$" resolve="procedures" />
-        <node concept="2iRkQZ" id="52HbUMUO1UI" role="2czzBx" />
-      </node>
-      <node concept="3F2HdR" id="52HbUMUO1UP" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:39v_dExHoZp" resolve="functions" />
-        <node concept="2iRkQZ" id="52HbUMUO1UR" role="2czzBx" />
+      <node concept="3F2HdR" id="64QC5GXT34T" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:64QC5GXT2dU" resolve="stochasticityCode" />
+        <node concept="2iRkQZ" id="64QC5GXT34V" role="2czzBx" />
       </node>
       <node concept="2iRkQZ" id="52HbUMUO1UC" role="2iSdaV" />
     </node>
     <node concept="2aJ2om" id="52HbUMUO1Uy" role="CpUAK">
       <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="52HbUMUO27v">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:6lHESjKCmJ_" resolve="Action" />
-    <node concept="2aJ2om" id="52HbUMUO27z" role="CpUAK">
-      <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
-    </node>
-    <node concept="3EZMnI" id="52HbUMUO27G" role="2wV5jI">
-      <node concept="l2Vlx" id="52HbUMUO27H" role="2iSdaV" />
-      <node concept="3F0ifn" id="52HbUMUO27I" role="3EZMnx">
-        <property role="3F0ifm" value="action" />
-      </node>
-      <node concept="3F0A7n" id="52HbUMUO27J" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="52HbUMUO27K" role="3EZMnx">
-        <property role="3F0ifm" value="uses stochasticity" />
-      </node>
-      <node concept="pkWqt" id="52HbUMUO27M" role="pqm2j">
-        <node concept="3clFbS" id="52HbUMUO27N" role="2VODD2">
-          <node concept="3clFbF" id="52HbUMUO27O" role="3cqZAp">
-            <node concept="2OqwBi" id="52HbUMUO27P" role="3clFbG">
-              <node concept="2OqwBi" id="52HbUMUO27Q" role="2Oq$k0">
-                <node concept="pncrf" id="52HbUMUO27R" role="2Oq$k0" />
-                <node concept="2Rf3mk" id="52HbUMUO27S" role="2OqNvi">
-                  <node concept="1xMEDy" id="52HbUMUO27T" role="1xVPHs">
-                    <node concept="chp4Y" id="52HbUMUO27U" role="ri$Ld">
-                      <ref role="cht4Q" to="86kt:3lcKR8aBGkY" resolve="RandomNumber" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3GX2aA" id="52HbUMUO27V" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="52HbUMUO2io">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:qdXC$xsGIe" resolve="Interaction" />
-    <node concept="2aJ2om" id="52HbUMUO2ip" role="CpUAK">
-      <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
-    </node>
-    <node concept="3EZMnI" id="52HbUMUO2iq" role="2wV5jI">
-      <node concept="l2Vlx" id="52HbUMUO2ir" role="2iSdaV" />
-      <node concept="3F0ifn" id="52HbUMUO2is" role="3EZMnx">
-        <property role="3F0ifm" value="interaction" />
-      </node>
-      <node concept="3F0A7n" id="52HbUMUO2it" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="52HbUMUO2iu" role="3EZMnx">
-        <property role="3F0ifm" value="uses stochasticity" />
-      </node>
-      <node concept="pkWqt" id="52HbUMUO2iv" role="pqm2j">
-        <node concept="3clFbS" id="52HbUMUO2iw" role="2VODD2">
-          <node concept="3clFbF" id="52HbUMUO2ix" role="3cqZAp">
-            <node concept="2OqwBi" id="52HbUMUO2iy" role="3clFbG">
-              <node concept="2OqwBi" id="52HbUMUO2iz" role="2Oq$k0">
-                <node concept="pncrf" id="52HbUMUO2i$" role="2Oq$k0" />
-                <node concept="2Rf3mk" id="52HbUMUO2i_" role="2OqNvi">
-                  <node concept="1xMEDy" id="52HbUMUO2iA" role="1xVPHs">
-                    <node concept="chp4Y" id="52HbUMUO2iB" role="ri$Ld">
-                      <ref role="cht4Q" to="86kt:3lcKR8aBGkY" resolve="RandomNumber" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3GX2aA" id="52HbUMUO2iC" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="52HbUMUO2oW">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:39v_dExCF7n" resolve="TODO_Function" />
-    <node concept="2aJ2om" id="52HbUMUO2oX" role="CpUAK">
-      <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
-    </node>
-    <node concept="3EZMnI" id="52HbUMUO2oY" role="2wV5jI">
-      <node concept="l2Vlx" id="52HbUMUO2oZ" role="2iSdaV" />
-      <node concept="3F0ifn" id="52HbUMUO2p0" role="3EZMnx">
-        <property role="3F0ifm" value="calculation" />
-      </node>
-      <node concept="3F0A7n" id="52HbUMUO2p1" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="52HbUMUO2p2" role="3EZMnx">
-        <property role="3F0ifm" value="uses stochasticity" />
-      </node>
-      <node concept="pkWqt" id="52HbUMUO2p3" role="pqm2j">
-        <node concept="3clFbS" id="52HbUMUO2p4" role="2VODD2">
-          <node concept="3clFbF" id="52HbUMUO2p5" role="3cqZAp">
-            <node concept="2OqwBi" id="52HbUMUO2p6" role="3clFbG">
-              <node concept="2OqwBi" id="52HbUMUO2p7" role="2Oq$k0">
-                <node concept="pncrf" id="52HbUMUO2p8" role="2Oq$k0" />
-                <node concept="2Rf3mk" id="52HbUMUO2p9" role="2OqNvi">
-                  <node concept="1xMEDy" id="52HbUMUO2pa" role="1xVPHs">
-                    <node concept="chp4Y" id="52HbUMUO2pb" role="ri$Ld">
-                      <ref role="cht4Q" to="86kt:3lcKR8aBGkY" resolve="RandomNumber" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3GX2aA" id="52HbUMUO2pc" role="2OqNvi" />
-            </node>
-          </node>
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="4YcnceaBjb9">
@@ -7170,6 +7039,55 @@
                 </node>
               </node>
               <node concept="3GX2aA" id="64QC5GXw0tk" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="64QC5GXT2eu">
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:64QC5GXT2e1" resolve="CodeReference" />
+    <node concept="2aJ2om" id="64QC5GXT2ey" role="CpUAK">
+      <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
+    </node>
+    <node concept="3EZMnI" id="64QC5GXT2ko" role="2wV5jI">
+      <node concept="l2Vlx" id="64QC5GXT2kp" role="2iSdaV" />
+      <node concept="3F0ifn" id="64QC5GXT2kq" role="3EZMnx">
+        <property role="3F0ifm" value="code" />
+      </node>
+      <node concept="1iCGBv" id="64QC5GXT2np" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:64QC5GXT2e2" resolve="myCode" />
+        <node concept="1sVBvm" id="64QC5GXT2nr" role="1sWHZn">
+          <node concept="3F0A7n" id="64QC5GXT2oH" role="2wV5jI">
+            <property role="1Intyy" value="true" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="64QC5GXT2ks" role="3EZMnx">
+        <property role="3F0ifm" value="uses stochasticity" />
+      </node>
+      <node concept="pkWqt" id="64QC5GXT2kt" role="pqm2j">
+        <node concept="3clFbS" id="64QC5GXT2ku" role="2VODD2">
+          <node concept="3clFbF" id="64QC5GXT2kv" role="3cqZAp">
+            <node concept="2OqwBi" id="64QC5GXT2kw" role="3clFbG">
+              <node concept="2OqwBi" id="64QC5GXT2kx" role="2Oq$k0">
+                <node concept="2OqwBi" id="64QC5GXT2Cf" role="2Oq$k0">
+                  <node concept="pncrf" id="64QC5GXT2ky" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="64QC5GXT2Tb" role="2OqNvi">
+                    <ref role="3Tt5mk" to="86kt:64QC5GXT2e2" resolve="myCode" />
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="64QC5GXT2kz" role="2OqNvi">
+                  <node concept="1xMEDy" id="64QC5GXT2k$" role="1xVPHs">
+                    <node concept="chp4Y" id="64QC5GXT2k_" role="ri$Ld">
+                      <ref role="cht4Q" to="86kt:3lcKR8aBGkY" resolve="RandomNumber" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3GX2aA" id="64QC5GXT2kA" role="2OqNvi" />
             </node>
           </node>
         </node>

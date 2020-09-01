@@ -1,7 +1,6 @@
 TODO list for development of ODD2Netlogo
-- remove stochasticity UDA editors for entities and networks
 - remove rationale UDA editors
-- check that all stochasticity and init and rationale editors are over references
+- check that all init and rationale editors are over references
 - remove name4entity (UDA) editors
 - add random uniform stochasticity editor
 - manual experiments should work without adding automatic experiments

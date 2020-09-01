@@ -104,6 +104,7 @@
         <child id="3629783491420721113" name="functions" index="2jUxG3" />
         <child id="7308686357753541209" name="endConditions" index="2lMhBt" />
         <child id="6529568716141041572" name="procedures" index="2GyEu2" />
+        <child id="7004962584162214778" name="stochasticityCode" index="1sOCcx" />
       </concept>
       <concept id="7308686357753326564" name="formalodd.structure.ConcreteEntityReference" flags="ng" index="2lNc1w">
         <reference id="6400669868561546218" name="generalEntity" index="8YSiZ" />
@@ -294,6 +295,9 @@
         <property id="7590269384189550714" name="method" index="1jsyQK" />
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
+      </concept>
+      <concept id="7004962584162214785" name="formalodd.structure.CodeReference" flags="ng" index="1sOCfq">
+        <reference id="7004962584162214786" name="myCode" index="1sOCfp" />
       </concept>
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
         <child id="5813355112896542813" name="rationale" index="3DMLvL" />
@@ -951,6 +955,9 @@
       <node concept="2lMhBi" id="1D8fLg4_FDU" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="qdXC$xz0Qt" resolve="wolf" />
+      </node>
+      <node concept="1sOCfq" id="64QC5GXWdU0" role="1sOCcx">
+        <ref role="1sOCfp" node="6o6DKlXneXa" resolve="wiggle" />
       </node>
     </node>
     <node concept="ZOwpU" id="qdXC$xz0Qp" role="3$p12O">
@@ -3180,6 +3187,12 @@
         <node concept="2QpFD0" id="1R8dC2FMMzm" role="2QrS70">
           <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
         </node>
+      </node>
+      <node concept="1sOCfq" id="64QC5GXWdTY" role="1sOCcx">
+        <ref role="1sOCfp" node="4GwBkQLLdv" resolve="free-interaction" />
+      </node>
+      <node concept="1sOCfq" id="64QC5GXWdUV" role="1sOCcx">
+        <ref role="1sOCfp" node="39v_dExISFb" resolve="positive-interaction?" />
       </node>
     </node>
     <node concept="3Ovhds" id="1R8dC2F7fAs" role="1BQTrk">
