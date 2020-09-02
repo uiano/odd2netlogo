@@ -75,7 +75,7 @@
         <child id="3629783491425129925" name="inner" index="2jDO4v" />
       </concept>
       <concept id="3629783491418704968" name="formalodd.structure.TODO_Code" flags="ng" index="2jMlyi">
-        <child id="698589177998537374" name="rationale" index="3Zeh6T" />
+        <child id="698589177998537374" name="toDelete_rationale" index="3Zeh6T" />
       </concept>
       <concept id="3629783491417542689" name="formalodd.structure.RandomUniform" flags="ng" index="2jQCjV">
         <child id="3629783491417542690" name="from" index="2jQCjS" />
@@ -209,13 +209,14 @@
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
-        <child id="2469205658733998786" name="rationale" index="3OvheO" />
+        <child id="2469205658733998786" name="toDelete_rationale" index="3OvheO" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="7325386082673704120" name="generalDescriptions" index="31WWdG" />
+        <child id="7004962584163901476" name="rationales" index="1sMO1Z" />
         <child id="135681439422303784" name="input" index="3uwOu$" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
         <child id="8277873572982783228" name="purpose" index="1BQTrk" />
@@ -227,7 +228,6 @@
         <child id="7351747083731037866" name="attributesInit" index="qiWAJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
-        <child id="7004962584154806853" name="attributesRationales" index="1shrCu" />
         <child id="7004962584154806839" name="attributesStochasticity" index="1shrDG" />
         <child id="999929643176201180" name="networks" index="1w1JPE" />
         <child id="7250805203379147680" name="syntheticAttributes" index="3AlXHa" />
@@ -296,11 +296,17 @@
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
+      <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
+        <child id="7004962584163900935" name="rationale" index="1sMRTs" />
+      </concept>
+      <concept id="7004962584163901172" name="formalodd.structure.RationaleReference" flags="ng" index="1sMRUJ">
+        <reference id="7004962584163901173" name="rationale" index="1sMRUI" />
+      </concept>
       <concept id="7004962584162214785" name="formalodd.structure.CodeReference" flags="ng" index="1sOCfq">
         <reference id="7004962584162214786" name="myCode" index="1sOCfp" />
       </concept>
       <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
-        <child id="5813355112896542813" name="rationale" index="3DMLvL" />
+        <child id="5813355112896542813" name="toDelete_rationale" index="3DMLvL" />
       </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
@@ -331,7 +337,7 @@
         <child id="8277873572982783040" name="purposeDescription" index="1BQTpC" />
       </concept>
       <concept id="2469205658733998766" name="formalodd.structure.TODO_Rationale" flags="ng" index="3Ovhfo">
-        <property id="2469205658733998769" name="Base4Rationale" index="3Ovhf7" />
+        <property id="2469205658733998769" name="base4Rationale" index="3Ovhf7" />
         <child id="7370097229710174387" name="sentence" index="2IGf3i" />
       </concept>
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
@@ -1667,6 +1673,9 @@
   </node>
   <node concept="ZOwpP" id="4xlWY3qEPkU">
     <property role="TrG5h" value=" MARG" />
+    <node concept="1sMRUJ" id="64QC5GYcxxk" role="1sMO1Z">
+      <ref role="1sMRUI" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
+    </node>
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
       <node concept="26lliW" id="2gJyhPFsbJZ" role="qiWAJ">
         <ref role="26lliz" node="39v_dEyCAps" resolve="num-external-characteristics" />
@@ -1913,6 +1922,7 @@
             <property role="XAmFg" value="Theory of Norms. The ideal external values represent the cultural norms that pass to people. We use different numbers to represent different characteristics of the same type (eg hair). Numbers close in value represent characteristics that resemble. The ideal value represents the characteristic that is estimed highly by the society. If an interaction partner holds the value of this characteristic,he/she is evaluated positively in respect to this characteristic. Therefore, idealises values represent cultural expectations for agent characteristics. Different cultures value different characteristics. Thus, two agents from different cultures may have different idealised values. " />
           </node>
         </node>
+        <node concept="3Ovhfo" id="64QC5GYcxxm" role="1sMRTs" />
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflr" role="Qgzvn">
         <property role="TrG5h" value="ideal-internal-characteristics" />
@@ -2232,66 +2242,6 @@
       </node>
       <node concept="26lliW" id="2gJyhPFz8SB" role="qiWAJ">
         <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEc" role="1shrCu">
-        <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEe" role="1shrCu">
-        <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEh" role="1shrCu">
-        <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEl" role="1shrCu">
-        <ref role="26lliz" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEq" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEw" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEB" role="1shrCu">
-        <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPEJ" role="1shrCu">
-        <ref role="26lliz" node="5p5RAoTafl6" resolve="known-indices" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPES" role="1shrCu">
-        <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPF2" role="1shrCu">
-        <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPFd" role="1shrCu">
-        <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPFp" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPFA" role="1shrCu">
-        <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPFO" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPG3" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApp" resolve="num-internal-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPGj" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPG$" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPGQ" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCAps" resolve="num-external-characteristics" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPH9" role="1shrCu">
-        <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPHt" role="1shrCu">
-        <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
       </node>
       <node concept="26lliW" id="64QC5GXAPHM" role="1shrDG">
         <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />

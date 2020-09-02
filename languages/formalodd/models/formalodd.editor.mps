@@ -3599,7 +3599,7 @@
         <node concept="3F0A7n" id="52HbUMU5551" role="3EZMnx">
           <property role="1O74Pk" value="true" />
           <property role="1$x2rV" value="&lt;press ctrl + space and select base for rationale&gt;" />
-          <ref role="1NtTu8" to="86kt:294onrmenaL" resolve="Base4Rationale" />
+          <ref role="1NtTu8" to="86kt:294onrmenaL" resolve="base4Rationale" />
           <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
           <node concept="3Xmtl4" id="52HbUMU5552" role="3F10Kt">
             <node concept="1wgc9g" id="52HbUMU5553" role="3XvnJa">
@@ -4244,7 +4244,7 @@
       <node concept="3F1sOY" id="7gxBiwrWc8d" role="3EZMnx">
         <property role="1$x2rV" value="&lt;press enter to add rationale to&gt;" />
         <property role="2ru_X1" value="true" />
-        <ref role="1NtTu8" to="86kt:52HbUMTpzxt" resolve="rationale" />
+        <ref role="1NtTu8" to="86kt:52HbUMTpzxt" resolve="toDelete_rationale" />
         <node concept="3EZMnI" id="7gxBiwrXneS" role="2ruayu">
           <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           <node concept="3F0ifn" id="7gxBiwrXneZ" role="3EZMnx">
@@ -4618,7 +4618,7 @@
         </node>
         <node concept="3F1sOY" id="52HbUMU7nS9" role="3EZMnx">
           <property role="1$x2rV" value="&lt;press enter to add rationale&gt;" />
-          <ref role="1NtTu8" to="86kt:294onrmenb2" resolve="rationale" />
+          <ref role="1NtTu8" to="86kt:294onrmenb2" resolve="toDelete_rationale" />
           <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
         </node>
       </node>
@@ -4747,6 +4747,16 @@
     <property role="TrG5h" value="ODD_Rationales" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
     <node concept="3EZMnI" id="52HbUMU4V8u" role="2wV5jI">
+      <node concept="3F0ifn" id="64QC5GY9wTN" role="3EZMnx">
+        <property role="3F0ifm" value="NEW RATIONALES" />
+      </node>
+      <node concept="3F2HdR" id="64QC5GY3iEQ" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:64QC5GXZu0$" resolve="rationales" />
+        <node concept="2iRkQZ" id="64QC5GY3iES" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="64QC5GY9wU6" role="3EZMnx">
+        <property role="3F0ifm" value="FINISHED NEW" />
+      </node>
       <node concept="3F0ifn" id="52HbUMU4V8v" role="3EZMnx">
         <property role="3F0ifm" value="Rationales for Entities and Attributes" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
@@ -4845,7 +4855,7 @@
           </node>
         </node>
         <node concept="3F1sOY" id="52HbUMUcgrA" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:52HbUMTpzxt" resolve="rationale" />
+          <ref role="1NtTu8" to="86kt:52HbUMTpzxt" resolve="toDelete_rationale" />
         </node>
         <node concept="3F2HdR" id="52HbUMUcgpU" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:39v_dEyHj7z" resolve="userDefinedAttributes" />
@@ -4981,7 +4991,7 @@
         <node concept="3F1sOY" id="52HbUMUdYzz" role="3EZMnx">
           <property role="1$x2rV" value="&lt;press enter to add rationale to&gt;" />
           <property role="2ru_X1" value="true" />
-          <ref role="1NtTu8" to="86kt:ALSMvQyfau" resolve="rationale" />
+          <ref role="1NtTu8" to="86kt:ALSMvQyfau" resolve="toDelete_rationale" />
           <node concept="3EZMnI" id="52HbUMUdYz$" role="2ruayu">
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
             <node concept="3F0ifn" id="52HbUMUdYz_" role="3EZMnx">
@@ -5035,7 +5045,7 @@
         <node concept="3F1sOY" id="52HbUMUdY$o" role="3EZMnx">
           <property role="1$x2rV" value="&lt;press enter to add rationale to&gt;" />
           <property role="2ru_X1" value="true" />
-          <ref role="1NtTu8" to="86kt:ALSMvQyfau" resolve="rationale" />
+          <ref role="1NtTu8" to="86kt:ALSMvQyfau" resolve="toDelete_rationale" />
           <node concept="3EZMnI" id="52HbUMUdY$p" role="2ruayu">
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
             <node concept="3F0ifn" id="52HbUMUdY$q" role="3EZMnx">
@@ -5087,7 +5097,7 @@
         <node concept="3F1sOY" id="52HbUMUfA2H" role="3EZMnx">
           <property role="1$x2rV" value="&lt;press enter to add rationale to&gt;" />
           <property role="2ru_X1" value="true" />
-          <ref role="1NtTu8" to="86kt:ALSMvQyfau" resolve="rationale" />
+          <ref role="1NtTu8" to="86kt:ALSMvQyfau" resolve="toDelete_rationale" />
           <node concept="3EZMnI" id="52HbUMUfA2I" role="2ruayu">
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
             <node concept="3F0ifn" id="52HbUMUfA2J" role="3EZMnx">
@@ -7092,6 +7102,65 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="64QC5GXZtX7">
+    <ref role="1XX52x" to="86kt:64QC5GXZtVO" resolve="RationaleReference" />
+    <node concept="3EZMnI" id="64QC5GXZtX9" role="2wV5jI">
+      <node concept="3EZMnI" id="64QC5GXZtXa" role="3EZMnx">
+        <node concept="VPM3Z" id="64QC5GXZtXb" role="3F10Kt" />
+        <node concept="3F0ifn" id="64QC5GXZtXf" role="3EZMnx">
+          <property role="3F0ifm" value="Rationale for" />
+        </node>
+        <node concept="1iCGBv" id="64QC5GXZtY0" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:64QC5GXZtVP" resolve="rationale" />
+          <node concept="1sVBvm" id="64QC5GXZtY2" role="1sWHZn">
+            <node concept="3F0A7n" id="64QC5GXZtYe" role="2wV5jI">
+              <property role="1Intyy" value="true" />
+              <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            </node>
+          </node>
+        </node>
+        <node concept="3F0ifn" id="64QC5GXZtXM" role="3EZMnx">
+          <property role="3F0ifm" value="is based on" />
+        </node>
+        <node concept="1iCGBv" id="64QC5GXZtZ4" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:64QC5GXZtVP" resolve="rationale" />
+          <node concept="1sVBvm" id="64QC5GXZtZ6" role="1sWHZn">
+            <node concept="1iCGBv" id="64QC5GXZtZq" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:64QC5GXZtS7" resolve="rationale" />
+              <node concept="1sVBvm" id="64QC5GXZtZs" role="1sWHZn">
+                <node concept="3F0A7n" id="64QC5GXZtZz" role="2wV5jI">
+                  <property role="1Intyy" value="true" />
+                  <ref role="1NtTu8" to="86kt:294onrmenaL" resolve="base4Rationale" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2iRfu4" id="64QC5GXZtXg" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="64QC5GXZtXh" role="3EZMnx">
+        <node concept="1iCGBv" id="64QC5GXZu03" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:64QC5GXZtVP" resolve="rationale" />
+          <node concept="1sVBvm" id="64QC5GXZu05" role="1sWHZn">
+            <node concept="1iCGBv" id="64QC5GXZu0g" role="2wV5jI">
+              <ref role="1NtTu8" to="86kt:64QC5GXZtS7" resolve="rationale" />
+              <node concept="1sVBvm" id="64QC5GXZu0i" role="1sWHZn">
+                <node concept="3F2HdR" id="64QC5GXZu0p" role="2wV5jI">
+                  <ref role="1NtTu8" to="86kt:6p7Q678XMyN" resolve="sentence" />
+                  <node concept="3F0ifn" id="64QC5GXZu0s" role="2czzBI">
+                    <property role="3F0ifm" value="&lt;press enter to add text&gt;" />
+                    <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="l2Vlx" id="64QC5GXZtXm" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="64QC5GXZtXn" role="2iSdaV" />
     </node>
   </node>
 </model>
