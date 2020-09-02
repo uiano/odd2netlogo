@@ -35,6 +35,7 @@ TODO list for development of ODD2Netlogo
 - improve codegen for element-wise
 - put make actions and functions into the same category
 - do not have text as selectable
+- The types supported for attributes should be numerical and categorical. In addition, we have (synthetic) characterizations (boolean). Numerical can have range and categorical refers to the category collection (enumeration).
 - The rationale for Initialization does not need the rationale choice (Established theory etc).
 - The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
 - I do not think we need the rationales for Interaction and Stochasticity.
