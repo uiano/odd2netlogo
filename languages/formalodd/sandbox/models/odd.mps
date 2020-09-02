@@ -1922,7 +1922,12 @@
             <property role="XAmFg" value="Theory of Norms. The ideal external values represent the cultural norms that pass to people. We use different numbers to represent different characteristics of the same type (eg hair). Numbers close in value represent characteristics that resemble. The ideal value represents the characteristic that is estimed highly by the society. If an interaction partner holds the value of this characteristic,he/she is evaluated positively in respect to this characteristic. Therefore, idealises values represent cultural expectations for agent characteristics. Different cultures value different characteristics. Thus, two agents from different cultures may have different idealised values. " />
           </node>
         </node>
-        <node concept="3Ovhfo" id="64QC5GYcxxm" role="1sMRTs" />
+        <node concept="3Ovhfo" id="64QC5GYcxxm" role="1sMRTs">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="64QC5GYfQbF" role="2IGf3i">
+            <property role="XAmFg" value="Theory of Norms. The ideal external values represent the cultural norms that pass to people. We use different numbers to represent different characteristics of the same type (eg hair). Numbers close in value represent characteristics that resemble. The ideal value represents the characteristic that is estimed highly by the society. If an interaction partner holds the value of this characteristic,he/she is evaluated positively in respect to this characteristic. Therefore, idealises values represent cultural expectations for agent characteristics. Different cultures value different characteristics. Thus, two agents from different cultures may have different idealised values." />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflr" role="Qgzvn">
         <property role="TrG5h" value="ideal-internal-characteristics" />
@@ -1948,6 +1953,12 @@
         <node concept="3Ovhfo" id="bXNtWssbqI" role="3OvheO">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="bXNtWssbqK" role="2IGf3i">
+            <property role="XAmFg" value="Theory of Norms. The explanation is the same as with the ideal-external characteristics." />
+          </node>
+        </node>
+        <node concept="3Ovhfo" id="64QC5GYFAKN" role="1sMRTs">
+          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
+          <node concept="XAmFv" id="64QC5GYFAKP" role="2IGf3i">
             <property role="XAmFg" value="Theory of Norms. The explanation is the same as with the ideal-external characteristics." />
           </node>
         </node>
@@ -3169,6 +3180,9 @@
       <node concept="XAmFv" id="h2iSnEiPy9" role="2IGf3i">
         <property role="XAmFg" value="I" />
       </node>
+    </node>
+    <node concept="1sMRUJ" id="64QC5GYFAKB" role="1sMO1Z">
+      <ref role="1sMRUI" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
     </node>
   </node>
 </model>
