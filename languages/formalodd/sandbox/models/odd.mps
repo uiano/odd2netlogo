@@ -209,7 +209,6 @@
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
-        <child id="2469205658733998786" name="toDelete_rationale" index="3OvheO" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
@@ -304,9 +303,6 @@
       </concept>
       <concept id="7004962584162214785" name="formalodd.structure.CodeReference" flags="ng" index="1sOCfq">
         <reference id="7004962584162214786" name="myCode" index="1sOCfp" />
-      </concept>
-      <concept id="2606589510542712260" name="formalodd.structure.GeneralEntity" flags="ng" index="1v12Et">
-        <child id="5813355112896542813" name="toDelete_rationale" index="3DMLvL" />
       </concept>
       <concept id="999929643171596417" name="formalodd.structure.Network" flags="ng" index="1wg3SR">
         <property id="6216619391282322598" name="directed" index="1Jtsb0" />
@@ -447,7 +443,7 @@
       </node>
       <node concept="ZOwpW" id="qdXC$xsGMq" role="ZOwpT">
         <property role="TrG5h" value="frog" />
-        <property role="2QSBU6" value="My Frog Descridssption" />
+        <property role="2QSBU6" value="My Frog Description" />
         <node concept="ZOwpH" id="7eFC9EokzbM" role="2gUEk7">
           <property role="TrG5h" value="leap length" />
           <property role="QtYJw" value="t" />
@@ -458,15 +454,6 @@
         </node>
         <node concept="2oK_Am" id="1LeTgidgaQr" role="RIgNU">
           <property role="2oK_Ap" value="10" />
-        </node>
-        <node concept="3Ovhfo" id="7eFC9Eo9YPF" role="3DMLvL">
-          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="7eFC9Eo9YPH" role="2IGf3i">
-            <property role="XAmFg" value="My text is here. I would like some room above" />
-          </node>
-          <node concept="XAmFv" id="7eFC9Eo9YPJ" role="2IGf3i">
-            <property role="XAmFg" value="and below so that I know what this text is about." />
-          </node>
         </node>
         <node concept="ZOwo7" id="7eFC9EoZAAF" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvM9VJ/arrow" />
@@ -505,6 +492,15 @@
         </node>
         <node concept="26lliW" id="64QC5GXdT_g" role="1saZHi">
           <ref role="26lliz" node="5wSz0kzyecF" resolve="unnamed attribute2" />
+        </node>
+        <node concept="3Ovhfo" id="1i0DDuQOW_3" role="1sMRTs">
+          <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
+          <node concept="XAmFv" id="1i0DDuQOW_7" role="2IGf3i">
+            <property role="XAmFg" value="My text is here. I would like some room above" />
+          </node>
+          <node concept="XAmFv" id="1i0DDuQOW_8" role="2IGf3i">
+            <property role="XAmFg" value="and below so that I know what this text is about." />
+          </node>
         </node>
       </node>
       <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
@@ -636,6 +632,9 @@
           <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
         </node>
       </node>
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQOW_5" role="1sMO1Z">
+      <ref role="1sMRUI" node="qdXC$xsGMq" resolve="frog" />
     </node>
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
@@ -1797,10 +1796,10 @@
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
           </node>
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCCp" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagOchs" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCCr" role="2IGf3i">
-            <property role="XAmFg" value="We assume that some agent characteristics are not visible prior to an interaction and we call them internal characteristics." />
+          <node concept="XAmFv" id="2cIMoagOchu" role="2IGf3i">
+            <property role="XAmFg" value="We assume that some agent characteristics are always visible and we call them external characteristics." />
           </node>
         </node>
       </node>
@@ -1827,9 +1826,9 @@
             <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
           </node>
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCDz" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagOchI" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCD_" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagOchK" role="2IGf3i">
             <property role="XAmFg" value="We assume that some agent characteristics are not visible prior to an interaction and we call them internal characteristics." />
           </node>
         </node>
@@ -1846,9 +1845,9 @@
             <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
           </node>
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCEL" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagOci1" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEfCEN" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagOci3" role="2IGf3i">
             <property role="XAmFg" value="Comformity to norms. Agents do not always stick to norms but they adapt their preferences by their individual tolerance. " />
           </node>
         </node>
@@ -1860,9 +1859,9 @@
         <node concept="2oK_Am" id="5AVjrpZ0i3n" role="2oy9Oj">
           <property role="2oK_Ap" value="0" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEiPxp" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagOcil" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEiPxr" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagOcin" role="2IGf3i">
             <property role="XAmFg" value="Social Exchange Theory. Interactions can lead to positive or to negative outcomes depending on the compatability of agents. The parameter registers the positive outcomes." />
           </node>
         </node>
@@ -1874,9 +1873,9 @@
         <node concept="2oK_Am" id="5AVjrpZ0i3p" role="2oy9Oj">
           <property role="2oK_Ap" value="0" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEiPxt" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagOdpx" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEiPxv" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagOdpz" role="2IGf3i">
             <property role="XAmFg" value="Social Exchange Theory. Interactions can lead to positive or to negative outcomes depending on the compatability of agents. The parameter registers the negative outcomes." />
           </node>
         </node>
@@ -1888,9 +1887,9 @@
         <node concept="2oK_Am" id="5AVjrpZ0i3r" role="2oy9Oj">
           <property role="2oK_Ap" value="0" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEiPxx" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagOdpR" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEiPxz" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagOdpT" role="2IGf3i">
             <property role="XAmFg" value="We assume that when an agent perceives that the interaction partner does not want to interact he/she register the interaction as a refused interaction." />
           </node>
         </node>
@@ -1910,16 +1909,10 @@
         </node>
         <node concept="ZOwoP" id="1R8dC2ECY58" role="2oy9Oj">
           <node concept="26lliW" id="3oOohpnpIXK" role="R_6SO">
-            <ref role="26lliz" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+            <ref role="26lliz" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
           </node>
           <node concept="2oK_Am" id="6iw2eE5ipdK" role="R_6SQ">
             <property role="2oK_Ap" value="0" />
-          </node>
-        </node>
-        <node concept="3Ovhfo" id="bXNtWssbqE" role="3OvheO">
-          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="bXNtWssbqG" role="2IGf3i">
-            <property role="XAmFg" value="Theory of Norms. The ideal external values represent the cultural norms that pass to people. We use different numbers to represent different characteristics of the same type (eg hair). Numbers close in value represent characteristics that resemble. The ideal value represents the characteristic that is estimed highly by the society. If an interaction partner holds the value of this characteristic,he/she is evaluated positively in respect to this characteristic. Therefore, idealises values represent cultural expectations for agent characteristics. Different cultures value different characteristics. Thus, two agents from different cultures may have different idealised values. " />
           </node>
         </node>
         <node concept="3Ovhfo" id="64QC5GYcxxm" role="1sMRTs">
@@ -1950,12 +1943,6 @@
             <property role="2oK_Ap" value="0" />
           </node>
         </node>
-        <node concept="3Ovhfo" id="bXNtWssbqI" role="3OvheO">
-          <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="bXNtWssbqK" role="2IGf3i">
-            <property role="XAmFg" value="Theory of Norms. The explanation is the same as with the ideal-external characteristics." />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="64QC5GYFAKN" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="64QC5GYFAKP" role="2IGf3i">
@@ -1973,9 +1960,9 @@
           <property role="21jJI7" value="1" />
         </node>
         <node concept="ZOwps" id="39v_dEyCApr" role="zGXb3" />
-        <node concept="3Ovhfo" id="bXNtWssbqM" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq43" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="bXNtWssbqO" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq45" role="2IGf3i">
             <property role="XAmFg" value="We assume that each agent has a specific amount of internal characteristics that is relevant for social interactions.These are the characteristics that the interaction partner evaluates. Therefore, we are also interested in the ideal values of these specific characteristics. As such, each agent has the same ideal internal characteristics and internal characteristics. " />
           </node>
         </node>
@@ -1990,12 +1977,9 @@
           <property role="2rHBro" value="10" />
           <property role="21jJI7" value="1" />
         </node>
-        <node concept="3Ovhfo" id="bXNtWssbqQ" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq47" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="bXNtWssbqS" role="2IGf3i">
-            <property role="XAmFg" value="The number represents the amount" />
-          </node>
-          <node concept="XAmFv" id="bXNtWssbqX" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq49" role="2IGf3i">
             <property role="XAmFg" value="The explanation is the same as with the num-internal-characteristics." />
           </node>
         </node>
@@ -2010,9 +1994,9 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="0.8" />
         </node>
-        <node concept="3Ovhfo" id="bXNtWssbr3" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq4b" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="bXNtWssbr5" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq4p" role="2IGf3i">
             <property role="XAmFg" value="The average characgeristic represents the average value of the characteristic in the community we investigate. " />
           </node>
         </node>
@@ -2027,9 +2011,9 @@
           <property role="21jJIV" value="0.5" />
           <property role="2rHBro" value="0.25" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCvh" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq4y" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCvj" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq4$" role="2IGf3i">
             <property role="XAmFg" value="We assume a diversity of characteristics for the same trait in the population and this passes each agent's characteristic." />
           </node>
         </node>
@@ -2044,9 +2028,9 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="0.7" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCzX" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq4I" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCCn" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq4K" role="2IGf3i">
             <property role="XAmFg" value="We assume that agents have a predisposition towards others. The more a person is positive towards others the higher the initial attraction, which is the attitude." />
           </node>
         </node>
@@ -2061,9 +2045,9 @@
           <property role="21jJIV" value="0.5" />
           <property role="2rHBro" value="0.3" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCvp" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq4V" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCvr" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq4X" role="2IGf3i">
             <property role="XAmFg" value="We assume that each culture has a maximum amount of individual tolerance. The more tolerant the society the higher the maximum individual tolerance." />
           </node>
         </node>
@@ -2078,9 +2062,9 @@
           <property role="2rHBro" value="1" />
           <property role="21jJI7" value="1" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCvt" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq59" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEfCvv" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq5b" role="2IGf3i">
             <property role="XAmFg" value="We assume that not all internal characteristics are visible during an interaction. The amount is of visible characteristics per interaction is fixed for all agents in the model." />
           </node>
         </node>
@@ -2095,9 +2079,9 @@
           <property role="21jJIV" value="0.5" />
           <property role="2rHBro" value="0.1" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCwt" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq5o" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEfCwv" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq5q" role="2IGf3i">
             <property role="XAmFg" value="Social Exchange Theory. Social Exchange theory directs that agents choose based on outcomes of previous interactions which we express through the attraction link." />
           </node>
         </node>
@@ -2112,26 +2096,20 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="1" />
         </node>
-        <node concept="3Ovhfo" id="h2iSnEfCED" role="3OvheO">
+        <node concept="3Ovhfo" id="2cIMoagJq5C" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEfCEF" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagJq5E" role="2IGf3i">
             <property role="XAmFg" value="Theory of Norms. For simplification all ideal characteristics have the same value." />
           </node>
         </node>
       </node>
-      <node concept="ZOwpH" id="39v_dEyCApO" role="Qgzvn">
+      <node concept="ZOwpH" id="2cIMoagOdqG" role="Qgzvn">
         <property role="TrG5h" value="external-ideal-characteristics" />
         <property role="QtYJw" value="initial external characteristics" />
-        <node concept="ZOwps" id="39v_dEyCApP" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApQ" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="1" />
-        </node>
-        <node concept="3Ovhfo" id="h2iSnEfCEH" role="3OvheO">
+        <node concept="ZOwps" id="2cIMoagOds5" role="zGXb3" />
+        <node concept="3Ovhfo" id="2cIMoagOdwq" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
-          <node concept="XAmFv" id="h2iSnEfCEJ" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoagOdws" role="2IGf3i">
             <property role="XAmFg" value="Theory of Norms. For simplification all ideal characteristics have the same value." />
           </node>
         </node>
@@ -2153,15 +2131,15 @@
         <node concept="ZOwrR" id="22rmwLHGYvd" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
         </node>
-        <node concept="3Ovhfo" id="7gxBiws4JVF" role="3DMLvL">
+        <node concept="3Ovhfo" id="2cIMoah0xcu" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="7gxBiws4JVS" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoah0xdE" role="2IGf3i">
             <property role="XAmFg" value="We chose to include only students because we are interested in the marginalization" />
           </node>
-          <node concept="XAmFv" id="7gxBiws4JVJ" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoah0xdF" role="2IGf3i">
             <property role="XAmFg" value="that emerges from the interactions among students and not as a result of student -teachers" />
           </node>
-          <node concept="XAmFv" id="7gxBiws4JWc" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoah0xdG" role="2IGf3i">
             <property role="XAmFg" value="relationships for example." />
           </node>
         </node>
@@ -2182,9 +2160,9 @@
           <node concept="26lliW" id="h2iSnEfCzS" role="2oy9Oj">
             <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
           </node>
-          <node concept="3Ovhfo" id="h2iSnEiPxD" role="3OvheO">
+          <node concept="3Ovhfo" id="2cIMoagOdqe" role="1sMRTs">
             <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-            <node concept="XAmFv" id="h2iSnEiPxF" role="2IGf3i">
+            <node concept="XAmFv" id="2cIMoagOdqg" role="2IGf3i">
               <property role="XAmFg" value="students have relationships with other students , the relationships are 2 directionals (are different in each direaction)" />
             </node>
           </node>
@@ -2196,16 +2174,16 @@
           <node concept="2HHGdg" id="29jsdmfYwYB" role="zGXb3">
             <node concept="ZOwps" id="29jsdmfYwYH" role="2HHGdi" />
           </node>
-          <node concept="3Ovhfo" id="h2iSnEiPxH" role="3OvheO">
+          <node concept="3Ovhfo" id="2cIMoagOdqC" role="1sMRTs">
             <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-            <node concept="XAmFv" id="h2iSnEiPxJ" role="2IGf3i">
+            <node concept="XAmFv" id="2cIMoagOdqE" role="2IGf3i">
               <property role="XAmFg" value="We assume that agents store their interaction partners internal characteristics in their memory, portrayed in the parameter called known-indices." />
             </node>
           </node>
         </node>
-        <node concept="3Ovhfo" id="h2iSnEiPx_" role="3DMLvL">
+        <node concept="3Ovhfo" id="2cIMoah0xdK" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
-          <node concept="XAmFv" id="h2iSnEiPxB" role="2IGf3i">
+          <node concept="XAmFv" id="2cIMoah0xe9" role="2IGf3i">
             <property role="XAmFg" value="Human relationships are two directional. One agent could have attraction A for another agent but the other agent may not return the same sentiment. University relations are relations build on the university interactions including acquaintances to study partners to friends." />
           </node>
         </node>
@@ -2240,7 +2218,7 @@
         <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
       </node>
       <node concept="26lliW" id="2gJyhPFz8Qr" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+        <ref role="26lliz" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
       </node>
       <node concept="26lliW" id="2gJyhPFz8Rp" role="qiWAJ">
         <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
@@ -2388,7 +2366,7 @@
           </node>
         </node>
         <node concept="3D9oHp" id="52HbUMT_7Bw" role="3D9rx_">
-          <ref role="3D9oHq" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+          <ref role="3D9oHq" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
           <node concept="3DbZFg" id="52HbUMT_7BG" role="3D3j2x">
             <node concept="2oK_Am" id="3oOohppwXS0" role="3DbZFh">
               <property role="2oK_Ap" value="0" />
@@ -2486,7 +2464,7 @@
           </node>
         </node>
         <node concept="3D9oHp" id="3oOohppHfRw" role="3D9rx_">
-          <ref role="3D9oHq" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+          <ref role="3D9oHq" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
           <node concept="3DbZFg" id="3oOohppHfRx" role="3D3j2x">
             <node concept="2oK_Am" id="3oOohppHfRy" role="3DbZFh">
               <property role="2oK_Ap" value="0.5" />
@@ -2584,7 +2562,7 @@
           </node>
         </node>
         <node concept="3D9oHp" id="3oOohppHfVr" role="3D9rx_">
-          <ref role="3D9oHq" node="39v_dEyCApO" resolve="external-ideal-characteristics" />
+          <ref role="3D9oHq" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
           <node concept="3DbZFg" id="3oOohppHfVs" role="3D3j2x">
             <node concept="2oK_Am" id="3oOohppHfVt" role="3DbZFh">
               <property role="2oK_Ap" value="1" />
@@ -3183,6 +3161,66 @@
     </node>
     <node concept="1sMRUJ" id="64QC5GYFAKB" role="1sMO1Z">
       <ref role="1sMRUI" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq3O" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApp" resolve="num-internal-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq3S" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCAps" resolve="num-external-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq3X" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApv" resolve="average-characteristic" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq4r" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq4A" role="1sMO1Z">
+      <ref role="1sMRUI" node="h2iSnEfCyG" resolve="attitude" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq4M" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApC" resolve="max-judgment" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq4Z" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq5d" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApI" resolve="attraction-change" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq5s" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOdw5" role="1sMO1Z">
+      <ref role="1sMRUI" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagJq5G" role="1sMO1Z">
+      <ref role="1sMRUI" node="5p5RAoTaflx" resolve="external-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOchw" role="1sMO1Z">
+      <ref role="1sMRUI" node="5p5RAoTaflD" resolve="internal-characteristics" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOchM" role="1sMO1Z">
+      <ref role="1sMRUI" node="5p5RAoTaflh" resolve="tolerance" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOci5" role="1sMO1Z">
+      <ref role="1sMRUI" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOciT" role="1sMO1Z">
+      <ref role="1sMRUI" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOdp_" role="1sMO1Z">
+      <ref role="1sMRUI" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOdpV" role="1sMO1Z">
+      <ref role="1sMRUI" node="4qxfPPPteTY" resolve="attraction" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoagOdqk" role="1sMO1Z">
+      <ref role="1sMRUI" node="5p5RAoTafl6" resolve="known-indices" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoah0xcw" role="1sMO1Z">
+      <ref role="1sMRUI" node="4xlWY3qEPkZ" resolve="student" />
+    </node>
+    <node concept="1sMRUJ" id="2cIMoah0xdM" role="1sMO1Z">
+      <ref role="1sMRUI" node="4qxfPPPteTW" resolve="university-relationship" />
     </node>
   </node>
 </model>

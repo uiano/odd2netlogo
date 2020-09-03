@@ -1,4 +1,5 @@
 TODO list for development of ODD2Netlogo
+- check that all init and rationale editors are over references
 -Entity2 --> Andreas
 -Entity3 --> Andreas
 -Entity5 --> Andreas
@@ -12,8 +13,6 @@ TODO list for development of ODD2Netlogo
 -Initial1 --> Andreas
 -Initial3 --> Andreas
 -Experiment1 --> Andreas
-- remove rationale UDA editors
-- check that all init and rationale editors are over references
 - remove name4entity (UDA) editors
 - add random uniform stochasticity editor
 - manual experiments should work without adding automatic experiments

@@ -296,12 +296,6 @@
       <property role="20kJfa" value="initialisation" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
-    <node concept="1TJgyj" id="294onrmenb2" role="1TKVEi">
-      <property role="IQ2ns" value="2469205658733998786" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="toDelete_rationale" />
-      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
-    </node>
     <node concept="1TJgyi" id="4GwBkRmQAl" role="1TKVEl">
       <property role="IQ2nx" value="84585932964718997" />
       <property role="TrG5h" value="description" />
@@ -965,12 +959,6 @@
     <property role="TrG5h" value="GeneralEntity" />
     <property role="R5$K7" value="true" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <node concept="1TJgyj" id="52HbUMTpzxt" role="1TKVEi">
-      <property role="IQ2ns" value="5813355112896542813" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="toDelete_rationale" />
-      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
-    </node>
     <node concept="PrWs8" id="1R8dC2Fa$w8" role="PzmwI">
       <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
     </node>
