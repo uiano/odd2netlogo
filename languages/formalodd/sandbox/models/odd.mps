@@ -636,6 +636,66 @@
     <node concept="1sMRUJ" id="1i0DDuQOW_5" role="1sMO1Z">
       <ref role="1sMRUI" node="qdXC$xsGMq" resolve="frog" />
     </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5W7" role="1sMO1Z">
+      <ref role="1sMRUI" node="166q1IL2R3S" resolve="some attribute" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Wa" role="1sMO1Z">
+      <ref role="1sMRUI" node="64QC5GXDXVb" resolve="nnn-a" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5We" role="1sMO1Z">
+      <ref role="1sMRUI" node="2_t31HRntdG" resolve="undefined action1" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Wj" role="1sMO1Z">
+      <ref role="1sMRUI" node="5wSz0kzyecz" resolve="unnamed attribute1" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Wp" role="1sMO1Z">
+      <ref role="1sMRUI" node="7Y7DVQi$r3r" resolve="MyNewEnvironment" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Ww" role="1sMO1Z">
+      <ref role="1sMRUI" node="2_t31HRthW0" resolve="undefined interaction0" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5WC" role="1sMO1Z">
+      <ref role="1sMRUI" node="24yfUKsi0X2" resolve="test-environment" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5WL" role="1sMO1Z">
+      <ref role="1sMRUI" node="64QC5GXDXV5" resolve="nnn" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5WV" role="1sMO1Z">
+      <ref role="1sMRUI" node="7eFC9Ep4KXv" resolve="unnamed attribute0" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5X6" role="1sMO1Z">
+      <ref role="1sMRUI" node="7eFC9Eoo2B2" resolve="lizard" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Xi" role="1sMO1Z">
+      <ref role="1sMRUI" node="5wSz0kzyecF" resolve="unnamed attribute2" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Xv" role="1sMO1Z">
+      <ref role="1sMRUI" node="7eFC9EokzbM" resolve="leap length" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5XH" role="1sMO1Z">
+      <ref role="1sMRUI" node="1jC05GNft6B" resolve="hunger" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5XW" role="1sMO1Z">
+      <ref role="1sMRUI" node="1jC05GNft6w" resolve="health" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Yc" role="1sMO1Z">
+      <ref role="1sMRUI" node="24yfUKskJQh" resolve="helo" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Yt" role="1sMO1Z">
+      <ref role="1sMRUI" node="6ow5Ifzbdeq" resolve="Dummy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5YJ" role="1sMO1Z">
+      <ref role="1sMRUI" node="2_t31HRthWV" resolve="test" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Z2" role="1sMO1Z">
+      <ref role="1sMRUI" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Zm" role="1sMO1Z">
+      <ref role="1sMRUI" node="2_t31HRntdC" resolve="undefined action0" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5ZF" role="1sMO1Z">
+      <ref role="1sMRUI" node="2_t31HRw5eN" resolve="undefined interaction1" />
+    </node>
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
@@ -1217,6 +1277,54 @@
         </node>
       </node>
     </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1t3" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkRvkn6" resolve="grass-regrowth-rate" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1t5" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXlrsz" resolve="reproduce" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1t8" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXlqG4" resolve="move" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1tc" role="1sMO1Z">
+      <ref role="1sMRUI" node="qdXC$xz0Qv" resolve="sheep" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1th" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXlrv$" resolve="regrow-grass" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1tn" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXlqIr" resolve="eat-grass" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1tu" role="1sMO1Z">
+      <ref role="1sMRUI" node="6o6DKlXk0pC" resolve="movement-cost" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1tA" role="1sMO1Z">
+      <ref role="1sMRUI" node="6o6DKlXk0oP" resolve="grass-amount" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1tJ" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXlrpQ" resolve="check-if-dead" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1tT" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1u4" role="1sMO1Z">
+      <ref role="1sMRUI" node="6o6DKlXneXa" resolve="wiggle" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1ug" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1ut" role="1sMO1Z">
+      <ref role="1sMRUI" node="qdXC$xz0Qt" resolve="wolf" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1uF" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXlrhO" resolve="eat-sheep" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1uU" role="1sMO1Z">
+      <ref role="1sMRUI" node="6ow5IfzpoId" resolve="energy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ1va" role="1sMO1Z">
+      <ref role="1sMRUI" node="1LeTgidqm5Z" resolve="grass" />
+    </node>
   </node>
   <node concept="ZOwpP" id="1r3mgtJEVoW">
     <property role="TrG5h" value="Fire" />
@@ -1359,6 +1467,30 @@
       <node concept="XAmFv" id="6Uof7aieThk" role="1BQToi">
         <property role="XAmFg" value="Everybody with an interrest to see how fire spreads." />
       </node>
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ601" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXpedi" resolve="ToDo" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ603" role="1sMO1Z">
+      <ref role="1sMRUI" node="7MNWMNCnG1g" resolve="Fire" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ606" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dEyLZBh" resolve="materials" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60a" role="1sMO1Z">
+      <ref role="1sMRUI" node="1r3mgtK4Z3N" resolve="Burn" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60f" role="1sMO1Z">
+      <ref role="1sMRUI" node="7MNWMNCnG1H" resolve="Ash" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60l" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXpedU" resolve="ToDoList" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60s" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXpecx" resolve="Extinguish" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60$" role="1sMO1Z">
+      <ref role="1sMRUI" node="7MNWMNCnG0T" resolve="Trees" />
     </node>
   </node>
   <node concept="ZOwpP" id="qdXC$ygXa5">
@@ -1570,6 +1702,39 @@
         <node concept="Qbqaq" id="4GwBkR93M2" role="18tn1Z" />
       </node>
     </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60V" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkR9iXf" resolve="total-nearby" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60X" role="1sMO1Z">
+      <ref role="1sMRUI" node="qdXC$ygXa8" resolve="blue-group" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ610" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXmcA8" resolve="move" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ614" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXmc$i" resolve="move-if-not-happy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ619" role="1sMO1Z">
+      <ref role="1sMRUI" node="qdXC$yrH6d" resolve="occupied" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ61f" role="1sMO1Z">
+      <ref role="1sMRUI" node="qdXC$ygXaQ" resolve="red-group" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ61m" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkR9iXG" resolve="happy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ61u" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkR9iWB" resolve="other-nearby" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ61B" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkR9iWR" resolve="similar-nearby" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ61L" role="1sMO1Z">
+      <ref role="1sMRUI" node="3kYfzLXouWR" resolve="update" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ61W" role="1sMO1Z">
+      <ref role="1sMRUI" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
+    </node>
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">
     <property role="TrG5h" value="voting" />
@@ -1609,6 +1774,15 @@
       <node concept="XAmFv" id="4UvEPNybpOd" role="1BQTpC">
         <property role="XAmFg" value="This model is a simple cellular automaton that simulates voting distribution by having each patch take a “vote” of its eight surrounding neighbors, then perhaps change its own vote according to the outcome." />
       </node>
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ628" role="1sMO1Z">
+      <ref role="1sMRUI" node="7MNWMN$KkSO" resolve="orange" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ62a" role="1sMO1Z">
+      <ref role="1sMRUI" node="6ow5Ifzbdeu" resolve="Dummy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ62d" role="1sMO1Z">
+      <ref role="1sMRUI" node="24yfUKsi0Xd" resolve="voter" />
     </node>
   </node>
   <node concept="ZOwpP" id="35QCLExIhrZ">
@@ -1668,6 +1842,18 @@
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="35QCLExIhs4" resolve="Fire" />
       </node>
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60H" role="1sMO1Z">
+      <ref role="1sMRUI" node="4qxfPPOMPu1" resolve="energy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60J" role="1sMO1Z">
+      <ref role="1sMRUI" node="6ow5IfzbddX" resolve="Dummy" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60M" role="1sMO1Z">
+      <ref role="1sMRUI" node="35QCLExIhs4" resolve="Fire" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ60Q" role="1sMO1Z">
+      <ref role="1sMRUI" node="24yfUKsi0Xo" resolve="Tree" />
     </node>
   </node>
   <node concept="ZOwpP" id="4xlWY3qEPkU">
@@ -3221,6 +3407,21 @@
     </node>
     <node concept="1sMRUJ" id="2cIMoah0xdM" role="1sMO1Z">
       <ref role="1sMRUI" node="4qxfPPPteTW" resolve="university-relationship" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5U5" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dExukAZ" resolve="forced-interaction" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Ut" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkQLLe0" resolve="learn-about" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5UQ" role="1sMO1Z">
+      <ref role="1sMRUI" node="39v_dExISFb" resolve="positive-interaction?" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5Vg" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkQLLdf" resolve="evaluate-interaction" />
+    </node>
+    <node concept="1sMRUJ" id="1i0DDuQZ5VF" role="1sMO1Z">
+      <ref role="1sMRUI" node="4GwBkQLLdv" resolve="free-interaction" />
     </node>
   </node>
 </model>
