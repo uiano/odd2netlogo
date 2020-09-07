@@ -1,5 +1,5 @@
 TODO list for development of ODD2Netlogo
-- check that all init and rationale editors are over references
+- check that all init editors are over references
 -Entity2 --> Andreas
 -Entity3 --> Andreas
 -Entity5 --> Andreas

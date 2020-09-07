@@ -2100,12 +2100,6 @@
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="TODO_Code" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="ALSMvQyfau" role="1TKVEi">
-      <property role="IQ2ns" value="698589177998537374" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="toDelete_rationale" />
-      <ref role="20lvS9" node="294onrmenaI" resolve="TODO_Rationale" />
-    </node>
     <node concept="PrWs8" id="1R8dC2FeqDL" role="PzmwI">
       <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
     </node>
@@ -2778,7 +2772,7 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="64QC5GXZtVP" role="1TKVEi">
       <property role="IQ2ns" value="7004962584163901173" />
-      <property role="20kJfa" value="rationale" />
+      <property role="20kJfa" value="ratConcept" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="64QC5GXZtS4" resolve="IRationaledConcept" />
     </node>
