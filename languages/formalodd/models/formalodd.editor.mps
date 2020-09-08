@@ -1131,20 +1131,21 @@
     <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     <node concept="3EZMnI" id="64QC5GXmIUU" role="2wV5jI">
       <node concept="2iRfu4" id="64QC5GXmIUV" role="2iSdaV" />
+      <node concept="3F1sOY" id="1i0DDuSmSDO" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
+        <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
+        <node concept="3F0ifn" id="1i0DDuSmSEb" role="2ruayu">
+          <property role="3F0ifm" value="press ctrl space to select attribute kind" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="64QC5GXmIUW" role="3EZMnx">
-        <property role="3F0ifm" value="Attribute" />
+        <property role="3F0ifm" value="attribute" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="64QC5GXmIUX" role="3EZMnx">
         <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="64QC5GXmIUY" role="3EZMnx">
-        <property role="3F0ifm" value="of type" />
-        <node concept="Vb9p2" id="64QC5GXmIUZ" role="3F10Kt" />
-      </node>
-      <node concept="3F1sOY" id="64QC5GXmIV0" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
       </node>
       <node concept="3F0ifn" id="64QC5GXmIV1" role="3EZMnx">
         <property role="3F0ifm" value="describes" />
@@ -2192,14 +2193,6 @@
       <property role="3F0ifm" value="Random" />
     </node>
   </node>
-  <node concept="24kQdi" id="60Hvi7s1kk5">
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkH" resolve="Boolean" />
-    <node concept="3F0ifn" id="60Hvi7s1kk7" role="2wV5jI">
-      <property role="3F0ifm" value="Boolean" />
-      <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
-    </node>
-  </node>
   <node concept="24kQdi" id="60Hvi7s3aG4">
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <ref role="1XX52x" to="86kt:60Hvi7s39O6" resolve="BooleanConstant" />
@@ -2883,7 +2876,7 @@
     <ref role="1XX52x" to="86kt:5p5RAoTaflN" resolve="TODO_Array" />
     <node concept="3EZMnI" id="5AVjrpYXjnp" role="2wV5jI">
       <node concept="3F0ifn" id="5AVjrpYXjnr" role="3EZMnx">
-        <property role="3F0ifm" value="Array" />
+        <property role="3F0ifm" value="Collection" />
         <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
       </node>
       <node concept="3F0ifn" id="5STA2$CqnxT" role="3EZMnx">
@@ -3014,10 +3007,11 @@
   </node>
   <node concept="24kQdi" id="3tK0pyo0$FJ">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="NumberType" />
+    <ref role="1XX52x" to="86kt:3lcKR8aBGkI" resolve="Numerical" />
     <node concept="3EZMnI" id="7AEkq7y73pM" role="2wV5jI">
       <node concept="3F0ifn" id="7AEkq7y73pT" role="3EZMnx">
-        <property role="3F0ifm" value="Number" />
+        <property role="3F0ifm" value="Numerical" />
+        <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
       </node>
       <node concept="2iRfu4" id="7AEkq7y73pP" role="2iSdaV" />
     </node>
@@ -4049,6 +4043,10 @@
     <ref role="1XX52x" to="86kt:4YcnceaBjaR" resolve="RangeType" />
     <node concept="3EZMnI" id="4YcnceaBjbb" role="2wV5jI">
       <node concept="l2Vlx" id="4YcnceaBjbc" role="2iSdaV" />
+      <node concept="3F0ifn" id="1i0DDuSAfyI" role="3EZMnx">
+        <property role="3F0ifm" value="numerical" />
+        <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
+      </node>
       <node concept="3F0ifn" id="4YcnceaBjbd" role="3EZMnx">
         <property role="3F0ifm" value="range from" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
@@ -4189,8 +4187,12 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1XX52x" to="86kt:29jsdmfTre5" resolve="TODO_Set" />
     <node concept="3EZMnI" id="29jsdmfTrej" role="2wV5jI">
+      <node concept="3F0ifn" id="1i0DDuSAfyT" role="3EZMnx">
+        <property role="3F0ifm" value="Set" />
+        <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
+      </node>
       <node concept="3F0ifn" id="29jsdmfTrek" role="3EZMnx">
-        <property role="3F0ifm" value="Set of" />
+        <property role="3F0ifm" value="of" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="2iRfu4" id="29jsdmfTrel" role="2iSdaV" />
@@ -6735,6 +6737,14 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1i0DDuSt2iQ">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:1i0DDuSt2ir" resolve="Categorical" />
+    <node concept="3F0ifn" id="1i0DDuSt2iS" role="2wV5jI">
+      <property role="3F0ifm" value="categorical" />
+      <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
     </node>
   </node>
 </model>

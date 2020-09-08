@@ -318,25 +318,6 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="39v_dExCF7A" resolve="TODO_ParameterType" />
   </node>
-  <node concept="1TIwiD" id="3lcKR8aBGkz">
-    <property role="EcuMT" value="3840659476812055843" />
-    <property role="TrG5h" value="TODO_String" />
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-    <node concept="1TJgyj" id="3lcKR8aBGkA" role="1TKVEi">
-      <property role="IQ2ns" value="3840659476812055846" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="Stringvalue" />
-      <property role="20lbJX" value="fLJekj6/_1__n" />
-      <ref role="20lvS9" node="3lcKR8aBGkz" resolve="TODO_String" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGkH">
-    <property role="EcuMT" value="3840659476812055853" />
-    <property role="TrG5h" value="Boolean" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
-  </node>
   <node concept="1TIwiD" id="3lcKR8aBGkY">
     <property role="EcuMT" value="3840659476812055870" />
     <property role="TrG5h" value="RandomNumber" />
@@ -1759,6 +1740,7 @@
     <property role="EcuMT" value="6216619391281853811" />
     <property role="TrG5h" value="TODO_Array" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="34LRSv" value="collection (ordered)" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
     <node concept="1TJgyj" id="5AVjrpYXjnk" role="1TKVEi">
       <property role="IQ2ns" value="6465847136229864916" />
@@ -2074,8 +2056,9 @@
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkI">
     <property role="EcuMT" value="3840659476812055854" />
-    <property role="TrG5h" value="NumberType" />
+    <property role="TrG5h" value="Numerical" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="34LRSv" value="numerical" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
   <node concept="1TIwiD" id="3M5MOtLRsyu">
@@ -2575,8 +2558,8 @@
     <property role="EcuMT" value="5732058420649734839" />
     <property role="TrG5h" value="RangeType" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="34LRSv" value="Range" />
-    <ref role="1TJDcQ" node="3lcKR8aBGkI" resolve="NumberType" />
+    <property role="34LRSv" value="numerical range" />
+    <ref role="1TJDcQ" node="3lcKR8aBGkI" resolve="Numerical" />
     <node concept="1TJgyi" id="4YcnceaBjaY" role="1TKVEl">
       <property role="IQ2nx" value="5732058420649734846" />
       <property role="TrG5h" value="lower" />
@@ -2605,6 +2588,7 @@
     <property role="EcuMT" value="2473444682901074821" />
     <property role="TrG5h" value="TODO_Set" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="34LRSv" value="set (unordered collection)" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
     <node concept="1TJgyj" id="29jsdmfTre7" role="1TKVEi">
       <property role="IQ2ns" value="2473444682901074823" />
@@ -2807,6 +2791,13 @@
       <property role="20kJfa" value="network" />
       <ref role="20lvS9" node="RwtFpHC4y1" resolve="Network" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="1i0DDuSt2ir">
+    <property role="EcuMT" value="1477363848342414491" />
+    <property role="TrG5h" value="Categorical" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="34LRSv" value="categorical" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
 </model>
 

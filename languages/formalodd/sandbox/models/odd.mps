@@ -209,8 +209,7 @@
         <child id="84585932954070081" name="mean" index="R_6SO" />
         <child id="84585932954070083" name="stdev" index="R_6SQ" />
       </concept>
-      <concept id="3840659476812055854" name="formalodd.structure.NumberType" flags="ng" index="ZOwps" />
-      <concept id="3840659476812055853" name="formalodd.structure.Boolean" flags="ng" index="ZOwpv" />
+      <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
         <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
@@ -398,7 +397,7 @@
       <node concept="ZOwpH" id="1jC05GNft6B" role="25gc1v">
         <property role="TrG5h" value="hunger" />
         <property role="QtYJw" value="if the entity is hungry" />
-        <node concept="ZOwpv" id="1jC05GNft6H" role="zGXb3" />
+        <node concept="ZOwps" id="1i0DDuSpYH3" role="zGXb3" />
         <node concept="2jQCjV" id="64QC5GXDYrM" role="2oy9Oj">
           <node concept="2oK_Am" id="64QC5GXDYs9" role="2jQCjS">
             <property role="2oK_Ap" value="0" />
@@ -1558,7 +1557,8 @@
       </node>
       <node concept="ZOwpH" id="4GwBkR9iXG" role="25gc1v">
         <property role="TrG5h" value="happy" />
-        <node concept="ZOwpv" id="4GwBkR9iXH" role="zGXb3" />
+        <property role="QtYJw" value="should be a boolean of the entity, but we do not have this" />
+        <node concept="ZOwps" id="1i0DDuSpYH0" role="zGXb3" />
         <node concept="2W8u0B" id="4GwBkR9iXI" role="2oy9Oj" />
       </node>
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
