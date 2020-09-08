@@ -217,6 +217,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="5yfUVbuQFWe" resolve="AttributeAccess" />
     </node>
+    <node concept="1TJgyj" id="1i0DDuRth4S" role="1TKVEi">
+      <property role="IQ2ns" value="1477363848325697848" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="entitiesInit" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4GwBkR1uQB" resolve="EntityReference" />
+    </node>
     <node concept="1TJgyj" id="64QC5GXsLCR" role="1TKVEi">
       <property role="IQ2ns" value="7004962584154806839" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2662,7 +2669,7 @@
     </node>
     <node concept="1TJgyj" id="6o6DKlW0nLJ" role="1TKVEi">
       <property role="IQ2ns" value="7351747083726060655" />
-      <property role="20kJfa" value="generalEntity" />
+      <property role="20kJfa" value="envEntity" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
     </node>
   </node>
@@ -2775,6 +2782,28 @@
       <property role="20kJfa" value="ratConcept" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="64QC5GXZtS4" resolve="IRationaledConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1i0DDuROwbF">
+    <property role="EcuMT" value="1477363848331789035" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="PlainEntityReference" />
+    <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
+    <node concept="1TJgyj" id="1i0DDuROwbH" role="1TKVEi">
+      <property role="IQ2ns" value="1477363848331789037" />
+      <property role="20kJfa" value="entity" />
+      <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1i0DDuROwbI">
+    <property role="EcuMT" value="1477363848331789038" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="NetworkReference" />
+    <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
+    <node concept="1TJgyj" id="1i0DDuROwbK" role="1TKVEi">
+      <property role="IQ2ns" value="1477363848331789040" />
+      <property role="20kJfa" value="network" />
+      <ref role="20lvS9" node="RwtFpHC4y1" resolve="Network" />
     </node>
   </node>
 </model>

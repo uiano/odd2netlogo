@@ -113,6 +113,9 @@
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
+      <concept id="7351747083726060654" name="formalodd.structure.EnvironmentEntityReference" flags="ng" index="q1XHF">
+        <reference id="7351747083726060655" name="envEntity" index="q1XHE" />
+      </concept>
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="7351747083747985539" name="formalodd.structure.Move" flags="ng" index="rlEY6">
@@ -130,6 +133,12 @@
       <concept id="8985793055718208559" name="formalodd.structure.AssignAttribute" flags="ng" index="2rWCs3">
         <child id="8985793055718208560" name="rhs" index="2rWCss" />
         <child id="524622041952477113" name="lhs" index="2OFgHe" />
+      </concept>
+      <concept id="1477363848331789038" name="formalodd.structure.NetworkReference" flags="ng" index="2zkEhT">
+        <reference id="1477363848331789040" name="network" index="2zkEhB" />
+      </concept>
+      <concept id="1477363848331789035" name="formalodd.structure.PlainEntityReference" flags="ng" index="2zkEhW">
+        <reference id="1477363848331789037" name="entity" index="2zkEhU" />
       </concept>
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
@@ -222,6 +231,7 @@
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
         <child id="7351747083731037866" name="attributesInit" index="qiWAJ" />
+        <child id="1477363848325697848" name="entitiesInit" index="2zXruJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
         <child id="7004962584154806839" name="attributesStochasticity" index="1shrDG" />
@@ -558,6 +568,42 @@
       <node concept="26lliW" id="64QC5GXDYs5" role="1shrDG">
         <ref role="26lliz" node="64QC5GXDXVb" resolve="nnn-a" />
       </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSj" role="2zXruJ">
+        <ref role="8YSiZ" node="7Y7DVQi$r3r" resolve="MyNewEnvironment" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSl" role="2zXruJ">
+        <ref role="8YSiZ" node="64QC5GXDXV5" resolve="nnn" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSo" role="2zXruJ">
+        <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSs" role="2zXruJ">
+        <ref role="8YSiZ" node="24yfUKsi0X2" resolve="test-environment" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSx" role="2zXruJ">
+        <ref role="8YSiZ" node="7eFC9Eoo2B2" resolve="lizard" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSB" role="2zXruJ">
+        <ref role="8YSiZ" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWwJ" role="2zXruJ">
+        <ref role="q1XHE" node="7Y7DVQi$r3r" resolve="MyNewEnvironment" />
+      </node>
+      <node concept="2zkEhT" id="1i0DDuScWwR" role="2zXruJ">
+        <ref role="2zkEhB" node="64QC5GXDXV5" resolve="nnn" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWx0" role="2zXruJ">
+        <ref role="q1XHE" node="24yfUKsi0X2" resolve="test-environment" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuScWxa" role="2zXruJ">
+        <ref role="2zkEhU" node="qdXC$xsGMq" resolve="frog" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuScWxl" role="2zXruJ">
+        <ref role="2zkEhU" node="7eFC9Eoo2B2" resolve="lizard" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWxx" role="2zXruJ">
+        <ref role="q1XHE" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
+      </node>
     </node>
     <node concept="3Ovhds" id="7eFC9Ep51ms" role="1BQTrk">
       <property role="3Ovhdr" value="6Uof7aieThp/Description" />
@@ -697,84 +743,35 @@
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
     <property role="2QSBU6" value="The Wolf Sheep Simple 5 model explores the population dynamics in a minimal ecosystem comprising of wolves, sheep, and grass. The model allows different outcomes to emerge as we alter the number of wolves, sheep, patches of grass, the energetic requirements of the animals and the growth/ reproduction rate of the 3 ecosystem elements." />
-    <node concept="31WWdx" id="6mCZXi$vRTx" role="31WWdG">
-      <property role="TrG5h" value="Previous Versions" />
-      <node concept="XAmFv" id="6mCZXi$vRTz" role="31Rc_p">
-        <property role="XAmFg" value="This is the fifth model in a set of models that build towards a predator prey model of population dynamics. This fifth model adds wolves and completes the predator prey model. It extends the model Wolf Sheep Simple 4. " />
-      </node>
-    </node>
-    <node concept="31WWdx" id="6mCZXi$yHmS" role="31WWdG">
-      <property role="TrG5h" value="Related Models" />
-      <node concept="XAmFv" id="6mCZXi$yHnb" role="31Rc_p">
-        <property role="XAmFg" value="A similar model is the Wolf Sheep Predation Model in the Biology section of the NetLogo models library." />
-      </node>
-    </node>
     <node concept="31WWdx" id="6mCZXi$yHmW" role="31WWdG">
       <property role="TrG5h" value="Credits and References" />
       <node concept="XAmFv" id="6mCZXi$yHoI" role="31Rc_p">
-        <property role="XAmFg" value="This model is a simplified version of:" />
+        <property role="XAmFg" value="This model is an adapted version of:" />
       </node>
-      <node concept="XAmFv" id="6mCZXi$yHoE" role="31Rc_p">
-        <property role="XAmFg" value="* Wilensky, U. (1997). NetLogo Wolf Sheep Predation model. http://ccl.northwestern.edu/netlogo/models/WolfSheepPredation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL." />
+      <node concept="XAmFv" id="1i0DDuRBPgD" role="31Rc_p">
+        <property role="XAmFg" value="* Wilensky, U. (2007). NetLogo Wolf Sheep Simple 5 model. http://ccl.northwestern.edu/netlogo/models/WolfSheepSimple5. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL." />
       </node>
     </node>
     <node concept="31WWdx" id="6mCZXi$CQQc" role="31WWdG">
       <property role="TrG5h" value="How to cite" />
-      <node concept="XAmFv" id="6mCZXi$CQQK" role="31Rc_p">
-        <property role="XAmFg" value="This model is part of the textbook, “Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo.”" />
+      <node concept="XAmFv" id="6mCZXi$CQR1" role="31Rc_p">
+        <property role="XAmFg" value="For the tool ODD2ABM, please cite the following publication:" />
       </node>
-      <node concept="XAmFv" id="6mCZXi$CQQD" role="31Rc_p">
-        <property role="XAmFg" value="If you mention this model or the NetLogo software in a publication, we ask that you include the citations below." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQR1" role="31Rc_p" />
-      <node concept="XAmFv" id="6mCZXi$CQQz" role="31Rc_p">
-        <property role="XAmFg" value="For the model itself:" />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQQu" role="31Rc_p">
-        <property role="XAmFg" value="* Wilensky, U. (2007). NetLogo Wolf Sheep Simple 5 model. http://ccl.northwestern.edu/netlogo/models/WolfSheepSimple5. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQRm" role="31Rc_p" />
-      <node concept="XAmFv" id="6mCZXi$CQQq" role="31Rc_p">
-        <property role="XAmFg" value="Please cite the NetLogo software as:" />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQQn" role="31Rc_p">
-        <property role="XAmFg" value="* Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQRJ" role="31Rc_p" />
-      <node concept="XAmFv" id="6mCZXi$CQRX" role="31Rc_p">
-        <property role="XAmFg" value="Please cite the textbook as:" />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQQl" role="31Rc_p">
-        <property role="XAmFg" value="* Wilensky, U. &amp; Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press." />
-      </node>
-    </node>
-    <node concept="31WWdx" id="6mCZXi$CQSs" role="31WWdG">
-      <property role="TrG5h" value="Acknowledgements" />
-      <node concept="XAmFv" id="6mCZXi$CQT9" role="31Rc_p">
-        <property role="XAmFg" value="This model is from Chapter Four of the book “Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo”, by Uri Wilensky &amp; William Rand." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQT3" role="31Rc_p">
-        <property role="XAmFg" value="* Wilensky, U. &amp; Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQSY" role="31Rc_p">
-        <property role="XAmFg" value="This model is in the IABM Textbook folder of the NetLogo Models Library. The model, as well as any updates to the model, can also be found on the textbook website: http://www.intro-to-abm.com/." />
+      <node concept="XAmFv" id="1i0DDuRBPg4" role="31Rc_p">
+        <property role="XAmFg" value="Xanthopoulou, Themis Dimitra; Prinz, Andreas; Shults, F. LeRon (2019). Generating Executable Code from High-Level Social or Socio-Ecological Model Descriptions. Lecture Notes in Computer Science (LNCS). ISSN: 0302-9743. 11753 LNCSs 150 - 162. doi:10.1007/978-3-030-30690-8_9." />
       </node>
     </node>
     <node concept="31WWdx" id="6mCZXi$CQTn" role="31WWdG">
       <property role="TrG5h" value="Copyright And License" />
       <node concept="XAmFv" id="6mCZXi$CQTX" role="31Rc_p">
-        <property role="XAmFg" value="Copyright 2007 Uri Wilensky." />
+        <property role="XAmFg" value="Copyright 2020 University of Agder." />
       </node>
-      <node concept="XAmFv" id="6mCZXi$CQU2" role="31Rc_p" />
       <node concept="XAmFv" id="6mCZXi$CQTT" role="31Rc_p">
         <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
       </node>
       <node concept="XAmFv" id="6mCZXi$CQU8" role="31Rc_p" />
       <node concept="XAmFv" id="6mCZXi$CQTQ" role="31Rc_p">
         <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQTO" role="31Rc_p">
-        <property role="XAmFg" value="Commercial licenses are also available. To inquire about commercial licenses, please contact Uri Wilensky at uri@northwestern.edu." />
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
@@ -1155,6 +1152,15 @@
       <node concept="26lliW" id="64QC5GXAPEa" role="1shrDG">
         <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
       </node>
+      <node concept="q1XHF" id="1i0DDuROwbh" role="2zXruJ">
+        <ref role="q1XHE" node="1LeTgidqm5Z" resolve="grass" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuRZJeO" role="2zXruJ">
+        <ref role="2zkEhU" node="qdXC$xz0Qt" resolve="wolf" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuRZJeT" role="2zXruJ">
+        <ref role="2zkEhU" node="qdXC$xz0Qv" resolve="sheep" />
+      </node>
     </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
       <property role="3Ovhdr" value="6Uof7aieTi5/Theoretical_Expositon" />
@@ -1367,6 +1373,24 @@
       </node>
       <node concept="26lliW" id="2gJyhPFz8Va" role="qiWAJ">
         <ref role="26lliz" node="39v_dEyLZBh" resolve="materials" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnRR" role="2zXruJ">
+        <ref role="8YSiZ" node="7MNWMNCnG1g" resolve="Fire" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnRT" role="2zXruJ">
+        <ref role="8YSiZ" node="7MNWMNCnG1H" resolve="Ash" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnRW" role="2zXruJ">
+        <ref role="8YSiZ" node="7MNWMNCnG0T" resolve="Trees" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWwb" role="2zXruJ">
+        <ref role="q1XHE" node="7MNWMNCnG1g" resolve="Fire" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWwg" role="2zXruJ">
+        <ref role="q1XHE" node="7MNWMNCnG1H" resolve="Ash" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWwm" role="2zXruJ">
+        <ref role="q1XHE" node="7MNWMNCnG0T" resolve="Trees" />
       </node>
     </node>
     <node concept="2lMhBk" id="1r3mgtJEVpk" role="2J7coG">
@@ -1586,6 +1610,18 @@
       <node concept="26lliW" id="2gJyhPFz8Wk" role="qiWAJ">
         <ref role="26lliz" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
       </node>
+      <node concept="2lNc1w" id="1i0DDuRwnS5" role="2zXruJ">
+        <ref role="8YSiZ" node="qdXC$ygXa8" resolve="blue-group" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnS7" role="2zXruJ">
+        <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-group" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuScWwA" role="2zXruJ">
+        <ref role="2zkEhU" node="qdXC$ygXa8" resolve="blue-group" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuScWwE" role="2zXruJ">
+        <ref role="2zkEhU" node="qdXC$ygXaQ" resolve="red-group" />
+      </node>
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
       <node concept="1Svl6F" id="6ow5Ifzbde1" role="250j5S">
@@ -1753,6 +1789,18 @@
           <property role="ZOwrO" value="22rmwLH$Xm7/orange" />
         </node>
       </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSI" role="2zXruJ">
+        <ref role="8YSiZ" node="7MNWMN$KkSO" resolve="orange" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnSK" role="2zXruJ">
+        <ref role="8YSiZ" node="24yfUKsi0Xd" resolve="voter" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWxI" role="2zXruJ">
+        <ref role="q1XHE" node="7MNWMN$KkSO" resolve="orange" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWxM" role="2zXruJ">
+        <ref role="q1XHE" node="24yfUKsi0Xd" resolve="voter" />
+      </node>
     </node>
     <node concept="2lMhBk" id="24qWCY8d5Y9" role="2J7coG">
       <node concept="1Svl6F" id="6ow5Ifzbdew" role="250j5S">
@@ -1825,6 +1873,18 @@
       </node>
       <node concept="26lliW" id="64QC5GXajl7" role="qiWAJ">
         <ref role="26lliz" node="4qxfPPOMPu1" resolve="energy" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnS0" role="2zXruJ">
+        <ref role="8YSiZ" node="35QCLExIhs4" resolve="Fire" />
+      </node>
+      <node concept="2lNc1w" id="1i0DDuRwnS2" role="2zXruJ">
+        <ref role="8YSiZ" node="24yfUKsi0Xo" resolve="Tree" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuScWwt" role="2zXruJ">
+        <ref role="2zkEhU" node="35QCLExIhs4" resolve="Fire" />
+      </node>
+      <node concept="q1XHF" id="1i0DDuScWwx" role="2zXruJ">
+        <ref role="q1XHE" node="24yfUKsi0Xo" resolve="Tree" />
       </node>
     </node>
     <node concept="2lMhBk" id="35QCLExIslu" role="2J7coG">
@@ -2444,6 +2504,12 @@
       </node>
       <node concept="26lliW" id="64QC5GXAQ0P" role="qiWAJ">
         <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
+      </node>
+      <node concept="2zkEhT" id="1i0DDuRS7$u" role="2zXruJ">
+        <ref role="2zkEhB" node="4qxfPPPteTW" resolve="university-relationship" />
+      </node>
+      <node concept="2zkEhW" id="1i0DDuRZJCV" role="2zXruJ">
+        <ref role="2zkEhU" node="4xlWY3qEPkZ" resolve="student" />
       </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">

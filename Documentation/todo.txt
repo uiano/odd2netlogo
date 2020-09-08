@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- check that all init editors are over references
 -Entity2 --> Andreas
 -Entity3 --> Andreas
 -Entity5 --> Andreas
@@ -21,6 +20,7 @@ TODO list for development of ODD2Netlogo
 - calculate should be done in go, not in plot
 - show init shared attributes in the entities (for each of them)
 - recheck MARG generated code - remove csv see Wolf-Sheep
+- sort out concepts in hierarchy of EntityReference
 - fix code Voting cf. Library
 - fix code Fire cf. Library
 - fix code FireAgents cf. Library

@@ -6204,7 +6204,7 @@
                         </node>
                       </node>
                       <node concept="3TrEf2" id="6lHtNhnycf0" role="2OqNvi">
-                        <ref role="3Tt5mk" to="86kt:6o6DKlW0nLJ" resolve="generalEntity" />
+                        <ref role="3Tt5mk" to="86kt:6o6DKlW0nLJ" resolve="envEntity" />
                       </node>
                     </node>
                   </node>
@@ -6627,7 +6627,7 @@
                                 </node>
                               </node>
                               <node concept="3TrEf2" id="6o6DKlW3$DJ" role="2OqNvi">
-                                <ref role="3Tt5mk" to="86kt:6o6DKlW0nLJ" resolve="generalEntity" />
+                                <ref role="3Tt5mk" to="86kt:6o6DKlW0nLJ" resolve="envEntity" />
                               </node>
                             </node>
                             <node concept="3TrEf2" id="6o6DKlW3_hx" role="2OqNvi">
