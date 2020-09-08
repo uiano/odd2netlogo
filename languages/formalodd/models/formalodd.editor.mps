@@ -1144,6 +1144,7 @@
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="64QC5GXmIUX" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;write name here&gt;" />
         <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
@@ -1152,6 +1153,8 @@
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="64QC5GXmIV2" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="&lt;write description here&gt;" />
         <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
         <ref role="1NtTu8" to="86kt:4GwBkRmQAl" resolve="description" />
       </node>
