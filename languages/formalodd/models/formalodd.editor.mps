@@ -717,36 +717,6 @@
     <property role="3GE5qa" value="EntitiesStateScales" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
     <node concept="3EZMnI" id="3OPyh9HNrCe" role="2wV5jI">
-      <node concept="3EZMnI" id="3oOohpo0It3" role="3EZMnx">
-        <node concept="VPXOz" id="3oOohpo0IyN" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="3EZMnI" id="3oOohpo0IyE" role="3EZMnx">
-          <node concept="3F0ifn" id="4GwBkRrF$B" role="3EZMnx">
-            <property role="3F0ifm" value="Model Parameters" />
-            <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
-          </node>
-          <node concept="3EZMnI" id="4GwBkRrF$C" role="3EZMnx">
-            <node concept="3F0ifn" id="4GwBkRrF$D" role="3EZMnx">
-              <property role="3F0ifm" value="The model parameters are:" />
-              <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-            </node>
-            <node concept="2iRfu4" id="4GwBkRrF$E" role="2iSdaV" />
-          </node>
-          <node concept="3F2HdR" id="4GwBkRrF$F" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:4GwBkRrFmy" resolve="modelParameters" />
-            <node concept="2iRkQZ" id="4GwBkRrF$G" role="2czzBx" />
-            <node concept="2w$q5c" id="4GwBkRrF$I" role="78xua" />
-            <node concept="3F0ifn" id="4GwBkRrF$K" role="2czzBI">
-              <property role="3F0ifm" value="Press enter to add global model parameter" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-            </node>
-          </node>
-          <node concept="3F0ifn" id="4GwBkRrF$L" role="3EZMnx" />
-          <node concept="2iRkQZ" id="3oOohpo0IyH" role="2iSdaV" />
-        </node>
-        <node concept="2iRfu4" id="3oOohpo0It8" role="2iSdaV" />
-      </node>
       <node concept="3EZMnI" id="3oOohpo0ICz" role="3EZMnx">
         <node concept="VPXOz" id="3oOohpo0IC$" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1006,6 +976,36 @@
           <node concept="2iRkQZ" id="3oOohpo0J5x" role="2iSdaV" />
         </node>
         <node concept="2iRfu4" id="3oOohpo0J5y" role="2iSdaV" />
+      </node>
+      <node concept="3EZMnI" id="QugUH6KW0g" role="3EZMnx">
+        <node concept="VPXOz" id="QugUH6KW0h" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3EZMnI" id="QugUH6KW0i" role="3EZMnx">
+          <node concept="3F0ifn" id="QugUH6KW0j" role="3EZMnx">
+            <property role="3F0ifm" value="Model Attributes" />
+            <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+          </node>
+          <node concept="3EZMnI" id="QugUH6KW0k" role="3EZMnx">
+            <node concept="3F0ifn" id="QugUH6KW0l" role="3EZMnx">
+              <property role="3F0ifm" value="The model parameters are:" />
+              <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+            </node>
+            <node concept="2iRfu4" id="QugUH6KW0m" role="2iSdaV" />
+          </node>
+          <node concept="3F2HdR" id="QugUH6KW0n" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:4GwBkRrFmy" resolve="modelParameters" />
+            <node concept="2iRkQZ" id="QugUH6KW0o" role="2czzBx" />
+            <node concept="2w$q5c" id="QugUH6KW0p" role="78xua" />
+            <node concept="3F0ifn" id="QugUH6KW0q" role="2czzBI">
+              <property role="3F0ifm" value="Press enter to add global model parameter" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="QugUH6KW0r" role="3EZMnx" />
+          <node concept="2iRkQZ" id="QugUH6KW0s" role="2iSdaV" />
+        </node>
+        <node concept="2iRfu4" id="QugUH6KW0t" role="2iSdaV" />
       </node>
       <node concept="3EZMnI" id="3oOohpo0Jb_" role="3EZMnx">
         <node concept="VPXOz" id="3oOohpo0JbA" role="3F10Kt">
