@@ -1,10 +1,7 @@
 TODO list for development of ODD2Netlogo
--Entity2 --> Andreas
--Entity3 --> Andreas
 -Entity5 --> Andreas
 -Entity9 --> Andreas
 -Entity10 --> Andreas (this problem does not appear everytime)
--Action1 --> Andreas
 -Action2 --> Andreas
 -Action4 --> Andreas
 -Action5 --> Andreas

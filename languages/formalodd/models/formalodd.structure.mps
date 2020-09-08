@@ -86,6 +86,7 @@
       <property role="IQ2ns" value="7610748055951433660" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="entitiesAndVariables" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
     </node>
     <node concept="PrWs8" id="6mCZXi$mO0a" role="PzmwI">
@@ -95,6 +96,7 @@
       <property role="IQ2ns" value="6529568716131235338" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="processAndScheduling" />
+      <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="6lHESjKDb9g" resolve="ProcessOverviewAndScheduling" />
     </node>
     <node concept="1TJgyj" id="1Go6jkfcAcM" role="1TKVEi">
