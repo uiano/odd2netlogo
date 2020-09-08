@@ -988,7 +988,7 @@
           </node>
           <node concept="3EZMnI" id="QugUH6KW0k" role="3EZMnx">
             <node concept="3F0ifn" id="QugUH6KW0l" role="3EZMnx">
-              <property role="3F0ifm" value="The model parameters are:" />
+              <property role="3F0ifm" value="The model attributes are:" />
               <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
             </node>
             <node concept="2iRfu4" id="QugUH6KW0m" role="2iSdaV" />

@@ -59,7 +59,6 @@ TODO list for development of ODD2Netlogo
 - context menu for expressions
 
 TODO for Martin
--Entity1 --> Martin
 -Entity4 --> Martin
 -Entity6 --> Martin
 -Entity7 --> Martin
