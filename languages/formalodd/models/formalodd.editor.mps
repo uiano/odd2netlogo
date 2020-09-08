@@ -462,6 +462,8 @@
           <node concept="2iRfu4" id="7y2oNvzb34" role="2iSdaV" />
         </node>
         <node concept="3F0A7n" id="6mCZXi$mObO" role="3EZMnx">
+          <property role="1O74Pk" value="true" />
+          <property role="1$x2rV" value="&lt;write description here&gt;" />
           <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
         </node>
         <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
@@ -1061,6 +1063,7 @@
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
           </node>
           <node concept="3F1sOY" id="5yfUVbwgKsG" role="3EZMnx">
+            <property role="1$x2rV" value="press ctrl space to pick color type" />
             <ref role="1NtTu8" to="86kt:6AuNKydZ5Jb" resolve="colour" />
           </node>
           <node concept="3F0ifn" id="5yfUVbwgKsU" role="3EZMnx">
@@ -1068,6 +1071,7 @@
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
           </node>
           <node concept="3F1sOY" id="5yfUVbwgKta" role="3EZMnx">
+            <property role="1$x2rV" value="press control space to select shape" />
             <ref role="1NtTu8" to="86kt:3lcKR8aBGkq" resolve="shape" />
           </node>
           <node concept="3F0ifn" id="1R8dC2FcwmM" role="3EZMnx">
@@ -1075,6 +1079,8 @@
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
           </node>
           <node concept="3F0A7n" id="1R8dC2Fcwng" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;write description here&gt;" />
+            <property role="1O74Pk" value="true" />
             <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
             <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
           </node>
@@ -1145,8 +1151,8 @@
       </node>
       <node concept="3F0A7n" id="64QC5GXmIUX" role="3EZMnx">
         <property role="1$x2rV" value="&lt;write name here&gt;" />
-        <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
       </node>
       <node concept="3F0ifn" id="64QC5GXmIV1" role="3EZMnx">
         <property role="3F0ifm" value="describes" />
@@ -1155,17 +1161,21 @@
       <node concept="3F0A7n" id="64QC5GXmIV2" role="3EZMnx">
         <property role="1O74Pk" value="true" />
         <property role="1$x2rV" value="&lt;write description here&gt;" />
-        <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
         <ref role="1NtTu8" to="86kt:4GwBkRmQAl" resolve="description" />
+        <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
       </node>
     </node>
   </node>
   <node concept="24kQdi" id="6AuNKydZ5It">
     <property role="3GE5qa" value="Appearance" />
     <ref role="1XX52x" to="86kt:3lcKR8aBGm5" resolve="ColourConstant" />
-    <node concept="3F0A7n" id="60$rnpH70Fq" role="2wV5jI">
-      <property role="1$x2rV" value="press control space to select color" />
-      <ref role="1NtTu8" to="86kt:5vgYlnqdd$Z" resolve="colour" />
+    <node concept="3EZMnI" id="QugUH7JoOp" role="2wV5jI">
+      <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      <node concept="2iRfu4" id="QugUH7JoOq" role="2iSdaV" />
+      <node concept="3F0A7n" id="60$rnpH70Fq" role="3EZMnx">
+        <property role="1$x2rV" value="press ctrl space to select colour" />
+        <ref role="1NtTu8" to="86kt:5vgYlnqdd$Z" resolve="colour" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="5oUGABTKPU9">
@@ -1415,6 +1425,8 @@
             <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
           </node>
           <node concept="3F0A7n" id="1R8dC2FeqG$" role="3EZMnx">
+            <property role="1$x2rV" value="&lt;write description here&gt;" />
+            <property role="1O74Pk" value="true" />
             <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
             <ref role="1k5W1q" node="1R8dC2F3XBo" resolve="comment" />
           </node>
@@ -2065,6 +2077,7 @@
     <ref role="1XX52x" to="86kt:3lcKR8aBGlP" resolve="Shape" />
     <node concept="3EZMnI" id="5yfUVbvMa7X" role="2wV5jI">
       <node concept="3F0A7n" id="5yfUVbvMa8a" role="3EZMnx">
+        <property role="1$x2rV" value="press control space to select shape" />
         <ref role="1NtTu8" to="86kt:5yfUVbvM9V_" resolve="shape" />
       </node>
       <node concept="2iRfu4" id="5yfUVbvMa80" role="2iSdaV" />
@@ -2073,6 +2086,7 @@
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="5yfUVbvMa8i" role="3EZMnx">
+        <property role="1$x2rV" value="type size (number)" />
         <ref role="1NtTu8" to="86kt:5yfUVbvMa7P" resolve="size" />
       </node>
     </node>
