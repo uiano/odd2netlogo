@@ -2378,14 +2378,14 @@
     <node concept="3EZMnI" id="7MNWMNAzpgv" role="2wV5jI">
       <node concept="3EZMnI" id="7MNWMNAzpgx" role="3EZMnx">
         <node concept="3F0ifn" id="7MNWMNAzpgy" role="3EZMnx">
-          <property role="3F0ifm" value="The attribute" />
+          <property role="3F0ifm" value="Attribute" />
           <node concept="Vb9p2" id="7MNWMNAzpgz" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="t7PfuNUIeX" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:t7PfuNUHYT" resolve="lhs" />
         </node>
         <node concept="3F0ifn" id="7MNWMNAzpgB" role="3EZMnx">
-          <property role="3F0ifm" value="is decremented by" />
+          <property role="3F0ifm" value="decreases by the amount of" />
           <node concept="Vb9p2" id="7MNWMNAzpgC" role="3F10Kt" />
         </node>
         <node concept="3F1sOY" id="7MNWMNAG5h3" role="3EZMnx">

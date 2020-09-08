@@ -61,10 +61,7 @@ TODO list for development of ODD2Netlogo
 TODO for Martin
 -Entity4 --> Martin
 -Entity6 --> Martin
--Entity7 --> Martin
--Entity8 --> Martin
 -Action3 --> Martin
--Action7 --> Martin
 -Initial2 --> Martin
 - create README for github
 - build tutorial / cheat sheet how to create the Wolf-Sheep model
