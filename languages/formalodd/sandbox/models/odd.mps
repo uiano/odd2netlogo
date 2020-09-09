@@ -219,11 +219,10 @@
         <child id="1952338154144031538" name="designConcepts" index="kaBC7" />
         <child id="8985793055732069094" name="experiments" index="2kDK7a" />
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
-        <child id="7325386082673704120" name="generalDescriptions" index="31WWdG" />
         <child id="7004962584163901476" name="rationales" index="1sMO1Z" />
         <child id="135681439422303784" name="input" index="3uwOu$" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
-        <child id="8277873572982783228" name="purpose" index="1BQTrk" />
+        <child id="8277873572982783228" name="modelDescription" index="1BQTrk" />
         <child id="5813355112911201440" name="rationale4Init" index="3EUcGc" />
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
@@ -332,8 +331,9 @@
         <child id="6465847136229864916" name="size" index="BjBxy" />
         <child id="7250805203419359611" name="inner" index="3xZm6h" />
       </concept>
-      <concept id="2469205658733998634" name="formalodd.structure.Purpose" flags="ng" index="3Ovhds">
+      <concept id="2469205658733998634" name="formalodd.structure.ModelDescription" flags="ng" index="3Ovhds">
         <property id="2469205658733998637" name="role" index="3Ovhdr" />
+        <child id="1477363848351396399" name="generalDescriptions" index="2GvpiS" />
         <child id="8277873572982783032" name="researchQuestion" index="1BQTog" />
         <child id="8277873572982783034" name="targetGroup" index="1BQToi" />
         <child id="8277873572982783040" name="purposeDescription" index="1BQTpC" />
@@ -742,37 +742,6 @@
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
     <property role="2QSBU6" value="The Wolf Sheep Simple 5 model explores the population dynamics in a minimal ecosystem comprising of wolves, sheep, and grass. The model allows different outcomes to emerge as we alter the number of wolves, sheep, patches of grass, the energetic requirements of the animals and the growth/ reproduction rate of the 3 ecosystem elements." />
-    <node concept="31WWdx" id="6mCZXi$yHmW" role="31WWdG">
-      <property role="TrG5h" value="Credits and References" />
-      <node concept="XAmFv" id="6mCZXi$yHoI" role="31Rc_p">
-        <property role="XAmFg" value="This model is an adapted version of:" />
-      </node>
-      <node concept="XAmFv" id="1i0DDuRBPgD" role="31Rc_p">
-        <property role="XAmFg" value="* Wilensky, U. (2007). NetLogo Wolf Sheep Simple 5 model. http://ccl.northwestern.edu/netlogo/models/WolfSheepSimple5. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL." />
-      </node>
-    </node>
-    <node concept="31WWdx" id="6mCZXi$CQQc" role="31WWdG">
-      <property role="TrG5h" value="How to cite" />
-      <node concept="XAmFv" id="6mCZXi$CQR1" role="31Rc_p">
-        <property role="XAmFg" value="For the tool ODD2ABM, please cite the following publication:" />
-      </node>
-      <node concept="XAmFv" id="1i0DDuRBPg4" role="31Rc_p">
-        <property role="XAmFg" value="Xanthopoulou, Themis Dimitra; Prinz, Andreas; Shults, F. LeRon (2019). Generating Executable Code from High-Level Social or Socio-Ecological Model Descriptions. Lecture Notes in Computer Science (LNCS). ISSN: 0302-9743. 11753 LNCSs 150 - 162. doi:10.1007/978-3-030-30690-8_9." />
-      </node>
-    </node>
-    <node concept="31WWdx" id="6mCZXi$CQTn" role="31WWdG">
-      <property role="TrG5h" value="Copyright And License" />
-      <node concept="XAmFv" id="6mCZXi$CQTX" role="31Rc_p">
-        <property role="XAmFg" value="Copyright 2020 University of Agder." />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQTT" role="31Rc_p">
-        <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
-      </node>
-      <node concept="XAmFv" id="6mCZXi$CQU8" role="31Rc_p" />
-      <node concept="XAmFv" id="6mCZXi$CQTQ" role="31Rc_p">
-        <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
-      </node>
-    </node>
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
       <node concept="2QG2tT" id="6o6DKlVsVfr" role="250j5S">
         <node concept="1Svl6F" id="6o6DKlVsVg1" role="2QG2ke">
@@ -1163,6 +1132,37 @@
     </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
       <property role="3Ovhdr" value="6Uof7aieTi5/Theoretical_Expositon" />
+      <node concept="31WWdx" id="1i0DDuT5reC" role="2GvpiS">
+        <property role="TrG5h" value="Credits and References" />
+        <node concept="XAmFv" id="1i0DDuT5reD" role="31Rc_p">
+          <property role="XAmFg" value="This model is an adapted version of:" />
+        </node>
+        <node concept="XAmFv" id="1i0DDuT5reE" role="31Rc_p">
+          <property role="XAmFg" value="* Wilensky, U. (2007). NetLogo Wolf Sheep Simple 5 model. http://ccl.northwestern.edu/netlogo/models/WolfSheepSimple5. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="1i0DDuT5reF" role="2GvpiS">
+        <property role="TrG5h" value="How to cite" />
+        <node concept="XAmFv" id="1i0DDuT5reG" role="31Rc_p">
+          <property role="XAmFg" value="For the tool ODD2ABM, please cite the following publication:" />
+        </node>
+        <node concept="XAmFv" id="1i0DDuT5reH" role="31Rc_p">
+          <property role="XAmFg" value="Xanthopoulou, Themis Dimitra; Prinz, Andreas; Shults, F. LeRon (2019). Generating Executable Code from High-Level Social or Socio-Ecological Model Descriptions. Lecture Notes in Computer Science (LNCS). ISSN: 0302-9743. 11753 LNCSs 150 - 162. doi:10.1007/978-3-030-30690-8_9." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="1i0DDuT5reI" role="2GvpiS">
+        <property role="TrG5h" value="Copyright And License" />
+        <node concept="XAmFv" id="1i0DDuT5reJ" role="31Rc_p">
+          <property role="XAmFg" value="Copyright 2020 University of Agder." />
+        </node>
+        <node concept="XAmFv" id="1i0DDuT5reK" role="31Rc_p">
+          <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
+        </node>
+        <node concept="XAmFv" id="1i0DDuT5reL" role="31Rc_p" />
+        <node concept="XAmFv" id="1i0DDuT5reM" role="31Rc_p">
+          <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
+        </node>
+      </node>
       <node concept="XAmFv" id="6mCZXi$t3q9" role="1BQTpC">
         <property role="XAmFg" value="The model explores the population dynamics in a simplified ecosystem of wolf sheep and grass." />
       </node>
@@ -1768,6 +1768,7 @@
     <node concept="1sMRUJ" id="1i0DDuQZ61W" role="1sMO1Z">
       <ref role="1sMRUI" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
     </node>
+    <node concept="3Ovhds" id="1i0DDuTcj$e" role="1BQTrk" />
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">
     <property role="TrG5h" value="voting" />
@@ -1912,6 +1913,7 @@
     <node concept="1sMRUJ" id="1i0DDuQZ60Q" role="1sMO1Z">
       <ref role="1sMRUI" node="24yfUKsi0Xo" resolve="Tree" />
     </node>
+    <node concept="3Ovhds" id="1i0DDuT9gQO" role="1BQTrk" />
   </node>
   <node concept="ZOwpP" id="4xlWY3qEPkU">
     <property role="TrG5h" value=" MARG" />
