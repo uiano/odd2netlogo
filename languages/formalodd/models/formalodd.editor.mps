@@ -1129,16 +1129,8 @@
     <ref role="1XX52x" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
     <node concept="3EZMnI" id="64QC5GXmIUU" role="2wV5jI">
       <node concept="2iRfu4" id="64QC5GXmIUV" role="2iSdaV" />
-      <node concept="3F1sOY" id="1i0DDuSmSDO" role="3EZMnx">
-        <property role="2ru_X1" value="true" />
-        <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
-        <node concept="3F0ifn" id="1i0DDuSmSEb" role="2ruayu">
-          <property role="3F0ifm" value="press ctrl space to select attribute kind" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="64QC5GXmIUW" role="3EZMnx">
-        <property role="3F0ifm" value="attribute" />
+        <property role="3F0ifm" value="The attribute" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="64QC5GXmIUX" role="3EZMnx">
@@ -1146,8 +1138,20 @@
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
       </node>
+      <node concept="3F0ifn" id="1i0DDuTfPTG" role="3EZMnx">
+        <property role="3F0ifm" value="is" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      </node>
+      <node concept="3F1sOY" id="1i0DDuTfPTY" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
+        <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
+        <node concept="3F0ifn" id="1i0DDuTfPTZ" role="2ruayu">
+          <property role="3F0ifm" value="press ctrl space to select attribute kind" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="64QC5GXmIV1" role="3EZMnx">
-        <property role="3F0ifm" value="describes" />
+        <property role="3F0ifm" value="The attribute describes" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
       <node concept="3F0A7n" id="64QC5GXmIV2" role="3EZMnx">
@@ -1986,6 +1990,13 @@
           <node concept="3F0A7n" id="qdXC$xsGJK" role="3EZMnx">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
+          </node>
+          <node concept="3F0ifn" id="1i0DDuTfPTf" role="3EZMnx">
+            <property role="3F0ifm" value="between" />
+            <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+          </node>
+          <node concept="3F1sOY" id="1i0DDuTfPTt" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
           </node>
           <node concept="3F0ifn" id="1R8dC2FeqHn" role="3EZMnx">
             <property role="3F0ifm" value="describes" />
@@ -3148,7 +3159,7 @@
         <ref role="1NtTu8" to="86kt:1i0DDuSZj8J" resolve="generalDescriptions" />
         <node concept="2iRkQZ" id="1i0DDuT2ox7" role="2czzBx" />
         <node concept="3F0ifn" id="1i0DDuT2oE3" role="2czzBI">
-          <property role="3F0ifm" value="&lt;Press enter to add more model desciptions&gt;" />
+          <property role="3F0ifm" value="&lt;Press enter to add more model description elements&gt;" />
           <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
         </node>
       </node>
@@ -5580,6 +5591,7 @@
     <node concept="3EZMnI" id="6mCZXi$vS0z" role="2wV5jI">
       <node concept="2iRkQZ" id="6mCZXi$vS0$" role="2iSdaV" />
       <node concept="3F0A7n" id="6mCZXi$vS0R" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;write your description category here&gt;" />
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
@@ -5595,7 +5607,7 @@
           </node>
           <node concept="3F0A7n" id="1i0DDuT2oE_" role="3EZMnx">
             <property role="1Intyy" value="true" />
-            <property role="1$x2rV" value="some text" />
+            <property role="1$x2rV" value="your description category" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
           </node>

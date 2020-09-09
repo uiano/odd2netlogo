@@ -1,14 +1,15 @@
 TODO list for development of ODD2Netlogo
--Entity10 --> Andreas (this problem does not appear everytime)
--Action2 --> Andreas
+-Action2 --> Andreas (unclear, wait for better explanation)
 -Action4 --> Andreas
 -Action5 --> Andreas
 -Action6 --> Andreas
 -Initial1 --> Andreas
 -Initial3 --> Andreas
 -Experiment1 --> Andreas
+-Expression --> Andreas make better expression context menu!!!
 - remove name4entity (UDA) editors
 - add random uniform stochasticity editor
+- Import the jetbrains.mps.lang.editor.tooltips language and insert the "tooltip" cell. This lets you specify a cell to put into the editor (perhaps an icon) and a tooltip to show, when the mouse hovers over the cell.
 - manual experiments should work without adding automatic experiments
 - use expressions for plots, improve plot: name for plot and name for y-axis, allow colours to be defined for plot
 - use range for regrow-grass (wolf sheep)
