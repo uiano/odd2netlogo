@@ -64,7 +64,6 @@ TODO list for development of ODD2Netlogo
 - context menu for expressions
 
 TODO for Martin
--Entity6 --> Martin
 -Action3 --> Martin
 -Initial2 --> Martin
 - create README for github
