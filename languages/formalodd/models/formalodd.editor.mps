@@ -44,9 +44,6 @@
         <child id="928328222691832421" name="separatorTextQuery" index="2gpyvW" />
         <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
-      <concept id="1196434649611" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_SimpleString" flags="ng" index="2h3Zct">
-        <property id="1196434851095" name="text" index="2h4Kg1" />
-      </concept>
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="8954657570917870539" name="jetbrains.mps.lang.editor.structure.TransformationLocation_ContextAssistant" flags="ng" index="2j_NTm" />
@@ -1760,27 +1757,6 @@
     <node concept="2BsEeg" id="52HbUMUuS4w" role="2ABdcP">
       <property role="2gpH_U" value="true" />
       <property role="TrG5h" value="Stochasticity" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="2EFWiWzCelB">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:2EFWiWzCelr" resolve="REMOVE_MoveRandom" />
-    <node concept="3EZMnI" id="2EFWiW$K15A" role="2wV5jI">
-      <node concept="2iRkQZ" id="2EFWiW$K15B" role="2iSdaV" />
-      <node concept="3EZMnI" id="2EFWiWzCelD" role="3EZMnx">
-        <node concept="2iRfu4" id="2EFWiWzCelE" role="2iSdaV" />
-        <node concept="3F0ifn" id="2EFWiWzCelN" role="3EZMnx">
-          <property role="3F0ifm" value="Move randomly with a speed of" />
-          <node concept="Vb9p2" id="2EFWiWzCem2" role="3F10Kt" />
-        </node>
-        <node concept="3F0A7n" id="2EFWiWzCelW" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:2EFWiWzCels" resolve="MovementDistance" />
-        </node>
-        <node concept="3F0ifn" id="2EFWiWzDFiQ" role="3EZMnx">
-          <property role="3F0ifm" value="pixels per frame." />
-          <node concept="Vb9p2" id="2EFWiWzDFj0" role="3F10Kt" />
-        </node>
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="79PYCRrUG$l">
@@ -5498,40 +5474,6 @@
       </node>
     </node>
   </node>
-  <node concept="24kQdi" id="6o6DKlWtaLT">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:6o6DKlWtaLN" resolve="REMOVE_InteractionCall" />
-    <node concept="3EZMnI" id="6o6DKlWtaXR" role="2wV5jI">
-      <node concept="2iRfu4" id="6o6DKlWtaXS" role="2iSdaV" />
-      <node concept="3F0ifn" id="6o6DKlWtaXT" role="3EZMnx">
-        <property role="3F0ifm" value="Perform the" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="3F0ifn" id="6o6DKlWtaY5" role="3EZMnx">
-        <property role="3F0ifm" value="interaction" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
-      </node>
-      <node concept="1iCGBv" id="6o6DKlWtaY6" role="3EZMnx">
-        <property role="1$x2rV" value="press control space to select procedure" />
-        <ref role="1NtTu8" to="86kt:1zaawdwHRIF" resolve="called" />
-        <node concept="1sVBvm" id="6o6DKlWtaY7" role="1sWHZn">
-          <node concept="3F0A7n" id="6o6DKlWtaY8" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
-      </node>
-      <node concept="3F0ifn" id="6o6DKlWtaY9" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
-        <node concept="3mYdg7" id="6o6DKlWtaYa" role="3F10Kt">
-          <property role="1413C4" value="body-paren" />
-        </node>
-      </node>
-      <node concept="3F1sOY" id="6o6DKlWtb8V" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6o6DKlWtaLR" resolve="collection" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="6o6DKlXk0y5">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1XX52x" to="86kt:6o6DKlXk0y3" resolve="Move" />
@@ -5578,20 +5520,6 @@
       </node>
       <node concept="LD5Jc" id="6o6DKlXS3eY" role="3F10Kt">
         <property role="LDHlv" value="hGLCI6j/next_line" />
-      </node>
-    </node>
-  </node>
-  <node concept="22mcaB" id="6lHtNhnkGLA">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="aqKnT" to="86kt:6o6DKlWtaLN" resolve="REMOVE_InteractionCall" />
-    <node concept="22hDWj" id="6lHtNhnkGLB" role="22hAXT" />
-    <node concept="3XHNnq" id="6lHtNhnkGLD" role="3ft7WO">
-      <ref role="3XGfJA" to="86kt:1zaawdwHRIF" resolve="called" />
-      <node concept="1W_72q" id="6lHtNhnkGLF" role="3PHfNJ">
-        <property role="1W_73P" value="interaction call" />
-      </node>
-      <node concept="2h3Zct" id="6lHtNhnkGLH" role="1WZ6hz">
-        <property role="2h4Kg1" value="interaction called by interaction" />
       </node>
     </node>
   </node>

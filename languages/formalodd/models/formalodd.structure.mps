@@ -763,18 +763,6 @@
     <property role="34LRSv" value="turn randomly between -90 and +90 degrees" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
   </node>
-  <node concept="1TIwiD" id="2EFWiWzCelr">
-    <property role="EcuMT" value="3074816355373999451" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="REMOVE_MoveRandom" />
-    <property role="R4oN_" value="moves a entity randomly" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-    <node concept="1TJgyi" id="2EFWiWzCels" role="1TKVEl">
-      <property role="IQ2nx" value="3074816355373999452" />
-      <property role="TrG5h" value="MovementDistance" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="79PYCRrUEZI">
     <property role="EcuMT" value="8247773779785854958" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
@@ -2576,19 +2564,6 @@
       <property role="IQ2ns" value="7351747083726060655" />
       <property role="20kJfa" value="envEntity" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6o6DKlWtaLN">
-    <property role="EcuMT" value="7351747083733609587" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="REMOVE_InteractionCall" />
-    <property role="R4oN_" value="calls an interaction" />
-    <ref role="1TJDcQ" node="1zaawdwHRIC" resolve="ActionCall" />
-    <node concept="1TJgyj" id="6o6DKlWtaLR" role="1TKVEi">
-      <property role="IQ2ns" value="7351747083733609591" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="collection" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="6o6DKlXk0y3">

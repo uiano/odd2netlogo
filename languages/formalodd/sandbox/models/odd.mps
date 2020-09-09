@@ -32,9 +32,6 @@
         <reference id="6529568716128046895" name="environment" index="2JNnW9" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
-      <concept id="3074816355373999451" name="formalodd.structure.REMOVE_MoveRandom" flags="ng" index="92LhO">
-        <property id="3074816355373999452" name="MovementDistance" index="92LhN" />
-      </concept>
       <concept id="3629783491431687666" name="formalodd.structure.EntityExpression" flags="ng" index="2g0R4C">
         <property id="3629783491431687667" name="who" index="2g0R4D" />
       </concept>
@@ -1619,8 +1616,9 @@
       </node>
       <node concept="2lNc1x" id="3kYfzLXmcA8" role="2GyEu2">
         <property role="TrG5h" value="move" />
-        <node concept="92LhO" id="3kYfzLXouW$" role="18tn1X">
-          <property role="92LhN" value="2" />
+        <node concept="2GeaqC" id="1i0DDuUqoiC" role="18tn1X" />
+        <node concept="rlEY6" id="1i0DDuUqoiM" role="18tn1X">
+          <property role="rlEY1" value="2" />
         </node>
         <node concept="1Svl6F" id="3kYfzLXouWE" role="18tn1X">
           <ref role="1Svl6C" node="qdXC$yrH6d" resolve="occupied" />
