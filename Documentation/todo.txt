@@ -2,7 +2,6 @@ TODO list for development of ODD2Netlogo
 -Action2- When we go to the definitions, we allow the possibility of name-giving, and then we list the activities that are possible. Currently, the list of activities should include (in the editor): attribute set (which is implemented) , move, turn, kill entity, and conditional action
 -Action2- Conditional Action should be renamed into “Activities done/behaviours expressed if a condition is met”
 -Action2- The set attribute should have the same options as the synthetic attribute.
--Action2- The turn action should allow options turn left (+90o), turn right (-90o), and turn random (-90o to +90o).
 -Action2- The condition options in conditional action should include comparisons for this version.
 -Action2- Comparisons should include the options for number constant, attribute access, and comparison operator.
 -Action4 --> Andreas

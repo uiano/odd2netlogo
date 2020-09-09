@@ -1712,104 +1712,37 @@
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMz_">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqd" resolve="TODO_TurnLeft" />
-    <node concept="3EZMnI" id="5EtG2rQFMzB" role="2wV5jI">
-      <node concept="3EZMnI" id="5EtG2rQFMzI" role="3EZMnx">
-        <node concept="VPM3Z" id="5EtG2rQFMzK" role="3F10Kt" />
-        <node concept="2iRfu4" id="5EtG2rQFMzN" role="2iSdaV" />
-        <node concept="3F0ifn" id="5EtG2rQFM$2" role="3EZMnx">
-          <property role="3F0ifm" value="Should turn" />
-        </node>
-        <node concept="3F0A7n" id="5EtG2rQFM$7" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQFMza" resolve="turnLeft" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rQFM$f" role="3EZMnx">
-          <property role="3F0ifm" value="degrees to the left." />
-        </node>
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqd" resolve="TurnLeft" />
+    <node concept="3EZMnI" id="1i0DDuUjRe9" role="2wV5jI">
+      <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
+      <node concept="2iRfu4" id="1i0DDuUjReb" role="2iSdaV" />
+      <node concept="3F0ifn" id="1i0DDuUjRec" role="3EZMnx">
+        <property role="3F0ifm" value="Turn to the left (90 degrees)." />
       </node>
-      <node concept="3F0ifn" id="5EtG2rQJyle" role="3EZMnx" />
-      <node concept="2iRkQZ" id="5EtG2rQFMzE" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFM$H">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqc" resolve="TODO_TurnRight" />
-    <node concept="3EZMnI" id="5EtG2rQFM$J" role="2wV5jI">
-      <node concept="3EZMnI" id="5EtG2rQFM$K" role="3EZMnx">
-        <node concept="VPM3Z" id="5EtG2rQFM$L" role="3F10Kt" />
-        <node concept="2iRfu4" id="5EtG2rQFM$M" role="2iSdaV" />
-        <node concept="3F0ifn" id="5EtG2rQFM$N" role="3EZMnx">
-          <property role="3F0ifm" value="Should turn" />
-        </node>
-        <node concept="3F0A7n" id="5EtG2rQFM$O" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQFMz8" resolve="turnRight" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rQFM$P" role="3EZMnx">
-          <property role="3F0ifm" value="degrees to the right." />
-        </node>
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqc" resolve="TurnRight" />
+    <node concept="3EZMnI" id="1i0DDuUjRe$" role="2wV5jI">
+      <node concept="VPM3Z" id="1i0DDuUjRe_" role="3F10Kt" />
+      <node concept="2iRfu4" id="1i0DDuUjReA" role="2iSdaV" />
+      <node concept="3F0ifn" id="1i0DDuUjReB" role="3EZMnx">
+        <property role="3F0ifm" value="Turn to the right (90 degrees)." />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
-      <node concept="3F0ifn" id="5EtG2rQJyl6" role="3EZMnx" />
-      <node concept="2iRkQZ" id="5EtG2rQFM$Q" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5EtG2rQFMAa">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqf" resolve="TODO_MoveForward" />
-    <node concept="3EZMnI" id="5EtG2rQFMAc" role="2wV5jI">
-      <node concept="3F0ifn" id="5EtG2rQOOYc" role="3EZMnx" />
-      <node concept="3EZMnI" id="5EtG2rQFMAd" role="3EZMnx">
-        <node concept="VPM3Z" id="5EtG2rQFMAe" role="3F10Kt" />
-        <node concept="2iRfu4" id="5EtG2rQFMAf" role="2iSdaV" />
-        <node concept="3F0ifn" id="5EtG2rQFMAg" role="3EZMnx">
-          <property role="3F0ifm" value="Should move" />
-        </node>
-        <node concept="3F0A7n" id="5EtG2rQFMAh" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQFMz1" resolve="forward" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rQFMAi" role="3EZMnx">
-          <property role="3F0ifm" value="pixels forward." />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="5EtG2rQJylw" role="3EZMnx" />
-      <node concept="2iRkQZ" id="5EtG2rQFMAj" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="5EtG2rQFMAP">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqg" resolve="TODO_MoveBack" />
-    <node concept="3EZMnI" id="5EtG2rQFMAR" role="2wV5jI">
-      <node concept="3EZMnI" id="5EtG2rQFMAS" role="3EZMnx">
-        <node concept="VPM3Z" id="5EtG2rQFMAT" role="3F10Kt" />
-        <node concept="2iRfu4" id="5EtG2rQFMAU" role="2iSdaV" />
-        <node concept="3F0ifn" id="5EtG2rQFMAV" role="3EZMnx">
-          <property role="3F0ifm" value="Should move" />
-        </node>
-        <node concept="3F0A7n" id="5EtG2rQFMAW" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5EtG2rQFMyZ" resolve="back" />
-        </node>
-        <node concept="3F0ifn" id="5EtG2rQFMAX" role="3EZMnx">
-          <property role="3F0ifm" value="pixels backward." />
-        </node>
-      </node>
-      <node concept="3F0ifn" id="5EtG2rQJylC" role="3EZMnx" />
-      <node concept="2iRkQZ" id="5EtG2rQFMAY" role="2iSdaV" />
     </node>
   </node>
   <node concept="24kQdi" id="5EtG2rQFMBw">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TODO_Turn" />
-    <node concept="3EZMnI" id="5EtG2rQFMBz" role="2wV5jI">
-      <node concept="VPM3Z" id="5EtG2rQFMB$" role="3F10Kt" />
-      <node concept="2iRfu4" id="5EtG2rQFMB_" role="2iSdaV" />
-      <node concept="3F0ifn" id="5EtG2rQFMBA" role="3EZMnx">
-        <property role="3F0ifm" value="Turn for" />
-      </node>
-      <node concept="3F1sOY" id="6o6DKlXk0yv" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6o6DKlXk0ym" resolve="direction" />
-      </node>
-      <node concept="3F0ifn" id="5EtG2rQFMBC" role="3EZMnx">
-        <property role="3F0ifm" value="degrees." />
+    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TurnRandom" />
+    <node concept="3EZMnI" id="1i0DDuUjReG" role="2wV5jI">
+      <node concept="VPM3Z" id="1i0DDuUjReH" role="3F10Kt" />
+      <node concept="2iRfu4" id="1i0DDuUjReI" role="2iSdaV" />
+      <node concept="3F0ifn" id="1i0DDuUjReJ" role="3EZMnx">
+        <property role="3F0ifm" value="Turn randomly between -90 and +90 degrees." />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
       </node>
     </node>
   </node>
@@ -5609,7 +5542,7 @@
         <node concept="Vb9p2" id="6o6DKlXk0ya" role="3F10Kt" />
       </node>
       <node concept="3F0A7n" id="6o6DKlXk0yb" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6o6DKlXk0y4" resolve="MovementDistance" />
+        <ref role="1NtTu8" to="86kt:6o6DKlXk0y4" resolve="movementDistance" />
       </node>
       <node concept="3F0ifn" id="6o6DKlXk0yc" role="3EZMnx">
         <property role="3F0ifm" value="pixels." />

@@ -119,7 +119,7 @@
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="7351747083747985539" name="formalodd.structure.Move" flags="ng" index="rlEY6">
-        <property id="7351747083747985540" name="MovementDistance" index="rlEY1" />
+        <property id="7351747083747985540" name="movementDistance" index="rlEY1" />
       </concept>
       <concept id="7351747083753947529" name="formalodd.structure.Everywhere" flags="ng" index="rFqqc" />
       <concept id="8985793055721061048" name="formalodd.structure.ConditionalAction" flags="ng" index="2rRKAk">
@@ -147,9 +147,7 @@
         <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
         <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
       </concept>
-      <concept id="6529568716150347406" name="formalodd.structure.TODO_Turn" flags="ng" index="2GeaqC">
-        <child id="7351747083747985558" name="direction" index="rlEYj" />
-      </concept>
+      <concept id="6529568716150347406" name="formalodd.structure.TurnRandom" flags="ng" index="2GeaqC" />
       <concept id="2473444682900410212" name="formalodd.structure.TODO_Indices" flags="ng" index="2HyfYL">
         <child id="2473444682900410213" name="inner" index="2HyfYK" />
       </concept>
@@ -783,26 +781,7 @@
       <node concept="2lNc1x" id="6o6DKlXneXa" role="2GyEu2">
         <property role="TrG5h" value="wiggle" />
         <property role="2QSBU6" value="the agent changes its heading - turn right then left, so the average is straight ahead" />
-        <node concept="2GeaqC" id="6o6DKlXneYu" role="18tn1X">
-          <node concept="2jQCjV" id="6o6DKlXneYI" role="rlEYj">
-            <node concept="2oK_Am" id="6o6DKlXneYR" role="2jQCjS">
-              <property role="2oK_Ap" value="0" />
-            </node>
-            <node concept="2oK_Am" id="6o6DKlXneYU" role="2jQCjT">
-              <property role="2oK_Ap" value="90" />
-            </node>
-          </node>
-        </node>
-        <node concept="2GeaqC" id="6o6DKlXneZ3" role="18tn1X">
-          <node concept="2jQCjV" id="6o6DKlXneZd" role="rlEYj">
-            <node concept="2oK_Am" id="6o6DKlXneZm" role="2jQCjS">
-              <property role="2oK_Ap" value="-90" />
-            </node>
-            <node concept="2oK_Am" id="6o6DKlXneZp" role="2jQCjT">
-              <property role="2oK_Ap" value="0" />
-            </node>
-          </node>
-        </node>
+        <node concept="2GeaqC" id="1i0DDuUmUy9" role="18tn1X" />
         <node concept="Qbqaq" id="6o6DKlXneYp" role="18tn1Z" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXlqG4" role="2GyEu2">
