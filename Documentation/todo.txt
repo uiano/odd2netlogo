@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
--Entity9 --> Andreas
 -Entity10 --> Andreas (this problem does not appear everytime)
 -Action2 --> Andreas
 -Action4 --> Andreas
@@ -59,7 +58,6 @@ TODO list for development of ODD2Netlogo
 - context menu for expressions
 
 TODO for Martin
--Entity4 --> Martin
 -Entity6 --> Martin
 -Action3 --> Martin
 -Initial2 --> Martin
