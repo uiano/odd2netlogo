@@ -759,5 +759,25 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="I1KRVWSTSR">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1M2myG" to="86kt:1R8dC2FFCN0" resolve="TODO_EntityAccess" />
+    <node concept="1N5Pfh" id="I1KRVWSTSS" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:1R8dC2FFCN1" resolve="entity" />
+      <node concept="1dDu$B" id="I1KRVWSTSU" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:2gGtP_Va5R4" resolve="GeneralEntity" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="I1KRVWVTPD">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1M2myG" to="86kt:4GwBkQU3Kn" resolve="TODO_LetAccess" />
+    <node concept="1N5Pfh" id="I1KRVWVTPE" role="1Mr941">
+      <ref role="1N5Vy1" to="86kt:4GwBkQU3Ko" resolve="let" />
+      <node concept="1dDu$B" id="I1KRVWVTPG" role="1N6uqs">
+        <ref role="1dDu$A" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+      </node>
+    </node>
+  </node>
 </model>
 

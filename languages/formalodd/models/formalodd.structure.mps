@@ -1252,7 +1252,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="condition" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="1zaawdvpfAU" resolve="Condition" />
+      <ref role="20lvS9" node="5yfUVbuMlWA" resolve="Comparison" />
     </node>
     <node concept="1TJgyj" id="7MNWMNBrfEX" role="1TKVEi">
       <property role="IQ2ns" value="8985793055721061053" />
@@ -2230,7 +2230,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="argument" />
       <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+      <ref role="20lvS9" node="I1KRVWMRJQ" resolve="SelectExpression" />
     </node>
     <node concept="1TJgyi" id="6o6DKlWwslr" role="1TKVEl">
       <property role="IQ2nx" value="7351747083734467931" />
@@ -2314,7 +2314,7 @@
     <property role="EcuMT" value="2146025148706098368" />
     <property role="3GE5qa" value="Expressions" />
     <property role="TrG5h" value="TODO_EntityAccess" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" node="I1KRVWMRJQ" resolve="SelectExpression" />
     <node concept="1TJgyj" id="1R8dC2FFCN1" role="1TKVEi">
       <property role="IQ2ns" value="2146025148706098369" />
       <property role="20kJfa" value="entity" />
@@ -2479,7 +2479,7 @@
     <property role="EcuMT" value="2473444682900410212" />
     <property role="3GE5qa" value="Expressions" />
     <property role="TrG5h" value="TODO_Indices" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" node="I1KRVWMRJQ" resolve="SelectExpression" />
     <node concept="1TJgyj" id="29jsdmfQSX_" role="1TKVEi">
       <property role="IQ2ns" value="2473444682900410213" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2690,6 +2690,13 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="34LRSv" value="categorical" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="I1KRVWMRJQ">
+    <property role="EcuMT" value="829158756587371510" />
+    <property role="TrG5h" value="SelectExpression" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 

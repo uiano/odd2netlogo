@@ -2602,6 +2602,7 @@
         <ref role="1NtTu8" to="86kt:5yfUVbuMlWD" resolve="left" />
       </node>
       <node concept="3F0A7n" id="5yfUVbuMlXS" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;press ctrl space to select comparison&gt;" />
         <ref role="1NtTu8" to="86kt:5yfUVbuMlWB" resolve="operator" />
       </node>
       <node concept="3F1sOY" id="5yfUVbuMlY4" role="3EZMnx">

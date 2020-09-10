@@ -33,6 +33,7 @@ TODO list for development of ODD2Netlogo
 - check all concepts with TODO
 - define function parameters as entities (not types), sort parameters of functions
 - should sliders be expressions?
+- allow let in conditional
 - use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
 - allow comments in the code (see ACT ONE)
