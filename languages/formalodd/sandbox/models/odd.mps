@@ -140,9 +140,9 @@
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
       </concept>
-      <concept id="8247773779785854958" name="formalodd.structure.TODO_Spawn" flags="ng" index="2DBPlz">
-        <property id="8247773779785854959" name="AmountOfSpawns" index="2DBPly" />
-        <child id="4851181497927696060" name="spawnValues" index="3BJUly" />
+      <concept id="8247773779785854958" name="formalodd.structure.Clone" flags="ng" index="2DBPlz">
+        <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
+        <child id="4851181497927696060" name="cloneValues" index="3BJUly" />
       </concept>
       <concept id="6529568716150347406" name="formalodd.structure.TurnRandom" flags="ng" index="2GeaqC" />
       <concept id="2473444682900410212" name="formalodd.structure.TODO_Indices" flags="ng" index="2HyfYL">
@@ -159,11 +159,6 @@
       <concept id="2146025148705204581" name="formalodd.structure.Percentage" flags="ng" index="2QqdZ_">
         <property id="2146025148705204582" name="value" index="2QqdZA" />
       </concept>
-      <concept id="2146025148702527993" name="formalodd.structure.TODO_ForEach" flags="ng" index="2QG2tT">
-        <property id="2146025148704310059" name="who" index="2QmRmF" />
-        <child id="2146025148705650496" name="collection" index="2QrS70" />
-        <child id="2146025148702528398" name="activities" index="2QG2ke" />
-      </concept>
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
@@ -175,7 +170,7 @@
       <concept id="84585932957170711" name="formalodd.structure.TODO_LetAccess" flags="ng" index="RLbTy">
         <reference id="84585932957170712" name="let" index="RLbTH" />
       </concept>
-      <concept id="84585932955613678" name="formalodd.structure.TODO_LetActivity" flags="ng" index="RZfIr">
+      <concept id="84585932955613678" name="formalodd.structure.LetActivity" flags="ng" index="RZfIr">
         <child id="84585932955613689" name="value" index="RZfIc" />
       </concept>
       <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B">
@@ -3027,63 +3022,6 @@
           </node>
         </node>
       </node>
-      <node concept="2lNc1x" id="1i0DDuTDsDn" role="2GyEu2">
-        <property role="TrG5h" value="savedSchedule" />
-        <property role="2QSBU6" value="saved schedule due to changes in Wof Sheep" />
-        <node concept="2QG2tT" id="1i0DDuTDsFw" role="18tn1X">
-          <property role="2QmRmF" value="5yfUVburW9E/me" />
-          <node concept="2QG2tT" id="1i0DDuTDsFx" role="2QG2ke">
-            <property role="2QmRmF" value="5yfUVburW9F/other" />
-            <node concept="1Svl6F" id="1i0DDuTDsFy" role="2QG2ke">
-              <ref role="1Svl6C" node="39v_dExukAZ" resolve="forced-interaction" />
-              <node concept="2g0R4C" id="1i0DDuTDsFz" role="2QCFRE">
-                <property role="2g0R4D" value="5yfUVburW9E/me" />
-              </node>
-              <node concept="2g0R4C" id="1i0DDuTDsF$" role="2QCFRE">
-                <property role="2g0R4D" value="5yfUVburW9F/other" />
-              </node>
-            </node>
-            <node concept="2gXKin" id="1i0DDuTDsF_" role="2QrS70">
-              <node concept="2QqdZ_" id="1i0DDuTDsFA" role="2gXKik">
-                <property role="2QqdZA" value="50" />
-              </node>
-              <node concept="2QpFD0" id="1i0DDuTDsFB" role="2gXKil">
-                <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
-              </node>
-            </node>
-          </node>
-          <node concept="2QpFD0" id="1i0DDuTDsFC" role="2QrS70">
-            <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
-          </node>
-        </node>
-        <node concept="2QG2tT" id="1i0DDuTDsFD" role="18tn1X">
-          <property role="2QmRmF" value="5yfUVburW9E/me" />
-          <node concept="2QG2tT" id="1i0DDuTDsFE" role="2QG2ke">
-            <property role="2QmRmF" value="5yfUVburW9F/other" />
-            <node concept="1Svl6F" id="1i0DDuTDsFF" role="2QG2ke">
-              <ref role="1Svl6C" node="4GwBkQLLdv" resolve="free-interaction" />
-              <node concept="2g0R4C" id="1i0DDuTDsFG" role="2QCFRE">
-                <property role="2g0R4D" value="5yfUVburW9E/me" />
-              </node>
-              <node concept="2g0R4C" id="1i0DDuTDsFH" role="2QCFRE">
-                <property role="2g0R4D" value="5yfUVburW9F/other" />
-              </node>
-            </node>
-            <node concept="2gXKin" id="1i0DDuTDsFI" role="2QrS70">
-              <node concept="2QqdZ_" id="1i0DDuTDsFJ" role="2gXKik">
-                <property role="2QqdZA" value="50" />
-              </node>
-              <node concept="2QpFD0" id="1i0DDuTDsFK" role="2gXKil">
-                <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
-              </node>
-            </node>
-          </node>
-          <node concept="2QpFD0" id="1i0DDuTDsFL" role="2QrS70">
-            <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
-          </node>
-        </node>
-        <node concept="Qbqaq" id="1i0DDuTDsFr" role="18tn1Z" />
-      </node>
       <node concept="BZNO7" id="39v_dExukAZ" role="2GyEu2">
         <property role="TrG5h" value="forced-interaction" />
         <property role="2QSBU6" value="interactions in classroom settings" />
@@ -3481,9 +3419,6 @@
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ5VF" role="1sMO1Z">
       <ref role="1sMRUI" node="4GwBkQLLdv" resolve="free-interaction" />
-    </node>
-    <node concept="1sMRUJ" id="1i0DDuTDsEY" role="1sMO1Z">
-      <ref role="1sMRUI" node="1i0DDuTDsDn" resolve="savedSchedule" />
     </node>
   </node>
 </model>

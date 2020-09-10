@@ -1,14 +1,12 @@
 TODO list for development of ODD2Netlogo
--Action2- When we go to the definitions, we allow the possibility of name-giving, and then we list the activities that are possible. Currently, the list of activities should include (in the editor): attribute set (which is implemented) , move, turn, kill entity, and conditional action
--Action2- Conditional Action should be renamed into “Activities done/behaviours expressed if a condition is met”
--Action2- The set attribute should have the same options as the synthetic attribute.
--Action2- The condition options in conditional action should include comparisons for this version.
--Action2- Comparisons should include the options for number constant, attribute access, and comparison operator.
 -Action4 --> Andreas
 -Action6 --> Andreas
 -Initial1 --> Andreas
 -Initial3 --> Andreas
 -Experiment1 --> Andreas
+-Expression- The set attribute should have the same options as the synthetic attribute.
+-Expression- The condition options in conditional action should include comparisons for this version.
+-Expression- Comparisons should include the options for number constant, attribute access, and comparison operator.
 -Expression --> Andreas make better expression context menu!!!
 - remove name4entity (UDA) editors
 - add random uniform stochasticity editor

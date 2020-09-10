@@ -5773,7 +5773,7 @@
   </node>
   <node concept="WtQ9Q" id="79PYCRrUEZL">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:79PYCRrUEZI" resolve="TODO_Spawn" />
+    <ref role="WuzLi" to="86kt:79PYCRrUEZI" resolve="Clone" />
     <node concept="11bSqf" id="79PYCRrUEZM" role="11c4hB">
       <node concept="3clFbS" id="79PYCRrUEZN" role="2VODD2">
         <node concept="lc7rE" id="79PYCRrUF0D" role="3cqZAp">
@@ -5789,7 +5789,7 @@
               <node concept="2OqwBi" id="79PYCRrUFdn" role="3uHU7w">
                 <node concept="117lpO" id="79PYCRrUF4Y" role="2Oq$k0" />
                 <node concept="3TrcHB" id="79PYCRrUFmz" role="2OqNvi">
-                  <ref role="3TsBF5" to="86kt:79PYCRrUEZJ" resolve="AmountOfSpawns" />
+                  <ref role="3TsBF5" to="86kt:79PYCRrUEZJ" resolve="amountOfClones" />
                 </node>
               </node>
             </node>
@@ -5817,7 +5817,7 @@
                 <node concept="2OqwBi" id="5iGq3FrnUR9" role="lbANJ">
                   <node concept="117lpO" id="5iGq3FrnUKW" role="2Oq$k0" />
                   <node concept="3Tsc0h" id="5iGq3FrnUZj" role="2OqNvi">
-                    <ref role="3TtcxE" to="86kt:4diQXU$VnUW" resolve="spawnValues" />
+                    <ref role="3TtcxE" to="86kt:4diQXU$VnUW" resolve="cloneValues" />
                   </node>
                 </node>
               </node>
@@ -5830,41 +5830,6 @@
             <property role="lacIc" value="]" />
           </node>
           <node concept="l8MVK" id="5iGq3Fri0GC" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="1zaawdw5aZ3">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="WuzLi" to="86kt:1zaawdw5aVr" resolve="TODO_Sprout" />
-    <node concept="11bSqf" id="1zaawdw5aZ4" role="11c4hB">
-      <node concept="3clFbS" id="1zaawdw5aZ5" role="2VODD2">
-        <node concept="lc7rE" id="1zaawdw5aZo" role="3cqZAp">
-          <node concept="la8eA" id="1zaawdw5b0j" role="lcghm">
-            <property role="lacIc" value=" sprout-" />
-          </node>
-          <node concept="l9hG8" id="1zaawdw5b1K" role="lcghm">
-            <node concept="2OqwBi" id="1zaawdw5cFB" role="lb14g">
-              <node concept="2OqwBi" id="1zaawdw5bVT" role="2Oq$k0">
-                <node concept="2OqwBi" id="1zaawdw5baP" role="2Oq$k0">
-                  <node concept="117lpO" id="1zaawdw5b2D" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="1zaawdw5bzT" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:1zaawdw5bqj" resolve="who" />
-                  </node>
-                </node>
-                <node concept="3TrEf2" id="5yfUVbvsLRl" role="2OqNvi">
-                  <ref role="3Tt5mk" to="86kt:5zjJPlga3JE" resolve="generalEntity" />
-                </node>
-              </node>
-              <node concept="3TrcHB" id="1zaawdw5cUk" role="2OqNvi">
-                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-          <node concept="la8eA" id="1zaawdw5d7i" role="lcghm">
-            <property role="lacIc" value=" 1" />
-          </node>
-          <node concept="l8MVK" id="1zaawdw5dkb" role="lcghm" />
         </node>
       </node>
     </node>
@@ -9651,7 +9616,7 @@
   </node>
   <node concept="WtQ9Q" id="4GwBkQREb5">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:4GwBkQO7BI" resolve="TODO_LetActivity" />
+    <ref role="WuzLi" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
     <node concept="11bSqf" id="4GwBkQREb6" role="11c4hB">
       <node concept="3clFbS" id="4GwBkQREb7" role="2VODD2">
         <node concept="lc7rE" id="4GwBkQREbq" role="3cqZAp">
@@ -11392,7 +11357,7 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="1R8dC2FAxwI">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <property role="3GE5qa" value="4FutureUse" />
     <ref role="WuzLi" to="86kt:1R8dC2Fu17T" resolve="TODO_ForEach" />
     <node concept="11bSqf" id="1R8dC2FAxwJ" role="11c4hB">
       <node concept="3clFbS" id="1R8dC2FAxwK" role="2VODD2">
