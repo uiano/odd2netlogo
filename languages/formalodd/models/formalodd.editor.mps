@@ -5573,17 +5573,6 @@
           <property role="3F0ifm" value="The initial value of" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
         </node>
-        <node concept="1iCGBv" id="I1KRVVAVoZ" role="3EZMnx">
-          <ref role="1NtTu8" to="86kt:5yfUVbuQFWh" resolve="attribute" />
-          <node concept="1sVBvm" id="I1KRVVAVp1" role="1sWHZn">
-            <node concept="3F1sOY" id="I1KRVVAVpi" role="2wV5jI">
-              <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
-              <node concept="xShMh" id="I1KRVVAVpl" role="3F10Kt">
-                <property role="VOm3f" value="true" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="3F0ifn" id="I1KRVVAVoC" role="3EZMnx">
           <property role="3F0ifm" value="attribute" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="text" />
