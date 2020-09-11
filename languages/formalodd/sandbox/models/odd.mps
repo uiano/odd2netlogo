@@ -173,9 +173,6 @@
       <concept id="84585932955613678" name="formalodd.structure.LetActivity" flags="ng" index="RZfIr">
         <child id="84585932955613689" name="value" index="RZfIc" />
       </concept>
-      <concept id="6930332985972268294" name="formalodd.structure.BooleanConstant" flags="ng" index="2W8u0B">
-        <property id="6930332985972271866" name="value" index="2W8tvr" />
-      </concept>
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
       </concept>
@@ -241,7 +238,6 @@
         <property id="3840659476812056019" name="y" index="ZOwqx" />
         <property id="3840659476812056017" name="x" index="ZOwqz" />
       </concept>
-      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -291,7 +287,6 @@
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
-      <concept id="3864151261534280722" name="formalodd.structure.Activity" flags="ng" index="1jwekb" />
       <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
         <child id="7004962584163900935" name="rationale" index="1sMRTs" />
       </concept>
@@ -669,13 +664,6 @@
           <node concept="1Svl6F" id="I1KRVWVTP6" role="2rRKAh">
             <ref role="1Svl6C" node="6ow5Ifzbdeq" resolve="Dummy" />
           </node>
-        </node>
-        <node concept="2rRKAk" id="I1KRVYk$Xc" role="18tn1X">
-          <node concept="26hFik" id="I1KRVYk$Xe" role="2rRKAn">
-            <node concept="Qbqaq" id="I1KRVYk$X_" role="26hFir" />
-            <node concept="ZOwqL" id="I1KRVYk$Xi" role="26hFip" />
-          </node>
-          <node concept="1jwekb" id="I1KRVYk$Xk" role="2rRKAh" />
         </node>
         <node concept="2lNc1w" id="56OEWGAQ_9p" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
@@ -1534,7 +1522,9 @@
         <property role="TrG5h" value="happy" />
         <property role="QtYJw" value="should be a boolean of the entity, but we do not have this" />
         <node concept="ZOwps" id="1i0DDuSpYH0" role="zGXb3" />
-        <node concept="2W8u0B" id="4GwBkR9iXI" role="2oy9Oj" />
+        <node concept="2oK_Am" id="I1KRVYnLuG" role="2oy9Oj">
+          <property role="2oK_Ap" value="0" />
+        </node>
       </node>
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
         <property role="TrG5h" value="blue-group" />
@@ -1616,7 +1606,9 @@
             <node concept="26lliW" id="3M5MOtLlj6r" role="26hFir">
               <ref role="26lliz" node="4GwBkR9iXG" resolve="happy" />
             </node>
-            <node concept="2W8u0B" id="3M5MOtLlj6s" role="26hFip" />
+            <node concept="2oK_Am" id="I1KRVYnLuJ" role="26hFip">
+              <property role="2oK_Ap" value="0" />
+            </node>
           </node>
         </node>
         <node concept="Qbqaq" id="4GwBkR93LQ" role="18tn1Z" />
@@ -3141,14 +3133,36 @@
             </node>
           </node>
         </node>
+        <node concept="RZfIr" id="I1KRVYnLsN" role="18tn1X">
+          <property role="TrG5h" value="false" />
+          <node concept="26hFik" id="I1KRVYnLts" role="RZfIc">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="2oK_Am" id="I1KRVYnLt_" role="26hFir">
+              <property role="2oK_Ap" value="0" />
+            </node>
+            <node concept="2oK_Am" id="I1KRVYnLtC" role="26hFip">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
+        </node>
         <node concept="2rRKAk" id="4GwBkQVh7G" role="18tn1X">
           <node concept="2rRKAk" id="4GwBkQVh8i" role="2rRKAh">
+            <node concept="2qfAsZ" id="I1KRVYnLrP" role="2R3hq3">
+              <node concept="2oK_Am" id="I1KRVYnLrQ" role="2rWCss">
+                <property role="2oK_Ap" value="1" />
+              </node>
+              <node concept="26lliW" id="I1KRVYnLrR" role="2OFgHe">
+                <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+              </node>
+            </node>
             <node concept="26hFik" id="4GwBkQVh8r" role="2rRKAn">
               <property role="26hFil" value="24yfUKsyf$I/eq" />
               <node concept="RLbTy" id="6iw2eE5XJGc" role="26hFir">
                 <ref role="RLbTH" node="6iw2eE5XJDM" resolve="other-reject-interaction" />
               </node>
-              <node concept="2W8u0B" id="4GwBkQVh8B" role="26hFip" />
+              <node concept="RLbTy" id="I1KRVYnLtK" role="26hFip">
+                <ref role="RLbTH" node="I1KRVYnLsN" resolve="false" />
+              </node>
             </node>
             <node concept="1Svl6F" id="6iw2eE60gCL" role="2rRKAh">
               <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
@@ -3187,31 +3201,14 @@
               </node>
             </node>
           </node>
-          <node concept="2rRKAk" id="39v_dExyJWE" role="2rRKAh">
-            <node concept="2qfAsZ" id="4GwBkQVh8L" role="2rRKAh">
-              <node concept="2oK_Am" id="4GwBkQVh8R" role="2rWCss">
-                <property role="2oK_Ap" value="1" />
-              </node>
-              <node concept="26lliW" id="t7PfuO4$Yw" role="2OFgHe">
-                <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
-              </node>
-            </node>
-            <node concept="26hFik" id="39v_dExyJX2" role="2rRKAn">
-              <property role="26hFil" value="24yfUKsyf$I/eq" />
-              <node concept="RLbTy" id="6iw2eE5XJGf" role="26hFir">
-                <ref role="RLbTH" node="6iw2eE5XJDM" resolve="other-reject-interaction" />
-              </node>
-              <node concept="2W8u0B" id="39v_dExyJX4" role="26hFip">
-                <property role="2W8tvr" value="true" />
-              </node>
-            </node>
-          </node>
           <node concept="26hFik" id="39v_dExyJWm" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="RLbTy" id="39v_dExyJWn" role="26hFir">
               <ref role="RLbTH" node="4GwBkQQuGx" resolve="me-reject-interaction" />
             </node>
-            <node concept="2W8u0B" id="39v_dExyJWo" role="26hFip" />
+            <node concept="RLbTy" id="I1KRVYnLtH" role="26hFip">
+              <ref role="RLbTH" node="I1KRVYnLsN" resolve="false" />
+            </node>
           </node>
         </node>
         <node concept="2lNc1w" id="5gquUl5c0qk" role="hfX4z">
@@ -3239,6 +3236,18 @@
             </node>
           </node>
         </node>
+        <node concept="RZfIr" id="I1KRVYnLud" role="18tn1X">
+          <property role="TrG5h" value="true" />
+          <node concept="26hFik" id="I1KRVYnLue" role="RZfIc">
+            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <node concept="2oK_Am" id="I1KRVYnLuf" role="26hFir">
+              <property role="2oK_Ap" value="0" />
+            </node>
+            <node concept="2oK_Am" id="I1KRVYnLug" role="26hFip">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
+        </node>
         <node concept="2rRKAk" id="39v_dExsSp$" role="18tn1X">
           <node concept="2qfAsS" id="1R8dC2EPbnm" role="2R3hq3">
             <node concept="26lliW" id="1R8dC2EPbnn" role="2rWCss">
@@ -3262,8 +3271,8 @@
             <node concept="RLbTy" id="39v_dExsSpA" role="26hFir">
               <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
             </node>
-            <node concept="2W8u0B" id="39v_dExsSpB" role="26hFip">
-              <property role="2W8tvr" value="true" />
+            <node concept="RLbTy" id="I1KRVYnLuD" role="26hFip">
+              <ref role="RLbTH" node="I1KRVYnLud" resolve="true" />
             </node>
           </node>
           <node concept="2qfAsZ" id="39v_dExsSpC" role="2rRKAh">

@@ -319,22 +319,6 @@
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
   </node>
-  <node concept="1TIwiD" id="3lcKR8aBGl1">
-    <property role="EcuMT" value="3840659476812055873" />
-    <property role="TrG5h" value="TODO_Gamma" />
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGkY" resolve="RandomNumber" />
-    <node concept="1TJgyi" id="3lcKR8aBGl2" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055874" />
-      <property role="TrG5h" value="alpha" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-    <node concept="1TJgyi" id="3lcKR8aBGl4" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055876" />
-      <property role="TrG5h" value="lambda" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="3lcKR8aBGl7">
     <property role="EcuMT" value="3840659476812055879" />
     <property role="TrG5h" value="RandomNormal" />
@@ -353,28 +337,6 @@
       <property role="20kJfa" value="stdev" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGld">
-    <property role="EcuMT" value="3840659476812055885" />
-    <property role="TrG5h" value="TODO_Poisson" />
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGkY" resolve="RandomNumber" />
-    <node concept="1TJgyi" id="4GvH3PCE97M" role="1TKVEl">
-      <property role="IQ2nx" value="5413243452964508146" />
-      <property role="TrG5h" value="mean" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="3lcKR8aBGlg">
-    <property role="EcuMT" value="3840659476812055888" />
-    <property role="TrG5h" value="TODO_Exponential" />
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="1TJDcQ" node="3lcKR8aBGkY" resolve="RandomNumber" />
-    <node concept="1TJgyi" id="3lcKR8aBGlh" role="1TKVEl">
-      <property role="IQ2nx" value="3840659476812055889" />
-      <property role="TrG5h" value="mean" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGlO">
@@ -793,7 +755,7 @@
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <property role="TrG5h" value="Condition" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="1zaawdwHPWl">
     <property role="EcuMT" value="1786286396201721621" />
@@ -979,7 +941,7 @@
     <property role="EcuMT" value="6930332985972268294" />
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <property role="TrG5h" value="BooleanConstant" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
     <node concept="1TJgyi" id="60Hvi7s3aFU" role="1TKVEl">
       <property role="IQ2nx" value="6930332985972271866" />
       <property role="TrG5h" value="value" />
@@ -1320,7 +1282,7 @@
     <property role="EcuMT" value="6381578350481727270" />
     <property role="3GE5qa" value="Expressions.TODO_Condition" />
     <property role="TrG5h" value="Comparison" />
-    <ref role="1TJDcQ" node="1zaawdvpfAU" resolve="Condition" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyi" id="5yfUVbuMlWB" role="1TKVEl">
       <property role="IQ2nx" value="6381578350481727271" />
       <property role="TrG5h" value="operator" />
@@ -1567,6 +1529,8 @@
     <property role="EcuMT" value="1729384597837121508" />
     <property role="3GE5qa" value="Expressions" />
     <property role="TrG5h" value="Binary" />
+    <property role="34LRSv" value="use mathematical operation" />
+    <property role="R4oN_" value="+, -, *, /" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyj" id="1w00y4a7gwd" role="1TKVEi">
       <property role="IQ2ns" value="1729384597837121549" />
@@ -2055,7 +2019,7 @@
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="TODO_ParameterType" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="39v_dExYdn4">
     <property role="EcuMT" value="3629783491425129924" />
