@@ -1,9 +1,4 @@
 TODO list for development of ODD2Netlogo
--Action6 --> Andreas
--Interaction first line
--Interaction activities: press ctrl space ...
--partner context menu
--datacollection remove parts?
 -allow remove of UDA (automatic remove of implied references)
 - remove name4entity (UDA) editors
 - remove boolean expressions and make the characterizations

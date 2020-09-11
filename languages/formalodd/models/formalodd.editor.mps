@@ -6931,5 +6931,31 @@
     </node>
     <node concept="22hDWj" id="I1KRVZkzhk" role="22hAXT" />
   </node>
+  <node concept="22mcaB" id="I1KRW0KELl">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="aqKnT" to="86kt:6lHESjKCmJ$" resolve="ConcreteEntityReference" />
+    <node concept="3XHNnq" id="I1KRW0KELo" role="3ft7WO">
+      <ref role="3XGfJA" to="86kt:5zjJPlga3JE" resolve="generalEntity" />
+      <node concept="2h3Zct" id="I1KRW0KELp" role="1WZ6hz">
+        <property role="2h4Kg1" value="entity reference" />
+      </node>
+    </node>
+    <node concept="22hDWj" id="I1KRW0KELm" role="22hAXT" />
+  </node>
+  <node concept="22mcaB" id="I1KRW0NIdG">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="aqKnT" to="86kt:6o6DKlW0nLI" resolve="EnvironmentEntityReference" />
+    <node concept="22hDWj" id="I1KRW0NIdH" role="22hAXT" />
+  </node>
+  <node concept="22mcaB" id="I1KRW0QGSI">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="aqKnT" to="86kt:1i0DDuROwbI" resolve="NetworkReference" />
+    <node concept="22hDWj" id="I1KRW0QGSJ" role="22hAXT" />
+  </node>
+  <node concept="22mcaB" id="I1KRW0QGTg">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="aqKnT" to="86kt:1i0DDuROwbF" resolve="PlainEntityReference" />
+    <node concept="22hDWj" id="I1KRW0QGTh" role="22hAXT" />
+  </node>
 </model>
 

@@ -1907,6 +1907,8 @@
     <property role="EcuMT" value="84585932960784899" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="AnyEnvironment" />
+    <property role="34LRSv" value="any environment" />
+    <property role="R4oN_" value="entity reference" />
     <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
   </node>
   <node concept="1TIwiD" id="4GwBkQU3Kn">

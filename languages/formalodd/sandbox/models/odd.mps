@@ -104,7 +104,7 @@
         <reference id="6400669868561546218" name="generalEntity" index="8YSiZ" />
       </concept>
       <concept id="7308686357753326565" name="formalodd.structure.Action" flags="ng" index="2lNc1x">
-        <child id="3836572362087288385" name="actions" index="18tn1X" />
+        <child id="3836572362087288385" name="activities" index="18tn1X" />
         <child id="3836572362087288387" name="actor" index="18tn1Z" />
       </concept>
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
@@ -120,9 +120,9 @@
       </concept>
       <concept id="7351747083753947529" name="formalodd.structure.Everywhere" flags="ng" index="rFqqc" />
       <concept id="8985793055721061048" name="formalodd.structure.ConditionalAction" flags="ng" index="2rRKAk">
-        <child id="8985793055721061053" name="yesActions" index="2rRKAh" />
+        <child id="8985793055721061053" name="yesActivities" index="2rRKAh" />
         <child id="8985793055721061051" name="condition" index="2rRKAn" />
-        <child id="2146025148690800643" name="noActions" index="2R3hq3" />
+        <child id="2146025148690800643" name="noActivities" index="2R3hq3" />
       </concept>
       <concept id="7351747083757432512" name="formalodd.structure.ScaledColour" flags="ng" index="rTCB5">
         <child id="7351747083757432515" name="scalingValue" index="rTCB6" />
@@ -692,6 +692,15 @@
       <node concept="1sOCfq" id="I1KRVYTa2T" role="1sOCcx">
         <ref role="1sOCfp" node="2_t31HRw5eN" resolve="undefined interaction1" />
       </node>
+      <node concept="BZNO7" id="I1KRW0KEJX" role="2GyEu2">
+        <property role="TrG5h" value="undefined interaction" />
+        <node concept="2lNc1w" id="I1KRW0KEKQ" role="hfX4z">
+          <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
+        </node>
+        <node concept="2lNc1w" id="I1KRW0TP4U" role="18tn1Z">
+          <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
+        </node>
+      </node>
     </node>
     <node concept="1sMRUJ" id="1i0DDuQOW_5" role="1sMO1Z">
       <ref role="1sMRUI" node="qdXC$xsGMq" resolve="frog" />
@@ -757,6 +766,9 @@
       <ref role="1sMRUI" node="2_t31HRw5eN" resolve="undefined interaction1" />
     </node>
     <node concept="2kDK7K" id="I1KRW0kGm2" role="2kDK7a" />
+    <node concept="1sMRUJ" id="I1KRW0KEKt" role="1sMO1Z">
+      <ref role="1sMRUI" node="I1KRW0KEJX" resolve="undefined interaction" />
+    </node>
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
