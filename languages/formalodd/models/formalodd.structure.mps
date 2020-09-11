@@ -323,6 +323,8 @@
     <property role="EcuMT" value="3840659476812055879" />
     <property role="TrG5h" value="RandomNormal" />
     <property role="3GE5qa" value="Initialization" />
+    <property role="34LRSv" value="random number" />
+    <property role="R4oN_" value="normal distribution" />
     <ref role="1TJDcQ" node="3lcKR8aBGkY" resolve="RandomNumber" />
     <node concept="1TJgyj" id="4GwBkQIeL1" role="1TKVEi">
       <property role="IQ2ns" value="84585932954070081" />
@@ -1944,6 +1946,8 @@
     <property role="EcuMT" value="3629783491417542689" />
     <property role="TrG5h" value="RandomUniform" />
     <property role="3GE5qa" value="Initialization" />
+    <property role="34LRSv" value="random number" />
+    <property role="R4oN_" value="uniform distribution" />
     <ref role="1TJDcQ" node="3lcKR8aBGkY" resolve="RandomNumber" />
     <node concept="1TJgyj" id="39v_dExxh0y" role="1TKVEi">
       <property role="IQ2ns" value="3629783491417542690" />
