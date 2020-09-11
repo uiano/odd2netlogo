@@ -605,7 +605,7 @@
     <node concept="1TJgyj" id="3kYfzLXiOT1" role="1TKVEi">
       <property role="IQ2ns" value="3836572362087288385" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="actions" />
+      <property role="20kJfa" value="activities" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
     </node>
@@ -935,12 +935,16 @@
     <property role="EcuMT" value="7167542597237662036" />
     <property role="TrG5h" value="TODO_Random" />
     <property role="3GE5qa" value="Initialization" />
+    <property role="34LRSv" value="Random distribution" />
+    <property role="R4oN_" value="initial distribution" />
     <ref role="1TJDcQ" node="6dSewhkPe5j" resolve="TODO_InitialEntityDistribution" />
   </node>
   <node concept="1TIwiD" id="6dSewhkPe7U">
     <property role="EcuMT" value="7167542597237662202" />
     <property role="TrG5h" value="TODO_Left" />
     <property role="3GE5qa" value="Initialization" />
+    <property role="R4oN_" value="initial distribution" />
+    <property role="34LRSv" value="left side" />
     <ref role="1TJDcQ" node="6dSewhkPe5j" resolve="TODO_InitialEntityDistribution" />
   </node>
   <node concept="1TIwiD" id="60Hvi7s39O6">
@@ -1225,14 +1229,14 @@
     <node concept="1TJgyj" id="7MNWMNBrfEX" role="1TKVEi">
       <property role="IQ2ns" value="8985793055721061053" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="yesActions" />
+      <property role="20kJfa" value="yesActivities" />
       <property role="20lbJX" value="fLJekj6/_1__n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
     </node>
     <node concept="1TJgyj" id="1R8dC2ELi03" role="1TKVEi">
       <property role="IQ2ns" value="2146025148690800643" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="noActions" />
+      <property role="20kJfa" value="noActivities" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="3mweh_A8dKi" resolve="Activity" />
     </node>
@@ -1276,12 +1280,12 @@
     <node concept="25R33" id="5yfUVburW9E" role="25R1y">
       <property role="3tVfz5" value="6381578350475854442" />
       <property role="TrG5h" value="me" />
-      <property role="1L1pqM" value="partner 1" />
+      <property role="1L1pqM" value="first partner" />
     </node>
     <node concept="25R33" id="5yfUVburW9F" role="25R1y">
       <property role="3tVfz5" value="6381578350475854443" />
       <property role="TrG5h" value="other" />
-      <property role="1L1pqM" value="partner 2" />
+      <property role="1L1pqM" value="second partner" />
     </node>
   </node>
   <node concept="1TIwiD" id="5yfUVbuMlWA">
@@ -1921,6 +1925,8 @@
     <property role="EcuMT" value="84585932958802159" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="AnyEntity" />
+    <property role="34LRSv" value="any entity" />
+    <property role="R4oN_" value="entity reference" />
     <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
   </node>
   <node concept="1TIwiD" id="4GwBkR1uQB">
