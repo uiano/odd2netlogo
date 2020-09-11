@@ -1607,7 +1607,7 @@
     <property role="TrG5h" value="TODO_Array" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="34LRSv" value="collection (ordered)" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+    <ref role="1TJDcQ" node="I1KRVZB1mq" resolve="Collection" />
     <node concept="1TJgyj" id="5AVjrpYXjnk" role="1TKVEi">
       <property role="IQ2ns" value="6465847136229864916" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1940,6 +1940,8 @@
     <property role="EcuMT" value="4361115321891670174" />
     <property role="3GE5qa" value="Expressions" />
     <property role="TrG5h" value="Empty" />
+    <property role="34LRSv" value="empty collection" />
+    <property role="R4oN_" value="collection" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="39v_dExxh0x">
@@ -2466,7 +2468,7 @@
     <property role="TrG5h" value="TODO_Set" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="34LRSv" value="set (unordered collection)" />
-    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+    <ref role="1TJDcQ" node="I1KRVZB1mq" resolve="Collection" />
     <node concept="1TJgyj" id="29jsdmfTre7" role="1TKVEi">
       <property role="IQ2ns" value="2473444682901074823" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -2670,6 +2672,13 @@
     <property role="3GE5qa" value="Expressions" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="I1KRVZB1mq">
+    <property role="EcuMT" value="829158756634596762" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="R5$K7" value="true" />
+    <property role="TrG5h" value="Collection" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
 </model>
 
