@@ -453,7 +453,6 @@
     <ref role="1XX52x" to="86kt:3lcKR8aBGk7" resolve="ODD" />
     <node concept="3EZMnI" id="6AuNKydYHWf" role="2wV5jI">
       <node concept="3EZMnI" id="5JxfqxAtDtC" role="3EZMnx">
-        <node concept="VPM3Z" id="5JxfqxAtDtE" role="3F10Kt" />
         <node concept="3EZMnI" id="7y2oNvzb2Z" role="3EZMnx">
           <node concept="VPM3Z" id="7y2oNvzb31" role="3F10Kt" />
           <node concept="3F0A7n" id="7y2oNvzb3R" role="3EZMnx">
@@ -713,11 +712,17 @@
           <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
         </node>
         <node concept="3F1sOY" id="1R8dC2G1FGv" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;press enter to add new experiment&gt;" />
+          <property role="2ru_X1" value="true" />
           <ref role="1NtTu8" to="86kt:7MNWMNC5fbA" resolve="experiments" />
           <node concept="VPXOz" id="31ZFDPSj15m" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+          <node concept="3F0ifn" id="I1KRW05zbX" role="2ruayu">
+            <property role="3F0ifm" value="&lt;press enter to add experiments&gt;" />
+          </node>
         </node>
+        <node concept="3F0ifn" id="I1KRW0hF8T" role="3EZMnx" />
         <node concept="2iRkQZ" id="3oOohpnQuC6" role="2iSdaV" />
       </node>
       <node concept="l2Vlx" id="6AuNKydYHWi" role="2iSdaV" />
@@ -2549,6 +2554,8 @@
   <node concept="24kQdi" id="7MNWMNC7dYT">
     <ref role="1XX52x" to="86kt:7MNWMNC5fbs" resolve="Experiments" />
     <node concept="3EZMnI" id="7MNWMNC7dYV" role="2wV5jI">
+      <property role="S$Qs1" value="true" />
+      <property role="3EXrWe" value="true" />
       <node concept="2iRkQZ" id="5iGq3Fp4fVR" role="2iSdaV" />
       <node concept="3F0ifn" id="7MNWMNC7dZ4" role="3EZMnx">
         <property role="3F0ifm" value="Data to be shown in manual experiments" />
@@ -2591,6 +2598,10 @@
           </node>
         </node>
         <node concept="2EHx9g" id="2_t31HS03w5" role="2iSdaV" />
+      </node>
+      <node concept="3F0ifn" id="I1KRW0kGm4" role="AHCbl">
+        <property role="3F0ifm" value="Press enter to show experiments" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
       </node>
     </node>
   </node>

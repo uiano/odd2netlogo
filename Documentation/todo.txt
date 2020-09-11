@@ -1,13 +1,6 @@
 TODO list for development of ODD2Netlogo
 -Action4 --> Andreas
 -Action6 --> Andreas
--Initial1 --> Andreas
--Initial3 --> Andreas
--Experiment1 --> Andreas
--Expression- The set attribute should have the same options as the synthetic attribute.
--Expression- The condition options in conditional action should include comparisons for this version.
--Expression- Comparisons should include the options for number constant, attribute access, and comparison operator.
--Expression --> Andreas make better expression context menu!!!
 -allow remove of UDA (automatic remove of implied references)
 - remove name4entity (UDA) editors
 - remove boolean expressions and make the characterizations
