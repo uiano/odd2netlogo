@@ -238,6 +238,7 @@
         <property id="3840659476812056019" name="y" index="ZOwqx" />
         <property id="3840659476812056017" name="x" index="ZOwqz" />
       </concept>
+      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -671,9 +672,7 @@
             <node concept="2oK_Am" id="I1KRVYtXrW" role="26hFip">
               <property role="2oK_Ap" value="0" />
             </node>
-            <node concept="26lliW" id="I1KRVYQ0yj" role="26hFir">
-              <ref role="26lliz" node="1jC05GNft6w" resolve="health" />
-            </node>
+            <node concept="ZOwqL" id="I1KRVYTa2I" role="26hFir" />
           </node>
           <node concept="1Svl6F" id="I1KRVYtXrZ" role="2rRKAh">
             <ref role="1Svl6C" node="6ow5Ifzbdeq" resolve="Dummy" />

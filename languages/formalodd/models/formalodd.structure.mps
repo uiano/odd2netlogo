@@ -1160,7 +1160,7 @@
     <property role="EcuMT" value="8985793055694834563" />
     <property role="3GE5qa" value="4FutureUse" />
     <property role="TrG5h" value="QuantifiedCondition4Attribute" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="7MNWMN_RcI4" role="1TKVEl">
       <property role="IQ2nx" value="8985793055694834564" />
       <property role="TrG5h" value="quantifier" />
