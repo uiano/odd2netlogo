@@ -661,6 +661,20 @@
   <node concept="1M2fIO" id="24yfUKsjkvw">
     <property role="3GE5qa" value="Expressions" />
     <ref role="1M2myG" to="86kt:24yfUKsjki_" resolve="TODO_CountEntities" />
+    <node concept="9S07l" id="I1KRVYqSZt" role="9Vyp8">
+      <node concept="3clFbS" id="I1KRVYqSZu" role="2VODD2">
+        <node concept="3clFbF" id="I1KRVYqT3o" role="3cqZAp">
+          <node concept="2OqwBi" id="I1KRVYqTdB" role="3clFbG">
+            <node concept="nLn13" id="I1KRVYqT3n" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="I1KRVYqTn8" role="2OqNvi">
+              <node concept="chp4Y" id="I1KRVYqTt1" role="cj9EA">
+                <ref role="cht4Q" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1M2fIO" id="7qp8jK7Ll08">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
