@@ -881,6 +881,8 @@
     <property role="EcuMT" value="8766909380343367735" />
     <property role="TrG5h" value="NumberConstant" />
     <property role="3GE5qa" value="Expressions" />
+    <property role="34LRSv" value="numerical constant" />
+    <property role="R4oN_" value="i.e., a number" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyi" id="7AEkq7xq0wS" role="1TKVEl">
       <property role="IQ2nx" value="8766909380343367736" />
@@ -1587,6 +1589,8 @@
     <property role="EcuMT" value="1729384597837555313" />
     <property role="3GE5qa" value="Expressions" />
     <property role="TrG5h" value="Parenthesis" />
+    <property role="34LRSv" value="(" />
+    <property role="R4oN_" value="add parenthesis)" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyj" id="1w00y4a8UpM" role="1TKVEi">
       <property role="IQ2ns" value="1729384597837555314" />
