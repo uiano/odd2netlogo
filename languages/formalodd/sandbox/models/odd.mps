@@ -460,26 +460,11 @@
           <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="1z3v1JXiZRE" role="zGXb3" />
         </node>
-        <node concept="ZOwpH" id="5wSz0kzyecz" role="2gUEk7">
-          <property role="TrG5h" value="unnamed attribute1" />
-          <node concept="ZOwps" id="5wSz0kzyecP" role="zGXb3" />
-          <node concept="ZOwoP" id="64QC5GXB1K2" role="2oy9Oj">
-            <node concept="2oK_Am" id="64QC5GXB1Ka" role="R_6SO">
-              <property role="2oK_Ap" value="10" />
-            </node>
-            <node concept="2oK_Am" id="64QC5GXB1Kd" role="R_6SQ">
-              <property role="2oK_Ap" value="10" />
-            </node>
-          </node>
-        </node>
         <node concept="ZOwpH" id="5wSz0kzyecF" role="2gUEk7">
           <property role="TrG5h" value="unnamed attribute2" />
           <node concept="ZOwps" id="5wSz0kzyecS" role="zGXb3" />
         </node>
         <node concept="RFdHg" id="7Y7DVQi$r2u" role="RFdH4" />
-        <node concept="26lliW" id="64QC5GXdT_7" role="1saZHi">
-          <ref role="26lliz" node="5wSz0kzyecz" resolve="unnamed attribute1" />
-        </node>
         <node concept="26lliW" id="64QC5GXdT_9" role="1saZHi">
           <ref role="26lliz" node="7eFC9EokzbM" resolve="leap length" />
         </node>
@@ -524,9 +509,6 @@
       <node concept="26lliW" id="2gJyhPFz8Vg" role="qiWAJ">
         <ref role="26lliz" node="166q1IL2R3S" resolve="some attribute" />
       </node>
-      <node concept="26lliW" id="2gJyhPFz8Wq" role="qiWAJ">
-        <ref role="26lliz" node="5wSz0kzyecz" resolve="unnamed attribute1" />
-      </node>
       <node concept="26lliW" id="2gJyhPFz8Wt" role="qiWAJ">
         <ref role="26lliz" node="7eFC9EokzbM" resolve="leap length" />
       </node>
@@ -544,9 +526,6 @@
       </node>
       <node concept="26lliW" id="2gJyhPFz8WV" role="qiWAJ">
         <ref role="26lliz" node="5wSz0kzyecF" resolve="unnamed attribute2" />
-      </node>
-      <node concept="26lliW" id="64QC5GXB1K8" role="1shrDG">
-        <ref role="26lliz" node="5wSz0kzyecz" resolve="unnamed attribute1" />
       </node>
       <node concept="26lliW" id="64QC5GXDYrS" role="qiWAJ">
         <ref role="26lliz" node="64QC5GXDXVb" resolve="nnn-a" />
@@ -692,15 +671,6 @@
       <node concept="1sOCfq" id="I1KRVYTa2T" role="1sOCcx">
         <ref role="1sOCfp" node="2_t31HRw5eN" resolve="undefined interaction1" />
       </node>
-      <node concept="BZNO7" id="I1KRW0KEJX" role="2GyEu2">
-        <property role="TrG5h" value="undefined interaction" />
-        <node concept="2lNc1w" id="I1KRW0KEKQ" role="hfX4z">
-          <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
-        </node>
-        <node concept="2lNc1w" id="I1KRW0TP4U" role="18tn1Z">
-          <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
-        </node>
-      </node>
     </node>
     <node concept="1sMRUJ" id="1i0DDuQOW_5" role="1sMO1Z">
       <ref role="1sMRUI" node="qdXC$xsGMq" resolve="frog" />
@@ -713,9 +683,6 @@
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ5We" role="1sMO1Z">
       <ref role="1sMRUI" node="2_t31HRntdG" resolve="undefined action1" />
-    </node>
-    <node concept="1sMRUJ" id="1i0DDuQZ5Wj" role="1sMO1Z">
-      <ref role="1sMRUI" node="5wSz0kzyecz" resolve="unnamed attribute1" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ5Wp" role="1sMO1Z">
       <ref role="1sMRUI" node="7Y7DVQi$r3r" resolve="MyNewEnvironment" />
@@ -766,9 +733,6 @@
       <ref role="1sMRUI" node="2_t31HRw5eN" resolve="undefined interaction1" />
     </node>
     <node concept="2kDK7K" id="I1KRW0kGm2" role="2kDK7a" />
-    <node concept="1sMRUJ" id="I1KRW0KEKt" role="1sMO1Z">
-      <ref role="1sMRUI" node="I1KRW0KEJX" resolve="undefined interaction" />
-    </node>
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />

@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
--allow remove of UDA (automatic remove of implied references)
 - remove name4entity (UDA) editors
 - remove boolean expressions and make the characterizations
 - allow "wolf" instead of "partner 1" in kill and in attribute access in interactions.
