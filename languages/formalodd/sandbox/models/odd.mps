@@ -241,6 +241,7 @@
         <property id="3840659476812056019" name="y" index="ZOwqx" />
         <property id="3840659476812056017" name="x" index="ZOwqz" />
       </concept>
+      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -290,6 +291,7 @@
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
+      <concept id="3864151261534280722" name="formalodd.structure.Activity" flags="ng" index="1jwekb" />
       <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
         <child id="7004962584163900935" name="rationale" index="1sMRTs" />
       </concept>
@@ -667,6 +669,13 @@
           <node concept="1Svl6F" id="I1KRVWVTP6" role="2rRKAh">
             <ref role="1Svl6C" node="6ow5Ifzbdeq" resolve="Dummy" />
           </node>
+        </node>
+        <node concept="2rRKAk" id="I1KRVYk$Xc" role="18tn1X">
+          <node concept="26hFik" id="I1KRVYk$Xe" role="2rRKAn">
+            <node concept="Qbqaq" id="I1KRVYk$X_" role="26hFir" />
+            <node concept="ZOwqL" id="I1KRVYk$Xi" role="26hFip" />
+          </node>
+          <node concept="1jwekb" id="I1KRVYk$Xk" role="2rRKAh" />
         </node>
         <node concept="2lNc1w" id="56OEWGAQ_9p" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
@@ -1671,32 +1680,38 @@
             <ref role="26lliz" node="4GwBkR9iXf" resolve="total-nearby" />
           </node>
         </node>
-        <node concept="8StVI" id="3kYfzLXpebl" role="18tn1X">
-          <node concept="26hFik" id="1w00y4a8Up_" role="2rWCss">
+        <node concept="RZfIr" id="I1KRVYeqwq" role="18tn1X">
+          <property role="TrG5h" value="xyz" />
+          <node concept="26hFik" id="I1KRVYeqwR" role="RZfIc">
             <property role="26hFil" value="5yfUVbuMlWv/ge" />
-            <node concept="26lliW" id="1w00y4a8UpI" role="26hFir">
+            <node concept="26lliW" id="I1KRVYeqwS" role="26hFir">
               <ref role="26lliz" node="4GwBkR9iWR" resolve="similar-nearby" />
             </node>
-            <node concept="i8Uhg" id="1w00y4aanIb" role="26hFip">
-              <node concept="i7gn5" id="1w00y4aanIh" role="i8Uhj">
+            <node concept="i8Uhg" id="I1KRVYeqwT" role="26hFip">
+              <node concept="i7gn5" id="I1KRVYeqwU" role="i8Uhj">
                 <property role="i7gn4" value="1w00y4a7gvD/divide" />
-                <node concept="i7gn5" id="1w00y4aanIq" role="i7gCG">
+                <node concept="i7gn5" id="I1KRVYeqwV" role="i7gCG">
                   <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
-                  <node concept="26lliW" id="1w00y4aanIG" role="i7gCG">
+                  <node concept="26lliW" id="I1KRVYeqwW" role="i7gCG">
                     <ref role="26lliz" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
                   </node>
-                  <node concept="26lliW" id="1w00y4aanIA" role="i7gCI">
+                  <node concept="26lliW" id="I1KRVYeqwX" role="i7gCI">
                     <ref role="26lliz" node="4GwBkR9iXf" resolve="total-nearby" />
                   </node>
                 </node>
-                <node concept="2oK_Am" id="1w00y4aanID" role="i7gCI">
+                <node concept="2oK_Am" id="I1KRVYeqwY" role="i7gCI">
                   <property role="2oK_Ap" value="100" />
                 </node>
               </node>
             </node>
           </node>
+        </node>
+        <node concept="8StVI" id="3kYfzLXpebl" role="18tn1X">
           <node concept="26lliW" id="t7PfuNXOjk" role="2OFgHe">
             <ref role="26lliz" node="4GwBkR9iXG" resolve="happy" />
+          </node>
+          <node concept="RLbTy" id="I1KRVYhy9c" role="2rWCss">
+            <ref role="RLbTH" node="I1KRVYeqwq" resolve="xyz" />
           </node>
         </node>
         <node concept="Qbqaq" id="4GwBkR93M2" role="18tn1Z" />

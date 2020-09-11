@@ -310,7 +310,7 @@
     <property role="TrG5h" value="Type" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="R5$K7" value="true" />
-    <ref role="1TJDcQ" node="39v_dExCF7A" resolve="TODO_ParameterType" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkY">
     <property role="EcuMT" value="3840659476812055870" />
