@@ -87,7 +87,6 @@
       </concept>
       <concept id="1147467790433" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" flags="in" index="Eqf_E" />
       <concept id="1147468365020" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" flags="nn" index="EsrRn" />
-      <concept id="6738154313879680265" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childNode" flags="nn" index="2H4GUG" />
       <concept id="1212096972063" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" flags="in" index="QB0g5" />
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
@@ -830,82 +829,6 @@
       <ref role="1N5Vy1" to="86kt:4GwBkQU3Ko" resolve="let" />
       <node concept="1dDu$B" id="I1KRVWVTPG" role="1N6uqs">
         <ref role="1dDu$A" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="I1KRVY2kD5">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1M2myG" to="86kt:7MNWMNAzpgj" resolve="IncrementAttribute" />
-    <node concept="9SLcT" id="I1KRVY2kD6" role="9SGkU">
-      <node concept="3clFbS" id="I1KRVY2kD7" role="2VODD2">
-        <node concept="3clFbF" id="I1KRVY2kH1" role="3cqZAp">
-          <node concept="22lmx$" id="I1KRVY5mT_" role="3clFbG">
-            <node concept="22lmx$" id="I1KRVY2lAG" role="3uHU7B">
-              <node concept="2OqwBi" id="I1KRVY2kRg" role="3uHU7B">
-                <node concept="2H4GUG" id="I1KRVY2kH0" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="I1KRVY2kXe" role="2OqNvi">
-                  <node concept="chp4Y" id="I1KRVY2laj" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:7AEkq7xq0wR" resolve="NumberConstant" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="I1KRVY2lSp" role="3uHU7w">
-                <node concept="2H4GUG" id="I1KRVY2lBP" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="I1KRVY2m2v" role="2OqNvi">
-                  <node concept="chp4Y" id="I1KRVY2maT" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:5yfUVbuQFWe" resolve="AttributeAccess" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="I1KRVY5n5j" role="3uHU7w">
-              <node concept="2H4GUG" id="I1KRVY5n5k" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="I1KRVY5n5l" role="2OqNvi">
-                <node concept="chp4Y" id="I1KRVY5noa" role="cj9EA">
-                  <ref role="cht4Q" to="86kt:4GwBkQU3Kn" resolve="TODO_LetAccess" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="I1KRVY8p10">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1M2myG" to="86kt:7MNWMNAzpgk" resolve="DecrementAttribute" />
-    <node concept="9SLcT" id="I1KRVY8p11" role="9SGkU">
-      <node concept="3clFbS" id="I1KRVY8p12" role="2VODD2">
-        <node concept="3clFbF" id="I1KRVY8p4V" role="3cqZAp">
-          <node concept="22lmx$" id="I1KRVY8p4W" role="3clFbG">
-            <node concept="22lmx$" id="I1KRVY8p4X" role="3uHU7B">
-              <node concept="2OqwBi" id="I1KRVY8p4Y" role="3uHU7B">
-                <node concept="2H4GUG" id="I1KRVY8p4Z" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="I1KRVY8p50" role="2OqNvi">
-                  <node concept="chp4Y" id="I1KRVY8p51" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:7AEkq7xq0wR" resolve="NumberConstant" />
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="I1KRVY8p52" role="3uHU7w">
-                <node concept="2H4GUG" id="I1KRVY8p53" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="I1KRVY8p54" role="2OqNvi">
-                  <node concept="chp4Y" id="I1KRVY8p55" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:5yfUVbuQFWe" resolve="AttributeAccess" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="2OqwBi" id="I1KRVY8p56" role="3uHU7w">
-              <node concept="2H4GUG" id="I1KRVY8p57" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="I1KRVY8p58" role="2OqNvi">
-                <node concept="chp4Y" id="I1KRVY8p59" role="cj9EA">
-                  <ref role="cht4Q" to="86kt:4GwBkQU3Kn" resolve="TODO_LetAccess" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>
