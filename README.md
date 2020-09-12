@@ -9,7 +9,7 @@ The strength  of Agent-Based Modelling is the emergence of patterns. We use ABM 
 # Installation steps
 Make sure you have installed Java (Version at least 1.8)
 
-1. Go to https://github.com/uiano/odd2netlogo/releases/tag/v0.5
+1. Go to https://github.com/uiano/odd2netlogo/releases
 2. Select the file  `odd2netlogo-201.SNAPSHOT.macos.zip` if you use macOS, the file `odd2netlogo-201.SNAPSHOT.tar.gz` if you use Linux, or the file `odd2netlogo-201.SNAPSHOT.win.zip` if you use Windows.
 3. Extract the downloaded file
 4. Go in the extracted file location and then to the bin folder
