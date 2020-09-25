@@ -1,5 +1,8 @@
 TODO list for development of ODD2Netlogo
 - remove name4entity (UDA) editors
+- run netlogo from MPS
+- fix install on Mac and Linux
+- use multiline for model description
 - remove boolean expressions and make the characterizations
 - allow "wolf" instead of "partner 1" in kill and in attribute access in interactions.
 - add random uniform stochasticity editor
@@ -27,6 +30,8 @@ TODO list for development of ODD2Netlogo
 - define function parameters as entities (not types), sort parameters of functions
 - should sliders be expressions?
 - allow let in conditional
+- bundle file printing with release: com.mbeddr.mpsutil.uisupport
+- create plugin and not standalone
 - use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
 - allow comments in the code (see ACT ONE)
@@ -53,7 +58,8 @@ TODO list for development of ODD2Netlogo
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
 - improve context menu for MARG for normal activities
 - maybe use a direct reference to UDA instead of AttributeAccess for better context menu
-- context menu for expressions
+- make nice logos and images
+- find a way to break the long description lines
 
 TODO for Martin
 -Action3 --> Martin
