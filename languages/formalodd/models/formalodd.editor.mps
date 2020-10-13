@@ -4,6 +4,7 @@
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="14" />
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
+    <use id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" version="0" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -423,6 +424,9 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>
+    <language id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline">
+      <concept id="8006371471054135775" name="de.slisson.mps.editor.multiline.structure.CellModel_Multiline" flags="sg" stub="8664183491941389655" index="2v7bAL" />
+    </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
@@ -476,9 +480,7 @@
           </node>
           <node concept="2iRfu4" id="7y2oNvzb34" role="2iSdaV" />
         </node>
-        <node concept="3F0A7n" id="6mCZXi$mObO" role="3EZMnx">
-          <property role="1O74Pk" value="true" />
-          <property role="1$x2rV" value="&lt;write description here&gt;" />
+        <node concept="2v7bAL" id="5wEF59lk57f" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
         </node>
         <node concept="3F0ifn" id="5JxfqxAtTtj" role="3EZMnx">
