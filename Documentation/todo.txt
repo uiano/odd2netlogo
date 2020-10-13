@@ -1,65 +1,51 @@
 TODO list for development of ODD2Netlogo
-- remove name4entity (UDA) editors
-- run netlogo from MPS
-- fix install on Mac and Linux, maybe create only a plugin?
-- use multiline for model description
-- remove boolean expressions and make the characterizations
-- allow "wolf" instead of "partner 1" in kill and in attribute access in interactions.
-- add random uniform stochasticity editor
-- only allow action call in schedule (MARG)
-- Import the jetbrains.mps.lang.editor.tooltips language and insert the "tooltip" cell. This lets you specify a cell to put into the editor (perhaps an icon) and a tooltip to show, when the mouse hovers over the cell.
-- manual experiments should work without adding automatic experiments
-- use expressions for plots, improve plot: name for plot and name for y-axis, allow colours to be defined for plot
+- done?: The rationale for Initialization does not need the rationale choice (Established theory etc).
+- done?: The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
+- done?: I do not think we need the rationales for Interaction and Stochasticity.
+- done?: move init entity state -> entity state (editor)
+- done?: init: add init concept -> init -> experiment
+- done?: endcondition, move to simulation / experiment
+- done?: The types supported for attributes should be numerical and categorical. In addition, we have (synthetic) characterizations (boolean). Numerical can have range and categorical refers to the category collection (enumeration).
+- done?: avoid showing the rationales that are not filled
+- check all concepts with TODO
+- put actions and functions into the same category
 - use range for regrow-grass (wolf sheep)
 - make wolf-sheep work when eat-grass refers to environment grass
-- calculate should be done in go, not in plot
-- show init shared attributes in the entities (for each of them)
-- recheck MARG generated code - remove csv see Wolf-Sheep
-- sort out concepts in hierarchy of EntityReference
+- remove name4entity (UDA) editors
+- disallow changing names outside the definition
+- use multiline for model description and all places where the line gets too long
+- make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
+- recreate wolf-sheep and fix UI on the way
+- Editor should consistently say "Press enter to create new entity" for all collections
+- Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
+- manual experiments should work without adding automatic experiments
+- allow "wolf" instead of "partner 1" in kill and in attribute access in interactions.
+- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
 - fix code Voting cf. Library
 - fix code Fire cf. Library
 - fix code FireAgents cf. Library
-- fix code Segregation cf. Library
-- why is occupied an interaction in segregation? fix it.
-- generate agent condition at call, not at proc. call is correct if parent applicable to same
-- init: add init concept -> init -> experiment
-- endcondition, move to simulation / experiment
-- move init entity state -> entity state (editor)
-- disallow changing names outside the definition
-- check all concepts with TODO
+- fix code Segregation cf. Library (why is occupied an interaction)
+- remove boolean expressions and call them characterizations
+- recreate MARG and fix UI on the way
+- improve context menu for MARG for normal activities
+- calculate should be done in go, not in plot
+- make sections of ODD collapsable
+- add random uniform stochasticity editor
+- use expressions for plots, improve plot: name for plot and name for y-axis, allow colours to be defined for plot
 - define function parameters as entities (not types), sort parameters of functions
 - should sliders be expressions?
 - allow let in conditional
-- bundle file printing with release: com.mbeddr.mpsutil.uisupport
-- create plugin and not standalone
 - use reference for presentation item (data presentation)
 - remove arrays? - not needed (move to future use)
-- allow comments in the code (see ACT ONE)
-- do not add uda inits in upper level when already added to lower level
 - remove styling hintIfNull?
-- improve appearance of MARG
 - styling hint versus comment? should they be selectable?
 - make good stylings for sections and user input and definitions and hints and comments
 - recheck all constraints
 - timed condition does not need comparison operator
 - improve codegen for element-wise
-- put make actions and functions into the same category
 - do not have text as selectable
-- The types supported for attributes should be numerical and categorical. In addition, we have (synthetic) characterizations (boolean). Numerical can have range and categorical refers to the category collection (enumeration).
-- The rationale for Initialization does not need the rationale choice (Established theory etc).
-- The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
-- I do not think we need the rationales for Interaction and Stochasticity.
-- avoid showing the rationales that are not filled
 - use textgen base components in order to simplify textgen
 - make dataCollection more uniform
-- make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
-- recreate MARG and fix UI on the way
-- Editor should consistently say "Press enter to create new entity" for all collections
-- Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
-- improve context menu for MARG for normal activities
-- maybe use a direct reference to UDA instead of AttributeAccess for better context menu
-- make nice logos and images
-- find a way to break the long description lines
 
 TODO for Martin
 -Action3 --> Martin
@@ -71,15 +57,14 @@ TODO for Martin
 - ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)
 - ensure that when the user creates something, she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
 - proper indent in editor (see condionalAction)
-- recreate MARG and fix UI on the way
 - use base styles consistently in editor
 - adjust virtual packages for editor and other aspects to match packages in structure
 - copy documentation 2019 and earlier into git: papers, reports 445, ...
 - good editor for optional parts: boolean attributes - should have a text for present and another text for not present
-- constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
-- constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
-- localize codegen
 - introduce proper constraints for names
+  - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
+  - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
+- localize codegen
 - typing of expressions
 - move [stop] out of generation for end condition
 - sort between github and tools.uia version and remove the tools.uia version
@@ -91,10 +76,16 @@ TODO for Martin
 
 TODO later and larger
 - create predefined UDAs shape, size, colour
-- make sections of ODD collapsable
 - use kernelF for expressions
 - implement Status Arena ODD in the tool
 - streamline scoping using super and ODD scopes
 - make all errors in textgen to real errors (see ElementWise), and insert constraints that avoid them
-
-
+- run netlogo from MPS
+- Import the jetbrains.mps.lang.editor.tooltips language and insert the "tooltip" cell. This lets you specify a cell to put into the editor (perhaps an icon) and a tooltip to show, when the mouse hovers over the cell.
+- show init shared attributes in the entities (for each of them)
+- sort out concepts in hierarchy of EntityReference
+- fix install on Mac and Linux, maybe create only a plugin?
+- create plugin and not standalone
+- bundle file printing with release: com.mbeddr.mpsutil.uisupport
+- allow comments in the code (see ACT ONE)
+- make nice logos and images
