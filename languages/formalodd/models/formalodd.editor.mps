@@ -560,19 +560,6 @@
                 </node>
               </node>
             </node>
-            <node concept="1iCGBv" id="52HbUMUjmAT" role="3EZMnx">
-              <ref role="1NtTu8" to="86kt:1Go6jkfcAcM" resolve="designConcepts" />
-              <node concept="1sVBvm" id="52HbUMUjmAV" role="1sWHZn">
-                <node concept="3F1sOY" id="52HbUMUjmBG" role="2wV5jI">
-                  <property role="2ru_X1" value="true" />
-                  <ref role="1NtTu8" to="86kt:52HbUMTrT47" resolve="rationale4Interaction" />
-                  <node concept="3F0ifn" id="52HbUMUolk3" role="2ruayu">
-                    <property role="3F0ifm" value="press enter to add rationale for interactions" />
-                    <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="2iRkQZ" id="52HbUMUl2zJ" role="2iSdaV" />
             <node concept="VPXOz" id="3vy7LMk3$9E" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -596,20 +583,6 @@
               <node concept="2w$q5c" id="52HbUMUT_N$" role="3xwHhi">
                 <node concept="2aJ2om" id="52HbUMUT_N_" role="2w$qW5">
                   <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
-                </node>
-              </node>
-            </node>
-            <node concept="1iCGBv" id="52HbUMUjmD9" role="3EZMnx">
-              <ref role="1NtTu8" to="86kt:1Go6jkfcAcM" resolve="designConcepts" />
-              <node concept="1sVBvm" id="52HbUMUjmDb" role="1sWHZn">
-                <node concept="3F1sOY" id="52HbUMUjmE1" role="2wV5jI">
-                  <property role="2ru_X1" value="true" />
-                  <ref role="1NtTu8" to="86kt:ALSMvQyfaI" resolve="rationale4Stochasticity" />
-                  <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-                  <node concept="3F0ifn" id="52HbUMUpXIg" role="2ruayu">
-                    <property role="3F0ifm" value="press enter to add rationale for stochasticity" />
-                    <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
-                  </node>
                 </node>
               </node>
             </node>

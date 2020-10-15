@@ -1441,6 +1441,12 @@
     </node>
     <node concept="3Ovhds" id="6Uof7aieThc" role="1BQTrk">
       <property role="3Ovhdr" value="294onrmen8L/Prediction" />
+      <node concept="31WWdx" id="5wEF59lwO8o" role="2GvpiS">
+        <property role="TrG5h" value="Original" />
+        <node concept="XAmFv" id="5wEF59lwO8q" role="31Rc_p">
+          <property role="XAmFg" value="adapted from NetLogo models library: IABM textbook / chapter 3 / Fire Extensions / Fire Simple" />
+        </node>
+      </node>
       <node concept="XAmFv" id="6Uof7aieThg" role="1BQTog">
         <property role="XAmFg" value="How does forest fire spread based on the density of the woods?" />
       </node>
@@ -1663,7 +1669,14 @@
     <node concept="1sMRUJ" id="1i0DDuQZ61W" role="1sMO1Z">
       <ref role="1sMRUI" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
     </node>
-    <node concept="3Ovhds" id="1i0DDuTcj$e" role="1BQTrk" />
+    <node concept="3Ovhds" id="1i0DDuTcj$e" role="1BQTrk">
+      <node concept="31WWdx" id="5wEF59lwO8s" role="2GvpiS">
+        <property role="TrG5h" value="Original" />
+        <node concept="XAmFv" id="5wEF59lwO8u" role="31Rc_p">
+          <property role="XAmFg" value="adapted from NetLogo models library: IABM textbook / chapter 3 / Segregation Extensions / Segregation Simple" />
+        </node>
+      </node>
+    </node>
     <node concept="1sMRUJ" id="I1KRVYqSZc" role="1sMO1Z">
       <ref role="1sMRUI" node="I1KRVYqSZ8" resolve="happyDummy" />
     </node>
@@ -1716,6 +1729,12 @@
       </node>
     </node>
     <node concept="3Ovhds" id="4UvEPNybpOb" role="1BQTrk">
+      <node concept="31WWdx" id="5wEF59lwVd1" role="2GvpiS">
+        <property role="TrG5h" value="Original" />
+        <node concept="XAmFv" id="5wEF59lwVd3" role="31Rc_p">
+          <property role="XAmFg" value="adapted from NetLogo models library: Social Science / Voting" />
+        </node>
+      </node>
       <node concept="XAmFv" id="4UvEPNybpOd" role="1BQTpC">
         <property role="XAmFg" value="This model is a simple cellular automaton that simulates voting distribution by having each patch take a “vote” of its eight surrounding neighbors, then perhaps change its own vote according to the outcome." />
       </node>
@@ -1813,7 +1832,14 @@
     <node concept="1sMRUJ" id="1i0DDuQZ60Q" role="1sMO1Z">
       <ref role="1sMRUI" node="24yfUKsi0Xo" resolve="Tree" />
     </node>
-    <node concept="3Ovhds" id="1i0DDuT9gQO" role="1BQTrk" />
+    <node concept="3Ovhds" id="1i0DDuT9gQO" role="1BQTrk">
+      <node concept="31WWdx" id="5wEF59lwO8k" role="2GvpiS">
+        <property role="TrG5h" value="Original" />
+        <node concept="XAmFv" id="5wEF59lwO8m" role="31Rc_p">
+          <property role="XAmFg" value="adapted from NetLogo models library: Earth Science / Fire" />
+        </node>
+      </node>
+    </node>
     <node concept="2kDK7K" id="I1KRW0nFYF" role="2kDK7a" />
   </node>
   <node concept="ZOwpP" id="4xlWY3qEPkU">

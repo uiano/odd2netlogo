@@ -1,12 +1,5 @@
 TODO list for development of ODD2Netlogo
-- done?: The rationale for Initialization does not need the rationale choice (Established theory etc).
-- done?: The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
-- done?: I do not think we need the rationales for Interaction and Stochasticity.
-- done?: move init entity state -> entity state (editor)
-- done?: init: add init concept -> init -> experiment
-- done?: endcondition, move to simulation / experiment
-- done?: The types supported for attributes should be numerical and categorical. In addition, we have (synthetic) characterizations (boolean). Numerical can have range and categorical refers to the category collection (enumeration).
-- done?: avoid showing the rationales that are not filled
+- Themis: The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
 - check all concepts with TODO
 - put actions and functions into the same category
 - use range for regrow-grass (wolf sheep)
@@ -27,7 +20,9 @@ TODO list for development of ODD2Netlogo
 - fix code Segregation cf. Library (why is occupied an interaction)
 - remove boolean expressions and call them characterizations
 - recreate MARG and fix UI on the way
+- Improve and introduce (synthetic) characterizations (boolean).
 - improve context menu for MARG for normal activities
+- The rationale for Initialization does not need the rationale choice (Established theory etc).
 - calculate should be done in go, not in plot
 - make sections of ODD collapsable
 - add random uniform stochasticity editor
@@ -46,6 +41,7 @@ TODO list for development of ODD2Netlogo
 - do not have text as selectable
 - use textgen base components in order to simplify textgen
 - make dataCollection more uniform
+- Categorical should refer to the category collection (enumeration).
 
 TODO for Martin
 -Action3 --> Martin
@@ -84,7 +80,16 @@ TODO later and larger
 - Import the jetbrains.mps.lang.editor.tooltips language and insert the "tooltip" cell. This lets you specify a cell to put into the editor (perhaps an icon) and a tooltip to show, when the mouse hovers over the cell.
 - show init shared attributes in the entities (for each of them)
 - sort out concepts in hierarchy of EntityReference
-- fix install on Mac and Linux, maybe create only a plugin?
+- fix install on Mac and Linux, maybe create only a plugin? following are the steps for Mac
+  1. Install OpenJDK 14 from https://jdk.java.net/14/ by extracting the .tar.gz into a folder like /usr/local (or somewhere else you can access)
+  2. From the terminal, cd to /Library/Java/JavaVirtualMachines
+  3. (Well, it’s only for experts, but…) ln -s /usr/local/jdk-14.0.2.jdk
+  3. (I mean) sudo ln -s /usr/local/jdk-14.0.2.jdk
+  4. cd /Applications/odd2netlogo\ 1.0.app/Contents
+  5. edit Info.plist — on line 93, change 10* to 14*
+  6. cd MacOS
+  7. ./odd2netlogo
+  7. It also seems to work when you click the icon
 - create plugin and not standalone
 - bundle file printing with release: com.mbeddr.mpsutil.uisupport
 - allow comments in the code (see ACT ONE)

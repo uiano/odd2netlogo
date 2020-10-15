@@ -5070,11 +5070,6 @@
     <ref role="WuzLi" to="86kt:3lcKR8aBGke" resolve="Entity" />
     <node concept="11bSqf" id="5JxfqxAtM$n" role="11c4hB">
       <node concept="3clFbS" id="5JxfqxAtM$o" role="2VODD2">
-        <node concept="lc7rE" id="5yfUVbwf09E" role="3cqZAp">
-          <node concept="la8eA" id="5yfUVbwf0gq" role="lcghm">
-            <property role="lacIc" value="XXXXXXXXXXXXXXXX" />
-          </node>
-        </node>
         <node concept="lc7rE" id="2EFWiW_cPnO" role="3cqZAp">
           <node concept="la8eA" id="2EFWiW_cPoc" role="lcghm">
             <property role="lacIc" value="breed[ " />
