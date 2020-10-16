@@ -44,10 +44,6 @@ TODO list for development of ODD2Netlogo
 - Categorical should refer to the category collection (enumeration).
 
 TODO for Martin
--Action3 --> Martin
--Initial2 --> Martin
-- create README for github
-- build tutorial / cheat sheet how to create the Wolf-Sheep model
 - make editor for expressions
 - create user instructions and insert option list in the scheduling and the procedure editor
 - ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)
