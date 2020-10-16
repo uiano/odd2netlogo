@@ -1,5 +1,5 @@
 TODO list for development of ODD2Netlogo
-- Themis: The rationales that get adhoc rules probably do not need further explanation. When I was filling these rationales, I thought it was similar to describing the rationale topic.
+- Make init concept that refers to UDA and includes init value (apply for Rationales and Stochasticity too)
 - check all concepts with TODO
 - put actions and functions into the same category
 - use range for regrow-grass (wolf sheep)
@@ -12,7 +12,6 @@ TODO list for development of ODD2Netlogo
 - Editor should consistently say "Press enter to create new entity" for all collections
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
 - manual experiments should work without adding automatic experiments
-- allow "wolf" instead of "partner 1" in kill and in attribute access in interactions.
 - maybe use a direct reference to UDA instead of AttributeAccess for better context menu
 - fix code Voting cf. Library
 - fix code Fire cf. Library
@@ -24,7 +23,6 @@ TODO list for development of ODD2Netlogo
 - improve context menu for MARG for normal activities
 - The rationale for Initialization does not need the rationale choice (Established theory etc).
 - calculate should be done in go, not in plot
-- make sections of ODD collapsable
 - add random uniform stochasticity editor
 - use expressions for plots, improve plot: name for plot and name for y-axis, allow colours to be defined for plot
 - define function parameters as entities (not types), sort parameters of functions
@@ -42,29 +40,39 @@ TODO list for development of ODD2Netlogo
 - use textgen base components in order to simplify textgen
 - make dataCollection more uniform
 - Categorical should refer to the category collection (enumeration).
+- typing of expressions
+- move [stop] out of generation for end condition
+- improve folding
+- indent in spawn is missing - spawn should also better be called "clone"
+-	Fix the editor for simulation end.
 
 TODO for Martin
-- make editor for expressions
-- create user instructions and insert option list in the scheduling and the procedure editor
-- ensure that the cursor does not go to titles of sections and subsections but goes to where the specification should be inputted (Made Titles nonselectable, but cursor placement is not addressed)
-- ensure that when the user creates something, she needs to press ENTER and when she selects an option for an existing specification , she needs to press control and space
-- proper indent in editor (see condionalAction)
 - use base styles consistently in editor
-- adjust virtual packages for editor and other aspects to match packages in structure
-- copy documentation 2019 and earlier into git: papers, reports 445, ...
-- good editor for optional parts: boolean attributes - should have a text for present and another text for not present
+- ensure that folders in the editor and other aspects to match folders in structure
 - introduce proper constraints for names
   - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
   - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
-- localize codegen
-- typing of expressions
-- move [stop] out of generation for end condition
 - sort between github and tools.uia version and remove the tools.uia version
-- fix selection of agent and UI generally
-- fix focus (init vs. entities)
-- make names (and other properties) showing in multiple places R/O model access. (Tried, but introduces more problems than it solves, as focus is redirected to a read-only cell)
-- in editor allow sections to be folded (i.e. shown as just one line with the option to unfold)
-- indent in spawn is missing - spawn should also better be called "clone"
+- Make boxes (eg add new entity) visible in all cases.
+- Create boxes for activities
+
+
+TODO Student project
+- create user instructions for activities
+- localize codegen
+- ensure that the cursor goes to where the specification should be inputted 
+- Editor – fix the cursor issue  make the cursor go to the spaces
+- Editor- create some decriptions (the ones that are not already there)
+- Create instructions for editor in Synthetic Attributes
+- When we create something it is automatically given a name- unnamed action, unnamed entity, remove the option unnamed. Also there should be the instruction insert name here in all possible locations and not only in 1 or 2 . So we should not see no name
+- Constraints- constrain options in the context menu
+- Constrain- color can only be used for 1 type of entity (either entity or environment entity)
+- Introduce unit test 
+
+
+Check this todo
+- copy documentation 2019 and earlier into git: papers, reports 445, ...
+
 
 TODO later and larger
 - create predefined UDAs shape, size, colour
