@@ -125,6 +125,7 @@
         <name>odd2netlogo</name>
         <version>1.0</version>
         <depends>jetbrains.mps.core</depends>
+        <depends>de.slisson.mps.editor.multiline</depends>
         <depends>com.intellij.modules.platform</depends>
         
         <extensions defaultExtensionNs="com.intellij">

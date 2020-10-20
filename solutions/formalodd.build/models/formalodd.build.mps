@@ -588,6 +588,9 @@
       <node concept="m$_yC" id="6mCZXizuXSk" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
+      <node concept="m$_yC" id="4C0fQ2OvjuN" role="m$_yJ">
+        <ref role="m$_y1" to="90a9:31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
+      </node>
       <node concept="3_J27D" id="6mCZXizuXSl" role="m_cZH">
         <node concept="3Mxwew" id="6mCZXizuXSm" role="3MwsjC">
           <property role="3MwjfP" value="odd2netlogo" />

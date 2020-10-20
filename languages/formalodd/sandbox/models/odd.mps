@@ -199,7 +199,6 @@
       <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
         <property id="84585932964718997" name="description" index="QtYJw" />
-        <child id="8766909380338830514" name="initialisation" index="2oy9Oj" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
@@ -215,7 +214,6 @@
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
-        <child id="7351747083731037866" name="attributesInit" index="qiWAJ" />
         <child id="1477363848325697848" name="entitiesInit" index="2zXruJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
@@ -225,14 +223,15 @@
         <child id="5813355112907901457" name="scales" index="3EJEmX" />
         <child id="2469205658733998759" name="rationale" index="3Ovhfh" />
         <child id="8931575016887347252" name="environmentAttributes" index="1XCrKs" />
+        <child id="5332331643385450162" name="attributesInit" index="3Y$b7i" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
         <child id="3629783491437474269" name="userDefinedAttributes" index="2gUEk7" />
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
-        <child id="7004962584149187337" name="initAttributes" index="1saZHi" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
+        <child id="5332331643385450176" name="initAttributes" index="3Y$b6w" />
       </concept>
       <concept id="3840659476812056016" name="formalodd.structure.Coordinates" flags="ng" index="ZOwqy">
         <property id="3840659476812056019" name="y" index="ZOwqx" />
@@ -333,6 +332,10 @@
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
         <child id="2146025148701641578" name="actuals" index="2QCFRE" />
       </concept>
+      <concept id="5332331643385439053" name="formalodd.structure.AttributeInit" flags="ng" index="3Y$5KH">
+        <reference id="5332331643385439054" name="attribute" index="3Y$5KI" />
+        <child id="5332331643385439056" name="initialisation" index="3Y$5KK" />
+      </concept>
       <concept id="698589177998537362" name="formalodd.structure.DesignConcepts" flags="ng" index="3Zeh6P">
         <child id="698589177998537380" name="emergence" index="3Zeh63" />
         <child id="698589177998537389" name="prediction" index="3Zeh6a" />
@@ -366,14 +369,6 @@
         <node concept="ZOwpH" id="64QC5GXDXVb" role="2gUEkT">
           <property role="TrG5h" value="nnn-a" />
           <node concept="ZOwps" id="64QC5GXDXVf" role="zGXb3" />
-          <node concept="2jQCjV" id="64QC5GXDYrA" role="2oy9Oj">
-            <node concept="2oK_Am" id="64QC5GXDYrG" role="2jQCjS">
-              <property role="2oK_Ap" value="0" />
-            </node>
-            <node concept="2oK_Am" id="64QC5GXDYrJ" role="2jQCjT">
-              <property role="2oK_Ap" value="10" />
-            </node>
-          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="1jC05GNft6w" role="25gc1v">
@@ -385,14 +380,6 @@
         <property role="TrG5h" value="hunger" />
         <property role="QtYJw" value="if the entity is hungry" />
         <node concept="ZOwps" id="1i0DDuSpYH3" role="zGXb3" />
-        <node concept="2jQCjV" id="64QC5GXDYrM" role="2oy9Oj">
-          <node concept="2oK_Am" id="64QC5GXDYs9" role="2jQCjS">
-            <property role="2oK_Ap" value="0" />
-          </node>
-          <node concept="2oK_Am" id="64QC5GXDYsc" role="2jQCjT">
-            <property role="2oK_Ap" value="10" />
-          </node>
-        </node>
       </node>
       <node concept="3Ovhfo" id="1jC05GNfsI0" role="3Ovhfh">
         <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -429,9 +416,6 @@
       </node>
       <node concept="ZOwpH" id="24yfUKskJQh" role="1XCrKs">
         <property role="TrG5h" value="helo" />
-        <node concept="2oK_Am" id="24yfUKsAH8j" role="2oy9Oj">
-          <property role="2oK_Ap" value="10" />
-        </node>
         <node concept="ZOwps" id="3M5MOtLapCO" role="zGXb3" />
       </node>
       <node concept="ZOwpW" id="qdXC$xsGMq" role="ZOwpT">
@@ -441,9 +425,6 @@
           <property role="TrG5h" value="leap length" />
           <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="7eFC9EokzbQ" role="zGXb3" />
-          <node concept="2oK_Am" id="I1KRVZH7nB" role="2oy9Oj">
-            <property role="2oK_Ap" value="10" />
-          </node>
         </node>
         <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$XpM/green" />
@@ -465,15 +446,6 @@
           <node concept="ZOwps" id="5wSz0kzyecS" role="zGXb3" />
         </node>
         <node concept="RFdHg" id="7Y7DVQi$r2u" role="RFdH4" />
-        <node concept="26lliW" id="64QC5GXdT_9" role="1saZHi">
-          <ref role="26lliz" node="7eFC9EokzbM" resolve="leap length" />
-        </node>
-        <node concept="26lliW" id="64QC5GXdT_c" role="1saZHi">
-          <ref role="26lliz" node="7eFC9Ep4KXv" resolve="unnamed attribute0" />
-        </node>
-        <node concept="26lliW" id="64QC5GXdT_g" role="1saZHi">
-          <ref role="26lliz" node="5wSz0kzyecF" resolve="unnamed attribute2" />
-        </node>
         <node concept="3Ovhfo" id="1i0DDuQOW_3" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="1i0DDuQOW_7" role="2IGf3i">
@@ -483,6 +455,18 @@
             <property role="XAmFg" value="and below so that I know what this text is about." />
           </node>
         </node>
+        <node concept="3Y$5KH" id="4C0fQ2OCWWi" role="3Y$b6w">
+          <ref role="3Y$5KI" node="7eFC9EokzbM" resolve="leap length" />
+          <node concept="2oK_Am" id="4C0fQ2OGXrR" role="3Y$5KK">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+        <node concept="3Y$5KH" id="4C0fQ2OCWWk" role="3Y$b6w">
+          <ref role="3Y$5KI" node="7eFC9Ep4KXv" resolve="unnamed attribute0" />
+        </node>
+        <node concept="3Y$5KH" id="4C0fQ2OCWWn" role="3Y$b6w">
+          <ref role="3Y$5KI" node="5wSz0kzyecF" resolve="unnamed attribute2" />
+        </node>
       </node>
       <node concept="ZOwpW" id="7eFC9Eoo2B2" role="ZOwpT">
         <property role="TrG5h" value="lizard" />
@@ -491,44 +475,20 @@
           <property role="TrG5h" value="some attribute" />
           <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="166q1IL2R3W" role="zGXb3" />
-          <node concept="21jJIL" id="166q1IL2R3Z" role="2oy9Oj">
+        </node>
+        <node concept="2oK_Am" id="7eFC9Eoo2Bd" role="RIgNU">
+          <property role="2oK_Ap" value="10" />
+        </node>
+        <node concept="RFdHg" id="7eFC9Eoo2Bf" role="RFdH4" />
+        <node concept="3Y$5KH" id="4C0fQ2OCWWg" role="3Y$b6w">
+          <ref role="3Y$5KI" node="166q1IL2R3S" resolve="some attribute" />
+          <node concept="21jJIL" id="4C0fQ2OGXss" role="3Y$5KK">
             <property role="21jJIY" value="0" />
             <property role="21jJI7" value="5" />
             <property role="21jJIV" value="30" />
             <property role="2rHBro" value="5" />
           </node>
         </node>
-        <node concept="2oK_Am" id="7eFC9Eoo2Bd" role="RIgNU">
-          <property role="2oK_Ap" value="10" />
-        </node>
-        <node concept="RFdHg" id="7eFC9Eoo2Bf" role="RFdH4" />
-        <node concept="26lliW" id="64QC5GXdT_5" role="1saZHi">
-          <ref role="26lliz" node="166q1IL2R3S" resolve="some attribute" />
-        </node>
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Vg" role="qiWAJ">
-        <ref role="26lliz" node="166q1IL2R3S" resolve="some attribute" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Wt" role="qiWAJ">
-        <ref role="26lliz" node="7eFC9EokzbM" resolve="leap length" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Wx" role="qiWAJ">
-        <ref role="26lliz" node="1jC05GNft6B" resolve="hunger" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8WA" role="qiWAJ">
-        <ref role="26lliz" node="1jC05GNft6w" resolve="health" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8WG" role="qiWAJ">
-        <ref role="26lliz" node="7eFC9Ep4KXv" resolve="unnamed attribute0" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8WN" role="qiWAJ">
-        <ref role="26lliz" node="24yfUKskJQh" resolve="helo" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8WV" role="qiWAJ">
-        <ref role="26lliz" node="5wSz0kzyecF" resolve="unnamed attribute2" />
-      </node>
-      <node concept="26lliW" id="64QC5GXDYrS" role="qiWAJ">
-        <ref role="26lliz" node="64QC5GXDXVb" resolve="nnn-a" />
       </node>
       <node concept="26lliW" id="64QC5GXDYs2" role="1shrDG">
         <ref role="26lliz" node="1jC05GNft6B" resolve="hunger" />
@@ -571,6 +531,49 @@
       </node>
       <node concept="q1XHF" id="1i0DDuScWxx" role="2zXruJ">
         <ref role="q1XHE" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9y" role="3Y$b7i">
+        <ref role="3Y$5KI" node="166q1IL2R3S" resolve="some attribute" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9$" role="3Y$b7i">
+        <ref role="3Y$5KI" node="64QC5GXDXVb" resolve="nnn-a" />
+        <node concept="2jQCjV" id="4C0fQ2P1IDP" role="3Y$5KK">
+          <node concept="2oK_Am" id="4C0fQ2P1IDQ" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="2oK_Am" id="4C0fQ2P1IDR" role="2jQCjT">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9B" role="3Y$b7i">
+        <ref role="3Y$5KI" node="7eFC9EokzbM" resolve="leap length" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9F" role="3Y$b7i">
+        <ref role="3Y$5KI" node="1jC05GNft6B" resolve="hunger" />
+        <node concept="2jQCjV" id="64QC5GXDYrM" role="3Y$5KK">
+          <node concept="2oK_Am" id="64QC5GXDYs9" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="2oK_Am" id="64QC5GXDYsc" role="2jQCjT">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9K" role="3Y$b7i">
+        <ref role="3Y$5KI" node="1jC05GNft6w" resolve="health" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9Q" role="3Y$b7i">
+        <ref role="3Y$5KI" node="7eFC9Ep4KXv" resolve="unnamed attribute0" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9X" role="3Y$b7i">
+        <ref role="3Y$5KI" node="24yfUKskJQh" resolve="helo" />
+        <node concept="2oK_Am" id="4C0fQ2P1IDM" role="3Y$5KK">
+          <property role="2oK_Ap" value="10" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJa5" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5wSz0kzyecF" resolve="unnamed attribute2" />
       </node>
     </node>
     <node concept="3Ovhds" id="7eFC9Ep51ms" role="1BQTrk">
@@ -952,66 +955,31 @@
         <property role="TrG5h" value="grass-amount" />
         <property role="QtYJw" value="patches have grass" />
         <node concept="ZOwps" id="6o6DKlXk0oX" role="zGXb3" />
-        <node concept="2jQCjV" id="6o6DKlXk0p4" role="2oy9Oj">
-          <node concept="2oK_Am" id="6o6DKlXk0pa" role="2jQCjS">
-            <property role="2oK_Ap" value="0" />
-          </node>
-          <node concept="2oK_Am" id="6o6DKlXk0pd" role="2jQCjT">
-            <property role="2oK_Ap" value="10" />
-          </node>
-        </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmH" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-sheep" />
         <property role="QtYJw" value="energy that wolf gets from eating sheep" />
         <node concept="ZOwps" id="3M5MOtLapCI" role="zGXb3" />
-        <node concept="21jJIL" id="3M5MOtLfgXN" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="10" />
-          <property role="2rHBro" value="3.5" />
-        </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmT" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-grass" />
         <property role="QtYJw" value="energy that sheep gets from eating grass" />
         <node concept="ZOwps" id="4GwBkRvkmU" role="zGXb3" />
-        <node concept="21jJIL" id="4GwBkRvkmV" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="2" />
-          <property role="2rHBro" value="1.7" />
-          <property role="21jJI7" value="0.1" />
-        </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkn6" role="Qgzvn">
         <property role="TrG5h" value="grass-regrowth-rate" />
         <property role="QtYJw" value="rate at which grass is regrowing" />
-        <node concept="21jJIL" id="4GwBkRvkn7" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="2" />
-          <property role="2rHBro" value="0.3" />
-          <property role="21jJI7" value="0.1" />
-        </node>
         <node concept="ZOwps" id="4GwBkRvkn8" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6o6DKlXk0pC" role="Qgzvn">
         <property role="TrG5h" value="movement-cost" />
         <property role="QtYJw" value="cost of moving for wolves and sheep" />
         <node concept="ZOwps" id="6o6DKlXk0pV" role="zGXb3" />
-        <node concept="21jJIL" id="6o6DKlXk0pY" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="2" />
-          <property role="2rHBro" value="0.4" />
-        </node>
       </node>
       <node concept="ZOwpH" id="6ow5IfzpoId" role="25gc1v">
         <property role="TrG5h" value="energy" />
         <property role="QtYJw" value="agents own energy" />
         <node concept="ZOwps" id="3M5MOtLapCL" role="zGXb3" />
-        <node concept="2oK_Am" id="6o6DKlXk0pw" role="2oy9Oj">
-          <property role="2oK_Ap" value="100" />
-        </node>
       </node>
       <node concept="ZOwrm" id="1LeTgidqm5Z" role="2kDK73">
         <property role="TrG5h" value="grass" />
@@ -1059,24 +1027,6 @@
           <property role="21jJI7" value="1" />
         </node>
       </node>
-      <node concept="26lliW" id="2gJyhPFz8UJ" role="qiWAJ">
-        <ref role="26lliz" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8UL" role="qiWAJ">
-        <ref role="26lliz" node="4GwBkRvkn6" resolve="grass-regrowth-rate" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8UO" role="qiWAJ">
-        <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8US" role="qiWAJ">
-        <ref role="26lliz" node="6o6DKlXk0pC" resolve="movement-cost" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8V3" role="qiWAJ">
-        <ref role="26lliz" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
-      </node>
-      <node concept="26lliW" id="64QC5GXz7XP" role="qiWAJ">
-        <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
-      </node>
       <node concept="26lliW" id="64QC5GXAPEa" role="1shrDG">
         <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
       </node>
@@ -1088,6 +1038,59 @@
       </node>
       <node concept="2zkEhW" id="1i0DDuRZJeT" role="2zXruJ">
         <ref role="2zkEhU" node="qdXC$xz0Qv" resolve="sheep" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJag" role="3Y$b7i">
+        <ref role="3Y$5KI" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
+        <node concept="21jJIL" id="4GwBkRvkmV" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="2" />
+          <property role="2rHBro" value="1.7" />
+          <property role="21jJI7" value="0.1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJai" role="3Y$b7i">
+        <ref role="3Y$5KI" node="4GwBkRvkn6" resolve="grass-regrowth-rate" />
+        <node concept="21jJIL" id="4GwBkRvkn7" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="2" />
+          <property role="2rHBro" value="0.3" />
+          <property role="21jJI7" value="0.1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJal" role="3Y$b7i">
+        <ref role="3Y$5KI" node="6ow5IfzpoId" resolve="energy" />
+        <node concept="2oK_Am" id="4C0fQ2P1ICY" role="3Y$5KK">
+          <property role="2oK_Ap" value="100" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJap" role="3Y$b7i">
+        <ref role="3Y$5KI" node="6o6DKlXk0pC" resolve="movement-cost" />
+        <node concept="21jJIL" id="6o6DKlXk0pY" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.1" />
+          <property role="21jJIV" value="2" />
+          <property role="2rHBro" value="0.4" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJau" role="3Y$b7i">
+        <ref role="3Y$5KI" node="6o6DKlXk0oP" resolve="grass-amount" />
+        <node concept="2jQCjV" id="6o6DKlXk0p4" role="3Y$5KK">
+          <node concept="2oK_Am" id="6o6DKlXk0pa" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="2oK_Am" id="6o6DKlXk0pd" role="2jQCjT">
+            <property role="2oK_Ap" value="10" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJa$" role="3Y$b7i">
+        <ref role="3Y$5KI" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
+        <node concept="21jJIL" id="3M5MOtLfgXN" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.1" />
+          <property role="21jJIV" value="10" />
+          <property role="2rHBro" value="3.5" />
+        </node>
       </node>
     </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
@@ -1294,12 +1297,6 @@
       <node concept="ZOwpH" id="39v_dEyLZBh" role="1XCrKs">
         <property role="TrG5h" value="materials" />
         <node concept="ZOwps" id="39v_dEyLZBi" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyLZBj" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="5" />
-        </node>
       </node>
       <node concept="ZOwrm" id="7MNWMNCnG0T" role="2kDK73">
         <property role="TrG5h" value="Trees" />
@@ -1330,9 +1327,6 @@
           <property role="ZOwrO" value="22rmwLH$XmI/grey" />
         </node>
       </node>
-      <node concept="26lliW" id="2gJyhPFz8Va" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyLZBh" resolve="materials" />
-      </node>
       <node concept="2lNc1w" id="1i0DDuRwnRR" role="2zXruJ">
         <ref role="8YSiZ" node="7MNWMNCnG1g" resolve="Fire" />
       </node>
@@ -1350,6 +1344,15 @@
       </node>
       <node concept="q1XHF" id="1i0DDuScWwm" role="2zXruJ">
         <ref role="q1XHE" node="7MNWMNCnG0T" resolve="Trees" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJaF" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyLZBh" resolve="materials" />
+        <node concept="21jJIL" id="4C0fQ2OXJaM" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="50" />
+          <property role="21jJI7" value="5" />
+        </node>
       </node>
     </node>
     <node concept="2lMhBk" id="1r3mgtJEVpk" role="2J7coG">
@@ -1549,12 +1552,6 @@
       <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
         <property role="TrG5h" value="similar-nearby-wanted" />
         <node concept="ZOwps" id="6dSewhkDZHV" role="zGXb3" />
-        <node concept="21jJIL" id="6dSewhkDZHY" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="20" />
-        </node>
       </node>
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
         <property role="TrG5h" value="blue-group" />
@@ -1590,9 +1587,6 @@
           <property role="21jJI7" value="5" />
         </node>
       </node>
-      <node concept="26lliW" id="2gJyhPFz8Wk" role="qiWAJ">
-        <ref role="26lliz" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
-      </node>
       <node concept="2lNc1w" id="1i0DDuRwnS5" role="2zXruJ">
         <ref role="8YSiZ" node="qdXC$ygXa8" resolve="blue-group" />
       </node>
@@ -1605,8 +1599,17 @@
       <node concept="2zkEhW" id="1i0DDuScWwE" role="2zXruJ">
         <ref role="2zkEhU" node="qdXC$ygXaQ" resolve="red-group" />
       </node>
-      <node concept="26lliW" id="I1KRVYqSZk" role="qiWAJ">
-        <ref role="26lliz" node="I1KRVYqSZ8" resolve="happyDummy" />
+      <node concept="3Y$5KH" id="4C0fQ2OXJaH" role="3Y$b7i">
+        <ref role="3Y$5KI" node="I1KRVYqSZ8" resolve="happyDummy" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJaJ" role="3Y$b7i">
+        <ref role="3Y$5KI" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
+        <node concept="21jJIL" id="4C0fQ2P1Iq$" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="50" />
+          <property role="21jJI7" value="20" />
+        </node>
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
@@ -1772,9 +1775,6 @@
         <node concept="ZOwpH" id="4qxfPPOMPu1" role="2gUEk7">
           <property role="TrG5h" value="energy" />
           <node concept="ZOwps" id="4qxfPPOMPuc" role="zGXb3" />
-          <node concept="2oK_Am" id="4qxfPPOMPuh" role="2oy9Oj">
-            <property role="2oK_Ap" value="100" />
-          </node>
         </node>
         <node concept="ZOwrR" id="35QCLExIhs6" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
@@ -1787,12 +1787,12 @@
           <property role="2oK_Ap" value="10" />
         </node>
         <node concept="RFdHg" id="7y2oNvCqeb" role="RFdH4" />
-        <node concept="26lliW" id="64QC5GXdT_2" role="1saZHi">
-          <ref role="26lliz" node="4qxfPPOMPu1" resolve="energy" />
+        <node concept="3Y$5KH" id="4C0fQ2OCWWe" role="3Y$b6w">
+          <ref role="3Y$5KI" node="4qxfPPOMPu1" resolve="energy" />
+          <node concept="2oK_Am" id="4C0fQ2OGXrP" role="3Y$5KK">
+            <property role="2oK_Ap" value="100" />
+          </node>
         </node>
-      </node>
-      <node concept="26lliW" id="64QC5GXajl7" role="qiWAJ">
-        <ref role="26lliz" node="4qxfPPOMPu1" resolve="energy" />
       </node>
       <node concept="2lNc1w" id="1i0DDuRwnS0" role="2zXruJ">
         <ref role="8YSiZ" node="35QCLExIhs4" resolve="Fire" />
@@ -1805,6 +1805,9 @@
       </node>
       <node concept="q1XHF" id="1i0DDuScWwx" role="2zXruJ">
         <ref role="q1XHE" node="24yfUKsi0Xo" resolve="Tree" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJae" role="3Y$b7i">
+        <ref role="3Y$5KI" node="4qxfPPOMPu1" resolve="energy" />
       </node>
     </node>
     <node concept="2lMhBk" id="35QCLExIslu" role="2J7coG">
@@ -1848,12 +1851,6 @@
       <ref role="1sMRUI" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
     </node>
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
-      <node concept="26lliW" id="2gJyhPFsbJZ" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCAps" resolve="num-external-characteristics" />
-      </node>
-      <node concept="26lliW" id="6o6DKlWpO7x" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApp" resolve="num-internal-characteristics" />
-      </node>
       <node concept="RZfIr" id="6iw2eE30koM" role="3AlXHa">
         <property role="TrG5h" value="exclusion-index" />
         <node concept="i7gn5" id="6iw2eE30koN" role="RZfIc">
@@ -1958,16 +1955,6 @@
             <property role="354mTV" value="1" />
           </node>
         </node>
-        <node concept="ZOwoP" id="4GwBkQJqql" role="2oy9Oj">
-          <node concept="26lliW" id="39v_dEyCArO" role="R_6SO">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
-          </node>
-          <node concept="26lliW" id="39v_dEyCAsc" role="R_6SQ">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="2cIMoagOchs" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagOchu" role="2IGf3i">
@@ -1988,16 +1975,6 @@
             <property role="354mTV" value="1" />
           </node>
         </node>
-        <node concept="ZOwoP" id="4GwBkQJqq_" role="2oy9Oj">
-          <node concept="26lliW" id="39v_dEyCArR" role="R_6SO">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
-          </node>
-          <node concept="26lliW" id="39v_dEyCAsf" role="R_6SQ">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="2cIMoagOchI" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagOchK" role="2IGf3i">
@@ -2009,14 +1986,6 @@
         <property role="TrG5h" value="tolerance" />
         <property role="QtYJw" value="this number reflects half the range for accepting char as positive, with middle value the IDM" />
         <node concept="ZOwps" id="3M5MOtLapCC" role="zGXb3" />
-        <node concept="2jQCjV" id="6iw2eE5$bLM" role="2oy9Oj">
-          <node concept="2oK_Am" id="6iw2eE5$bLS" role="2jQCjS">
-            <property role="2oK_Ap" value="0" />
-          </node>
-          <node concept="26lliW" id="6iw2eE5$bLV" role="2jQCjT">
-            <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="2cIMoagOci1" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="2cIMoagOci3" role="2IGf3i">
@@ -2028,9 +1997,6 @@
         <property role="TrG5h" value="#positive-interactions" />
         <property role="QtYJw" value="the number of positive interactions for a student so far" />
         <node concept="ZOwps" id="5yfUVbwl$3u" role="zGXb3" />
-        <node concept="2oK_Am" id="5AVjrpZ0i3n" role="2oy9Oj">
-          <property role="2oK_Ap" value="0" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagOcil" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="2cIMoagOcin" role="2IGf3i">
@@ -2042,9 +2008,6 @@
         <property role="TrG5h" value="#negative-interactions" />
         <property role="QtYJw" value="the number of negative interactions for a student so far" />
         <node concept="ZOwps" id="5yfUVbwl$3k" role="zGXb3" />
-        <node concept="2oK_Am" id="5AVjrpZ0i3p" role="2oy9Oj">
-          <property role="2oK_Ap" value="0" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagOdpx" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="2cIMoagOdpz" role="2IGf3i">
@@ -2056,9 +2019,6 @@
         <property role="TrG5h" value="#refused-interactions" />
         <property role="QtYJw" value="the number of refused interactions for a student so far" />
         <node concept="ZOwps" id="5yfUVbwl$2L" role="zGXb3" />
-        <node concept="2oK_Am" id="5AVjrpZ0i3r" role="2oy9Oj">
-          <property role="2oK_Ap" value="0" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagOdpR" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagOdpT" role="2IGf3i">
@@ -2077,14 +2037,6 @@
           <node concept="354mTO" id="6iw2eE5pPgH" role="3xZm6h">
             <property role="354mTX" value="0" />
             <property role="354mTV" value="1" />
-          </node>
-        </node>
-        <node concept="ZOwoP" id="1R8dC2ECY58" role="2oy9Oj">
-          <node concept="26lliW" id="3oOohpnpIXK" role="R_6SO">
-            <ref role="26lliz" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
-          </node>
-          <node concept="2oK_Am" id="6iw2eE5ipdK" role="R_6SQ">
-            <property role="2oK_Ap" value="0" />
           </node>
         </node>
         <node concept="3Ovhfo" id="64QC5GYcxxm" role="1sMRTs">
@@ -2107,14 +2059,6 @@
             <property role="354mTV" value="1" />
           </node>
         </node>
-        <node concept="ZOwoP" id="6iw2eE5ipdN" role="2oy9Oj">
-          <node concept="26lliW" id="3oOohpnpIXH" role="R_6SO">
-            <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
-          </node>
-          <node concept="2oK_Am" id="6iw2eE5ipdP" role="R_6SQ">
-            <property role="2oK_Ap" value="0" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="64QC5GYFAKN" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="64QC5GYFAKP" role="2IGf3i">
@@ -2125,12 +2069,6 @@
       <node concept="ZOwpH" id="39v_dEyCApp" role="Qgzvn">
         <property role="TrG5h" value="num-internal-characteristics" />
         <property role="QtYJw" value="number of internal characteristics" />
-        <node concept="21jJIL" id="39v_dEyCApq" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="10" />
-          <property role="21jJI7" value="1" />
-        </node>
         <node concept="ZOwps" id="39v_dEyCApr" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq43" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -2143,12 +2081,6 @@
         <property role="TrG5h" value="num-external-characteristics" />
         <property role="QtYJw" value="number of external chracteristics" />
         <node concept="ZOwps" id="39v_dEyCApt" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApu" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="10" />
-          <property role="21jJI7" value="1" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq47" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagJq49" role="2IGf3i">
@@ -2160,12 +2092,6 @@
         <property role="TrG5h" value="average-characteristic" />
         <property role="QtYJw" value="average value of characteristics" />
         <node concept="ZOwps" id="39v_dEyCApw" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApx" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.01" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.8" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq4b" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagJq4p" role="2IGf3i">
@@ -2177,12 +2103,6 @@
         <property role="TrG5h" value="standard-deviation-characteristic" />
         <property role="QtYJw" value="standard deviation of values of characteristics" />
         <node concept="ZOwps" id="39v_dEyCApz" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCAp$" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.01" />
-          <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.25" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq4y" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagJq4$" role="2IGf3i">
@@ -2194,12 +2114,6 @@
         <property role="TrG5h" value="attitude" />
         <property role="QtYJw" value="initial attraction between students" />
         <node concept="ZOwps" id="h2iSnEfCzK" role="zGXb3" />
-        <node concept="21jJIL" id="h2iSnEfCzP" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="0.7" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq4I" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagJq4K" role="2IGf3i">
@@ -2211,12 +2125,6 @@
         <property role="TrG5h" value="max-judgment" />
         <property role="QtYJw" value="setting up tolerance value for each student" />
         <node concept="ZOwps" id="39v_dEyCApD" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApE" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.05" />
-          <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.3" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq4V" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagJq4X" role="2IGf3i">
@@ -2228,12 +2136,6 @@
         <property role="TrG5h" value="amount-learned-in-interaction" />
         <property role="QtYJw" value="speed of learning" />
         <node concept="ZOwps" id="39v_dEyCApG" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApH" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="20" />
-          <property role="2rHBro" value="1" />
-          <property role="21jJI7" value="1" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq59" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="2cIMoagJq5b" role="2IGf3i">
@@ -2245,12 +2147,6 @@
         <property role="TrG5h" value="attraction-change" />
         <property role="QtYJw" value="Level of attraction change in interactions" />
         <node concept="ZOwps" id="39v_dEyCApJ" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApK" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.05" />
-          <property role="21jJIV" value="0.5" />
-          <property role="2rHBro" value="0.1" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq5o" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="2cIMoagJq5q" role="2IGf3i">
@@ -2262,12 +2158,6 @@
         <property role="TrG5h" value="internal-ideal-characteristics" />
         <property role="QtYJw" value="initial internal characteristics" />
         <node concept="ZOwps" id="39v_dEyCApM" role="zGXb3" />
-        <node concept="21jJIL" id="39v_dEyCApN" role="2oy9Oj">
-          <property role="21jJIY" value="0" />
-          <property role="21jJI7" value="0.1" />
-          <property role="21jJIV" value="1" />
-          <property role="2rHBro" value="1" />
-        </node>
         <node concept="3Ovhfo" id="2cIMoagJq5C" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="2cIMoagJq5E" role="2IGf3i">
@@ -2329,9 +2219,6 @@
             <property role="354mTX" value="0" />
             <property role="354mTV" value="1" />
           </node>
-          <node concept="26lliW" id="h2iSnEfCzS" role="2oy9Oj">
-            <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
-          </node>
           <node concept="3Ovhfo" id="2cIMoagOdqe" role="1sMRTs">
             <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
             <node concept="XAmFv" id="2cIMoagOdqg" role="2IGf3i">
@@ -2342,7 +2229,6 @@
         <node concept="ZOwpH" id="5p5RAoTafl6" role="2gUEkT">
           <property role="TrG5h" value="known-indices" />
           <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
-          <node concept="1dm0fp" id="3M5MOtLUknb" role="2oy9Oj" />
           <node concept="2HHGdg" id="29jsdmfYwYB" role="zGXb3">
             <node concept="ZOwps" id="29jsdmfYwYH" role="2HHGdi" />
           </node>
@@ -2365,45 +2251,6 @@
           <property role="XAmFg" value="Each time step represents a day and therefore the simulation lasts 100 time steps, resembling thus a whole university semester. Space is not included in the model." />
         </node>
       </node>
-      <node concept="26lliW" id="2gJyhPFz8Pa" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Pl" role="qiWAJ">
-        <ref role="26lliz" node="4qxfPPPteTY" resolve="attraction" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Ps" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApI" resolve="attraction-change" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8P$" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8PH" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8PR" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Q2" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTafl6" resolve="known-indices" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Qe" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Qr" role="qiWAJ">
-        <ref role="26lliz" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8Rp" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8RF" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8RY" role="qiWAJ">
-        <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
-      </node>
-      <node concept="26lliW" id="2gJyhPFz8SB" role="qiWAJ">
-        <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
-      </node>
       <node concept="26lliW" id="64QC5GXAPHM" role="1shrDG">
         <ref role="26lliz" node="5p5RAoTaflD" resolve="internal-characteristics" />
       </node>
@@ -2419,26 +2266,182 @@
       <node concept="26lliW" id="64QC5GXAPI0" role="1shrDG">
         <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
       </node>
-      <node concept="26lliW" id="64QC5GXAPY7" role="qiWAJ">
-        <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPYL" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTaflh" resolve="tolerance" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAPZs" role="qiWAJ">
-        <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAQ08" role="qiWAJ">
-        <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
-      </node>
-      <node concept="26lliW" id="64QC5GXAQ0P" role="qiWAJ">
-        <ref role="26lliz" node="5p5RAoTaflx" resolve="external-characteristics" />
-      </node>
       <node concept="2zkEhT" id="1i0DDuRS7$u" role="2zXruJ">
         <ref role="2zkEhB" node="4qxfPPPteTW" resolve="university-relationship" />
       </node>
       <node concept="2zkEhW" id="1i0DDuRZJCV" role="2zXruJ">
         <ref role="2zkEhU" node="4xlWY3qEPkZ" resolve="student" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ5W" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApF" resolve="amount-learned-in-interaction" />
+        <node concept="21jJIL" id="4C0fQ2OXJbd" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="20" />
+          <property role="2rHBro" value="1" />
+          <property role="21jJI7" value="1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ5Y" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+        <node concept="2oK_Am" id="4C0fQ2OXJaU" role="3Y$5KK">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ61" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApI" resolve="attraction-change" />
+        <node concept="21jJIL" id="39v_dEyCApK" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.05" />
+          <property role="21jJIV" value="0.5" />
+          <property role="2rHBro" value="0.1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ65" role="3Y$b7i">
+        <ref role="3Y$5KI" node="4qxfPPPteTY" resolve="attraction" />
+        <node concept="26lliW" id="h2iSnEfCzS" role="3Y$5KK">
+          <ref role="26lliz" node="h2iSnEfCyG" resolve="attitude" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6a" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5p5RAoTaflD" resolve="internal-characteristics" />
+        <node concept="ZOwoP" id="4C0fQ2OXJaO" role="3Y$5KK">
+          <node concept="26lliW" id="4C0fQ2OXJaP" role="R_6SO">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+          </node>
+          <node concept="26lliW" id="4C0fQ2OXJaQ" role="R_6SQ">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6g" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5p5RAoTaflr" resolve="ideal-internal-characteristics" />
+        <node concept="ZOwoP" id="6iw2eE5ipdN" role="3Y$5KK">
+          <node concept="26lliW" id="3oOohpnpIXH" role="R_6SO">
+            <ref role="26lliz" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+          </node>
+          <node concept="2oK_Am" id="6iw2eE5ipdP" role="R_6SQ">
+            <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6n" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApv" resolve="average-characteristic" />
+        <node concept="21jJIL" id="39v_dEyCApx" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.01" />
+          <property role="21jJIV" value="1" />
+          <property role="2rHBro" value="0.8" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6v" role="3Y$b7i">
+        <ref role="3Y$5KI" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6C" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5p5RAoTafl6" resolve="known-indices" />
+        <node concept="1dm0fp" id="4C0fQ2P9A3V" role="3Y$5KK" />
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6M" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApL" resolve="internal-ideal-characteristics" />
+        <node concept="21jJIL" id="39v_dEyCApN" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.1" />
+          <property role="21jJIV" value="1" />
+          <property role="2rHBro" value="1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ6X" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5p5RAoTaflh" resolve="tolerance" />
+        <node concept="2jQCjV" id="6iw2eE5$bLM" role="3Y$5KK">
+          <node concept="2oK_Am" id="6iw2eE5$bLS" role="2jQCjS">
+            <property role="2oK_Ap" value="0" />
+          </node>
+          <node concept="26lliW" id="6iw2eE5$bLV" role="2jQCjT">
+            <ref role="26lliz" node="39v_dEyCApC" resolve="max-judgment" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ79" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5yfUVbwl$3g" resolve="#negative-interactions" />
+        <node concept="2oK_Am" id="4C0fQ2OXJaZ" role="3Y$5KK">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ7m" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApC" resolve="max-judgment" />
+        <node concept="21jJIL" id="39v_dEyCApE" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.05" />
+          <property role="21jJIV" value="0.5" />
+          <property role="2rHBro" value="0.3" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ7$" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+        <node concept="2oK_Am" id="4C0fQ2OXJb1" role="3Y$5KK">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ7N" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5p5RAoTafld" resolve="ideal-external-characteristics" />
+        <node concept="ZOwoP" id="1R8dC2ECY58" role="3Y$5KK">
+          <node concept="26lliW" id="3oOohpnpIXK" role="R_6SO">
+            <ref role="26lliz" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
+          </node>
+          <node concept="2oK_Am" id="6iw2eE5ipdK" role="R_6SQ">
+            <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ83" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApp" resolve="num-internal-characteristics" />
+        <node concept="21jJIL" id="4C0fQ2OXJbb" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="10" />
+          <property role="21jJI7" value="1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ8k" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCAps" resolve="num-external-characteristics" />
+        <node concept="21jJIL" id="4C0fQ2OXJb9" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJIV" value="100" />
+          <property role="2rHBro" value="10" />
+          <property role="21jJI7" value="1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ8A" role="3Y$b7i">
+        <ref role="3Y$5KI" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+        <node concept="21jJIL" id="39v_dEyCAp$" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.01" />
+          <property role="21jJIV" value="0.5" />
+          <property role="2rHBro" value="0.25" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ8T" role="3Y$b7i">
+        <ref role="3Y$5KI" node="5p5RAoTaflx" resolve="external-characteristics" />
+        <node concept="ZOwoP" id="4C0fQ2OXJb3" role="3Y$5KK">
+          <node concept="26lliW" id="4C0fQ2OXJb4" role="R_6SO">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <ref role="26lliz" node="39v_dEyCApv" resolve="average-characteristic" />
+          </node>
+          <node concept="26lliW" id="4C0fQ2OXJb5" role="R_6SQ">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <ref role="26lliz" node="39v_dEyCApy" resolve="standard-deviation-characteristic" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="4C0fQ2OXJ9d" role="3Y$b7i">
+        <ref role="3Y$5KI" node="h2iSnEfCyG" resolve="attitude" />
+        <node concept="21jJIL" id="h2iSnEfCzP" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.1" />
+          <property role="21jJIV" value="1" />
+          <property role="2rHBro" value="0.7" />
+        </node>
       </node>
     </node>
     <node concept="2kDK7K" id="7MNWMNCfI3e" role="2kDK7a">
