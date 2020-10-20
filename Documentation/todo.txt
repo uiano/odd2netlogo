@@ -20,6 +20,7 @@ TODO list for development of ODD2Netlogo
 - fix code Fire cf. Library
 - fix code FireAgents cf. Library
 - fix code Segregation cf. Library (why is occupied an interaction)
+- copy documentation 2019 and earlier into git: papers, reports 445, ...
 - remove boolean expressions and call them characterizations
 - recreate MARG and fix UI on the way
 - Improve and introduce (synthetic) characterizations (boolean).
@@ -68,7 +69,6 @@ TODO for Martin
 - Make boxes (eg add new entity) visible in all cases.
 - Create boxes for activities
 
-
 TODO Student project
 - create user instructions for activities
 - localize codegen
@@ -80,11 +80,6 @@ TODO Student project
 - Constraints- constrain options in the context menu
 - Constrain- color can only be used for 1 type of entity (either entity or environment entity)
 - Introduce unit test
-
-
-Check this todo
-- copy documentation 2019 and earlier into git: papers, reports 445, ...
-
 
 TODO later and larger
 - create predefined UDAs shape, size, colour
