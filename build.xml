@@ -109,6 +109,22 @@
     <copy todir="${build.layout}/plugins/git4idea">
       <fileset dir="${artifacts.mpsVcs}/git4idea" />
     </copy>
+    <mkdir dir="${build.layout}/plugins/mps-multiline" />
+    <copy todir="${build.layout}/plugins/mps-multiline">
+      <fileset dir="${artifacts.de.itemis.mps.extensions}/mps-multiline" />
+    </copy>
+    <mkdir dir="${build.layout}/plugins/lib" />
+    <copy todir="${build.layout}/plugins/lib">
+      <fileset dir="${artifacts.de.itemis.mps.extensions}/mps-multiline/lib" />
+    </copy>
+    <mkdir dir="${build.layout}/plugins/de.itemis.mps.extensions.build" />
+    <copy todir="${build.layout}/plugins/de.itemis.mps.extensions.build">
+      <fileset dir="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.extensions.build" />
+    </copy>
+    <mkdir dir="${build.layout}/plugins/de-itemis-mps-selection" />
+    <copy todir="${build.layout}/plugins/de-itemis-mps-selection">
+      <fileset dir="${artifacts.de.itemis.mps.extensions}/de-itemis-mps-selection" />
+    </copy>
     <mkdir dir="${build.layout}/plugins/mps-core" />
     <copy todir="${build.layout}/plugins/mps-core">
       <fileset dir="${artifacts.mpsStandalone}/plugins/mps-core" />

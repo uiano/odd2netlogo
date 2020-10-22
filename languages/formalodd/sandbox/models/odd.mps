@@ -2337,6 +2337,12 @@
       </node>
       <node concept="3Y$5KH" id="4C0fQ2OXJ6v" role="3Y$b7i">
         <ref role="3Y$5KI" node="2cIMoagOdqG" resolve="external-ideal-characteristics" />
+        <node concept="21jJIL" id="4C0fQ2Qbi8q" role="3Y$5KK">
+          <property role="21jJIY" value="0" />
+          <property role="21jJI7" value="0.1" />
+          <property role="21jJIV" value="1" />
+          <property role="2rHBro" value="1" />
+        </node>
       </node>
       <node concept="3Y$5KH" id="4C0fQ2OXJ6C" role="3Y$b7i">
         <ref role="3Y$5KI" node="5p5RAoTafl6" resolve="known-indices" />

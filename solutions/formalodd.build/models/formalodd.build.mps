@@ -522,6 +522,18 @@
         <node concept="3_I8Xc" id="6mCZXizuXSY" role="39821P">
           <ref role="3_I8Xa" to="ffeo:I6XuqH2zYV" resolve="git4idea" />
         </node>
+        <node concept="3_I8Xc" id="4C0fQ2PJvRA" role="39821P">
+          <ref role="3_I8Xa" to="90a9:4p3FRivDLPx" resolve="mps-multiline" />
+        </node>
+        <node concept="3_I8Xc" id="4C0fQ2PJvS$" role="39821P">
+          <ref role="3_I8Xa" to="90a9:3gBYXhg3Gtd" resolve="lib" />
+        </node>
+        <node concept="3_I8Xc" id="4C0fQ2Q7ldz" role="39821P">
+          <ref role="3_I8Xa" to="90a9:4hvHh3QWqH0" resolve="de.itemis.mps.extensions.build" />
+        </node>
+        <node concept="3_I8Xc" id="4C0fQ2Q7ldT" role="39821P">
+          <ref role="3_I8Xa" to="90a9:6Y0V2RJk5G9" resolve="de-itemis-mps-selection" />
+        </node>
         <node concept="3_I8Xc" id="6mCZXizuXSZ" role="39821P">
           <ref role="3_I8Xa" to="ffeo:4EdAnGErOtx" resolve="mps-core" />
         </node>
