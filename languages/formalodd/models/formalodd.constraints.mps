@@ -480,7 +480,7 @@
                   <node concept="2DD5aU" id="29jsdmfVYpf" role="2Oq$k0" />
                   <node concept="3O6GUB" id="29jsdmfVZ6P" role="2OqNvi">
                     <node concept="chp4Y" id="29jsdmfVZc7" role="3QVz_e">
-                      <ref role="cht4Q" to="86kt:29jsdmfTre5" resolve="TODO_Set" />
+                      <ref role="cht4Q" to="86kt:29jsdmfTre5" resolve="Set" />
                     </node>
                   </node>
                 </node>
@@ -498,7 +498,7 @@
                       <node concept="2DD5aU" id="5AVjrpYVPuy" role="2Oq$k0" />
                       <node concept="3O6GUB" id="5AVjrpYVQdk" role="2OqNvi">
                         <node concept="chp4Y" id="5AVjrpYVQjc" role="3QVz_e">
-                          <ref role="cht4Q" to="86kt:5p5RAoTaflN" resolve="TODO_Array" />
+                          <ref role="cht4Q" to="86kt:5p5RAoTaflN" resolve="Array" />
                         </node>
                       </node>
                     </node>
@@ -547,7 +547,7 @@
               </node>
               <node concept="1mIQ4w" id="29jsdmfY$O1" role="2OqNvi">
                 <node concept="chp4Y" id="29jsdmfY$SD" role="cj9EA">
-                  <ref role="cht4Q" to="86kt:29jsdmfTre5" resolve="TODO_Set" />
+                  <ref role="cht4Q" to="86kt:29jsdmfTre5" resolve="Set" />
                 </node>
               </node>
             </node>
@@ -560,7 +560,7 @@
               </node>
               <node concept="1mIQ4w" id="5AVjrpYYO3v" role="2OqNvi">
                 <node concept="chp4Y" id="5AVjrpYYO8O" role="cj9EA">
-                  <ref role="cht4Q" to="86kt:5p5RAoTaflN" resolve="TODO_Array" />
+                  <ref role="cht4Q" to="86kt:5p5RAoTaflN" resolve="Array" />
                 </node>
               </node>
             </node>
@@ -680,7 +680,7 @@
             <node concept="2DD5aU" id="3oOohppz$uv" role="2Oq$k0" />
             <node concept="3O6GUB" id="3oOohppz_bt" role="2OqNvi">
               <node concept="chp4Y" id="3oOohppz_go" role="3QVz_e">
-                <ref role="cht4Q" to="86kt:294onrmenaI" resolve="TODO_Rationale" />
+                <ref role="cht4Q" to="86kt:294onrmenaI" resolve="Rationale" />
               </node>
             </node>
           </node>
@@ -725,7 +725,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="7qp8jK7V$IP">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.Condition" />
     <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="QuantifiedCondition" />
     <node concept="1N5Pfh" id="7qp8jK7V$IQ" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5EtG2rOxekr" resolve="entity" />
@@ -735,7 +735,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="4HBtuojwpXB">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.Condition" />
     <ref role="1M2myG" to="86kt:24yfUKswWzw" resolve="TODO_ConditionWithSame" />
   </node>
   <node concept="1M2fIO" id="6efIhqTp5qJ">
@@ -795,7 +795,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="I1KRVVSZsY">
-    <property role="3GE5qa" value="TODO_Experiments" />
+    <property role="3GE5qa" value="Experiments" />
     <ref role="1M2myG" to="86kt:7j1C2e$5gqI" resolve="Characterization" />
     <node concept="9S07l" id="I1KRVVSZsZ" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVVSZt0" role="2VODD2">
@@ -814,7 +814,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVWSTSR">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:1R8dC2FFCN0" resolve="TODO_EntityAccess" />
+    <ref role="1M2myG" to="86kt:1R8dC2FFCN0" resolve="EntityAccess" />
     <node concept="1N5Pfh" id="I1KRVWSTSS" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:1R8dC2FFCN1" resolve="entity" />
       <node concept="1dDu$B" id="I1KRVWSTSU" role="1N6uqs">
@@ -824,7 +824,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVWVTPD">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:4GwBkQU3Kn" resolve="TODO_LetAccess" />
+    <ref role="1M2myG" to="86kt:4GwBkQU3Kn" resolve="LetAccess" />
     <node concept="1N5Pfh" id="I1KRVWVTPE" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:4GwBkQU3Ko" resolve="let" />
       <node concept="1dDu$B" id="I1KRVWVTPG" role="1N6uqs">
@@ -833,7 +833,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="I1KRVYbosa">
-    <property role="3GE5qa" value="Expressions.TODO_Condition" />
+    <property role="3GE5qa" value="Expressions.Condition" />
     <ref role="1M2myG" to="86kt:5yfUVbuMlWA" resolve="Comparison" />
     <node concept="9S07l" id="I1KRVYbosb" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVYbosc" role="2VODD2">
@@ -853,7 +853,7 @@
                   <node concept="nLn13" id="I1KRVYbpJ1" role="2Oq$k0" />
                   <node concept="1mIQ4w" id="I1KRVYbpJ2" role="2OqNvi">
                     <node concept="chp4Y" id="I1KRVYbpNU" role="cj9EA">
-                      <ref role="cht4Q" to="86kt:39v_dEytDLr" resolve="TODO_IfThenElse" />
+                      <ref role="cht4Q" to="86kt:39v_dEytDLr" resolve="IfThenElse" />
                     </node>
                   </node>
                 </node>
@@ -871,7 +871,7 @@
               <node concept="nLn13" id="I1KRVYhyQt" role="2Oq$k0" />
               <node concept="1mIQ4w" id="I1KRVYhyQu" role="2OqNvi">
                 <node concept="chp4Y" id="I1KRVYhyZO" role="cj9EA">
-                  <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="TODO_Function" />
+                  <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="Function" />
                 </node>
               </node>
             </node>
@@ -938,7 +938,7 @@
             <node concept="nLn13" id="I1KRVYMZ_8" role="2Oq$k0" />
             <node concept="1mIQ4w" id="I1KRVYMZPm" role="2OqNvi">
               <node concept="chp4Y" id="I1KRVYMZVf" role="cj9EA">
-                <ref role="cht4Q" to="86kt:39v_dEyE91d" resolve="TODO_SelectN" />
+                <ref role="cht4Q" to="86kt:39v_dEyE91d" resolve="SelectN" />
               </node>
             </node>
           </node>
@@ -948,7 +948,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVZ2jd0">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:39v_dEywMRR" resolve="TODO_Collect" />
+    <ref role="1M2myG" to="86kt:39v_dEywMRR" resolve="Collect" />
     <node concept="9S07l" id="I1KRVZ2jd1" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVZ2jd2" role="2VODD2">
         <node concept="3clFbF" id="I1KRVZ2jgW" role="3cqZAp">
@@ -966,7 +966,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVZ5lcX">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:39v_dExYdn4" resolve="TODO_ElementWise" />
+    <ref role="1M2myG" to="86kt:39v_dExYdn4" resolve="ElementWise" />
     <node concept="9S07l" id="I1KRVZ5lcY" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVZ5lcZ" role="2VODD2">
         <node concept="3clFbF" id="I1KRVZ5log" role="3cqZAp">
@@ -1002,7 +1002,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVZblUN">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:39v_dEytDLr" resolve="TODO_IfThenElse" />
+    <ref role="1M2myG" to="86kt:39v_dEytDLr" resolve="IfThenElse" />
     <node concept="9S07l" id="I1KRVZblUO" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVZblUP" role="2VODD2">
         <node concept="3clFbF" id="I1KRVZblYI" role="3cqZAp">
@@ -1010,7 +1010,7 @@
             <node concept="nLn13" id="I1KRVZblYK" role="2Oq$k0" />
             <node concept="1mIQ4w" id="I1KRVZblYL" role="2OqNvi">
               <node concept="chp4Y" id="I1KRVZbmaP" role="cj9EA">
-                <ref role="cht4Q" to="86kt:39v_dExYdn4" resolve="TODO_ElementWise" />
+                <ref role="cht4Q" to="86kt:39v_dExYdn4" resolve="ElementWise" />
               </node>
             </node>
           </node>
@@ -1020,7 +1020,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVZerhq">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:39v_dEyE91d" resolve="TODO_SelectN" />
+    <ref role="1M2myG" to="86kt:39v_dEyE91d" resolve="SelectN" />
     <node concept="9S07l" id="I1KRVZerhr" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVZerhs" role="2VODD2">
         <node concept="3clFbF" id="I1KRVZerll" role="3cqZAp">
@@ -1048,11 +1048,11 @@
   </node>
   <node concept="1M2fIO" id="I1KRVZnzgE">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:39v_dEy9jMj" resolve="TODO_FunctionCall" />
+    <ref role="1M2myG" to="86kt:39v_dEy9jMj" resolve="FunctionCall" />
     <node concept="1N5Pfh" id="I1KRVZnzgF" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:39v_dEy9jMk" resolve="function" />
       <node concept="1dDu$B" id="I1KRVZnzgH" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:39v_dExCF7n" resolve="TODO_Function" />
+        <ref role="1dDu$A" to="86kt:39v_dExCF7n" resolve="Function" />
       </node>
     </node>
   </node>

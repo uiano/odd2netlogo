@@ -528,17 +528,23 @@
         <node concept="3_I8Xc" id="4C0fQ2PJvS$" role="39821P">
           <ref role="3_I8Xa" to="90a9:3gBYXhg3Gtd" resolve="lib" />
         </node>
-        <node concept="3_I8Xc" id="4C0fQ2Q7ldz" role="39821P">
-          <ref role="3_I8Xa" to="90a9:4hvHh3QWqH0" resolve="de.itemis.mps.extensions.build" />
-        </node>
         <node concept="3_I8Xc" id="4C0fQ2Q7ldT" role="39821P">
           <ref role="3_I8Xa" to="90a9:6Y0V2RJk5G9" resolve="de-itemis-mps-selection" />
+        </node>
+        <node concept="3_I8Xc" id="4C0fQ2QjQMJ" role="39821P">
+          <ref role="3_I8Xa" to="90a9:5QhEsDNBgC7" resolve="de.itemis.mps.celllayout" />
+        </node>
+        <node concept="3_I8Xc" id="4C0fQ2QnNe_" role="39821P">
+          <ref role="3_I8Xa" to="90a9:2Xjt3l57guk" resolve="de.slisson.mps.hacks" />
         </node>
         <node concept="3_I8Xc" id="6mCZXizuXSZ" role="39821P">
           <ref role="3_I8Xa" to="ffeo:4EdAnGErOtx" resolve="mps-core" />
         </node>
         <node concept="3_I8Xc" id="6mCZXizuXT0" role="39821P">
           <ref role="3_I8Xa" to="ffeo:1x6h9EwqP32" resolve="mps-make" />
+        </node>
+        <node concept="3_I8Xc" id="4C0fQ2QjQNx" role="39821P">
+          <ref role="3_I8Xa" to="ffeo:6Z_3H2aReu$" resolve="jetbrains.mps.build.mps.runner.runtime.jar" />
         </node>
         <node concept="m$_wl" id="6mCZXizuXT1" role="39821P">
           <ref role="m_rDy" node="6mCZXizuXSe" resolve="odd2netlogo" />

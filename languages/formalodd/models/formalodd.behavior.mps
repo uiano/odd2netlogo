@@ -421,7 +421,7 @@
                   <node concept="2Rf3mk" id="I1KRVZqzA5" role="2OqNvi">
                     <node concept="1xMEDy" id="I1KRVZqzA6" role="1xVPHs">
                       <node concept="chp4Y" id="I1KRVZqzZ8" role="ri$Ld">
-                        <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="TODO_Function" />
+                        <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="Function" />
                       </node>
                     </node>
                   </node>
@@ -435,7 +435,7 @@
             </node>
             <node concept="2Zo12i" id="I1KRVZqzAa" role="2OqNvi">
               <node concept="chp4Y" id="I1KRVZqzYi" role="2Zo12j">
-                <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="TODO_Function" />
+                <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="Function" />
               </node>
             </node>
           </node>
@@ -1956,7 +1956,7 @@
   </node>
   <node concept="13h7C7" id="6iw2eE2UMgz">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="13h7C2" to="86kt:39v_dEx_GL8" resolve="TODO_Code" />
+    <ref role="13h7C2" to="86kt:39v_dEx_GL8" resolve="Code" />
     <node concept="13i0hz" id="6iw2eE2UMgI" role="13h7CS">
       <property role="TrG5h" value="isApplicableToAttr" />
       <node concept="3Tm1VV" id="6iw2eE2UMgJ" role="1B3o_S" />
@@ -2223,8 +2223,8 @@
     </node>
   </node>
   <node concept="13h7C7" id="3nK6aP_c5mH">
-    <property role="3GE5qa" value="TODO_Experiments" />
-    <ref role="13h7C2" to="86kt:7j1C2e$5gpp" resolve="DataCollection" />
+    <property role="3GE5qa" value="Experiments" />
+    <ref role="13h7C2" to="86kt:7j1C2e$5gpp" resolve="TODO_DataCollection" />
     <node concept="13i0hz" id="3nK6aP_c63F" role="13h7CS">
       <property role="TrG5h" value="getScope" />
       <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />
@@ -2312,7 +2312,7 @@
   </node>
   <node concept="13h7C7" id="3nK6aP_ivsr">
     <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="13h7C2" to="86kt:39v_dExCF7n" resolve="TODO_Function" />
+    <ref role="13h7C2" to="86kt:39v_dExCF7n" resolve="Function" />
     <node concept="13i0hz" id="3nK6aP_ivt1" role="13h7CS">
       <property role="TrG5h" value="getScope" />
       <ref role="13i0hy" to="tpcu:52_Geb4QDV$" resolve="getScope" />

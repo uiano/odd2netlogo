@@ -75,12 +75,12 @@
         <child id="3629783491417542690" name="from" index="2jQCjS" />
         <child id="3629783491417542691" name="to" index="2jQCjT" />
       </concept>
-      <concept id="3629783491419484631" name="formalodd.structure.TODO_Function" flags="ng" index="2jZikd">
+      <concept id="3629783491419484631" name="formalodd.structure.Function" flags="ng" index="2jZikd">
         <child id="3629783491419484634" name="result" index="2jZik0" />
         <child id="3629783491419484632" name="parameters" index="2jZik2" />
         <child id="3629783491419484637" name="locals" index="2jZik7" />
       </concept>
-      <concept id="3629783491419484641" name="formalodd.structure.TODO_Parameter" flags="ng" index="2jZikV">
+      <concept id="3629783491419484641" name="formalodd.structure.Parameter" flags="ng" index="2jZikV">
         <child id="3629783491419484644" name="type" index="2jZikY" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
@@ -232,10 +232,6 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
         <child id="5332331643385450176" name="initAttributes" index="3Y$b6w" />
-      </concept>
-      <concept id="3840659476812056016" name="formalodd.structure.Coordinates" flags="ng" index="ZOwqy">
-        <property id="3840659476812056019" name="y" index="ZOwqx" />
-        <property id="3840659476812056017" name="x" index="ZOwqz" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
@@ -409,10 +405,6 @@
       </node>
       <node concept="ZOwrm" id="7Y7DVQi$r3z" role="2kDK73">
         <property role="TrG5h" value="AnotherEnivonment" />
-        <node concept="ZOwqy" id="7Y7DVQi$r3F" role="2W_r1q">
-          <property role="ZOwqz" value="10" />
-          <property role="ZOwqx" value="200" />
-        </node>
       </node>
       <node concept="ZOwpH" id="24yfUKskJQh" role="1XCrKs">
         <property role="TrG5h" value="helo" />
@@ -529,9 +521,6 @@
       <node concept="2zkEhW" id="1i0DDuScWxl" role="2zXruJ">
         <ref role="2zkEhU" node="7eFC9Eoo2B2" resolve="lizard" />
       </node>
-      <node concept="q1XHF" id="1i0DDuScWxx" role="2zXruJ">
-        <ref role="q1XHE" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
-      </node>
       <node concept="3Y$5KH" id="4C0fQ2OXJ9y" role="3Y$b7i">
         <ref role="3Y$5KI" node="166q1IL2R3S" resolve="some attribute" />
       </node>
@@ -574,6 +563,9 @@
       </node>
       <node concept="3Y$5KH" id="4C0fQ2OXJa5" role="3Y$b7i">
         <ref role="3Y$5KI" node="5wSz0kzyecF" resolve="unnamed attribute2" />
+      </node>
+      <node concept="q1XHF" id="4C0fQ2Q$hY3" role="2zXruJ">
+        <ref role="q1XHE" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
       </node>
     </node>
     <node concept="3Ovhds" id="7eFC9Ep51ms" role="1BQTrk">

@@ -1,8 +1,6 @@
 TODO list for development of ODD2Netlogo
-- fix codegen init
-- check all concepts with TODO
 - put actions and functions into the same category
-- use range for regrow-grass (wolf sheep)
+- use rangeType for regrow-grass (wolf sheep)
 - make wolf-sheep work when eat-grass refers to environment grass
 - make rationales a separate concepts and move out of UDA and entity
 - make stochasticity an extra concept and move out of UDA and others
@@ -42,7 +40,8 @@ TODO list for development of ODD2Netlogo
 - improve codegen for element-wise
 - do not have text as selectable
 - use textgen base components in order to simplify textgen
-- make dataCollection more uniform
+- make dataCollection and presentation more uniform
+- clean CountEntities and Collect
 - Categorical should refer to the category collection (enumeration).
 - typing of expressions
 - move [stop] out of generation for end condition

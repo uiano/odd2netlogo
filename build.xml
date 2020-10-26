@@ -117,13 +117,17 @@
     <copy todir="${build.layout}/plugins/lib">
       <fileset dir="${artifacts.de.itemis.mps.extensions}/mps-multiline/lib" />
     </copy>
-    <mkdir dir="${build.layout}/plugins/de.itemis.mps.extensions.build" />
-    <copy todir="${build.layout}/plugins/de.itemis.mps.extensions.build">
-      <fileset dir="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.extensions.build" />
-    </copy>
     <mkdir dir="${build.layout}/plugins/de-itemis-mps-selection" />
     <copy todir="${build.layout}/plugins/de-itemis-mps-selection">
       <fileset dir="${artifacts.de.itemis.mps.extensions}/de-itemis-mps-selection" />
+    </copy>
+    <mkdir dir="${build.layout}/plugins/de.itemis.mps.celllayout" />
+    <copy todir="${build.layout}/plugins/de.itemis.mps.celllayout">
+      <fileset dir="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.celllayout" />
+    </copy>
+    <mkdir dir="${build.layout}/plugins/de.slisson.mps.hacks" />
+    <copy todir="${build.layout}/plugins/de.slisson.mps.hacks">
+      <fileset dir="${artifacts.de.itemis.mps.extensions}/de.slisson.mps.hacks" />
     </copy>
     <mkdir dir="${build.layout}/plugins/mps-core" />
     <copy todir="${build.layout}/plugins/mps-core">
@@ -133,6 +137,7 @@
     <copy todir="${build.layout}/plugins/mps-make">
       <fileset dir="${artifacts.mpsMakePlugin}/mps-make" />
     </copy>
+    <copy file="${artifacts.mpsStandalone}/languages/tools/jetbrains.mps.build.mps.runner.runtime.jar" todir="${build.layout}/plugins" />
     <mkdir dir="${build.layout}/plugins/odd2netlogo" />
     <mkdir dir="${build.layout}/plugins/odd2netlogo/META-INF" />
     <echoxml file="${build.layout}/plugins/odd2netlogo/META-INF/plugin.xml">
