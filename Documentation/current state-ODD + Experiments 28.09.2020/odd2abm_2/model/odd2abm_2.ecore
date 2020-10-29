@@ -32,26 +32,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="InformalText">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DesignConcepts">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="Sensing" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="adaptation" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="objectives" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="learning" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Interaction"
-        upperBound="-1" eType="#//TODO_Rationale" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="prediction" eType="#//InformalWithRationale"
-        containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Stochasticity"
-        upperBound="-1" eType="#//TODO_Rationale" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="collectives" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="emergence" eType="#//InformalWithRationale"
-        containment="true"/>
-  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DesignConcepts"/>
   <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttributes"/>
   <eClassifiers xsi:type="ecore:EClass" name="ModelDescription">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="role" eType="#//ModelCategories"/>
@@ -67,24 +48,13 @@
   <eClassifiers xsi:type="ecore:EClass" name="Experiments"/>
   <eClassifiers xsi:type="ecore:EClass" name="TODO_Rationale">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="base4Rationale" eType="#//RationaleKind"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="sentence" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="RationaleReference">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="irationaledconcept" lowerBound="1"
-        eType="#//IRationaledConcept"/>
-  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RationaleReference"/>
   <eClassifiers xsi:type="ecore:EEnum" name="ModelCategories"/>
   <eClassifiers xsi:type="ecore:EClass" name="DescriptionElement">
     <eStructuralFeatures xsi:type="ecore:EReference" name="descriptionText" upperBound="-1"
         eType="#//InformalText" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="InformalWithRationale">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="description" upperBound="-1"
-        eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" eType="#//TODO_Rationale"
-        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="IDescribedConcept" eSuperTypes="#//INamedConceptODD">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
@@ -93,9 +63,4 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="RationaleKind"/>
-  <eClassifiers xsi:type="ecore:EClass" name="IRationaledConcept">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" upperBound="-1"
-        eType="#//TODO_Rationale" containment="true"/>
-  </eClassifiers>
 </ecore:EPackage>

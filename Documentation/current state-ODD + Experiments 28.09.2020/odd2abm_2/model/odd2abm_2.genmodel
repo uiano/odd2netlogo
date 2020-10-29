@@ -29,17 +29,7 @@
     <genClasses ecoreClass="odd2abm_2.ecore#//InformalText">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//InformalText/text"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//DesignConcepts">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/Sensing"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/adaptation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/objectives"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/learning"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/rationale4Interaction"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/prediction"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/rationale4Stochasticity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/collectives"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DesignConcepts/emergence"/>
-    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//DesignConcepts"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//UserDefinedAttributes"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//ModelDescription">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ModelDescription/role"/>
@@ -51,28 +41,17 @@
     <genClasses ecoreClass="odd2abm_2.ecore#//Experiments"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//TODO_Rationale">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//TODO_Rationale/base4Rationale"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//TODO_Rationale/sentence"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//RationaleReference">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//RationaleReference/irationaledconcept"/>
-    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//RationaleReference"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//DescriptionElement">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//DescriptionElement/descriptionText"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//DescriptionElement/name"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//InformalWithRationale">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InformalWithRationale/description"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InformalWithRationale/rationale"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//IDescribedConcept">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//IDescribedConcept/description"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//INamedConceptODD">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//INamedConceptODD/name"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//IRationaledConcept">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//IRationaledConcept/name"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//IRationaledConcept/rationale"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>
