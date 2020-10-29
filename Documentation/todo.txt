@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- put actions and functions into the same category
 - use rangeType for regrow-grass (wolf sheep)
 - make wolf-sheep work when eat-grass refers to environment grass
 - make rationales a separate concepts and move out of UDA and entity
@@ -12,6 +11,7 @@ TODO list for development of ODD2Netlogo
 - recreate wolf-sheep and fix UI on the way
 - Editor should consistently say "Press enter to create new entity" for all collections
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
+- use UI from IVR for ODD: check boxes (lang.editor.forms), use folding true (video3 of Vaclav)
 - manual experiments should work without adding automatic experiments
 - maybe use a direct reference to UDA instead of AttributeAccess for better context menu
 - fix code Voting cf. Library
@@ -19,6 +19,8 @@ TODO list for development of ODD2Netlogo
 - fix code FireAgents cf. Library
 - fix code Segregation cf. Library (why is occupied an interaction)
 - copy documentation 2019 and earlier into git: papers, reports 445, ...
+- fix warnings (19) and infos (2)
+- allow define with the same name within different functions
 - remove boolean expressions and call them characterizations
 - recreate MARG and fix UI on the way
 - Improve and introduce (synthetic) characterizations (boolean).
@@ -104,3 +106,4 @@ TODO later and larger
 - bundle file printing with release: com.mbeddr.mpsutil.uisupport
 - allow comments in the code (see ACT ONE)
 - make nice logos and images
+- create NetLogo in MPS?
