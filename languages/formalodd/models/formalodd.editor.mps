@@ -2420,7 +2420,6 @@
         <node concept="VPM3Z" id="1R8dC2FnaNI" role="3F10Kt" />
         <node concept="3F0ifn" id="1R8dC2FnaO7" role="3EZMnx">
           <property role="3F0ifm" value="otherwise" />
-          <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
           <node concept="ljvvj" id="1R8dC2FnaO8" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
@@ -2530,12 +2529,6 @@
   </node>
   <node concept="V5hpn" id="5yfUVbwzCvX">
     <property role="TrG5h" value="ODDStyling" />
-    <node concept="14StLt" id="5yfUVbwzCw0" role="V601i">
-      <property role="TrG5h" value="keyword" />
-      <node concept="Vb9p2" id="5yfUVbwzCw5" role="3F10Kt">
-        <property role="Vbekb" value="g1_k_vY/BOLD" />
-      </node>
-    </node>
     <node concept="14StLt" id="5yfUVbwzCwc" role="V601i">
       <property role="TrG5h" value="hint" />
       <node concept="VechU" id="5yfUVbwzCwS" role="3F10Kt">
@@ -3448,12 +3441,7 @@
           <property role="1O74Pk" value="true" />
           <property role="1$x2rV" value="&lt;press ctrl + space and select base for rationale&gt;" />
           <ref role="1NtTu8" to="86kt:294onrmenaL" resolve="base4Rationale" />
-          <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
-          <node concept="3Xmtl4" id="52HbUMU5552" role="3F10Kt">
-            <node concept="1wgc9g" id="52HbUMU5553" role="3XvnJa">
-              <ref role="1wgcnl" node="6Uof7ai68wd" resolve="hintIfNull" />
-            </node>
-          </node>
+          <ref role="1k5W1q" node="6Uof7ai68wd" resolve="hintIfNull" />
         </node>
         <node concept="2iRfu4" id="52HbUMU554L" role="2iSdaV" />
       </node>
@@ -5964,7 +5952,6 @@
       <node concept="3EZMnI" id="64QC5GYiU3w" role="3EZMnx">
         <node concept="VPM3Z" id="64QC5GYiU3x" role="3F10Kt" />
         <node concept="1HlG4h" id="1i0DDuQSFIl" role="3EZMnx">
-          <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
           <node concept="1HfYo3" id="1i0DDuQSFIn" role="1HlULh">
             <node concept="3TQlhw" id="1i0DDuQSFIp" role="1Hhtcw">
               <node concept="3clFbS" id="1i0DDuQSFIr" role="2VODD2">
@@ -6392,7 +6379,6 @@
       <node concept="2iRfu4" id="1i0DDuRK8vf" role="2iSdaV" />
       <node concept="3F0ifn" id="1i0DDuRK8vg" role="3EZMnx">
         <property role="3F0ifm" value="Environment" />
-        <ref role="1k5W1q" node="5yfUVbwzCw0" resolve="keyword" />
       </node>
       <node concept="1iCGBv" id="1i0DDuRK8vz" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6o6DKlW0nLJ" resolve="envEntity" />

@@ -61,7 +61,7 @@ TODO for Martin
   - name use: colour
   - tool text: plain
   - tool instructions: light grey and italics
-  - we do not use keywords
+  - we do not use keywords. (COMPLETED, removed 8/11)
 - ensure that folders in the editor and other aspects to match folders in structure
 - introduce proper constraints for names
   - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
