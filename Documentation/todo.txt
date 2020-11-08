@@ -55,13 +55,13 @@ TODO list for development of ODD2Netlogo
 
 TODO for Martin
 - use base styles consistently in editor
-  - user input formal: underlined
-  - user input informal: grey text
+  - user input formal: underlined (COMPLETED: style userInput)
+  - user input informal: grey text (In progress: style: userInputInformal)
   - name definition: colour and bold
   - name use: colour
-  - tool text: plain
-  - tool instructions: light grey and italics
-  - we do not use keywords. (COMPLETED, removed 8/11)
+  - tool text: plain (in progress: style toolText)
+  - tool instructions: light grey and italics (in progress: style Hint)
+  - we do not use keywords. (COMPLETED: removed 8/11)
 - ensure that folders in the editor and other aspects to match folders in structure
 - introduce proper constraints for names
   - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
