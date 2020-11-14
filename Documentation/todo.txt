@@ -54,18 +54,18 @@ TODO list for development of ODD2Netlogo
 - Make desccription from UDA into IDescribedConcept
 
 TODO for Martin
-- use base styles consistently in editor
+- use base styles consistently in editor (COMPLETED, please verify)
   - user input formal: underlined (COMPLETED: style userInput)
   - user input informal: grey text (COMPLETED: style: userInputInformal)
-  - name definition: colour and bold
-  - name use: colour
+  - name definition: colour and bold (COMPLETED)
+  - name use: colour (COMPLETED: Changed many instances of nameDefinition to new style nameUse)
   - tool text: plain (COMPLETED: style toolText)
   - tool instructions: light grey and italics (COMPLETED: style toolInstructions (former hint))
   - we do not use keywords. (COMPLETED: removed 8/11)
 - ensure that folders in the editor and other aspects to match folders in structure
 - introduce proper constraints for names
   - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
-  - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept
+  - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept (COMPLETED)
 - sort between github and tools.uia version and remove the tools.uia version
 - Make boxes (eg add new entity) visible in all cases.
 - Create boxes for activities

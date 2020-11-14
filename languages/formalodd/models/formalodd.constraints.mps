@@ -11,15 +11,20 @@
   <imports>
     <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
+      <concept id="1082485599095" name="jetbrains.mps.baseLanguage.structure.BlockStatement" flags="nn" index="9aQIb">
+        <child id="1082485599096" name="statements" index="9aQI4" />
+      </concept>
       <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
         <child id="1068498886297" name="rValue" index="37vLTx" />
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
@@ -46,6 +51,7 @@
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
+        <child id="1082485599094" name="ifFalseStatement" index="9aQIa" />
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
@@ -63,6 +69,10 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
+      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -106,6 +116,7 @@
         <reference id="1148687202698" name="applicableLink" index="1N5Vy1" />
         <child id="1148687345559" name="searchScopeFactory" index="1N6uqs" />
       </concept>
+      <concept id="1153138554286" name="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" flags="nn" index="1Wqviy" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -1053,6 +1064,83 @@
       <ref role="1N5Vy1" to="86kt:39v_dEy9jMk" resolve="function" />
       <node concept="1dDu$B" id="I1KRVZnzgH" role="1N6uqs">
         <ref role="1dDu$A" to="86kt:39v_dExCF7n" resolve="Function" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="1wEBp2YZSYJ">
+    <ref role="1M2myG" to="86kt:4_ZgD2xxlg3" resolve="INamedConceptODD" />
+    <node concept="EnEH3" id="1wEBp2YZSYK" role="1MhHOB">
+      <ref role="EomxK" to="tpck:h0TrG11" resolve="name" />
+      <node concept="QB0g5" id="1wEBp2YZSYM" role="QCWH9">
+        <node concept="3clFbS" id="1wEBp2YZSYN" role="2VODD2">
+          <node concept="3SKdUt" id="1wEBp2ZDZ$o" role="3cqZAp">
+            <node concept="1PaTwC" id="1wEBp2ZDZ$p" role="1aUNEU">
+              <node concept="3oM_SD" id="1wEBp2ZDZGj" role="1PaTwD">
+                <property role="3oM_SC" value="Generated" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZGD" role="1PaTwD">
+                <property role="3oM_SC" value="keywords" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZGH" role="1PaTwD">
+                <property role="3oM_SC" value="using" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZGW" role="1PaTwD">
+                <property role="3oM_SC" value="python" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZHc" role="1PaTwD">
+                <property role="3oM_SC" value="script" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZHj" role="1PaTwD">
+                <property role="3oM_SC" value="and" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZH_" role="1PaTwD">
+                <property role="3oM_SC" value="scraping" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZIn" role="1PaTwD">
+                <property role="3oM_SC" value="https://ccl.northwestern.edu/netlogo/docs/dictionary.html" />
+              </node>
+              <node concept="3oM_SD" id="1wEBp2ZDZHI" role="1PaTwD">
+                <property role="3oM_SC" value="" />
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs8" id="1wEBp2ZiVGM" role="3cqZAp">
+            <node concept="3cpWsn" id="1wEBp2ZiVGP" role="3cpWs9">
+              <property role="TrG5h" value="netlogo_keywords" />
+              <node concept="17QB3L" id="1wEBp2ZiVGK" role="1tU5fm" />
+              <node concept="Xl_RD" id="1wEBp2Zjeu8" role="33vP2m">
+                <property role="Xl_RC" value="-&gt;, -&gt; (anonymous procedure, -&gt; (anonymous procedure), ; (semicolon), &lt;breed&gt;-neighbor?, &lt;breed&gt;-neighbors, &lt;breed&gt;-with, &lt;breeds&gt;-at, &lt;breeds&gt;-here, &lt;breeds&gt;-on, &lt;breeds&gt;-own, &lt;link-breeds&gt;-own, Arithmetic Operators (+, *, -, /, ^, &lt;, &gt;, =, !=, &lt;=, &gt;=), Operators (&lt;, &gt;, =, !=, &lt;=, &gt;=), Symbols, __includes, __set-line-thickness, abs, acos, all, all?, and, any, any?, approximate-hsb, approximate-rgb, arrow, asin, ask, ask-concurrent, at-points, atan, auto-plot-off, auto-plot-on, auto-plot-status, autoplot, autoplot?, back, base-colors, beep, behaviorspace-experiment-name, behaviorspace-run-number, bk, both-ends, breed, breedvar, but-first, but-first-and-last, but-last, ca, can-move, can-move?, carefully, cd, ceiling, clear-all, clear-all-plots, clear-drawing, clear-globals, clear-links, clear-output, clear-patches, clear-plot, clear-ticks, clear-turtles, color, cos, count, cp, create-&lt;breed&gt;-from, create-&lt;breed&gt;-to, create-&lt;breed&gt;-with, create-&lt;breeds&gt;, create-&lt;breeds&gt;-from, create-&lt;breeds&gt;-to, create-&lt;breeds&gt;-with, create-link, create-link(s)-from, create-link(s)-to, create-link-from, create-link-to, create-link-with, create-links-from, create-links-to, create-links-with, create-ordered-&lt;breeds&gt;, create-ordered-turtles, create-temporary-plot-pen, create-turtles, cro, crt, ct, date-and-time, die, diffuse, diffuse4, directed-link-breed, display, distance, distancexy, downhill, downhill4, dx, dxy, dy, e, empty, empty?, end, end1, end2, error, error-message, every, exp, export-all-plots, export-cmds, export-interface, export-output, export-plot, export-view, export-world, extensions, extract-hsb, extract-rgb, face, facexy, fd, file-at-end, file-at-end?, file-close, file-close-all, file-delete, file-exists, file-exists?, file-flush, file-open, file-print, file-read, file-read-characters, file-read-line, file-show, file-type, file-write, filter, first, floor, follow, follow-me, foreach, forward, fput, globals, hatch, hatch-&lt;breeds&gt;, heading, hidden, hidden?, hide-link, hide-turtle, histogram, home, hsb, ht, hubnet-broadcast, hubnet-broadcast-clear-output, hubnet-broadcast-message, hubnet-clear-override, hubnet-clear-overrides, hubnet-clients-list, hubnet-enter-message, hubnet-enter-message?, hubnet-exit-message, hubnet-exit-message?, hubnet-fetch-message, hubnet-kick-all-clients, hubnet-kick-client, hubnet-message, hubnet-message-source, hubnet-message-tag, hubnet-message-waiting, hubnet-message-waiting?, hubnet-reset, hubnet-reset-perspective, hubnet-send, hubnet-send-clear-output, hubnet-send-follow, hubnet-send-message, hubnet-send-override, hubnet-send-watch, if, ifelse, ifelse-value, import-drawing, import-pcolors, import-pcolors-rgb, import-world, in-&lt;breed&gt;-from, in-&lt;breed&gt;-neighbor?, in-&lt;breed&gt;-neighbors, in-cone, in-link-from, in-link-neighbor, in-link-neighbor?, in-link-neighbors, in-radius, includes, insert-item, inspect, int, is-&lt;breed&gt;?, is-&lt;link-breed&gt;?, is-agent?, is-agentset?, is-anonymous-command?, is-anonymous-reporter?, is-directed-link?, is-link-set?, is-link?, is-list?, is-number?, is-of-type, is-patch-set?, is-patch?, is-string?, is-turtle-set?, is-turtle?, is-undirected-link?, item, jump, label, label-color, last, layout-circle, layout-radial, layout-spring, layout-tutte, left, length, let, link, link-heading, link-length, link-neighbor, link-neighbor?, link-neighbors, link-set, link-with, links, links-own, list, ln, log, loop, lput, lt, map, max, max-n-of, max-one-of, max-pcor, max-pxcor, max-pycor, mean, median, member, member?, min, min-n-of, min-one-of, min-pcor, min-pxcor, min-pycor, mod, modes, mouse-cor, mouse-down, mouse-down?, mouse-inside, mouse-inside?, mouse-xcor, mouse-ycor, move-to, my-&lt;breeds&gt;, my-in-&lt;breeds&gt;, my-in-links, my-links, my-out-&lt;breeds&gt;, my-out-links, myself, n-of, n-values, neighbors, neighbors4, netlogo-version, netlogo-web, netlogo-web?, new-seed, no-display, no-links, no-patches, no-turtles, nobody, not, num-e, of, one-of, or, other, other-end, out-&lt;breed&gt;-neighbor?, out-&lt;breed&gt;-neighbors, out-&lt;breed&gt;-to, out-link-neighbor, out-link-neighbor?, out-link-neighbors, out-link-to, output-cmds, output-print, output-show, output-type, output-write, patch, patch-ahead, patch-at, patch-at-heading-and-distance, patch-here, patch-left-and-ahead, patch-lr-and-ahead, patch-right-and-ahead, patch-set, patch-size, patches, patches-own, pcolor, pcor, pd, pe, pen-down, pen-erase, pen-mode, pen-size, pen-switch-status, pen-up, pi, plabel, plabel-color, plot, plot-cor-max-or-min, plot-name, plot-pen-down, plot-pen-exists, plot-pen-exists?, plot-pen-reset, plot-pen-switch-status, plot-pen-up, plot-x-max, plot-x-min, plot-y-max, plot-y-min, plotxy, position, precision, print, pu, pxcor, pycor, random, random-cor, random-exponential, random-float, random-gamma, random-normal, random-pcor, random-poisson, random-pxcor, random-pycor, random-reporters, random-seed, random-xcor, random-ycor, range, read-from-string, reduce, remainder, remove, remove-duplicates, remove-item, repeat, replace-item, report, reset-perspective, reset-ticks, reset-timer, resize-world, reverse, rgb, ride, ride-me, right, round, rp, rt, run, runresult, scale-color, self, semicolon, sentence, set, set-current-directory, set-current-plot, set-current-plot-pen, set-default-shape, set-histogram-num-bars, set-line-thickness, set-patch-size, set-plot--range, set-plot-background-color, set-plot-pen-color, set-plot-pen-interval, set-plot-pen-mode, set-plot-x-range, set-plot-y-range, setup-plots, setxy, shade-of, shade-of?, shape, shapes, show, show-link, show-turtle, shuffle, sin, size, sort, sort-by, sort-on, sprout, sprout-&lt;breeds&gt;, sqrt, st, stamp, stamp-erase, standard-deviation, startup, stop, stop-inspecting, stop-inspecting-dead-agents, subject, sublist, subliststring, substring, subtract-headings, sum, tan, thickness, tick, tick-advance, ticks, tie, tie-mode, timer, to, to-report, towards, towardsxy, turtle, turtle-set, turtles, turtles-at, turtles-here, turtles-on, turtles-own, type, undirected-link-breed, untie, up-to-n-of, update-plots, uphill, uphill4, user-directory, user-file, user-input, user-message, user-new-file, user-one-of, user-yes-or-no, user-yes-or-no?, variance, wait, watch, watch-me, while, who, with, with-local-randomness, with-max, with-min, without-interruption, word, world-dim, world-height, world-width, wrap-color, write, xcor, xor, ycor" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="1wEBp2ZiSaO" role="3cqZAp" />
+          <node concept="3clFbJ" id="1wEBp2Zjb5U" role="3cqZAp">
+            <node concept="3clFbS" id="1wEBp2Zjb5W" role="3clFbx">
+              <node concept="3cpWs6" id="1wEBp2ZjbQ9" role="3cqZAp">
+                <node concept="3clFbT" id="1wEBp2ZjbZT" role="3cqZAk" />
+              </node>
+            </node>
+            <node concept="9aQIb" id="1wEBp2ZjcqY" role="9aQIa">
+              <node concept="3clFbS" id="1wEBp2ZjcqZ" role="9aQI4">
+                <node concept="3cpWs6" id="1wEBp2Zjcvx" role="3cqZAp">
+                  <node concept="3clFbT" id="1wEBp2ZjcCK" role="3cqZAk">
+                    <property role="3clFbU" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="1wEBp2Zn0Kc" role="3clFbw">
+              <node concept="37vLTw" id="1wEBp2Zn0_n" role="2Oq$k0">
+                <ref role="3cqZAo" node="1wEBp2ZiVGP" resolve="netlogo_keywords" />
+              </node>
+              <node concept="liA8E" id="1wEBp2Zn1bx" role="2OqNvi">
+                <ref role="37wK5l" to="wyt6:~String.contains(java.lang.CharSequence)" resolve="contains" />
+                <node concept="1Wqviy" id="1wEBp2Zn1hV" role="37wK5m" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="1wEBp2ZiP$6" role="3cqZAp" />
+        </node>
       </node>
     </node>
   </node>
