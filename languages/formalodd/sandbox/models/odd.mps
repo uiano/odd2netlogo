@@ -481,6 +481,9 @@
           </node>
         </node>
       </node>
+      <node concept="ZOwpW" id="1wEBp2YmASw" role="ZOwpT">
+        <property role="TrG5h" value="MyName" />
+      </node>
       <node concept="26lliW" id="64QC5GXDYs2" role="1shrDG">
         <ref role="26lliz" node="1jC05GNft6B" resolve="hunger" />
       </node>
@@ -565,6 +568,9 @@
       </node>
       <node concept="q1XHF" id="4C0fQ2Q$hY3" role="2zXruJ">
         <ref role="q1XHE" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
+      </node>
+      <node concept="2zkEhW" id="1wEBp2YmATh" role="2zXruJ">
+        <ref role="2zkEhU" node="1wEBp2YmASw" resolve="MyName" />
       </node>
     </node>
     <node concept="3Ovhds" id="7eFC9Ep51ms" role="1BQTrk">
@@ -727,6 +733,9 @@
       <ref role="1sMRUI" node="2_t31HRw5eN" resolve="undefined interaction1" />
     </node>
     <node concept="2kDK7K" id="I1KRW0kGm2" role="2kDK7a" />
+    <node concept="1sMRUJ" id="1wEBp2YmASV" role="1sMO1Z">
+      <ref role="1sMRUI" node="1wEBp2YmASw" resolve="MyName" />
+    </node>
   </node>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
@@ -1679,6 +1688,12 @@
   <node concept="ZOwpP" id="3T3sBYikEpk">
     <property role="TrG5h" value="voting" />
     <node concept="ZOwpU" id="24qWCY8d5XH" role="3$p12O">
+      <node concept="ZOwpW" id="1wEBp2YqlG6" role="ZOwpT">
+        <property role="TrG5h" value="AnEntity" />
+      </node>
+      <node concept="1wg3SR" id="1wEBp2YqlFv" role="1w1JPE">
+        <property role="TrG5h" value="Network1" />
+      </node>
       <node concept="ZOwrm" id="24yfUKsi0Xd" role="2kDK73">
         <property role="TrG5h" value="voter" />
         <node concept="2WUdOh" id="24yfUKsi0Xf" role="2W_r1q">
@@ -1707,6 +1722,12 @@
       </node>
       <node concept="q1XHF" id="1i0DDuScWxM" role="2zXruJ">
         <ref role="q1XHE" node="24yfUKsi0Xd" resolve="voter" />
+      </node>
+      <node concept="2zkEhT" id="1wEBp2YqlFA" role="2zXruJ">
+        <ref role="2zkEhB" node="1wEBp2YqlFv" resolve="Network1" />
+      </node>
+      <node concept="2zkEhW" id="1wEBp2YqlGe" role="2zXruJ">
+        <ref role="2zkEhU" node="1wEBp2YqlG6" resolve="AnEntity" />
       </node>
     </node>
     <node concept="2lMhBk" id="24qWCY8d5Y9" role="2J7coG">
@@ -1743,6 +1764,12 @@
       <ref role="1sMRUI" node="24yfUKsi0Xd" resolve="voter" />
     </node>
     <node concept="2kDK7K" id="I1KRW0nFYJ" role="2kDK7a" />
+    <node concept="1sMRUJ" id="1wEBp2YqlFx" role="1sMO1Z">
+      <ref role="1sMRUI" node="1wEBp2YqlFv" resolve="Network1" />
+    </node>
+    <node concept="1sMRUJ" id="1wEBp2YqlG8" role="1sMO1Z">
+      <ref role="1sMRUI" node="1wEBp2YqlG6" resolve="AnEntity" />
+    </node>
   </node>
   <node concept="ZOwpP" id="35QCLExIhrZ">
     <property role="TrG5h" value="Forest fire with agent" />
