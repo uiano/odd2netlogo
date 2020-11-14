@@ -496,7 +496,7 @@
           <ref role="1NtTu8" to="86kt:7bwUywleRNW" resolve="modelDescription" />
           <node concept="3F0ifn" id="6Uof7aho7w0" role="2ruayu">
             <property role="3F0ifm" value="&lt;Press enter and write the model purpose. Press enter to get a new line&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
         </node>
         <node concept="3F0ifn" id="7y2oNvtzZh" role="3EZMnx">
@@ -641,11 +641,11 @@
             <ref role="1NtTu8" to="86kt:5EtG2rPwnoa" resolve="processAndScheduling" />
             <node concept="1sVBvm" id="31ZFDPSj13d" role="1sWHZn">
               <node concept="3F2HdR" id="31ZFDPSj13e" role="2wV5jI">
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
                 <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endConditions" />
                 <node concept="3F0ifn" id="31ZFDPSj13f" role="2czzBI">
                   <property role="3F0ifm" value="press enter to add end condition" />
-                  <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                  <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
                 </node>
                 <node concept="2iRkQZ" id="31ZFDPSj13g" role="2czzBx" />
               </node>
@@ -665,7 +665,7 @@
           <node concept="2iRkQZ" id="7y2oNvtXgR" role="2czzBx" />
           <node concept="3F0ifn" id="7y2oNvtXgS" role="2czzBI">
             <property role="3F0ifm" value="&lt;press enter and describe the model input. press enter to get new line&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="VPXOz" id="7y2oNvtXgU" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -680,7 +680,7 @@
           <node concept="2iRkQZ" id="7y2oNvtXh_" role="2czzBx" />
           <node concept="3F0ifn" id="7y2oNvtXhA" role="2czzBI">
             <property role="3F0ifm" value="&lt;press enter and describe the submodels. press enter to get new line&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="VPXOz" id="7y2oNvtXhC" role="3F10Kt">
             <property role="VOm3f" value="true" />
@@ -738,7 +738,7 @@
               <node concept="2iRfu4" id="3okqQmni4jW" role="2czzBx" />
               <node concept="3F0ifn" id="2gGtP_USUfC" role="2czzBI">
                 <property role="3F0ifm" value="&lt;press enter to create entity&gt;" />
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
             </node>
             <node concept="27z8qx" id="5wSz0kzyeFl" role="3F10Kt">
@@ -752,7 +752,7 @@
             <node concept="2iRkQZ" id="3okqQmmA0iT" role="2czzBx" />
             <node concept="3F0ifn" id="1D8fLg5hDyE" role="2czzBI">
               <property role="3F0ifm" value="press enter to create entity" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
             <node concept="pkWqt" id="5yfUVbwx_2f" role="pqm2j">
               <node concept="3clFbS" id="5yfUVbwx_2g" role="2VODD2">
@@ -804,7 +804,7 @@
             <node concept="2w$q5c" id="4GwBkRpha8" role="78xua" />
             <node concept="3F0ifn" id="4GwBkRphaa" role="2czzBI">
               <property role="3F0ifm" value="Press enter to add attribute to all entities" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
           <node concept="3F0ifn" id="6ow5IfzodCX" role="3EZMnx" />
@@ -839,7 +839,7 @@
               </node>
               <node concept="3F0ifn" id="7qp8jK7DEfl" role="2czzBI">
                 <property role="3F0ifm" value="&lt;press enter to create relationship&gt;" />
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
             </node>
           </node>
@@ -905,7 +905,7 @@
               <node concept="2iRfu4" id="5yfUVbwCKpK" role="2czzBx" />
               <node concept="3F0ifn" id="5yfUVbwCKpL" role="2czzBI">
                 <property role="3F0ifm" value="&lt;press enter to create environment entity&gt;" />
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
             </node>
           </node>
@@ -965,7 +965,7 @@
             <node concept="2w$q5c" id="4GwBkRph0K" role="78xua" />
             <node concept="3F0ifn" id="4GwBkRph0O" role="2czzBI">
               <property role="3F0ifm" value="Press enter to add attribute to environment" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
           <node concept="3F0ifn" id="4GwBkRpgVx" role="3EZMnx" />
@@ -996,7 +996,7 @@
             <node concept="2w$q5c" id="QugUH6KW0p" role="78xua" />
             <node concept="3F0ifn" id="QugUH6KW0q" role="2czzBI">
               <property role="3F0ifm" value="Press enter to add global model parameter" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
           <node concept="3F0ifn" id="QugUH6KW0r" role="3EZMnx" />
@@ -1019,7 +1019,7 @@
             <node concept="2w$q5c" id="6iw2eE2XXMq" role="78xua" />
             <node concept="3F0ifn" id="6iw2eE2XXMs" role="2czzBI">
               <property role="3F0ifm" value="Press enter to add synthetic attribute" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
           <node concept="3F0ifn" id="6iw2eE2XXsF" role="3EZMnx" />
@@ -1108,7 +1108,7 @@
             <node concept="2iRfu4" id="4GwBkRo4k1" role="2iSdaV" />
             <node concept="3F0ifn" id="4GwBkRo4k2" role="3EZMnx">
               <property role="3F0ifm" value="Press enter to add attribute to " />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
             <node concept="3F0A7n" id="4GwBkRo4k3" role="3EZMnx">
               <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -1119,7 +1119,7 @@
         <node concept="3F0ifn" id="5CkcxufL74L" role="3EZMnx" />
         <node concept="3F0ifn" id="5CkcxufHvXz" role="3EZMnx">
           <property role="3F0ifm" value="Press enter to add another entity" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           <node concept="pkWqt" id="5CkcxufHvY4" role="pqm2j">
             <node concept="3clFbS" id="5CkcxufHvY5" role="2VODD2">
               <node concept="3cpWs6" id="5CkcxufHw1Y" role="3cqZAp">
@@ -1176,7 +1176,7 @@
           <ref role="1NtTu8" to="86kt:4GvH3PCF6rY" resolve="type" />
           <node concept="3F0ifn" id="1i0DDuTfPTZ" role="2ruayu">
             <property role="3F0ifm" value="press ctrl space to select attribute kind" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
         </node>
         <node concept="3F0ifn" id="I1KRVVDXbN" role="3EZMnx">
@@ -1198,7 +1198,7 @@
       </node>
       <node concept="3F0ifn" id="5CkcxufyEbD" role="3EZMnx">
         <property role="3F0ifm" value="Press enter to add another attribute" />
-        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         <node concept="pkWqt" id="5CkcxufyEj1" role="pqm2j">
           <node concept="3clFbS" id="5CkcxufyEj2" role="2VODD2">
             <node concept="3cpWs6" id="5CkcxufyEjo" role="3cqZAp">
@@ -1267,7 +1267,7 @@
         </node>
         <node concept="3F0ifn" id="5CkcxufAili" role="3EZMnx">
           <property role="3F0ifm" value="Press enter to add another environment entity" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           <node concept="pkWqt" id="5CkcxufAilt" role="pqm2j">
             <node concept="3clFbS" id="5CkcxufAilu" role="2VODD2">
               <node concept="3cpWs6" id="5CkcxufAipn" role="3cqZAp">
@@ -1502,20 +1502,20 @@
           <node concept="l2Vlx" id="1z3v1JWV0dY" role="2czzBx" />
           <node concept="3F0ifn" id="5yfUVbxcusS" role="2czzBI">
             <property role="3F0ifm" value="press enter to add activities" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
         </node>
         <node concept="3F0ifn" id="2_t31HRC_Vf" role="3EZMnx">
           <property role="3F0ifm" value="&lt;options for " />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
         <node concept="3F0A7n" id="2_t31HRC_W1" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
         <node concept="3F0ifn" id="2_t31HRC_WP" role="3EZMnx">
           <property role="3F0ifm" value="&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
         <node concept="18a60v" id="2_t31HRC_XF" role="3EZMnx">
           <node concept="VPM3Z" id="2_t31HRC_XH" role="3F10Kt" />
@@ -1680,7 +1680,7 @@
             <node concept="2iRkQZ" id="6ow5Ifz8iuM" role="2czzBx" />
             <node concept="3F0ifn" id="6ow5Ifz8iv4" role="2czzBI">
               <property role="3F0ifm" value="press enter to create schedule" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
             <node concept="27yT$n" id="31ZFDPS0nqd" role="3F10Kt">
               <property role="3$6WeP" value="10" />
@@ -1701,7 +1701,7 @@
             <node concept="2iRfu4" id="2_t31HRCyMZ" role="2iSdaV" />
             <node concept="3F0ifn" id="2gGtP_TSOKM" role="3EZMnx">
               <property role="3F0ifm" value="&lt;press enter to create an action, interaction or function&gt;" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
             <node concept="18a60v" id="2_t31HRCyN7" role="3EZMnx">
               <node concept="VPM3Z" id="2_t31HRCyN8" role="3F10Kt" />
@@ -2031,21 +2031,21 @@
           <node concept="l2Vlx" id="1z3v1JWWDrc" role="2czzBx" />
           <node concept="3F0ifn" id="1z3v1JWWDrd" role="2czzBI">
             <property role="3F0ifm" value="press enter to add activities" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
         </node>
         <node concept="3EZMnI" id="2_t31HRUprq" role="3EZMnx">
           <node concept="3F0ifn" id="2_t31HRUpxc" role="3EZMnx">
             <property role="3F0ifm" value="&lt;options for" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="3F0A7n" id="2_t31HRUpxm" role="3EZMnx">
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="3F0ifn" id="2_t31HRUpxy" role="3EZMnx">
             <property role="3F0ifm" value="&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="2iRfu4" id="2_t31HRUprr" role="2iSdaV" />
           <node concept="18a60v" id="2_t31HRUpqY" role="3EZMnx">
@@ -2182,7 +2182,7 @@
         </node>
         <node concept="3F0ifn" id="7qp8jK7FiRI" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to create an attribute&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
     </node>
@@ -2429,7 +2429,7 @@
         </node>
         <node concept="3F0ifn" id="I1KRW0zQR2" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add conditional activities&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3EZMnI" id="1R8dC2FnaNG" role="3EZMnx">
@@ -2514,7 +2514,7 @@
             </node>
             <node concept="3F0ifn" id="2f1jPQEjtY7" role="2czzBI">
               <property role="3F0ifm" value="Press enter to add experiments" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
         </node>
@@ -2522,7 +2522,7 @@
       </node>
       <node concept="3F0ifn" id="I1KRW0kGm4" role="AHCbl">
         <property role="3F0ifm" value="Press enter to show experiments" />
-        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
       </node>
     </node>
   </node>
@@ -2546,7 +2546,7 @@
   <node concept="V5hpn" id="5yfUVbwzCvX">
     <property role="TrG5h" value="ODDStyling" />
     <node concept="14StLt" id="5yfUVbwzCwc" role="V601i">
-      <property role="TrG5h" value="hint" />
+      <property role="TrG5h" value="toolInstructions" />
       <node concept="VechU" id="5yfUVbwzCwS" role="3F10Kt">
         <property role="Vb096" value="fLJRk5_/gray" />
       </node>
@@ -2585,7 +2585,7 @@
       </node>
     </node>
     <node concept="14StLt" id="6Uof7ai68wd" role="V601i">
-      <property role="TrG5h" value="hintIfNull" />
+      <property role="TrG5h" value="toolInstructionsIfNull" />
       <node concept="1uO$qF" id="6Uof7ai68wA" role="3F10Kt">
         <node concept="3nzxsE" id="6Uof7ai68wC" role="1uO$qD">
           <node concept="3clFbS" id="6Uof7ai68wE" role="2VODD2">
@@ -2598,7 +2598,7 @@
           </node>
         </node>
         <node concept="1wgc9g" id="6Uof7ai68$E" role="3XvnJa">
-          <ref role="1wgcnl" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1wgcnl" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
     </node>
@@ -2945,7 +2945,7 @@
       </node>
       <node concept="3F0ifn" id="5CkcxufShbL" role="3EZMnx">
         <property role="3F0ifm" value="Press enter to add another synthetic attribute" />
-        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         <node concept="pkWqt" id="5CkcxufShbU" role="pqm2j">
           <node concept="3clFbS" id="5CkcxufShbV" role="2VODD2">
             <node concept="3cpWs6" id="5CkcxufShgf" role="3cqZAp">
@@ -3069,7 +3069,7 @@
             <node concept="2iRkQZ" id="6Uof7aimquF" role="2czzBx" />
             <node concept="3F0ifn" id="6Uof7aimqwE" role="2czzBI">
               <property role="3F0ifm" value="&lt;Press enter and write the model research question&gt;" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
           <node concept="VPXOz" id="3oOohpnV_VL" role="3F10Kt">
@@ -3109,7 +3109,7 @@
                 </node>
               </node>
               <node concept="1wgc9g" id="6Uof7ahO2G_" role="3XvnJa">
-                <ref role="1wgcnl" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1wgcnl" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
             </node>
           </node>
@@ -3132,7 +3132,7 @@
             <node concept="2iRkQZ" id="6Uof7aimqIz" role="2czzBx" />
             <node concept="3F0ifn" id="6Uof7aimqPO" role="2czzBI">
               <property role="3F0ifm" value="&lt;Press enter and describe the target users of the model&gt;" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
         </node>
@@ -3154,7 +3154,7 @@
             <node concept="2iRkQZ" id="6Uof7aimrb3" role="2czzBx" />
             <node concept="3F0ifn" id="6Uof7aimrcm" role="2czzBI">
               <property role="3F0ifm" value="&lt;Press enter and describe the purpose of the model&gt;" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
         </node>
@@ -3167,7 +3167,7 @@
         <node concept="2iRkQZ" id="1i0DDuT2ox7" role="2czzBx" />
         <node concept="3F0ifn" id="1i0DDuT2oE3" role="2czzBI">
           <property role="3F0ifm" value="&lt;Press enter to add more model description elements&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
     </node>
@@ -3460,7 +3460,7 @@
           <property role="1O74Pk" value="true" />
           <property role="1$x2rV" value="&lt;press ctrl + space and select base for rationale&gt;" />
           <ref role="1NtTu8" to="86kt:294onrmenaL" resolve="base4Rationale" />
-          <ref role="1k5W1q" node="6Uof7ai68wd" resolve="hintIfNull" />
+          <ref role="1k5W1q" node="6Uof7ai68wd" resolve="toolInstructionsIfNull" />
         </node>
         <node concept="2iRfu4" id="52HbUMU554L" role="2iSdaV" />
       </node>
@@ -3476,7 +3476,7 @@
           </node>
           <node concept="3F0ifn" id="6p7Q679Kt_g" role="2czzBI">
             <property role="3F0ifm" value="&lt;press enter to add text&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
         </node>
         <node concept="l2Vlx" id="6p7Q679FUw6" role="2iSdaV" />
@@ -3717,7 +3717,7 @@
         </node>
         <node concept="3F0ifn" id="I1KRW0wPMT" role="2czzBI">
           <property role="3F0ifm" value="&lt;work in progress, please do not touch&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F2HdR" id="72lILvP_Ecc" role="3EZMnx">
@@ -3731,7 +3731,7 @@
         </node>
         <node concept="3F0ifn" id="I1KRW0wPMR" role="2czzBI">
           <property role="3F0ifm" value="&lt;work in progress, please do not touch&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F2HdR" id="6mCZXi$CSSg" role="3EZMnx">
@@ -3745,7 +3745,7 @@
         </node>
         <node concept="3F0ifn" id="I1KRW0tPDJ" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add new collection item&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
     </node>
@@ -3775,7 +3775,7 @@
         </node>
         <node concept="3F0ifn" id="3vy7LMk1dJi" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add Adaption rationale&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F0ifn" id="52HbUMUhukv" role="3EZMnx">
@@ -3790,7 +3790,7 @@
         </node>
         <node concept="3F0ifn" id="3vy7LMk1dJk" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add Objectives rationale&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F0ifn" id="52HbUMUhukF" role="3EZMnx">
@@ -3805,7 +3805,7 @@
         </node>
         <node concept="3F0ifn" id="3vy7LMk1dJm" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add Learning rationale&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F0ifn" id="52HbUMUhukU" role="3EZMnx">
@@ -3830,7 +3830,7 @@
         </node>
         <node concept="3F0ifn" id="3vy7LMk1dJo" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add Sensing rationale&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F0ifn" id="52HbUMUhumU" role="3EZMnx">
@@ -3845,7 +3845,7 @@
         </node>
         <node concept="3F0ifn" id="3vy7LMk1dJq" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add Collectives rationale&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F0ifn" id="52HbUMUhuno" role="3EZMnx">
@@ -3860,7 +3860,7 @@
         </node>
         <node concept="3F0ifn" id="3vy7LMk1dJs" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add Observation rationale&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="2iRkQZ" id="52HbUMU4RsJ" role="2iSdaV" />
@@ -3995,7 +3995,7 @@
       <node concept="2iRkQZ" id="52HbUMU4V8H" role="2iSdaV" />
       <node concept="3F0ifn" id="1i0DDuRexJg" role="AHCbl">
         <property role="3F0ifm" value="&lt;press here to unfold rationales&gt;" />
-        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
       </node>
     </node>
   </node>
@@ -4228,7 +4228,7 @@
         <node concept="2EHx9g" id="2f1jPQES7QI" role="2czzBx" />
         <node concept="3F0ifn" id="2f1jPQEMw3j" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to add description&gt;" />
-          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
       </node>
       <node concept="3F1sOY" id="2f1jPQEMw3t" role="3EZMnx">
@@ -5543,17 +5543,17 @@
           <node concept="2iRfu4" id="1i0DDuT2oEc" role="2iSdaV" />
           <node concept="3F0ifn" id="1i0DDuT2oEk" role="3EZMnx">
             <property role="3F0ifm" value="&lt;Press enter and write about " />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="3F0A7n" id="1i0DDuT2oE_" role="3EZMnx">
             <property role="1Intyy" value="true" />
             <property role="1$x2rV" value="your description category" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
           <node concept="3F0ifn" id="1i0DDuT2oEu" role="3EZMnx">
             <property role="3F0ifm" value="&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             <node concept="11LMrY" id="1i0DDuT2oEG" role="3F10Kt">
               <property role="VOm3f" value="true" />
             </node>
@@ -6375,7 +6375,7 @@
               <node concept="VPM3Z" id="1i0DDuR8k9B" role="3F10Kt" />
               <node concept="3F0ifn" id="1i0DDuR8kbw" role="3EZMnx">
                 <property role="3F0ifm" value="&lt;press enter to add rationale to" />
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
               <node concept="3F0A7n" id="1i0DDuR8kbx" role="3EZMnx">
                 <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
@@ -6383,7 +6383,7 @@
               </node>
               <node concept="3F0ifn" id="1i0DDuR8kby" role="3EZMnx">
                 <property role="3F0ifm" value="&gt;" />
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
             </node>
           </node>
@@ -6427,7 +6427,7 @@
             <ref role="1NtTu8" to="86kt:60Hvi7sIcPV" resolve="initialisationLocation" />
             <node concept="3F0ifn" id="1i0DDuRK8w_" role="2ruayu">
               <property role="3F0ifm" value="press ctrl space to add location" />
-              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>
         </node>
@@ -6611,7 +6611,7 @@
               <ref role="1NtTu8" to="86kt:4C0fQ2O$8V0" resolve="initAttributes" />
               <node concept="3F0ifn" id="4C0fQ2OCYBj" role="2czzBI">
                 <property role="3F0ifm" value="no attributes here" />
-                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="hint" />
+                <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
               <node concept="2iRkQZ" id="4C0fQ2OCYBk" role="2czzBx" />
             </node>
