@@ -24,6 +24,18 @@ You can input your model specifications according to the [manual](link) and [tut
 
 The tool includes some build-in ODDs apart from the ones your store in your new solution/model. The build-ins ODDs cannot be changed by you; you can only view them. If you want to experiment with the already existing ODDs, copy them (one by one) and paste them into your model. To do that, create an empty ODD, copy the build-in ODD, and paste it in the empty ODD.
 
+## Required plugins for MPS
+When working in MPS, the following plugins are required:
+1. MPS Multiline Property Editor Component.
+
+To install a plugin:
+1. Go to Settings.
+2. Click the Plugins tab.
+3. Select Marketplace on the top.
+4. Search for the plugin (For example MPS Multiline Property Editor Component).
+5. Install, and accept any requirements by the plugin, and restart MPS.
+
+
 # Running the model in NetLogo
 
 Make sure you have installed NetLogo [link here](https://ccl.northwestern.edu/netlogo/).
