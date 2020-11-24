@@ -490,24 +490,6 @@
       <node concept="26lliW" id="64QC5GXDYs5" role="1shrDG">
         <ref role="26lliz" node="64QC5GXDXVb" resolve="nnn-a" />
       </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSj" role="2zXruJ">
-        <ref role="8YSiZ" node="7Y7DVQi$r3r" resolve="MyNewEnvironment" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSl" role="2zXruJ">
-        <ref role="8YSiZ" node="64QC5GXDXV5" resolve="nnn" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSo" role="2zXruJ">
-        <ref role="8YSiZ" node="qdXC$xsGMq" resolve="frog" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSs" role="2zXruJ">
-        <ref role="8YSiZ" node="24yfUKsi0X2" resolve="test-environment" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSx" role="2zXruJ">
-        <ref role="8YSiZ" node="7eFC9Eoo2B2" resolve="lizard" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSB" role="2zXruJ">
-        <ref role="8YSiZ" node="7Y7DVQi$r3z" resolve="AnotherEnivonment" />
-      </node>
       <node concept="q1XHF" id="1i0DDuScWwJ" role="2zXruJ">
         <ref role="q1XHE" node="7Y7DVQi$r3r" resolve="MyNewEnvironment" />
       </node>
@@ -921,25 +903,6 @@
             <ref role="26lliz" node="4GwBkRvkn6" resolve="grass-regrowth-rate" />
           </node>
         </node>
-        <node concept="2rRKAk" id="5yfUVbviHls" role="18tn1X">
-          <node concept="8StVI" id="6o6DKlXEJLr" role="2rRKAh">
-            <node concept="26lliW" id="6o6DKlXEJLs" role="2OFgHe">
-              <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
-            </node>
-            <node concept="2oK_Am" id="6o6DKlXEJLw" role="2rWCss">
-              <property role="2oK_Ap" value="10.0" />
-            </node>
-          </node>
-          <node concept="26hFik" id="5yfUVbviHlN" role="2rRKAn">
-            <property role="26hFil" value="5yfUVbuMlWp/gt" />
-            <node concept="26lliW" id="6o6DKlXEJLi" role="26hFir">
-              <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
-            </node>
-            <node concept="2oK_Am" id="6o6DKlXEJLl" role="26hFip">
-              <property role="2oK_Ap" value="10.0" />
-            </node>
-          </node>
-        </node>
         <node concept="QcY1Q" id="2Wp0VPGPELX" role="18tn1Z" />
       </node>
       <node concept="2lMhBi" id="1D8fLg4_FDU" role="2lMhBt">
@@ -954,7 +917,10 @@
       <node concept="ZOwpH" id="6o6DKlXk0oP" role="1XCrKs">
         <property role="TrG5h" value="grass-amount" />
         <property role="QtYJw" value="patches have grass" />
-        <node concept="ZOwps" id="6o6DKlXk0oX" role="zGXb3" />
+        <node concept="354mTO" id="KnKMoksIl8" role="zGXb3">
+          <property role="354mTX" value="0" />
+          <property role="354mTV" value="10" />
+        </node>
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmH" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-sheep" />
@@ -1693,6 +1659,8 @@
       </node>
       <node concept="1wg3SR" id="1wEBp2YqlFv" role="1w1JPE">
         <property role="TrG5h" value="Network1" />
+        <ref role="1w1JhF" node="1wEBp2YqlG6" resolve="AnEntity" />
+        <ref role="1wg9ys" node="1wEBp2YqlG6" resolve="AnEntity" />
       </node>
       <node concept="ZOwrm" id="24yfUKsi0Xd" role="2kDK73">
         <property role="TrG5h" value="voter" />
@@ -1710,12 +1678,7 @@
         <node concept="ZOwrR" id="7MNWMN$KkSU" role="21mi6N">
           <property role="ZOwrO" value="22rmwLH$Xm7/orange" />
         </node>
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSI" role="2zXruJ">
-        <ref role="8YSiZ" node="7MNWMN$KkSO" resolve="orange" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnSK" role="2zXruJ">
-        <ref role="8YSiZ" node="24yfUKsi0Xd" resolve="voter" />
+        <node concept="rFqqc" id="KnKMokm7B5" role="2W_r1q" />
       </node>
       <node concept="q1XHF" id="1i0DDuScWxI" role="2zXruJ">
         <ref role="q1XHE" node="7MNWMN$KkSO" resolve="orange" />
@@ -1736,6 +1699,7 @@
       </node>
       <node concept="2lNc1x" id="6ow5Ifzbdeu" role="2GyEu2">
         <property role="TrG5h" value="Dummy" />
+        <node concept="2GeaqC" id="KnKMokm7AL" role="18tn1X" />
         <node concept="Qbqaq" id="4GwBkRgJad" role="18tn1Z" />
       </node>
       <node concept="2lMhBi" id="24qWCY8di$6" role="2lMhBt">

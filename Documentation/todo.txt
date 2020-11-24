@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- use rangeType for regrow-grass (wolf sheep)
 - make wolf-sheep work when eat-grass refers to environment grass
 - make rationales a separate concepts and move out of UDA and entity
 - make stochasticity an extra concept and move out of UDA and others
@@ -9,6 +8,9 @@ TODO list for development of ODD2Netlogo
 - use multiline for model description and all places where the line gets too long
 - make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
 - recreate wolf-sheep and fix UI on the way
+- distinguish better between tool hints and informal text
+- styling for types?
+- improve styling for user input (where to select)
 - Editor should consistently say "Press enter to create new entity" for all collections
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)
 - use UI from IVR for ODD: check boxes (lang.editor.forms), use folding true (video3 of Vaclav)
@@ -52,16 +54,10 @@ TODO list for development of ODD2Netlogo
 - Fix the editor for simulation end.
 - Beautify structure class diagrams
 - Make desccription from UDA into IDescribedConcept
+- generate names such that they are distinct from ODD keywords and then do not check keywords
+- make sure names do not include special characters (and spaces)
 
 TODO for Martin
-- use base styles consistently in editor (COMPLETED, please verify)
-  - user input formal: underlined (COMPLETED: style userInput)
-  - user input informal: grey text (COMPLETED: style: userInputInformal)
-  - name definition: colour and bold (COMPLETED)
-  - name use: colour (COMPLETED: Changed many instances of nameDefinition to new style nameUse)
-  - tool text: plain (COMPLETED: style toolText)
-  - tool instructions: light grey and italics (COMPLETED: style toolInstructions (former hint))
-  - we do not use keywords. (COMPLETED: removed 8/11)
 - ensure that folders in the editor and other aspects to match folders in structure
 - introduce proper constraints for names
   - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
