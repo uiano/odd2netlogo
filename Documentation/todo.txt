@@ -9,6 +9,7 @@ TODO list for development of ODD2Netlogo
 - make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
 - recreate wolf-sheep and fix UI on the way
 - distinguish better between tool hints and informal text
+- follow-up build ...
 - styling for types?
 - improve styling for user input (where to select)
 - Editor should consistently say "Press enter to create new entity" for all collections
@@ -55,13 +56,13 @@ TODO list for development of ODD2Netlogo
 - Beautify structure class diagrams
 - Make desccription from UDA into IDescribedConcept
 - generate names such that they are distinct from ODD keywords and then do not check keywords
-- make sure names do not include special characters (and spaces)
+- printing of specs: use com.mbeddr.mpsutil.uisupport, which needs de.itemis.mps.editor.diagram, which needs org.apache.commons, de.itemis.tooltips, de.itemis.mps.editor.widgets, de.slisson.mps.conditionaleditor, de.q60.mps.libs
+- for build of multiline we also need: de.itemis.mps.extensions.build - not sure why - probably for the multiline
 
 TODO for Martin
 - ensure that folders in the editor and other aspects to match folders in structure
 - introduce proper constraints for names
   - constraints for names: Identifiers may contain any Unicode letter or digit and the following ASCII characters: .?=*!<>:#+/%$_^'&-
-  - constraints that names cannot be the NetLogo keywords - maybe define this constraint related to INamedConcept (COMPLETED)
 - sort between github and tools.uia version and remove the tools.uia version
 - Make boxes (eg add new entity) visible in all cases.
 - Create boxes for activities
