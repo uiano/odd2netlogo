@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- make wolf-sheep work when eat-grass refers to environment grass
 - make rationales a separate concepts and move out of UDA and entity
 - make stochasticity an extra concept and move out of UDA and others
 - remove name4entity (UDA) editors
@@ -11,6 +10,7 @@ TODO list for development of ODD2Netlogo
 - distinguish better between tool hints and informal text
 - follow-up build ...
 - styling for types?
+- make sure to be able to change "any environment" to something else
 - improve styling for user input (where to select)
 - Editor should consistently say "Press enter to create new entity" for all collections
 - Editor should consistently say "Press ctrl-space to select" for all selections (e.g. expression)

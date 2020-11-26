@@ -815,7 +815,9 @@
         <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
           <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="QcY1Q" id="1i0DDuUi3JT" role="hfX4z" />
+        <node concept="2lNc1w" id="6F4sr4mcPqd" role="hfX4z">
+          <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
+        </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
         <property role="TrG5h" value="eat-sheep" />
