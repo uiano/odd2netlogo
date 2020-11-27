@@ -4,7 +4,6 @@ TODO list for development of ODD2Netlogo
 - remove name4entity (UDA) editors
 - do not create / remove initattributes of entities within entities and states (they appear now twice)
 - disallow changing names outside the definition
-- use multiline for model description and all places where the line gets too long
 - make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
 - recreate wolf-sheep and fix UI on the way
 - distinguish better between tool hints and informal text
