@@ -5,7 +5,6 @@ TODO list for development of ODD2Netlogo
 - do not create / remove initattributes of entities within entities and states (they appear now twice)
 - disallow changing names outside the definition
 - make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
-- recreate wolf-sheep and fix UI on the way
 - distinguish better between tool hints and informal text
 - follow-up build ...
 - styling for types?

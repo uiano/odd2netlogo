@@ -1670,7 +1670,7 @@
             <ref role="1NtTu8" to="86kt:6ow5Ifz8iur" resolve="schedule" />
             <node concept="2iRkQZ" id="6ow5Ifz8iuM" role="2czzBx" />
             <node concept="3F0ifn" id="6ow5Ifz8iv4" role="2czzBI">
-              <property role="3F0ifm" value="press enter to create schedule" />
+              <property role="3F0ifm" value="press enter to schedule activities" />
               <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
             <node concept="27yT$n" id="31ZFDPS0nqd" role="3F10Kt">
