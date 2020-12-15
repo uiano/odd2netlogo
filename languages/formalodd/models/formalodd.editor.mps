@@ -64,6 +64,7 @@
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
       <concept id="1233148810477" name="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration" flags="ng" index="tppnM" />
       <concept id="1177327570013" name="jetbrains.mps.lang.editor.structure.QueryFunction_SubstituteMenu_Substitute" flags="in" index="ucgPf" />
+      <concept id="7671875129586001610" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_IncludeSubstituteMenu" flags="ng" index="ulPW2" />
       <concept id="8478191136883534237" name="jetbrains.mps.lang.editor.structure.IExtensibleSubstituteMenuPart" flags="ng" index="upBLQ">
         <child id="8478191136883534238" name="features" index="upBLP" />
       </concept>
@@ -151,6 +152,7 @@
         <child id="8998492695583129972" name="query" index="16NL0q" />
       </concept>
       <concept id="3360401466585705291" name="jetbrains.mps.lang.editor.structure.CellModel_ContextAssistant" flags="ng" index="18a60v" />
+      <concept id="7342352913006985500" name="jetbrains.mps.lang.editor.structure.TransformationLocation_Completion" flags="ng" index="3eGOoe" />
       <concept id="7342352913006985483" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Action" flags="ng" index="3eGOop">
         <child id="8612453216082699922" name="substituteHandler" index="3aKz83" />
       </concept>
@@ -1007,6 +1009,13 @@
           <node concept="3F0ifn" id="6iw2eE2XXGS" role="3EZMnx">
             <property role="3F0ifm" value="Synthetic Attributes" />
             <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+          </node>
+          <node concept="3EZMnI" id="14FEEQgCZKB" role="3EZMnx">
+            <node concept="3F0ifn" id="14FEEQgCZKC" role="3EZMnx">
+              <property role="3F0ifm" value="The synthetic attributes are:" />
+              <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+            </node>
+            <node concept="2iRfu4" id="14FEEQgCZKD" role="2iSdaV" />
           </node>
           <node concept="3F2HdR" id="6iw2eE2XXMn" role="3EZMnx">
             <ref role="1NtTu8" to="86kt:6iw2eE2XXew" resolve="syntheticAttributes" />
@@ -2723,6 +2732,7 @@
         <ref role="1NtTu8" to="86kt:5yfUVbuQFWh" resolve="attribute" />
         <node concept="1sVBvm" id="5yfUVbxaNIX" role="1sWHZn">
           <node concept="3F0A7n" id="5yfUVbxaNIZ" role="2wV5jI">
+            <property role="1$x2rV" value="enter name" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="1wEBp2YqlOp" resolve="nameUse" />
           </node>
@@ -2930,19 +2940,20 @@
       <node concept="3EZMnI" id="4GwBkQO7C5" role="3EZMnx">
         <node concept="2iRfu4" id="4GwBkQO7C6" role="2iSdaV" />
         <node concept="3F0ifn" id="4GwBkQO7C7" role="3EZMnx">
-          <property role="3F0ifm" value="Define" />
+          <property role="3F0ifm" value="The synthetic attribute" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
           <node concept="Vb9p2" id="4GwBkQO7C8" role="3F10Kt" />
         </node>
         <node concept="3F0A7n" id="4GwBkQO7CA" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;write name of synthetic attribute&gt;" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         </node>
         <node concept="3F0ifn" id="4GwBkQO7CS" role="3EZMnx">
-          <property role="3F0ifm" value="as" />
+          <property role="3F0ifm" value="is defined as " />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
         </node>
-        <node concept="3F1sOY" id="4GwBkQO7De" role="3EZMnx">
+        <node concept="3F1sOY" id="7AQDl2U4FcW" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:4GwBkQO7BT" resolve="value" />
         </node>
       </node>
@@ -4420,6 +4431,10 @@
         </node>
       </node>
       <node concept="2j_NTm" id="4qxfPPP1DtW" role="1Qtc8$" />
+    </node>
+    <node concept="1Qtc8_" id="14FEEQgZ0GB" role="IW6Ez">
+      <node concept="3eGOoe" id="14FEEQgZ0Jw" role="1Qtc8$" />
+      <node concept="ulPW2" id="14FEEQgZ0NP" role="1Qtc8A" />
     </node>
   </node>
   <node concept="3ICUPy" id="4qxfPPOQmqW">
