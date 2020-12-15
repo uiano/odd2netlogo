@@ -2258,26 +2258,8 @@
         <property role="3F0ifm" value="count of" />
         <node concept="Vb9p2" id="24yfUKsmjBj" role="3F10Kt" />
       </node>
-      <node concept="3F0ifn" id="4HBtuojRc_K" role="3EZMnx">
-        <property role="3F0ifm" value="all" />
-        <node concept="Vb9p2" id="4HBtuojRc_T" role="3F10Kt" />
-        <node concept="pkWqt" id="4HBtuojRc_V" role="pqm2j">
-          <node concept="3clFbS" id="4HBtuojRc_W" role="2VODD2">
-            <node concept="3clFbF" id="4HBtuojRcDS" role="3cqZAp">
-              <node concept="3clFbC" id="4HBtuojRrgc" role="3clFbG">
-                <node concept="2OqwBi" id="4HBtuojRcQN" role="3uHU7B">
-                  <node concept="pncrf" id="4HBtuojRcDR" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5iGq3FqWVT4" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:24yfUKsi5Qk" resolve="countCondition" />
-                  </node>
-                </node>
-                <node concept="10Nm6u" id="5iGq3FqWWQa" role="3uHU7w" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3F0A7n" id="24yfUKsoLNs" role="3EZMnx">
+        <property role="1$x2rV" value="press ctrl space to select counted entities" />
         <ref role="1NtTu8" to="86kt:5iGq3FqxFD3" resolve="where" />
       </node>
       <node concept="3F0ifn" id="24yfUKsmjB0" role="3EZMnx">
@@ -2300,6 +2282,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="5iGq3FqWTCA" role="3EZMnx">
+        <property role="1$x2rV" value="press ctrl space to select charcteristic" />
         <ref role="1NtTu8" to="86kt:24yfUKsi5Qk" resolve="countCondition" />
       </node>
     </node>
@@ -2950,7 +2933,7 @@
           <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
         </node>
         <node concept="3F0ifn" id="4GwBkQO7CS" role="3EZMnx">
-          <property role="3F0ifm" value="is defined as " />
+          <property role="3F0ifm" value="is defined as" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
         </node>
         <node concept="3F1sOY" id="7AQDl2U4FcW" role="3EZMnx">
