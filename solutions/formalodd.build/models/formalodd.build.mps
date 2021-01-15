@@ -720,18 +720,15 @@
       </node>
       <node concept="1E1JtA" id="6mCZXizuXS5" role="2G$12L">
         <property role="BnDLt" value="true" />
-        <property role="TrG5h" value="formalodd.sandbox" />
-        <property role="3LESm3" value="eee82fe3-3fa2-4d4a-8092-84faea13a6a3" />
+        <property role="TrG5h" value="formalodd.samples" />
+        <property role="3LESm3" value="89da5b47-b574-400d-8bdd-7dd0bd8d932f" />
         <node concept="55IIr" id="6mCZXizuXRZ" role="3LF7KH">
           <node concept="2Ry0Ak" id="6mCZXizuXS0" role="iGT6I">
-            <property role="2Ry0Am" value="languages" />
+            <property role="2Ry0Am" value="solutions" />
             <node concept="2Ry0Ak" id="6mCZXizuXS1" role="2Ry0An">
-              <property role="2Ry0Am" value="formalodd" />
+              <property role="2Ry0Am" value="formalodd.samples" />
               <node concept="2Ry0Ak" id="6mCZXizuXS2" role="2Ry0An">
-                <property role="2Ry0Am" value="sandbox" />
-                <node concept="2Ry0Ak" id="6mCZXizuXS3" role="2Ry0An">
-                  <property role="2Ry0Am" value="formalodd.sandbox.msd" />
-                </node>
+                <property role="2Ry0Am" value="formalodd.samples.msd" />
               </node>
             </node>
           </node>
@@ -756,6 +753,22 @@
               </node>
             </node>
             <node concept="3qWCbU" id="6mCZXizuXTI" role="3LXTna">
+              <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
+            </node>
+          </node>
+          <node concept="3LXTmp" id="5wmNj8rTm5h" role="1HemKq">
+            <node concept="55IIr" id="5wmNj8rTm5d" role="3LXTmr">
+              <node concept="2Ry0Ak" id="5wmNj8rTm5e" role="iGT6I">
+                <property role="2Ry0Am" value="solutions" />
+                <node concept="2Ry0Ak" id="5wmNj8rTm5f" role="2Ry0An">
+                  <property role="2Ry0Am" value="formalodd.samples" />
+                  <node concept="2Ry0Ak" id="5wmNj8rTm5g" role="2Ry0An">
+                    <property role="2Ry0Am" value="models" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3qWCbU" id="5wmNj8rTm5i" role="3LXTna">
               <property role="3qWCbO" value="**/*.mps, **/*.mpsr, **/.model" />
             </node>
           </node>
