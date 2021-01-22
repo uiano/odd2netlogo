@@ -11,8 +11,8 @@
     <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="ljrj" ref="r:d4ff666f-2c7b-4f41-a181-c315d3033674(formalodd.behavior)" implicit="true" />
-    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="c17a" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.language(MPS.OpenAPI/)" implicit="true" />
+    <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" implicit="true" />
   </imports>
@@ -104,6 +104,9 @@
       <concept id="1078938745671" name="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" flags="ig" index="PKFIW" />
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
+      </concept>
+      <concept id="2816844678677370764" name="jetbrains.mps.lang.editor.structure.TransformationMenuPart_PropertyMenu" flags="ng" index="2V5er3">
+        <reference id="2816844678677370765" name="property" index="2V5er2" />
       </concept>
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styles" index="V601i" />
@@ -3149,11 +3152,50 @@
             <property role="3F0ifm" value="How would you categorize the role of the model?" />
             <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
           </node>
-          <node concept="3F0A7n" id="3Fdme42Un1g" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:294onrmen8H" resolve="role" />
-          </node>
-          <node concept="2v7bAL" id="6F4sr4mttGV" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:294onrmen8H" resolve="role" />
+          <node concept="3EZMnI" id="3Fdme437EP7" role="3EZMnx">
+            <node concept="VPM3Z" id="3Fdme437EP9" role="3F10Kt" />
+            <node concept="1HlG4h" id="3Fdme43btmN" role="3EZMnx">
+              <node concept="1HfYo3" id="3Fdme43btmP" role="1HlULh">
+                <node concept="3TQlhw" id="3Fdme43btmR" role="1Hhtcw">
+                  <node concept="3clFbS" id="3Fdme43btmT" role="2VODD2">
+                    <node concept="3clFbF" id="3Fdme43btr$" role="3cqZAp">
+                      <node concept="2OqwBi" id="3Fdme43bu1I" role="3clFbG">
+                        <node concept="2OqwBi" id="3Fdme43btBc" role="2Oq$k0">
+                          <node concept="pncrf" id="3Fdme43btrz" role="2Oq$k0" />
+                          <node concept="3TrcHB" id="3Fdme43btKW" role="2OqNvi">
+                            <ref role="3TsBF5" to="86kt:294onrmen8H" resolve="role" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="3Fdme43buai" role="2OqNvi">
+                          <ref role="37wK5l" to="c17a:~SEnumerationLiteral.getName()" resolve="getName" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="A1WHu" id="3Fdme43bufA" role="3vIgyS">
+                <ref role="A1WHt" node="3Fdme4359yQ" resolve="role" />
+              </node>
+            </node>
+            <node concept="3F0ifn" id="3Fdme438V4Z" role="3EZMnx">
+              <property role="3F0ifm" value=":" />
+              <node concept="A1WHu" id="3Fdme43aaqv" role="3vIgyS">
+                <ref role="A1WHt" node="3Fdme4359yQ" resolve="role" />
+              </node>
+            </node>
+            <node concept="2v7bAL" id="3Fdme437EPm" role="3EZMnx">
+              <property role="1Intyy" value="true" />
+              <property role="1$x2rV" value="&lt;press control space to select the model role&gt;" />
+              <ref role="1NtTu8" to="86kt:294onrmen8H" resolve="role" />
+              <node concept="A1WHu" id="3Fdme437EPn" role="3vIgyS">
+                <ref role="A1WHt" node="3Fdme4359yQ" resolve="role" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="3Fdme437EPc" role="2iSdaV" />
+            <node concept="A1WHu" id="3Fdme437EPt" role="3vIgyS">
+              <ref role="A1WHt" node="3Fdme4359yQ" resolve="role" />
+            </node>
           </node>
         </node>
         <node concept="VPXOz" id="3oOohpo0Hmd" role="3F10Kt">
@@ -6777,6 +6819,18 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="3ICUPy" id="3Fdme4359yQ">
+    <ref role="aqKnT" to="86kt:294onrmen8E" resolve="ModelDescription" />
+    <node concept="1Qtc8_" id="3Fdme4359RB" role="IW6Ez">
+      <node concept="2V5er3" id="3Fdme435ao$" role="1Qtc8A">
+        <ref role="2V5er2" to="86kt:294onrmen8H" resolve="role" />
+      </node>
+      <node concept="3eGOoe" id="3Fdme4359RF" role="1Qtc8$" />
+    </node>
+    <node concept="22hDWg" id="3Fdme4359yR" role="22hAXT">
+      <property role="TrG5h" value="role" />
     </node>
   </node>
 </model>
