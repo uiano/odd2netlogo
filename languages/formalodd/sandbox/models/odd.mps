@@ -1196,11 +1196,8 @@
       <node concept="31WWdx" id="6F4sr4mwNF2" role="2GvpiS">
         <property role="TrG5h" value="Credits and References" />
         <node concept="XAmFv" id="6F4sr4mwNF6" role="31Rc_p">
-          <property role="XAmFg" value="hfhsdkhfkhasdkfha" />
+          <property role="XAmFg" value="hfhsdkhfkhasdkfha&#10;gfjgsdjfgj" />
         </node>
-      </node>
-      <node concept="XAmFv" id="6F4sr4mwNF0" role="1BQTpC">
-        <property role="XAmFg" value="jgjadfljgjadføgoaerjg&#10;kdjfgkadfkgkahkfh&#10;gkahkdfjhghkadfhghadfkhg" />
       </node>
       <node concept="XAmFv" id="6F4sr4mwNEY" role="1BQToi">
         <property role="XAmFg" value="afhyiov rroijou onv lwuo vndlfkuw 0jjfdlgjpdf f ålå fdk kpkop ronnoiunmiou  jpj pjfpdfj pogpfjdpfdk pfpoi ogkpi kå åtphåkgfkåk håkg&#10;fjgljdfljgjalgfa føgkøafkøgk" />
@@ -1208,6 +1205,7 @@
       <node concept="XAmFv" id="6F4sr4mwNEW" role="1BQTog">
         <property role="XAmFg" value="some descripetionjvljldfjlsdfjgjallgfdøguaov j jigo jerogjrlm o iro pkp krem vmeporv mdofpvmfmv 0 m øokfåd,gff,dæld læ lfæ &#10;and more" />
       </node>
+      <node concept="XAmFv" id="3Fdme447_Ap" role="1BQTpC" />
     </node>
     <node concept="ZOwpU" id="6F4sr4mwNES" role="3$p12O">
       <node concept="ZOwpH" id="6F4sr4mAQbA" role="Qgzvn">
@@ -1573,6 +1571,29 @@
     </node>
     <node concept="1sMRUJ" id="6F4sr4mDXto" role="1sMO1Z">
       <ref role="1sMRUI" node="6F4sr4mDXta" resolve="www" />
+    </node>
+  </node>
+  <node concept="ZOwpP" id="3Fdme447_Aw">
+    <node concept="3Ovhds" id="3Fdme447_Ax" role="1BQTrk">
+      <node concept="31WWdx" id="3Fdme44yUFG" role="2GvpiS">
+        <property role="TrG5h" value="Projects" />
+      </node>
+      <node concept="XAmFv" id="3Fdme44bf$a" role="1BQTpC" />
+      <node concept="XAmFv" id="3Fdme44bf$7" role="1BQTpC" />
+      <node concept="XAmFv" id="3Fdme44bf$5" role="1BQTpC" />
+    </node>
+    <node concept="ZOwpU" id="3Fdme447_Ay" role="3$p12O">
+      <node concept="ZOwpW" id="3Fdme44Mseq" role="ZOwpT">
+        <node concept="ZOwo7" id="3Fdme44Mser" role="ZOwpC" />
+      </node>
+      <node concept="2zkEhW" id="3Fdme44Msew" role="2zXruJ">
+        <ref role="2zkEhU" node="3Fdme44Mseq" />
+      </node>
+    </node>
+    <node concept="2lMhBk" id="3Fdme447_Az" role="2J7coG" />
+    <node concept="2kDK7K" id="3Fdme447_A$" role="2kDK7a" />
+    <node concept="1sMRUJ" id="3Fdme44Mseu" role="1sMO1Z">
+      <ref role="1sMRUI" node="3Fdme44Mseq" />
     </node>
   </node>
 </model>

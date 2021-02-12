@@ -1594,37 +1594,37 @@
     <node concept="25R33" id="294onrmen8L" role="25R1y">
       <property role="3tVfz5" value="2469205658733998641" />
       <property role="TrG5h" value="Prediction" />
-      <property role="1L1pqM" value="Prediction : The ability to reliably anticipate well-defined aspects of data that is not currently known to a useful degree of accuracy via computations using the model" />
+      <property role="1L1pqM" value="The ability to reliably anticipate well-defined aspects of data that is not currently known to a useful degree of accuracy via computations using the model." />
     </node>
     <node concept="25R33" id="6Uof7aieThm" role="25R1y">
       <property role="3tVfz5" value="7969186003409409110" />
       <property role="TrG5h" value="Explanation" />
-      <property role="1L1pqM" value="Explanation: Establishing a possible causal chain from a set-up to its consequences in terms of the mechanisms in a simulation." />
+      <property role="1L1pqM" value="Establishing a possible causal chain from a set-up to its consequences in terms of the mechanisms in a simulation." />
     </node>
     <node concept="25R33" id="6Uof7aieThp" role="25R1y">
       <property role="3tVfz5" value="7969186003409409113" />
       <property role="TrG5h" value="Description" />
-      <property role="1L1pqM" value="Description: A description (using a simulation) is an attempt to partially represent what is important of a specific observed case (or small set of closely related cases)." />
+      <property role="1L1pqM" value="A description (using a simulation) is an attempt to partially represent what is important of a specific observed case (or small set of closely related cases)." />
     </node>
     <node concept="25R33" id="6Uof7aieTi5" role="25R1y">
       <property role="3tVfz5" value="7969186003409409157" />
-      <property role="TrG5h" value="Theoretical_Expositon" />
-      <property role="1L1pqM" value="Theoretical exposition: Establishing then characterising (or assessing) hypotheses about the general behaviour of a set of mechanisms (using a simulation). " />
+      <property role="TrG5h" value="Theoretical_Exposition" />
+      <property role="1L1pqM" value="Establishing then characterising (or assessing) hypotheses about the general behaviour of a set of mechanisms (using a simulation)." />
     </node>
     <node concept="25R33" id="6Uof7aieTia" role="25R1y">
       <property role="3tVfz5" value="7969186003409409162" />
       <property role="TrG5h" value="Illustration" />
-      <property role="1L1pqM" value="Illustration: Communicate or make clear an idea, theory or explanation. " />
+      <property role="1L1pqM" value="Communicate or make clear an idea, theory or explanation." />
     </node>
     <node concept="25R33" id="6Uof7aieTig" role="25R1y">
       <property role="3tVfz5" value="7969186003409409168" />
       <property role="TrG5h" value="Analogy" />
-      <property role="1L1pqM" value="Analogy: When processes illustrated by a simulation are used as a way of thinking about something in an informal manner" />
+      <property role="1L1pqM" value="When processes illustrated by a simulation are used as a way of thinking about something in an informal manner." />
     </node>
     <node concept="25R33" id="6Uof7aieTin" role="25R1y">
       <property role="3tVfz5" value="7969186003409409175" />
       <property role="TrG5h" value="Social_Learning" />
-      <property role="1L1pqM" value="Social Learning: When it encapsulates a shared understanding (or set of understandings) of a group of people." />
+      <property role="1L1pqM" value="When it encapsulates a shared understanding (or set of understandings) of a group of people." />
     </node>
   </node>
   <node concept="1TIwiD" id="7j1C2e$5gqI">

@@ -1,5 +1,6 @@
 TODO list for development of ODD2Netlogo
 - fix user interface according to wolf-sheep experience
+-- make sure to allow to create two model description elements and new lines within
 - make rationales a separate concepts and move out of UDA and entity
 - make stochasticity an extra concept and move out of UDA and others
 - remove name4entity (UDA) editors

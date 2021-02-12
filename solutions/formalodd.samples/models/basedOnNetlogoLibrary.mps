@@ -588,7 +588,7 @@
         </node>
       </node>
       <node concept="31WWdx" id="1i0DDuT5reI" role="2GvpiS">
-        <property role="TrG5h" value="Copyright And License" />
+        <property role="TrG5h" value="Copyright and License" />
         <node concept="XAmFv" id="1i0DDuT5reJ" role="31Rc_p">
           <property role="XAmFg" value="Copyright 2020 University of Agder." />
         </node>
