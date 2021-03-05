@@ -923,7 +923,7 @@
                 </node>
               </node>
               <node concept="3F0ifn" id="7qp8jK7DEfl" role="2czzBI">
-                <property role="3F0ifm" value="&lt;press enter to create relationship&gt;" />
+                <property role="3F0ifm" value="&lt;press enter to create a network&gt;" />
                 <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
               </node>
             </node>
