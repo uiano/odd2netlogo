@@ -11,7 +11,10 @@
     </facet>
   </facets>
   <sourcePath />
-  <languageVersions />
+  <languageVersions>
+    <language slang="l:32c6af6f-c921-41d7-a19e-61a23bec1a47:formalodd" version="0" />
+    <language slang="l:ceab5195-25ea-4f22-9b92-103b95ca8c0c:jetbrains.mps.lang.core" version="2" />
+  </languageVersions>
   <dependencyVersions>
     <module reference="89da5b47-b574-400d-8bdd-7dd0bd8d932f(formalodd.samples)" version="0" />
   </dependencyVersions>

@@ -5,10 +5,11 @@
     <use id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build" version="0" />
     <use id="0cf935df-4699-4e9c-a132-fa109541cba3" name="jetbrains.mps.build.mps" version="7" />
     <use id="d5033cee-f632-44b6-b308-89d4fbde34ff" name="jetbrains.mps.build.startup" version="0" />
+    <use id="31c91def-a131-41a1-9018-102874f49a12" name="de.slisson.mps.editor.multiline" version="0" />
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="90a9" ref="r:fb24ac52-5985-4947-bba9-25be6fd32c1a(de.itemis.mps.extensions.build)" />
+    <import index="wap1" ref="r:9aa85a40-e98d-42a5-a8fd-9f607a4dc9a0(de.slisson.mps.editor.multiline.structure)" />
   </imports>
   <registry>
     <language id="479c7a8c-02f9-43b5-9139-d910cb22f298" name="jetbrains.mps.core.xml">
@@ -374,7 +375,7 @@
             <node concept="2Ry0Ak" id="5wEF59lsvie" role="2Ry0An">
               <property role="2Ry0Am" value="JetBrains" />
               <node concept="2Ry0Ak" id="5wEF59lsvij" role="2Ry0An">
-                <property role="2Ry0Am" value="MPS 2020.1" />
+                <property role="2Ry0Am" value="MPS 2020.3" />
               </node>
             </node>
           </node>
@@ -401,15 +402,6 @@
       <node concept="398BVA" id="6mCZXizuXRl" role="2JcizS">
         <ref role="398BVh" node="6mCZXizuXRe" resolve="mps_generic" />
         <node concept="2Ry0Ak" id="6mCZXizuXRm" role="iGT6I">
-          <property role="2Ry0Am" value="plugins" />
-        </node>
-      </node>
-    </node>
-    <node concept="2sgV4H" id="5wEF59lkimH" role="1l3spa">
-      <ref role="1l3spb" to="90a9:2Xjt3l56m0V" resolve="de.itemis.mps.extensions" />
-      <node concept="398BVA" id="5wEF59lklbt" role="2JcizS">
-        <ref role="398BVh" node="5wEF59lsvhr" resolve="mps_home" />
-        <node concept="2Ry0Ak" id="5wEF59lklbu" role="iGT6I">
           <property role="2Ry0Am" value="plugins" />
         </node>
       </node>
@@ -522,21 +514,6 @@
         <node concept="3_I8Xc" id="6mCZXizuXSY" role="39821P">
           <ref role="3_I8Xa" to="ffeo:I6XuqH2zYV" resolve="git4idea" />
         </node>
-        <node concept="3_I8Xc" id="4C0fQ2PJvRA" role="39821P">
-          <ref role="3_I8Xa" to="90a9:4p3FRivDLPx" resolve="mps-multiline" />
-        </node>
-        <node concept="3_I8Xc" id="4C0fQ2PJvS$" role="39821P">
-          <ref role="3_I8Xa" to="90a9:3gBYXhg3Gtd" resolve="lib" />
-        </node>
-        <node concept="3_I8Xc" id="4C0fQ2Q7ldT" role="39821P">
-          <ref role="3_I8Xa" to="90a9:6Y0V2RJk5G9" resolve="de-itemis-mps-selection" />
-        </node>
-        <node concept="3_I8Xc" id="4C0fQ2QjQMJ" role="39821P">
-          <ref role="3_I8Xa" to="90a9:5QhEsDNBgC7" resolve="de.itemis.mps.celllayout" />
-        </node>
-        <node concept="3_I8Xc" id="4C0fQ2QnNe_" role="39821P">
-          <ref role="3_I8Xa" to="90a9:2Xjt3l57guk" resolve="de.slisson.mps.hacks" />
-        </node>
         <node concept="3_I8Xc" id="6mCZXizuXSZ" role="39821P">
           <ref role="3_I8Xa" to="ffeo:4EdAnGErOtx" resolve="mps-core" />
         </node>
@@ -606,9 +583,6 @@
       <node concept="m$_yC" id="6mCZXizuXSk" role="m$_yJ">
         <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
       </node>
-      <node concept="m$_yC" id="4C0fQ2OvjuN" role="m$_yJ">
-        <ref role="m$_y1" to="90a9:31bAEZ0srEa" resolve="de.slisson.mps.editor.multiline" />
-      </node>
       <node concept="3_J27D" id="6mCZXizuXSl" role="m_cZH">
         <node concept="3Mxwew" id="6mCZXizuXSm" role="3MwsjC">
           <property role="3MwjfP" value="odd2netlogo" />
@@ -618,6 +592,12 @@
         <property role="2pNNFO" value="depends" />
         <node concept="3o6iSG" id="6mCZXizuXSo" role="3o6s8t">
           <property role="3o6i5n" value="com.intellij.modules.platform" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="2GieVSMbMSn" role="20twgj">
+        <property role="2pNNFO" value="depends" />
+        <node concept="3o6iSG" id="2GieVSMbMSr" role="3o6s8t">
+          <property role="3o6i5n" value="de.slisson.mps.editor.multiline" />
         </node>
       </node>
     </node>
