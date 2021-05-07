@@ -1,7 +1,6 @@
 TODO list for development of ODD2Netlogo
 - fix user interface according to wolf-sheep experience
 -- make sure to allow to create two model description elements and new lines within
--- improve action "Create new entity": no name and better shape
 -- context menu shape and colour improve (only one level, not colourconstant selection)
 -- make property constraints into type system constraints
 -- correct handling of netlogo keyword check in INamedConceptODD
