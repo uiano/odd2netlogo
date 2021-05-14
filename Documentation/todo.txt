@@ -1,6 +1,5 @@
 TODO list for development of ODD2Netlogo
 - fix user interface according to wolf-sheep experience
--- make sure to allow to create two model description elements and new lines within
 -- context menu shape and colour improve (only one level, not colourconstant selection)
 -- make property constraints into type system constraints
 -- correct handling of netlogo keyword check in INamedConceptODD
@@ -59,7 +58,7 @@ TODO list for development of ODD2Netlogo
 - indent in spawn is missing - spawn should also better be called "clone"
 - Fix the editor for simulation end.
 - Beautify structure class diagrams
-- Make desccription from UDA into IDescribedConcept
+- Make description from UDA into IDescribedConcept
 - generate names such that they are distinct from ODD keywords and then do not check keywords
 - printing of specs: use com.mbeddr.mpsutil.uisupport, which needs de.itemis.mps.editor.diagram, which needs org.apache.commons, de.itemis.tooltips, de.itemis.mps.editor.widgets, de.slisson.mps.conditionaleditor, de.q60.mps.libs
 - for build of multiline we also need: de.itemis.mps.extensions.build - not sure why - probably for the multiline
@@ -105,3 +104,4 @@ TODO later and larger
 - allow comments in the code (see ACT ONE)
 - make nice logos and images
 - create NetLogo in MPS?
+- allow newlines within model description elements (several text elements)

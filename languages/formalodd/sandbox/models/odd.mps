@@ -1196,7 +1196,7 @@
       <node concept="31WWdx" id="6F4sr4mwNF2" role="2GvpiS">
         <property role="TrG5h" value="Credits and References" />
         <node concept="XAmFv" id="6F4sr4mwNF6" role="31Rc_p">
-          <property role="XAmFg" value="hfhsdkhfkhasdkfha&#10;gfjgsdjfgj" />
+          <property role="XAmFg" value="hfhsdkhfkhasdkfha a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a a &#10; a a a a a a a a a a a a&#10;&#10;&#10;gfjgsdjfgj&#10;&#10;abc" />
         </node>
       </node>
       <node concept="XAmFv" id="6F4sr4mwNEY" role="1BQToi">
