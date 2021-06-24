@@ -1258,9 +1258,6 @@
           <property role="TrG5h" value="breef" />
           <node concept="ZOwps" id="6c1M1NX$PL$" role="zGXb3" />
         </node>
-        <node concept="ZOwrR" id="6F4sr4mAQ9Y" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XoV/brown" />
-        </node>
         <node concept="ZOwo7" id="6F4sr4mAQa0" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa7e/wolf" />
           <property role="27hOD7" value="2" />
