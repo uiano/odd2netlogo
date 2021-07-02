@@ -380,7 +380,7 @@
       <property role="IQ2ns" value="3961341278978876244" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="defaultColour" />
-      <ref role="20lvS9" node="3lcKR8aBGlO" resolve="Colour" />
+      <ref role="20lvS9" node="3lcKR8aBGm5" resolve="ColourConstant" />
     </node>
     <node concept="1TJgyj" id="60Hvi7sIcPV" role="1TKVEi">
       <property role="IQ2ns" value="6930332985983552891" />

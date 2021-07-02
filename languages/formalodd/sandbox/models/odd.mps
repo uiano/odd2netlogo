@@ -269,7 +269,7 @@
       <node concept="ZOwrm" id="24yfUKsi0X2" role="2kDK73">
         <property role="TrG5h" value="test-environment" />
         <node concept="ZOwrR" id="24yfUKsi0Xb" role="21mi6N">
-          <property role="ZOwrO" value="22rmwLH$XpM/green" />
+          <property role="ZOwrO" value="22rmwLH$Xmq/black" />
         </node>
         <node concept="2WUdOh" id="7Y7DVQi$r3k" role="2W_r1q">
           <node concept="2oK_Am" id="7Y7DVQi$r3o" role="2WUdOg">
@@ -283,13 +283,13 @@
           <property role="2hv$f$" value="1LeTgidavpP/bottom" />
         </node>
         <node concept="ZOwrR" id="6o4DmIWSrq2" role="21mi6N">
-          <property role="ZOwrO" value="22rmwLH$XpM/green" />
+          <property role="ZOwrO" value="22rmwLH$XlP/white" />
         </node>
       </node>
       <node concept="ZOwrm" id="7Y7DVQi$r3z" role="2kDK73">
         <property role="TrG5h" value="AnotherEnivonment" />
         <node concept="ZOwrR" id="6o4DmIWSrq4" role="21mi6N">
-          <property role="ZOwrO" value="22rmwLH$XpM/green" />
+          <property role="ZOwrO" value="22rmwLH$XmI/grey" />
         </node>
       </node>
       <node concept="ZOwpH" id="24yfUKskJQh" role="1XCrKs">
@@ -1271,6 +1271,9 @@
         <node concept="RFdHg" id="6F4sr4mAQqJ" role="RFdH4" />
         <node concept="3Y$5KH" id="6c1M1NX$PLy" role="3Y$b6w">
           <ref role="3Y$5KI" node="6c1M1NX$PKU" resolve="breef" />
+        </node>
+        <node concept="ZOwrR" id="66R7NFXnwyT" role="3$oDj3">
+          <property role="ZOwrO" value="22rmwLH$XmI/grey" />
         </node>
       </node>
       <node concept="ZOwpW" id="6F4sr4mAQae" role="ZOwpT">

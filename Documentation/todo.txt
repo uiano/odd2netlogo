@@ -1,5 +1,4 @@
 TODO list for development of ODD2Netlogo
-- fix error: an error occurred while applying rule to node (instance of ColourConstant) / an error occurred while applying rule to node (instance of ScaledColour)
 - fix user interface according to wolf-sheep experience
 -- context menu shape improve (compare with colour)
 -- make property constraints into type system constraints
