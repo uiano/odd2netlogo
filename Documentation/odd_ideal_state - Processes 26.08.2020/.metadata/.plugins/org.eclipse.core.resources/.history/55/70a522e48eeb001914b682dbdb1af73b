@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/odd2abm_2/src" modelPluginID="odd2abm_2" modelName="Odd2abm_2"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    copyrightFields="false" importOrganizing="true">
+  <foreignModel>odd2abm_2.ecore</foreignModel>
+  <genPackages prefix="Odd2abm_2" disposableProviderFactory="true" ecorePackage="odd2abm_2.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//ColorEnum"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//ShapeEnum"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ODD">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/entitiesstatesscales"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/entity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/environment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/names"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/usercomment"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/overview"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/initialisation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ODD/name"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//EntitiesStatesScales">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EntitiesStatesScales/entity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EntitiesStatesScales/environment"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//UserComment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//UserComment/text"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Overview">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Overview/endcondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Overview/procedure"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Overview/name"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Environment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Environment/WorldSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Environment/PixelSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Environment/WrapHorizontal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Environment/WrapVertical"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Environment/Backgroung"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Environment/userdefinedattribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Environment/environmententity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Environment/graphicswindow"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/showcolors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/showattributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/coloroptions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/size"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/newattribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/maximumnumberofentities"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/startingnumber"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Entity/distribution"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/sum"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/max"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/min"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/shapeoptions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/defaultcolor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/morecolors"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/colorshade"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/moreshapes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/defaultshape"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/shapesizeoption"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/count"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/agentstatisticoptions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/average"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/attributestableoption"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Entity/userdefinedattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity.1"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity.2"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Names">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Names/name"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Initialisation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Initialisation/initialisationobject"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity.3"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Average">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Average/userdefinedattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//UserDefinedAttribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//UserDefinedAttribute/Stability"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//UserDefinedAttribute/type"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Min">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Min/userdefinedattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Max">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Max/userdefinedattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Sum">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Sum/userdefinedattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ColorShade">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ColorShade/ColorID"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Count"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//MoreColors">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//MoreColors/conditionalcolor"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//DefaultColor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//DefaultColor/colorid"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ColorOptions">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ColorOptions/options"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ShapeSizeoption">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ShapeSizeoption/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//MoreShapes">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//MoreShapes/shapeinstance"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ShapeOptions">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ShapeOptions/shapeoption"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//DefaultShape">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//DefaultShape/ShapeID%3A%20SideTransformSide"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AgentStatisticOptions">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//AgentStatisticOptions/option"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//AgentStatisticOptions/agentstatistic"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AttributeStableOption">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//AttributeStableOption/Option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AgentStatistic"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Type"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//EndCondition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/allenvironmentturned"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/noenvironmentare"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/allentityare"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/noentityare"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/entityattributeare"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/noentityattributeare"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/option"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/attributevalue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EndCondition/color"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EndCondition/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EndCondition/attribute.1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EndCondition/who"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EndCondition/condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EndCondition/endconditionoption"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/EnvironmentAttributeAre"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndCondition/NoEnvironmentAttributeAre"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Procedure"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Attribute/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Attribute/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Attribute/initialValue"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Attribute/attributestableoption"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Attribute/attributevalueoptions"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Attribute/name"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Shape">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Shape/shape"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ShapeInstance">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ShapeInstance/ShapeID"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ShapeInstance/conditional"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ShapeInstance/name"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Conditional">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Conditional/EntitiesEffected"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Conditional/PatchesEffected"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Conditional/attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Conditional/Condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Conditional/intention"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Color">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Color/colorid"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ConditionalColor">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ConditionalColor/conditional"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AttributeValueOptions">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//AttributeValueOptions/ValueOption"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AttributeOptions">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//AttributeOptions/Options"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//AttributeOptions/attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//AttributeOptions/who"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//String">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//String/stringvalue"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Integer">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Integer/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Integer/max"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Integer/statisticaldistribution"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Float">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Float/statisticaldistribution"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Float/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Float/max"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Stringvalue"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//StatisticalDistribution"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Boolean"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Exponential">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Exponential/mean"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Gamma">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Gamma/alpha"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Gamma/lambda"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Normal">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Normal/mean"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Normal/standard_deviatin"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Poisson">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Poisson/mean"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//GraphicsWindow">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GraphicsWindow/test"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GraphicsWindow/Background"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GraphicsWindow/WrapHorizontal"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GraphicsWindow/WrapVertical"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GraphicsWindow/PixelSize"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GraphicsWindow/WorldSize"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//GraphicsWindow/globalvariables"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//GraphicsWindow/defaultcolor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//GraphicsWindow/entityreference"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//EnvironmentEntity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/distribution"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/showcolor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/showattributes"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/showlocation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/changeneighbors"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/changeself"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/maximumnumberofentitiess"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EnvironmentEntity/startingnumber"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/shapeoptions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/coloroptions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/defaultshape"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/moreshapes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/coloroptions.1"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/defaultcolor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/morecolors"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/conditionalcolor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/colorshade"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/location"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/coordinates"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/area"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/density"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/slider"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EnvironmentEntity/slideroption"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//GlobalVariables">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GlobalVariables/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GlobalVariables/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GlobalVariables/startvalue"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//EntityReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//EntityReference/generalentity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Location">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Location/showlocation"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Coordinates">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Coordinates/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Coordinates/y"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Area">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Area/selectlocations%3ASideTransformSide"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Density">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Density/percentage"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Slider">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Slider/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Slider/showslider"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Slider/minamount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Slider/maxamount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Slider/slideamount"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Slider/slideroption"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//SliderOption">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//SliderOption/showslider"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//SpecificLocation">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//SpecificLocation/location"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//SpecificLocation/density"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Who">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Who/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Who/enventity"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Who/option"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Who/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Who/entity.1"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Who/environmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Condition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Condition/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Condition/ifcondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/base"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/target"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/baseEnvironment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/baseAttribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/targetAttribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/baseEntity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/t"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/baseEnvironmententity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Condition/targetEnvironmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//EndConditionOption">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EndConditionOption/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//SelectingType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//SelectingType/who"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//SelectingType/what"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//InitialisationObject">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//InitialisationObject/maximumNumberOfEntities"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//InitialisationObject/startingnumber"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//InitialisationObject/distribution"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationObject/whatisInitialised"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationObject/attributeoptions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationObject/initialisationattribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationObject/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationObject/environmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//InitialisationAttribute">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationAttribute/who"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationAttribute/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InitialisationAttribute/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Action">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Action/condition"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Action/procedure"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Action/compoundActionSelect"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Action/optionyesno"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Who2">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Who2/option"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Who2/value"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Who2/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Who2/environment"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Who2/attribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Who2/color"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//OptionYesNo">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//OptionYesNo/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ActionSelect">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ActionSelect/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//CompoundAction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CompoundAction/action"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Scheduling">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Scheduling/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Scheduling/procedures"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//QuantifiedCondition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//QuantifiedCondition/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//QuantifiedCondition/who"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Spawn">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Spawn/action"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Spawn/AmountofSpawns"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Spawn/updatevalue"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//UpdateValue">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//UpdateValue/option"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//UpdateValue/updatevalue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//UpdateValue/typeofupdate"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//UpdateValue/editortext"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//UpdateValue/changeattribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//UpdateValue/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//UpdateValue/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//CompoundCondition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CompoundCondition/CompoundedCondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CompoundCondition/condition"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//NeighborEnvironment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//NeighborEnvironment/color"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//NeighborEnvironment/EnvironmentAction"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AbstractEnvironmentAction"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//OccupiedSpot"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ThisEnvironment">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ThisEnvironment/environmentaction"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ChangeAttribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeAttribute/attributename"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeAttribute/value"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Move">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Move/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Move/moveselect"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Move/moveback"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Move/moveforward"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Move/turnrandom"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Move/turnright"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Move/turnleft"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//MoveSelect">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//MoveSelect/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//MoveBack">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//MoveBack/back"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//MoveForward">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//MoveForward/forward"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//TurnRandom">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//TurnRandom/randomleft"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//TurnRandom/randomright"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//TurnRight">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//TurnRight/turnright"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//TurnLeft">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//TurnLeft/turnleft"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//MoveRandom">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//MoveRandom/MovementSpeed"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ChangeEnvironment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeEnvironment/changecurrentpixels"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeEnvironment/changeneighborspixels"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeEnvironment/changepixelcolor"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeEnvironment/dimself"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeEnvironment/option"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ChangeEnvironment/changeenvironmentoption"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ChangeEnvironment/color"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ChangeEnvironment/environmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ChangeEnvironmentOption">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ChangeEnvironmentOption/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//CreateNewEntity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CreateNewEntity/neweclass98"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CreateNewEntity/who"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CreateNewEntity/entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CreateNewEntity/environmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ChangeAttribute.1"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Conflict">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Conflict/who"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Conflict/neweclass100"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ConlfictOption">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ConlfictOption/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//NoAction"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Sprout">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Sprout/who2"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//LinkAction">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//LinkAction/link"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//CenterOnPatch"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Intention">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/Entities"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/Environment"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/Attribute"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/Effect"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/EntitiesEffected"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/EnvironmentEffected"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Intention/AttributeEffected"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//GeneralEntity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//GeneralEntity/name"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AbstractProcedure">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//AbstractProcedure/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//AbstractProcedure/action"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//AbstractProcedure/who"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//InteractionCondition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//InteractionCondition/action"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//NoCondition"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//IfCondition">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//IfCondition/who2"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//IfCondition/who"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//IfCondition/option"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Collides">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Collides/Target"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Collides/environmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//CurrentEnvironment">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//CurrentEnvironment/color"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//CurrentEnvironment/AmountofNeighbors"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="odd2abm_2" nsURI="http://www.example.org/odd2abm_2" nsPrefix="odd2abm_2">
+  <eClassifiers xsi:type="ecore:EClass" name="ODD">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entitiesstatesscales" eType="#//EntitiesStatesScales"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" upperBound="-1"
+        eType="#//Entity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environment" eType="#//Environment"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="names" upperBound="-1"
+        eType="#//Names" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="usercomment" upperBound="-1"
+        eType="#//UserComment" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="overview" eType="#//Overview"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialisation" eType="#//Initialisation"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EntitiesStatesScales">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environment" eType="#//Environment"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UserComment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
+        iD="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Overview">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endcondition" upperBound="-1"
+        eType="#//EndCondition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="procedure" upperBound="-1"
+        eType="#//Procedure" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Environment">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="WorldSize" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="PixelSize" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="WrapHorizontal" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="WrapVertical" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Backgroung" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" upperBound="-1"
+        eType="#//UserDefinedAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" upperBound="-1"
+        eType="#//EnvironmentEntity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="graphicswindow" eType="#//GraphicsWindow"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity" eSuperTypes="#//GeneralEntity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showcolors" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showattributes" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="coloroptions" eType="#//ColorOptions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="newattribute" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumnumberofentities"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startingnumber" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distribution" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+        eType="#//Attribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="sum" upperBound="-1" eType="#//Sum"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="max" upperBound="-1" eType="#//Max"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="min" upperBound="-1" eType="#//Min"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="shapeoptions" eType="#//ShapeOptions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultcolor" eType="#//DefaultColor"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="morecolors" eType="#//MoreColors"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="colorshade" eType="#//ColorShade"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="moreshapes" upperBound="-1"
+        eType="#//MoreShapes" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultshape" eType="#//DefaultShape"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="shapesizeoption" eType="#//ShapeSizeoption"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="count" eType="#//Count"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="agentstatisticoptions"
+        eType="#//AgentStatisticOptions" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="average" upperBound="-1"
+        eType="#//Average" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributestableoption"
+        eType="#//AttributeStableOption" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" upperBound="-1"
+        eType="#//UserDefinedAttribute" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Names">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Initialisation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialisationobject" upperBound="-1"
+        eType="#//InitialisationObject" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Average" eSuperTypes="#//AgentStatistic">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" lowerBound="1"
+        eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Stability" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//Type"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Min" eSuperTypes="#//AgentStatistic">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" lowerBound="1"
+        eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Max" eSuperTypes="#//AgentStatistic">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" lowerBound="1"
+        eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Sum" eSuperTypes="#//AgentStatistic">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" lowerBound="1"
+        eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ColorShade" eSuperTypes="#//ConditionalColor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ColorID" eType="#//ColorEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Count" eSuperTypes="#//AgentStatistic"/>
+  <eClassifiers xsi:type="ecore:EClass" name="MoreColors" eSuperTypes="#//Color">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionalcolor" upperBound="-1"
+        eType="#//ConditionalColor" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DefaultColor" eSuperTypes="#//Color">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="colorid" eType="#//ColorEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ColorOptions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="options" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ShapeSizeoption">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoreShapes" eSuperTypes="#//Shape">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="shapeinstance" lowerBound="2"
+        upperBound="-1" eType="#//ShapeInstance" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ShapeOptions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shapeoption" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DefaultShape" eSuperTypes="#//Shape">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ShapeID: SideTransformSide"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AgentStatisticOptions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="agentstatistic" eType="#//AgentStatistic"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeStableOption">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AgentStatistic"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EndCondition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="allenvironmentturned" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noenvironmentare" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="allentityare" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noentityare" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="entityattributeare" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="noentityattributeare" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attribute" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributevalue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="color" eType="#//Color"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//Attribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" eType="#//Condition"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="endconditionoption" eType="#//EndConditionOption"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EnvironmentAttributeAre"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="NoEnvironmentAttributeAre"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Procedure" eSuperTypes="#//AbstractProcedure"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Attribute">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="initialValue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributestableoption"
+        eType="#//AttributeStableOption" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributevalueoptions"
+        upperBound="-1" eType="#//AttributeValueOptions" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Shape">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shape" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ShapeInstance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ShapeID" eType="#//ShapeEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditional" upperBound="-1"
+        eType="#//Conditional" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Conditional">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EntitiesEffected" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="PatchesEffected" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attribute" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Condition" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="intention" upperBound="-1"
+        eType="#//Intention" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Color">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="colorid" eType="#//ColorEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalColor">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditional" upperBound="-1"
+        eType="#//Conditional" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeValueOptions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ValueOption" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeOptions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Options" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//Attribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="String" eSuperTypes="#//Type">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stringvalue" lowerBound="1"
+        upperBound="-1" eType="#//Stringvalue" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Integer" eSuperTypes="#//Type">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statisticaldistribution"
+        eType="#//StatisticalDistribution" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Float" eSuperTypes="#//Type">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statisticaldistribution"
+        eType="#//StatisticalDistribution" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Stringvalue"/>
+  <eClassifiers xsi:type="ecore:EClass" name="StatisticalDistribution"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Boolean" eSuperTypes="#//Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Exponential" eSuperTypes="#//StatisticalDistribution">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mean" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Gamma" eSuperTypes="#//StatisticalDistribution">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="alpha" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lambda" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Normal" eSuperTypes="#//StatisticalDistribution">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mean" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="standard_deviatin" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Poisson" eSuperTypes="#//StatisticalDistribution">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mean" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GraphicsWindow">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="test" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Background" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="WrapHorizontal" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="WrapVertical" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="PixelSize" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="WorldSize" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="globalvariables" upperBound="-1"
+        eType="#//GlobalVariables" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultcolor" eType="#//DefaultColor"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entityreference" upperBound="-1"
+        eType="#//EntityReference" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnvironmentEntity" eSuperTypes="#//GeneralEntity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distribution" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showcolor" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showattributes" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showlocation" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeneighbors" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeself" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumnumberofentitiess"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startingnumber" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" upperBound="-1"
+        eType="#//Attribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="shapeoptions" eType="#//ShapeOptions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="coloroptions" eType="#//ColorOptions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultshape" eType="#//DefaultShape"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="moreshapes" upperBound="-1"
+        eType="#//MoreShapes" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="coloroptions" eType="#//ColorOptions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="defaultcolor" eType="#//DefaultColor"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="morecolors" eType="#//MoreColors"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionalcolor" eType="#//ConditionalColor"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="colorshade" eType="#//ColorShade"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="#//Location"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="coordinates" upperBound="-1"
+        eType="#//Coordinates" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="area" upperBound="-1" eType="#//Area"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="density" eType="#//Density"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="slider" eType="#//Slider"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="slideroption" eType="#//SliderOption"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GlobalVariables">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EntityReference">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="generalentity" eType="#//GeneralEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Location" eSuperTypes="#//SpecificLocation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showlocation" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Coordinates" eSuperTypes="#//Location">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="x" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="y" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Area" eSuperTypes="#//Location">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="selectlocations:SideTransformSide"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Density" eSuperTypes="#//Location">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="percentage" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Slider">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showslider" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minamount" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxamount" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="slideamount" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="slideroption" eType="#//SliderOption"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SliderOption">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="showslider" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SpecificLocation">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="location" eType="#//Location"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="density" upperBound="-1"
+        eType="#//Density" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ColorEnum"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ShapeEnum"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Who">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="enventity" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="entity" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Condition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ifcondition" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="base" eType="#//SelectingType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="target" eType="#//SelectingType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseEnvironment" eType="#//EnvironmentEntity"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseAttribute" eType="#//Attribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetAttribute" eType="#//Attribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseEntity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="t" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseEnvironmententity"
+        eType="#//EnvironmentEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetEnvironmententity"
+        eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EndConditionOption">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SelectingType">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="who" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="what" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InitialisationObject">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maximumNumberOfEntities"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startingnumber" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="distribution" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="whatisInitialised" eType="#//SelectingType"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributeoptions" upperBound="-1"
+        eType="#//AttributeOptions" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="initialisationattribute"
+        eType="#//InitialisationAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InitialisationAttribute">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//Attribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" eType="#//Condition"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="procedure" eType="#//Procedure"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="compoundActionSelect" eType="#//ActionSelect"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="optionyesno" eType="#//OptionYesNo"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Who2">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environment" eType="#//EnvironmentEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//Attribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="color" eType="#//Color"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OptionYesNo">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ActionSelect">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompoundAction" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" upperBound="-1"
+        eType="#//Action" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Scheduling">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="procedures" upperBound="-1"
+        eType="#//Procedure" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuantifiedCondition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Spawn" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" upperBound="-1"
+        eType="#//Action" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AmountofSpawns" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="updatevalue" upperBound="-1"
+        eType="#//UpdateValue" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UpdateValue" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="updatevalue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeofupdate" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="editortext" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="changeattribute" eType="#//ChangeAttribute"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//Attribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CompoundCondition" eSuperTypes="#//InteractionCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="CompoundedCondition" upperBound="-1"
+        eType="#//InteractionCondition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" eType="#//InteractionCondition"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NeighborEnvironment" eSuperTypes="#//InteractionCondition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="#//ColorEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EnvironmentAction" eType="#//Action"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractEnvironmentAction"/>
+  <eClassifiers xsi:type="ecore:EClass" name="OccupiedSpot" eSuperTypes="#//InteractionCondition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ThisEnvironment" eSuperTypes="#//InteractionCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmentaction" eType="#//AbstractEnvironmentAction"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChangeAttribute" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="attributename" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="value" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Move" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="moveselect" eType="#//MoveSelect"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="moveback" eType="#//MoveBack"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="moveforward" eType="#//MoveForward"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="turnrandom" eType="#//TurnRandom"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="turnright" eType="#//TurnRight"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="turnleft" eType="#//TurnLeft"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoveSelect">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoveBack" eSuperTypes="#//Move">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="back" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoveForward" eSuperTypes="#//Move">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="forward" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TurnRandom" eSuperTypes="#//Move">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="randomleft" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="randomright" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TurnRight" eSuperTypes="#//Move">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="turnright" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TurnLeft" eSuperTypes="#//Move">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="turnleft" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoveRandom" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="MovementSpeed" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChangeEnvironment" eSuperTypes="#//AbstractEnvironmentAction">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changecurrentpixels" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changeneighborspixels"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="changepixelcolor" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dimself" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="changeenvironmentoption"
+        eType="#//ChangeEnvironmentOption" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="color" eType="#//Color"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChangeEnvironmentOption" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CreateNewEntity" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="neweclass98" upperBound="-1"
+        eType="#//ChangeAttribute.1" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ChangeAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Conflict" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="neweclass100" eType="#//ConlfictOption"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConlfictOption" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NoAction" eSuperTypes="#//Action"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Sprout" eSuperTypes="#//AbstractEnvironmentAction">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who2" upperBound="-1" eType="#//Who2"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LinkAction" eSuperTypes="#//Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="link" eType="#//Procedure"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CenterOnPatch" eSuperTypes="#//Action"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Intention">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Entities" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Environment" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Attribute" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Effect" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EntitiesEffected" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="EnvironmentEffected" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AttributeEffected" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GeneralEntity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AbstractProcedure">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" eType="#//Action"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" upperBound="-1" eType="#//Who"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InteractionCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="action" eType="#//Action"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NoCondition" eSuperTypes="#//InteractionCondition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IfCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who2" eType="#//Who2" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="who" eType="#//Who" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="option" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Collides" eSuperTypes="#//InteractionCondition">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Target" eType="#//Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="CurrentEnvironment" eSuperTypes="#//InteractionCondition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="#//ColorEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AmountofNeighbors" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+</ecore:EPackage>

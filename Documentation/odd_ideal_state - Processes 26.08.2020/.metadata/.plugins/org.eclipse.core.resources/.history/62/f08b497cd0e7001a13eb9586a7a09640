@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="odd2abm_2" nsURI="http://www.example.org/odd2abm_2" nsPrefix="odd2abm_2">
+  <eClassifiers xsi:type="ecore:EClass" name=".OvervieworScheduling">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="EndCondition" upperBound="-1"
+        eType="#//EndCondition"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Procedures" upperBound="-1"
+        eType="#//.Action" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="schedule" lowerBound="1"
+        upperBound="-1" eType="#//.Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Schedule" eType="#//Todo_Rationale"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="functions" upperBound="-1"
+        eType="#//T.oDo_Function" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EndCondition"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actor" upperBound="-1"
+        eType="#//EntityReference" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actions" upperBound="-1"
+        eType="#//.Activity" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name=".todoSpawn" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AmountofSpawns" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Integer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name=".Move" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="movementdistance" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Integer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NewMoveRandom" eSuperTypes="#//.Move">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Direction" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Integer"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Steps" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Integer"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NewMoveSelectedLocation" eSuperTypes="#//.Move"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EntityReference"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".Interaction" eSuperTypes="#//.Action">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="partner2" lowerBound="1"
+        eType="#//EntityReference" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name=".KillEntity" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="killwho" eType="#//.SpecialEntities"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnvironmentEntity"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".ChangeEnvironment" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environment" lowerBound="1"
+        eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ColorEnum"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Todo_Rationale"/>
+  <eClassifiers xsi:type="ecore:EClass" name="T.oDo_Function">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parameters" lowerBound="1"
+        upperBound="-1" eType="#//.todoparameters" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="todoletactivity" upperBound="-1"
+        eType="#//todoletactivity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="result" lowerBound="1"
+        eType="#//Expression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name=".ActionCall" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="called" lowerBound="1"
+        eType="#//.Action"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actuals" upperBound="-1"
+        eType="#//Actual" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Actual"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".AssignAttribute" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" lowerBound="1" eType="#//AttributeAccess"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeAccess"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".ConditionalAction" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" lowerBound="1"
+        eType="#//Condition" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="yesActions" lowerBound="1"
+        upperBound="-1" eType="#//.Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="noActions" upperBound="-1"
+        eType="#//.Activity" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Condition"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".DecrementAttribute" eSuperTypes="#//.AssignAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".IncrementAttribute" eSuperTypes="#//.AssignAttribute"/>
+  <eClassifiers xsi:type="ecore:EEnum" name=".SpecialEntities"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".SetAttribute" eSuperTypes="#//.AssignAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name=".todoforeach" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="who" eType="#//.SpecialEntities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activities" lowerBound="1"
+        upperBound="-1" eType="#//.Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collection" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="todoletactivity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="todoletactivity" eSuperTypes="#//.Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name=".todoparameters">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//.todoparametertype"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name=".todoparametertype" eSuperTypes="#//Expression"/>
+</ecore:EPackage>

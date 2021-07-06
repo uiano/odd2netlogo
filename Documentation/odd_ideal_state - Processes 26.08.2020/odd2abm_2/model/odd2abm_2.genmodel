@@ -7,81 +7,55 @@
   <genPackages prefix="Odd2abm_2" disposableProviderFactory="true" ecorePackage="odd2abm_2.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//ColorEnum"/>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//.SpecialEntities"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.OvervieworScheduling">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.OvervieworScheduling/EndCondition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.OvervieworScheduling/Procedures"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.OvervieworScheduling/schedule"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.OvervieworScheduling/rationale4Schedule"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.OvervieworScheduling/functions"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ProcessOverviewAndScheduling">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ProcessOverviewAndScheduling/Procedures"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ProcessOverviewAndScheduling/rationale4Schedule"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ProcessOverviewAndScheduling/endconditions"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ProcessOverviewAndScheduling/codes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ProcessOverviewAndScheduling/codereference"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ProcessOverviewAndScheduling/schedule"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//Entity"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//Entity.1"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//Entity.2"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//EndCondition"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.Action">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.Action/actor"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.Action/actions"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.todoSpawn">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//.todoSpawn/AmountofSpawns"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.todoSpawn/spawnvalues"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.Move">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//.Move/movementdistance"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Action">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Action/actor"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Action/activities"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//EntityReference"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.Interaction">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.Interaction/partner2"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Interaction">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Interaction/partner2"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.KillEntity">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//.KillEntity/killwho"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//EnvironmentEntity"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.ChangeEnvironment">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.ChangeEnvironment/environment"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.Activity"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//Todo_Rationale"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//T.oDo_Function">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//T.oDo_Function/parameters"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//T.oDo_Function/todoletactivity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//T.oDo_Function/result"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.ActionCall">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.ActionCall/called"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.ActionCall/actuals"/>
-    </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//Actual"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.AssignAttribute">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.AssignAttribute/rhs"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.AssignAttribute/lhs"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Activity"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Rationale"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Function">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Function/parameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Function/locals"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Function/result"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//Expression"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//AttributeAccess"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.ConditionalAction">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.ConditionalAction/condition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.ConditionalAction/yesActions"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.ConditionalAction/noActions"/>
-    </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//Condition"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.DecrementAttribute"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.IncrementAttribute"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.SetAttribute"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.todoforeach">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//.todoforeach/who"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.todoforeach/activities"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.todoforeach/collection"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//foreach">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//foreach/who"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//foreach/activities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//foreach/collection"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//todoletactivity"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//todoletactivity.1">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todoletactivity.1/value"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//LetActivity"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Parameter">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Parameter/entityreference"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.todoparameters">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//.todoparameters/type"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//code"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//ActionCall">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ActionCall/actuals"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ActionCall/called"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//.todoparametertype"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//todoturn">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todoturn/direction"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//CodeReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//CodeReference/code"/>
     </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//INamedConceptODD"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Actual"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//IRationaledConcept"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//IDescribedConcept"/>
   </genPackages>
 </genmodel:GenModel>
