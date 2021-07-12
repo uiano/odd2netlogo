@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="rationales" nsURI="http://www.example.org/rationales" nsPrefix="rationales">
-  <eClassifiers xsi:type="ecore:EClass" name="TODO_Rationale">
+  <eClassifiers xsi:type="ecore:EClass" name="Rationale">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="base4Rationale" eType="#//RationaleKind"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="sentence" upperBound="-1"
         eType="#//InformalText" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="IRationaledConcept">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" upperBound="-1"
-        eType="#//TODO_Rationale" containment="true"/>
+        eType="#//Rationale" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InformalText">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="text"/>
@@ -22,7 +21,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="InformalWithRationale">
     <eStructuralFeatures xsi:type="ecore:EReference" name="description" upperBound="-1"
         eType="#//InformalText" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" eType="#//TODO_Rationale"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" eType="#//Rationale"
         containment="true"/>
   </eClassifiers>
 </ecore:EPackage>

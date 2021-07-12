@@ -8,7 +8,6 @@
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//ModelCategories"/>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//RationaleKind"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//ODD">
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/entitiesandvariables"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/processandscheduling"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/_designconcepts"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ODD/version"/>
@@ -19,7 +18,6 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/rationale4init"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ODD/rationales"/>
     </genClasses>
-    <genClasses ecoreClass="odd2abm_2.ecore#//EntitiesStatesVariablesAndScales"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//ProcessOverviewAndScheduling">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//ProcessOverviewAndScheduling/name"/>
     </genClasses>
@@ -39,8 +37,8 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//ModelDescription/generalDescriptions"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//Experiments"/>
-    <genClasses ecoreClass="odd2abm_2.ecore#//TODO_Rationale">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//TODO_Rationale/base4Rationale"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Rationale">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Rationale/base4Rationale"/>
     </genClasses>
     <genClasses ecoreClass="odd2abm_2.ecore#//RationaleReference"/>
     <genClasses ecoreClass="odd2abm_2.ecore#//DescriptionElement">

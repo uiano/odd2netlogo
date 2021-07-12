@@ -2,18 +2,17 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="experiments_current_state" nsURI="http://www.example.org/experiments_current_state"
     nsPrefix="experiments_current_state">
-  <eClassifiers xsi:type="ecore:EClass" name="ExperimentDefinition">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ExperimentDefinition" eSuperTypes="#//INamedConceptODD">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="repetitions" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="simulationEnd" eType="#//EndCondition"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="experimentWorld" upperBound="-1"
-        eType="#//GraphicsWindow" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="experimentWorld" eType="#//GraphicsWindow"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="experimentValues" upperBound="-1"
         eType="#//Sampling" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="DataCollection">
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_DataCollection">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="timesteps" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="REMOVE_collect" upperBound="-1"
         eType="#//Attribute_Access" containment="true"/>
@@ -33,7 +32,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="Experiments">
     <eStructuralFeatures xsi:type="ecore:EReference" name="dataPresentation" upperBound="-1"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="datacollection" eType="#//DataCollection"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="datacollection" eType="#//TODO_DataCollection"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="defaultWorld" eType="#//GraphicsWindow"
         containment="true"/>
@@ -46,7 +45,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="itemName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="TODO_value" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="method" eType="#//CollectionKind"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scaling" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="scaling" eType="#//number"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="CollectionKind"/>
   <eClassifiers xsi:type="ecore:EClass" name="Attribute_Access"/>
@@ -64,16 +63,19 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="method" lowerBound="1"
         eType="#//SamplingMethod" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="LetActivity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="LetActivity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="#//Expression.1"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SamplingMethod"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Characterization" eSuperTypes="#//LetActivity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity" eSuperTypes="#//LetActivity"/>
   <eClassifiers xsi:type="ecore:EClass" name="EntitySampling" eSuperTypes="#//Sampling">
     <eStructuralFeatures xsi:type="ecore:EReference" name="entity" lowerBound="1"
         eType="#//Entity"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
   <eClassifiers xsi:type="ecore:EClass" name="AttributeSampling" eSuperTypes="#//Sampling">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" lowerBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" lowerBound="1"
         eType="#//UserDefinedAttribute"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute"/>
@@ -82,9 +84,13 @@
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
-  <eClassifiers xsi:type="ecore:EClass" name="TODO_Range" eSuperTypes="#//SamplingMethod">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lowerBound" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="upperBound" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="increment" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="number" instanceTypeName="newDataType2"/>
+  <eClassifiers xsi:type="ecore:EClass" name="INamedConceptODD" eSuperTypes="#//LetActivity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RangeSampling" eSuperTypes="#//SamplingMethod">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lowerBound" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="upperBound" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="increment" eType="#//number"/>
   </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Characterization" eSuperTypes="#//LetActivity"/>
 </ecore:EPackage>

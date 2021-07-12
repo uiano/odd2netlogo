@@ -20,8 +20,8 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference designConcepts.ecore#//DesignConcepts/collectives"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference designConcepts.ecore#//DesignConcepts/emergence"/>
     </genClasses>
-    <genClasses ecoreClass="designConcepts.ecore#//TODO_Rationale">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute designConcepts.ecore#//TODO_Rationale/base4Rationale"/>
+    <genClasses ecoreClass="designConcepts.ecore#//Rationale">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute designConcepts.ecore#//Rationale/base4Rationale"/>
     </genClasses>
     <genClasses ecoreClass="designConcepts.ecore#//InformalText">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute designConcepts.ecore#//InformalText/text"/>

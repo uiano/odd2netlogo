@@ -12,17 +12,17 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="learning" upperBound="-1"
         eType="#//InformalText" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Interaction"
-        upperBound="-1" eType="#//TODO_Rationale" containment="true"/>
+        upperBound="-1" eType="#//Rationale" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="prediction" eType="#//InformalWithRationale"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Stochasticity"
-        upperBound="-1" eType="#//TODO_Rationale" containment="true"/>
+        upperBound="-1" eType="#//Rationale" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="collectives" upperBound="-1"
         eType="#//InformalText" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="emergence" eType="#//InformalWithRationale"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="TODO_Rationale">
+  <eClassifiers xsi:type="ecore:EClass" name="Rationale">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="base4Rationale"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InformalText">

@@ -2,8 +2,6 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="odd2abm_2" nsURI="http://www.example.org/odd2abm_2" nsPrefix="odd2abm_2">
   <eClassifiers xsi:type="ecore:EClass" name="ODD" eSuperTypes="#//IDescribedConcept">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="entitiesandvariables" lowerBound="1"
-        eType="#//EntitiesStatesVariablesAndScales" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="processandscheduling" lowerBound="1"
         eType="#//ProcessOverviewAndScheduling" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="_designconcepts" eType="#//DesignConcepts"
@@ -17,12 +15,11 @@
         eType="#//InformalText" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="experiments" lowerBound="1"
         eType="#//Experiments" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4init" eType="#//TODO_Rationale"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4init" eType="#//Rationale"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rationales" upperBound="-1"
         eType="#//RationaleReference" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="EntitiesStatesVariablesAndScales"/>
   <eClassifiers xsi:type="ecore:EClass" name="ProcessOverviewAndScheduling">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
   </eClassifiers>
@@ -46,7 +43,7 @@
         eType="#//DescriptionElement" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Experiments"/>
-  <eClassifiers xsi:type="ecore:EClass" name="TODO_Rationale">
+  <eClassifiers xsi:type="ecore:EClass" name="Rationale">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="base4Rationale" eType="#//RationaleKind"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="RationaleReference"/>

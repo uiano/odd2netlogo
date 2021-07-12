@@ -12,19 +12,19 @@
   <genPackages prefix="Experiments_current_state" disposableProviderFactory="true"
       ecorePackage="experiments_current_state.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="experiments_current_state.ecore#//CollectionKind"/>
+    <genDataTypes ecoreDataType="experiments_current_state.ecore#//number"/>
     <genClasses ecoreClass="experiments_current_state.ecore#//ExperimentDefinition">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//ExperimentDefinition/name"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//ExperimentDefinition/repetitions"/>
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//ExperimentDefinition/description"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//ExperimentDefinition/simulationEnd"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//ExperimentDefinition/experimentWorld"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//ExperimentDefinition/experimentValues"/>
     </genClasses>
-    <genClasses ecoreClass="experiments_current_state.ecore#//DataCollection">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//DataCollection/timesteps"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//DataCollection/REMOVE_collect"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//DataCollection/REMOVE_collectsyn"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//DataCollection/collectionItem"/>
+    <genClasses ecoreClass="experiments_current_state.ecore#//TODO_DataCollection">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//TODO_DataCollection/timesteps"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//TODO_DataCollection/REMOVE_collect"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//TODO_DataCollection/REMOVE_collectsyn"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//TODO_DataCollection/collectionItem"/>
     </genClasses>
     <genClasses ecoreClass="experiments_current_state.ecore#//GraphicsWindow">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//GraphicsWindow/background"/>
@@ -59,25 +59,30 @@
     <genClasses ecoreClass="experiments_current_state.ecore#//Sampling">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//Sampling/method"/>
     </genClasses>
-    <genClasses ecoreClass="experiments_current_state.ecore#//LetActivity"/>
+    <genClasses ecoreClass="experiments_current_state.ecore#//LetActivity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//LetActivity/value"/>
+    </genClasses>
     <genClasses ecoreClass="experiments_current_state.ecore#//SamplingMethod"/>
-    <genClasses ecoreClass="experiments_current_state.ecore#//Characterization"/>
+    <genClasses ecoreClass="experiments_current_state.ecore#//Activity"/>
     <genClasses ecoreClass="experiments_current_state.ecore#//EntitySampling">
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//EntitySampling/entity"/>
     </genClasses>
     <genClasses ecoreClass="experiments_current_state.ecore#//Entity"/>
     <genClasses ecoreClass="experiments_current_state.ecore#//AttributeSampling">
-      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//AttributeSampling/userdefinedattribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//AttributeSampling/attribute"/>
     </genClasses>
     <genClasses ecoreClass="experiments_current_state.ecore#//UserDefinedAttribute"/>
     <genClasses ecoreClass="experiments_current_state.ecore#//FixedValue">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference experiments_current_state.ecore#//FixedValue/value"/>
     </genClasses>
     <genClasses ecoreClass="experiments_current_state.ecore#//Expression"/>
-    <genClasses ecoreClass="experiments_current_state.ecore#//TODO_Range">
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//TODO_Range/lowerBound"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//TODO_Range/upperBound"/>
-      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//TODO_Range/increment"/>
+    <genClasses ecoreClass="experiments_current_state.ecore#//INamedConceptODD"/>
+    <genClasses ecoreClass="experiments_current_state.ecore#//Expression.1"/>
+    <genClasses ecoreClass="experiments_current_state.ecore#//RangeSampling">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//RangeSampling/lowerBound"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//RangeSampling/upperBound"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute experiments_current_state.ecore#//RangeSampling/increment"/>
     </genClasses>
+    <genClasses ecoreClass="experiments_current_state.ecore#//Characterization"/>
   </genPackages>
 </genmodel:GenModel>
