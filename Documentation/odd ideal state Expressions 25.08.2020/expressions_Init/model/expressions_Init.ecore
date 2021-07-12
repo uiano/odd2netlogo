@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="expressions_Init" nsURI="http://www.example.org/expressions_Init"
+    nsPrefix="expressions_Init">
+  <eClassifiers xsi:type="ecore:EClass" name="Expressions"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RandomNormal" eSuperTypes="#//Expressions">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="mean" upperBound="-1" eType="#//Expressions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="stdev" upperBound="-1"
+        eType="#//Expressions" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RandomUniform" eSuperTypes="#//Expressions">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" upperBound="-1" eType="#//Expressions"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="to" upperBound="-1" eType="#//Expressions"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RandomNumber" eSuperTypes="#//Expressions"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Slider" eSuperTypes="#//Expressions">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="generatedName" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minAmount" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="maxAmount" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="slideAmount" eType="#//number"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startValue" eType="#//number"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="number" instanceTypeName="newDataType1"/>
+</ecore:EPackage>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="condition" nsURI="http://www.example.org/condition" nsPrefix="condition">
+  <eClassifiers xsi:type="ecore:EClass" name="Comparison" eSuperTypes="#//Condition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="ComparisonOperator" eType="#//ComparisonOperator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="left" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="right" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EndCondition" eSuperTypes="#//Condition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TimedCondition" eSuperTypes="#//EndCondition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator" eType="#//ComparisonOperator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="OccupiedSpot" eSuperTypes="#//Condition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Condition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseGeneralEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseattribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetattribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuantifiedCondition" eSuperTypes="#//EndCondition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Quantifier" eType="#//Quantifier"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="generalentity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="generalentity" eType="#//GeneralEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="ComparisonOperator">
+    <eAnnotations source="http://www.eclipse.org/emf/2002/GenModel">
+      <details key="documentation" value="&lt;&#xD;&#xA;>&#xD;&#xA;&lt;=&#xD;&#xA;>=&#xD;&#xA;="/>
+    </eAnnotations>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Quantifier"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GeneralEntity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="todo_ConditionWithSame" eSuperTypes="#//todo_ConditionWith"/>
+  <eClassifiers xsi:type="ecore:EClass" name="todo_ConditionWith" eSuperTypes="#//Condition">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comparison" eType="#//ComparisonOperator"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="baseEntityAttributes" eType="#//todo_EntityBaseAttributes"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="todo_EntityBaseAttributes"/>
+</ecore:EPackage>

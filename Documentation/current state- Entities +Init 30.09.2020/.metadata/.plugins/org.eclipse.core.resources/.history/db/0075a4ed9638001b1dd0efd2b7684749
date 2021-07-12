@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="odd2abm_2" nsURI="http://www.example.org/odd2abm_2" nsPrefix="odd2abm_2">
+  <eClassifiers xsi:type="ecore:EClass" name="ODD">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entitiesstatesscales" eType="#//EntitiesStatesScales"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="networks" upperBound="-1"
+        eType="#//Network" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EntitiesStatesScales">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modelParameters" upperBound="-1"
+        eType="#//UserDefinedAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entityAttributes" upperBound="-1"
+        eType="#//UserDefinedAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmentAttributes"
+        upperBound="-1" eType="#//UserDefinedAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entities" upperBound="-1"
+        eType="#//_Entity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmEntities" upperBound="-1"
+        eType="#//EnvironmentEntity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="SyntheticAttributes" upperBound="-1"
+        eType="#//LetActivity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" upperBound="-1"
+        eType="#//TODO_Rationale" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scales" upperBound="-1"
+        eType="#//InformalWithRationale" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributesStochasticity"
+        upperBound="-1" eType="#//AttributeAccess" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="_Entity" eSuperTypes="#//GeneralEntity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="colour" eType="#//ColorConstant"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" upperBound="-1"
+        eType="#//UserDefinedAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_shape" eType="#//_Shape"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute" eSuperTypes="#//IRationaledConcept">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//Type"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ColorConstant" eSuperTypes="#//Colour">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="colour" eType="#//ColorEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="_Attribute">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="initialValue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="_Shape">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shape" eType="#//ShapeEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Colour"/>
+  <eClassifiers xsi:type="ecore:EClass" name="GeneralEntity" eSuperTypes="#//IDescribedConcept"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ShapeEnum"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ColorEnum"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EnvironmentEntity" eSuperTypes="#//GeneralEntity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="griddescritption" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="DefaultColour" eType="#//Colour"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Network" eSuperTypes="#//GeneralEntity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="directed" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" upperBound="-1"
+        eType="#//UserDefinedAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="from" lowerBound="1" eType="#//_Entity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="to" lowerBound="1" eType="#//_Entity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LetActivity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_Rationale"/>
+  <eClassifiers xsi:type="ecore:EClass" name="InformalWithRationale"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeAccess"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EntityReference" eSuperTypes="#//TODO_ParameterType"/>
+  <eClassifiers xsi:type="ecore:EClass" name="IDescribedConcept" eSuperTypes="#//INamedConceptODD">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IRationaledConcept" eSuperTypes="#//INamedConceptODD">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="todo_rationale" upperBound="-1"
+        eType="#//TODO_Rationale" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="INamedConceptODD" instanceClassName="">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression" instanceClassName=""/>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_ParameterType"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AnyEntity" eSuperTypes="#//EntityReference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AnyEnvironment" eSuperTypes="#//EntityReference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Categorical" eSuperTypes="#//Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Collection" eSuperTypes="#//Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ConcreteEntityReference" eSuperTypes="#//EntityReference">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="generalentity" eType="#//GeneralEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnvironmentEntityReference" eSuperTypes="#//EntityReference">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="where"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environmententity" eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="NetworkReference" eSuperTypes="#//EntityReference">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="network" eType="#//Network"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Numerical" eSuperTypes="#//Type"/>
+  <eClassifiers xsi:type="ecore:EClass" name="PlainEntityReference" eSuperTypes="#//EntityReference">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_entity" eType="#//_Entity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="RangeType" eSuperTypes="#//Type">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lower" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="upper" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_Array" eSuperTypes="#//Collection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1" eType="#//Type"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="size" lowerBound="1" eType="#//Expression.1"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_Set" eSuperTypes="#//Collection">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1" eType="#//Type"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ScaledColour" eSuperTypes="#//ColorConstant">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scalingValue" lowerBound="1"
+        eType="#//AttributeAccess" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
+  <eClassifiers xsi:type="ecore:EDataType" name="number" instanceTypeName="newDataType4"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ColorShade" eSuperTypes="#//Colour">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="unwanted_ColorID" eType="#//ColorEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalColor">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="#//ColorEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" upperBound="-1"
+        eType="#//Expression.2" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoreColors" eSuperTypes="#//Colour">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionalcolor" upperBound="-1"
+        eType="#//ConditionalColor" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="MoreShapes" eSuperTypes="#//_Shape">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="todo_shapeinstance" lowerBound="1"
+        upperBound="-1" eType="#//TODO_ShapeInstance" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_ShapeInstance" eSuperTypes="#//INamedConceptODD">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shapeID" eType="#//ShapeEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" upperBound="-1"
+        eType="#//Expression.2" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="QuantifiedCondition4Attribute">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="quantifier" eType="#//quantifier"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="quantifier" instanceTypeName="newDataType5"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_ForEach">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="who" eType="#//SpecialEntities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collection" eType="#//Expression.2"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activities" lowerBound="1"
+        upperBound="-1" eType="#//Activity" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EDataType" name="SpecialEntities" instanceTypeName="newDataType6"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity"/>
+</ecore:EPackage>

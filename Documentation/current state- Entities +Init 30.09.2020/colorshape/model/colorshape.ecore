@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="colorshape" nsURI="http://www.example.org/colorshape" nsPrefix="colorshape">
+  <eClassifiers xsi:type="ecore:EClass" name="ScaledColour" eSuperTypes="#//ColourConstant">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scalingValue" lowerBound="1"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scalingValue" lowerBound="1"
+        eType="#//AttributeAccess" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ColourConstant" eSuperTypes="#//Colour">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="colour" eType="#//ColorEnum"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="colour" eType="#//ColourConstant"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userdefinedattribute" upperBound="-1"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="_shape" lowerBound="1"
+        eType="#//_Shape" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="_Shape">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="shape" eType="#//ShapeEnum"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="EnvironmentEntity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="griddescritption" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="DefaultColour" eType="#//Colour"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Colour"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ColorEnum"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="ShapeEnum"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeAccess"/>
+</ecore:EPackage>

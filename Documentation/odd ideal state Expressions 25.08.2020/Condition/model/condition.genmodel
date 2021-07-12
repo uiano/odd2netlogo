@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/Condition/src-gen" creationIcons="false" editDirectory="/Condition.edit/src-gen"
+    editorDirectory="/Condition.editor/src-gen" modelPluginID="Condition" modelName="Condition"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>condition.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Condition" disposableProviderFactory="true" ecorePackage="condition.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="condition.ecore#//ComparisonOperator"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="condition.ecore#//Quantifier"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="condition.ecore#//todo_EntityBaseAttributes"/>
+    <genClasses ecoreClass="condition.ecore#//Comparison">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute condition.ecore#//Comparison/ComparisonOperator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference condition.ecore#//Comparison/left"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference condition.ecore#//Comparison/right"/>
+    </genClasses>
+    <genClasses ecoreClass="condition.ecore#//EndCondition"/>
+    <genClasses ecoreClass="condition.ecore#//TimedCondition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute condition.ecore#//TimedCondition/operator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference condition.ecore#//TimedCondition/value"/>
+    </genClasses>
+    <genClasses ecoreClass="condition.ecore#//OccupiedSpot"/>
+    <genClasses ecoreClass="condition.ecore#//Condition"/>
+    <genClasses ecoreClass="condition.ecore#//Expression">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference condition.ecore#//Expression/baseGeneralEntity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference condition.ecore#//Expression/baseattribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference condition.ecore#//Expression/targetattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="condition.ecore#//QuantifiedCondition">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute condition.ecore#//QuantifiedCondition/Quantifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference condition.ecore#//QuantifiedCondition/generalentity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference condition.ecore#//QuantifiedCondition/generalentity.1"/>
+    </genClasses>
+    <genClasses ecoreClass="condition.ecore#//GeneralEntity"/>
+    <genClasses ecoreClass="condition.ecore#//todo_ConditionWithSame"/>
+    <genClasses ecoreClass="condition.ecore#//todo_ConditionWith">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute condition.ecore#//todo_ConditionWith/comparison"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute condition.ecore#//todo_ConditionWith/baseEntityAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="condition.ecore#//BooleanConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute condition.ecore#//BooleanConstant/Value"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

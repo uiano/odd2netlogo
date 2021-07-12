@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/RefConcepts/src-gen" creationIcons="false" editDirectory="/RefConcepts.edit/src-gen"
+    editorDirectory="/RefConcepts.editor/src-gen" modelPluginID="RefConcepts" modelName="RefConcepts"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>refConcepts.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="RefConcepts" disposableProviderFactory="true" ecorePackage="refConcepts.ecore#/">
+    <genClasses ecoreClass="refConcepts.ecore#//EntityReference"/>
+    <genClasses ecoreClass="refConcepts.ecore#//AnyEntity"/>
+    <genClasses ecoreClass="refConcepts.ecore#//AnyEnvironment"/>
+    <genClasses ecoreClass="refConcepts.ecore#//EnvironmentEntityReference">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute refConcepts.ecore#//EnvironmentEntityReference/where"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//EnvironmentEntityReference/environmententity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//EnvironmentEntityReference/environmententity.1"/>
+    </genClasses>
+    <genClasses ecoreClass="refConcepts.ecore#//PlainEntityReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//PlainEntityReference/_entity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//PlainEntityReference/entity"/>
+    </genClasses>
+    <genClasses ecoreClass="refConcepts.ecore#//ConcreteEntityReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//ConcreteEntityReference/generalentity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//ConcreteEntityReference/genentity"/>
+    </genClasses>
+    <genClasses ecoreClass="refConcepts.ecore#//NetworkReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//NetworkReference/network"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference refConcepts.ecore#//NetworkReference/network.1"/>
+    </genClasses>
+    <genClasses ecoreClass="refConcepts.ecore#//Entity"/>
+    <genClasses ecoreClass="refConcepts.ecore#//Network"/>
+    <genClasses ecoreClass="refConcepts.ecore#//GenEntity"/>
+    <genClasses ecoreClass="refConcepts.ecore#//EnvironmentEntity"/>
+  </genPackages>
+</genmodel:GenModel>
