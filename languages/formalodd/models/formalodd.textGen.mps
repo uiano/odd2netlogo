@@ -7682,8 +7682,8 @@
     </node>
   </node>
   <node concept="WtQ9Q" id="7MNWMN_RcI7">
-    <property role="3GE5qa" value="4FutureUse" />
-    <ref role="WuzLi" to="86kt:7MNWMN_RcI3" resolve="QuantifiedCondition4Attribute" />
+    <property role="3GE5qa" value="Expressions.Condition" />
+    <ref role="WuzLi" to="86kt:7MNWMN_RcI3" resolve="QuantifiedConditionWithComparison" />
     <node concept="11bSqf" id="7MNWMN_RcI8" role="11c4hB">
       <node concept="3clFbS" id="7MNWMN_RcI9" role="2VODD2">
         <node concept="3cpWs8" id="7MNWMN_Rd9w" role="3cqZAp">

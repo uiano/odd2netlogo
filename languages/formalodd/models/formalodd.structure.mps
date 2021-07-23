@@ -1024,18 +1024,20 @@
   </node>
   <node concept="1TIwiD" id="7MNWMN_RcI3">
     <property role="EcuMT" value="8985793055694834563" />
-    <property role="3GE5qa" value="4FutureUse" />
-    <property role="TrG5h" value="QuantifiedCondition4Attribute" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyi" id="7MNWMN_RcI4" role="1TKVEl">
-      <property role="IQ2nx" value="8985793055694834564" />
-      <property role="TrG5h" value="quantifier" />
-      <ref role="AX2Wp" node="7y2oNwbJHk" resolve="Quantifier" />
-    </node>
+    <property role="3GE5qa" value="Expressions.Condition" />
+    <property role="TrG5h" value="QuantifiedConditionWithComparison" />
+    <ref role="1TJDcQ" node="6lHESjKDb9m" resolve="QuantifiedCondition" />
     <node concept="1TJgyj" id="7MNWMN_RcI6" role="1TKVEi">
       <property role="IQ2ns" value="8985793055694834566" />
       <property role="20kJfa" value="attribute" />
       <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+    </node>
+    <node concept="1TJgyj" id="3sVTHMyZbkX" role="1TKVEi">
+      <property role="IQ2ns" value="3980028531013629245" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="comp" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="5yfUVbuMlWA" resolve="Comparison" />
     </node>
   </node>
   <node concept="1TIwiD" id="7MNWMNAzpgj">

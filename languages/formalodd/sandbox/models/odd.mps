@@ -67,6 +67,9 @@
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
       </concept>
+      <concept id="8985793055694834563" name="formalodd.structure.QuantifiedConditionWithComparison" flags="ng" index="2prNyJ">
+        <child id="3980028531013629245" name="comp" index="2lLPfx" />
+      </concept>
       <concept id="7351747083726060654" name="formalodd.structure.EnvironmentEntityReference" flags="ng" index="q1XHF">
         <reference id="7351747083726060655" name="envEntity" index="q1XHE" />
       </concept>
@@ -808,46 +811,10 @@
   </node>
   <node concept="ZOwpP" id="qdXC$ygXa5">
     <property role="TrG5h" value="Seggregation" />
+    <property role="2QSBU6" value="This project models the behavior of red and green turtles in a mythical pond, which want to live near some of &quot;its own&quot;." />
     <node concept="ZOwpU" id="qdXC$ygXa6" role="3$p12O">
-      <node concept="ZOwpH" id="I1KRVYqSZ8" role="25gc1v">
-        <property role="TrG5h" value="happyDummy" />
-        <property role="QtYJw" value="dummy, should be 'happy'" />
-        <node concept="ZOwps" id="I1KRVYqSZn" role="zGXb3" />
-      </node>
-      <node concept="RZfIr" id="I1KRVYqSV8" role="3AlXHa">
-        <property role="TrG5h" value="similar-nearby" />
-        <node concept="XrRG9" id="I1KRVYqSVc" role="RZfIc">
-          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-          <node concept="XCvtc" id="I1KRVYqSVd" role="XqA8S">
-            <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-            <property role="XEM5g" value="24yfUKsyf$I/eq" />
-          </node>
-        </node>
-      </node>
-      <node concept="RZfIr" id="I1KRVYqSVg" role="3AlXHa">
-        <property role="TrG5h" value="other-nearby" />
-        <node concept="XrRG9" id="I1KRVYqSVh" role="RZfIc">
-          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-          <node concept="XCvtc" id="I1KRVYqSVi" role="XqA8S">
-            <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-            <property role="XEM5g" value="24yfUKsyf$J/ne" />
-          </node>
-        </node>
-      </node>
-      <node concept="RZfIr" id="I1KRVYqSX3" role="3AlXHa">
-        <property role="TrG5h" value="total-nearby" />
-        <node concept="i7gn5" id="I1KRVYqSXm" role="RZfIc">
-          <property role="i7gn4" value="1w00y4a7gvC/add" />
-          <node concept="RLbTy" id="I1KRVYqSXv" role="i7gCG">
-            <ref role="RLbTH" node="I1KRVYqSV8" resolve="similar-nearby" />
-          </node>
-          <node concept="RLbTy" id="I1KRVYqSXy" role="i7gCI">
-            <ref role="RLbTH" node="I1KRVYqSVg" resolve="other-nearby" />
-          </node>
-        </node>
-      </node>
       <node concept="3gPaqd" id="I1KRVYqSW6" role="3AlXHa">
-        <property role="TrG5h" value="happy" />
+        <property role="TrG5h" value="happy?" />
         <node concept="26hFik" id="I1KRVYqSW$" role="RZfIc">
           <property role="26hFil" value="5yfUVbuMlWv/ge" />
           <node concept="RLbTy" id="I1KRVYqSZ2" role="26hFir">
@@ -859,7 +826,7 @@
               <node concept="i7gn5" id="I1KRVYqSWC" role="i7gCG">
                 <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
                 <node concept="26lliW" id="I1KRVYqSWD" role="i7gCG">
-                  <ref role="26lliz" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
+                  <ref role="26lliz" node="6dSewhkDZHP" resolve="%-similar-wanted" />
                 </node>
                 <node concept="RLbTy" id="I1KRVYqSZ5" role="i7gCI">
                   <ref role="RLbTH" node="I1KRVYqSX3" resolve="total-nearby" />
@@ -872,17 +839,45 @@
           </node>
         </node>
       </node>
+      <node concept="RZfIr" id="I1KRVYqSV8" role="3AlXHa">
+        <property role="TrG5h" value="similar-nearby" />
+        <node concept="XrRG9" id="I1KRVYqSVc" role="RZfIc">
+          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
+          <node concept="XCvtc" id="I1KRVYqSVd" role="XqA8S">
+            <property role="1oWuG6" value="2kHWdXWIfC0/color" />
+            <property role="XEM5g" value="24yfUKsyf$I/eq" />
+          </node>
+        </node>
+      </node>
+      <node concept="RZfIr" id="I1KRVYqSX3" role="3AlXHa">
+        <property role="TrG5h" value="total-nearby" />
+        <node concept="XrRG9" id="3sVTHMyZb7q" role="RZfIc">
+          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
+        </node>
+      </node>
+      <node concept="ZOwpH" id="3sVTHMyZb3B" role="Qgzvn">
+        <property role="TrG5h" value="percent-similar" />
+        <property role="QtYJw" value="on the average, what percent of a turtle's neightbours are the same colour as that turtle?" />
+        <node concept="ZOwps" id="3sVTHMyZb3V" role="zGXb3" />
+      </node>
+      <node concept="ZOwpH" id="3sVTHMyZb42" role="Qgzvn">
+        <property role="TrG5h" value="percent-unhappy" />
+        <property role="QtYJw" value="what percent of the turtles are unhappy?" />
+        <node concept="ZOwps" id="3sVTHMyZb4q" role="zGXb3" />
+      </node>
       <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
-        <property role="TrG5h" value="similar-nearby-wanted" />
+        <property role="TrG5h" value="%-similar-wanted" />
+        <property role="QtYJw" value="the wanted percentage of same neighbours" />
         <node concept="ZOwps" id="6dSewhkDZHV" role="zGXb3" />
       </node>
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
-        <property role="TrG5h" value="blue-group" />
+        <property role="TrG5h" value="green-turtle" />
+        <property role="2QSBU6" value="a green turtle" />
         <node concept="ZOwrR" id="qdXC$ygXaM" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$Xk$/blue" />
+          <property role="ZOwrO" value="22rmwLH$XpM/green" />
         </node>
         <node concept="ZOwo7" id="qdXC$yky1D" role="ZOwpC">
-          <property role="27hRln" value="5yfUVbvMa1z/square" />
+          <property role="27hRln" value="5yfUVbvMa5v/turtle" />
           <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDu" role="RFdH4" />
@@ -894,12 +889,13 @@
         </node>
       </node>
       <node concept="ZOwpW" id="qdXC$ygXaQ" role="ZOwpT">
-        <property role="TrG5h" value="red-group" />
+        <property role="TrG5h" value="red-turtle" />
+        <property role="2QSBU6" value="a red turtle" />
         <node concept="ZOwrR" id="qdXC$ygXaZ" role="3$oDj3">
           <property role="ZOwrO" value="22rmwLH$Xl$/red" />
         </node>
         <node concept="ZOwo7" id="qdXC$yky1H" role="ZOwpC">
-          <property role="27hRln" value="5yfUVbvMa1z/square" />
+          <property role="27hRln" value="5yfUVbvMa5v/turtle" />
           <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDy" role="RFdH4" />
@@ -911,22 +907,19 @@
         </node>
       </node>
       <node concept="2lNc1w" id="1i0DDuRwnS5" role="2zXruJ">
-        <ref role="8YSiZ" node="qdXC$ygXa8" resolve="blue-group" />
+        <ref role="8YSiZ" node="qdXC$ygXa8" resolve="green-turtle" />
       </node>
       <node concept="2lNc1w" id="1i0DDuRwnS7" role="2zXruJ">
-        <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-group" />
+        <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-turtle" />
       </node>
       <node concept="2zkEhW" id="1i0DDuScWwA" role="2zXruJ">
-        <ref role="2zkEhU" node="qdXC$ygXa8" resolve="blue-group" />
+        <ref role="2zkEhU" node="qdXC$ygXa8" resolve="green-turtle" />
       </node>
       <node concept="2zkEhW" id="1i0DDuScWwE" role="2zXruJ">
-        <ref role="2zkEhU" node="qdXC$ygXaQ" resolve="red-group" />
-      </node>
-      <node concept="3Y$5KH" id="4C0fQ2OXJaH" role="3Y$b7i">
-        <ref role="3Y$5KI" node="I1KRVYqSZ8" resolve="happyDummy" />
+        <ref role="2zkEhU" node="qdXC$ygXaQ" resolve="red-turtle" />
       </node>
       <node concept="3Y$5KH" id="4C0fQ2OXJaJ" role="3Y$b7i">
-        <ref role="3Y$5KI" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
+        <ref role="3Y$5KI" node="6dSewhkDZHP" resolve="%-similar-wanted" />
         <node concept="21jJIL" id="4C0fQ2P1Iq$" role="3Y$5KK">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
@@ -934,8 +927,26 @@
           <property role="21jJI7" value="20" />
         </node>
       </node>
+      <node concept="3Y$5KH" id="3sVTHMyZb3Q" role="3Y$b7i">
+        <ref role="3Y$5KI" node="3sVTHMyZb3B" resolve="percent-similar" />
+      </node>
+      <node concept="3Y$5KH" id="3sVTHMyZb4k" role="3Y$b7i">
+        <ref role="3Y$5KI" node="3sVTHMyZb42" resolve="percent-unhappy" />
+      </node>
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
+      <node concept="2prNyJ" id="3sVTHMz2qlv" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
+        <node concept="26hFik" id="3sVTHMz2qlx" role="2lLPfx">
+          <property role="26hFil" value="24yfUKsyf$I/eq" />
+          <node concept="26lliW" id="3sVTHMz5xsw" role="26hFir">
+            <ref role="26lliz" node="3sVTHMyZb42" resolve="percent-unhappy" />
+          </node>
+          <node concept="2oK_Am" id="3sVTHMz5xsz" role="26hFip">
+            <property role="2oK_Ap" value="0" />
+          </node>
+        </node>
+      </node>
       <node concept="1Svl6F" id="6ow5Ifzbde1" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXmc$i" resolve="move-if-not-happy" />
       </node>
@@ -947,8 +958,8 @@
           </node>
           <node concept="26hFik" id="3M5MOtLlj6q" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="26lliW" id="I1KRVYqSZq" role="26hFir">
-              <ref role="26lliz" node="I1KRVYqSZ8" resolve="happyDummy" />
+            <node concept="26lliW" id="3sVTHMyZb7V" role="26hFir">
+              <ref role="26lliz" node="3sVTHMyZb42" resolve="percent-unhappy" />
             </node>
             <node concept="2oK_Am" id="I1KRVYnLuJ" role="26hFip">
               <property role="2oK_Ap" value="0" />
@@ -978,7 +989,7 @@
       </node>
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ60X" role="1sMO1Z">
-      <ref role="1sMRUI" node="qdXC$ygXa8" resolve="blue-group" />
+      <ref role="1sMRUI" node="qdXC$ygXa8" resolve="green-turtle" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ610" role="1sMO1Z">
       <ref role="1sMRUI" node="3kYfzLXmcA8" resolve="move" />
@@ -990,10 +1001,10 @@
       <ref role="1sMRUI" node="qdXC$yrH6d" resolve="occupied" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ61f" role="1sMO1Z">
-      <ref role="1sMRUI" node="qdXC$ygXaQ" resolve="red-group" />
+      <ref role="1sMRUI" node="qdXC$ygXaQ" resolve="red-turtle" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ61W" role="1sMO1Z">
-      <ref role="1sMRUI" node="6dSewhkDZHP" resolve="similar-nearby-wanted" />
+      <ref role="1sMRUI" node="6dSewhkDZHP" resolve="%-similar-wanted" />
     </node>
     <node concept="3Ovhds" id="1i0DDuTcj$e" role="1BQTrk">
       <node concept="31WWdx" id="5wEF59lwO8s" role="2GvpiS">
@@ -1002,11 +1013,75 @@
           <property role="XAmFg" value="adapted from NetLogo models library: IABM textbook / chapter 3 / Segregation Extensions / Segregation Simple" />
         </node>
       </node>
-    </node>
-    <node concept="1sMRUJ" id="I1KRVYqSZc" role="1sMO1Z">
-      <ref role="1sMRUI" node="I1KRVYqSZ8" resolve="happyDummy" />
+      <node concept="31WWdx" id="3sVTHMyZb0T" role="2GvpiS">
+        <property role="TrG5h" value="Acknowledgement" />
+        <node concept="XAmFv" id="3sVTHMyZb0X" role="31Rc_p">
+          <property role="XAmFg" value="This model is from Chapter Three of the book “Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo”, by Uri Wilensky &amp; William Rand.&#10;Wilensky, U. &amp; Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press.&#10;This model is in the IABM Textbook folder of the NetLogo Models Library. The model, as well as any updates to the model, can also be found on the textbook website: http://www.intro-to-abm.com/." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb0Z" role="2GvpiS">
+        <property role="TrG5h" value="What is it?" />
+        <node concept="XAmFv" id="3sVTHMyZb15" role="31Rc_p">
+          <property role="XAmFg" value="This project models the behavior of two types of turtles in a mythical pond. The red turtles and green turtles get along with one another. But each turtle wants to make sure that it lives near some of “its own.” That is, each red turtle wants to live near at least some red turtles, and each green turtle wants to live near at least some green turtles. The simulation shows how these individual preferences ripple through the pond, leading to large-scale patterns.&#10;This project was inspired by Thomas Schelling’s writings about social systems (particularly with regards to housing segregation in cities).&#10;This model is a simplified version of the Segregation model that is in the Social Science section of the NetLogo models library." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb17" role="2GvpiS">
+        <property role="TrG5h" value="How to use it?" />
+        <node concept="XAmFv" id="3sVTHMyZb1f" role="31Rc_p">
+          <property role="XAmFg" value="Click the SETUP button to set up the turtles. There are equal numbers of red and green turtles. The turtles move around until there is at most one turtle on a patch. Click GO to start the simulation. If turtles don’t have enough same-color neighbors, they jump to a nearby patch.&#10;The NUMBER slider controls the total number of turtles. (It takes effect the next time you click SETUP.) The %-SIMILAR-WANTED slider controls the percentage of same-color turtles that each turtle wants among its neighbors. For example, if the slider is set at 30, each green turtle wants at least 30% of its neighbors to be green turtles.&#10;The “PERCENT SIMILAR” monitor shows the average percentage of same-color neighbors for each turtle. It starts at about 0.5, since each turtle starts (on average) with an equal number of red and green turtles as neighbors. The “PERCENT UNHAPPY” monitor shows the percent of turtles that have fewer same-color neighbors than they want (and thus want to move). Both monitors are also plotted." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb1h" role="2GvpiS">
+        <property role="TrG5h" value="Things to notice" />
+        <node concept="XAmFv" id="3sVTHMyZb1r" role="31Rc_p">
+          <property role="XAmFg" value="When you execute SETUP, the red and green turtles are randomly distributed throughout the pond. But many turtles are “unhappy” since they don’t have enough same-color neighbors. The unhappy turtles jump to new locations in the vicinity. But in the new locations, they might tip the balance of the local population, prompting other turtles to leave. If a few red turtles move into an area, the local green turtles might leave. But when the green turtles move to a new area, they might prompt red turtles to leave that area.&#10;Over time, the number of unhappy turtles decreases. But the pond becomes more segregated, with clusters of red turtles and clusters of green turtles.&#10;In the case where each turtle wants at least 30% same-color neighbors, the turtles end up with (on average) 70% same-color neighbors. So relatively small individual preferences can lead to significant overall segregation." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb1t" role="2GvpiS">
+        <property role="TrG5h" value="Things to try" />
+        <node concept="XAmFv" id="3sVTHMyZb1D" role="31Rc_p">
+          <property role="XAmFg" value="Try different values for %-SIMILAR-WANTED. How does the overall degree of segregation change?&#10;If each turtle wants at least 40% same-color neighbors, what percentage (on average) do they end up with?" />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb1F" role="2GvpiS">
+        <property role="TrG5h" value="Netlogo features" />
+        <node concept="XAmFv" id="3sVTHMyZb1T" role="31Rc_p">
+          <property role="XAmFg" value="In the UPDATE-GLOBALS procedure, note the use of SUM, COUNT and WITH to compute the percentages displayed in the monitors and plots." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb1V" role="2GvpiS">
+        <property role="TrG5h" value="Credits and references" />
+        <node concept="XAmFv" id="3sVTHMyZb2b" role="31Rc_p">
+          <property role="XAmFg" value="This model is a simplified version of:&#10;Wilensky, U. (1997). NetLogo Segregation model. http://ccl.northwestern.edu/netlogo/models/Segregation. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.&#10;The original work by Thomas Schelling was published in: Schelling, T. (1978). Micromotives and Macrobehavior. New York: Norton.&#10;See also: Rauch, J. (2002). Seeing Around Corners; The Atlantic Monthly; April 2002;Volume 289, No. 4; 35-48. https://www.theatlantic.com/magazine/archive/2002/04/seeing-around-corners/302471/" />
+        </node>
+      </node>
+      <node concept="31WWdx" id="3sVTHMyZb2d" role="2GvpiS">
+        <property role="TrG5h" value="How to cite?" />
+        <node concept="XAmFv" id="3sVTHMyZb2v" role="31Rc_p">
+          <property role="XAmFg" value="This model is part of the textbook, “Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo.”&#10;If you mention this model or the NetLogo software in a publication, we ask that you include the citations below.&#10;For the model itself:&#10;Wilensky, U., Rand, W. (2006). NetLogo Segregation Simple model. http://ccl.northwestern.edu/netlogo/models/SegregationSimple. Center for Connected Learning and Computer-Based Modeling, Northwestern Institute on Complex Systems, Northwestern University, Evanston, IL.&#10;Please cite the NetLogo software as:&#10;Wilensky, U. (1999). NetLogo. http://ccl.northwestern.edu/netlogo/. Center for Connected Learning and Computer-Based Modeling, Northwestern University, Evanston, IL.&#10;Please cite the textbook as:&#10;Wilensky, U. &amp; Rand, W. (2015). Introduction to Agent-Based Modeling: Modeling Natural, Social and Engineered Complex Systems with NetLogo. Cambridge, MA. MIT Press." />
+        </node>
+      </node>
+      <node concept="31WWdx" id="1i0DDuT5reI" role="2GvpiS">
+        <property role="TrG5h" value="Copyright and License" />
+        <node concept="XAmFv" id="1i0DDuT5reJ" role="31Rc_p">
+          <property role="XAmFg" value="Copyright 2021 University of Agder." />
+        </node>
+        <node concept="XAmFv" id="1i0DDuT5reK" role="31Rc_p">
+          <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
+        </node>
+        <node concept="XAmFv" id="1i0DDuT5reL" role="31Rc_p" />
+        <node concept="XAmFv" id="1i0DDuT5reM" role="31Rc_p">
+          <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
+        </node>
+      </node>
     </node>
     <node concept="2kDK7K" id="I1KRW0nFYH" role="2kDK7a" />
+    <node concept="1sMRUJ" id="3sVTHMyZb3H" role="1sMO1Z">
+      <ref role="1sMRUI" node="3sVTHMyZb3B" resolve="percent-similar" />
+    </node>
+    <node concept="1sMRUJ" id="3sVTHMyZb4a" role="1sMO1Z">
+      <ref role="1sMRUI" node="3sVTHMyZb42" resolve="percent-unhappy" />
+    </node>
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">
     <property role="TrG5h" value="voting" />

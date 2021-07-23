@@ -27,11 +27,9 @@ TODO list for development of ODD2Netlogo
 - create user instructions for activities
 - ensure that the cursor goes to where the specification should be inputted
 - Editor – fix the cursor issue  make the cursor go to the spaces
-- Editor- create some decriptions (the ones that are not already there)
+- Editor - create some decriptions (the ones that are not already there)
 - Create instructions for editor in Synthetic Attributes
 - When we create something it is automatically given a name- unnamed action, unnamed entity, remove the option unnamed. Also there should be the instruction insert name here in all possible locations and not only in 1 or 2 . So we should not see no name
-- Constraints- constrain options in the context menu
-- Constrain- color can only be used for 1 type of entity (either entity or environment entity)
 
 TODOs structure
 - make rationales a separate concepts and move out of UDA and entity
@@ -45,11 +43,15 @@ TODOs structure
 - should sliders be expressions?
 - allow let in conditional
 - remove arrays? - not needed (move to future use)
+- fix or remove all TODO_ concepts
 TODOs constraints
 - make property constraints into type system constraints
 - correct handling of netlogo keyword check in INamedConceptODD
 - typing of expressions
 - recheck all constraints
+- recheck and remove "can be child"-constraints
+- Constraints- constrain options in the context menu
+- Constraint- color can only be used for 1 type of entity (either entity or environment entity)
 TODOs editor
 - remove name4entity (UDA) editors / disallow changing names outside the definition
 - make <ctrl>-B work correctly for all kinds of concepts (also when looking at errors etc.)
