@@ -857,7 +857,7 @@
       </node>
       <node concept="ZOwpH" id="3sVTHMyZb3B" role="Qgzvn">
         <property role="TrG5h" value="percent-similar" />
-        <property role="QtYJw" value="on the average, what percent of a turtle's neightbours are the same colour as that turtle?" />
+        <property role="QtYJw" value="on the average, what percent of a turtle's neighbours are the same colour as that turtle?" />
         <node concept="ZOwps" id="3sVTHMyZb3V" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="3sVTHMyZb42" role="Qgzvn">
