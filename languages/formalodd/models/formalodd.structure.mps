@@ -287,17 +287,15 @@
     <node concept="PrWs8" id="64QC5GXZtVn" role="PzmwI">
       <ref role="PrY4T" node="64QC5GXZtS4" resolve="IRationaledConcept" />
     </node>
+    <node concept="PrWs8" id="3sVTHMzls9m" role="PzmwI">
+      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
+    </node>
     <node concept="1TJgyj" id="4GvH3PCF6rY" role="1TKVEi">
       <property role="IQ2ns" value="5413243452964759294" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="type" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
-    </node>
-    <node concept="1TJgyi" id="4GwBkRmQAl" role="1TKVEl">
-      <property role="IQ2nx" value="84585932964718997" />
-      <property role="TrG5h" value="description" />
-      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGky">
@@ -1499,8 +1497,8 @@
     <property role="34LRSv" value="define an abbreviation" />
     <property role="R4oN_" value="make a shortcut" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-    <node concept="PrWs8" id="4_ZgD2xKDu7" role="PzmwI">
-      <ref role="PrY4T" node="4_ZgD2xxlg3" resolve="INamedConceptODD" />
+    <node concept="PrWs8" id="3sVTHMzls9g" role="PzmwI">
+      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
     </node>
     <node concept="1TJgyj" id="4GwBkQO7BT" role="1TKVEi">
       <property role="IQ2ns" value="84585932955613689" />

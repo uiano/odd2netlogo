@@ -137,7 +137,6 @@
       </concept>
       <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
-        <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
@@ -252,12 +251,10 @@
       </node>
       <node concept="ZOwpH" id="1jC05GNft6w" role="25gc1v">
         <property role="TrG5h" value="health" />
-        <property role="QtYJw" value="the health." />
         <node concept="ZOwps" id="1jC05GNft6$" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="1jC05GNft6B" role="25gc1v">
         <property role="TrG5h" value="hunger" />
-        <property role="QtYJw" value="if the entity is hungry" />
         <node concept="ZOwps" id="1i0DDuSpYH3" role="zGXb3" />
       </node>
       <node concept="3Ovhfo" id="1jC05GNfsI0" role="3Ovhfh">
@@ -304,7 +301,6 @@
         <property role="2QSBU6" value="My Frog Description" />
         <node concept="ZOwpH" id="7eFC9EokzbM" role="2gUEk7">
           <property role="TrG5h" value="leap length" />
-          <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="7eFC9EokzbQ" role="zGXb3" />
         </node>
         <node concept="ZOwrR" id="qdXC$xsGMs" role="3$oDj3">
@@ -319,7 +315,6 @@
         </node>
         <node concept="ZOwpH" id="7eFC9Ep4KXv" role="2gUEk7">
           <property role="TrG5h" value="unnamed attribute0" />
-          <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="1z3v1JXiZRE" role="zGXb3" />
         </node>
         <node concept="ZOwpH" id="5wSz0kzyecF" role="2gUEk7">
@@ -354,7 +349,6 @@
         <property role="2QSBU6" value="m" />
         <node concept="ZOwpH" id="166q1IL2R3S" role="2gUEk7">
           <property role="TrG5h" value="some attribute" />
-          <property role="QtYJw" value="t" />
           <node concept="ZOwps" id="166q1IL2R3W" role="zGXb3" />
         </node>
         <node concept="2oK_Am" id="7eFC9Eoo2Bd" role="RIgNU">
@@ -815,6 +809,7 @@
     <node concept="ZOwpU" id="qdXC$ygXa6" role="3$p12O">
       <node concept="3gPaqd" id="I1KRVYqSW6" role="3AlXHa">
         <property role="TrG5h" value="happy?" />
+        <property role="2QSBU6" value="for each turtle, indicates whether at least %-similar-wanted percent of that turtle's neighbors are the same color as the turtle" />
         <node concept="26hFik" id="I1KRVYqSW$" role="RZfIc">
           <property role="26hFil" value="5yfUVbuMlWv/ge" />
           <node concept="RLbTy" id="I1KRVYqSZ2" role="26hFir">
@@ -841,6 +836,7 @@
       </node>
       <node concept="RZfIr" id="I1KRVYqSV8" role="3AlXHa">
         <property role="TrG5h" value="similar-nearby" />
+        <property role="2QSBU6" value="how many neighboring patches have a turtle with my color?" />
         <node concept="XrRG9" id="I1KRVYqSVc" role="RZfIc">
           <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
           <node concept="XCvtc" id="I1KRVYqSVd" role="XqA8S">
@@ -851,23 +847,24 @@
       </node>
       <node concept="RZfIr" id="I1KRVYqSX3" role="3AlXHa">
         <property role="TrG5h" value="total-nearby" />
+        <property role="2QSBU6" value="how many neighboring patches have a turtle?" />
         <node concept="XrRG9" id="3sVTHMyZb7q" role="RZfIc">
           <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
         </node>
       </node>
       <node concept="ZOwpH" id="3sVTHMyZb3B" role="Qgzvn">
         <property role="TrG5h" value="percent-similar" />
-        <property role="QtYJw" value="on the average, what percent of a turtle's neighbours are the same colour as that turtle?" />
+        <property role="2QSBU6" value="on the average, what percent of a turtle's neighbours are the same colour as that turtle?" />
         <node concept="ZOwps" id="3sVTHMyZb3V" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="3sVTHMyZb42" role="Qgzvn">
         <property role="TrG5h" value="percent-unhappy" />
-        <property role="QtYJw" value="what percent of the turtles are unhappy?" />
+        <property role="2QSBU6" value="what percent of the turtles are unhappy?" />
         <node concept="ZOwps" id="3sVTHMyZb4q" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
         <property role="TrG5h" value="%-similar-wanted" />
-        <property role="QtYJw" value="the wanted percentage of same neighbours" />
+        <property role="2QSBU6" value="what percent of similarity do the turtles want for their neighbours?" />
         <node concept="ZOwps" id="6dSewhkDZHV" role="zGXb3" />
       </node>
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
@@ -1285,27 +1282,22 @@
     <node concept="ZOwpU" id="6F4sr4mwNES" role="3$p12O">
       <node concept="ZOwpH" id="6F4sr4mAQbA" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-sheep" />
-        <property role="QtYJw" value="energy that wolf gets from eating sheep" />
         <node concept="ZOwps" id="6F4sr4mAQbP" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6F4sr4mAQbS" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-grass" />
-        <property role="QtYJw" value="energy that sheep gets from eating grass" />
         <node concept="ZOwps" id="6F4sr4mAQcb" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6F4sr4mAQce" role="Qgzvn">
         <property role="TrG5h" value="grass-regrowth-rate" />
-        <property role="QtYJw" value="rate at which grass is regrowing" />
         <node concept="ZOwps" id="6F4sr4mAQc_" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6F4sr4mAQcC" role="Qgzvn">
         <property role="TrG5h" value="movement-cost" />
-        <property role="QtYJw" value="cost of moving for wolf and sheep" />
         <node concept="ZOwps" id="6F4sr4mAQd3" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6F4sr4mAQbj" role="1XCrKs">
         <property role="TrG5h" value="grass-amount" />
-        <property role="QtYJw" value="patches have grass" />
         <node concept="354mTO" id="6F4sr4mAQbw" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="10" />
@@ -1323,7 +1315,6 @@
       </node>
       <node concept="ZOwpH" id="6F4sr4mAQat" role="25gc1v">
         <property role="TrG5h" value="energy" />
-        <property role="QtYJw" value="agents own energy" />
         <node concept="ZOwps" id="6F4sr4mAQaB" role="zGXb3" />
       </node>
       <node concept="ZOwpW" id="6F4sr4mwNF8" role="ZOwpT">

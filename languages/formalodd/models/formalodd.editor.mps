@@ -1326,8 +1326,8 @@
         <node concept="3F0A7n" id="64QC5GXmIV2" role="3EZMnx">
           <property role="1O74Pk" value="true" />
           <property role="1$x2rV" value="&lt;write description here&gt;" />
-          <ref role="1NtTu8" to="86kt:4GwBkRmQAl" resolve="description" />
           <ref role="1k5W1q" node="6lGg4tB2fqN" resolve="userInputInformal" />
+          <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
         </node>
       </node>
       <node concept="3F0ifn" id="5CkcxufyEbD" role="3EZMnx">
@@ -3090,6 +3090,22 @@
         <node concept="3F1sOY" id="7AQDl2U4FcW" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:4GwBkQO7BT" resolve="value" />
         </node>
+        <node concept="3F0ifn" id="3sVTHMzlsjc" role="3EZMnx">
+          <property role="3F0ifm" value="." />
+          <node concept="11L4FC" id="3sVTHMzlsjm" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="3sVTHMzlsiU" role="3EZMnx">
+          <property role="3F0ifm" value="It describes" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+        </node>
+        <node concept="3F0A7n" id="3sVTHMzlsiV" role="3EZMnx">
+          <property role="1O74Pk" value="true" />
+          <property role="1$x2rV" value="&lt;write description here&gt;" />
+          <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
+          <ref role="1k5W1q" node="6lGg4tB2fqN" resolve="userInputInformal" />
+        </node>
       </node>
       <node concept="3F0ifn" id="5CkcxufShbL" role="3EZMnx">
         <property role="3F0ifm" value="Press enter to add another synthetic attribute" />
@@ -3175,8 +3191,8 @@
       <node concept="3F0A7n" id="4GwBkRmQN9" role="3EZMnx">
         <property role="1O74Pk" value="true" />
         <property role="1$x2rV" value="&lt;write description here&gt;" />
-        <ref role="1NtTu8" to="86kt:4GwBkRmQAl" resolve="description" />
         <ref role="1k5W1q" node="6lGg4tB2fqN" resolve="userInputInformal" />
+        <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
       </node>
     </node>
   </node>
@@ -3862,7 +3878,7 @@
       <node concept="2iRfu4" id="52HbUMTPjhd" role="2iSdaV" />
       <node concept="3F0ifn" id="52HbUMTPjhe" role="3EZMnx">
         <property role="3F0ifm" value="Characterize" />
-        <node concept="Vb9p2" id="52HbUMTPjhf" role="3F10Kt" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F0A7n" id="52HbUMTPjhg" role="3EZMnx">
         <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
@@ -3870,9 +3886,26 @@
       </node>
       <node concept="3F0ifn" id="52HbUMTPjhh" role="3EZMnx">
         <property role="3F0ifm" value="as" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F1sOY" id="52HbUMTPjhi" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:4GwBkQO7BT" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="3sVTHMzvviT" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+        <node concept="11L4FC" id="3sVTHMzvviU" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="3sVTHMzvviV" role="3EZMnx">
+        <property role="3F0ifm" value="It describes" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+      </node>
+      <node concept="3F0A7n" id="3sVTHMzvviW" role="3EZMnx">
+        <property role="1O74Pk" value="true" />
+        <property role="1$x2rV" value="&lt;write description here&gt;" />
+        <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
+        <ref role="1k5W1q" node="6lGg4tB2fqN" resolve="userInputInformal" />
       </node>
     </node>
   </node>

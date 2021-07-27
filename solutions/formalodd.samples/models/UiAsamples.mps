@@ -153,7 +153,6 @@
       </concept>
       <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
-        <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
@@ -287,6 +286,7 @@
     <node concept="ZOwpU" id="4xlWY3qEPkX" role="3$p12O">
       <node concept="RZfIr" id="6iw2eE30koM" role="3AlXHa">
         <property role="TrG5h" value="exclusion-index" />
+        <property role="2QSBU6" value="ratio of negative and refused interactions" />
         <node concept="i7gn5" id="6iw2eE30koN" role="RZfIc">
           <property role="i7gn4" value="1w00y4a7gvD/divide" />
           <node concept="i8Uhg" id="6iw2eE30koO" role="i7gCG">
@@ -338,6 +338,7 @@
       </node>
       <node concept="RZfIr" id="6iw2eE30kp5" role="3AlXHa">
         <property role="TrG5h" value="average-attraction-out" />
+        <property role="2QSBU6" value="average outgoing attraction" />
         <node concept="2gRb$H" id="6iw2eE30kp6" role="RZfIc">
           <property role="2gRbFB" value="39v_dEywMSQ/Average" />
           <node concept="26lliW" id="6iw2eE30kp7" role="2gRb$y">
@@ -348,6 +349,7 @@
       </node>
       <node concept="RZfIr" id="6iw2eE3fenM" role="3AlXHa">
         <property role="TrG5h" value="stdev-attraction-out" />
+        <property role="2QSBU6" value="standard deviation of outgoing attraction" />
         <node concept="2gRb$H" id="6iw2eE3fenN" role="RZfIc">
           <property role="2gRbFB" value="6iw2eE3feoN/StdDeviation" />
           <node concept="26lliW" id="6iw2eE3fenO" role="2gRb$y">
@@ -358,6 +360,7 @@
       </node>
       <node concept="RZfIr" id="6iw2eE3femI" role="3AlXHa">
         <property role="TrG5h" value="average-attraction-in" />
+        <property role="2QSBU6" value="average incoming attraction" />
         <node concept="2gRb$H" id="6iw2eE3femJ" role="RZfIc">
           <property role="2gRbFB" value="39v_dEywMSQ/Average" />
           <node concept="26lliW" id="6iw2eE3femK" role="2gRb$y">
@@ -368,6 +371,7 @@
       </node>
       <node concept="RZfIr" id="6iw2eE3feoh" role="3AlXHa">
         <property role="TrG5h" value="stdev-attraction-in" />
+        <property role="2QSBU6" value="standard deviation of incoming attraction " />
         <node concept="2gRb$H" id="6iw2eE3feoi" role="RZfIc">
           <property role="2gRbFB" value="6iw2eE3feoN/StdDeviation" />
           <node concept="26lliW" id="6iw2eE3feoj" role="2gRb$y">
@@ -378,7 +382,7 @@
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflx" role="25gc1v">
         <property role="TrG5h" value="external-characteristics" />
-        <property role="QtYJw" value="each student has an array of external characteristics - each item has a discrete value" />
+        <property role="2QSBU6" value="each student has an array of external characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjne" role="zGXb3">
           <node concept="26lliW" id="39v_dEyCArp" role="BjBxy">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -398,7 +402,7 @@
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflD" role="25gc1v">
         <property role="TrG5h" value="internal-characteristics" />
-        <property role="QtYJw" value="each student has an array of internal characteristics - each item has a discrete value" />
+        <property role="2QSBU6" value="each student has an array of internal characteristics - each item has a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjnh" role="zGXb3">
           <node concept="26lliW" id="39v_dEyCAqU" role="BjBxy">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -418,7 +422,7 @@
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflh" role="25gc1v">
         <property role="TrG5h" value="tolerance" />
-        <property role="QtYJw" value="this number reflects half the range for accepting char as positive, with middle value the IDM" />
+        <property role="2QSBU6" value="this number reflects half the range for accepting char as positive, with middle value the IDM" />
         <node concept="ZOwps" id="3M5MOtLapCC" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagOci1" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
@@ -429,7 +433,7 @@
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$3m" role="25gc1v">
         <property role="TrG5h" value="#positive-interactions" />
-        <property role="QtYJw" value="the number of positive interactions for a student so far" />
+        <property role="2QSBU6" value="the number of positive interactions for a student so far" />
         <node concept="ZOwps" id="5yfUVbwl$3u" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagOcil" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
@@ -440,7 +444,7 @@
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$3g" role="25gc1v">
         <property role="TrG5h" value="#negative-interactions" />
-        <property role="QtYJw" value="the number of negative interactions for a student so far" />
+        <property role="2QSBU6" value="the number of negative interactions for a student so far" />
         <node concept="ZOwps" id="5yfUVbwl$3k" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagOdpx" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
@@ -451,7 +455,7 @@
       </node>
       <node concept="ZOwpH" id="5yfUVbwl$2H" role="25gc1v">
         <property role="TrG5h" value="#refused-interactions" />
-        <property role="QtYJw" value="the number of refused interactions for a student so far" />
+        <property role="2QSBU6" value="the number of refused interactions for a student so far" />
         <node concept="ZOwps" id="5yfUVbwl$2L" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagOdpR" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -462,7 +466,7 @@
       </node>
       <node concept="ZOwpH" id="5p5RAoTafld" role="Qgzvn">
         <property role="TrG5h" value="ideal-external-characteristics" />
-        <property role="QtYJw" value="cultural values and norms for external characteristics reflected in a discrete value" />
+        <property role="2QSBU6" value="cultural values and norms for external characteristics reflected in a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjn8" role="zGXb3">
           <node concept="26lliW" id="39v_dEyCArr" role="BjBxy">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -482,7 +486,7 @@
       </node>
       <node concept="ZOwpH" id="5p5RAoTaflr" role="Qgzvn">
         <property role="TrG5h" value="ideal-internal-characteristics" />
-        <property role="QtYJw" value="cultural values and norms for internal characteristics reflected in a discrete value" />
+        <property role="2QSBU6" value="cultural values and norms for internal characteristics reflected in a discrete value" />
         <node concept="1JriGl" id="5AVjrpYXjnb" role="zGXb3">
           <node concept="26lliW" id="39v_dEyCAqS" role="BjBxy">
             <property role="1dr8U9" value="5yfUVburW9E/me" />
@@ -502,7 +506,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApp" role="Qgzvn">
         <property role="TrG5h" value="num-internal-characteristics" />
-        <property role="QtYJw" value="number of internal characteristics" />
+        <property role="2QSBU6" value="number of internal characteristics" />
         <node concept="ZOwps" id="39v_dEyCApr" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq43" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -513,7 +517,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCAps" role="Qgzvn">
         <property role="TrG5h" value="num-external-characteristics" />
-        <property role="QtYJw" value="number of external chracteristics" />
+        <property role="2QSBU6" value="number of external characteristics" />
         <node concept="ZOwps" id="39v_dEyCApt" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq47" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -524,7 +528,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApv" role="Qgzvn">
         <property role="TrG5h" value="average-characteristic" />
-        <property role="QtYJw" value="average value of characteristics" />
+        <property role="2QSBU6" value="average value of characteristics (for initialisation)" />
         <node concept="ZOwps" id="39v_dEyCApw" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq4b" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -535,7 +539,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApy" role="Qgzvn">
         <property role="TrG5h" value="standard-deviation-characteristic" />
-        <property role="QtYJw" value="standard deviation of values of characteristics" />
+        <property role="2QSBU6" value="standard deviation of values of characteristics (for initialisation)" />
         <node concept="ZOwps" id="39v_dEyCApz" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq4y" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -546,7 +550,7 @@
       </node>
       <node concept="ZOwpH" id="h2iSnEfCyG" role="Qgzvn">
         <property role="TrG5h" value="attitude" />
-        <property role="QtYJw" value="initial attraction between students" />
+        <property role="2QSBU6" value="initial attraction between students" />
         <node concept="ZOwps" id="h2iSnEfCzK" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq4I" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -557,7 +561,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApC" role="Qgzvn">
         <property role="TrG5h" value="max-judgment" />
-        <property role="QtYJw" value="setting up tolerance value for each student" />
+        <property role="2QSBU6" value="setting up tolerance value for each student" />
         <node concept="ZOwps" id="39v_dEyCApD" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq4V" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -568,7 +572,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApF" role="Qgzvn">
         <property role="TrG5h" value="amount-learned-in-interaction" />
-        <property role="QtYJw" value="speed of learning" />
+        <property role="2QSBU6" value="speed of learning" />
         <node concept="ZOwps" id="39v_dEyCApG" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq59" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
@@ -579,7 +583,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApI" role="Qgzvn">
         <property role="TrG5h" value="attraction-change" />
-        <property role="QtYJw" value="Level of attraction change in interactions" />
+        <property role="2QSBU6" value="level of attraction change in interactions" />
         <node concept="ZOwps" id="39v_dEyCApJ" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq5o" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
@@ -590,7 +594,7 @@
       </node>
       <node concept="ZOwpH" id="39v_dEyCApL" role="Qgzvn">
         <property role="TrG5h" value="internal-ideal-characteristics" />
-        <property role="QtYJw" value="initial internal characteristics" />
+        <property role="2QSBU6" value="initial internal characteristics" />
         <node concept="ZOwps" id="39v_dEyCApM" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagJq5C" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
@@ -601,7 +605,7 @@
       </node>
       <node concept="ZOwpH" id="2cIMoagOdqG" role="Qgzvn">
         <property role="TrG5h" value="external-ideal-characteristics" />
-        <property role="QtYJw" value="initial external characteristics" />
+        <property role="2QSBU6" value="initial external characteristics" />
         <node concept="ZOwps" id="2cIMoagOds5" role="zGXb3" />
         <node concept="3Ovhfo" id="2cIMoagOdwq" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
@@ -648,7 +652,7 @@
         <ref role="1w1JhF" node="4xlWY3qEPkZ" resolve="student" />
         <node concept="ZOwpH" id="4qxfPPPteTY" role="2gUEkT">
           <property role="TrG5h" value="attraction" />
-          <property role="QtYJw" value="each student has an attraction towards each of the other students (attraction is reflected on a number from 0 to 1 with 1 the maximum and 0 the lowest)" />
+          <property role="2QSBU6" value="each student has an attraction towards each of the other students (attraction is reflected on a number from 0 to 1 with 1 the maximum and 0 the lowest)" />
           <node concept="354mTO" id="6iw2eE2C6_Y" role="zGXb3">
             <property role="354mTX" value="0" />
             <property role="354mTV" value="1" />
@@ -662,7 +666,7 @@
         </node>
         <node concept="ZOwpH" id="5p5RAoTafl6" role="2gUEkT">
           <property role="TrG5h" value="known-indices" />
-          <property role="QtYJw" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
+          <property role="2QSBU6" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
           <node concept="2HHGdg" id="29jsdmfYwYB" role="zGXb3">
             <node concept="ZOwps" id="29jsdmfYwYH" role="2HHGdi" />
           </node>

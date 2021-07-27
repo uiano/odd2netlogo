@@ -114,7 +114,6 @@
       </concept>
       <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
-        <property id="84585932964718997" name="description" index="QtYJw" />
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
       <concept id="3840659476812055815" name="formalodd.structure.ODD" flags="ng" index="ZOwpP">
@@ -424,7 +423,7 @@
     <node concept="ZOwpU" id="qdXC$xz0Qp" role="3$p12O">
       <node concept="ZOwpH" id="6o6DKlXk0oP" role="1XCrKs">
         <property role="TrG5h" value="grass-amount" />
-        <property role="QtYJw" value="patches have grass" />
+        <property role="2QSBU6" value="patches have grass" />
         <node concept="354mTO" id="KnKMoksIl8" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="10" />
@@ -432,27 +431,27 @@
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmH" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-sheep" />
-        <property role="QtYJw" value="energy that wolf gets from eating sheep" />
+        <property role="2QSBU6" value="energy that wolf gets from eating sheep" />
         <node concept="ZOwps" id="3M5MOtLapCI" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="4GwBkRvkmT" role="Qgzvn">
         <property role="TrG5h" value="energy-gain-from-grass" />
-        <property role="QtYJw" value="energy that sheep gets from eating grass" />
+        <property role="2QSBU6" value="energy that sheep gets from eating grass" />
         <node concept="ZOwps" id="4GwBkRvkmU" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="4GwBkRvkn6" role="Qgzvn">
         <property role="TrG5h" value="grass-regrowth-rate" />
-        <property role="QtYJw" value="rate at which grass is regrowing" />
+        <property role="2QSBU6" value="rate at which grass is regrowing" />
         <node concept="ZOwps" id="4GwBkRvkn8" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6o6DKlXk0pC" role="Qgzvn">
         <property role="TrG5h" value="movement-cost" />
-        <property role="QtYJw" value="cost of moving for wolves and sheep" />
+        <property role="2QSBU6" value="cost of moving for wolves and sheep" />
         <node concept="ZOwps" id="6o6DKlXk0pV" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6ow5IfzpoId" role="25gc1v">
         <property role="TrG5h" value="energy" />
-        <property role="QtYJw" value="agents own energy" />
+        <property role="2QSBU6" value="agents own energy" />
         <node concept="ZOwps" id="3M5MOtLapCL" role="zGXb3" />
       </node>
       <node concept="ZOwrm" id="1LeTgidqm5Z" role="2kDK73">
