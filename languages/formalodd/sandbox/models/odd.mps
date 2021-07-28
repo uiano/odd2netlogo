@@ -149,6 +149,7 @@
       </concept>
       <concept id="3840659476812055816" name="formalodd.structure.EntitiesStateVariablesAndScales" flags="ng" index="ZOwpU">
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
+        <child id="3980028531024213381" name="syntheticModelAttributes" index="2kDtdp" />
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
         <child id="1477363848325697848" name="entitiesInit" index="2zXruJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
@@ -807,6 +808,20 @@
     <property role="TrG5h" value="Seggregation" />
     <property role="2QSBU6" value="This project models the behavior of red and green turtles in a mythical pond, which want to live near some of &quot;its own&quot;." />
     <node concept="ZOwpU" id="qdXC$ygXa6" role="3$p12O">
+      <node concept="RZfIr" id="3sVTHMzOc_6" role="2kDtdp">
+        <property role="TrG5h" value="percent-similar" />
+        <property role="2QSBU6" value="on the average, what percent of a turtle's neighbours are the same colour as that turtle?" />
+        <node concept="2oK_Am" id="3sVTHMzOc_a" role="RZfIc">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
+      <node concept="RZfIr" id="3sVTHMzOc_d" role="2kDtdp">
+        <property role="TrG5h" value="percent-unhappy" />
+        <property role="2QSBU6" value="what percent of the turtles are unhappy?" />
+        <node concept="2oK_Am" id="3sVTHMzOc_j" role="RZfIc">
+          <property role="2oK_Ap" value="0" />
+        </node>
+      </node>
       <node concept="3gPaqd" id="I1KRVYqSW6" role="3AlXHa">
         <property role="TrG5h" value="happy?" />
         <property role="2QSBU6" value="for each turtle, indicates whether at least %-similar-wanted percent of that turtle's neighbors are the same color as the turtle" />
@@ -851,16 +866,6 @@
         <node concept="XrRG9" id="3sVTHMyZb7q" role="RZfIc">
           <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
         </node>
-      </node>
-      <node concept="ZOwpH" id="3sVTHMyZb3B" role="Qgzvn">
-        <property role="TrG5h" value="percent-similar" />
-        <property role="2QSBU6" value="on the average, what percent of a turtle's neighbours are the same colour as that turtle?" />
-        <node concept="ZOwps" id="3sVTHMyZb3V" role="zGXb3" />
-      </node>
-      <node concept="ZOwpH" id="3sVTHMyZb42" role="Qgzvn">
-        <property role="TrG5h" value="percent-unhappy" />
-        <property role="2QSBU6" value="what percent of the turtles are unhappy?" />
-        <node concept="ZOwps" id="3sVTHMyZb4q" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
         <property role="TrG5h" value="%-similar-wanted" />
@@ -920,15 +925,9 @@
         <node concept="21jJIL" id="4C0fQ2P1Iq$" role="3Y$5KK">
           <property role="21jJIY" value="0" />
           <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="20" />
+          <property role="2rHBro" value="30" />
+          <property role="21jJI7" value="1" />
         </node>
-      </node>
-      <node concept="3Y$5KH" id="3sVTHMyZb3Q" role="3Y$b7i">
-        <ref role="3Y$5KI" node="3sVTHMyZb3B" resolve="percent-similar" />
-      </node>
-      <node concept="3Y$5KH" id="3sVTHMyZb4k" role="3Y$b7i">
-        <ref role="3Y$5KI" node="3sVTHMyZb42" resolve="percent-unhappy" />
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
@@ -936,8 +935,8 @@
         <property role="3xNfbI" value="7y2oNwbJHl/ALL" />
         <node concept="26hFik" id="3sVTHMz2qlx" role="2lLPfx">
           <property role="26hFil" value="24yfUKsyf$I/eq" />
-          <node concept="26lliW" id="3sVTHMz5xsw" role="26hFir">
-            <ref role="26lliz" node="3sVTHMyZb42" resolve="percent-unhappy" />
+          <node concept="26lliW" id="3sVTHMzOc_I" role="26hFir">
+            <ref role="26lliz" node="6dSewhkDZHP" resolve="%-similar-wanted" />
           </node>
           <node concept="2oK_Am" id="3sVTHMz5xsz" role="26hFip">
             <property role="2oK_Ap" value="0" />
@@ -955,8 +954,8 @@
           </node>
           <node concept="26hFik" id="3M5MOtLlj6q" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="26lliW" id="3sVTHMyZb7V" role="26hFir">
-              <ref role="26lliz" node="3sVTHMyZb42" resolve="percent-unhappy" />
+            <node concept="26lliW" id="3sVTHMzOc_L" role="26hFir">
+              <ref role="26lliz" node="6dSewhkDZHP" resolve="%-similar-wanted" />
             </node>
             <node concept="2oK_Am" id="I1KRVYnLuJ" role="26hFip">
               <property role="2oK_Ap" value="0" />
@@ -1072,12 +1071,13 @@
         </node>
       </node>
     </node>
-    <node concept="2kDK7K" id="I1KRW0nFYH" role="2kDK7a" />
-    <node concept="1sMRUJ" id="3sVTHMyZb3H" role="1sMO1Z">
-      <ref role="1sMRUI" node="3sVTHMyZb3B" resolve="percent-similar" />
-    </node>
-    <node concept="1sMRUJ" id="3sVTHMyZb4a" role="1sMO1Z">
-      <ref role="1sMRUI" node="3sVTHMyZb42" resolve="percent-unhappy" />
+    <node concept="2kDK7K" id="I1KRW0nFYH" role="2kDK7a">
+      <node concept="1g3uKF" id="3sVTHMzBzm3" role="2kDK7N">
+        <property role="1jlS1m" value="true" />
+        <property role="1jlS1c" value="true" />
+        <property role="1jzKJm" value="25" />
+        <property role="1jzt_n" value="7" />
+      </node>
     </node>
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">

@@ -1060,6 +1060,36 @@
         </node>
         <node concept="2iRfu4" id="3oOohpo0J5y" role="2iSdaV" />
       </node>
+      <node concept="3EZMnI" id="3sVTHMzBz$T" role="3EZMnx">
+        <node concept="VPXOz" id="3sVTHMzBz$U" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="3EZMnI" id="3sVTHMzBz$V" role="3EZMnx">
+          <node concept="3F0ifn" id="3sVTHMzBz$W" role="3EZMnx">
+            <property role="3F0ifm" value="Synthetic Attributes" />
+            <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+          </node>
+          <node concept="3EZMnI" id="3sVTHMzBz$X" role="3EZMnx">
+            <node concept="3F0ifn" id="3sVTHMzBz$Y" role="3EZMnx">
+              <property role="3F0ifm" value="The synthetic attributes are:" />
+              <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+            </node>
+            <node concept="2iRfu4" id="3sVTHMzBz$Z" role="2iSdaV" />
+          </node>
+          <node concept="3F2HdR" id="3sVTHMzBz_0" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:6iw2eE2XXew" resolve="syntheticAttributes" />
+            <node concept="2iRkQZ" id="3sVTHMzBz_1" role="2czzBx" />
+            <node concept="2w$q5c" id="3sVTHMzBz_2" role="78xua" />
+            <node concept="3F0ifn" id="3sVTHMzBz_3" role="2czzBI">
+              <property role="3F0ifm" value="&lt;press enter to add synthetic attribute&gt;" />
+              <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="3sVTHMzBz_4" role="3EZMnx" />
+          <node concept="2iRkQZ" id="3sVTHMzBz_5" role="2iSdaV" />
+        </node>
+        <node concept="2iRfu4" id="3sVTHMzBz_6" role="2iSdaV" />
+      </node>
       <node concept="3EZMnI" id="QugUH6KW0g" role="3EZMnx">
         <node concept="VPXOz" id="QugUH6KW0h" role="3F10Kt">
           <property role="VOm3f" value="true" />
@@ -1096,22 +1126,22 @@
         </node>
         <node concept="3EZMnI" id="3oOohpo0JbB" role="3EZMnx">
           <node concept="3F0ifn" id="6iw2eE2XXGS" role="3EZMnx">
-            <property role="3F0ifm" value="Synthetic Attributes" />
+            <property role="3F0ifm" value="Synthetic Model Attributes" />
             <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
           </node>
           <node concept="3EZMnI" id="14FEEQgCZKB" role="3EZMnx">
             <node concept="3F0ifn" id="14FEEQgCZKC" role="3EZMnx">
-              <property role="3F0ifm" value="The synthetic attributes are:" />
+              <property role="3F0ifm" value="The synthetic model attributes are:" />
               <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
             </node>
             <node concept="2iRfu4" id="14FEEQgCZKD" role="2iSdaV" />
           </node>
           <node concept="3F2HdR" id="6iw2eE2XXMn" role="3EZMnx">
-            <ref role="1NtTu8" to="86kt:6iw2eE2XXew" resolve="syntheticAttributes" />
+            <ref role="1NtTu8" to="86kt:3sVTHMzBzm5" resolve="syntheticModelAttributes" />
             <node concept="2iRkQZ" id="6iw2eE2XXMo" role="2czzBx" />
             <node concept="2w$q5c" id="6iw2eE2XXMq" role="78xua" />
             <node concept="3F0ifn" id="6iw2eE2XXMs" role="2czzBI">
-              <property role="3F0ifm" value="&lt;press enter to add synthetic attribute&gt;" />
+              <property role="3F0ifm" value="&lt;press enter to add synthetic model attribute&gt;" />
               <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
             </node>
           </node>

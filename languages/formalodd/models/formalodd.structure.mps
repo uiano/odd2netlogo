@@ -195,6 +195,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4GwBkQO7BI" resolve="LetActivity" />
     </node>
+    <node concept="1TJgyj" id="3sVTHMzBzm5" role="1TKVEi">
+      <property role="IQ2ns" value="3980028531024213381" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="syntheticModelAttributes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4GwBkQO7BI" resolve="LetActivity" />
+    </node>
     <node concept="1TJgyj" id="294onrmenaB" role="1TKVEi">
       <property role="IQ2ns" value="2469205658733998759" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
