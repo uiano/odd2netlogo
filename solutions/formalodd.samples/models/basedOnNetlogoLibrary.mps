@@ -230,23 +230,18 @@
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
       <node concept="1Svl6F" id="1i0DDuTjMaI" role="250j5S">
         <ref role="1Svl6C" node="6o6DKlXneXa" resolve="wiggle" />
-        <node concept="2g0R4C" id="1i0DDuTjMaJ" role="2QCFRE" />
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMbC" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlqG4" resolve="move" />
-        <node concept="2g0R4C" id="1i0DDuTjMbD" role="2QCFRE" />
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMbE" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlrpQ" resolve="check-if-dead" />
-        <node concept="2g0R4C" id="1i0DDuTjMbF" role="2QCFRE" />
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMbG" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlrsz" resolve="reproduce" />
-        <node concept="2g0R4C" id="1i0DDuTjMbH" role="2QCFRE" />
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMcM" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlqIr" resolve="eat-grass" />
-        <node concept="2g0R4C" id="1i0DDuTjMcN" role="2QCFRE" />
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMdW" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlrhO" resolve="eat-sheep" />
@@ -263,7 +258,6 @@
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMfj" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlrv$" resolve="regrow-grass" />
-        <node concept="2g0R4C" id="1i0DDuTjMfk" role="2QCFRE" />
       </node>
       <node concept="2lNc1x" id="6o6DKlXneXa" role="2GyEu2">
         <property role="TrG5h" value="wiggle" />
