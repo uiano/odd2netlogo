@@ -417,13 +417,15 @@
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@subNodeMappings[name='EC%20EAttribute']"/>
       </ownedElements>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3QmPsDwAEeu3cLErekw79g" name="EndCondition" tooltipText="&#xA;ERROR : The feature 'eSuperTypes' of 'EClass{platform:/resource/Condition/model/condition.ecore#//EndCondition}' contains a dangling reference 'EClass{#//}'&#xA;ERROR : The feature 'eClassifier' of 'EGenericType{platform:/resource/Condition/model/condition.ecore#//EndCondition/@eGenericSuperTypes.0}' contains a dangling reference 'EClass{#//}'" outgoingEdges="_3RdLWTwAEeu3cLErekw79g" incomingEdges="_3RdybTwAEeu3cLErekw79g _3RfAjTwAEeu3cLErekw79g" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3QmPsDwAEeu3cLErekw79g" name="EndCondition" tooltipText="" outgoingEdges="_3RdLWTwAEeu3cLErekw79g" incomingEdges="_3RdybTwAEeu3cLErekw79g _3RfAjTwAEeu3cLErekw79g" width="12" height="10">
       <target xmi:type="ecore:EClass" href="condition.ecore#//EndCondition"/>
       <semanticElements xmi:type="ecore:EClass" href="condition.ecore#//EndCondition"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_3Qm2wDwAEeu3cLErekw79g" labelColor="239,41,41" description="_3QjzcDwAEeu3cLErekw79g" borderSize="1" borderSizeComputationExpression="1" borderColor="239,41,41" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qCgdUfEkEeu8JLVft5Ko8w" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_3QqhIDwAEeu3cLErekw79g" name="TimedCondition" tooltipText="" outgoingEdges="_3RYS2TwAEeu3cLErekw79g _3RdybTwAEeu3cLErekw79g" width="12" height="10">
@@ -549,11 +551,12 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_3RdLWTwAEeu3cLErekw79g" sourceNode="_3QmPsDwAEeu3cLErekw79g" targetNode="_3QvZoDwAEeu3cLErekw79g">
       <target xmi:type="ecore:EClass" href="condition.ecore#//EndCondition"/>
       <semanticElements xmi:type="ecore:EClass" href="condition.ecore#//EndCondition"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_3RdyYDwAEeu3cLErekw79g" description="_3RdLUDwAEeu3cLErekw79g" targetArrow="InputClosedArrow" routingStyle="tree">
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_3RdyYTwAEeu3cLErekw79g" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qEVpUPEkEeu8JLVft5Ko8w" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_qEVpUfEkEeu8JLVft5Ko8w" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_3RdyYjwAEeu3cLErekw79g" showIcon="false" labelColor="239,41,41"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qEVpUvEkEeu8JLVft5Ko8w" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
@@ -636,13 +639,15 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC_EReference']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_kJQ1oDwEEeu3cLErekw79g" name="todo_ConditionWithSame" tooltipText="&#xA;ERROR : The feature 'eSuperTypes' of 'EClass{platform:/resource/Condition/model/condition.ecore#//todo_ConditionWithSame}' contains a dangling reference 'EClass{#//}'&#xA;ERROR : The feature 'eClassifier' of 'EGenericType{platform:/resource/Condition/model/condition.ecore#//todo_ConditionWithSame/@eGenericSuperTypes.0}' contains a dangling reference 'EClass{#//}'" outgoingEdges="_kJkXsjwEEeu3cLErekw79g" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_kJQ1oDwEEeu3cLErekw79g" name="todo_ConditionWithSame" tooltipText="" outgoingEdges="_kJkXsjwEEeu3cLErekw79g" width="12" height="10">
       <target xmi:type="ecore:EClass" href="condition.ecore#//todo_ConditionWithSame"/>
       <semanticElements xmi:type="ecore:EClass" href="condition.ecore#//todo_ConditionWithSame"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_kJRcsDwEEeu3cLErekw79g" labelColor="239,41,41" description="_3QjzcDwAEeu3cLErekw79g" borderSize="1" borderSizeComputationExpression="1" borderColor="239,41,41" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_qCyKIfEkEeu8JLVft5Ko8w" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_kJZ_kDwEEeu3cLErekw79g" name="todo_ConditionWith" tooltipText="" outgoingEdges="_vl5REjwEEeu3cLErekw79g" incomingEdges="_kJkXsjwEEeu3cLErekw79g" width="12" height="10">
@@ -675,11 +680,12 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_kJkXsjwEEeu3cLErekw79g" sourceNode="_kJQ1oDwEEeu3cLErekw79g" targetNode="_kJZ_kDwEEeu3cLErekw79g">
       <target xmi:type="ecore:EClass" href="condition.ecore#//todo_ConditionWithSame"/>
       <semanticElements xmi:type="ecore:EClass" href="condition.ecore#//todo_ConditionWithSame"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_kJkXszwEEeu3cLErekw79g" description="_3RdLUDwAEeu3cLErekw79g" targetArrow="InputClosedArrow" routingStyle="tree">
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_kJkXtDwEEeu3cLErekw79g" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_qEdlIPEkEeu8JLVft5Ko8w" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_qEdlIfEkEeu8JLVft5Ko8w" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_kJkXtTwEEeu3cLErekw79g" showIcon="false" labelColor="239,41,41"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_qEdlIvEkEeu8JLVft5Ko8w" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>

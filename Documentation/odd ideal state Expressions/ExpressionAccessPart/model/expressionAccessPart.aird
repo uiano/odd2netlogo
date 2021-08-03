@@ -334,7 +334,7 @@
       </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1WlloDv2Eeu3cLErekw79g" name="Expression" tooltipText="&#xA;ERROR : The feature 'eSuperTypes' of 'EClass{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression}' contains a dangling reference 'EClass{#//}'&#xA;ERROR : The required feature 'eReferenceType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/baseGeneralEntity}' must be set&#xA;ERROR : The typed element must have a type&#xA;ERROR : The required feature 'eReferenceType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/baseattribute}' must be set&#xA;ERROR : The typed element must have a type&#xA;ERROR : The required feature 'eReferenceType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/targetattribute}' must be set&#xA;ERROR : The typed element must have a type&#xA;ERROR : The feature 'eClassifier' of 'EGenericType{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/@eGenericSuperTypes.0}' contains a dangling reference 'EClass{#//}'" outgoingEdges="_1ZGuIDv2Eeu3cLErekw79g" incomingEdges="_1Y_ZaTv2Eeu3cLErekw79g _1ZAngDv2Eeu3cLErekw79g _1ZB1pjv2Eeu3cLErekw79g _1ZHVNjv2Eeu3cLErekw79g _1ZIjUDv2Eeu3cLErekw79g _1ZNb0Dv2Eeu3cLErekw79g" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1WlloDv2Eeu3cLErekw79g" name="Expression" tooltipText="&#xA;ERROR : The required feature 'eReferenceType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/baseGeneralEntity}' must be set&#xA;ERROR : The typed element must have a type&#xA;ERROR : The required feature 'eReferenceType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/baseattribute}' must be set&#xA;ERROR : The typed element must have a type&#xA;ERROR : The required feature 'eReferenceType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//Expression/targetattribute}' must be set&#xA;ERROR : The typed element must have a type" outgoingEdges="_1ZGuIDv2Eeu3cLErekw79g" incomingEdges="_1Y_ZaTv2Eeu3cLErekw79g _1ZAngDv2Eeu3cLErekw79g _1ZB1pjv2Eeu3cLErekw79g _1ZHVNjv2Eeu3cLErekw79g _1ZIjUDv2Eeu3cLErekw79g _1ZNb0Dv2Eeu3cLErekw79g" width="12" height="10">
       <target xmi:type="ecore:EClass" href="expressionAccessPart.ecore#//Expression"/>
       <semanticElements xmi:type="ecore:EClass" href="expressionAccessPart.ecore#//Expression"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
@@ -343,13 +343,15 @@
       <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1WmzwDv2Eeu3cLErekw79g" labelColor="239,41,41" description="_1WYKQDv2Eeu3cLErekw79g" borderSize="1" borderSizeComputationExpression="1" borderColor="239,41,41" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
-    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1Ws6YDv2Eeu3cLErekw79g" name="FunctionCall" tooltipText="&#xA;ERROR : The feature 'eType' of 'EReference{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//FunctionCall/actuals}' contains a dangling reference 'EClass{#//}'&#xA;ERROR : The feature 'eClassifier' of 'EGenericType{platform:/resource/ExpressionAccessPart/model/expressionAccessPart.ecore#//FunctionCall/actuals/@eGenericType}' contains a dangling reference 'EClass{#//}'" outgoingEdges="_1Y-yWTv2Eeu3cLErekw79g _1Y-yYDv2Eeu3cLErekw79g _1ZHVNjv2Eeu3cLErekw79g" width="12" height="10">
+    <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1Ws6YDv2Eeu3cLErekw79g" name="FunctionCall" tooltipText="" outgoingEdges="_1Y-yWTv2Eeu3cLErekw79g _1Y-yYDv2Eeu3cLErekw79g _1ZHVNjv2Eeu3cLErekw79g" width="12" height="10">
       <target xmi:type="ecore:EClass" href="expressionAccessPart.ecore#//FunctionCall"/>
       <semanticElements xmi:type="ecore:EClass" href="expressionAccessPart.ecore#//FunctionCall"/>
       <arrangeConstraints>KEEP_LOCATION</arrangeConstraints>
       <arrangeConstraints>KEEP_SIZE</arrangeConstraints>
       <arrangeConstraints>KEEP_RATIO</arrangeConstraints>
-      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_1WuvkDv2Eeu3cLErekw79g" labelColor="239,41,41" description="_1WYKQDv2Eeu3cLErekw79g" borderSize="1" borderSizeComputationExpression="1" borderColor="239,41,41" backgroundStyle="Liquid" foregroundColor="255,252,216"/>
+      <ownedStyle xmi:type="diagram:FlatContainerStyle" uid="_L970MfRKEeuGTJs1Rtj8Ew" borderSize="1" borderSizeComputationExpression="1" backgroundStyle="Liquid" foregroundColor="255,252,216">
+        <description xmi:type="style:FlatContainerStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']/@style"/>
+      </ownedStyle>
       <actualMapping xmi:type="description_1:ContainerMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EClass']"/>
     </ownedDiagramElements>
     <ownedDiagramElements xmi:type="diagram:DNodeList" uid="_1Wxy4Dv2Eeu3cLErekw79g" name="todo_FilterIndex" tooltipText="" outgoingEdges="_1Y_ZaTv2Eeu3cLErekw79g _1ZAngDv2Eeu3cLErekw79g _1ZIjUDv2Eeu3cLErekw79g" width="12" height="10">
@@ -477,11 +479,12 @@
     <ownedDiagramElements xmi:type="diagram:DEdge" uid="_1ZHVNjv2Eeu3cLErekw79g" sourceNode="_1Ws6YDv2Eeu3cLErekw79g" targetNode="_1WlloDv2Eeu3cLErekw79g">
       <target xmi:type="ecore:EClass" href="expressionAccessPart.ecore#//FunctionCall"/>
       <semanticElements xmi:type="ecore:EClass" href="expressionAccessPart.ecore#//FunctionCall"/>
-      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_1ZH8QDv2Eeu3cLErekw79g" description="_1ZER4Dv2Eeu3cLErekw79g" targetArrow="InputClosedArrow" routingStyle="tree">
-        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_1ZH8QTv2Eeu3cLErekw79g" showIcon="false">
+      <ownedStyle xmi:type="diagram:EdgeStyle" uid="_L-QkUPRKEeuGTJs1Rtj8Ew" targetArrow="InputClosedArrow" routingStyle="tree">
+        <description xmi:type="style:EdgeStyleDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']/@style"/>
+        <beginLabelStyle xmi:type="diagram:BeginLabelStyle" uid="_L-QkUfRKEeuGTJs1Rtj8Ew" showIcon="false">
           <labelFormat>italic</labelFormat>
         </beginLabelStyle>
-        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_1ZH8Qjv2Eeu3cLErekw79g" showIcon="false" labelColor="239,41,41"/>
+        <centerLabelStyle xmi:type="diagram:CenterLabelStyle" uid="_L-QkUvRKEeuGTJs1Rtj8Ew" showIcon="false"/>
       </ownedStyle>
       <actualMapping xmi:type="description_1:EdgeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@edgeMappings[name='EC%20ESupertypes']"/>
     </ownedDiagramElements>
