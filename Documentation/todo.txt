@@ -1,5 +1,6 @@
 TODO list for development of ODD2Netlogo
 ========================================
+- references to attributes must not change the name of the attribute
 - manual experiments should work without adding automatic experiments
 - fix code Voting cf. Library
 - fix code Fire cf. Library
