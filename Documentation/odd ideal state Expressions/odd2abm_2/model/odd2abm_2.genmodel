@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore"
+    xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/odd2abm_2/src" modelPluginID="odd2abm_2" modelName="Odd2abm_2"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" importerID="org.eclipse.emf.importer.ecore"
+    copyrightFields="false" importOrganizing="true">
+  <foreignModel>odd2abm_2.ecore</foreignModel>
+  <genPackages prefix="Odd2abm_2" disposableProviderFactory="true" ecorePackage="odd2abm_2.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//Quantifier"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//BinaryOperator"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//CollectionKind"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//CountLocation"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//SpecialEntities"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//todo_EntityBaseAttributes"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//todo_ConditionWithAttributeSelection"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="odd2abm_2.ecore#//Where"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity.1"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Entity.2"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Expression">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Expression/baseGeneralEntity"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Expression/baseattribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Expression/targetattribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//GeneralEntity"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//UserDefinedAttribute"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//AttributeAccess">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//AttributeAccess/accesswho"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//AttributeAccess/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Binary">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//Binary/operator"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Binary/left"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Binary/right"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Empty"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Actual"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//EntityExpression">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//EntityExpression/who"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Parenthesis">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//Parenthesis/inner"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//todo_ConditionWith"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//todo_CountEntities">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//todo_CountEntities/where"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todo_CountEntities/countCondition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todo_CountEntities/todo_conditionwith"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//todo_ifthenelse">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todo_ifthenelse/condition"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todo_ifthenelse/positive"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//todo_ifthenelse/negative"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//LetAccess">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//LetAccess/let"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//LetActivity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//LetActivity/value"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//SelectN">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute odd2abm_2.ecore#//SelectN/where"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//SelectN/count"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference odd2abm_2.ecore#//SelectN/argument"/>
+    </genClasses>
+    <genClasses ecoreClass="odd2abm_2.ecore#//Activity"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//INamedConceptODD"/>
+    <genClasses ecoreClass="odd2abm_2.ecore#//TODO_ConditionWith"/>
+  </genPackages>
+</genmodel:GenModel>
