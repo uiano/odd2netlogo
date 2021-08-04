@@ -7899,7 +7899,21 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-07-12 19:11:59.591 -----------------------------------------------
+!SESSION 2021-07-12 19:09:04.688 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product -data C:\Users\themisdx\OneDrive - Universitetet i Agder\Desktop files\Eclipseworkspace\current state- Entities +Init 30.09.2020 -product org.eclipse.epp.package.modeling.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-12 19:09:24.359
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\themisdx'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2021-07-28 21:59:45.161 -----------------------------------------------
 eclipse.buildId=4.13.0.I20190916-1045
 java.version=1.8.0_221
 java.vendor=Oracle Corporation
@@ -7907,41 +7921,30 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.modeling.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-07-12 19:14:48.707
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-28 22:05:01.939
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\themisdx'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-07-12 19:27:58.079 -----------------------------------------------
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2021-07-28 22:10:52.954
+!MESSAGE No repository found at http://download.eclipse.org/releases/2019-09.
+!SESSION 2021-07-30 12:17:10.562 -----------------------------------------------
 eclipse.buildId=4.13.0.I20190916-1045
-java.version=1.8.0_221
+java.version=1.8.0_301
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product -data C:\Users\themisdx\MPSProjects\odd2netlogo2\Documentation\current state- Entities +Init 30.09.2020 -product org.eclipse.epp.package.modeling.product
+Framework arguments:  -product org.eclipse.epp.package.modeling.product -product org.eclipse.epp.package.modeling.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product -data C:\Users\themisdx\Desktop\Workspace unification\current state- Entities +Init 30.09.2020 -product org.eclipse.epp.package.modeling.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-07-12 19:28:16.791
+!ENTRY org.eclipse.egit.ui 2 0 2021-07-30 12:17:37.130
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\themisdx'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-07-13 18:07:24.811 -----------------------------------------------
-eclipse.buildId=4.13.0.I20190916-1045
-java.version=1.8.0_221
-java.vendor=Oracle Corporation
-BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  -product org.eclipse.epp.package.modeling.product
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
-
-!ENTRY org.eclipse.egit.ui 2 0 2021-07-13 18:09:23.765
-!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
-user global configuration and to define the default location to store repositories: 'C:\Users\themisdx'. If this is
-not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
-EGit might behave differently since they see different configuration options.
-This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-08-03 10:07:50.476 -----------------------------------------------
+!SESSION 2021-08-03 12:40:03.493 -----------------------------------------------
 eclipse.buildId=4.13.0.I20190916-1045
 java.version=1.8.0_301
 java.vendor=Oracle Corporation
@@ -7949,13 +7952,13 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.modeling.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-08-03 10:10:28.245
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-03 12:41:08.127
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\themisdx'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
-!SESSION 2021-08-03 13:18:03.512 -----------------------------------------------
+!SESSION 2021-08-04 13:03:42.389 -----------------------------------------------
 eclipse.buildId=4.13.0.I20190916-1045
 java.version=1.8.0_301
 java.vendor=Oracle Corporation
@@ -7963,9 +7966,30 @@ BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
 Framework arguments:  -product org.eclipse.epp.package.modeling.product
 Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.modeling.product
 
-!ENTRY org.eclipse.egit.ui 2 0 2021-08-03 13:19:06.214
+!ENTRY org.eclipse.egit.ui 2 0 2021-08-04 13:04:27.268
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\themisdx'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2021-08-04 13:09:37.251
+!MESSAGE Unable to read repository at http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=630774.
+!STACK 0
+java.io.IOException: http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=630774 is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:775)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:409)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:201)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
