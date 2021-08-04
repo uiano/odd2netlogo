@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/ODD without init/src-gen" creationIcons="false"
+    editDirectory="/ODD without init.edit/src-gen" editorDirectory="/ODD without init.editor/src-gen"
+    modelPluginID="ODD_without_init" modelName="ODD_without_init" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>ODD_without_init.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="ODD_without_init" basePackage="odd without init" disposableProviderFactory="true"
+      ecorePackage="ODD_without_init.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ODD_without_init.ecore#//AreaEnumeration"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ODD_without_init.ecore#//ColorEnum"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="ODD_without_init.ecore#//ShapeEnum"/>
+    <genDataTypes ecoreDataType="ODD_without_init.ecore#//SpecialEntities"/>
+    <genDataTypes ecoreDataType="ODD_without_init.ecore#//number"/>
+    <genDataTypes ecoreDataType="ODD_without_init.ecore#//quantifier"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Numerical"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//PlainEntityReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//PlainEntityReference/_entity"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//InformalWithRationale"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Expression"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//AnyEntity"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//ConcreteEntityReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//ConcreteEntityReference/generalentity"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_ForEach">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//TODO_ForEach/who"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//TODO_ForEach/collection"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//TODO_ForEach/activities"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//_Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//_Attribute/min"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//_Attribute/max"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//_Attribute/initialValue"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//_Attribute/name"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//AttributeAccess"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_ParameterType"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//UserDefinedAttribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//UserDefinedAttribute/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//UserDefinedAttribute/initialisation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//UserDefinedAttribute/type"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Activity"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Network">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Network/directed"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//Network/userdefinedattribute"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//Network/from"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//Network/to"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Coordinates">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Coordinates/x"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Coordinates/y"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_ShapeInstance">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//TODO_ShapeInstance/shapeID"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//TODO_ShapeInstance/condition"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//NetworkReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//NetworkReference/network"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_Random"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//_Entity">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//_Entity/colour"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//_Entity/userdefinedattribute"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//_Entity/initialisationNumberOfEntities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//_Entity/initialisationDistribution"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//_Entity/_shape"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//_Entity/initAttributes"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//RandomNormal">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//RandomNormal/mean"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//RandomNormal/stdev"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//EntitiesStatesScales">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/modelParameters"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/entityAttributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/environmentAttributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/entities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/environmEntities"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/SyntheticAttributes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/rationale"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/scales"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/entitiesInit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/attributesInit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EntitiesStatesScales/attributesStochasticity"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//MoreShapes">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//MoreShapes/todo_shapeinstance"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//ConditionalColor">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//ConditionalColor/color"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//ConditionalColor/condition"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Type"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//EntityReference"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//INamedConceptODD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//INamedConceptODD/name"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Collection"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//IDescribedConcept">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//IDescribedConcept/description"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//RandomUniform">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//RandomUniform/from"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//RandomUniform/to"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//ColorShade">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//ColorShade/unwanted_ColorID"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//ScaledColour">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//ScaledColour/scalingValue"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Area">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Area/area"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//IRationaledConcept">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//IRationaledConcept/todo_rationale"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Slider">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Slider/generatedName"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Slider/minAmount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Slider/maxAmount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Slider/slideAmount"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//Slider/startValue"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Categorical"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//RandomNumber"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//GeneralEntity"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//EnvironmentEntity">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//EnvironmentEntity/griddescritption"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EnvironmentEntity/DefaultColour"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EnvironmentEntity/initialisationLocation"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_Left"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//QuantifiedCondition4Attribute">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//QuantifiedCondition4Attribute/quantifier"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//QuantifiedCondition4Attribute/attribute"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Density">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//Density/percentage"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_InitialEntityDistribution"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//RangeType">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//RangeType/lower"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//RangeType/upper"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_Rationale"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Colour"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//ODD">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//ODD/entitiesstatesscales"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//ODD/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//ODD/networks"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//_Shape">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//_Shape/shape"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//_Shape/size"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//AnyEnvironment"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Everywhere"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Location"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_Array">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//TODO_Array/inner"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//TODO_Array/size"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//EnvironmentEntityReference">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//EnvironmentEntityReference/where"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//EnvironmentEntityReference/environmententity"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//TODO_Set">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//TODO_Set/inner"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Expression.1"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//MoreColors">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference ODD_without_init.ecore#//MoreColors/conditionalcolor"/>
+    </genClasses>
+    <genClasses ecoreClass="ODD_without_init.ecore#//LetActivity"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//Expression.2"/>
+    <genClasses ecoreClass="ODD_without_init.ecore#//ColorConstant">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute ODD_without_init.ecore#//ColorConstant/colour"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

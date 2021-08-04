@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="designConcepts" nsURI="http://www.example.org/designConcepts"
+    nsPrefix="designConcepts">
+  <eClassifiers xsi:type="ecore:EClass" name="DesignConcepts">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="Sensing" upperBound="-1"
+        eType="#//InformalText" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="adaptation" upperBound="-1"
+        eType="#//InformalText" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="objectives" upperBound="-1"
+        eType="#//InformalText" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="learning" upperBound="-1"
+        eType="#//InformalText" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Interaction"
+        upperBound="-1" eType="#//Rationale" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="prediction" eType="#//InformalWithRationale"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rationale4Stochasticity"
+        upperBound="-1" eType="#//Rationale" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collectives" upperBound="-1"
+        eType="#//InformalText" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="emergence" eType="#//InformalWithRationale"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Rationale">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="base4Rationale"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InformalText">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="InformalWithRationale"/>
+</ecore:EPackage>

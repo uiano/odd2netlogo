@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="selectExpression" nsURI="http://www.example.org/selectExpression"
+    nsPrefix="selectExpression">
+  <eClassifiers xsi:type="ecore:EClass" name="SelectExpression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Indices" eSuperTypes="#//SelectExpression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseGeneralEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseattribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetattribute"/>
+  </eClassifiers>
+</ecore:EPackage>

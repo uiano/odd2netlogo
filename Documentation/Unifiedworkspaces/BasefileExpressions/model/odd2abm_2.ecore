@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="odd2abm_2" nsURI="http://www.example.org/odd2abm_2" nsPrefix="odd2abm_2">
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression" eSuperTypes="#//Actual">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseGeneralEntity" eType="#//GeneralEntity"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="baseattribute" eType="#//UserDefinedAttribute"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="targetattribute" eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GeneralEntity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeAccess" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="accesswho" eType="#//SpecialEntities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//UserDefinedAttribute"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Quantifier"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Binary" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="operator" eType="#//BinaryOperator"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="left" upperBound="-1" eType="#//Expression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="right" upperBound="-1"
+        eType="#//Expression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="BinaryOperator"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="CollectionKind"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="CountLocation"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Empty" eSuperTypes="#//Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Actual" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EntityExpression" eSuperTypes="#//Actual">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="who" eType="#//SpecialEntities"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="SpecialEntities"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Parenthesis" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="todo_ConditionWith" eSuperTypes="#//Expression"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="todo_EntityBaseAttributes"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="todo_ConditionWithAttributeSelection"/>
+  <eClassifiers xsi:type="ecore:EClass" name="todo_CountEntities" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="where" eType="#//CountLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="countCondition" eType="#//todo_ConditionWith"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="todo_conditionwith" eType="#//TODO_ConditionWith"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="todo_ifthenelse" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" lowerBound="1"
+        eType="#//Expression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="positive" lowerBound="1"
+        eType="#//Expression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="negative" lowerBound="1"
+        eType="#//Expression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LetAccess" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="let" lowerBound="1" eType="#//LetActivity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="LetActivity" eSuperTypes="#//Activity #//INamedConceptODD">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="SelectN" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="where" eType="#//Where"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="count" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="argument" lowerBound="1"
+        eType="#//Expression" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="Where"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="INamedConceptODD"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TODO_ConditionWith"/>
+</ecore:EPackage>

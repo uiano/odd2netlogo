@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/all/src-gen" creationIcons="false" editDirectory="/all.edit/src-gen"
+    editorDirectory="/all.editor/src-gen" modelPluginID="all" modelName="All" rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container"
+    codeFormatting="true" importerID="org.eclipse.emf.importer.ecore" complianceLevel="8.0"
+    copyrightFields="false" operationReflection="true" importOrganizing="true">
+  <foreignModel>all.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="All" disposableProviderFactory="true" ecorePackage="all.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="all.ecore#//RationaleKind"/>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="all.ecore#//ModelCategories"/>
+    <genClasses ecoreClass="all.ecore#//DescriptionElement">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DescriptionElement/descriptionText"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//DescriptionElement/name"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//INamedConceptODD">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//INamedConceptODD/name"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//Experiments"/>
+    <genClasses ecoreClass="all.ecore#//ODD">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/entitiesandvariables"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/processandscheduling"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/_designconcepts"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//ODD/version"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/modeldescription"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/input"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/submodels"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/experiments"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/rationale4init"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ODD/rationales"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//DesignConcepts">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/Sensing"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/adaptation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/objectives"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/learning"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/rationale4Interaction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/prediction"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/rationale4Stochasticity"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/collectives"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//DesignConcepts/emergence"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//ProcessOverviewAndScheduling">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//ProcessOverviewAndScheduling/name"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//TODO_Rationale">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//TODO_Rationale/base4Rationale"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//TODO_Rationale/sentence"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//IDescribedConcept">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//IDescribedConcept/description"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//IRationaledConcept">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//IRationaledConcept/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//IRationaledConcept/rationale"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//EntitiesStatesVariablesAndScales"/>
+    <genClasses ecoreClass="all.ecore#//InformalText">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//InformalText/text"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//RationaleReference">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference all.ecore#//RationaleReference/irationaledconcept"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//ModelDescription">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute all.ecore#//ModelDescription/role"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ModelDescription/researchQuestion"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ModelDescription/targetGroup"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ModelDescription/purposeDescription"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//ModelDescription/generalDescriptions"/>
+    </genClasses>
+    <genClasses ecoreClass="all.ecore#//InformalWithRationale">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//InformalWithRationale/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference all.ecore#//InformalWithRationale/rationale"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

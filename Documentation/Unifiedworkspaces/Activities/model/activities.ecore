@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="activities" nsURI="http://www.example.org/activities" nsPrefix="activities">
+  <eClassifiers xsi:type="ecore:EClass" name="ChangeEnvironment" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="environment" lowerBound="1"
+        eType="#//EnvironmentEntity"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="AssignAttribute" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" lowerBound="1" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" lowerBound="1" eType="#//AttributeAccess"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" lowerBound="1" eType="#//Expression.1"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Move" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="movementDistance" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EnvironmentEntity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ForEach" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="who" eType="#//SpecialEntities"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activities" lowerBound="1"
+        upperBound="-1" eType="#//Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collection" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="KillEntity" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="killwho" eType="#//SpecialEntities"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="TurnLeft" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="direction" lowerBound="1"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="DecrementAttribute" eSuperTypes="#//AssignAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Comparison"/>
+  <eClassifiers xsi:type="ecore:EClass" name="ConditionalAction" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="condition" lowerBound="1"
+        eType="#//Comparison" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="yesActivities" lowerBound="1"
+        upperBound="-1" eType="#//Activity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="noActivities" upperBound="-1"
+        eType="#//Activity" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Clone" eSuperTypes="#//Activity">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="AmountofClones" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="cloneValues" upperBound="-1"
+        eType="#//SetAttribute" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="IncrementAttribute" eSuperTypes="#//AssignAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="SetAttribute" eSuperTypes="#//AssignAttribute"/>
+  <eClassifiers xsi:type="ecore:EClass" name="AttributeAccess"/>
+  <eClassifiers xsi:type="ecore:EClass" name="LetActivity" eSuperTypes="#//Activity #//INamedConceptODD">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="value" lowerBound="1" eType="#//Expression"
+        containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
+  <eClassifiers xsi:type="ecore:EEnum" name="SpecialEntities"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TurnRight" eSuperTypes="#//Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="TurnRandom" eSuperTypes="#//Activity"/>
+  <eClassifiers xsi:type="ecore:EClass" name="INamedConceptODD"/>
+</ecore:EPackage>
