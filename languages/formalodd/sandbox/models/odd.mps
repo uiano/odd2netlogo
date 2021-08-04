@@ -29,9 +29,15 @@
         <reference id="6529568716128046895" name="environment" index="2JNnW9" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
+      <concept id="3629783491431687666" name="formalodd.structure.EntityExpression" flags="ng" index="2g0R4C" />
       <concept id="3629783491434196471" name="formalodd.structure.Collect" flags="ng" index="2gRb$H">
         <property id="3629783491434196541" name="kind" index="2gRbFB" />
         <child id="3629783491434196472" name="inner" index="2gRb$y" />
+      </concept>
+      <concept id="3629783491436646477" name="formalodd.structure.SelectN" flags="ng" index="2gXKin">
+        <property id="7351747083734467931" name="where" index="qxQ9u" />
+        <child id="3629783491436646478" name="count" index="2gXKik" />
+        <child id="3629783491436646479" name="argument" index="2gXKil" />
       </concept>
       <concept id="2039819488956380787" name="formalodd.structure.Area" flags="ng" index="2hpLdR">
         <property id="2039819488956819168" name="area" index="2hv$f$" />
@@ -113,6 +119,9 @@
       <concept id="6529568716150347406" name="formalodd.structure.TurnRandom" flags="ng" index="2GeaqC" />
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
+      <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
+        <reference id="2146025148706098369" name="entity" index="2QpFD1" />
+      </concept>
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
@@ -230,6 +239,7 @@
       </concept>
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
+        <child id="2146025148701641578" name="actuals" index="2QCFRE" />
       </concept>
       <concept id="5332331643385439053" name="formalodd.structure.AttributeInit" flags="ng" index="3Y$5KH">
         <reference id="5332331643385439054" name="attribute" index="3Y$5KI" />
@@ -1009,7 +1019,7 @@
         <property role="TrG5h" value="move-if-not-happy" />
         <node concept="2rRKAk" id="3M5MOtLlj6g" role="18tn1X">
           <node concept="1Svl6F" id="3M5MOtLlj6w" role="2rRKAh">
-            <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
+            <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="find-new-spot" />
           </node>
           <node concept="26hFik" id="3M5MOtLlj6q" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
@@ -1022,21 +1032,31 @@
         <node concept="Qbqaq" id="4GwBkR93LQ" role="18tn1Z" />
       </node>
       <node concept="BZNO7" id="qdXC$yrH6d" role="2GyEu2">
-        <property role="TrG5h" value="occupied" />
+        <property role="TrG5h" value="move-on-when-occupied" />
         <node concept="1Svl6F" id="7MNWMNBlapA" role="18tn1X">
-          <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="move" />
+          <ref role="1Svl6C" node="3kYfzLXmcA8" resolve="find-new-spot" />
         </node>
         <node concept="Qbqaq" id="4GwBkRgJa7" role="18tn1Z" />
         <node concept="Qbqaq" id="5gquUl5c0qs" role="hfX4z" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXmcA8" role="2GyEu2">
-        <property role="TrG5h" value="move" />
+        <property role="TrG5h" value="find-new-spot" />
         <node concept="2GeaqC" id="1i0DDuUqoiC" role="18tn1X" />
         <node concept="rlEY6" id="1i0DDuUqoiM" role="18tn1X">
           <property role="rlEY1" value="2" />
         </node>
         <node concept="1Svl6F" id="3kYfzLXouWE" role="18tn1X">
-          <ref role="1Svl6C" node="qdXC$yrH6d" resolve="occupied" />
+          <ref role="1Svl6C" node="qdXC$yrH6d" resolve="move-on-when-occupied" />
+          <node concept="2g0R4C" id="3sVTHM$OcZX" role="2QCFRE" />
+          <node concept="2gXKin" id="3sVTHM$Od03" role="2QCFRE">
+            <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
+            <node concept="2oK_Am" id="3sVTHM$Od0d" role="2gXKik">
+              <property role="2oK_Ap" value="1" />
+            </node>
+            <node concept="2QpFD0" id="3sVTHM$Od0g" role="2gXKil">
+              <ref role="2QpFD1" node="qdXC$ygXa8" resolve="green-turtle" />
+            </node>
+          </node>
         </node>
         <node concept="Qbqaq" id="4GwBkRgJa9" role="18tn1Z" />
       </node>
@@ -1045,13 +1065,13 @@
       <ref role="1sMRUI" node="qdXC$ygXa8" resolve="green-turtle" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ610" role="1sMO1Z">
-      <ref role="1sMRUI" node="3kYfzLXmcA8" resolve="move" />
+      <ref role="1sMRUI" node="3kYfzLXmcA8" resolve="find-new-spot" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ614" role="1sMO1Z">
       <ref role="1sMRUI" node="3kYfzLXmc$i" resolve="move-if-not-happy" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ619" role="1sMO1Z">
-      <ref role="1sMRUI" node="qdXC$yrH6d" resolve="occupied" />
+      <ref role="1sMRUI" node="qdXC$yrH6d" resolve="move-on-when-occupied" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ61f" role="1sMO1Z">
       <ref role="1sMRUI" node="qdXC$ygXaQ" resolve="red-turtle" />

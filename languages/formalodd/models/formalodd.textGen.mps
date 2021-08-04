@@ -10455,9 +10455,50 @@
             </node>
           </node>
           <node concept="3clFbS" id="3sVTHM$EmMc" role="Jncv$">
-            <node concept="lc7rE" id="3sVTHM$Bg_3" role="3cqZAp">
-              <node concept="la8eA" id="3sVTHM$Bg_p" role="lcghm">
-                <property role="lacIc" value="found it" />
+            <node concept="3clFbJ" id="3sVTHM$I46S" role="3cqZAp">
+              <node concept="3clFbS" id="3sVTHM$I46U" role="3clFbx">
+                <node concept="lc7rE" id="3sVTHM$I56t" role="3cqZAp">
+                  <node concept="l9hG8" id="3sVTHM$I56u" role="lcghm">
+                    <node concept="2OqwBi" id="3sVTHM$I56v" role="lb14g">
+                      <node concept="2OqwBi" id="3sVTHM$I56w" role="2Oq$k0">
+                        <node concept="117lpO" id="3sVTHM$I56x" role="2Oq$k0" />
+                        <node concept="3TrcHB" id="3sVTHM$I56y" role="2OqNvi">
+                          <ref role="3TsBF5" to="86kt:39v_dEywMSX" resolve="kind" />
+                        </node>
+                      </node>
+                      <node concept="24Tkf9" id="3sVTHM$I56z" role="2OqNvi" />
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="3sVTHM$I56$" role="lcghm">
+                    <property role="lacIc" value=" [" />
+                  </node>
+                  <node concept="l9hG8" id="3sVTHM$I56_" role="lcghm">
+                    <node concept="2OqwBi" id="3sVTHM$I56A" role="lb14g">
+                      <node concept="117lpO" id="3sVTHM$I56B" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="3sVTHM$I56C" role="2OqNvi">
+                        <ref role="3Tt5mk" to="86kt:39v_dEywMRS" resolve="inner" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="la8eA" id="3sVTHM$I5jg" role="lcghm">
+                    <property role="lacIc" value="] of turtles" />
+                  </node>
+                </node>
+                <node concept="3cpWs6" id="3sVTHM$L90X" role="3cqZAp" />
+              </node>
+              <node concept="2OqwBi" id="3sVTHM$I4DU" role="3clFbw">
+                <node concept="2OqwBi" id="3sVTHM$I4g7" role="2Oq$k0">
+                  <node concept="Jnkvi" id="3sVTHM$I47m" role="2Oq$k0">
+                    <ref role="1M0zk5" node="3sVTHM$EmMe" resolve="letAcc" />
+                  </node>
+                  <node concept="3TrEf2" id="3sVTHM$I4sC" role="2OqNvi">
+                    <ref role="3Tt5mk" to="86kt:4GwBkQU3Ko" resolve="let" />
+                  </node>
+                </node>
+                <node concept="1BlSNk" id="3sVTHM$I4ZL" role="2OqNvi">
+                  <ref role="1BmUXE" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
+                  <ref role="1Bn3mz" to="86kt:6iw2eE2XXew" resolve="syntheticAttributes" />
+                </node>
               </node>
             </node>
           </node>
@@ -13995,6 +14036,72 @@
                     </node>
                   </node>
                 </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3sVTHM$OgWN" role="3cqZAp">
+              <node concept="3clFbS" id="3sVTHM$OgWO" role="3clFbx">
+                <node concept="lc7rE" id="3sVTHM$OgWP" role="3cqZAp">
+                  <node concept="2BGw6n" id="3sVTHM$OgWQ" role="lcghm" />
+                  <node concept="la8eA" id="3sVTHM$OgWR" role="lcghm">
+                    <property role="lacIc" value="calculate ; update synthetic attributes" />
+                  </node>
+                  <node concept="l8MVK" id="3sVTHM$OgWS" role="lcghm" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3sVTHM$OgWT" role="3clFbw">
+                <node concept="2OqwBi" id="3sVTHM$OgWU" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3sVTHM$OgWV" role="2Oq$k0">
+                    <node concept="1PxgMI" id="3sVTHM$OhLd" role="2Oq$k0">
+                      <node concept="chp4Y" id="3sVTHM$OhNX" role="3oSUPX">
+                        <ref role="cht4Q" to="86kt:3lcKR8aBGk7" resolve="ODD" />
+                      </node>
+                      <node concept="2OqwBi" id="3sVTHM$OhsN" role="1m5AlR">
+                        <node concept="117lpO" id="3sVTHM$OgWW" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="3sVTHM$Ohyd" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="3sVTHM$OgWX" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="3sVTHM$OgWY" role="2OqNvi">
+                    <ref role="3TtcxE" to="86kt:6iw2eE2XXew" resolve="syntheticAttributes" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="3sVTHM$OgWZ" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3clFbJ" id="3sVTHM$OgX0" role="3cqZAp">
+              <node concept="3clFbS" id="3sVTHM$OgX1" role="3clFbx">
+                <node concept="lc7rE" id="3sVTHM$OgX2" role="3cqZAp">
+                  <node concept="2BGw6n" id="3sVTHM$OgX3" role="lcghm" />
+                  <node concept="la8eA" id="3sVTHM$OgX4" role="lcghm">
+                    <property role="lacIc" value="calculate-globals ; update synthetic model attributes" />
+                  </node>
+                  <node concept="l8MVK" id="3sVTHM$OgX5" role="lcghm" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="3sVTHM$OgX6" role="3clFbw">
+                <node concept="2OqwBi" id="3sVTHM$OgX7" role="2Oq$k0">
+                  <node concept="2OqwBi" id="3sVTHM$OgX8" role="2Oq$k0">
+                    <node concept="1PxgMI" id="3sVTHM$Oi0a" role="2Oq$k0">
+                      <node concept="chp4Y" id="3sVTHM$Oi2g" role="3oSUPX">
+                        <ref role="cht4Q" to="86kt:3lcKR8aBGk7" resolve="ODD" />
+                      </node>
+                      <node concept="2OqwBi" id="3sVTHM$OhUT" role="1m5AlR">
+                        <node concept="117lpO" id="3sVTHM$OgX9" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="3sVTHM$OhX$" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3TrEf2" id="3sVTHM$OgXa" role="2OqNvi">
+                      <ref role="3Tt5mk" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
+                    </node>
+                  </node>
+                  <node concept="3Tsc0h" id="3sVTHM$OgXb" role="2OqNvi">
+                    <ref role="3TtcxE" to="86kt:3sVTHMzBzm5" resolve="syntheticModelAttributes" />
+                  </node>
+                </node>
+                <node concept="3GX2aA" id="3sVTHM$OgXc" role="2OqNvi" />
               </node>
             </node>
             <node concept="lc7rE" id="6ow5Ifzctg2" role="3cqZAp">
