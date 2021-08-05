@@ -121,7 +121,6 @@
         <child id="2473444682901074823" name="inner" index="2HHGdi" />
       </concept>
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
-        <reference id="2146025148706098369" name="entityOld" index="2QpFD1" />
         <child id="3980028531046012173" name="entity" index="2jOjfh" />
       </concept>
       <concept id="2146025148705204581" name="formalodd.structure.Percentage" flags="ng" index="2QqdZ_">
@@ -1254,7 +1253,6 @@
             <property role="2QqdZA" value="50" />
           </node>
           <node concept="2QpFD0" id="1i0DDuTDsHd" role="2gXKil">
-            <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
             <node concept="2lNc1w" id="3sVTHM$XLVk" role="2jOjfh">
               <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
             </node>
@@ -1271,7 +1269,6 @@
             <property role="2QqdZA" value="50" />
           </node>
           <node concept="2QpFD0" id="1i0DDuTDsHM" role="2gXKil">
-            <ref role="2QpFD1" node="4xlWY3qEPkZ" resolve="student" />
             <node concept="2lNc1w" id="3sVTHM$XLVm" role="2jOjfh">
               <ref role="8YSiZ" node="4xlWY3qEPkZ" resolve="student" />
             </node>

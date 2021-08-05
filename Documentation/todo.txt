@@ -1,5 +1,6 @@
 TODO list for development of ODD2Netlogo
 ========================================
+- fix IDE error
 - make Count work for #turtles on same spot (for Segregation)
 - references to attributes must not change the name of the attribute
 - manual experiments should work without adding automatic experiments
