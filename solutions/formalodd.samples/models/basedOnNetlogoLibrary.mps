@@ -95,7 +95,8 @@
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
-        <reference id="2146025148706098369" name="entity" index="2QpFD1" />
+        <reference id="2146025148706098369" name="entityOld" index="2QpFD1" />
+        <child id="3980028531046012173" name="entity" index="2jOjfh" />
       </concept>
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
@@ -253,6 +254,9 @@
           </node>
           <node concept="2QpFD0" id="1i0DDuTjMe0" role="2gXKil">
             <ref role="2QpFD1" node="qdXC$xz0Qv" resolve="sheep" />
+            <node concept="2lNc1w" id="3sVTHM$XLVo" role="2jOjfh">
+              <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
+            </node>
           </node>
         </node>
       </node>

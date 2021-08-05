@@ -1,5 +1,6 @@
 TODO list for development of ODD2Netlogo
 ========================================
+- make Count work for #turtles on same spot (for Segregation)
 - references to attributes must not change the name of the attribute
 - manual experiments should work without adding automatic experiments
 - fix code Voting cf. Library
@@ -33,6 +34,7 @@ TODO list for development of ODD2Netlogo
 - When we create something it is automatically given a name- unnamed action, unnamed entity, remove the option unnamed. Also there should be the instruction insert name here in all possible locations and not only in 1 or 2 . So we should not see no name
 
 TODOs structure
+- replace CountLocation by Where
 - make rationales a separate concepts and move out of UDA and entity
 - make stochasticity an extra concept and move out of UDA and others
 - do not create / remove initattributes of entities within entities and states (they appear now twice)
@@ -74,7 +76,7 @@ TODOs editor
 - improve context menu for MARG for normal activities
 TODOs textgen
 - move [stop] out of generation for end condition
-- calculate should be done in go, not in plot
+- calculate is done in go: remove calculate from plot and recheck that it works with MARG
 - localize textgen
 - use textgen base components in order to simplify textgen
 - improve textgen for element-wise
