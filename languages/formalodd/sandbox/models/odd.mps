@@ -943,6 +943,11 @@
         <property role="2QSBU6" value="what percent of similarity do the turtles want for their neighbours?" />
         <node concept="ZOwps" id="6dSewhkDZHV" role="zGXb3" />
       </node>
+      <node concept="ZOwpH" id="2OjX34$BRLT" role="Qgzvn">
+        <property role="TrG5h" value="number-of-turtles" />
+        <property role="2QSBU6" value="the total number of turtles with 50% green and 50% red" />
+        <node concept="ZOwps" id="2OjX34$BRMb" role="zGXb3" />
+      </node>
       <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
         <property role="TrG5h" value="green-turtle" />
         <property role="2QSBU6" value="a green turtle" />
@@ -954,11 +959,14 @@
           <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDu" role="RFdH4" />
-        <node concept="21jJIL" id="60Hvi7s81Ve" role="RIgNU">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="5" />
+        <node concept="i7gn5" id="2OjX34$BRMg" role="RIgNU">
+          <property role="i7gn4" value="1w00y4a7gvD/divide" />
+          <node concept="RLbTy" id="2OjX34$BRMm" role="i7gCG">
+            <ref role="RLbTH" node="3sVTHMzOc_6" resolve="percent-similar" />
+          </node>
+          <node concept="2oK_Am" id="2OjX34$BRMp" role="i7gCI">
+            <property role="2oK_Ap" value="2" />
+          </node>
         </node>
       </node>
       <node concept="ZOwpW" id="qdXC$ygXaQ" role="ZOwpT">
@@ -972,11 +980,14 @@
           <property role="27hOD7" value="2" />
         </node>
         <node concept="RFdHg" id="6dSewhl3vDy" role="RFdH4" />
-        <node concept="21jJIL" id="60Hvi7s81Vg" role="RIgNU">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="50" />
-          <property role="21jJI7" value="5" />
+        <node concept="i7gn5" id="2OjX34$BRMs" role="RIgNU">
+          <property role="i7gn4" value="1w00y4a7gvD/divide" />
+          <node concept="RLbTy" id="2OjX34$BRM_" role="i7gCG">
+            <ref role="RLbTH" node="3sVTHMzOc_6" resolve="percent-similar" />
+          </node>
+          <node concept="2oK_Am" id="2OjX34$BRMy" role="i7gCI">
+            <property role="2oK_Ap" value="2" />
+          </node>
         </node>
       </node>
       <node concept="2lNc1w" id="1i0DDuRwnS5" role="2zXruJ">
@@ -998,6 +1009,15 @@
           <property role="21jJIV" value="100" />
           <property role="2rHBro" value="30" />
           <property role="21jJI7" value="1" />
+        </node>
+      </node>
+      <node concept="3Y$5KH" id="2OjX34$BRM7" role="3Y$b7i">
+        <ref role="3Y$5KI" node="2OjX34$BRLT" resolve="number-of-turtles" />
+        <node concept="21jJIL" id="2OjX34$BRMe" role="3Y$5KK">
+          <property role="2rHBro" value="2000" />
+          <property role="21jJIV" value="2500" />
+          <property role="21jJI7" value="10" />
+          <property role="21jJIY" value="500" />
         </node>
       </node>
     </node>
@@ -1161,6 +1181,9 @@
         <property role="1jzKJm" value="25" />
         <property role="1jzt_n" value="7" />
       </node>
+    </node>
+    <node concept="1sMRUJ" id="2OjX34$BRLZ" role="1sMO1Z">
+      <ref role="1sMRUI" node="2OjX34$BRLT" resolve="number-of-turtles" />
     </node>
   </node>
   <node concept="ZOwpP" id="3T3sBYikEpk">
