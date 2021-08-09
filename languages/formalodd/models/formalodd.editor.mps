@@ -7425,5 +7425,26 @@
       <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
     </node>
   </node>
+  <node concept="24kQdi" id="2OjX34$Szrl">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:2OjX34$SzpG" resolve="TODO_CountAllEntities" />
+    <node concept="3EZMnI" id="2OjX34$Szrn" role="2wV5jI">
+      <node concept="l2Vlx" id="2OjX34$Szro" role="2iSdaV" />
+      <node concept="3F0ifn" id="2OjX34$Szrp" role="3EZMnx">
+        <property role="3F0ifm" value="count all" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+      </node>
+      <node concept="3F1sOY" id="2OjX34$SzrJ" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:2OjX34$SzqA" resolve="what" />
+      </node>
+      <node concept="3F0ifn" id="2OjX34$Szrr" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+      </node>
+      <node concept="3F1sOY" id="2OjX34$Szsb" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:2OjX34$SzpH" resolve="criteria" />
+      </node>
+    </node>
+  </node>
 </model>
 

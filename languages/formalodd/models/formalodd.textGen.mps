@@ -1376,7 +1376,7 @@
                 <node concept="lc7rE" id="2OjX34$C24M" role="3cqZAp">
                   <node concept="2BGw6n" id="2OjX34$C258" role="lcghm" />
                   <node concept="la8eA" id="2OjX34$C25I" role="lcghm">
-                    <property role="lacIc" value="set num-" />
+                    <property role="lacIc" value="let num-" />
                   </node>
                   <node concept="l9hG8" id="2OjX34$C27i" role="lcghm">
                     <node concept="2OqwBi" id="2OjX34$C27j" role="lb14g">
@@ -14231,6 +14231,41 @@
           </node>
           <node concept="la8eA" id="3sVTHM_0TQt" role="lcghm">
             <property role="lacIc" value="s" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="WtQ9Q" id="2OjX34$Wq62">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="WuzLi" to="86kt:2OjX34$SzpG" resolve="TODO_CountAllEntities" />
+    <node concept="11bSqf" id="2OjX34$Wq63" role="11c4hB">
+      <node concept="3clFbS" id="2OjX34$Wq64" role="2VODD2">
+        <node concept="lc7rE" id="2OjX34$Wr0L" role="3cqZAp">
+          <node concept="la8eA" id="2OjX34$Wr0M" role="lcghm">
+            <property role="lacIc" value="count " />
+          </node>
+          <node concept="l9hG8" id="2OjX34$WryS" role="lcghm">
+            <node concept="2OqwBi" id="2OjX34$WrHw" role="lb14g">
+              <node concept="117lpO" id="2OjX34$WrzJ" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2OjX34$WrRM" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:2OjX34$SzqA" resolve="what" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="2OjX34$WrXA" role="lcghm">
+            <property role="lacIc" value=" with [" />
+          </node>
+          <node concept="l9hG8" id="2OjX34$Ws4d" role="lcghm">
+            <node concept="2OqwBi" id="2OjX34$Wseu" role="lb14g">
+              <node concept="117lpO" id="2OjX34$Ws5w" role="2Oq$k0" />
+              <node concept="3TrEf2" id="2OjX34$WsoK" role="2OqNvi">
+                <ref role="3Tt5mk" to="86kt:2OjX34$SzpH" resolve="criteria" />
+              </node>
+            </node>
+          </node>
+          <node concept="la8eA" id="2OjX34_0hhE" role="lcghm">
+            <property role="lacIc" value="]" />
           </node>
         </node>
       </node>

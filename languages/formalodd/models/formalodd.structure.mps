@@ -2552,5 +2552,25 @@
     <property role="R4oN_" value="boolean" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
   </node>
+  <node concept="1TIwiD" id="2OjX34$SzpG">
+    <property role="EcuMT" value="3248208248173639276" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="TODO_CountAllEntities" />
+    <property role="34LRSv" value="Counting all" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="2OjX34$SzpH" role="1TKVEi">
+      <property role="IQ2ns" value="3248208248173639277" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="criteria" />
+      <ref role="20lvS9" node="5yfUVbuMlWA" resolve="Comparison" />
+    </node>
+    <node concept="1TJgyj" id="2OjX34$SzqA" role="1TKVEi">
+      <property role="IQ2ns" value="3248208248173639334" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="what" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="I1KRVWMRJQ" resolve="SelectExpression" />
+    </node>
+  </node>
 </model>
 
