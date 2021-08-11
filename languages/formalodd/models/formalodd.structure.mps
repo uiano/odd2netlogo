@@ -2383,10 +2383,12 @@
     <property role="34LRSv" value="move" />
     <property role="R4oN_" value="move the entity forward" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-    <node concept="1TJgyi" id="6o6DKlXk0y4" role="1TKVEl">
-      <property role="IQ2nx" value="7351747083747985540" />
-      <property role="TrG5h" value="movementDistance" />
-      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    <node concept="1TJgyj" id="7R1$VTKsnjZ" role="1TKVEi">
+      <property role="IQ2ns" value="9061686371385701631" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="distance" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
   <node concept="1TIwiD" id="6o6DKlXEK69">

@@ -5736,9 +5736,8 @@
         <property role="3F0ifm" value="Move for a distance of" />
         <node concept="Vb9p2" id="6o6DKlXk0ya" role="3F10Kt" />
       </node>
-      <node concept="3F0A7n" id="6o6DKlXk0yb" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6o6DKlXk0y4" resolve="movementDistance" />
-        <ref role="1k5W1q" node="5STA2$ClhKF" resolve="userInput" />
+      <node concept="3F1sOY" id="7R1$VTKsnkE" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7R1$VTKsnjZ" resolve="distance" />
       </node>
       <node concept="3F0ifn" id="6o6DKlXk0yc" role="3EZMnx">
         <property role="3F0ifm" value="pixels." />

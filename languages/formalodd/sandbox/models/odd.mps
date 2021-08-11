@@ -93,7 +93,7 @@
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="7351747083747985539" name="formalodd.structure.Move" flags="ng" index="rlEY6">
-        <property id="7351747083747985540" name="movementDistance" index="rlEY1" />
+        <child id="9061686371385701631" name="distance" index="dGet1" />
       </concept>
       <concept id="7351747083753947529" name="formalodd.structure.Everywhere" flags="ng" index="rFqqc" />
       <concept id="8985793055721061048" name="formalodd.structure.ConditionalAction" flags="ng" index="2rRKAk">
@@ -1030,7 +1030,7 @@
           <property role="2rHBro" value="2000" />
           <property role="21jJIV" value="2500" />
           <property role="21jJI7" value="10" />
-          <property role="21jJIY" value="10" />
+          <property role="21jJIY" value="500" />
         </node>
       </node>
     </node>
@@ -1076,7 +1076,14 @@
         <property role="TrG5h" value="find-new-spot" />
         <node concept="2GeaqC" id="1i0DDuUqoiC" role="18tn1X" />
         <node concept="rlEY6" id="1i0DDuUqoiM" role="18tn1X">
-          <property role="rlEY1" value="2" />
+          <node concept="2jQCjV" id="7R1$VTK_YKx" role="dGet1">
+            <node concept="2oK_Am" id="7R1$VTK_YKG" role="2jQCjS">
+              <property role="2oK_Ap" value="0" />
+            </node>
+            <node concept="2oK_Am" id="7R1$VTK_YKJ" role="2jQCjT">
+              <property role="2oK_Ap" value="10" />
+            </node>
+          </node>
         </node>
         <node concept="1Svl6F" id="3kYfzLXouWE" role="18tn1X">
           <ref role="1Svl6C" node="qdXC$yrH6d" resolve="move-on-when-occupied" />
@@ -1092,6 +1099,9 @@
           </node>
         </node>
         <node concept="Qbqaq" id="4GwBkRgJa9" role="18tn1Z" />
+      </node>
+      <node concept="1sOCfq" id="7R1$VTK_YKE" role="1sOCcx">
+        <ref role="1sOCfp" node="3kYfzLXmcA8" resolve="find-new-spot" />
       </node>
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ60X" role="1sMO1Z">
@@ -1560,7 +1570,9 @@
         <property role="TrG5h" value="move" />
         <property role="2QSBU6" value="the agent moves which costs it energy" />
         <node concept="rlEY6" id="6F4sr4mAQeB" role="18tn1X">
-          <property role="rlEY1" value="1" />
+          <node concept="2oK_Am" id="7R1$VTKyLNc" role="dGet1">
+            <property role="2oK_Ap" value="1" />
+          </node>
         </node>
         <node concept="2qfAsS" id="6F4sr4mAQeH" role="18tn1X">
           <node concept="26lliW" id="6F4sr4mAQeI" role="2OFgHe">
