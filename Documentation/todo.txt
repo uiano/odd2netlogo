@@ -49,6 +49,7 @@ TODOs structure
 - allow let in conditional
 - remove arrays? - not needed (move to future use)
 - fix or remove all TODO_ concepts
+- allow colours to be defined in presentation item, fix expression in presentation item
 TODOs constraints
 - make property constraints into type system constraints
 - correct handling of netlogo keyword check in INamedConceptODD

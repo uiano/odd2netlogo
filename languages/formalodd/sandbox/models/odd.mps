@@ -906,6 +906,24 @@
           </node>
         </node>
       </node>
+      <node concept="RZfIr" id="I1KRVYqSV8" role="3AlXHa">
+        <property role="TrG5h" value="similar-nearby" />
+        <property role="2QSBU6" value="how many neighboring patches have a turtle with my color?" />
+        <node concept="XrRG9" id="I1KRVYqSVc" role="RZfIc">
+          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
+          <node concept="XCvtc" id="I1KRVYqSVd" role="XqA8S">
+            <property role="1oWuG6" value="2kHWdXWIfC0/color" />
+            <property role="XEM5g" value="24yfUKsyf$I/eq" />
+          </node>
+        </node>
+      </node>
+      <node concept="RZfIr" id="I1KRVYqSX3" role="3AlXHa">
+        <property role="TrG5h" value="total-nearby" />
+        <property role="2QSBU6" value="how many neighboring patches have a turtle?" />
+        <node concept="XrRG9" id="3sVTHMyZb7q" role="RZfIc">
+          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
+        </node>
+      </node>
       <node concept="3gPaqd" id="I1KRVYqSW6" role="3AlXHa">
         <property role="TrG5h" value="happy?" />
         <property role="2QSBU6" value="for each turtle, indicates whether at least %-similar-wanted percent of that turtle's neighbors are the same color as the turtle" />
@@ -931,24 +949,6 @@
               </node>
             </node>
           </node>
-        </node>
-      </node>
-      <node concept="RZfIr" id="I1KRVYqSV8" role="3AlXHa">
-        <property role="TrG5h" value="similar-nearby" />
-        <property role="2QSBU6" value="how many neighboring patches have a turtle with my color?" />
-        <node concept="XrRG9" id="I1KRVYqSVc" role="RZfIc">
-          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-          <node concept="XCvtc" id="I1KRVYqSVd" role="XqA8S">
-            <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-            <property role="XEM5g" value="24yfUKsyf$I/eq" />
-          </node>
-        </node>
-      </node>
-      <node concept="RZfIr" id="I1KRVYqSX3" role="3AlXHa">
-        <property role="TrG5h" value="total-nearby" />
-        <property role="2QSBU6" value="how many neighboring patches have a turtle?" />
-        <node concept="XrRG9" id="3sVTHMyZb7q" role="RZfIc">
-          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
         </node>
       </node>
       <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
@@ -1197,6 +1197,12 @@
         <property role="1jsyQK" value="3sVTHM$x5_A/Value" />
         <property role="1j7ier" value="1" />
         <property role="1jsyQX" value="percent-similar" />
+      </node>
+      <node concept="1jsyQY" id="7R1$VTKKluG" role="1jgZU$">
+        <property role="1jsyQZ" value="Percent Unhappy" />
+        <property role="1jsyQX" value="percent-unhappy" />
+        <property role="1jsyQK" value="3sVTHM$x5_A/TODO_REMOVE_Value" />
+        <property role="1j7ier" value="1" />
       </node>
       <node concept="1g3uKF" id="3sVTHMzBzm3" role="2kDK7N">
         <property role="1jlS1m" value="true" />
