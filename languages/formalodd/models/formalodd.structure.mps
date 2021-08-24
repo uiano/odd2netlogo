@@ -2381,7 +2381,7 @@
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="Move" />
     <property role="34LRSv" value="move" />
-    <property role="R4oN_" value="move the entity forward" />
+    <property role="R4oN_" value="move the entity" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
     <node concept="1TJgyj" id="7R1$VTKsnjZ" role="1TKVEi">
       <property role="IQ2ns" value="9061686371385701631" />
@@ -2389,6 +2389,11 @@
       <property role="20kJfa" value="distance" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="3MYUuMaJg0K" role="1TKVEl">
+      <property role="IQ2nx" value="4377193089999896624" />
+      <property role="TrG5h" value="dir" />
+      <ref role="AX2Wp" node="3MYUuMaJfXv" resolve="Direction" />
     </node>
   </node>
   <node concept="1TIwiD" id="6o6DKlXEK69">
@@ -2572,6 +2577,99 @@
       <property role="20kJfa" value="what" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="I1KRVWMRJQ" resolve="SelectExpression" />
+    </node>
+  </node>
+  <node concept="25R3W" id="3MYUuMaJfXv">
+    <property role="3F6X1D" value="4377193089999896415" />
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <property role="TrG5h" value="Direction" />
+    <ref role="1H5jkz" node="3MYUuMaJfXw" resolve="ahead" />
+    <node concept="25R33" id="3MYUuMaJfXw" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896416" />
+      <property role="TrG5h" value="ahead" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfXx" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896417" />
+      <property role="TrG5h" value="right" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfX$" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896420" />
+      <property role="TrG5h" value="left" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfXC" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896424" />
+      <property role="TrG5h" value="back" />
+      <property role="1L1pqM" value="turn and go back" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfXH" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896429" />
+      <property role="TrG5h" value="backwards" />
+      <property role="1L1pqM" value="do not turn but move backwards" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfXN" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896435" />
+      <property role="TrG5h" value="north" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfXU" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896442" />
+      <property role="TrG5h" value="south" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfY2" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896450" />
+      <property role="TrG5h" value="east" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfYb" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896459" />
+      <property role="TrG5h" value="west" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfYl" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896469" />
+      <property role="TrG5h" value="random" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfYw" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896480" />
+      <property role="TrG5h" value="aheadRandom" />
+      <property role="1L1pqM" value="mostly ahead" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfYG" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896492" />
+      <property role="TrG5h" value="rightRandom" />
+      <property role="1L1pqM" value="mostly right" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfYT" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896505" />
+      <property role="TrG5h" value="leftRandom" />
+      <property role="1L1pqM" value="mostly left" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfZ7" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896519" />
+      <property role="TrG5h" value="backRandom" />
+      <property role="1L1pqM" value="mostly back" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfZm" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896534" />
+      <property role="TrG5h" value="backwardsRandom" />
+      <property role="1L1pqM" value="mostly backwards" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfZA" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896550" />
+      <property role="TrG5h" value="northRandom" />
+      <property role="1L1pqM" value="mostly north" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJfZR" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896567" />
+      <property role="TrG5h" value="southRandom" />
+      <property role="1L1pqM" value="mostly south" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJg09" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896585" />
+      <property role="TrG5h" value="eastRandom" />
+      <property role="1L1pqM" value="mostly east" />
+    </node>
+    <node concept="25R33" id="3MYUuMaJg0s" role="25R1y">
+      <property role="3tVfz5" value="4377193089999896604" />
+      <property role="TrG5h" value="westRandom" />
+      <property role="1L1pqM" value="mostly west" />
     </node>
   </node>
 </model>

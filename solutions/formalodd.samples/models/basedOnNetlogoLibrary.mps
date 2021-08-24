@@ -88,6 +88,7 @@
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="7351747083747985539" name="formalodd.structure.Move" flags="ng" index="rlEY6">
+        <property id="4377193089999896624" name="dir" index="2Q0YBs" />
         <child id="9061686371385701631" name="distance" index="dGet1" />
       </concept>
       <concept id="7351747083753947529" name="formalodd.structure.Everywhere" flags="ng" index="rFqqc" />
@@ -310,6 +311,7 @@
         <property role="TrG5h" value="move" />
         <property role="2QSBU6" value="the agent moves which costs it energy" />
         <node concept="rlEY6" id="6o6DKlXneZO" role="18tn1X">
+          <property role="2Q0YBs" value="3MYUuMaJfYw/aheadRandom" />
           <node concept="2oK_Am" id="7R1$VTKyLN8" role="dGet1">
             <property role="2oK_Ap" value="1" />
           </node>
@@ -1044,8 +1046,8 @@
       </node>
       <node concept="2lNc1x" id="3kYfzLXmcA8" role="2GyEu2">
         <property role="TrG5h" value="find-new-spot" />
-        <node concept="2GeaqC" id="1i0DDuUqoiC" role="18tn1X" />
         <node concept="rlEY6" id="1i0DDuUqoiM" role="18tn1X">
+          <property role="2Q0YBs" value="3MYUuMaJfYl/random" />
           <node concept="2jQCjV" id="7R1$VTK_YKx" role="dGet1">
             <node concept="2oK_Am" id="7R1$VTK_YKG" role="2jQCjS">
               <property role="2oK_Ap" value="0" />

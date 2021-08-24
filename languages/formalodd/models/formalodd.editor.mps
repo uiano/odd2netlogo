@@ -5733,8 +5733,16 @@
     <node concept="3EZMnI" id="6o6DKlXk0y7" role="2wV5jI">
       <node concept="2iRfu4" id="6o6DKlXk0y8" role="2iSdaV" />
       <node concept="3F0ifn" id="6o6DKlXk0y9" role="3EZMnx">
-        <property role="3F0ifm" value="Move for a distance of" />
+        <property role="3F0ifm" value="Move" />
         <node concept="Vb9p2" id="6o6DKlXk0ya" role="3F10Kt" />
+      </node>
+      <node concept="3F0A7n" id="3MYUuMaJg14" role="3EZMnx">
+        <property role="1$x2rV" value="Press &lt;ctrl-space&gt; to select the movement direction." />
+        <ref role="1NtTu8" to="86kt:3MYUuMaJg0K" resolve="dir" />
+      </node>
+      <node concept="3F0ifn" id="3MYUuMaJg0M" role="3EZMnx">
+        <property role="3F0ifm" value="for a distance of" />
+        <node concept="Vb9p2" id="3MYUuMaJg0N" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="7R1$VTKsnkE" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:7R1$VTKsnjZ" resolve="distance" />
