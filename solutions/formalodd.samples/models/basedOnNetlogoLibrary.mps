@@ -113,7 +113,6 @@
         <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
         <child id="4851181497927696060" name="cloneValues" index="3BJUly" />
       </concept>
-      <concept id="6529568716150347406" name="formalodd.structure.TurnRandom" flags="ng" index="2GeaqC" />
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
@@ -268,9 +267,6 @@
     <property role="TrG5h" value="Wolf Sheep" />
     <property role="2QSBU6" value="The Wolf Sheep Simple 5 model explores the population dynamics in a minimal ecosystem comprising of wolves, sheep, and grass. The model allows different outcomes to emerge as we alter the number of wolves, sheep, patches of grass, the energetic requirements of the animals and the growth/ reproduction rate of the 3 ecosystem elements." />
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
-      <node concept="1Svl6F" id="1i0DDuTjMaI" role="250j5S">
-        <ref role="1Svl6C" node="6o6DKlXneXa" resolve="wiggle" />
-      </node>
       <node concept="1Svl6F" id="1i0DDuTjMbC" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlqG4" resolve="move" />
       </node>
@@ -300,12 +296,6 @@
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMfj" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlrv$" resolve="regrow-grass" />
-      </node>
-      <node concept="2lNc1x" id="6o6DKlXneXa" role="2GyEu2">
-        <property role="TrG5h" value="wiggle" />
-        <property role="2QSBU6" value="the agent changes its heading - turn right then left, so the average is straight ahead" />
-        <node concept="2GeaqC" id="1i0DDuUmUy9" role="18tn1X" />
-        <node concept="Qbqaq" id="6o6DKlXneYp" role="18tn1Z" />
       </node>
       <node concept="2lNc1x" id="3kYfzLXlqG4" role="2GyEu2">
         <property role="TrG5h" value="move" />
@@ -454,9 +444,6 @@
       <node concept="2lMhBi" id="1D8fLg4_FDU" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="qdXC$xz0Qt" resolve="wolf" />
-      </node>
-      <node concept="1sOCfq" id="64QC5GXWdU0" role="1sOCcx">
-        <ref role="1sOCfp" node="6o6DKlXneXa" resolve="wiggle" />
       </node>
     </node>
     <node concept="ZOwpU" id="qdXC$xz0Qp" role="3$p12O">
@@ -783,9 +770,6 @@
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ1tT" role="1sMO1Z">
       <ref role="1sMRUI" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
-    </node>
-    <node concept="1sMRUJ" id="1i0DDuQZ1u4" role="1sMO1Z">
-      <ref role="1sMRUI" node="6o6DKlXneXa" resolve="wiggle" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ1ug" role="1sMO1Z">
       <ref role="1sMRUI" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />

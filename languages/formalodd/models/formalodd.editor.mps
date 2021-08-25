@@ -1910,41 +1910,6 @@
       <node concept="2EHx9g" id="2_t31HReCXs" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="5EtG2rQFMz_">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqd" resolve="TurnLeft" />
-    <node concept="3EZMnI" id="1i0DDuUjRe9" role="2wV5jI">
-      <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
-      <node concept="2iRfu4" id="1i0DDuUjReb" role="2iSdaV" />
-      <node concept="3F0ifn" id="1i0DDuUjRec" role="3EZMnx">
-        <property role="3F0ifm" value="Turn to the left (90 degrees)." />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5EtG2rQFM$H">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqc" resolve="TurnRight" />
-    <node concept="3EZMnI" id="1i0DDuUjRe$" role="2wV5jI">
-      <node concept="VPM3Z" id="1i0DDuUjRe_" role="3F10Kt" />
-      <node concept="2iRfu4" id="1i0DDuUjReA" role="2iSdaV" />
-      <node concept="3F0ifn" id="1i0DDuUjReB" role="3EZMnx">
-        <property role="3F0ifm" value="Turn to the right (90 degrees)." />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="5EtG2rQFMBw">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="1XX52x" to="86kt:5EtG2rQDhqe" resolve="TurnRandom" />
-    <node concept="3EZMnI" id="1i0DDuUjReG" role="2wV5jI">
-      <node concept="VPM3Z" id="1i0DDuUjReH" role="3F10Kt" />
-      <node concept="2iRfu4" id="1i0DDuUjReI" role="2iSdaV" />
-      <node concept="3F0ifn" id="1i0DDuUjReJ" role="3EZMnx">
-        <property role="3F0ifm" value="Turn randomly between -90 and +90 degrees." />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
-      </node>
-    </node>
-  </node>
   <node concept="2ABfQD" id="3okqQmmA05m">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="ODD_EditorHints" />

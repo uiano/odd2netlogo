@@ -13352,28 +13352,6 @@
       </node>
     </node>
   </node>
-  <node concept="WtQ9Q" id="6o6DKlXk0zM">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:5EtG2rQDhqe" resolve="TurnRandom" />
-    <node concept="11bSqf" id="6o6DKlXk0zN" role="11c4hB">
-      <node concept="3clFbS" id="6o6DKlXk0zO" role="2VODD2">
-        <node concept="lc7rE" id="6o6DKlXk0$5" role="3cqZAp">
-          <node concept="2BGw6n" id="6o6DKlXqtAp" role="lcghm" />
-          <node concept="la8eA" id="6o6DKlXk0$p" role="lcghm">
-            <property role="lacIc" value="right random 90" />
-          </node>
-          <node concept="l8MVK" id="6o6DKlXk0_e" role="lcghm" />
-        </node>
-        <node concept="lc7rE" id="1i0DDuUjaQm" role="3cqZAp">
-          <node concept="2BGw6n" id="1i0DDuUjaQn" role="lcghm" />
-          <node concept="la8eA" id="1i0DDuUjaQo" role="lcghm">
-            <property role="lacIc" value="left random 90" />
-          </node>
-          <node concept="l8MVK" id="1i0DDuUjaQp" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="WtQ9Q" id="6o6DKlXnf0s">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="WuzLi" to="86kt:6o6DKlXk0y3" resolve="Move" />
@@ -13943,36 +13921,6 @@
           <node concept="la8eA" id="6lHtNhnCX6$" role="lcghm">
             <property role="lacIc" value="patches" />
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="1i0DDuUjaFg">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:5EtG2rQDhqd" resolve="TurnLeft" />
-    <node concept="11bSqf" id="1i0DDuUjaFh" role="11c4hB">
-      <node concept="3clFbS" id="1i0DDuUjaFi" role="2VODD2">
-        <node concept="lc7rE" id="1i0DDuUjaFz" role="3cqZAp">
-          <node concept="2BGw6n" id="1i0DDuUjaF$" role="lcghm" />
-          <node concept="la8eA" id="1i0DDuUjaF_" role="lcghm">
-            <property role="lacIc" value="left 90" />
-          </node>
-          <node concept="l8MVK" id="1i0DDuUjaFE" role="lcghm" />
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="WtQ9Q" id="1i0DDuUjaMh">
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <ref role="WuzLi" to="86kt:5EtG2rQDhqc" resolve="TurnRight" />
-    <node concept="11bSqf" id="1i0DDuUjaMi" role="11c4hB">
-      <node concept="3clFbS" id="1i0DDuUjaMj" role="2VODD2">
-        <node concept="lc7rE" id="1i0DDuUjaM$" role="3cqZAp">
-          <node concept="2BGw6n" id="1i0DDuUjaM_" role="lcghm" />
-          <node concept="la8eA" id="1i0DDuUjaMA" role="lcghm">
-            <property role="lacIc" value="right 90" />
-          </node>
-          <node concept="l8MVK" id="1i0DDuUjaMB" role="lcghm" />
         </node>
       </node>
     </node>

@@ -609,30 +609,6 @@
       <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
     </node>
   </node>
-  <node concept="1TIwiD" id="5EtG2rQDhqc">
-    <property role="EcuMT" value="6529568716150347404" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="TurnRight" />
-    <property role="34LRSv" value="turn right" />
-    <property role="R4oN_" value="(90 degrees)" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-  </node>
-  <node concept="1TIwiD" id="5EtG2rQDhqd">
-    <property role="EcuMT" value="6529568716150347405" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="TurnLeft" />
-    <property role="34LRSv" value="turn left" />
-    <property role="R4oN_" value="(90 degrees)" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-  </node>
-  <node concept="1TIwiD" id="5EtG2rQDhqe">
-    <property role="EcuMT" value="6529568716150347406" />
-    <property role="3GE5qa" value="ActionsAndProcedures" />
-    <property role="TrG5h" value="TurnRandom" />
-    <property role="34LRSv" value="turn randomly" />
-    <property role="R4oN_" value="(between -90 and +90 degrees)" />
-    <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-  </node>
   <node concept="1TIwiD" id="79PYCRrUEZI">
     <property role="EcuMT" value="8247773779785854958" />
     <property role="3GE5qa" value="ActionsAndProcedures" />

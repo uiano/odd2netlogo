@@ -93,7 +93,6 @@
         <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
         <child id="4851181497927696060" name="cloneValues" index="3BJUly" />
       </concept>
-      <concept id="6529568716150347406" name="formalodd.structure.TurnRandom" flags="ng" index="2GeaqC" />
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
@@ -828,7 +827,11 @@
       </node>
       <node concept="2lNc1x" id="6ow5Ifzbdeu" role="2GyEu2">
         <property role="TrG5h" value="Dummy" />
-        <node concept="2GeaqC" id="KnKMokm7AL" role="18tn1X" />
+        <node concept="rlEY6" id="7$W8N56Sjpu" role="18tn1X">
+          <node concept="2oK_Am" id="7$W8N56Sjp_" role="dGet1">
+            <property role="2oK_Ap" value="3" />
+          </node>
+        </node>
         <node concept="Qbqaq" id="4GwBkRgJad" role="18tn1Z" />
       </node>
       <node concept="2lMhBi" id="24qWCY8di$6" role="2lMhBt">
@@ -1127,12 +1130,6 @@
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
         <ref role="2I6lkX" node="6F4sr4mwNF8" resolve="wolf" />
       </node>
-      <node concept="2lNc1x" id="6F4sr4mAQdj" role="2GyEu2">
-        <property role="TrG5h" value="wiggle" />
-        <property role="2QSBU6" value="the agent changes its direction randomly" />
-        <node concept="Qbqaq" id="6F4sr4mAQdH" role="18tn1Z" />
-        <node concept="2GeaqC" id="6F4sr4mAQdK" role="18tn1X" />
-      </node>
       <node concept="2lNc1x" id="6F4sr4mAQe3" role="2GyEu2">
         <property role="TrG5h" value="move" />
         <property role="2QSBU6" value="the agent moves which costs it energy" />
@@ -1312,9 +1309,6 @@
     </node>
     <node concept="1sMRUJ" id="6F4sr4mAQcM" role="1sMO1Z">
       <ref role="1sMRUI" node="6F4sr4mAQcC" resolve="movement-cost" />
-    </node>
-    <node concept="1sMRUJ" id="6F4sr4mAQdy" role="1sMO1Z">
-      <ref role="1sMRUI" node="6F4sr4mAQdj" resolve="wiggle" />
     </node>
     <node concept="1sMRUJ" id="6F4sr4mAQem" role="1sMO1Z">
       <ref role="1sMRUI" node="6F4sr4mAQe3" resolve="move" />
