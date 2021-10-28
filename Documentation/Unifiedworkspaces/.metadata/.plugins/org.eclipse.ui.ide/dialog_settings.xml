@@ -51,6 +51,7 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="false"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\ODD"/>
 			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state- Entities +Init\test"/>
 			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state- Entities +Init\Procedures"/>
 			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state- Entities +Init\odd2abm_3"/>
