@@ -99,6 +99,7 @@
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
       <concept id="7167542597237662036" name="formalodd.structure.Random" flags="ng" index="RFdHg" />
+      <concept id="6194510257711683277" name="formalodd.structure.GeneralAttribute" flags="ng" index="TB4if" />
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
       </concept>
@@ -293,6 +294,7 @@
           <property role="TrG5h" value="unnamed attribute2" />
           <node concept="ZOwps" id="5wSz0kzyecS" role="zGXb3" />
         </node>
+        <node concept="TB4if" id="5nRk$9GwSKc" role="2gUEk7" />
         <node concept="RFdHg" id="7Y7DVQi$r2u" role="RFdH4" />
         <node concept="3Ovhfo" id="1i0DDuQOW_3" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />

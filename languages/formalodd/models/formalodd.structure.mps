@@ -249,7 +249,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="userDefinedAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      <ref role="20lvS9" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
     </node>
     <node concept="1TJgyj" id="6dSewhkKjrY" role="1TKVEi">
       <property role="IQ2ns" value="7167542597236373246" />
@@ -290,7 +290,7 @@
     <property role="EcuMT" value="3840659476812055839" />
     <property role="TrG5h" value="UserDefinedAttribute" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
     <node concept="PrWs8" id="64QC5GXZtVn" role="PzmwI">
       <ref role="PrY4T" node="64QC5GXZtS4" resolve="IRationaledConcept" />
     </node>
@@ -2646,6 +2646,31 @@
       <property role="3tVfz5" value="4377193089999896604" />
       <property role="TrG5h" value="westRandom" />
       <property role="1L1pqM" value="mostly west" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5nRk$9GqLrd">
+    <property role="EcuMT" value="6194510257711683277" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="GeneralAttribute" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="5nRk$9GwSKk">
+    <property role="EcuMT" value="6194510257713286164" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="LetDefinition" />
+    <property role="34LRSv" value="define an abbreviation" />
+    <property role="R4oN_" value="make a shortcut" />
+    <ref role="1TJDcQ" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
+    <node concept="PrWs8" id="5nRk$9GwSKl" role="PzmwI">
+      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
+    </node>
+    <node concept="1TJgyj" id="5nRk$9GwSKm" role="1TKVEi">
+      <property role="IQ2ns" value="6194510257713286166" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
 </model>
