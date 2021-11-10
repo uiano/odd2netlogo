@@ -57,6 +57,8 @@
       <concept id="1729384597837555313" name="formalodd.structure.Parenthesis" flags="ng" index="i8Uhg">
         <child id="1729384597837555314" name="inner" index="i8Uhj" />
       </concept>
+      <concept id="3980028531036882738" name="formalodd.structure.False" flags="ng" index="2jp67I" />
+      <concept id="3980028531036880891" name="formalodd.structure.True" flags="ng" index="2jp9$B" />
       <concept id="3629783491425129924" name="formalodd.structure.ElementWise" flags="ng" index="2jDO4u">
         <child id="3629783491425129925" name="inner" index="2jDO4v" />
       </concept>
@@ -296,9 +298,14 @@
                 <property role="1dr8U9" value="5yfUVburW9E/me" />
                 <ref role="26lliz" node="5yfUVbwl$3g" resolve="#negative-interactions" />
               </node>
-              <node concept="26lliW" id="6iw2eE30koR" role="i7gCI">
-                <property role="1dr8U9" value="5yfUVburW9E/me" />
-                <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+              <node concept="i7gn5" id="2MUL3Zu5vfw" role="i7gCI">
+                <property role="i7gn4" value="1w00y4a7gvC/add" />
+                <node concept="26lliW" id="2MUL3Zu5vfD" role="i7gCG">
+                  <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
+                </node>
+                <node concept="2oK_Am" id="2MUL3Zu5vfG" role="i7gCI">
+                  <property role="2oK_Ap" value="1" />
+                </node>
               </node>
             </node>
           </node>
@@ -315,9 +322,14 @@
                   <property role="1dr8U9" value="5yfUVburW9E/me" />
                   <ref role="26lliz" node="5yfUVbwl$2H" resolve="#refused-interactions" />
                 </node>
-                <node concept="26lliW" id="6iw2eE30koX" role="i7gCI">
-                  <property role="1dr8U9" value="5yfUVburW9E/me" />
-                  <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+                <node concept="i7gn5" id="2MUL3Zu5vfJ" role="i7gCI">
+                  <property role="i7gn4" value="1w00y4a7gvC/add" />
+                  <node concept="26lliW" id="2MUL3Zu5vfS" role="i7gCG">
+                    <ref role="26lliz" node="5yfUVbwl$3m" resolve="#positive-interactions" />
+                  </node>
+                  <node concept="2oK_Am" id="2MUL3Zu5vfV" role="i7gCI">
+                    <property role="2oK_Ap" value="1" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -1374,18 +1386,6 @@
             </node>
           </node>
         </node>
-        <node concept="RZfIr" id="I1KRVYnLsN" role="18tn1X">
-          <property role="TrG5h" value="false" />
-          <node concept="26hFik" id="I1KRVYnLts" role="RZfIc">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="2oK_Am" id="I1KRVYnLt_" role="26hFir">
-              <property role="2oK_Ap" value="0" />
-            </node>
-            <node concept="2oK_Am" id="I1KRVYnLtC" role="26hFip">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-        </node>
         <node concept="2rRKAk" id="4GwBkQVh7G" role="18tn1X">
           <node concept="2rRKAk" id="4GwBkQVh8i" role="2rRKAh">
             <node concept="2qfAsZ" id="I1KRVYnLrP" role="2R3hq3">
@@ -1401,9 +1401,7 @@
               <node concept="RLbTy" id="6iw2eE5XJGc" role="26hFir">
                 <ref role="RLbTH" node="6iw2eE5XJDM" resolve="other-reject-interaction" />
               </node>
-              <node concept="RLbTy" id="I1KRVYnLtK" role="26hFip">
-                <ref role="RLbTH" node="I1KRVYnLsN" resolve="false" />
-              </node>
+              <node concept="2jp67I" id="2MUL3Zu5vdR" role="26hFip" />
             </node>
             <node concept="1Svl6F" id="6iw2eE60gCL" role="2rRKAh">
               <ref role="1Svl6C" node="4GwBkQLLe0" resolve="learn-about" />
@@ -1447,9 +1445,7 @@
             <node concept="RLbTy" id="39v_dExyJWn" role="26hFir">
               <ref role="RLbTH" node="4GwBkQQuGx" resolve="me-reject-interaction" />
             </node>
-            <node concept="RLbTy" id="I1KRVYnLtH" role="26hFip">
-              <ref role="RLbTH" node="I1KRVYnLsN" resolve="false" />
-            </node>
+            <node concept="2jp67I" id="2MUL3Zu5vdO" role="26hFip" />
           </node>
         </node>
         <node concept="2lNc1w" id="5gquUl5c0qk" role="hfX4z">
@@ -1477,18 +1473,6 @@
             </node>
           </node>
         </node>
-        <node concept="RZfIr" id="I1KRVYnLud" role="18tn1X">
-          <property role="TrG5h" value="true" />
-          <node concept="26hFik" id="I1KRVYnLue" role="RZfIc">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
-            <node concept="2oK_Am" id="I1KRVYnLuf" role="26hFir">
-              <property role="2oK_Ap" value="0" />
-            </node>
-            <node concept="2oK_Am" id="I1KRVYnLug" role="26hFip">
-              <property role="2oK_Ap" value="1" />
-            </node>
-          </node>
-        </node>
         <node concept="2rRKAk" id="39v_dExsSp$" role="18tn1X">
           <node concept="2qfAsS" id="1R8dC2EPbnm" role="2R3hq3">
             <node concept="26lliW" id="1R8dC2EPbnn" role="2rWCss">
@@ -1512,9 +1496,7 @@
             <node concept="RLbTy" id="39v_dExsSpA" role="26hFir">
               <ref role="RLbTH" node="39v_dExsSpy" resolve="is-positive-me" />
             </node>
-            <node concept="RLbTy" id="I1KRVYnLuD" role="26hFip">
-              <ref role="RLbTH" node="I1KRVYnLud" resolve="true" />
-            </node>
+            <node concept="2jp9$B" id="2MUL3Zu5v4K" role="26hFip" />
           </node>
           <node concept="2qfAsZ" id="39v_dExsSpC" role="2rRKAh">
             <node concept="26lliW" id="39v_dEyCAsW" role="2rWCss">

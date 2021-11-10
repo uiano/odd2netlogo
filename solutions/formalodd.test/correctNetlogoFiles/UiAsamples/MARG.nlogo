@@ -65,7 +65,6 @@ to free-interaction [ _me _other ] ; spare time interactions
 ask _me [ ; all access is to _me
   let me-reject-interaction [attraction] of out-university-relationship-to _other <= precision (random-float (1)) 2
   let other-reject-interaction [attraction] of in-university-relationship-from _other <= precision (random-float (1)) 2
-  let false 0 = 1
   if me-reject-interaction = false [
     ifelse other-reject-interaction = false [
       learn-about _me _other
@@ -82,7 +81,6 @@ end
 to evaluate-interaction [ _me _other ] ; evaluation of the interaction from me to other
 ask _me [ ; all access is to _me
   let is-positive-me positive-interaction? _me _other 
-  let true 0 = 1
   ifelse is-positive-me = true [
     ask out-university-relationship-to _other [
       set attraction    max (list 0 min (list 1 (attraction + attraction-change)))
@@ -167,7 +165,7 @@ end
 
 to calculate; compute synthetic attributes
   ask turtles [
-    set exclusion-index (#negative-interactions + #refused-interactions) / (#negative-interactions + #refused-interactions + #positive-interactions)
+    set exclusion-index (#negative-interactions + #refused-interactions + 1) / (#negative-interactions + #refused-interactions + #positive-interactions + 1)
     set excluded exclusion-index >= 0.8
     set average-attraction-out precision (Mean (map [ _o -> [ attraction ] of _o ] [ self ] of my-out-university-relationships)) 2
     set stdev-attraction-out precision (Standard-deviation (map [ _o -> [ attraction ] of _o ] [ self ] of my-out-university-relationships)) 2
