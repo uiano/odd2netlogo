@@ -2654,6 +2654,9 @@
     <property role="TrG5h" value="GeneralAttribute" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="2MUL3ZtZXrh" role="PzmwI">
+      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5nRk$9GwSKk">
     <property role="EcuMT" value="6194510257713286164" />
