@@ -7418,5 +7418,70 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="75snaehyJTU">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1XX52x" to="86kt:5nRk$9GwSKk" resolve="LetDefinition" />
+    <node concept="3EZMnI" id="75snaehyJTV" role="2wV5jI">
+      <node concept="2iRkQZ" id="75snaehyJTW" role="2iSdaV" />
+      <node concept="3EZMnI" id="75snaehyJTX" role="3EZMnx">
+        <node concept="2iRfu4" id="75snaehyJTY" role="2iSdaV" />
+        <node concept="3F0ifn" id="75snaehyJTZ" role="3EZMnx">
+          <property role="3F0ifm" value="The synthetic attribute" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+          <node concept="Vb9p2" id="75snaehyJU0" role="3F10Kt" />
+        </node>
+        <node concept="3F0A7n" id="75snaehyJU1" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;write name of synthetic attribute&gt;" />
+          <ref role="1k5W1q" node="1R8dC2F3Xub" resolve="nameDefinition" />
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+        <node concept="3F0ifn" id="75snaehyJU2" role="3EZMnx">
+          <property role="3F0ifm" value="is defined as" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+        </node>
+        <node concept="3F1sOY" id="75snaehyJU3" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:5nRk$9GwSKm" resolve="value" />
+        </node>
+        <node concept="3F0ifn" id="75snaehyJU4" role="3EZMnx">
+          <property role="3F0ifm" value="." />
+          <node concept="11L4FC" id="75snaehyJU5" role="3F10Kt">
+            <property role="VOm3f" value="true" />
+          </node>
+        </node>
+        <node concept="3F0ifn" id="75snaehyJU6" role="3EZMnx">
+          <property role="3F0ifm" value="It describes" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+        </node>
+        <node concept="3F0A7n" id="75snaehyJU7" role="3EZMnx">
+          <property role="1O74Pk" value="true" />
+          <property role="1$x2rV" value="&lt;write description here&gt;" />
+          <ref role="1NtTu8" to="86kt:1R8dC2Fa$w6" resolve="description" />
+          <ref role="1k5W1q" node="6lGg4tB2fqN" resolve="userInputInformal" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="75snaehyJU8" role="3EZMnx">
+        <property role="3F0ifm" value="Press enter to add another synthetic attribute" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        <node concept="pkWqt" id="75snaehyJU9" role="pqm2j">
+          <node concept="3clFbS" id="75snaehyJUa" role="2VODD2">
+            <node concept="3cpWs6" id="75snaehyJUb" role="3cqZAp">
+              <node concept="3eOVzh" id="75snaehyJUc" role="3cqZAk">
+                <node concept="3cmrfG" id="75snaehyJUd" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+                <node concept="2OqwBi" id="75snaehyJUe" role="3uHU7B">
+                  <node concept="2OqwBi" id="75snaehyJUf" role="2Oq$k0">
+                    <node concept="pncrf" id="75snaehyJUg" role="2Oq$k0" />
+                    <node concept="YCak7" id="75snaehyJUh" role="2OqNvi" />
+                  </node>
+                  <node concept="2bSWHS" id="75snaehyJUi" role="2OqNvi" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
