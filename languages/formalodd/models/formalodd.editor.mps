@@ -2902,7 +2902,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="t7PfuOBFzh" role="2OqNvi">
-                    <ref role="37wK5l" to="ljrj:t7PfuOBDKY" resolve="isEntityAttribute" />
+                    <ref role="37wK5l" to="ljrj:1tTL0MknoW1" resolve="isEntityAttribute" />
                   </node>
                 </node>
               </node>
@@ -2931,7 +2931,7 @@
                   </node>
                 </node>
                 <node concept="2qgKlT" id="t7PfuOBGkL" role="2OqNvi">
-                  <ref role="37wK5l" to="ljrj:t7PfuOBDp6" resolve="isNetworkAttribute" />
+                  <ref role="37wK5l" to="ljrj:1tTL0MknoVT" resolve="isNetworkAttribute" />
                 </node>
               </node>
             </node>
