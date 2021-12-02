@@ -821,10 +821,6 @@
           </node>
         </node>
       </node>
-      <node concept="ZOwpH" id="1AQ4FynEEjs" role="25gc1v">
-        <property role="TrG5h" value="abcc" />
-        <node concept="ZOwps" id="1AQ4FynEEjU" role="zGXb3" />
-      </node>
       <node concept="RZfIr" id="3sVTHM$u28i" role="2kDtdp">
         <property role="TrG5h" value="similar-neighbours" />
         <property role="2QSBU6" value="total of similar neighbours" />
@@ -995,9 +991,6 @@
           <property role="21jJI7" value="10" />
           <property role="21jJIY" value="500" />
         </node>
-      </node>
-      <node concept="3Y$5KH" id="1AQ4FynEEjO" role="3Y$b7i">
-        <ref role="3Y$5KI" node="1AQ4FynEEjs" />
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
@@ -1179,9 +1172,6 @@
     </node>
     <node concept="1sMRUJ" id="2OjX34$BRLZ" role="1sMO1Z">
       <ref role="1sMRUI" node="2OjX34$BRLT" resolve="number-of-turtles" />
-    </node>
-    <node concept="1sMRUJ" id="1AQ4FynEEjF" role="1sMO1Z">
-      <ref role="1sMRUI" node="1AQ4FynEEjs" />
     </node>
   </node>
 </model>
