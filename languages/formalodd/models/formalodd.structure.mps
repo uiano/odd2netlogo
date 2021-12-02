@@ -290,6 +290,7 @@
     <property role="EcuMT" value="3840659476812055839" />
     <property role="TrG5h" value="UserDefinedAttribute" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="34LRSv" value="General type attribute" />
     <ref role="1TJDcQ" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
     <node concept="PrWs8" id="64QC5GXZtVn" role="PzmwI">
       <ref role="PrY4T" node="64QC5GXZtS4" resolve="IRationaledConcept" />
@@ -1613,6 +1614,7 @@
     <property role="EcuMT" value="8413181653841938094" />
     <property role="3GE5qa" value="Experiments" />
     <property role="TrG5h" value="Characterization" />
+    <property role="34LRSv" value="Characterization: attribute that characterizes based on other attributes" />
     <ref role="1TJDcQ" node="5nRk$9GwSKk" resolve="LetDefinition" />
   </node>
   <node concept="1TIwiD" id="294onrmenaI">
@@ -2662,8 +2664,8 @@
     <property role="EcuMT" value="6194510257713286164" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="LetDefinition" />
-    <property role="34LRSv" value="define an abbreviation" />
     <property role="R4oN_" value="make a shortcut" />
+    <property role="34LRSv" value="Synthetic attribute: attribute calculated from other attributes" />
     <ref role="1TJDcQ" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
     <node concept="1TJgyj" id="5nRk$9GwSKm" role="1TKVEi">
       <property role="IQ2ns" value="6194510257713286166" />
