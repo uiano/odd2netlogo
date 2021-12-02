@@ -796,7 +796,7 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="userDefinedAttributes" />
       <property role="20lbJX" value="fLJekj5/_0__n" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      <ref role="20lvS9" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
     </node>
   </node>
   <node concept="1TIwiD" id="6dSewhkPe5j">
@@ -1011,7 +1011,7 @@
     <node concept="1TJgyj" id="7MNWMN_RcI6" role="1TKVEi">
       <property role="IQ2ns" value="8985793055694834566" />
       <property role="20kJfa" value="attribute" />
-      <ref role="20lvS9" node="3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+      <ref role="20lvS9" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
     </node>
     <node concept="1TJgyj" id="3sVTHMyZbkX" role="1TKVEi">
       <property role="IQ2ns" value="3980028531013629245" />
@@ -1613,7 +1613,7 @@
     <property role="EcuMT" value="8413181653841938094" />
     <property role="3GE5qa" value="Experiments" />
     <property role="TrG5h" value="Characterization" />
-    <ref role="1TJDcQ" node="4GwBkQO7BI" resolve="LetActivity" />
+    <ref role="1TJDcQ" node="5nRk$9GwSKk" resolve="LetDefinition" />
   </node>
   <node concept="1TIwiD" id="294onrmenaI">
     <property role="EcuMT" value="2469205658733998766" />
@@ -2665,9 +2665,6 @@
     <property role="34LRSv" value="define an abbreviation" />
     <property role="R4oN_" value="make a shortcut" />
     <ref role="1TJDcQ" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
-    <node concept="PrWs8" id="5nRk$9GwSKl" role="PzmwI">
-      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
-    </node>
     <node concept="1TJgyj" id="5nRk$9GwSKm" role="1TKVEi">
       <property role="IQ2ns" value="6194510257713286166" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

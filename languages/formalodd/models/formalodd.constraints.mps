@@ -9,9 +9,9 @@
     <devkit ref="00000000-0000-4000-0000-5604ebd4f22c(jetbrains.mps.devkit.aspect.constraints)" />
   </languages>
   <imports>
-    <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" implicit="true" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
+    <import index="86kt" ref="r:a0cde16a-59bc-4c03-980f-3141a0d99865(formalodd.structure)" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -369,8 +369,8 @@
       <ref role="EomxK" to="86kt:3rTwIuRHR_w" resolve="slideAmount" />
       <node concept="QB0g5" id="6dSewhl8bnK" role="QCWH9">
         <node concept="3clFbS" id="6dSewhl8bnL" role="2VODD2">
-          <node concept="3cpWs6" id="6dSewhl8bsD" role="3cqZAp">
-            <node concept="3clFbT" id="6dSewhl8bsE" role="3cqZAk">
+          <node concept="3cpWs6" id="1AQ4Fynk19H" role="3cqZAp">
+            <node concept="3clFbT" id="1AQ4Fynk1eO" role="3cqZAk">
               <property role="3clFbU" value="true" />
             </node>
           </node>
@@ -791,7 +791,7 @@
     <node concept="1N5Pfh" id="3nK6aP$LaQg" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:5yfUVbuQFWh" resolve="attribute" />
       <node concept="1dDu$B" id="3nK6aP$LaQi" role="1N6uqs">
-        <ref role="1dDu$A" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+        <ref role="1dDu$A" to="86kt:5nRk$9GqLrd" resolve="GeneralAttribute" />
       </node>
     </node>
   </node>

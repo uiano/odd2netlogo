@@ -2325,7 +2325,7 @@
           </node>
         </node>
         <node concept="A1WHr" id="7qp8jK7DEfh" role="3vIgyS">
-          <ref role="2ZyFGn" to="86kt:3lcKR8aBGkv" resolve="UserDefinedAttribute" />
+          <ref role="2ZyFGn" to="86kt:5nRk$9GqLrd" resolve="GeneralAttribute" />
         </node>
         <node concept="3F0ifn" id="7qp8jK7FiRI" role="2czzBI">
           <property role="3F0ifm" value="&lt;press enter to create an attribute&gt;" />
@@ -2861,8 +2861,8 @@
         <node concept="1sVBvm" id="5yfUVbxaNIX" role="1sWHZn">
           <node concept="3F0A7n" id="5yfUVbxaNIZ" role="2wV5jI">
             <property role="1$x2rV" value="enter name" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1k5W1q" node="1wEBp2YqlOp" resolve="nameUse" />
+            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
       </node>
@@ -3878,10 +3878,10 @@
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F1sOY" id="52HbUMTPjhi" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:4GwBkQO7BT" resolve="value" />
+        <ref role="1NtTu8" to="86kt:5nRk$9GwSKm" resolve="value" />
       </node>
       <node concept="3F0ifn" id="3sVTHMzvviT" role="3EZMnx">
-        <property role="3F0ifm" value="." />
+        <property role="3F0ifm" value=" ." />
         <node concept="11L4FC" id="3sVTHMzvviU" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
