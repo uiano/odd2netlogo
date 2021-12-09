@@ -315,7 +315,7 @@
           <node concept="3vwNmj" id="2MUL3ZtGhek" role="3cqZAp">
             <node concept="2OqwBi" id="2MUL3ZtGiPo" role="3vwVQn">
               <node concept="37vLTw" id="2MUL3ZtGihF" role="2Oq$k0">
-                <ref role="3cqZAo" node="4GG3jmeKuu0" resolve="generatedFileFolder" />
+                <ref role="3cqZAo" node="4GG3jmeKuu0" resolve="generatedFilesFolder" />
               </node>
               <node concept="liA8E" id="2MUL3ZtGjo$" role="2OqNvi">
                 <ref role="37wK5l" to="guwi:~File.exists()" resolve="exists" />
@@ -345,7 +345,7 @@
                         <property role="2bfB8j" value="true" />
                         <property role="373rjd" value="true" />
                         <ref role="1Y3XeK" to="82uw:~Predicate" resolve="Predicate" />
-                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                        <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                         <node concept="3Tm1VV" id="2MUL3ZtHJPt" role="1B3o_S" />
                         <node concept="3clFb_" id="2MUL3ZtHJPF" role="jymVt">
                           <property role="TrG5h" value="test" />
@@ -378,7 +378,7 @@
                             </node>
                           </node>
                           <node concept="2AHcQZ" id="2MUL3ZtHJPN" role="2AJF6D">
-                            <ref role="2AI5Lk" to="wyt6:~Override" />
+                            <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                           </node>
                         </node>
                         <node concept="3uibUv" id="2MUL3ZtHJPV" role="2Ghqu4">
@@ -397,7 +397,7 @@
                       <property role="2bfB8j" value="true" />
                       <property role="373rjd" value="true" />
                       <ref role="1Y3XeK" to="82uw:~Consumer" resolve="Consumer" />
-                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" />
+                      <ref role="37wK5l" to="wyt6:~Object.&lt;init&gt;()" resolve="Object" />
                       <node concept="3Tm1VV" id="2MUL3ZtHq6H" role="1B3o_S" />
                       <node concept="3clFb_" id="2MUL3ZtHq6V" role="jymVt">
                         <property role="TrG5h" value="accept" />
@@ -417,7 +417,7 @@
                               <node concept="2OqwBi" id="2MUL3ZtKp4I" role="33vP2m">
                                 <node concept="2OqwBi" id="2MUL3ZtKmXI" role="2Oq$k0">
                                   <node concept="37vLTw" id="2MUL3ZtKlsD" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="2MUL3ZtHq6Z" resolve="nlogoFile" />
+                                    <ref role="3cqZAo" node="2MUL3ZtHq6Z" resolve="nlogoPath" />
                                   </node>
                                   <node concept="liA8E" id="2MUL3ZtKo73" role="2OqNvi">
                                     <ref role="37wK5l" to="eoo2:~Path.toString()" resolve="toString" />
@@ -464,7 +464,7 @@
                               </node>
                               <node concept="2OqwBi" id="2MUL3ZtLyla" role="33vP2m">
                                 <node concept="37vLTw" id="2MUL3ZtLxi$" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="2MUL3ZtHq6Z" resolve="nlogoFile" />
+                                  <ref role="3cqZAo" node="2MUL3ZtHq6Z" resolve="nlogoPath" />
                                 </node>
                                 <node concept="liA8E" id="2MUL3ZtLztv" role="2OqNvi">
                                   <ref role="37wK5l" to="eoo2:~Path.toFile()" resolve="toFile" />
@@ -770,7 +770,7 @@
                           </node>
                         </node>
                         <node concept="2AHcQZ" id="2MUL3ZtHq73" role="2AJF6D">
-                          <ref role="2AI5Lk" to="wyt6:~Override" />
+                          <ref role="2AI5Lk" to="wyt6:~Override" resolve="Override" />
                         </node>
                       </node>
                       <node concept="3uibUv" id="2MUL3ZtHq7b" role="2Ghqu4">

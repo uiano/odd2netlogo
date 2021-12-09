@@ -1737,6 +1737,7 @@
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
         </node>
         <node concept="3F0A7n" id="5yfUVburW9M" role="3EZMnx">
+          <property role="1$x2rV" value="&lt;press ctrl space to select entity&gt;" />
           <ref role="1NtTu8" to="86kt:5yfUVburW7V" resolve="killWho" />
         </node>
       </node>
@@ -1864,6 +1865,30 @@
             <node concept="27yT$n" id="31ZFDPS0nqd" role="3F10Kt">
               <property role="3$6WeP" value="10" />
               <property role="2hoDZC" value="hQhnRQp/PIXELS" />
+            </node>
+          </node>
+          <node concept="3F0ifn" id="6JHeav5_1wQ" role="3EZMnx">
+            <property role="3F0ifm" value="Press enter to add another step to the schedule" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+            <node concept="pkWqt" id="6JHeav5_1wX" role="pqm2j">
+              <node concept="3clFbS" id="6JHeav5_1wY" role="2VODD2">
+                <node concept="3cpWs6" id="6JHeav5_1wZ" role="3cqZAp">
+                  <node concept="3eOSWO" id="6JHeav5_70$" role="3cqZAk">
+                    <node concept="2OqwBi" id="6JHeav5_4yv" role="3uHU7B">
+                      <node concept="2OqwBi" id="6JHeav5_1x3" role="2Oq$k0">
+                        <node concept="pncrf" id="6JHeav5_1x4" role="2Oq$k0" />
+                        <node concept="3Tsc0h" id="6JHeav5_2av" role="2OqNvi">
+                          <ref role="3TtcxE" to="86kt:6ow5Ifz8iur" resolve="schedule" />
+                        </node>
+                      </node>
+                      <node concept="34oBXx" id="6JHeav5_6Ss" role="2OqNvi" />
+                    </node>
+                    <node concept="3cmrfG" id="6JHeav5_1x1" role="3uHU7w">
+                      <property role="3cmrfH" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -2331,6 +2356,35 @@
           <property role="3F0ifm" value="&lt;press enter to create an attribute&gt;" />
           <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
+      </node>
+      <node concept="3F0ifn" id="6JHeav5$UhW" role="3EZMnx">
+        <property role="3F0ifm" value="Press enter to add another attribute" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        <node concept="pkWqt" id="6JHeav5$Uxv" role="pqm2j">
+          <node concept="3clFbS" id="6JHeav5$Uxw" role="2VODD2">
+            <node concept="3cpWs6" id="6JHeav5$Uxx" role="3cqZAp">
+              <node concept="3eOSWO" id="6JHeav5_1bC" role="3cqZAk">
+                <node concept="2OqwBi" id="6JHeav5$Yiw" role="3uHU7B">
+                  <node concept="2OqwBi" id="6JHeav5$Ux_" role="2Oq$k0">
+                    <node concept="pncrf" id="6JHeav5$UxA" role="2Oq$k0" />
+                    <node concept="3Tsc0h" id="6JHeav5$Vel" role="2OqNvi">
+                      <ref role="3TtcxE" to="86kt:39v_dEyHj7z" resolve="userDefinedAttributes" />
+                    </node>
+                  </node>
+                  <node concept="34oBXx" id="6JHeav5_13q" role="2OqNvi" />
+                </node>
+                <node concept="3cmrfG" id="6JHeav5$Uxz" role="3uHU7w">
+                  <property role="3cmrfH" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="6JHeav5_1dx" role="3EZMnx" />
+      <node concept="3F0ifn" id="6JHeav5_1fP" role="3EZMnx">
+        <property role="3F0ifm" value="Press enter to add another network" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
       </node>
     </node>
   </node>
@@ -5711,6 +5765,7 @@
         <node concept="Vb9p2" id="3MYUuMaJg0N" role="3F10Kt" />
       </node>
       <node concept="3F1sOY" id="7R1$VTKsnkE" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;type amount of pixels&gt;" />
         <ref role="1NtTu8" to="86kt:7R1$VTKsnjZ" resolve="distance" />
       </node>
       <node concept="3F0ifn" id="6o6DKlXk0yc" role="3EZMnx">
