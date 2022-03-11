@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
-		<item value="C:\Users\themisdx\eclipse-workspace\odd2abm_3"/>
-		<item value="C:\Users\themisdx\eclipse-workspace\odd2abm_2 - Copy"/>
-	</list>
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.emf.codegen.ecore.ui.EmptyProjectWizard"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
-		</list>
-	</section>
-	<section name="BasicNewProjectResourceWizard">
-	</section>
-	<section name="ChooseWorkspaceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="657"/>
-		<item key="DIALOG_Y_ORIGIN" value="318"/>
-	</section>
-	<section name="WORKBENCH_SETTINGS">
-		<list key="ENABLED_TRANSFERS">
-		</list>
-	</section>
-	<section name="ExternalProjectImportWizard">
-		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
-		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="true"/>
-		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
-		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
-		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state-ODD + Experiments\odd2abm_2_ODD+Experiments"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd ideal state Expressions\odd2abm_2_Expressions"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd_ideal_state - Processes\odd2abm_2_Processes"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd_ideal_state - Processes\Activities"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd ideal state Expressions\SelectExpression"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd ideal state Expressions\expressions_Init"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd ideal state Expressions\Expressions_Boolean"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd ideal state Expressions\ExpressionAccessPart"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\odd ideal state Expressions\Condition"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state-ODD + Experiments\Rationales"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state-ODD + Experiments\Experiments_current_state"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state-ODD + Experiments\DesignConcepts"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state-ODD + Experiments\all"/>
-		</list>
-		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
-			<item value=""/>
-		</list>
-	</section>
 	<section name="SmartImportWizard">
-		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="false"/>
-		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\ODD without init"/>
+			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\DesignConcepts"/>
 			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\ODD"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state- Entities +Init\test"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state- Entities +Init\Procedures"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state- Entities +Init\odd2abm_3"/>
-			<item value="C:\Users\themisdx\Desktop\Workspace unification\unified workspaces\current state-ODD + Experiments\odd2abm_3"/>
+			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\BasefileEntities+Init"/>
+			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\Activities"/>
+			<item value="C:\Users\andreasp\MPSProjects\odd2netlogo\Documentation\Unifiedworkspaces\all"/>
 		</list>
 	</section>
 </section>

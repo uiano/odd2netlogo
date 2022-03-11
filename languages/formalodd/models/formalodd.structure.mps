@@ -965,7 +965,7 @@
     <property role="TrG5h" value="TODO_EntityBaseAttributes" />
     <node concept="25R33" id="2kHWdXWIfC0" role="25R1y">
       <property role="3tVfz5" value="2679062196016183808" />
-      <property role="TrG5h" value="color" />
+      <property role="TrG5h" value="colour" />
       <property role="1L1pqM" value="color" />
     </node>
     <node concept="25R33" id="2kHWdXWIfC1" role="25R1y">

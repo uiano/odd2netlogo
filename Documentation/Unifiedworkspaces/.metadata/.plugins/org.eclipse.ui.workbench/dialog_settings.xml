@@ -1,38 +1,3 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="1854"/>
-		<item key="DIALOG_Y_ORIGIN" value="340"/>
-	</section>
-	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item key="dialogHeight" value="-1"/>
-		<item key="dialogWidth" value="-1"/>
-		<list key="orderedElements">
-		</list>
-		<list key="orderedProviders">
-		</list>
-		<list key="textEntries">
-		</list>
-		<list key="textArray">
-		</list>
-	</section>
-	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.ecoretools.emf.design.wizardID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.emf.codegen.ecore.ui.wizardCategory"/>
-		</list>
-	</section>
-	<section name="InstallationDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="-878"/>
-		<item key="DIALOG_Y_ORIGIN" value="-429"/>
-		<item key="DIALOG_WIDTH" value="2040"/>
-		<item key="DIALOG_HEIGHT" value="1560"/>
-		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-18|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
-	</section>
-	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
-		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
-			<item value="org.eclipse.ui.Basic"/>
-		</list>
-	</section>
 </section>
