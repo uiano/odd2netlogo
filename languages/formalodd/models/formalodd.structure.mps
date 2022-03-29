@@ -295,9 +295,6 @@
     <node concept="PrWs8" id="64QC5GXZtVn" role="PzmwI">
       <ref role="PrY4T" node="64QC5GXZtS4" resolve="IRationaledConcept" />
     </node>
-    <node concept="PrWs8" id="3sVTHMzls9m" role="PzmwI">
-      <ref role="PrY4T" node="1R8dC2Fa$w3" resolve="IDescribedConcept" />
-    </node>
     <node concept="1TJgyj" id="4GvH3PCF6rY" role="1TKVEi">
       <property role="IQ2ns" value="5413243452964759294" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />

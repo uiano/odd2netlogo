@@ -2,15 +2,15 @@
 <ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="ODD" nsURI="http://www.example.org/ODD" nsPrefix="ODD">
   <eClassifiers xsi:type="ecore:EClass" name="Action" eSuperTypes="#//Code">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="actor" lowerBound="1" upperBound="1"
-        eType="#//EntityReference" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="actor" lowerBound="1" eType="#//EntityReference"
+        containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="activities" upperBound="-1"
         eType="#//Activity" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ActionCall" eSuperTypes="#//Activity">
     <eStructuralFeatures xsi:type="ecore:EReference" name="actuals" upperBound="-1"
         eType="#//Actual" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="called" lowerBound="1" upperBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="called" lowerBound="1"
         eType="#//Action"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Activity" abstract="true"/>
@@ -33,9 +33,9 @@
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AssignAttribute" eSuperTypes="#//Activity">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" lowerBound="1" upperBound="1" eType="#//AttributeAccess"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="lhs" lowerBound="1" eType="#//AttributeAccess"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" lowerBound="1" upperBound="1" eType="#//Expression"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="rhs" lowerBound="1" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="AttributeAccess" eSuperTypes="#//Expression">
@@ -81,12 +81,13 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Code" abstract="true" eSuperTypes="#//IDescribedConcept #//IRationaledConcept"/>
   <eClassifiers xsi:type="ecore:EClass" name="CodeReference">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="myCode" lowerBound="1" eType="#//Code"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="myCode" lowerBound="1"
+        eType="#//Code"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Collect" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" eType="#//CollectionKind"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1"
-        eType="#//Expression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1" eType="#//Expression"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Collection" abstract="true" eSuperTypes="#//Type"/>
   <eClassifiers xsi:type="ecore:EEnum" name="CollectionKind">
@@ -163,12 +164,15 @@
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CountAllEntities" eSuperTypes="#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="criteria" eType="#//Comparison" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="what" lowerBound="1" eType="#//SelectExpression" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="criteria" eType="#//Comparison"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="what" lowerBound="1" eType="#//SelectExpression"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CountEntities" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="where" eType="#//CountLocation"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="countCondition" eType="#//ConditionWith" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="countCondition" eType="#//ConditionWith"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="CountLocation">
     <eLiterals name="all"/>
@@ -235,7 +239,7 @@
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Empty" eSuperTypes="#//Expression"/>
-  <eClassifiers xsi:type="ecore:EClass" name="EndCondition" eSuperTypes="#//Condition" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="EndCondition" abstract="true" eSuperTypes="#//Condition"/>
   <eClassifiers xsi:type="ecore:EClass" name="EntitiesStateVariablesAndScales">
     <eStructuralFeatures xsi:type="ecore:EReference" name="modelParameters" upperBound="-1"
         eType="#//GeneralAttribute" containment="true"/>
@@ -251,22 +255,22 @@
         eType="#//Network" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="syntheticAttributes" upperBound="-1"
         eType="#//LetActivity" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="syntheticModelAttributes" upperBound="-1"
-        eType="#//LetActivity" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="syntheticModelAttributes"
+        upperBound="-1" eType="#//LetActivity" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="rationale" eType="#//Rationale"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="scales" eType="#//InformalWithRationale"
         containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="attributesInit" upperBound="-1" eType="#//AttributeInit"
-        containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="entitiesInit" upperBound="-1" eType="#//EntityReference"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="attributesInit" upperBound="-1"
+        eType="#//AttributeInit" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entitiesInit" upperBound="-1"
+        eType="#//EntityReference" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="attributesStochasticity"
         upperBound="-1" eType="#//AttributeAccess" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Entity" eSuperTypes="#//GeneralEntity">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="userDefinedAttributes" upperBound="-1"
-        eType="#//GeneralAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userDefinedAttributes"
+        upperBound="-1" eType="#//GeneralAttribute" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="colour" eType="#//ColourConstant"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="shape" lowerBound="1" eType="#//Shape"
@@ -279,8 +283,8 @@
         eType="#//AttributeInit" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EntityAccess" eSuperTypes="#//SelectExpression">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="entity"
-        eType="#//EntityReference" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//EntityReference"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="EntityBaseAttributes">
     <eLiterals name="colour"/>
@@ -311,8 +315,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="ExperimentDefinition" eSuperTypes="#//INamedConceptODD">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="repetitions" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Int"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="simulationEnd" upperBound="-1" eType="#//EndCondition"
-        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="simulationEnd" upperBound="-1"
+        eType="#//EndCondition" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="experimentWorld" eType="#//GraphicsWindow"
         containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="experimentValues" upperBound="-1"
@@ -328,7 +332,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="experiments" upperBound="-1"
         eType="#//ExperimentDefinition" containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Expression" eSuperTypes="#//Actual" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Expression" abstract="true" eSuperTypes="#//Actual"/>
   <eClassifiers xsi:type="ecore:EClass" name="False" eSuperTypes="#//Expression"/>
   <eClassifiers xsi:type="ecore:EClass" name="FilterIndex" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EReference" name="filterCondition" lowerBound="1"
@@ -344,7 +348,7 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="who" eType="#//SpecialEntities"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="activities" lowerBound="1"
         upperBound="-1" eType="#//Activity" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="collection" upperBound="1" eType="#//Expression"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="collection" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Function" eSuperTypes="#//Code">
@@ -352,7 +356,7 @@
         upperBound="-1" eType="#//Parameter" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="locals" upperBound="-1"
         eType="#//LetActivity" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="result" lowerBound="1" upperBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="result" lowerBound="1"
         eType="#//Expression" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="FunctionCall" eSuperTypes="#//Expression">
@@ -406,7 +410,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="InitialEntityDistribution" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="Interaction" eSuperTypes="#//Action">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="partner2" lowerBound="1" upperBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="partner2" lowerBound="1"
         eType="#//EntityReference" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="IRationaledConcept" eSuperTypes="#//INamedConceptODD">
@@ -453,13 +457,13 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Move" eSuperTypes="#//Activity">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="dir" eType="#//Direction"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="distance" lowerBound="1" upperBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="distance" lowerBound="1"
         eType="#//Expression" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Network" eSuperTypes="#//GeneralEntity">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="directed" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="userDefinedAttributes" upperBound="-1"
-        eType="#//GeneralAttribute" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="userDefinedAttributes"
+        upperBound="-1" eType="#//GeneralAttribute" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="from" lowerBound="1" eType="#//Entity"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="to" lowerBound="1" eType="#//Entity"/>
   </eClassifiers>
@@ -474,6 +478,8 @@
   <eClassifiers xsi:type="ecore:EClass" name="OccupiedSpot" eSuperTypes="#//Condition"/>
   <eClassifiers xsi:type="ecore:EClass" name="ODD" eSuperTypes="#//IDescribedConcept">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="version" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="modelDescription" lowerBound="1"
+        eType="#//ModelDescription" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="entitiesAndVariables" lowerBound="1"
         eType="#//EntitiesStateVariablesAndScales" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="processAndScheduling" lowerBound="1"
@@ -492,8 +498,8 @@
         eType="#//RationaleReference" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Parameter" eSuperTypes="#//INamedConceptODD">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" upperBound="1"
-        eType="#//EntityReference" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//EntityReference"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Parenthesis" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EReference" name="inner" lowerBound="1" eType="#//Expression"
@@ -544,7 +550,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="stdev" lowerBound="1" eType="#//Expression"
         containment="true"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="RandomNumber" eSuperTypes="#//Expression" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="RandomNumber" abstract="true" eSuperTypes="#//Expression"/>
   <eClassifiers xsi:type="ecore:EClass" name="RandomUniform" eSuperTypes="#//RandomNumber">
     <eStructuralFeatures xsi:type="ecore:EReference" name="from" lowerBound="1" eType="#//Expression"
         containment="true"/>
@@ -581,7 +587,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SamplingMethod" abstract="true"/>
   <eClassifiers xsi:type="ecore:EClass" name="ScaledColour" eSuperTypes="#//ColourConstant">
-    <eStructuralFeatures xsi:type="ecore:EReference" name="scalingValue" lowerBound="1" upperBound="1"
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scalingValue" lowerBound="1"
         eType="#//AttributeAccess" containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="SelectExpression" abstract="true"/>
@@ -599,7 +605,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="SetAttribute" eSuperTypes="#//AssignAttribute"/>
   <eClassifiers xsi:type="ecore:EClass" name="Shape">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="shape" eType="#//ShapeEnumeration"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="size" eType="#//number"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="ShapeEnumeration">
     <eLiterals name="default"/>
@@ -659,7 +665,7 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="True" eSuperTypes="#//Expression"/>
   <eClassifiers xsi:type="ecore:EClass" name="Type" abstract="true"/>
-  <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute" eSuperTypes="#//GeneralAttribute #//IRationaledConcept #//IDescribedConcept">
+  <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute" eSuperTypes="#//GeneralAttribute #//IRationaledConcept">
     <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//Type"
         containment="true"/>
   </eClassifiers>
