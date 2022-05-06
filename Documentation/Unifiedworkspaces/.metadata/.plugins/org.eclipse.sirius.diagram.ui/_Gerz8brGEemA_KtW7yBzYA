@@ -1,6 +1,7 @@
-#Wed Mar 30 11:00:12 CEST 2022
+#Thu May 05 14:59:20 CEST 2022
 rulergrid.rulerunit=1
 print.margin.left=0.5
+viewport.x=0
 rulergrid.gridlinestyle=6
 viewport.y=0
 zoom=1.0

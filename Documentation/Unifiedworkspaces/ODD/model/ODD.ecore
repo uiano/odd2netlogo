@@ -156,13 +156,6 @@
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="baseEntityAttributes" eType="#//EntityBaseAttributes"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="ConditionWithSame" eSuperTypes="#//ConditionWith"/>
-  <eClassifiers xsi:type="ecore:EClass" name="Entities" eSuperTypes="#//Expression">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="where" eType="#//CountLocation"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="countCondition" eType="#//ConditionWith"
-        containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionwith" eType="#//ConditionWith"
-        containment="true"/>
-  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="CountAllEntities" eSuperTypes="#//Expression">
     <eStructuralFeatures xsi:type="ecore:EReference" name="criteria" eType="#//Comparison"
         containment="true"/>
@@ -240,6 +233,13 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Empty" eSuperTypes="#//Expression"/>
   <eClassifiers xsi:type="ecore:EClass" name="EndCondition" abstract="true" eSuperTypes="#//Condition"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Entities" eSuperTypes="#//Expression">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="where" eType="#//CountLocation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="countCondition" eType="#//ConditionWith"
+        containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="conditionwith" eType="#//ConditionWith"
+        containment="true"/>
+  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="EntitiesStateVariablesAndScales">
     <eStructuralFeatures xsi:type="ecore:EReference" name="modelParameters" upperBound="-1"
         eType="#//GeneralAttribute" containment="true"/>
@@ -367,11 +367,6 @@
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GeneralAttribute" abstract="true" eSuperTypes="#//IDescribedConcept"/>
   <eClassifiers xsi:type="ecore:EClass" name="GeneralEntity" abstract="true" eSuperTypes="#//IDescribedConcept"/>
-  <eClassifiers xsi:type="ecore:EClass" name="GlobalVariables">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="min" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="max" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="startvalue" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"/>
-  </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="GraphicsWindow">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="wrapHorizontal" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="wrapVertical" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//Boolean"/>
@@ -534,7 +529,7 @@
     <eStructuralFeatures xsi:type="ecore:EReference" name="entity" eType="#//GeneralEntity"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="QuantifiedConditionWithComparison" eSuperTypes="#//QuantifiedCondition">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="comp" eType="#//Comparison"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="comp" eType="#//Comparison" containment="true"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="attribute" eType="#//GeneralAttribute"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="Quantifier">
@@ -668,10 +663,6 @@
   <eClassifiers xsi:type="ecore:EClass" name="UserDefinedAttribute" eSuperTypes="#//GeneralAttribute #//IRationaledConcept">
     <eStructuralFeatures xsi:type="ecore:EReference" name="type" lowerBound="1" eType="#//Type"
         containment="true"/>
-  </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="UserComment">
-    <eStructuralFeatures xsi:type="ecore:EAttribute" name="text" eType="ecore:EDataType http://www.eclipse.org/emf/2003/XMLType#//String"
-        iD="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EEnum" name="Where">
     <eLiterals name="sameSpot"/>
