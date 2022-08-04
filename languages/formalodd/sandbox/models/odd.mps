@@ -93,7 +93,6 @@
         <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
         <child id="4851181497927696060" name="cloneValues" index="3BJUly" />
       </concept>
-      <concept id="84585932959116711" name="formalodd.structure.EntityReference" flags="ng" index="QamZi" />
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
@@ -213,11 +212,6 @@
       <property role="XAmFg" value="test" />
     </node>
     <node concept="ZOwpU" id="qdXC$xpL8y" role="3$p12O">
-      <node concept="QamZi" id="6WV5VvHCP5D" role="2zXruJ" />
-      <node concept="QamZi" id="6WV5VvHCP5t" role="2zXruJ" />
-      <node concept="QamZi" id="6WV5VvHz$YY" role="2zXruJ" />
-      <node concept="QamZi" id="6WV5VvHyCiS" role="2zXruJ" />
-      <node concept="QamZi" id="6WV5VvHvTHB" role="2zXruJ" />
       <node concept="1wg3SR" id="64QC5GXDXV5" role="1w1JPE">
         <property role="TrG5h" value="nnn" />
         <ref role="1w1JhF" node="qdXC$xsGMq" resolve="frog" />
