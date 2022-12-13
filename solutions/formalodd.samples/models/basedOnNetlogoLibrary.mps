@@ -55,7 +55,6 @@
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
         <child id="8985793055732069090" name="experiments" index="2kDK7e" />
-        <child id="8985793055732069085" name="dataCollection" index="2kDK7L" />
         <child id="8985793055732069087" name="defaultWorld" index="2kDK7N" />
         <child id="7590269384188621678" name="dataPresentation" index="1jgZU$" />
       </concept>
@@ -212,7 +211,9 @@
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
         <property id="8413181653841938141" name="repetitions" index="3gParY" />
         <property id="3905853525462002971" name="description" index="1JUGKd" />
+        <child id="1649964688024323495" name="dataCollection" index="17hhY3" />
         <child id="8413181653841938167" name="simulationEnd" index="3gPark" />
+        <child id="1784406337016390567" name="experimentWorld" index="3$4xYW" />
         <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
       </concept>
       <concept id="8413181653841938188" name="formalodd.structure.RangeSampling" flags="ng" index="3gPasJ">
@@ -703,6 +704,27 @@
             <property role="2oK_Ap" value="1000" />
           </node>
         </node>
+        <node concept="3gPapU" id="1r_QyhhHrnq" role="17hhY3">
+          <property role="3Dtwvp" value="0" />
+          <node concept="312R9S" id="1r_QyhhHrnr" role="312R8C">
+            <property role="312R9U" value="sheeps" />
+            <property role="312R9V" value="39v_dEywMST/Count" />
+          </node>
+          <node concept="312R9S" id="1r_QyhhHrns" role="312R8C">
+            <property role="312R9U" value="[ grass-amount ] of patches" />
+            <property role="312R9V" value="39v_dEywMSP/Sum" />
+          </node>
+          <node concept="312R9S" id="1r_QyhhHrnt" role="312R8C">
+            <property role="312R9U" value="wolfs" />
+            <property role="312R9V" value="39v_dEywMST/Count" />
+          </node>
+        </node>
+        <node concept="1g3uKF" id="1r_QyhhHrny" role="3$4xYW">
+          <property role="1jzKJm" value="17" />
+          <property role="1jzt_n" value="13" />
+          <property role="1jlS1c" value="true" />
+          <property role="1jlS1m" value="true" />
+        </node>
       </node>
       <node concept="1jsyQY" id="6lHtNhoC3Y6" role="1jgZU$">
         <property role="1jsyQZ" value="sheep" />
@@ -727,21 +749,6 @@
         <property role="1jzt_n" value="13" />
         <property role="1jlS1c" value="true" />
         <property role="1jlS1m" value="true" />
-      </node>
-      <node concept="3gPapU" id="285h6zCr_AI" role="2kDK7L">
-        <property role="3Dtwvp" value="0" />
-        <node concept="312R9S" id="6mCZXi$FL2h" role="312R8C">
-          <property role="312R9U" value="sheeps" />
-          <property role="312R9V" value="39v_dEywMST/Count" />
-        </node>
-        <node concept="312R9S" id="6mCZXi$FL2j" role="312R8C">
-          <property role="312R9U" value="[ grass-amount ] of patches" />
-          <property role="312R9V" value="39v_dEywMSP/Sum" />
-        </node>
-        <node concept="312R9S" id="6mCZXi$FL2m" role="312R8C">
-          <property role="312R9U" value="wolfs" />
-          <property role="312R9V" value="39v_dEywMST/Count" />
-        </node>
       </node>
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ1t3" role="1sMO1Z">

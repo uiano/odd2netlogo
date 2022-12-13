@@ -1092,12 +1092,6 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="6_m3sCU921O" resolve="TODO_PresentationItem" />
     </node>
-    <node concept="1TJgyj" id="7MNWMNC5fbt" role="1TKVEi">
-      <property role="IQ2ns" value="8985793055732069085" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="dataCollection" />
-      <ref role="20lvS9" node="7j1C2e$5gpp" resolve="TODO_DataCollection" />
-    </node>
     <node concept="1TJgyj" id="7MNWMNC5fbv" role="1TKVEi">
       <property role="IQ2ns" value="8985793055732069087" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
@@ -1562,6 +1556,12 @@
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="experimentWorld" />
       <ref role="20lvS9" node="3mweh__FtkM" resolve="GraphicsWindow" />
+    </node>
+    <node concept="1TJgyj" id="1r_QyhhCcmB" role="1TKVEi">
+      <property role="IQ2ns" value="1649964688024323495" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="dataCollection" />
+      <ref role="20lvS9" node="7j1C2e$5gpp" resolve="TODO_DataCollection" />
     </node>
     <node concept="PrWs8" id="4_ZgD2xKDtS" role="PzmwI">
       <ref role="PrY4T" node="4_ZgD2xxlg3" resolve="INamedConceptODD" />

@@ -650,71 +650,6 @@
             <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
           </node>
         </node>
-        <node concept="3EZMnI" id="4t_JRX$tw$F" role="3EZMnx">
-          <property role="S$Qs1" value="true" />
-          <property role="3EXrWe" value="true" />
-          <node concept="3F0ifn" id="7y2oNvtzZB" role="3EZMnx">
-            <property role="3F0ifm" value="Details: Manual Experiments AKA Initialization" />
-            <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
-          </node>
-          <node concept="3EZMnI" id="31ZFDPSj11_" role="3EZMnx">
-            <node concept="3F1sOY" id="64QC5GX0Fy1" role="3EZMnx">
-              <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
-              <node concept="2w$q5c" id="64QC5GX0Fyk" role="3xwHhi">
-                <node concept="2aJ2om" id="64QC5GX0Fyl" role="2w$qW5">
-                  <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
-                </node>
-              </node>
-            </node>
-            <node concept="3F0ifn" id="31ZFDPSj133" role="3EZMnx">
-              <property role="3F0ifm" value="Appearance" />
-              <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
-            </node>
-            <node concept="1iCGBv" id="31ZFDPSj134" role="3EZMnx">
-              <ref role="1NtTu8" to="86kt:7MNWMNC5fbA" resolve="experiments" />
-              <node concept="1sVBvm" id="31ZFDPSj135" role="1sWHZn">
-                <node concept="3F1sOY" id="31ZFDPSj136" role="2wV5jI">
-                  <ref role="1NtTu8" to="86kt:7MNWMNC5fbv" resolve="defaultWorld" />
-                </node>
-              </node>
-            </node>
-            <node concept="3F0ifn" id="31ZFDPSj137" role="3EZMnx">
-              <property role="3F0ifm" value="Simulation end" />
-              <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
-            </node>
-            <node concept="3EZMnI" id="31ZFDPSj138" role="3EZMnx">
-              <node concept="VPM3Z" id="31ZFDPSj139" role="3F10Kt" />
-              <node concept="3F0ifn" id="31ZFDPSj13a" role="3EZMnx">
-                <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
-                <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
-              </node>
-              <node concept="2iRfu4" id="31ZFDPSj13b" role="2iSdaV" />
-            </node>
-            <node concept="1iCGBv" id="31ZFDPSj13c" role="3EZMnx">
-              <ref role="1NtTu8" to="86kt:5EtG2rPwnoa" resolve="processAndScheduling" />
-              <node concept="1sVBvm" id="31ZFDPSj13d" role="1sWHZn">
-                <node concept="3F2HdR" id="31ZFDPSj13e" role="2wV5jI">
-                  <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
-                  <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endConditions" />
-                  <node concept="3F0ifn" id="31ZFDPSj13f" role="2czzBI">
-                    <property role="3F0ifm" value="press enter to add end condition" />
-                    <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
-                  </node>
-                  <node concept="2iRkQZ" id="31ZFDPSj13g" role="2czzBx" />
-                </node>
-              </node>
-            </node>
-            <node concept="2iRkQZ" id="31ZFDPSj11C" role="2iSdaV" />
-            <node concept="VPXOz" id="31ZFDPSj15j" role="3F10Kt">
-              <property role="VOm3f" value="true" />
-            </node>
-          </node>
-          <node concept="2iRkQZ" id="4t_JRX$tw$I" role="2iSdaV" />
-          <node concept="3F0ifn" id="4t_JRX$twBR" role="AHCbl">
-            <property role="3F0ifm" value="Details: Manual Experiments AKA Initialization ..." />
-            <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
-          </node>
-        </node>
         <node concept="3EZMnI" id="4t_JRX$twDv" role="3EZMnx">
           <property role="S$Qs1" value="true" />
           <property role="3EXrWe" value="true" />
@@ -764,11 +699,72 @@
             <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
           </node>
         </node>
+        <node concept="3EZMnI" id="4t_JRX$tw$F" role="3EZMnx">
+          <property role="S$Qs1" value="true" />
+          <property role="3EXrWe" value="true" />
+          <node concept="3F0ifn" id="7y2oNvtzZB" role="3EZMnx">
+            <property role="3F0ifm" value="Details: Manual Experiments" />
+            <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
+          </node>
+          <node concept="3EZMnI" id="31ZFDPSj11_" role="3EZMnx">
+            <node concept="3F1sOY" id="64QC5GX0Fy1" role="3EZMnx">
+              <ref role="1NtTu8" to="86kt:6AuNKydYHYW" resolve="entitiesAndVariables" />
+              <node concept="2w$q5c" id="64QC5GX0Fyk" role="3xwHhi">
+                <node concept="2aJ2om" id="64QC5GX0Fyl" role="2w$qW5">
+                  <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
+                </node>
+              </node>
+            </node>
+            <node concept="3F1sOY" id="1r_Qyhhor6G" role="3EZMnx">
+              <ref role="1NtTu8" to="86kt:7MNWMNC5fbA" resolve="experiments" />
+              <node concept="2w$q5c" id="1r_Qyhhor74" role="3xwHhi">
+                <node concept="2aJ2om" id="1r_Qyhhor75" role="2w$qW5">
+                  <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
+                </node>
+              </node>
+            </node>
+            <node concept="3F0ifn" id="31ZFDPSj137" role="3EZMnx">
+              <property role="3F0ifm" value="Simulation end" />
+              <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+            </node>
+            <node concept="3EZMnI" id="31ZFDPSj138" role="3EZMnx">
+              <node concept="VPM3Z" id="31ZFDPSj139" role="3F10Kt" />
+              <node concept="3F0ifn" id="31ZFDPSj13a" role="3EZMnx">
+                <property role="3F0ifm" value="Any of the following conditions end the simulation:" />
+                <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+              </node>
+              <node concept="2iRfu4" id="31ZFDPSj13b" role="2iSdaV" />
+            </node>
+            <node concept="1iCGBv" id="31ZFDPSj13c" role="3EZMnx">
+              <ref role="1NtTu8" to="86kt:5EtG2rPwnoa" resolve="processAndScheduling" />
+              <node concept="1sVBvm" id="31ZFDPSj13d" role="1sWHZn">
+                <node concept="3F2HdR" id="31ZFDPSj13e" role="2wV5jI">
+                  <ref role="1NtTu8" to="86kt:6lHESjKDb9p" resolve="endConditions" />
+                  <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+                  <node concept="3F0ifn" id="31ZFDPSj13f" role="2czzBI">
+                    <property role="3F0ifm" value="press enter to add end condition" />
+                    <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+                  </node>
+                  <node concept="2iRkQZ" id="31ZFDPSj13g" role="2czzBx" />
+                </node>
+              </node>
+            </node>
+            <node concept="2iRkQZ" id="31ZFDPSj11C" role="2iSdaV" />
+            <node concept="VPXOz" id="31ZFDPSj15j" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="2iRkQZ" id="4t_JRX$tw$I" role="2iSdaV" />
+          <node concept="3F0ifn" id="4t_JRX$twBR" role="AHCbl">
+            <property role="3F0ifm" value="Details: Manual Experiments ..." />
+            <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
+          </node>
+        </node>
         <node concept="3EZMnI" id="4t_JRX$twR9" role="3EZMnx">
           <property role="S$Qs1" value="true" />
           <property role="3EXrWe" value="true" />
           <node concept="3F0ifn" id="7MNWMNC7e2H" role="3EZMnx">
-            <property role="3F0ifm" value="Experiments" />
+            <property role="3F0ifm" value="Details: Automatic Experiments" />
             <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
           </node>
           <node concept="3F1sOY" id="1R8dC2G1FGv" role="3EZMnx">
@@ -784,7 +780,7 @@
           </node>
           <node concept="2iRkQZ" id="4t_JRX$twRc" role="2iSdaV" />
           <node concept="3F0ifn" id="4t_JRX$twWl" role="AHCbl">
-            <property role="3F0ifm" value="Experiments ..." />
+            <property role="3F0ifm" value="Details: Automatic Experiments ..." />
             <ref role="1k5W1q" node="5yfUVbwzCw$" resolve="section" />
           </node>
         </node>
@@ -2661,21 +2657,6 @@
     <node concept="3EZMnI" id="7MNWMNC7dYV" role="2wV5jI">
       <property role="3EXrWe" value="true" />
       <node concept="2iRkQZ" id="5iGq3Fp4fVR" role="2iSdaV" />
-      <node concept="3F0ifn" id="7MNWMNC7dZ4" role="3EZMnx">
-        <property role="3F0ifm" value="Data to be shown in manual experiments" />
-        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
-      </node>
-      <node concept="3F2HdR" id="6_m3sCUcy8$" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6_m3sCU5vdI" resolve="dataPresentation" />
-        <node concept="2iRkQZ" id="6_m3sCUcy8A" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="6_m3sCU5veA" role="3EZMnx">
-        <property role="3F0ifm" value="Data to be collected in experiments" />
-        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
-      </node>
-      <node concept="3F1sOY" id="5iGq3Fp4fVq" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:7MNWMNC5fbt" resolve="dataCollection" />
-      </node>
       <node concept="3F0ifn" id="7MNWMNC7dZm" role="3EZMnx">
         <property role="3F0ifm" value="Experiments" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
@@ -4419,8 +4400,21 @@
               <property role="VOm3f" value="true" />
             </node>
           </node>
+          <node concept="3F0ifn" id="1r_QyhhCcoK" role="3EZMnx">
+            <property role="3F0ifm" value="Data to be collected" />
+            <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
+            <node concept="ljvvj" id="1r_QyhhCcoL" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+          <node concept="3F1sOY" id="1r_QyhhCcoM" role="3EZMnx">
+            <ref role="1NtTu8" to="86kt:1r_QyhhCcmB" resolve="dataCollection" />
+            <node concept="ljvvj" id="1r_QyhhCcoN" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
           <node concept="3F0ifn" id="6iw2eE3ak$X" role="3EZMnx">
-            <property role="3F0ifm" value="Size of the simulated world" />
+            <property role="3F0ifm" value="Appearance" />
             <ref role="1k5W1q" node="7gxBiwsbhVY" resolve="subsubsection" />
             <node concept="ljvvj" id="6iw2eE3akAT" role="3F10Kt">
               <property role="VOm3f" value="true" />
@@ -7537,6 +7531,35 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="1r_Qyhhor5O">
+    <ref role="1XX52x" to="86kt:7MNWMNC5fbs" resolve="Experiments" />
+    <node concept="3EZMnI" id="1r_Qyhhor5P" role="2wV5jI">
+      <property role="3EXrWe" value="true" />
+      <node concept="2iRkQZ" id="1r_Qyhhor5Q" role="2iSdaV" />
+      <node concept="3F0ifn" id="1r_Qyhhor5R" role="3EZMnx">
+        <property role="3F0ifm" value="Visualization of Data in Manual Experiments" />
+        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+      </node>
+      <node concept="3F2HdR" id="1r_Qyhhor5S" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6_m3sCU5vdI" resolve="dataPresentation" />
+        <node concept="2iRkQZ" id="1r_Qyhhor5T" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="1r_QyhhtDxe" role="3EZMnx">
+        <property role="3F0ifm" value="Appearance" />
+        <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
+      </node>
+      <node concept="3F1sOY" id="1r_QyhhtIBa" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:7MNWMNC5fbv" resolve="defaultWorld" />
+      </node>
+      <node concept="3F0ifn" id="1r_Qyhhor67" role="AHCbl">
+        <property role="3F0ifm" value="Press enter to show experiments" />
+        <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+      </node>
+    </node>
+    <node concept="2aJ2om" id="1r_Qyhhor68" role="CpUAK">
+      <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
     </node>
   </node>
 </model>
