@@ -1086,24 +1086,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="I1KRVVSZsY">
-    <property role="3GE5qa" value="Experiments" />
-    <ref role="1M2myG" to="86kt:7j1C2e$5gqI" resolve="Characterization" />
-    <node concept="9S07l" id="I1KRVVSZsZ" role="9Vyp8">
-      <node concept="3clFbS" id="I1KRVVSZt0" role="2VODD2">
-        <node concept="3clFbF" id="I1KRVVSZwU" role="3cqZAp">
-          <node concept="2OqwBi" id="I1KRVVSZIG" role="3clFbG">
-            <node concept="nLn13" id="I1KRVVSZwT" role="2Oq$k0" />
-            <node concept="1mIQ4w" id="I1KRVVSZOE" role="2OqNvi">
-              <node concept="chp4Y" id="I1KRVVT1_e" role="cj9EA">
-                <ref role="cht4Q" to="86kt:3lcKR8aBGk8" resolve="EntitiesStateVariablesAndScales" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="I1KRVWVTPD">
     <property role="3GE5qa" value="Expressions" />
     <ref role="1M2myG" to="86kt:4GwBkQU3Kn" resolve="LetAccess" />
