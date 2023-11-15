@@ -7773,5 +7773,26 @@
       <ref role="2$4xQ3" node="52HbUMUuS4w" resolve="Stochasticity" />
     </node>
   </node>
+  <node concept="24kQdi" id="3iHpfDuW9o1">
+    <property role="3GE5qa" value="Expressions.Condition" />
+    <ref role="1XX52x" to="86kt:3iHpfDuW9nR" resolve="StagnationCondition" />
+    <node concept="3EZMnI" id="3iHpfDuW9o3" role="2wV5jI">
+      <node concept="3EZMnI" id="3iHpfDuW9oa" role="3EZMnx">
+        <node concept="VPM3Z" id="3iHpfDuW9oc" role="3F10Kt" />
+        <node concept="3F0ifn" id="3iHpfDuW9ok" role="3EZMnx">
+          <property role="3F0ifm" value="No entities and environment has change in " />
+        </node>
+        <node concept="3F0A7n" id="3iHpfDuW9oM" role="3EZMnx">
+          <ref role="1NtTu8" to="86kt:3iHpfDuW9nS" resolve="Tick" />
+        </node>
+        <node concept="3F0ifn" id="3iHpfDuW9oQ" role="3EZMnx">
+          <property role="3F0ifm" value="secondes" />
+          <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
+        </node>
+        <node concept="2iRfu4" id="3iHpfDuW9of" role="2iSdaV" />
+      </node>
+      <node concept="2iRkQZ" id="3iHpfDuW9o6" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

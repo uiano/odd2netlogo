@@ -2672,5 +2672,16 @@
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3iHpfDuW9nR">
+    <property role="EcuMT" value="3795801087440623095" />
+    <property role="3GE5qa" value="Expressions.Condition" />
+    <property role="TrG5h" value="StagnationCondition" />
+    <ref role="1TJDcQ" node="1R8dC2EgQxb" resolve="EndCondition" />
+    <node concept="1TJgyi" id="3iHpfDuW9nS" role="1TKVEl">
+      <property role="IQ2nx" value="3795801087440623096" />
+      <property role="TrG5h" value="Tick" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 
