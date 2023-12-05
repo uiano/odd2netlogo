@@ -836,10 +836,10 @@
         <property role="2QSBU6" value="the vote of the patch" />
         <node concept="ZOwps" id="QB$we9y_OV" role="zGXb3" />
       </node>
-      <node concept="ZOwpH" id="QB$we9yA1n" role="1XCrKs">
+      <node concept="ZOwpH" id="3waxyNAo8XX" role="1XCrKs">
         <property role="TrG5h" value="Total" />
-        <property role="2QSBU6" value="the total of votes around a patch" />
-        <node concept="ZOwps" id="QB$we9yA1H" role="zGXb3" />
+        <property role="2QSBU6" value="the total of votes around the patch" />
+        <node concept="ZOwps" id="3waxyNAo8Yl" role="zGXb3" />
       </node>
       <node concept="ZOwrm" id="301qtPhgkAm" role="2kDK73">
         <property role="TrG5h" value="Blue_Patch" />
@@ -876,11 +876,8 @@
           </node>
         </node>
       </node>
-      <node concept="3Y$5KH" id="QB$we9yA1B" role="3Y$b7i">
-        <ref role="3Y$5KI" node="QB$we9yA1n" />
-        <node concept="2oK_Am" id="QB$we9yAtz" role="3Y$5KK">
-          <property role="2oK_Ap" value="0" />
-        </node>
+      <node concept="3Y$5KH" id="3waxyNAo8Yf" role="3Y$b7i">
+        <ref role="3Y$5KI" node="3waxyNAo8XX" />
       </node>
     </node>
     <node concept="2lMhBk" id="24qWCY8d5Y9" role="2J7coG">
@@ -925,7 +922,7 @@
             <node concept="26lliW" id="QB$we9y_YP" role="2OFgHe">
               <ref role="26lliz" node="QB$we9y_OH" resolve="Vote" />
             </node>
-            <node concept="2oK_Am" id="QB$we9y_YS" role="2rWCss">
+            <node concept="2oK_Am" id="3K9SNIPxTqq" role="2rWCss">
               <property role="2oK_Ap" value="1" />
             </node>
           </node>
@@ -966,11 +963,11 @@
           </node>
           <node concept="26hFik" id="QB$we9yAik" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWp/gt" />
-            <node concept="26lliW" id="QB$we9yAiD" role="26hFir">
-              <ref role="26lliz" node="QB$we9yA1n" resolve="Total" />
-            </node>
             <node concept="2oK_Am" id="QB$we9yAiG" role="26hFip">
               <property role="2oK_Ap" value="5" />
+            </node>
+            <node concept="26lliW" id="3waxyNAo8ZA" role="26hFir">
+              <ref role="26lliz" node="3waxyNAo8XX" resolve="Total" />
             </node>
           </node>
           <node concept="8StHo" id="QB$we9yAk$" role="2rRKAh">
@@ -989,7 +986,7 @@
           <node concept="26hFik" id="QB$we9yAlj" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWg/lt" />
             <node concept="26lliW" id="QB$we9yAlK" role="26hFir">
-              <ref role="26lliz" node="QB$we9yA1n" resolve="Total" />
+              <ref role="26lliz" node="3waxyNAo8XX" resolve="Total" />
             </node>
             <node concept="2oK_Am" id="QB$we9yAlN" role="26hFip">
               <property role="2oK_Ap" value="3" />
@@ -1043,7 +1040,7 @@
           <node concept="26hFik" id="QB$we9yAmI" role="2rRKAn">
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="26lliW" id="QB$we9yAnj" role="26hFir">
-              <ref role="26lliz" node="QB$we9yA1n" resolve="Total" />
+              <ref role="26lliz" node="3waxyNAo8XX" resolve="Total" />
             </node>
             <node concept="2oK_Am" id="QB$we9yAnm" role="26hFip">
               <property role="2oK_Ap" value="4" />
@@ -1066,7 +1063,7 @@
         </node>
         <node concept="8StVI" id="QB$we9yAue" role="18tn1X">
           <node concept="26lliW" id="QB$we9yAuf" role="2OFgHe">
-            <ref role="26lliz" node="QB$we9yA1n" resolve="Total" />
+            <ref role="26lliz" node="3waxyNAo8XX" resolve="Total" />
           </node>
           <node concept="2oK_Am" id="QB$we9yAuT" role="2rWCss">
             <property role="2oK_Ap" value="0" />
@@ -1084,7 +1081,7 @@
             <property role="2oK_Ap" value="1" />
           </node>
           <node concept="26lliW" id="t7PfuNXOjt" role="2OFgHe">
-            <ref role="26lliz" node="QB$we9yA1n" resolve="Total" />
+            <ref role="26lliz" node="3waxyNAo8XX" resolve="Total" />
           </node>
         </node>
         <node concept="QcY1Q" id="QB$we9yAsF" role="18tn1Z" />
@@ -1127,14 +1124,14 @@
     <node concept="1sMRUJ" id="QB$we9y_Zz" role="1sMO1Z">
       <ref role="1sMRUI" node="QB$we9y_Zo" resolve="undefined action" />
     </node>
-    <node concept="1sMRUJ" id="QB$we9yA1v" role="1sMO1Z">
-      <ref role="1sMRUI" node="QB$we9yA1n" />
-    </node>
     <node concept="1sMRUJ" id="QB$we9yAhw" role="1sMO1Z">
       <ref role="1sMRUI" node="QB$we9yAgq" resolve="undefined interaction" />
     </node>
     <node concept="1sMRUJ" id="QB$we9yArU" role="1sMO1Z">
       <ref role="1sMRUI" node="QB$we9yAqO" resolve="undefined interaction" />
+    </node>
+    <node concept="1sMRUJ" id="3waxyNAo8Y5" role="1sMO1Z">
+      <ref role="1sMRUI" node="3waxyNAo8XX" />
     </node>
   </node>
   <node concept="ZOwpP" id="35QCLExIhrZ">

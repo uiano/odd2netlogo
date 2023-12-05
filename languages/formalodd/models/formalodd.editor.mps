@@ -1668,7 +1668,7 @@
           </node>
         </node>
         <node concept="3F0ifn" id="2_t31HRC_Vf" role="3EZMnx">
-          <property role="3F0ifm" value="&lt;options for " />
+          <property role="3F0ifm" value="&lt;options for" />
           <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
         </node>
         <node concept="3F0A7n" id="2_t31HRC_W1" role="3EZMnx">
@@ -2203,23 +2203,20 @@
             <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
           </node>
         </node>
-        <node concept="3EZMnI" id="2_t31HRUprq" role="3EZMnx">
-          <node concept="3F0ifn" id="2_t31HRUpxc" role="3EZMnx">
-            <property role="3F0ifm" value="&lt;options for" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
-          </node>
-          <node concept="3F0A7n" id="2_t31HRUpxm" role="3EZMnx">
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
-          </node>
-          <node concept="3F0ifn" id="2_t31HRUpxy" role="3EZMnx">
-            <property role="3F0ifm" value="&gt;" />
-            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
-          </node>
-          <node concept="2iRfu4" id="2_t31HRUprr" role="2iSdaV" />
-          <node concept="18a60v" id="2_t31HRUpqY" role="3EZMnx">
-            <node concept="VPM3Z" id="2_t31HRUpr0" role="3F10Kt" />
-          </node>
+        <node concept="3F0ifn" id="2_t31HRUpxc" role="3EZMnx">
+          <property role="3F0ifm" value="&lt;options for" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
+        <node concept="3F0A7n" id="2_t31HRUpxm" role="3EZMnx">
+          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
+        <node concept="3F0ifn" id="2_t31HRUpxy" role="3EZMnx">
+          <property role="3F0ifm" value="&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
+        <node concept="18a60v" id="2_t31HRUpqY" role="3EZMnx">
+          <node concept="VPM3Z" id="2_t31HRUpr0" role="3F10Kt" />
         </node>
       </node>
       <node concept="VPXOz" id="3oOohpo8qE8" role="3F10Kt">
@@ -2559,17 +2556,25 @@
           <property role="3F0ifm" value="The attribute" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
         </node>
-        <node concept="3F1sOY" id="t7PfuNUIHW" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;use ctrl space to select the attribute to increase&gt;" />
+        <node concept="3F1sOY" id="6e$RuHqnilv" role="3EZMnx">
+          <property role="2ru_X1" value="true" />
           <ref role="1NtTu8" to="86kt:t7PfuNUHYT" resolve="lhs" />
+          <node concept="3F0ifn" id="6e$RuHqnilw" role="2ruayu">
+            <property role="3F0ifm" value="&lt;press ctrl space to select the attribute&gt;" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+          </node>
         </node>
-        <node concept="3F0ifn" id="7MNWMNAzphd" role="3EZMnx">
+        <node concept="3F0ifn" id="6e$RuHqnil$" role="3EZMnx">
           <property role="3F0ifm" value="is incremented by" />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
         </node>
-        <node concept="3F1sOY" id="7MNWMNAG5ho" role="3EZMnx">
-          <property role="1$x2rV" value="&lt;use ctrl space to select increase value&gt;" />
+        <node concept="3F1sOY" id="6e$RuHqnilD" role="3EZMnx">
+          <property role="2ru_X1" value="true" />
           <ref role="1NtTu8" to="86kt:7MNWMNBgngK" resolve="rhs" />
+          <node concept="3F0ifn" id="6e$RuHqnilE" role="2ruayu">
+            <property role="3F0ifm" value="&lt;press ctrl space to select the number type&gt;" />
+            <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+          </node>
         </node>
         <node concept="2iRfu4" id="7MNWMNAzphh" role="2iSdaV" />
       </node>
@@ -3659,20 +3664,36 @@
     <property role="3GE5qa" value="Expressions" />
     <ref role="1XX52x" to="86kt:39v_dEyE91d" resolve="SelectN" />
     <node concept="3EZMnI" id="39v_dEyE91s" role="2wV5jI">
+      <node concept="3F0ifn" id="6e$RuHqb5Mc" role="3EZMnx">
+        <property role="3F0ifm" value="with" />
+      </node>
+      <node concept="3F0A7n" id="6e$RuHqb5MB" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6e$RuHqb5Mx" resolve="partner" />
+      </node>
       <node concept="l2Vlx" id="39v_dEyE91t" role="2iSdaV" />
       <node concept="3F0ifn" id="39v_dEyE91u" role="3EZMnx">
-        <property role="3F0ifm" value="select" />
+        <property role="3F0ifm" value="and select" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
-      <node concept="3F1sOY" id="39v_dEyE91A" role="3EZMnx">
+      <node concept="3F1sOY" id="6e$RuHqb8ip" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="86kt:39v_dEyE91e" resolve="count" />
+        <node concept="3F0ifn" id="6e$RuHqb8iq" role="2ruayu">
+          <property role="3F0ifm" value="&lt;Press ctrl and space to select the number type&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
       </node>
       <node concept="3F0ifn" id="39v_dEyE91D" role="3EZMnx">
         <property role="3F0ifm" value="elements from" />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
-      <node concept="3F1sOY" id="39v_dEyE91G" role="3EZMnx">
+      <node concept="3F1sOY" id="6e$RuHqb8iI" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="86kt:39v_dEyE91f" resolve="argument" />
+        <node concept="3F0ifn" id="6e$RuHqb8iJ" role="2ruayu">
+          <property role="3F0ifm" value="&lt;Press ctrl and space to select the entity&gt;" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6o6DKlWwslz" role="3EZMnx">
         <property role="3F0ifm" value="at" />
@@ -7694,13 +7715,23 @@
       <node concept="3F2HdR" id="1r_Qyhhor5S" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:6_m3sCU5vdI" resolve="dataPresentation" />
         <node concept="2iRkQZ" id="1r_Qyhhor5T" role="2czzBx" />
+        <node concept="3F0ifn" id="6e$RuHqnhHY" role="2czzBI">
+          <property role="3F0ifm" value="Press enter to add data for visualization" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
       </node>
+      <node concept="3F0ifn" id="6e$RuHqnhU8" role="3EZMnx" />
       <node concept="3F0ifn" id="1r_QyhhtDxe" role="3EZMnx">
         <property role="3F0ifm" value="Appearance" />
         <ref role="1k5W1q" node="5yfUVbwKIaY" resolve="subsection" />
       </node>
-      <node concept="3F1sOY" id="1r_QyhhtIBa" role="3EZMnx">
+      <node concept="3F1sOY" id="6e$RuHqnij6" role="3EZMnx">
+        <property role="2ru_X1" value="true" />
         <ref role="1NtTu8" to="86kt:7MNWMNC5fbv" resolve="defaultWorld" />
+        <node concept="3F0ifn" id="6e$RuHqnij7" role="2ruayu">
+          <property role="3F0ifm" value="press enter to add an appearance to your simulation" />
+          <ref role="1k5W1q" node="5yfUVbwzCwc" resolve="toolInstructions" />
+        </node>
       </node>
       <node concept="3F0ifn" id="1r_Qyhhor67" role="AHCbl">
         <property role="3F0ifm" value="Press enter to show experiments" />
@@ -7780,7 +7811,7 @@
       <node concept="3EZMnI" id="3iHpfDuW9oa" role="3EZMnx">
         <node concept="VPM3Z" id="3iHpfDuW9oc" role="3F10Kt" />
         <node concept="3F0ifn" id="3iHpfDuW9ok" role="3EZMnx">
-          <property role="3F0ifm" value="No entities and environment has change in " />
+          <property role="3F0ifm" value="No entities and environment have change in " />
         </node>
         <node concept="3F0A7n" id="3iHpfDuW9oM" role="3EZMnx">
           <ref role="1NtTu8" to="86kt:3iHpfDuW9nS" resolve="Tick" />
