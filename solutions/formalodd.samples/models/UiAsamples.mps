@@ -185,6 +185,7 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
+      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
@@ -1809,6 +1810,13 @@
       </node>
       <node concept="1sOCfq" id="3dcVgfnYOky" role="1sOCcx">
         <ref role="1sOCfp" node="3dcVgfnYOiu" resolve="free-interaction" />
+      </node>
+      <node concept="1Svl6F" id="4iI7UYo8Wze" role="250j5S">
+        <ref role="1Svl6C" node="3dcVgfnYOiu" resolve="free-interaction" />
+        <node concept="2gXKin" id="4iI7UYo8Wzs" role="2QCFRE">
+          <node concept="ZOwqL" id="4iI7UYo8Wzt" role="2gXKik" />
+          <node concept="2QpFD0" id="4iI7UYo8Wzu" role="2gXKil" />
+        </node>
       </node>
     </node>
     <node concept="3Ovhds" id="3dcVgfnYOkz" role="1BQTrk">
