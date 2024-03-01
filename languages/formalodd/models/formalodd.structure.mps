@@ -52,6 +52,7 @@
         <property id="1071599893252" name="sourceCardinality" index="20lbJX" />
         <property id="1071599937831" name="metaClass" index="20lmBu" />
         <property id="241647608299431140" name="linkId" index="IQ2ns" />
+        <reference id="1071599698500" name="specializedLink" index="20ksaX" />
         <reference id="1071599976176" name="target" index="20lvS9" />
       </concept>
     </language>
@@ -481,17 +482,6 @@
       <property role="IQ2nx" value="8766909380355172217" />
       <property role="TrG5h" value="startValue" />
       <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
-    </node>
-  </node>
-  <node concept="1TIwiD" id="6lHESjKCmJ$">
-    <property role="EcuMT" value="7308686357753326564" />
-    <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="TrG5h" value="ConcreteEntityReference" />
-    <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
-    <node concept="1TJgyj" id="5zjJPlga3JE" role="1TKVEi">
-      <property role="IQ2ns" value="6400669868561546218" />
-      <property role="20kJfa" value="generalEntity" />
-      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
     </node>
   </node>
   <node concept="1TIwiD" id="6lHESjKCmJ_">
@@ -1752,6 +1742,11 @@
     <property role="TrG5h" value="EntityReference" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="1yeaf2KeDBP" role="1TKVEi">
+      <property role="IQ2ns" value="1769396717817076213" />
+      <property role="20kJfa" value="entity" />
+      <ref role="20lvS9" node="2gGtP_Va5R4" resolve="GeneralEntity" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3lcKR8aBGkI">
     <property role="EcuMT" value="3840659476812055854" />
@@ -2343,15 +2338,11 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="TrG5h" value="EnvironmentEntityReference" />
     <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
-    <node concept="1TJgyi" id="6o6DKlW0nLO" role="1TKVEl">
-      <property role="IQ2nx" value="7351747083726060660" />
-      <property role="TrG5h" value="where" />
-      <ref role="AX2Wp" node="5AVjrpZ9jP3" resolve="Where" />
-    </node>
     <node concept="1TJgyj" id="6o6DKlW0nLJ" role="1TKVEi">
       <property role="IQ2ns" value="7351747083726060655" />
-      <property role="20kJfa" value="envEntity" />
+      <property role="20kJfa" value="entity" />
       <ref role="20lvS9" node="3lcKR8aBGm$" resolve="EnvironmentEntity" />
+      <ref role="20ksaX" node="1yeaf2KeDBP" resolve="entity" />
     </node>
   </node>
   <node concept="1TIwiD" id="6o6DKlXk0y3">
@@ -2463,12 +2454,14 @@
   <node concept="1TIwiD" id="1i0DDuROwbF">
     <property role="EcuMT" value="1477363848331789035" />
     <property role="3GE5qa" value="EntitiesAndAttributes" />
-    <property role="TrG5h" value="PlainEntityReference" />
+    <property role="TrG5h" value="TurtleEntityReference" />
+    <property role="R4oN_" value="turtle" />
     <ref role="1TJDcQ" node="4GwBkR1uQB" resolve="EntityReference" />
     <node concept="1TJgyj" id="1i0DDuROwbH" role="1TKVEi">
       <property role="IQ2ns" value="1477363848331789037" />
       <property role="20kJfa" value="entity" />
       <ref role="20lvS9" node="3lcKR8aBGke" resolve="Entity" />
+      <ref role="20ksaX" node="1yeaf2KeDBP" resolve="entity" />
     </node>
   </node>
   <node concept="1TIwiD" id="1i0DDuROwbI">
