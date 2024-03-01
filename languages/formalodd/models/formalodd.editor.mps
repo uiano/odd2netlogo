@@ -7166,7 +7166,7 @@
     <node concept="3XHNnq" id="1yeaf2KeDpy" role="3ft7WO">
       <ref role="3XGfJA" to="86kt:6o6DKlW0nLJ" resolve="entity" />
       <node concept="2h3Zct" id="1yeaf2KeDpz" role="1WZ6hz">
-        <property role="2h4Kg1" value="entity reference" />
+        <property role="2h4Kg1" value="environment reference" />
       </node>
     </node>
     <node concept="3VyMlK" id="1yeaf2KeDp6" role="3ft7WO" />
@@ -7180,6 +7180,13 @@
   <node concept="22mcaB" id="I1KRW0QGTg">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="aqKnT" to="86kt:1i0DDuROwbF" resolve="TurtleEntityReference" />
+    <node concept="3XHNnq" id="1yeaf2KPoh5" role="3ft7WO">
+      <ref role="3XGfJA" to="86kt:1i0DDuROwbH" resolve="entity" />
+      <node concept="2h3Zct" id="1yeaf2KPoh6" role="1WZ6hz">
+        <property role="2h4Kg1" value="turtle reference" />
+      </node>
+    </node>
+    <node concept="3VyMlK" id="1yeaf2KPoeB" role="3ft7WO" />
     <node concept="22hDWj" id="I1KRW0QGTh" role="22hAXT" />
   </node>
   <node concept="24kQdi" id="4C0fQ2O$6e7">

@@ -1659,8 +1659,32 @@
   </node>
   <node concept="ZOwpP" id="1yeaf2KAqmw">
     <property role="TrG5h" value="fire2" />
-    <node concept="3Ovhds" id="1yeaf2KAqmx" role="1BQTrk" />
+    <node concept="3Ovhds" id="1yeaf2KAqmx" role="1BQTrk">
+      <node concept="XAmFv" id="1yeaf2KVq40" role="1BQTpC">
+        <property role="XAmFg" value="testing123" />
+      </node>
+      <node concept="XAmFv" id="1yeaf2KVq3Y" role="1BQToi">
+        <property role="XAmFg" value="me" />
+      </node>
+      <node concept="XAmFv" id="1yeaf2KVq3W" role="1BQTog">
+        <property role="XAmFg" value="nothing" />
+      </node>
+    </node>
     <node concept="ZOwpU" id="1yeaf2KAqmy" role="3$p12O">
+      <node concept="ZOwpW" id="1yeaf2KPnsn" role="ZOwpT">
+        <property role="TrG5h" value="cow" />
+        <property role="2QSBU6" value="a single cow" />
+        <node concept="ZOwrR" id="1yeaf2KVq3H" role="3$oDj3">
+          <property role="ZOwrO" value="22rmwLH$Xmq/black" />
+        </node>
+        <node concept="ZOwo7" id="1yeaf2KVq3J" role="ZOwpC">
+          <property role="27hRln" value="5yfUVbvM9Ww/cow" />
+          <property role="27hOD7" value="3" />
+        </node>
+        <node concept="2oK_Am" id="1yeaf2KVq3L" role="RIgNU">
+          <property role="2oK_Ap" value="1" />
+        </node>
+      </node>
       <node concept="ZOwpH" id="1yeaf2KJhXL" role="Qgzvn">
         <property role="TrG5h" value="max-flamme-styrke" />
         <node concept="354mTO" id="1yeaf2KJhY3" role="zGXb3">
@@ -1732,6 +1756,9 @@
           <property role="21jJIV" value="100" />
           <property role="21jJI7" value="1" />
         </node>
+      </node>
+      <node concept="2zkEhW" id="1yeaf2KPnsz" role="2zXruJ">
+        <ref role="2CHb45" node="1yeaf2KPnsn" />
       </node>
     </node>
     <node concept="2lMhBk" id="1yeaf2KAqmz" role="2J7coG">
@@ -1810,6 +1837,21 @@
       <node concept="1Svl6F" id="1yeaf2KJi0n" role="250j5S">
         <ref role="1Svl6C" node="1yeaf2KJhYU" resolve="brenn-ut" />
       </node>
+      <node concept="1Svl6F" id="1yeaf2KVq3N" role="250j5S">
+        <ref role="1Svl6C" node="1yeaf2KPnsC" resolve="cowrun" />
+      </node>
+      <node concept="2lNc1x" id="1yeaf2KPnsC" role="2GyEu2">
+        <property role="TrG5h" value="cowrun" />
+        <node concept="rlEY6" id="1yeaf2KVq3$" role="18tn1X">
+          <property role="2Q0YBs" value="3MYUuMaJfYl/random" />
+          <node concept="2oK_Am" id="1yeaf2KVq3E" role="dGet1">
+            <property role="2oK_Ap" value="1" />
+          </node>
+        </node>
+        <node concept="2zkEhW" id="1yeaf2KVq3w" role="18tn1Z">
+          <ref role="2CHb45" node="1yeaf2KPnsn" resolve="horse" />
+        </node>
+      </node>
     </node>
     <node concept="2kDK7K" id="1yeaf2KAqm$" role="2kDK7a" />
     <node concept="1sMRUJ" id="1yeaf2KAqmB" role="1sMO1Z">
@@ -1835,6 +1877,12 @@
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhZj" role="1sMO1Z">
       <ref role="1sMRUI" node="1yeaf2KJhYU" />
+    </node>
+    <node concept="1sMRUJ" id="1yeaf2KPnsp" role="1sMO1Z">
+      <ref role="1sMRUI" node="1yeaf2KPnsn" />
+    </node>
+    <node concept="1sMRUJ" id="1yeaf2KPnsX" role="1sMO1Z">
+      <ref role="1sMRUI" node="1yeaf2KPnsC" resolve="undefined action" />
     </node>
   </node>
 </model>
