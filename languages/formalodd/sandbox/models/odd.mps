@@ -1407,7 +1407,7 @@
     <property role="TrG5h" value="fire2" />
     <node concept="3Ovhds" id="1yeaf2KAqmx" role="1BQTrk">
       <node concept="XAmFv" id="1yeaf2KVq40" role="1BQTpC">
-        <property role="XAmFg" value="testing123" />
+        <property role="XAmFg" value="testing" />
       </node>
       <node concept="XAmFv" id="1yeaf2KVq3Y" role="1BQToi">
         <property role="XAmFg" value="me" />
@@ -1419,7 +1419,7 @@
     <node concept="ZOwpU" id="1yeaf2KAqmy" role="3$p12O">
       <node concept="ZOwpW" id="1yeaf2KPnsn" role="ZOwpT">
         <property role="TrG5h" value="cow" />
-        <property role="2QSBU6" value="a single cow" />
+        <property role="2QSBU6" value="a single cow to test that we haven't broken turtles" />
         <node concept="ZOwrR" id="1yeaf2KVq3H" role="3$oDj3">
           <property role="ZOwrO" value="4ezY39QkQzR/yellow" />
         </node>
@@ -1595,7 +1595,7 @@
           </node>
         </node>
         <node concept="2zkEhW" id="1yeaf2KVq3w" role="18tn1Z">
-          <ref role="2CHb45" node="1yeaf2KPnsn" resolve="horse" />
+          <ref role="2CHb45" node="1yeaf2KPnsn" resolve="cow" />
         </node>
       </node>
       <node concept="2lMhBi" id="4ezY39QkQaa" role="2lMhBt">

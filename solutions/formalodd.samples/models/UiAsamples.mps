@@ -109,7 +109,7 @@
       <concept id="1477363848331789038" name="formalodd.structure.NetworkReference" flags="ng" index="2zkEhT">
         <reference id="1477363848331789040" name="network" index="2zkEhB" />
       </concept>
-      <concept id="1477363848331789035" name="formalodd.structure.PlainEntityReference" flags="ng" index="2zkEhW">
+      <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW">
         <reference id="1477363848331789037" name="entity" index="2zkEhU" />
       </concept>
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">

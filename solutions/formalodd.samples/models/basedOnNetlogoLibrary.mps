@@ -102,7 +102,7 @@
         <child id="8985793055718208560" name="rhs" index="2rWCss" />
         <child id="524622041952477113" name="lhs" index="2OFgHe" />
       </concept>
-      <concept id="1477363848331789035" name="formalodd.structure.PlainEntityReference" flags="ng" index="2zkEhW">
+      <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW">
         <reference id="1477363848331789037" name="entity" index="2zkEhU" />
       </concept>
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
