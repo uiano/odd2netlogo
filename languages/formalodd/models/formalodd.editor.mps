@@ -1619,7 +1619,7 @@
           <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
           <node concept="3F1sOY" id="4GwBkRe_Hz" role="3EZMnx">
             <property role="1$x2rV" value="&lt;use ctrl space to select the actor&gt;" />
-            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
+            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="acctiotor" />
           </node>
           <node concept="3F0ifn" id="3M5MOtLpx3W" role="3EZMnx">
             <property role="3F0ifm" value=", performing the following actions" />
@@ -2163,7 +2163,7 @@
           </node>
           <node concept="3F1sOY" id="56OEWG_oUlp" role="3EZMnx">
             <property role="1$x2rV" value="&lt;use ctrl space to select interaction partner 1&gt;" />
-            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
+            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="acctiotor" />
           </node>
           <node concept="3F0ifn" id="56OEWG_oUlq" role="3EZMnx">
             <property role="3F0ifm" value="(first partner) and a" />
