@@ -93,6 +93,7 @@
         <property id="6381578350498456053" name="size" index="27hOD7" />
         <property id="6381578350498455269" name="shape" index="27hRln" />
       </concept>
+      <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
@@ -112,9 +113,11 @@
         <child id="5332331643385450162" name="attributesInit" index="3Y$b7i" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
+        <child id="3629783491437474269" name="userDefinedAttributes" index="2gUEk7" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
+        <child id="5332331643385450176" name="initAttributes" index="3Y$b6w" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
@@ -167,6 +170,16 @@
       <node concept="ZOwpW" id="1yeaf2KPnsn" role="ZOwpT">
         <property role="TrG5h" value="cow" />
         <property role="2QSBU6" value="a single cow to test that we haven't broken turtles" />
+        <node concept="ZOwpH" id="2UpX1bIlicd" role="2gUEk7">
+          <property role="TrG5h" value="milk-capacity" />
+          <property role="2QSBU6" value="amount of milk produced each day" />
+          <node concept="ZOwps" id="2UpX1bIlicD" role="zGXb3" />
+        </node>
+        <node concept="ZOwpH" id="2UpX1bIlicK" role="2gUEk7">
+          <property role="TrG5h" value="horn-length" />
+          <property role="2QSBU6" value="horn length" />
+          <node concept="ZOwps" id="2UpX1bIlidh" role="zGXb3" />
+        </node>
         <node concept="ZOwrR" id="1yeaf2KVq3H" role="3$oDj3">
           <property role="ZOwrO" value="4ezY39QkQzR/yellow" />
         </node>
@@ -177,12 +190,25 @@
         <node concept="2oK_Am" id="1yeaf2KVq3L" role="RIgNU">
           <property role="2oK_Ap" value="1" />
         </node>
+        <node concept="3Y$5KH" id="2UpX1bIlicB" role="3Y$b6w">
+          <ref role="3Y$5KI" node="2UpX1bIlicd" resolve="horse" />
+        </node>
+        <node concept="3Y$5KH" id="2UpX1bIlide" role="3Y$b6w">
+          <ref role="3Y$5KI" node="2UpX1bIlicK" />
+        </node>
       </node>
       <node concept="ZOwpW" id="5$6icu1LgfK" role="ZOwpT">
         <property role="TrG5h" value="horse" />
+        <node concept="ZOwpH" id="2UpX1bIlidm" role="2gUEk7">
+          <property role="TrG5h" value="leg-length" />
+          <node concept="ZOwps" id="2UpX1bIlidQ" role="zGXb3" />
+        </node>
         <node concept="ZOwo7" id="5$6icu1XsTr" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvM9VS/bug" />
           <property role="27hOD7" value="1" />
+        </node>
+        <node concept="3Y$5KH" id="2UpX1bIlidO" role="3Y$b6w">
+          <ref role="3Y$5KI" node="2UpX1bIlidm" />
         </node>
       </node>
       <node concept="ZOwpW" id="5$6icu1Lgga" role="ZOwpT">
@@ -272,6 +298,15 @@
       </node>
       <node concept="2zkEhW" id="5$6icu1Lggu" role="2zXruJ">
         <ref role="2CHb45" node="5$6icu1Lgga" resolve="cat" />
+      </node>
+      <node concept="3Y$5KH" id="2UpX1bIlicx" role="3Y$b7i">
+        <ref role="3Y$5KI" node="2UpX1bIlicd" />
+      </node>
+      <node concept="3Y$5KH" id="2UpX1bIlid7" role="3Y$b7i">
+        <ref role="3Y$5KI" node="2UpX1bIlicK" />
+      </node>
+      <node concept="3Y$5KH" id="2UpX1bIlidG" role="3Y$b7i">
+        <ref role="3Y$5KI" node="2UpX1bIlidm" />
       </node>
     </node>
     <node concept="2lMhBk" id="1yeaf2KAqmz" role="2J7coG">
@@ -406,6 +441,15 @@
     </node>
     <node concept="1sMRUJ" id="5$6icu1Lggh" role="1sMO1Z">
       <ref role="1sMRUI" node="5$6icu1Lgga" resolve="cat" />
+    </node>
+    <node concept="1sMRUJ" id="2UpX1bIlicj" role="1sMO1Z">
+      <ref role="1sMRUI" node="2UpX1bIlicd" />
+    </node>
+    <node concept="1sMRUJ" id="2UpX1bIlicS" role="1sMO1Z">
+      <ref role="1sMRUI" node="2UpX1bIlicK" />
+    </node>
+    <node concept="1sMRUJ" id="2UpX1bIlids" role="1sMO1Z">
+      <ref role="1sMRUI" node="2UpX1bIlidm" />
     </node>
   </node>
   <node concept="ZOwpP" id="4ezY39PPaKM">
