@@ -867,24 +867,6 @@
       <property role="1L1pqM" value="Top" />
     </node>
   </node>
-  <node concept="1TIwiD" id="24yfUKsjki_">
-    <property role="EcuMT" value="2387540760901534885" />
-    <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="TODO_CountEntities" />
-    <property role="34LRSv" value="Counting" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
-    <node concept="1TJgyj" id="24yfUKsi5Qk" role="1TKVEi">
-      <property role="IQ2ns" value="2387540760901213588" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="countCondition" />
-      <ref role="20lvS9" node="24yfUKsjkLU" resolve="TODO_ConditionWith" />
-    </node>
-    <node concept="1TJgyi" id="5iGq3FqxFD3" role="1TKVEl">
-      <property role="IQ2nx" value="6101366197163833923" />
-      <property role="TrG5h" value="where" />
-      <ref role="AX2Wp" node="5iGq3FqxFCK" resolve="CountLocation" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="24yfUKsjkLU">
     <property role="EcuMT" value="2387540760901536890" />
     <property role="3GE5qa" value="Expressions.Condition" />
@@ -1985,25 +1967,6 @@
       <property role="1L1pqM" value=" " />
     </node>
   </node>
-  <node concept="1TIwiD" id="39v_dEyymsJ">
-    <property role="EcuMT" value="3629783491434604335" />
-    <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="TODO_FilterIndex" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
-    <node concept="1TJgyj" id="39v_dEyymsK" role="1TKVEi">
-      <property role="IQ2ns" value="3629783491434604336" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="filterCondition" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="39v_dEyymsM" role="1TKVEi">
-      <property role="IQ2ns" value="3629783491434604338" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="argument" />
-      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="39v_dEyE91d">
     <property role="EcuMT" value="3629783491436646477" />
     <property role="3GE5qa" value="Expressions" />
@@ -2527,26 +2490,6 @@
     <property role="34LRSv" value="false" />
     <property role="R4oN_" value="boolean" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
-  </node>
-  <node concept="1TIwiD" id="2OjX34$SzpG">
-    <property role="EcuMT" value="3248208248173639276" />
-    <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="TODO_CountAllEntities" />
-    <property role="34LRSv" value="Counting all" />
-    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
-    <node concept="1TJgyj" id="2OjX34$SzpH" role="1TKVEi">
-      <property role="IQ2ns" value="3248208248173639277" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="criteria" />
-      <ref role="20lvS9" node="5yfUVbuMlWA" resolve="Comparison" />
-    </node>
-    <node concept="1TJgyj" id="2OjX34$SzqA" role="1TKVEi">
-      <property role="IQ2ns" value="3248208248173639334" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="what" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="I1KRVWMRJQ" resolve="SelectExpression" />
-    </node>
   </node>
   <node concept="25R3W" id="3MYUuMaJfXv">
     <property role="3F6X1D" value="4377193089999896415" />
