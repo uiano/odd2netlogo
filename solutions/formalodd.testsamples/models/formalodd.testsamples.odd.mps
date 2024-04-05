@@ -85,6 +85,7 @@
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
+      <concept id="7167542597237662036" name="formalodd.structure.Random" flags="ng" index="RFdHg" />
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
       </concept>
@@ -95,7 +96,6 @@
         <property id="6381578350498456053" name="size" index="27hOD7" />
         <property id="6381578350498455269" name="shape" index="27hRln" />
       </concept>
-      <concept id="3840659476812055854" name="formalodd.structure.Numerical" flags="ng" index="ZOwps" />
       <concept id="3840659476812055839" name="formalodd.structure.UserDefinedAttribute" flags="ng" index="ZOwpH">
         <child id="5413243452964759294" name="type" index="zGXb3" />
       </concept>
@@ -115,11 +115,10 @@
         <child id="5332331643385450162" name="attributesInit" index="3Y$b7i" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
-        <child id="3629783491437474269" name="userDefinedAttributes" index="2gUEk7" />
+        <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
-        <child id="5332331643385450176" name="initAttributes" index="3Y$b6w" />
       </concept>
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
@@ -174,12 +173,7 @@
     <node concept="ZOwpU" id="1yeaf2KAqmy" role="3$p12O">
       <node concept="ZOwpW" id="2UpX1bJb5Am" role="ZOwpT">
         <property role="TrG5h" value="cow" />
-        <property role="2QSBU6" value="it's a cow" />
-        <node concept="ZOwpH" id="3EOOqzpD3YX" role="2gUEk7">
-          <property role="TrG5h" value="horn-length" />
-          <property role="2QSBU6" value="length of the cow horns" />
-          <node concept="ZOwps" id="3EOOqzpD3Zn" role="zGXb3" />
-        </node>
+        <property role="2QSBU6" value="a single cow" />
         <node concept="ZOwrR" id="2UpX1bJb5AG" role="3$oDj3">
           <property role="ZOwrO" value="4ezY39QkQzR/yellow" />
         </node>
@@ -193,9 +187,21 @@
           <property role="21jJIV" value="10" />
           <property role="21jJI7" value="1" />
         </node>
-        <node concept="3Y$5KH" id="3EOOqzpD3Zl" role="3Y$b6w">
-          <ref role="3Y$5KI" node="3EOOqzpD3YX" />
+        <node concept="RFdHg" id="6ln2koeD8MZ" role="RFdH4" />
+      </node>
+      <node concept="ZOwpW" id="6ln2koekRM3" role="ZOwpT">
+        <property role="TrG5h" value="horse" />
+        <node concept="ZOwrR" id="6ln2koekRMr" role="3$oDj3">
+          <property role="ZOwrO" value="4ezY39QkQzI/orange" />
         </node>
+        <node concept="ZOwo7" id="6ln2koekRMt" role="ZOwpC">
+          <property role="27hRln" value="5yfUVbvM9W5/car" />
+          <property role="27hOD7" value="1" />
+        </node>
+        <node concept="2oK_Am" id="6ln2koemaZ2" role="RIgNU">
+          <property role="2oK_Ap" value="5" />
+        </node>
+        <node concept="RFdHg" id="6ln2koeD8N4" role="RFdH4" />
       </node>
       <node concept="ZOwpH" id="1yeaf2KJhXL" role="Qgzvn">
         <property role="TrG5h" value="max-flamme-styrke" />
@@ -256,7 +262,7 @@
       </node>
       <node concept="3Y$5KH" id="1yeaf2KJhX9" role="3Y$b7i">
         <ref role="3Y$5KI" node="1yeaf2KJhWW" resolve="flamme-styrke" />
-        <node concept="2oK_Am" id="1yeaf2KJiZo" role="3Y$5KK">
+        <node concept="2oK_Am" id="6ln2koe9icL" role="3Y$5KK">
           <property role="2oK_Ap" value="100" />
         </node>
       </node>
@@ -272,8 +278,8 @@
       <node concept="2zkEhW" id="2UpX1bJb5Az" role="2zXruJ">
         <ref role="2CHb45" node="2UpX1bJb5Am" />
       </node>
-      <node concept="3Y$5KH" id="3EOOqzpD3Zf" role="3Y$b7i">
-        <ref role="3Y$5KI" node="3EOOqzpD3YX" />
+      <node concept="2zkEhW" id="6ln2koekRMl" role="2zXruJ">
+        <ref role="2CHb45" node="6ln2koekRM3" />
       </node>
     </node>
     <node concept="2lMhBk" id="1yeaf2KAqmz" role="2J7coG">
@@ -403,8 +409,8 @@
     <node concept="1sMRUJ" id="2UpX1bJb5Ao" role="1sMO1Z">
       <ref role="1sMRUI" node="2UpX1bJb5Am" />
     </node>
-    <node concept="1sMRUJ" id="3EOOqzpD3Z3" role="1sMO1Z">
-      <ref role="1sMRUI" node="3EOOqzpD3YX" />
+    <node concept="1sMRUJ" id="6ln2koekRM9" role="1sMO1Z">
+      <ref role="1sMRUI" node="6ln2koekRM3" />
     </node>
   </node>
   <node concept="ZOwpP" id="4ezY39PPaKM">

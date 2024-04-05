@@ -90,7 +90,7 @@
       </concept>
       <concept id="7308686357753326565" name="formalodd.structure.Action" flags="ng" index="2lNc1x">
         <child id="3836572362087288385" name="activities" index="18tn1X" />
-        <child id="3836572362087288387" name="actor" index="18tn1Z" />
+        <child id="3836572362087288387" name="acctiotor" index="18tn1Z" />
       </concept>
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
@@ -109,9 +109,7 @@
       <concept id="1477363848331789038" name="formalodd.structure.NetworkReference" flags="ng" index="2zkEhT">
         <reference id="1477363848331789040" name="network" index="2zkEhB" />
       </concept>
-      <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW">
-        <reference id="1477363848331789037" name="entity" index="2zkEhU" />
-      </concept>
+      <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
       </concept>
@@ -120,6 +118,9 @@
       </concept>
       <concept id="2473444682901074821" name="formalodd.structure.Set" flags="ng" index="2HHGdg">
         <child id="2473444682901074823" name="inner" index="2HHGdi" />
+      </concept>
+      <concept id="84585932959116711" name="formalodd.structure.EntityReference" flags="ng" index="QamZi">
+        <reference id="1769396717817076213" name="entity" index="2CHb45" />
       </concept>
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
         <child id="3980028531046012173" name="entity" index="2jOjfh" />
@@ -712,9 +713,6 @@
       <node concept="2zkEhT" id="3dcVgfnYOfp" role="2zXruJ">
         <ref role="2zkEhB" node="3dcVgfnYOf6" resolve="university-relationship" />
       </node>
-      <node concept="2zkEhW" id="3dcVgfnYOfq" role="2zXruJ">
-        <ref role="2zkEhU" node="3dcVgfnYOeX" resolve="student" />
-      </node>
       <node concept="3Y$5KH" id="3dcVgfnYOfr" role="3Y$b7i">
         <ref role="3Y$5KI" node="3dcVgfnYOeH" resolve="amount-learned-in-interaction" />
         <node concept="21jJIL" id="3dcVgfnYOfs" role="3Y$5KK">
@@ -891,6 +889,9 @@
           <property role="21jJIV" value="1" />
           <property role="2rHBro" value="0.7" />
         </node>
+      </node>
+      <node concept="2zkEhW" id="6ln2koekOW4" role="2zXruJ">
+        <ref role="2CHb45" node="3dcVgfnYOeX" resolve="student" />
       </node>
     </node>
     <node concept="2kDK7K" id="3dcVgfnYOgd" role="2kDK7a">
