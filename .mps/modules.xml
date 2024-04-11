@@ -7,7 +7,6 @@
       <modulePath path="$PROJECT_DIR$/solutions/formalodd.build/formalodd.build.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/formalodd.samples/formalodd.samples.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/formalodd.test/formalodd.test.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/formalodd.testsamples/formalodd.testsamples.msd" folder="" />
     </projectModules>
   </component>
 </project>
