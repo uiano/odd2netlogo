@@ -1619,7 +1619,7 @@
           <node concept="2iRfu4" id="5zjJPlgalCY" role="2iSdaV" />
           <node concept="3F1sOY" id="4GwBkRe_Hz" role="3EZMnx">
             <property role="1$x2rV" value="&lt;use ctrl space to select the actor&gt;" />
-            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
+            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="acctiotor" />
           </node>
           <node concept="3F0ifn" id="3M5MOtLpx3W" role="3EZMnx">
             <property role="3F0ifm" value=", performing the following actions" />
@@ -2163,7 +2163,7 @@
           </node>
           <node concept="3F1sOY" id="56OEWG_oUlp" role="3EZMnx">
             <property role="1$x2rV" value="&lt;use ctrl space to select interaction partner 1&gt;" />
-            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="actor" />
+            <ref role="1NtTu8" to="86kt:3kYfzLXiOT3" resolve="acctiotor" />
           </node>
           <node concept="3F0ifn" id="56OEWG_oUlq" role="3EZMnx">
             <property role="3F0ifm" value="(first partner) and a" />
@@ -2435,44 +2435,6 @@
       <ref role="2$4xQ3" node="7AEkq7y2bE5" resolve="Initialization" />
     </node>
   </node>
-  <node concept="24kQdi" id="24yfUKsjkj0">
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:24yfUKsjki_" resolve="TODO_CountEntities" />
-    <node concept="3EZMnI" id="24yfUKsi5Qn" role="2wV5jI">
-      <node concept="2iRfu4" id="24yfUKsi5Qo" role="2iSdaV" />
-      <node concept="3F0ifn" id="24yfUKsi5Qf" role="3EZMnx">
-        <property role="3F0ifm" value="count of" />
-        <node concept="Vb9p2" id="24yfUKsmjBj" role="3F10Kt" />
-      </node>
-      <node concept="3F0A7n" id="24yfUKsoLNs" role="3EZMnx">
-        <property role="1$x2rV" value="press ctrl space to select counted entities" />
-        <ref role="1NtTu8" to="86kt:5iGq3FqxFD3" resolve="where" />
-      </node>
-      <node concept="3F0ifn" id="24yfUKsmjB0" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
-        <node concept="Vb9p2" id="24yfUKsmjBl" role="3F10Kt" />
-        <node concept="pkWqt" id="4HBtuojRrPm" role="pqm2j">
-          <node concept="3clFbS" id="4HBtuojRrPn" role="2VODD2">
-            <node concept="3clFbF" id="4HBtuojRrPJ" role="3cqZAp">
-              <node concept="3y3z36" id="4HBtuojRrZx" role="3clFbG">
-                <node concept="2OqwBi" id="4HBtuojRrPM" role="3uHU7B">
-                  <node concept="pncrf" id="4HBtuojRrPN" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="5iGq3FqWUW6" role="2OqNvi">
-                    <ref role="3Tt5mk" to="86kt:24yfUKsi5Qk" resolve="countCondition" />
-                  </node>
-                </node>
-                <node concept="10Nm6u" id="5iGq3FqWVyu" role="3uHU7w" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3F1sOY" id="5iGq3FqWTCA" role="3EZMnx">
-        <property role="1$x2rV" value="press ctrl space to select characteristic" />
-        <ref role="1NtTu8" to="86kt:24yfUKsi5Qk" resolve="countCondition" />
-      </node>
-    </node>
-  </node>
   <node concept="24kQdi" id="7qp8jK7xuHC">
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1XX52x" to="86kt:RwtFpHC4y1" resolve="Network" />
@@ -2614,7 +2576,9 @@
         </node>
       </node>
       <node concept="3EZMnI" id="1R8dC2FnaNG" role="3EZMnx">
-        <node concept="VPM3Z" id="1R8dC2FnaNI" role="3F10Kt" />
+        <node concept="VPM3Z" id="1R8dC2FnaNI" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
         <node concept="3F0ifn" id="1R8dC2FnaO7" role="3EZMnx">
           <property role="3F0ifm" value="otherwise" />
           <node concept="ljvvj" id="1R8dC2FnaO8" role="3F10Kt">
@@ -2637,15 +2601,15 @@
         <node concept="l2Vlx" id="1R8dC2FnaNL" role="2iSdaV" />
         <node concept="pkWqt" id="1R8dC2FnaOr" role="pqm2j">
           <node concept="3clFbS" id="1R8dC2FnaOs" role="2VODD2">
-            <node concept="3clFbF" id="1R8dC2FnaSo" role="3cqZAp">
-              <node concept="2OqwBi" id="1R8dC2Fndol" role="3clFbG">
-                <node concept="2OqwBi" id="1R8dC2Fnb7W" role="2Oq$k0">
-                  <node concept="pncrf" id="1R8dC2FnaSn" role="2Oq$k0" />
-                  <node concept="3Tsc0h" id="1R8dC2FnbtK" role="2OqNvi">
+            <node concept="3clFbF" id="2UpX1bIQYmV" role="3cqZAp">
+              <node concept="2OqwBi" id="2UpX1bIU8Jo" role="3clFbG">
+                <node concept="2OqwBi" id="2UpX1bIU6he" role="2Oq$k0">
+                  <node concept="pncrf" id="2UpX1bIU5SK" role="2Oq$k0" />
+                  <node concept="3Tsc0h" id="2UpX1bIU6vO" role="2OqNvi">
                     <ref role="3TtcxE" to="86kt:1R8dC2ELi03" resolve="noActivities" />
                   </node>
                 </node>
-                <node concept="3GX2aA" id="1R8dC2FngFk" role="2OqNvi" />
+                <node concept="3GX2aA" id="2UpX1bIUapW" role="2OqNvi" />
               </node>
             </node>
           </node>
@@ -3630,25 +3594,6 @@
       </node>
       <node concept="3F0A7n" id="39v_dEywMT4" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:39v_dEywMSX" resolve="kind" />
-      </node>
-    </node>
-  </node>
-  <node concept="24kQdi" id="39v_dEyymsX">
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:39v_dEyymsJ" resolve="TODO_FilterIndex" />
-    <node concept="3EZMnI" id="39v_dEyymsZ" role="2wV5jI">
-      <node concept="l2Vlx" id="39v_dEyymt0" role="2iSdaV" />
-      <node concept="3F0ifn" id="39v_dEyymt1" role="3EZMnx">
-        <property role="3F0ifm" value="filter index of" />
-      </node>
-      <node concept="3F1sOY" id="39v_dEyymuq" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:39v_dEyymsM" resolve="argument" />
-      </node>
-      <node concept="3F0ifn" id="39v_dEyymuQ" role="3EZMnx">
-        <property role="3F0ifm" value="using" />
-      </node>
-      <node concept="3F1sOY" id="39v_dEyymt9" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:39v_dEyymsK" resolve="filterCondition" />
       </node>
     </node>
   </node>
@@ -7609,27 +7554,6 @@
     <node concept="3F0ifn" id="3sVTHM$nSsW" role="2wV5jI">
       <property role="3F0ifm" value="false" />
       <ref role="1k5W1q" node="5STA2$CnPlN" resolve="predefinedName" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="2OjX34$Szrl">
-    <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:2OjX34$SzpG" resolve="TODO_CountAllEntities" />
-    <node concept="3EZMnI" id="2OjX34$Szrn" role="2wV5jI">
-      <node concept="l2Vlx" id="2OjX34$Szro" role="2iSdaV" />
-      <node concept="3F0ifn" id="2OjX34$Szrp" role="3EZMnx">
-        <property role="3F0ifm" value="count all" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
-      </node>
-      <node concept="3F1sOY" id="2OjX34$SzrJ" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:2OjX34$SzqA" resolve="what" />
-      </node>
-      <node concept="3F0ifn" id="2OjX34$Szrr" role="3EZMnx">
-        <property role="3F0ifm" value="with" />
-        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
-      </node>
-      <node concept="3F1sOY" id="2OjX34$Szsb" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:2OjX34$SzpH" resolve="criteria" />
-      </node>
     </node>
   </node>
   <node concept="24kQdi" id="75snaehyJTU">

@@ -1117,6 +1117,20 @@
           <property role="2oK_Ap" value="1" />
         </node>
       </node>
+      <node concept="ZOwpW" id="5$6icu1LgfK" role="ZOwpT">
+        <property role="TrG5h" value="horse" />
+        <node concept="ZOwo7" id="5$6icu1XsTr" role="ZOwpC">
+          <property role="27hRln" value="5yfUVbvM9VS/bug" />
+          <property role="27hOD7" value="1" />
+        </node>
+      </node>
+      <node concept="ZOwpW" id="5$6icu1Lgga" role="ZOwpT">
+        <property role="TrG5h" value="cat" />
+        <node concept="ZOwo7" id="5$6icu1XsTt" role="ZOwpC">
+          <property role="27hRln" value="5yfUVbvM9VG/airplane" />
+          <property role="27hOD7" value="2" />
+        </node>
+      </node>
       <node concept="ZOwpH" id="1yeaf2KJhXL" role="Qgzvn">
         <property role="TrG5h" value="max-flamme-styrke" />
         <node concept="354mTO" id="1yeaf2KJhY3" role="zGXb3">
@@ -1166,22 +1180,22 @@
         </node>
       </node>
       <node concept="q1XHF" id="1yeaf2KAqmD" role="2zXruJ">
-        <ref role="2CHb45" node="1yeaf2KAqm_" />
+        <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tre" />
       </node>
       <node concept="q1XHF" id="1yeaf2KJhVS" role="2zXruJ">
         <ref role="2CHb45" node="1yeaf2KJhVK" resolve="flamme" />
       </node>
       <node concept="q1XHF" id="1yeaf2KJhW8" role="2zXruJ">
-        <ref role="2CHb45" node="1yeaf2KJhVX" />
+        <ref role="2CHb45" node="1yeaf2KJhVX" resolve="aske" />
       </node>
       <node concept="3Y$5KH" id="1yeaf2KJhX9" role="3Y$b7i">
-        <ref role="3Y$5KI" node="1yeaf2KJhWW" />
+        <ref role="3Y$5KI" node="1yeaf2KJhWW" resolve="flamme-styrke" />
         <node concept="2oK_Am" id="1yeaf2KJiZo" role="3Y$5KK">
           <property role="2oK_Ap" value="100" />
         </node>
       </node>
       <node concept="3Y$5KH" id="1yeaf2KJhY0" role="3Y$b7i">
-        <ref role="3Y$5KI" node="1yeaf2KJhXL" />
+        <ref role="3Y$5KI" node="1yeaf2KJhXL" resolve="max-flamme-styrke" />
         <node concept="21jJIL" id="1yeaf2KJiZq" role="3Y$5KK">
           <property role="2rHBro" value="50" />
           <property role="21jJIY" value="0" />
@@ -1190,7 +1204,13 @@
         </node>
       </node>
       <node concept="2zkEhW" id="1yeaf2KPnsz" role="2zXruJ">
-        <ref role="2CHb45" node="1yeaf2KPnsn" />
+        <ref role="2CHb45" node="1yeaf2KPnsn" resolve="cow" />
+      </node>
+      <node concept="2zkEhW" id="5$6icu1Lgg2" role="2zXruJ">
+        <ref role="2CHb45" node="5$6icu1LgfK" />
+      </node>
+      <node concept="2zkEhW" id="5$6icu1Lggu" role="2zXruJ">
+        <ref role="2CHb45" node="5$6icu1Lgga" />
       </node>
     </node>
     <node concept="2lMhBk" id="1yeaf2KAqmz" role="2J7coG">
@@ -1231,7 +1251,7 @@
           </node>
         </node>
         <node concept="q1XHF" id="1yeaf2KJhZs" role="18tn1Z">
-          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="f" />
+          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="flamme" />
         </node>
       </node>
       <node concept="2lNc1x" id="1yeaf2KAqmM" role="2GyEu2">
@@ -1291,34 +1311,40 @@
     </node>
     <node concept="2kDK7K" id="1yeaf2KAqm$" role="2kDK7a" />
     <node concept="1sMRUJ" id="1yeaf2KAqmB" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KAqm_" />
+      <ref role="1sMRUI" node="1yeaf2KAqm_" resolve="tre" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KAqmT" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KAqmM" />
+      <ref role="1sMRUI" node="1yeaf2KAqmM" resolve="brenn" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhVO" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhVK" />
+      <ref role="1sMRUI" node="1yeaf2KJhVK" resolve="flamme" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhW3" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhVX" />
+      <ref role="1sMRUI" node="1yeaf2KJhVX" resolve="aske" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhWB" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhWo" />
+      <ref role="1sMRUI" node="1yeaf2KJhWo" resolve="spre-brann" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhX2" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhWW" />
+      <ref role="1sMRUI" node="1yeaf2KJhWW" resolve="flamme-styrke" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhXR" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhXL" />
+      <ref role="1sMRUI" node="1yeaf2KJhXL" resolve="max-flamme-styrke" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhZj" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhYU" />
+      <ref role="1sMRUI" node="1yeaf2KJhYU" resolve="brenn-ut" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KPnsp" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KPnsn" />
+      <ref role="1sMRUI" node="1yeaf2KPnsn" resolve="cow" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KPnsX" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KPnsC" resolve="undefined action" />
+      <ref role="1sMRUI" node="1yeaf2KPnsC" resolve="cowrun" />
+    </node>
+    <node concept="1sMRUJ" id="5$6icu1LgfQ" role="1sMO1Z">
+      <ref role="1sMRUI" node="5$6icu1LgfK" />
+    </node>
+    <node concept="1sMRUJ" id="5$6icu1Lggh" role="1sMO1Z">
+      <ref role="1sMRUI" node="5$6icu1Lgga" />
     </node>
   </node>
   <node concept="ZOwpP" id="4ezY39PPaKM">
@@ -1366,19 +1392,19 @@
         </node>
       </node>
       <node concept="q1XHF" id="4ezY39PPaKV" role="2zXruJ">
-        <ref role="2CHb45" node="4ezY39PPaKR" />
+        <ref role="2CHb45" node="4ezY39PPaKR" resolve="green_voter" />
       </node>
       <node concept="q1XHF" id="4ezY39PPaL6" role="2zXruJ">
-        <ref role="2CHb45" node="4ezY39PPaKZ" />
+        <ref role="2CHb45" node="4ezY39PPaKZ" resolve="blue_voter" />
       </node>
       <node concept="3Y$5KH" id="4ezY39PPaLn" role="3Y$b7i">
-        <ref role="3Y$5KI" node="4ezY39PPaLd" />
+        <ref role="3Y$5KI" node="4ezY39PPaLd" resolve="Voter" />
       </node>
       <node concept="3Y$5KH" id="4ezY39PPbbp" role="3Y$b7i">
-        <ref role="3Y$5KI" node="4ezY39PPbb8" />
+        <ref role="3Y$5KI" node="4ezY39PPbb8" resolve="surrounding-blue-votes" />
       </node>
       <node concept="3Y$5KH" id="4ezY39PPf0Q" role="3Y$b7i">
-        <ref role="3Y$5KI" node="4ezY39PPf0A" />
+        <ref role="3Y$5KI" node="4ezY39PPf0A" resolve="votes-changed" />
       </node>
     </node>
     <node concept="2lMhBk" id="4ezY39PPaKP" role="2J7coG">
@@ -1498,31 +1524,31 @@
     </node>
     <node concept="2kDK7K" id="4ezY39PPaKQ" role="2kDK7a" />
     <node concept="1sMRUJ" id="4ezY39PPaKT" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPaKR" />
+      <ref role="1sMRUI" node="4ezY39PPaKR" resolve="green_voter" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPaL3" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPaKZ" />
+      <ref role="1sMRUI" node="4ezY39PPaKZ" resolve="blue_voter" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPaLj" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPaLd" />
+      <ref role="1sMRUI" node="4ezY39PPaLd" resolve="Voter" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPaLG" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPaLz" />
+      <ref role="1sMRUI" node="4ezY39PPaLz" resolve="Vote-Blue" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPb9k" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPb99" />
+      <ref role="1sMRUI" node="4ezY39PPb99" resolve="Vote-Green" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPbbg" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPbb8" />
+      <ref role="1sMRUI" node="4ezY39PPbb8" resolve="surrounding-blue-votes" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPbcE" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPbcb" />
+      <ref role="1sMRUI" node="4ezY39PPbcb" resolve="change-vote" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PPf0G" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PPf0A" />
+      <ref role="1sMRUI" node="4ezY39PPf0A" resolve="votes-changed" />
     </node>
     <node concept="1sMRUJ" id="4ezY39PZoV9" role="1sMO1Z">
-      <ref role="1sMRUI" node="4ezY39PZoUj" />
+      <ref role="1sMRUI" node="4ezY39PZoUj" resolve="count-blu" />
     </node>
   </node>
 </model>
