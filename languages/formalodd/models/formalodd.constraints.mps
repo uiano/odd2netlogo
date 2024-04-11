@@ -988,6 +988,24 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <ref role="1M2myG" to="86kt:3lcKR8aBGke" resolve="Entity" />
   </node>
+  <node concept="1M2fIO" id="24yfUKsjkvw">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1M2myG" to="86kt:24yfUKsjki_" resolve="TODO_CountEntities" />
+    <node concept="9S07l" id="I1KRVYqSZt" role="9Vyp8">
+      <node concept="3clFbS" id="I1KRVYqSZu" role="2VODD2">
+        <node concept="3clFbF" id="I1KRVYqT3o" role="3cqZAp">
+          <node concept="2OqwBi" id="I1KRVYqTdB" role="3clFbG">
+            <node concept="nLn13" id="I1KRVYqT3n" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="I1KRVYqTn8" role="2OqNvi">
+              <node concept="chp4Y" id="I1KRVYqTt1" role="cj9EA">
+                <ref role="cht4Q" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node concept="1M2fIO" id="7qp8jK7V$IP">
     <property role="3GE5qa" value="Expressions.Condition" />
     <ref role="1M2myG" to="86kt:6lHESjKDb9m" resolve="QuantifiedCondition" />
@@ -1074,59 +1092,69 @@
     <node concept="9S07l" id="I1KRVYbosb" role="9Vyp8">
       <node concept="3clFbS" id="I1KRVYbosc" role="2VODD2">
         <node concept="3clFbF" id="I1KRVYbow6" role="3cqZAp">
-          <node concept="22lmx$" id="1AQ4Fym6CZ_" role="3clFbG">
-            <node concept="2OqwBi" id="3sVTHMz5yeD" role="3uHU7w">
-              <node concept="nLn13" id="3sVTHMz5y4h" role="2Oq$k0" />
-              <node concept="1mIQ4w" id="3sVTHMz5yqz" role="2OqNvi">
-                <node concept="chp4Y" id="3sVTHMz5ywF" role="cj9EA">
-                  <ref role="cht4Q" to="86kt:7MNWMN_RcI3" resolve="QuantifiedConditionWithComparison" />
+          <node concept="22lmx$" id="2OjX34$WoY6" role="3clFbG">
+            <node concept="2OqwBi" id="2OjX34$WpoL" role="3uHU7w">
+              <node concept="nLn13" id="2OjX34$WpdX" role="2Oq$k0" />
+              <node concept="1mIQ4w" id="2OjX34$WpQu" role="2OqNvi">
+                <node concept="chp4Y" id="2OjX34$WpX2" role="cj9EA">
+                  <ref role="cht4Q" to="86kt:2OjX34$SzpG" resolve="TODO_CountAllEntities" />
                 </node>
               </node>
             </node>
-            <node concept="22lmx$" id="3sVTHMz5y1i" role="3uHU7B">
-              <node concept="22lmx$" id="I1KRVYhyO3" role="3uHU7B">
-                <node concept="22lmx$" id="I1KRVYbqgK" role="3uHU7B">
-                  <node concept="22lmx$" id="I1KRVYbpAn" role="3uHU7B">
-                    <node concept="2OqwBi" id="I1KRVYboEl" role="3uHU7B">
-                      <node concept="nLn13" id="I1KRVYbow5" role="2Oq$k0" />
-                      <node concept="1mIQ4w" id="I1KRVYboNQ" role="2OqNvi">
-                        <node concept="chp4Y" id="I1KRVYboXJ" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:7MNWMNBrfES" resolve="ConditionalAction" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="2OqwBi" id="I1KRVYbpJ0" role="3uHU7w">
-                      <node concept="nLn13" id="I1KRVYbpJ1" role="2Oq$k0" />
-                      <node concept="1mIQ4w" id="I1KRVYbpJ2" role="2OqNvi">
-                        <node concept="chp4Y" id="I1KRVYbpNU" role="cj9EA">
-                          <ref role="cht4Q" to="86kt:39v_dEytDLr" resolve="IfThenElse" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="I1KRVYbqsu" role="3uHU7w">
-                    <node concept="nLn13" id="I1KRVYbqsv" role="2Oq$k0" />
-                    <node concept="1mIQ4w" id="I1KRVYbqsw" role="2OqNvi">
-                      <node concept="chp4Y" id="I1KRVYbqGA" role="cj9EA">
-                        <ref role="cht4Q" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="2OqwBi" id="I1KRVYhyQs" role="3uHU7w">
-                  <node concept="nLn13" id="I1KRVYhyQt" role="2Oq$k0" />
-                  <node concept="1mIQ4w" id="I1KRVYhyQu" role="2OqNvi">
-                    <node concept="chp4Y" id="I1KRVYhyZO" role="cj9EA">
-                      <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="Function" />
-                    </node>
+            <node concept="22lmx$" id="1AQ4Fym6CZ_" role="3uHU7B">
+              <node concept="2OqwBi" id="3sVTHMz5yeD" role="3uHU7w">
+                <node concept="nLn13" id="3sVTHMz5y4h" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="3sVTHMz5yqz" role="2OqNvi">
+                  <node concept="chp4Y" id="3sVTHMz5ywF" role="cj9EA">
+                    <ref role="cht4Q" to="86kt:7MNWMN_RcI3" resolve="QuantifiedConditionWithComparison" />
                   </node>
                 </node>
               </node>
-              <node concept="2OqwBi" id="1AQ4Fym6DCV" role="3uHU7w">
-                <node concept="nLn13" id="1AQ4Fym6D3z" role="2Oq$k0" />
-                <node concept="1mIQ4w" id="1AQ4Fym6EjU" role="2OqNvi">
-                  <node concept="chp4Y" id="1AQ4Fym6Er6" role="cj9EA">
-                    <ref role="cht4Q" to="86kt:5nRk$9GwSKk" resolve="LetDefinition" />
+              <node concept="22lmx$" id="3sVTHMz5y1i" role="3uHU7B">
+                <node concept="22lmx$" id="I1KRVYhyO3" role="3uHU7B">
+                  <node concept="22lmx$" id="I1KRVYbqgK" role="3uHU7B">
+                    <node concept="22lmx$" id="I1KRVYbpAn" role="3uHU7B">
+                      <node concept="2OqwBi" id="I1KRVYboEl" role="3uHU7B">
+                        <node concept="nLn13" id="I1KRVYbow5" role="2Oq$k0" />
+                        <node concept="1mIQ4w" id="I1KRVYboNQ" role="2OqNvi">
+                          <node concept="chp4Y" id="I1KRVYboXJ" role="cj9EA">
+                            <ref role="cht4Q" to="86kt:7MNWMNBrfES" resolve="ConditionalAction" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="I1KRVYbpJ0" role="3uHU7w">
+                        <node concept="nLn13" id="I1KRVYbpJ1" role="2Oq$k0" />
+                        <node concept="1mIQ4w" id="I1KRVYbpJ2" role="2OqNvi">
+                          <node concept="chp4Y" id="I1KRVYbpNU" role="cj9EA">
+                            <ref role="cht4Q" to="86kt:39v_dEytDLr" resolve="IfThenElse" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="I1KRVYbqsu" role="3uHU7w">
+                      <node concept="nLn13" id="I1KRVYbqsv" role="2Oq$k0" />
+                      <node concept="1mIQ4w" id="I1KRVYbqsw" role="2OqNvi">
+                        <node concept="chp4Y" id="I1KRVYbqGA" role="cj9EA">
+                          <ref role="cht4Q" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="I1KRVYhyQs" role="3uHU7w">
+                    <node concept="nLn13" id="I1KRVYhyQt" role="2Oq$k0" />
+                    <node concept="1mIQ4w" id="I1KRVYhyQu" role="2OqNvi">
+                      <node concept="chp4Y" id="I1KRVYhyZO" role="cj9EA">
+                        <ref role="cht4Q" to="86kt:39v_dExCF7n" resolve="Function" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="1AQ4Fym6DCV" role="3uHU7w">
+                  <node concept="nLn13" id="1AQ4Fym6D3z" role="2Oq$k0" />
+                  <node concept="1mIQ4w" id="1AQ4Fym6EjU" role="2OqNvi">
+                    <node concept="chp4Y" id="1AQ4Fym6Er6" role="cj9EA">
+                      <ref role="cht4Q" to="86kt:5nRk$9GwSKk" resolve="LetDefinition" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1230,6 +1258,24 @@
             <node concept="nLn13" id="I1KRVZ5loi" role="2Oq$k0" />
             <node concept="1mIQ4w" id="I1KRVZ5loj" role="2OqNvi">
               <node concept="chp4Y" id="I1KRVZ5lok" role="cj9EA">
+                <ref role="cht4Q" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="I1KRVZ8kMl">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1M2myG" to="86kt:39v_dEyymsJ" resolve="TODO_FilterIndex" />
+    <node concept="9S07l" id="I1KRVZ8kMm" role="9Vyp8">
+      <node concept="3clFbS" id="I1KRVZ8kMn" role="2VODD2">
+        <node concept="3clFbF" id="I1KRVZ8kQg" role="3cqZAp">
+          <node concept="2OqwBi" id="I1KRVZ8kQh" role="3clFbG">
+            <node concept="nLn13" id="I1KRVZ8kQi" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="I1KRVZ8kQj" role="2OqNvi">
+              <node concept="chp4Y" id="I1KRVZ8kQk" role="cj9EA">
                 <ref role="cht4Q" to="86kt:4GwBkQO7BI" resolve="LetActivity" />
               </node>
             </node>
