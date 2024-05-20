@@ -43,11 +43,10 @@
       </concept>
       <concept id="3629783491436646477" name="formalodd.structure.SelectN" flags="ng" index="2gXKin">
         <property id="7351747083734467931" name="where" index="qxQ9u" />
-        <property id="7180107708835323041" name="partner" index="Ty85a" />
         <child id="3629783491436646478" name="count" index="2gXKik" />
         <child id="3629783491436646479" name="argument" index="2gXKil" />
       </concept>
-      <concept id="1729384597837121508" name="formalodd.structure.Binary" flags="ng" index="i7gn5">
+      <concept id="1729384597837121508" name="formalodd.structure.NumericalBinary" flags="ng" index="i7gn5">
         <property id="1729384597837121509" name="operator" index="i7gn4" />
         <child id="1729384597837121549" name="left" index="i7gCG" />
         <child id="1729384597837121551" name="right" index="i7gCI" />
@@ -109,9 +108,7 @@
       <concept id="2473444682900410212" name="formalodd.structure.Indices" flags="ng" index="2HyfYL">
         <child id="2473444682900410213" name="inner" index="2HyfYK" />
       </concept>
-      <concept id="2473444682901074821" name="formalodd.structure.Set" flags="ng" index="2HHGdg">
-        <child id="2473444682901074823" name="inner" index="2HHGdi" />
-      </concept>
+      <concept id="2473444682901074821" name="formalodd.structure.Set" flags="ng" index="2HHGdg" />
       <concept id="84585932959116711" name="formalodd.structure.EntityReference" flags="ng" index="QamZi">
         <reference id="1769396717817076213" name="entity" index="2CHb45" />
       </concept>
@@ -211,6 +208,7 @@
         <property id="8413181653841938194" name="increment" index="3gPasL" />
       </concept>
       <concept id="7590269384189550708" name="formalodd.structure.TODO_PresentationItem" flags="ng" index="1jsyQY">
+        <property id="8973940195234129178" name="colour" index="2S3B8l" />
         <property id="7590269384192110161" name="scaling" index="1j7ier" />
         <property id="7590269384189550714" name="method" index="1jsyQK" />
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
@@ -245,7 +243,9 @@
       </concept>
       <concept id="6216619391281853811" name="formalodd.structure.Array" flags="ng" index="1JriGl">
         <child id="6465847136229864916" name="size" index="BjBxy" />
-        <child id="7250805203419359611" name="inner" index="3xZm6h" />
+      </concept>
+      <concept id="829158756634596762" name="formalodd.structure.Collection" flags="ng" index="3O7tr$">
+        <child id="2036989786647822693" name="inner" index="SuHoe" />
       </concept>
       <concept id="2469205658733998634" name="formalodd.structure.ModelDescription" flags="ng" index="3Ovhds">
         <property id="2469205658733998637" name="role" index="3Ovhdr" />
@@ -335,41 +335,33 @@
       <node concept="ZOwpH" id="3dcVgfnYOdt" role="25gc1v">
         <property role="TrG5h" value="external-characteristics" />
         <property role="2QSBU6" value="each student has an array of external characteristics - each item has a discrete value" />
-        <node concept="1JriGl" id="3dcVgfnYOdu" role="zGXb3">
-          <node concept="26lliW" id="3dcVgfnYOdv" role="BjBxy">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="3dcVgfnYOep" resolve="num-external-characteristics" />
-          </node>
-          <node concept="354mTO" id="3dcVgfnYOdw" role="3xZm6h">
-            <property role="354mTX" value="0" />
-            <property role="354mTV" value="1" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="3dcVgfnYOdx" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="3dcVgfnYOdy" role="2IGf3i">
             <property role="XAmFg" value="We assume that some agent characteristics are always visible and we call them external characteristics." />
           </node>
         </node>
+        <node concept="1JriGl" id="6UBJavbtj0s" role="zGXb3">
+          <node concept="26lliW" id="6UBJavbtjAO" role="BjBxy">
+            <ref role="26lliz" node="3dcVgfnYOep" resolve="num-external-characteristics" />
+          </node>
+          <node concept="ZOwps" id="6UBJavbtkd6" role="SuHoe" />
+        </node>
       </node>
       <node concept="ZOwpH" id="3dcVgfnYOdz" role="25gc1v">
         <property role="TrG5h" value="internal-characteristics" />
         <property role="2QSBU6" value="each student has an array of internal characteristics - each item has a discrete value" />
-        <node concept="1JriGl" id="3dcVgfnYOd$" role="zGXb3">
-          <node concept="26lliW" id="3dcVgfnYOd_" role="BjBxy">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="3dcVgfnYOel" resolve="num-internal-characteristics" />
-          </node>
-          <node concept="354mTO" id="3dcVgfnYOdA" role="3xZm6h">
-            <property role="354mTX" value="0" />
-            <property role="354mTV" value="1" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="3dcVgfnYOdB" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
           <node concept="XAmFv" id="3dcVgfnYOdC" role="2IGf3i">
             <property role="XAmFg" value="We assume that some agent characteristics are not visible prior to an interaction and we call them internal characteristics." />
           </node>
+        </node>
+        <node concept="1JriGl" id="6UBJavbtlpV" role="zGXb3">
+          <node concept="26lliW" id="6UBJavbtm0$" role="BjBxy">
+            <ref role="26lliz" node="3dcVgfnYOel" resolve="num-internal-characteristics" />
+          </node>
+          <node concept="ZOwps" id="6UBJavbtmB7" role="SuHoe" />
         </node>
       </node>
       <node concept="ZOwpH" id="3dcVgfnYOdD" role="25gc1v">
@@ -466,41 +458,33 @@
       <node concept="ZOwpH" id="3dcVgfnYOe9" role="Qgzvn">
         <property role="TrG5h" value="ideal-external-characteristics" />
         <property role="2QSBU6" value="cultural values and norms for external characteristics reflected in a discrete value" />
-        <node concept="1JriGl" id="3dcVgfnYOea" role="zGXb3">
-          <node concept="26lliW" id="3dcVgfnYOeb" role="BjBxy">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="3dcVgfnYOep" resolve="num-external-characteristics" />
-          </node>
-          <node concept="354mTO" id="3dcVgfnYOec" role="3xZm6h">
-            <property role="354mTX" value="0" />
-            <property role="354mTV" value="1" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="3dcVgfnYOed" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="3dcVgfnYOee" role="2IGf3i">
             <property role="XAmFg" value="Theory of Norms. The ideal external values represent the cultural norms that pass to people. We use different numbers to represent different characteristics of the same type (eg hair). Numbers close in value represent characteristics that resemble. The ideal value represents the characteristic that is estimed highly by the society. If an interaction partner holds the value of this characteristic,he/she is evaluated positively in respect to this characteristic. Therefore, idealises values represent cultural expectations for agent characteristics. Different cultures value different characteristics. Thus, two agents from different cultures may have different idealised values." />
           </node>
         </node>
+        <node concept="1JriGl" id="7zUo7FY3ff_" role="zGXb3">
+          <node concept="26lliW" id="7zUo7FY3fg$" role="BjBxy">
+            <ref role="26lliz" node="3dcVgfnYOep" resolve="num-external-characteristics" />
+          </node>
+          <node concept="ZOwps" id="7zUo7FY3fhv" role="SuHoe" />
+        </node>
       </node>
       <node concept="ZOwpH" id="3dcVgfnYOef" role="Qgzvn">
         <property role="TrG5h" value="ideal-internal-characteristics" />
         <property role="2QSBU6" value="cultural values and norms for internal characteristics reflected in a discrete value" />
-        <node concept="1JriGl" id="3dcVgfnYOeg" role="zGXb3">
-          <node concept="26lliW" id="3dcVgfnYOeh" role="BjBxy">
-            <property role="1dr8U9" value="5yfUVburW9E/me" />
-            <ref role="26lliz" node="3dcVgfnYOel" resolve="num-internal-characteristics" />
-          </node>
-          <node concept="354mTO" id="3dcVgfnYOei" role="3xZm6h">
-            <property role="354mTX" value="0" />
-            <property role="354mTV" value="1" />
-          </node>
-        </node>
         <node concept="3Ovhfo" id="3dcVgfnYOej" role="1sMRTs">
           <property role="3Ovhf7" value="294onrmenaQ/EstablisedTheory" />
           <node concept="XAmFv" id="3dcVgfnYOek" role="2IGf3i">
             <property role="XAmFg" value="Theory of Norms. The explanation is the same as with the ideal-external characteristics." />
           </node>
+        </node>
+        <node concept="1JriGl" id="7zUo7FY3fpf" role="zGXb3">
+          <node concept="26lliW" id="7zUo7FY3fq9" role="BjBxy">
+            <ref role="26lliz" node="3dcVgfnYOel" resolve="num-internal-characteristics" />
+          </node>
+          <node concept="ZOwps" id="7zUo7FY3fr0" role="SuHoe" />
         </node>
       </node>
       <node concept="ZOwpH" id="3dcVgfnYOel" role="Qgzvn">
@@ -666,14 +650,14 @@
         <node concept="ZOwpH" id="3dcVgfnYOfb" role="2gUEkT">
           <property role="TrG5h" value="known-indices" />
           <property role="2QSBU6" value="each student knows specific characteristics of the other student reflected in the known indices, each number in the area shows the position of the known characteristics" />
-          <node concept="2HHGdg" id="3dcVgfnYOfc" role="zGXb3">
-            <node concept="ZOwps" id="3dcVgfnYOfd" role="2HHGdi" />
-          </node>
           <node concept="3Ovhfo" id="3dcVgfnYOfe" role="1sMRTs">
             <property role="3Ovhf7" value="294onrmenaP/Adhoc" />
             <node concept="XAmFv" id="3dcVgfnYOff" role="2IGf3i">
               <property role="XAmFg" value="We assume that agents store their interaction partners internal characteristics in their memory, portrayed in the parameter called known-indices." />
             </node>
+          </node>
+          <node concept="2HHGdg" id="6UBJavbvodi" role="zGXb3">
+            <node concept="ZOwps" id="6UBJavbvom0" role="SuHoe" />
           </node>
         </node>
         <node concept="3Ovhfo" id="3dcVgfnYOfg" role="1sMRTs">
@@ -822,13 +806,8 @@
       </node>
       <node concept="3Y$5KH" id="3dcVgfnYOfX" role="3Y$b7i">
         <ref role="3Y$5KI" node="3dcVgfnYOe9" resolve="ideal-external-characteristics" />
-        <node concept="ZOwoP" id="3dcVgfnYOfY" role="3Y$5KK">
-          <node concept="26lliW" id="3dcVgfnYOfZ" role="R_6SO">
-            <ref role="26lliz" node="3dcVgfnYOeT" resolve="external-ideal-characteristics" />
-          </node>
-          <node concept="2oK_Am" id="3dcVgfnYOg0" role="R_6SQ">
-            <property role="2oK_Ap" value="0" />
-          </node>
+        <node concept="2oK_Am" id="df75aN8h$F" role="3Y$5KK">
+          <property role="2oK_Ap" value="1" />
         </node>
       </node>
       <node concept="3Y$5KH" id="3dcVgfnYOg1" role="3Y$b7i">
@@ -893,18 +872,21 @@
         <property role="1jsyQX" value="students" />
         <property role="1jsyQK" value="39v_dEywMST/Count" />
         <property role="1j7ier" value="1" />
+        <property role="2S3B8l" value="4ezY39QkQ$E/blue" />
       </node>
       <node concept="1jsyQY" id="3dcVgfnYOgf" role="1jgZU$">
         <property role="1jsyQZ" value="average attraction" />
         <property role="1jsyQX" value="[attraction] of university-relationships" />
         <property role="1jsyQK" value="39v_dEywMSQ/Mean" />
         <property role="1j7ier" value="100" />
+        <property role="2S3B8l" value="4ezY39QkQzM/brown" />
       </node>
       <node concept="1jsyQY" id="3dcVgfnYOgg" role="1jgZU$">
         <property role="1jsyQZ" value="excluded students" />
         <property role="1jsyQX" value="students with [ excluded = true ]" />
         <property role="1jsyQK" value="39v_dEywMST/Count" />
         <property role="1j7ier" value="1" />
+        <property role="2S3B8l" value="4ezY39QkQzX/green" />
       </node>
       <node concept="3gPary" id="3dcVgfnYOgh" role="2kDK7e">
         <property role="TrG5h" value="experiment 1" />
@@ -1331,14 +1313,13 @@
         <node concept="2g0R4C" id="3dcVgfnYOi0" role="2QCFRE">
           <property role="2g0R4D" value="5yfUVburW9E/me" />
         </node>
-        <node concept="2gXKin" id="3dcVgfnYOi1" role="2QCFRE">
-          <property role="Ty85a" value="5yfUVburW9F/other" />
-          <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
-          <node concept="2QqdZ_" id="3dcVgfnYOi2" role="2gXKik">
+        <node concept="2gXKin" id="3_uAl3hxiRt" role="2QCFRE">
+          <property role="qxQ9u" value="4GwBkQLLec/anywhere" />
+          <node concept="2QqdZ_" id="3_uAl3hxiRB" role="2gXKik">
             <property role="2QqdZA" value="50" />
           </node>
-          <node concept="2QpFD0" id="3dcVgfnYOi3" role="2gXKil">
-            <node concept="2zkEhW" id="5rSjNRmGuzF" role="2jOjfh">
+          <node concept="2QpFD0" id="3_uAl3hxiRE" role="2gXKil">
+            <node concept="2zkEhW" id="3_uAl3hxiRH" role="2jOjfh">
               <ref role="2CHb45" node="3dcVgfnYOeX" resolve="student" />
             </node>
           </node>
@@ -1349,14 +1330,13 @@
         <node concept="2g0R4C" id="3dcVgfnYOi6" role="2QCFRE">
           <property role="2g0R4D" value="5yfUVburW9E/me" />
         </node>
-        <node concept="2gXKin" id="3dcVgfnYOi7" role="2QCFRE">
-          <property role="Ty85a" value="5yfUVburW9F/other" />
+        <node concept="2gXKin" id="3_uAl3hxiR7" role="2QCFRE">
           <property role="qxQ9u" value="4GwBkQLLec/anywhere" />
-          <node concept="2QqdZ_" id="3dcVgfnYOi8" role="2gXKik">
+          <node concept="2QqdZ_" id="3_uAl3hxiRh" role="2gXKik">
             <property role="2QqdZA" value="50" />
           </node>
-          <node concept="2QpFD0" id="3dcVgfnYOi9" role="2gXKil">
-            <node concept="2zkEhW" id="5rSjNRmGuzB" role="2jOjfh">
+          <node concept="2QpFD0" id="3_uAl3hxiRk" role="2gXKil">
+            <node concept="2zkEhW" id="3_uAl3hxiRn" role="2jOjfh">
               <ref role="2CHb45" node="3dcVgfnYOeX" resolve="student" />
             </node>
           </node>
@@ -1432,10 +1412,10 @@
               <ref role="26lliz" node="3dcVgfnYOf7" resolve="attraction" />
             </node>
             <node concept="2jQCjV" id="3dcVgfnYOiz" role="26hFip">
-              <node concept="2oK_Am" id="3dcVgfnYOi$" role="2jQCjS">
-                <property role="2oK_Ap" value="0" />
-              </node>
               <node concept="2oK_Am" id="3dcVgfnYOi_" role="2jQCjT">
+                <property role="2oK_Ap" value="1" />
+              </node>
+              <node concept="2oK_Am" id="df75aNwa_D" role="2jQCjS">
                 <property role="2oK_Ap" value="1" />
               </node>
             </node>
@@ -1515,7 +1495,7 @@
             </node>
           </node>
           <node concept="26hFik" id="3dcVgfnYOj0" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$I/eq" />
+            <property role="26hFil" value="24yfUKsyf$J/ne" />
             <node concept="RLbTy" id="3dcVgfnYOj1" role="26hFir">
               <ref role="RLbTH" node="3dcVgfnYOiw" resolve="me-reject-interaction" />
             </node>
@@ -1615,15 +1595,13 @@
         <property role="2QSBU6" value="learn characteristics during interaction" />
         <node concept="RZfIr" id="3dcVgfnYOjw" role="18tn1X">
           <property role="TrG5h" value="learned-indices" />
-          <node concept="2gXKin" id="3dcVgfnYOjx" role="RZfIc">
-            <property role="Ty85a" value="5yfUVburW9E/me" />
+          <node concept="2gXKin" id="3_uAl3hxmVw" role="RZfIc">
             <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
-            <node concept="26lliW" id="3dcVgfnYOjy" role="2gXKik">
-              <property role="1dr8U9" value="5yfUVburW9E/me" />
+            <node concept="26lliW" id="3_uAl3hxmVD" role="2gXKik">
               <ref role="26lliz" node="3dcVgfnYOeH" resolve="amount-learned-in-interaction" />
             </node>
-            <node concept="2HyfYL" id="3dcVgfnYOjz" role="2gXKil">
-              <node concept="26lliW" id="3dcVgfnYOj$" role="2HyfYK">
+            <node concept="2HyfYL" id="3_uAl3hxmVG" role="2gXKil">
+              <node concept="26lliW" id="3_uAl3hxmVM" role="2HyfYK">
                 <property role="1dr8U9" value="5yfUVburW9F/other" />
                 <ref role="26lliz" node="3dcVgfnYOdz" resolve="internal-characteristics" />
               </node>
@@ -1802,11 +1780,19 @@
       </node>
       <node concept="1Svl6F" id="4iI7UYo8Wze" role="250j5S">
         <ref role="1Svl6C" node="3dcVgfnYOiu" resolve="free-interaction" />
-        <node concept="2gXKin" id="4iI7UYo8Wzs" role="2QCFRE">
-          <property role="Ty85a" value="5yfUVburW9E/me" />
-          <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
-          <node concept="ZOwqL" id="4iI7UYo8Wzt" role="2gXKik" />
-          <node concept="2QpFD0" id="4iI7UYo8Wzu" role="2gXKil" />
+        <node concept="2g0R4C" id="3_uAl3hxiQr" role="2QCFRE">
+          <property role="2g0R4D" value="5yfUVburW9E/me" />
+        </node>
+        <node concept="2gXKin" id="3_uAl3hxiQ_" role="2QCFRE">
+          <property role="qxQ9u" value="4GwBkQLLec/anywhere" />
+          <node concept="2QqdZ_" id="3_uAl3hxiQJ" role="2gXKik">
+            <property role="2QqdZA" value="50" />
+          </node>
+          <node concept="2QpFD0" id="3_uAl3hxiQW" role="2gXKil">
+            <node concept="2zkEhW" id="3_uAl3hxiQZ" role="2jOjfh">
+              <ref role="2CHb45" node="3dcVgfnYOeX" resolve="student" />
+            </node>
+          </node>
         </node>
       </node>
     </node>

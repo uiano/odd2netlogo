@@ -19,17 +19,13 @@
         <child id="6381578350481727273" name="left" index="26hFir" />
       </concept>
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
+        <property id="4361115321892423118" name="accessWho" index="1dr8U9" />
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
         <property id="6381578350475854331" name="killWho" index="26S2D9" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
-      <concept id="3248208248173639276" name="formalodd.structure.TODO_CountAllEntities" flags="ng" index="9Ws9t">
-        <child id="3248208248173639277" name="criteria" index="9Ws9s" />
-        <child id="3248208248173639334" name="what" index="9Wsan" />
-      </concept>
-      <concept id="3629783491431687666" name="formalodd.structure.EntityExpression" flags="ng" index="2g0R4C" />
       <concept id="3629783491434196471" name="formalodd.structure.Collect" flags="ng" index="2gRb$H">
         <property id="3629783491434196541" name="kind" index="2gRbFB" />
         <child id="3629783491434196472" name="inner" index="2gRb$y" />
@@ -39,7 +35,7 @@
         <child id="3629783491436646478" name="count" index="2gXKik" />
         <child id="3629783491436646479" name="argument" index="2gXKil" />
       </concept>
-      <concept id="1729384597837121508" name="formalodd.structure.Binary" flags="ng" index="i7gn5">
+      <concept id="1729384597837121508" name="formalodd.structure.NumericalBinary" flags="ng" index="i7gn5">
         <property id="1729384597837121509" name="operator" index="i7gn4" />
         <child id="1729384597837121549" name="left" index="i7gCG" />
         <child id="1729384597837121551" name="right" index="i7gCI" />
@@ -68,12 +64,9 @@
         <child id="6529568716141041572" name="codes" index="2GyEu2" />
         <child id="7004962584162214778" name="stochasticityCode" index="1sOCcx" />
       </concept>
-      <concept id="7308686357753326564" name="formalodd.structure.ConcreteEntityReference" flags="ng" index="2lNc1w">
-        <reference id="6400669868561546218" name="generalEntity" index="8YSiZ" />
-      </concept>
       <concept id="7308686357753326565" name="formalodd.structure.Action" flags="ng" index="2lNc1x">
         <child id="3836572362087288385" name="activities" index="18tn1X" />
-        <child id="3836572362087288387" name="actor" index="18tn1Z" />
+        <child id="3836572362087288387" name="acctiotor" index="18tn1Z" />
       </concept>
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
@@ -81,9 +74,7 @@
       <concept id="8985793055694834563" name="formalodd.structure.QuantifiedConditionWithComparison" flags="ng" index="2prNyJ">
         <child id="3980028531013629245" name="comp" index="2lLPfx" />
       </concept>
-      <concept id="7351747083726060654" name="formalodd.structure.EnvironmentEntityReference" flags="ng" index="q1XHF">
-        <reference id="7351747083726060655" name="envEntity" index="q1XHE" />
-      </concept>
+      <concept id="7351747083726060654" name="formalodd.structure.EnvironmentEntityReference" flags="ng" index="q1XHF" />
       <concept id="8985793055706420244" name="formalodd.structure.DecrementAttribute" flags="ng" index="2qfAsS" />
       <concept id="8985793055706420243" name="formalodd.structure.IncrementAttribute" flags="ng" index="2qfAsZ" />
       <concept id="7351747083747985539" name="formalodd.structure.Move" flags="ng" index="rlEY6">
@@ -102,15 +93,16 @@
         <child id="8985793055718208560" name="rhs" index="2rWCss" />
         <child id="524622041952477113" name="lhs" index="2OFgHe" />
       </concept>
-      <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW">
-        <reference id="1477363848331789037" name="entity" index="2zkEhU" />
-      </concept>
+      <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.Clone" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
         <child id="4851181497927696060" name="cloneValues" index="3BJUly" />
+      </concept>
+      <concept id="84585932959116711" name="formalodd.structure.EntityReference" flags="ng" index="QamZi">
+        <reference id="1769396717817076213" name="entity" index="2CHb45" />
       </concept>
       <concept id="84585932958802159" name="formalodd.structure.AnyEntity" flags="ng" index="Qbqaq" />
       <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
@@ -134,18 +126,9 @@
       <concept id="6194510257713286164" name="formalodd.structure.LetDefinition" flags="ng" index="TtdTm">
         <child id="6194510257713286166" name="value" index="TtdTk" />
       </concept>
-      <concept id="2387540760901536890" name="formalodd.structure.TODO_ConditionWith" flags="ng" index="XrRfm">
-        <property id="2387540760905457404" name="comparison" index="XEM5g" />
-        <property id="5433441106477358816" name="baseEntityAttributes" index="1oWuG6" />
-      </concept>
-      <concept id="2387540760901534885" name="formalodd.structure.TODO_CountEntities" flags="ng" index="XrRG9">
-        <property id="6101366197163833923" name="where" index="2eaH9T" />
-        <child id="2387540760901213588" name="countCondition" index="XqA8S" />
-      </concept>
       <concept id="6620640720694302583" name="formalodd.structure.InformalText" flags="ng" index="XAmFv">
         <property id="6620640720694302584" name="text" index="XAmFg" />
       </concept>
-      <concept id="2387540760905107680" name="formalodd.structure.TODO_ConditionWithSame" flags="ng" index="XCvtc" />
       <concept id="3840659476812055925" name="formalodd.structure.Shape" flags="ng" index="ZOwo7">
         <property id="6381578350498456053" name="size" index="27hOD7" />
         <property id="6381578350498455269" name="shape" index="27hRln" />
@@ -179,6 +162,7 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
+      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055972" name="formalodd.structure.EnvironmentEntity" flags="ng" index="ZOwrm">
         <child id="3961341278978876244" name="defaultColour" index="21mi6N" />
         <child id="6930332985983552891" name="initialisationLocation" index="2W_r1q" />
@@ -202,6 +186,7 @@
         <property id="827001546371602896" name="wrapVertical" index="1jlS1m" />
         <property id="3864151261535133774" name="pixelSize" index="1jzt_n" />
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
+        <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
       <concept id="8413181653841938009" name="formalodd.structure.TODO_DataCollection" flags="ng" index="3gPapU">
         <property id="5813355112904206453" name="timesteps" index="3Dtwvp" />
@@ -222,6 +207,7 @@
         <property id="8413181653841938194" name="increment" index="3gPasL" />
       </concept>
       <concept id="7590269384189550708" name="formalodd.structure.TODO_PresentationItem" flags="ng" index="1jsyQY">
+        <property id="8973940195234129178" name="colour" index="2S3B8l" />
         <property id="7590269384192110161" name="scaling" index="1j7ier" />
         <property id="7590269384189550714" name="method" index="1jsyQK" />
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
@@ -269,7 +255,7 @@
   </registry>
   <node concept="ZOwpP" id="qdXC$xz0Qi">
     <property role="TrG5h" value="Wolf Sheep" />
-    <property role="2QSBU6" value="The Wolf Sheep Simple 5 model explores the population dynamics in a minimal ecosystem comprising of wolves, sheep, and grass. The model allows different outcomes to emerge as we alter the number of wolves, sheep, patches of grass, the energetic requirements of the animals and the growth/ reproduction rate of the 3 ecosystem elements." />
+    <property role="2QSBU6" value="The Wolf Sheep Simple 5 model explores the population dynamics in a minimal ecosystem comprising of wolves, sheep, and grass. The model allows different outcomes to emerge as we alter the number of wolves, sheep, patches of grass, the energetic requirements of the animals and the growth" />
     <node concept="2lMhBk" id="qdXC$xz0Ql" role="2J7coG">
       <node concept="1Svl6F" id="1i0DDuTjMbC" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlqG4" resolve="move" />
@@ -285,15 +271,14 @@
       </node>
       <node concept="1Svl6F" id="1i0DDuTjMdW" role="250j5S">
         <ref role="1Svl6C" node="3kYfzLXlrhO" resolve="eat-sheep" />
-        <node concept="2g0R4C" id="1i0DDuTjMdX" role="2QCFRE" />
         <node concept="2gXKin" id="1i0DDuTjMdY" role="2QCFRE">
           <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
           <node concept="2oK_Am" id="1i0DDuTjMdZ" role="2gXKik">
             <property role="2oK_Ap" value="1" />
           </node>
           <node concept="2QpFD0" id="1i0DDuTjMe0" role="2gXKil">
-            <node concept="2lNc1w" id="3sVTHM$XLVo" role="2jOjfh">
-              <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
+            <node concept="2zkEhW" id="6UBJavcGeJK" role="2jOjfh">
+              <ref role="2CHb45" node="qdXC$xz0Qv" resolve="sheep" />
             </node>
           </node>
         </node>
@@ -326,6 +311,7 @@
         <node concept="2rRKAk" id="6o6DKlYbSzt" role="18tn1X">
           <node concept="2qfAsZ" id="6o6DKlYbSzY" role="2rRKAh">
             <node concept="26lliW" id="6o6DKlYbSzZ" role="2OFgHe">
+              <property role="1dr8U9" value="5yfUVburW9E/me" />
               <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
             </node>
             <node concept="26lliW" id="6o6DKlYbS$2" role="2rWCss">
@@ -350,11 +336,11 @@
             </node>
           </node>
         </node>
-        <node concept="2lNc1w" id="3kYfzLXlqJu" role="18tn1Z">
-          <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
+        <node concept="2zkEhW" id="6UBJavcGeJW" role="18tn1Z">
+          <ref role="2CHb45" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
-        <node concept="2lNc1w" id="6F4sr4mcPqd" role="hfX4z">
-          <ref role="8YSiZ" node="1LeTgidqm5Z" resolve="grass" />
+        <node concept="q1XHF" id="6UBJavcGeK3" role="hfX4z">
+          <ref role="2CHb45" node="1LeTgidqm5Z" resolve="grass" />
         </node>
       </node>
       <node concept="BZNO7" id="3kYfzLXlrhO" role="2GyEu2">
@@ -368,14 +354,15 @@
             <ref role="26lliz" node="4GwBkRvkmH" resolve="energy-gain-from-sheep" />
           </node>
           <node concept="26lliW" id="t7PfuNXOjt" role="2OFgHe">
+            <property role="1dr8U9" value="5yfUVburW9E/me" />
             <ref role="26lliz" node="6ow5IfzpoId" resolve="energy" />
           </node>
         </node>
-        <node concept="2lNc1w" id="3kYfzLXlriR" role="18tn1Z">
-          <ref role="8YSiZ" node="qdXC$xz0Qt" resolve="wolf" />
+        <node concept="2zkEhW" id="6UBJavcGeNc" role="18tn1Z">
+          <ref role="2CHb45" node="qdXC$xz0Qt" resolve="wolf" />
         </node>
-        <node concept="2lNc1w" id="5gquUl5c0qw" role="hfX4z">
-          <ref role="8YSiZ" node="qdXC$xz0Qv" resolve="sheep" />
+        <node concept="2zkEhW" id="6UBJavcGeRB" role="hfX4z">
+          <ref role="2CHb45" node="qdXC$xz0Qv" resolve="sheep" />
         </node>
       </node>
       <node concept="2lNc1x" id="3kYfzLXlrpQ" role="2GyEu2">
@@ -487,7 +474,7 @@
       <node concept="ZOwrm" id="1LeTgidqm5Z" role="2kDK73">
         <property role="TrG5h" value="grass" />
         <node concept="rTCB5" id="6o6DKlXVj2$" role="21mi6N">
-          <property role="ZOwrO" value="22rmwLH$XpM/green" />
+          <property role="ZOwrO" value="4ezY39QkQ$4/lime" />
           <node concept="26lliW" id="6o6DKlXVj2A" role="rTCB6">
             <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
           </node>
@@ -498,7 +485,7 @@
         <property role="TrG5h" value="wolf" />
         <property role="2QSBU6" value="wolves" />
         <node concept="ZOwrR" id="6o6DKlXk0p_" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XoV/brown" />
+          <property role="ZOwrO" value="4ezY39QkQzD/gray" />
         </node>
         <node concept="ZOwo7" id="qdXC$xz0QF" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa7e/wolf" />
@@ -516,7 +503,7 @@
         <property role="TrG5h" value="sheep" />
         <property role="2QSBU6" value="sheep" />
         <node concept="ZOwrR" id="qdXC$xz0Qy" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XlP/white" />
+          <property role="ZOwrO" value="4ezY39QkQ_h/pink" />
         </node>
         <node concept="ZOwo7" id="qdXC$xz0R5" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa18/sheep" />
@@ -532,15 +519,6 @@
       </node>
       <node concept="26lliW" id="64QC5GXAPEa" role="1shrDG">
         <ref role="26lliz" node="6o6DKlXk0oP" resolve="grass-amount" />
-      </node>
-      <node concept="q1XHF" id="1i0DDuROwbh" role="2zXruJ">
-        <ref role="q1XHE" node="1LeTgidqm5Z" resolve="grass" />
-      </node>
-      <node concept="2zkEhW" id="1i0DDuRZJeO" role="2zXruJ">
-        <ref role="2zkEhU" node="qdXC$xz0Qt" resolve="wolf" />
-      </node>
-      <node concept="2zkEhW" id="1i0DDuRZJeT" role="2zXruJ">
-        <ref role="2zkEhU" node="qdXC$xz0Qv" resolve="sheep" />
       </node>
       <node concept="3Y$5KH" id="4C0fQ2OXJag" role="3Y$b7i">
         <ref role="3Y$5KI" node="4GwBkRvkmT" resolve="energy-gain-from-grass" />
@@ -595,6 +573,15 @@
           <property role="2rHBro" value="3.5" />
         </node>
       </node>
+      <node concept="2zkEhW" id="6UBJavcGeJn" role="2zXruJ">
+        <ref role="2CHb45" node="qdXC$xz0Qt" resolve="wolf" />
+      </node>
+      <node concept="2zkEhW" id="6UBJavcGeJt" role="2zXruJ">
+        <ref role="2CHb45" node="qdXC$xz0Qv" resolve="sheep" />
+      </node>
+      <node concept="q1XHF" id="6UBJavcGeJx" role="2zXruJ">
+        <ref role="2CHb45" node="1LeTgidqm5Z" resolve="grass" />
+      </node>
     </node>
     <node concept="3Ovhds" id="6Uof7aibXch" role="1BQTrk">
       <property role="3Ovhdr" value="6Uof7aieTi5/Theoretical_Expositon" />
@@ -618,13 +605,9 @@
       </node>
       <node concept="31WWdx" id="1i0DDuT5reI" role="2GvpiS">
         <property role="TrG5h" value="Copyright and License" />
-        <node concept="XAmFv" id="1i0DDuT5reJ" role="31Rc_p">
-          <property role="XAmFg" value="Copyright 2020 University of Agder." />
+        <node concept="XAmFv" id="1i0DDuT5reL" role="31Rc_p">
+          <property role="XAmFg" value="Copyright 2020 University of Agder.                                              &#10;![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
         </node>
-        <node concept="XAmFv" id="1i0DDuT5reK" role="31Rc_p">
-          <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
-        </node>
-        <node concept="XAmFv" id="1i0DDuT5reL" role="31Rc_p" />
         <node concept="XAmFv" id="1i0DDuT5reM" role="31Rc_p">
           <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
         </node>
@@ -731,18 +714,21 @@
         <property role="1jsyQX" value="sheeps" />
         <property role="1jsyQK" value="39v_dEywMST/Count" />
         <property role="1j7ier" value="1" />
+        <property role="2S3B8l" value="4ezY39QkQzD/gray" />
       </node>
       <node concept="1jsyQY" id="6lHtNhoC3Y$" role="1jgZU$">
         <property role="1jsyQZ" value="grass" />
         <property role="1jsyQK" value="39v_dEywMSQ/Mean" />
         <property role="1jsyQX" value="[ grass-amount ] of patches" />
         <property role="1j7ier" value="25" />
+        <property role="2S3B8l" value="4ezY39QkQ_h/pink" />
       </node>
       <node concept="1jsyQY" id="6lHtNhoC3Y4" role="1jgZU$">
         <property role="1jsyQX" value="wolfs" />
         <property role="1jsyQZ" value="wolves" />
         <property role="1jsyQK" value="39v_dEywMST/Count" />
         <property role="1j7ier" value="10" />
+        <property role="2S3B8l" value="4ezY39QkQ$4/lime" />
       </node>
       <node concept="1g3uKF" id="6lHtNhoC3Y2" role="2kDK7N">
         <property role="1jzKJm" value="17" />
@@ -801,6 +787,12 @@
     <property role="TrG5h" value="Segregation" />
     <property role="2QSBU6" value="This project models the behavior of red and green turtles in a mythical pond, which want to live near some of &quot;its own&quot;." />
     <node concept="ZOwpU" id="qdXC$ygXa6" role="3$p12O">
+      <node concept="ZOwpW" id="6UBJavcGrbA" role="ZOwpT">
+        <property role="TrG5h" value="green-turtle" />
+      </node>
+      <node concept="ZOwpW" id="6UBJavcGrc4" role="ZOwpT">
+        <property role="TrG5h" value="red-turtle" />
+      </node>
       <node concept="3gPaqd" id="1AQ4FynEEiW" role="25gc1v">
         <property role="TrG5h" value="happy?" />
         <property role="2QSBU6" value="for each turtle, indicates whether at least %-similar-wanted percent of that turtle's neighbors are the same color as the turtle" />
@@ -809,23 +801,7 @@
           <node concept="RLbTy" id="1AQ4FynEEiY" role="26hFir">
             <ref role="RLbTH" node="I1KRVYqSV8" resolve="similar-nearby" />
           </node>
-          <node concept="i8Uhg" id="1AQ4FynEEiZ" role="26hFip">
-            <node concept="i7gn5" id="1AQ4FynEEj0" role="i8Uhj">
-              <property role="i7gn4" value="1w00y4a7gvD/divide" />
-              <node concept="i7gn5" id="1AQ4FynEEj1" role="i7gCG">
-                <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
-                <node concept="26lliW" id="1AQ4FynEEj2" role="i7gCG">
-                  <ref role="26lliz" node="6dSewhkDZHP" resolve="%-similar-wanted" />
-                </node>
-                <node concept="RLbTy" id="1AQ4FynEEj3" role="i7gCI">
-                  <ref role="RLbTH" node="I1KRVYqSX3" resolve="total-nearby" />
-                </node>
-              </node>
-              <node concept="2oK_Am" id="1AQ4FynEEj4" role="i7gCI">
-                <property role="2oK_Ap" value="100" />
-              </node>
-            </node>
-          </node>
+          <node concept="ZOwqL" id="6UBJavcGr9$" role="26hFip" />
         </node>
       </node>
       <node concept="RZfIr" id="3sVTHM$u28i" role="2kDtdp">
@@ -851,70 +827,52 @@
       <node concept="RZfIr" id="3sVTHMzOc_6" role="2kDtdp">
         <property role="TrG5h" value="percent-similar" />
         <property role="2QSBU6" value="on the average, what percent of a turtle's neighbours are the same colour as that turtle?" />
-        <node concept="i7gn5" id="3sVTHM$u29e" role="RZfIc">
+        <node concept="i7gn5" id="6UBJavcGh6n" role="RZfIc">
           <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
-          <node concept="2oK_Am" id="3sVTHM$u29M" role="i7gCI">
-            <property role="2oK_Ap" value="100" />
+          <node concept="i8Uhg" id="6UBJavcGh7e" role="i7gCG">
+            <node concept="ZOwqL" id="6UBJavcGh7g" role="i8Uhj" />
           </node>
-          <node concept="i8Uhg" id="3sVTHM$u29o" role="i7gCG">
-            <node concept="i7gn5" id="3sVTHM$u29p" role="i8Uhj">
-              <property role="i7gn4" value="1w00y4a7gvD/divide" />
-              <node concept="RLbTy" id="3sVTHM$u29D" role="i7gCI">
-                <ref role="RLbTH" node="3sVTHM$u28z" resolve="total-neighbours" />
-              </node>
-              <node concept="RLbTy" id="3sVTHM$u29A" role="i7gCG">
-                <ref role="RLbTH" node="3sVTHM$u28i" resolve="similar-neighbours" />
-              </node>
-            </node>
+          <node concept="2oK_Am" id="6UBJavcGh9A" role="i7gCI">
+            <property role="2oK_Ap" value="100" />
           </node>
         </node>
       </node>
       <node concept="RZfIr" id="3sVTHMzOc_d" role="2kDtdp">
         <property role="TrG5h" value="percent-unhappy" />
         <property role="2QSBU6" value="what percent of the turtles are unhappy?" />
-        <node concept="i7gn5" id="3sVTHM$u29X" role="RZfIc">
-          <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
-          <node concept="i8Uhg" id="3sVTHM$u2a9" role="i7gCG">
-            <node concept="i7gn5" id="3sVTHM$u2af" role="i8Uhj">
-              <property role="i7gn4" value="1w00y4a7gvD/divide" />
-              <node concept="9Ws9t" id="2OjX34$Wo9C" role="i7gCG">
-                <node concept="2QpFD0" id="2OjX34$Wo9I" role="9Wsan">
-                  <node concept="Qbqaq" id="2OjX34$Wo9L" role="2jOjfh" />
-                </node>
-                <node concept="26hFik" id="2OjX34$Wo9N" role="9Ws9s">
-                  <property role="26hFil" value="24yfUKsyf$I/eq" />
-                  <node concept="26lliW" id="1AQ4FynHLRW" role="26hFir">
-                    <ref role="26lliz" node="1AQ4FynEEiW" resolve="happy?" />
-                  </node>
-                  <node concept="2jp67I" id="2OjX34_0h95" role="26hFip" />
-                </node>
-              </node>
-              <node concept="26lliW" id="2OjX34$Szpf" role="i7gCI">
-                <ref role="26lliz" node="2OjX34$BRLT" resolve="number-of-turtles" />
-              </node>
-            </node>
-          </node>
-          <node concept="2oK_Am" id="3sVTHM$u2a6" role="i7gCI">
-            <property role="2oK_Ap" value="100" />
-          </node>
+        <node concept="2gRb$H" id="6UBJavcGhKY" role="RZfIc">
+          <property role="2gRbFB" value="39v_dEywMST/Count" />
+          <node concept="ZOwqL" id="6UBJavcGhL0" role="2gRb$y" />
         </node>
       </node>
       <node concept="RZfIr" id="I1KRVYqSV8" role="3AlXHa">
         <property role="TrG5h" value="similar-nearby" />
         <property role="2QSBU6" value="how many neighboring patches have a turtle with my color?" />
-        <node concept="XrRG9" id="I1KRVYqSVc" role="RZfIc">
-          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
-          <node concept="XCvtc" id="I1KRVYqSVd" role="XqA8S">
-            <property role="1oWuG6" value="2kHWdXWIfC0/color" />
-            <property role="XEM5g" value="24yfUKsyf$I/eq" />
+        <node concept="2gRb$H" id="3_uAl3hxncL" role="RZfIc">
+          <property role="2gRbFB" value="39v_dEywMST/Count" />
+          <node concept="2gXKin" id="6UBJavcGhgv" role="2gRb$y">
+            <property role="qxQ9u" value="5AVjrpZ9jP5/neighbour" />
+            <node concept="26lliW" id="6UBJavcGhs8" role="2gXKik">
+              <ref role="26lliz" node="2OjX34$BRLT" resolve="number-of-turtles" />
+            </node>
+            <node concept="2QpFD0" id="6UBJavcGhsj" role="2gXKil" />
           </node>
         </node>
       </node>
       <node concept="RZfIr" id="I1KRVYqSX3" role="3AlXHa">
         <property role="TrG5h" value="total-nearby" />
         <property role="2QSBU6" value="how many neighboring patches have a turtle?" />
-        <node concept="XrRG9" id="3sVTHMyZb7q" role="RZfIc">
-          <property role="2eaH9T" value="5iGq3FqxFCM/neighbour" />
+        <node concept="2gRb$H" id="3_uAl3hxncD" role="RZfIc">
+          <property role="2gRbFB" value="39v_dEywMST/Count" />
+          <node concept="2gXKin" id="6UBJavcGhlV" role="2gRb$y">
+            <property role="qxQ9u" value="5AVjrpZ9jP5/neighbour" />
+            <node concept="26lliW" id="6UBJavcGhrX" role="2gXKik">
+              <ref role="26lliz" node="2OjX34$BRLT" resolve="number-of-turtles" />
+            </node>
+            <node concept="2QpFD0" id="6UBJavcGhrD" role="2gXKil">
+              <node concept="Qbqaq" id="6UBJavcGhrQ" role="2jOjfh" />
+            </node>
+          </node>
         </node>
       </node>
       <node concept="ZOwpH" id="6dSewhkDZHP" role="Qgzvn">
@@ -927,77 +885,17 @@
         <property role="2QSBU6" value="the total number of turtles with 50% green and 50% red" />
         <node concept="ZOwps" id="2OjX34$BRMb" role="zGXb3" />
       </node>
-      <node concept="ZOwpW" id="qdXC$ygXa8" role="ZOwpT">
-        <property role="TrG5h" value="green-turtle" />
-        <property role="2QSBU6" value="a green turtle" />
-        <node concept="ZOwrR" id="qdXC$ygXaM" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XpM/green" />
-        </node>
-        <node concept="ZOwo7" id="qdXC$yky1D" role="ZOwpC">
-          <property role="27hRln" value="5yfUVbvMa5v/turtle" />
-          <property role="27hOD7" value="1" />
-        </node>
-        <node concept="RFdHg" id="6dSewhl3vDu" role="RFdH4" />
-        <node concept="i7gn5" id="2OjX34$BRMg" role="RIgNU">
-          <property role="i7gn4" value="1w00y4a7gvD/divide" />
-          <node concept="26lliW" id="2OjX34$OAXt" role="i7gCG">
-            <ref role="26lliz" node="2OjX34$BRLT" resolve="number-of-turtles" />
-          </node>
-          <node concept="2oK_Am" id="2OjX34$BRMp" role="i7gCI">
-            <property role="2oK_Ap" value="2" />
-          </node>
-        </node>
-      </node>
-      <node concept="ZOwpW" id="qdXC$ygXaQ" role="ZOwpT">
-        <property role="TrG5h" value="red-turtle" />
-        <property role="2QSBU6" value="a red turtle" />
-        <node concept="ZOwrR" id="qdXC$ygXaZ" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$Xl$/red" />
-        </node>
-        <node concept="ZOwo7" id="qdXC$yky1H" role="ZOwpC">
-          <property role="27hRln" value="5yfUVbvMa5v/turtle" />
-          <property role="27hOD7" value="1" />
-        </node>
-        <node concept="RFdHg" id="6dSewhl3vDy" role="RFdH4" />
-        <node concept="i7gn5" id="2OjX34$BRMs" role="RIgNU">
-          <property role="i7gn4" value="1w00y4a7gvD/divide" />
-          <node concept="26lliW" id="2OjX34$OAXq" role="i7gCG">
-            <ref role="26lliz" node="2OjX34$BRLT" resolve="number-of-turtles" />
-          </node>
-          <node concept="2oK_Am" id="2OjX34$BRMy" role="i7gCI">
-            <property role="2oK_Ap" value="2" />
-          </node>
-        </node>
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnS5" role="2zXruJ">
-        <ref role="8YSiZ" node="qdXC$ygXa8" resolve="green-turtle" />
-      </node>
-      <node concept="2lNc1w" id="1i0DDuRwnS7" role="2zXruJ">
-        <ref role="8YSiZ" node="qdXC$ygXaQ" resolve="red-turtle" />
-      </node>
-      <node concept="2zkEhW" id="1i0DDuScWwA" role="2zXruJ">
-        <ref role="2zkEhU" node="qdXC$ygXa8" resolve="green-turtle" />
-      </node>
-      <node concept="2zkEhW" id="1i0DDuScWwE" role="2zXruJ">
-        <ref role="2zkEhU" node="qdXC$ygXaQ" resolve="red-turtle" />
-      </node>
-      <node concept="3Y$5KH" id="4C0fQ2OXJaJ" role="3Y$b7i">
-        <ref role="3Y$5KI" node="6dSewhkDZHP" resolve="%-similar-wanted" />
-        <node concept="21jJIL" id="4C0fQ2P1Iq$" role="3Y$5KK">
-          <property role="21jJIY" value="0" />
-          <property role="21jJIV" value="100" />
-          <property role="2rHBro" value="30" />
-          <property role="21jJI7" value="1" />
-        </node>
-      </node>
-      <node concept="3Y$5KH" id="2OjX34$BRM7" role="3Y$b7i">
+      <node concept="3Y$5KH" id="6UBJavcGr6R" role="3Y$b7i">
         <ref role="3Y$5KI" node="2OjX34$BRLT" resolve="number-of-turtles" />
-        <node concept="21jJIL" id="2OjX34$BRMe" role="3Y$5KK">
-          <property role="2rHBro" value="2000" />
-          <property role="21jJIV" value="2500" />
-          <property role="21jJI7" value="10" />
-          <property role="21jJIY" value="500" />
-        </node>
+      </node>
+      <node concept="3Y$5KH" id="6UBJavcGr6T" role="3Y$b7i">
+        <ref role="3Y$5KI" node="6dSewhkDZHP" resolve="%-similar-wanted" />
+      </node>
+      <node concept="2zkEhW" id="6UBJavcGrbO" role="2zXruJ">
+        <ref role="2CHb45" node="6UBJavcGrbA" />
+      </node>
+      <node concept="2zkEhW" id="6UBJavcGrck" role="2zXruJ">
+        <ref role="2CHb45" node="6UBJavcGrc4" />
       </node>
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
@@ -1053,7 +951,6 @@
         </node>
         <node concept="1Svl6F" id="3kYfzLXouWE" role="18tn1X">
           <ref role="1Svl6C" node="qdXC$yrH6d" resolve="move-on-when-occupied" />
-          <node concept="2g0R4C" id="3sVTHM$OcZX" role="2QCFRE" />
           <node concept="2gXKin" id="3sVTHM$Od03" role="2QCFRE">
             <property role="qxQ9u" value="5AVjrpZ9jP4/sameSpot" />
             <node concept="2oK_Am" id="3sVTHM$Od0d" role="2gXKik">
@@ -1070,9 +967,6 @@
         <ref role="1sOCfp" node="3kYfzLXmcA8" resolve="find-new-spot" />
       </node>
     </node>
-    <node concept="1sMRUJ" id="1i0DDuQZ60X" role="1sMO1Z">
-      <ref role="1sMRUI" node="qdXC$ygXa8" resolve="green-turtle" />
-    </node>
     <node concept="1sMRUJ" id="1i0DDuQZ610" role="1sMO1Z">
       <ref role="1sMRUI" node="3kYfzLXmcA8" resolve="find-new-spot" />
     </node>
@@ -1081,9 +975,6 @@
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ619" role="1sMO1Z">
       <ref role="1sMRUI" node="qdXC$yrH6d" resolve="move-on-when-occupied" />
-    </node>
-    <node concept="1sMRUJ" id="1i0DDuQZ61f" role="1sMO1Z">
-      <ref role="1sMRUI" node="qdXC$ygXaQ" resolve="red-turtle" />
     </node>
     <node concept="1sMRUJ" id="1i0DDuQZ61W" role="1sMO1Z">
       <ref role="1sMRUI" node="6dSewhkDZHP" resolve="%-similar-wanted" />
@@ -1145,13 +1036,9 @@
       </node>
       <node concept="31WWdx" id="3MYUuMaJf5x" role="2GvpiS">
         <property role="TrG5h" value="Copyright and License" />
-        <node concept="XAmFv" id="3MYUuMaJf5y" role="31Rc_p">
-          <property role="XAmFg" value="Copyright 2021 University of Agder." />
+        <node concept="XAmFv" id="3MYUuMaJf5$" role="31Rc_p">
+          <property role="XAmFg" value="Copyright 2021 University of Agder.                                              &#10;![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
         </node>
-        <node concept="XAmFv" id="3MYUuMaJf5z" role="31Rc_p">
-          <property role="XAmFg" value="![CC BY-NC-SA 3.0](http://ccl.northwestern.edu/images/creativecommons/byncsa.png)" />
-        </node>
-        <node concept="XAmFv" id="3MYUuMaJf5$" role="31Rc_p" />
         <node concept="XAmFv" id="3MYUuMaJf5_" role="31Rc_p">
           <property role="XAmFg" value="This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 License. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/3.0/ or send a letter to Creative Commons, 559 Nathan Abbott Way, Stanford, California 94305, USA." />
         </node>
@@ -1163,22 +1050,33 @@
         <property role="1jsyQK" value="3sVTHM$x5_A/Value" />
         <property role="1j7ier" value="1" />
         <property role="1jsyQX" value="percent-similar" />
+        <property role="2S3B8l" value="4ezY39QkQzD/gray" />
       </node>
       <node concept="1jsyQY" id="7R1$VTKKluG" role="1jgZU$">
         <property role="1jsyQZ" value="Percent Unhappy" />
         <property role="1jsyQX" value="percent-unhappy" />
         <property role="1jsyQK" value="3sVTHM$x5_A/TODO_REMOVE_Value" />
         <property role="1j7ier" value="1" />
+        <property role="2S3B8l" value="4ezY39QkQ_h/pink" />
       </node>
       <node concept="1g3uKF" id="3sVTHMzBzm3" role="2kDK7N">
         <property role="1jlS1m" value="true" />
         <property role="1jlS1c" value="true" />
         <property role="1jzKJm" value="25" />
         <property role="1jzt_n" value="7" />
+        <node concept="ZOwrR" id="6UBJavcGi9$" role="kpDVr">
+          <property role="ZOwrO" value="4ezY39QkQ$4/lime" />
+        </node>
       </node>
     </node>
     <node concept="1sMRUJ" id="2OjX34$BRLZ" role="1sMO1Z">
       <ref role="1sMRUI" node="2OjX34$BRLT" resolve="number-of-turtles" />
+    </node>
+    <node concept="1sMRUJ" id="6UBJavcGrbH" role="1sMO1Z">
+      <ref role="1sMRUI" node="6UBJavcGrbA" />
+    </node>
+    <node concept="1sMRUJ" id="6UBJavcGrcc" role="1sMO1Z">
+      <ref role="1sMRUI" node="6UBJavcGrc4" />
     </node>
   </node>
 </model>

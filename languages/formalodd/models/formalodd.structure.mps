@@ -1317,7 +1317,7 @@
   <node concept="1TIwiD" id="1w00y4a7gv$">
     <property role="EcuMT" value="1729384597837121508" />
     <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="Binary" />
+    <property role="TrG5h" value="NumericalBinary" />
     <property role="34LRSv" value="use mathematical operation" />
     <property role="R4oN_" value="+, -, *, /" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
@@ -1398,13 +1398,6 @@
       <property role="20kJfa" value="size" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
-    </node>
-    <node concept="1TJgyj" id="6iw2eE5nm_V" role="1TKVEi">
-      <property role="IQ2ns" value="7250805203419359611" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="inner" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
     </node>
   </node>
   <node concept="Az7Fb" id="5AVjrpZ7$G4">
@@ -1991,11 +1984,6 @@
       <property role="TrG5h" value="where" />
       <ref role="AX2Wp" node="5AVjrpZ9jP3" resolve="Where" />
     </node>
-    <node concept="1TJgyi" id="6e$RuHqb5Mx" role="1TKVEl">
-      <property role="IQ2nx" value="7180107708835323041" />
-      <property role="TrG5h" value="partner" />
-      <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
-    </node>
   </node>
   <node concept="1TIwiD" id="1R8dC2EgQxb">
     <property role="EcuMT" value="2146025148682299467" />
@@ -2241,13 +2229,6 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="34LRSv" value="set (unordered collection)" />
     <ref role="1TJDcQ" node="I1KRVZB1mq" resolve="Collection" />
-    <node concept="1TJgyj" id="29jsdmfTre7" role="1TKVEi">
-      <property role="IQ2ns" value="2473444682901074823" />
-      <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="inner" />
-      <property role="20lbJX" value="fLJekj4/_1" />
-      <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
-    </node>
   </node>
   <node concept="1TIwiD" id="72lILvP_Ecs">
     <property role="EcuMT" value="8112596015356748572" />
@@ -2285,6 +2266,11 @@
       <property role="IQ2nx" value="7590269384192110161" />
       <property role="TrG5h" value="scaling" />
       <ref role="AX2Wp" node="5AVjrpZ7$G4" resolve="number" />
+    </node>
+    <node concept="1TJgyi" id="7M9PKZ4xUkq" role="1TKVEl">
+      <property role="IQ2nx" value="8973940195234129178" />
+      <property role="TrG5h" value="colour" />
+      <ref role="AX2Wp" node="5vgYlnqddzM" resolve="ColourEnumeration" />
     </node>
   </node>
   <node concept="PlHQZ" id="4_ZgD2xxlg3">
@@ -2457,6 +2443,13 @@
     <property role="R5$K7" value="true" />
     <property role="TrG5h" value="Collection" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+    <node concept="1TJgyj" id="1L4PQG$fw5_" role="1TKVEi">
+      <property role="IQ2ns" value="2036989786647822693" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="inner" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGky" resolve="Type" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4C0fQ2O$6dd">
     <property role="EcuMT" value="5332331643385439053" />
@@ -2613,13 +2606,19 @@
   <node concept="1TIwiD" id="3iHpfDuW9nR">
     <property role="EcuMT" value="3795801087440623095" />
     <property role="3GE5qa" value="Expressions.Condition" />
-    <property role="TrG5h" value="StagnationCondition" />
+    <property role="TrG5h" value="TODO_StagnationCondition" />
     <ref role="1TJDcQ" node="1R8dC2EgQxb" resolve="EndCondition" />
     <node concept="1TJgyi" id="3iHpfDuW9nS" role="1TKVEl">
       <property role="IQ2nx" value="3795801087440623096" />
       <property role="TrG5h" value="Tick" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="5JO4H90p7NX">
+    <property role="EcuMT" value="6625941646001601789" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="Bool" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
 </model>
 

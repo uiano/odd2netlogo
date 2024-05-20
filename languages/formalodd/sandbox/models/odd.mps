@@ -30,9 +30,6 @@
         <reference id="6529568716128046895" name="environment" index="2JNnW9" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
-      <concept id="3248208248173639276" name="formalodd.structure.TODO_CountAllEntities" flags="ng" index="9Ws9t">
-        <child id="3248208248173639334" name="what" index="9Wsan" />
-      </concept>
       <concept id="3629783491436646477" name="formalodd.structure.SelectN" flags="ng" index="2gXKin">
         <property id="7351747083734467931" name="where" index="qxQ9u" />
         <property id="7180107708835323041" name="partner" index="Ty85a" />
@@ -64,7 +61,7 @@
       </concept>
       <concept id="7308686357753326565" name="formalodd.structure.Action" flags="ng" index="2lNc1x">
         <child id="3836572362087288385" name="activities" index="18tn1X" />
-        <child id="3836572362087288387" name="actor" index="18tn1Z" />
+        <child id="3836572362087288387" name="acctiotor" index="18tn1Z" />
       </concept>
       <concept id="8766909380343367735" name="formalodd.structure.NumberConstant" flags="ng" index="2oK_Am">
         <property id="8766909380343367736" name="value" index="2oK_Ap" />
@@ -1090,13 +1087,13 @@
     </node>
   </node>
   <node concept="ZOwpP" id="1yeaf2KAqmw">
-    <property role="TrG5h" value="fire2" />
+    <property role="TrG5h" value="fire" />
     <node concept="3Ovhds" id="1yeaf2KAqmx" role="1BQTrk">
       <node concept="XAmFv" id="1yeaf2KVq40" role="1BQTpC">
         <property role="XAmFg" value="testing" />
       </node>
       <node concept="XAmFv" id="1yeaf2KVq3Y" role="1BQToi">
-        <property role="XAmFg" value="me" />
+        <property role="XAmFg" value="m" />
       </node>
       <node concept="XAmFv" id="1yeaf2KVq3W" role="1BQTog">
         <property role="XAmFg" value="nothing" />
@@ -1207,10 +1204,10 @@
         <ref role="2CHb45" node="1yeaf2KPnsn" resolve="cow" />
       </node>
       <node concept="2zkEhW" id="5$6icu1Lgg2" role="2zXruJ">
-        <ref role="2CHb45" node="5$6icu1LgfK" />
+        <ref role="2CHb45" node="5$6icu1LgfK" resolve="horse" />
       </node>
       <node concept="2zkEhW" id="5$6icu1Lggu" role="2zXruJ">
-        <ref role="2CHb45" node="5$6icu1Lgga" />
+        <ref role="2CHb45" node="5$6icu1Lgga" resolve="cat" />
       </node>
     </node>
     <node concept="2lMhBk" id="1yeaf2KAqmz" role="2J7coG">
@@ -1341,10 +1338,10 @@
       <ref role="1sMRUI" node="1yeaf2KPnsC" resolve="cowrun" />
     </node>
     <node concept="1sMRUJ" id="5$6icu1LgfQ" role="1sMO1Z">
-      <ref role="1sMRUI" node="5$6icu1LgfK" />
+      <ref role="1sMRUI" node="5$6icu1LgfK" resolve="horse" />
     </node>
     <node concept="1sMRUJ" id="5$6icu1Lggh" role="1sMO1Z">
-      <ref role="1sMRUI" node="5$6icu1Lgga" />
+      <ref role="1sMRUI" node="5$6icu1Lgga" resolve="cat" />
     </node>
   </node>
   <node concept="ZOwpP" id="4ezY39PPaKM">
@@ -1410,18 +1407,6 @@
     <node concept="2lMhBk" id="4ezY39PPaKP" role="2J7coG">
       <node concept="2lNc1x" id="4ezY39PZoUj" role="2GyEu2">
         <property role="TrG5h" value="count-blu" />
-        <node concept="8StVI" id="4ezY39PZoXx" role="18tn1X">
-          <node concept="26lliW" id="4ezY39PZoXy" role="2OFgHe">
-            <ref role="26lliz" node="4ezY39PPbb8" resolve="surrounding-blue-votes" />
-          </node>
-          <node concept="9Ws9t" id="4ezY39QkPGx" role="2rWCss">
-            <node concept="2QpFD0" id="4ezY39QkPGB" role="9Wsan">
-              <node concept="q1XHF" id="4ezY39QkPGE" role="2jOjfh">
-                <ref role="2CHb45" node="4ezY39PPaKZ" resolve="blue_voter" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node concept="QcY1Q" id="4ezY39Qe74R" role="18tn1Z" />
       </node>
       <node concept="1Svl6F" id="4ezY39PPbfP" role="250j5S">

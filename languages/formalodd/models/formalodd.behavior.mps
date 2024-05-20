@@ -5,6 +5,7 @@
     <use id="af65afd8-f0dd-4942-87d9-63a55f2a9db1" name="jetbrains.mps.lang.behavior" version="2" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="12" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="19" />
+    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="5" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -3172,6 +3173,28 @@
     </node>
     <node concept="13hLZK" id="1tTL0MknoVJ" role="13h7CW">
       <node concept="3clFbS" id="1tTL0MknoVK" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1_pa24v9bB3">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="13h7C2" to="86kt:I1KRVZB1mq" resolve="Collection" />
+    <node concept="13i0hz" id="1_pa24v9bH3" role="13h7CS">
+      <property role="TrG5h" value="getInnerNode" />
+      <node concept="3Tm1VV" id="1_pa24v9bH4" role="1B3o_S" />
+      <node concept="3clFbS" id="1_pa24v9bH6" role="3clF47">
+        <node concept="3cpWs6" id="1_pa24v9ckC" role="3cqZAp">
+          <node concept="2OqwBi" id="1_pa24vopMj" role="3cqZAk">
+            <node concept="13iPFW" id="1_pa24v9cre" role="2Oq$k0" />
+            <node concept="3TrEf2" id="1_pa24voqbo" role="2OqNvi">
+              <ref role="3Tt5mk" to="86kt:1L4PQG$fw5_" resolve="inner" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1_pa24v9c7N" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="1_pa24v9bB4" role="13h7CW">
+      <node concept="3clFbS" id="1_pa24v9bB5" role="2VODD2" />
     </node>
   </node>
 </model>
