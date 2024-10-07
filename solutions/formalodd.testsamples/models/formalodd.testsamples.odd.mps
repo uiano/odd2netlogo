@@ -105,6 +105,9 @@
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
         <child id="3980028531046012173" name="entity" index="2jOjfh" />
       </concept>
+      <concept id="2146025148705204581" name="formalodd.structure.Percentage" flags="ng" index="2QqdZ_">
+        <property id="2146025148705204582" name="value" index="2QqdZA" />
+      </concept>
       <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
@@ -273,13 +276,13 @@
         </node>
       </node>
       <node concept="q1XHF" id="1yeaf2KAqmD" role="2zXruJ">
-        <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tre" />
+        <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tree" />
       </node>
       <node concept="q1XHF" id="1yeaf2KJhVS" role="2zXruJ">
-        <ref role="2CHb45" node="1yeaf2KJhVK" resolve="flamme" />
+        <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
       </node>
       <node concept="q1XHF" id="1yeaf2KJhW8" role="2zXruJ">
-        <ref role="2CHb45" node="1yeaf2KJhVX" resolve="aske" />
+        <ref role="2CHb45" node="1yeaf2KJhVX" resolve="ash" />
       </node>
       <node concept="3Y$5KH" id="1yeaf2KJhX9" role="3Y$b7i">
         <ref role="3Y$5KI" node="1yeaf2KJhWW" resolve="flamme-styrke" />
@@ -301,7 +304,7 @@
       <node concept="BZNO7" id="1yeaf2KJhWo" role="2GyEu2">
         <property role="TrG5h" value="spre-brann" />
         <node concept="8StHo" id="1yeaf2KJhXD" role="18tn1X">
-          <ref role="2JNnW9" node="1yeaf2KJhVK" resolve="flamme" />
+          <ref role="2JNnW9" node="1yeaf2KJhVK" resolve="fire" />
         </node>
         <node concept="8StVI" id="1yeaf2KJhY6" role="18tn1X">
           <node concept="26lliW" id="1yeaf2KJhY7" role="2OFgHe">
@@ -312,17 +315,17 @@
           </node>
         </node>
         <node concept="q1XHF" id="1yeaf2KJhWK" role="hfX4z">
-          <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tre" />
+          <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tree" />
         </node>
         <node concept="q1XHF" id="1yeaf2KJhWH" role="18tn1Z">
-          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="flamme" />
+          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
         </node>
       </node>
       <node concept="2lNc1x" id="1yeaf2KJhYU" role="2GyEu2">
         <property role="TrG5h" value="brenn-ut" />
         <node concept="2rRKAk" id="1yeaf2KJhZx" role="18tn1X">
           <node concept="26hFik" id="1yeaf2KJhZz" role="2rRKAn">
-            <property role="26hFil" value="24yfUKsyf$J/ne" />
+            <property role="26hFil" value="5yfUVbuMlWg/lt" />
             <node concept="26lliW" id="1yeaf2KJhZK" role="26hFir">
               <ref role="26lliz" node="1yeaf2KJhWW" resolve="flamme-styrke" />
             </node>
@@ -331,11 +334,11 @@
             </node>
           </node>
           <node concept="8StHo" id="1yeaf2KJhZQ" role="2rRKAh">
-            <ref role="2JNnW9" node="1yeaf2KJhVX" resolve="aske" />
+            <ref role="2JNnW9" node="1yeaf2KJhVX" resolve="ash" />
           </node>
         </node>
         <node concept="q1XHF" id="1yeaf2KJhZs" role="18tn1Z">
-          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="flamme" />
+          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
         </node>
       </node>
       <node concept="2lNc1x" id="1yeaf2KAqmM" role="2GyEu2">
@@ -349,7 +352,7 @@
           </node>
         </node>
         <node concept="q1XHF" id="1yeaf2KJhWP" role="18tn1Z">
-          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="flamme" />
+          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
         </node>
       </node>
       <node concept="1Svl6F" id="1yeaf2KAqmF" role="250j5S">
@@ -359,13 +362,13 @@
         <ref role="1Svl6C" node="1yeaf2KJhWo" resolve="spre-brann" />
         <node concept="2gXKin" id="5JO4H91llrD" role="2QCFRE">
           <property role="qxQ9u" value="5AVjrpZ9jP5/neighbour" />
-          <node concept="2oK_Am" id="5JO4H91llsA" role="2gXKik">
-            <property role="2oK_Ap" value="8" />
-          </node>
           <node concept="2QpFD0" id="1L4PQG$eLxa" role="2gXKil">
             <node concept="q1XHF" id="1L4PQG$eLxh" role="2jOjfh">
-              <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tre" />
+              <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tree" />
             </node>
+          </node>
+          <node concept="2QqdZ_" id="5gYgSY0b1XJ" role="2gXKik">
+            <property role="2QqdZA" value="4" />
           </node>
         </node>
       </node>
@@ -374,21 +377,26 @@
       </node>
       <node concept="2lMhBi" id="4ezY39QkQaa" role="2lMhBt">
         <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
-        <ref role="2I6lkX" node="1yeaf2KJhVK" resolve="flamme" />
+        <ref role="2I6lkX" node="1yeaf2KJhVK" resolve="fire" />
       </node>
     </node>
-    <node concept="2kDK7K" id="1yeaf2KAqm$" role="2kDK7a" />
+    <node concept="2kDK7K" id="1yeaf2KAqm$" role="2kDK7a">
+      <node concept="1g3uKF" id="17Lz0T3pevm" role="2kDK7N">
+        <property role="1jzKJm" value="100" />
+        <property role="1jzt_n" value="2" />
+      </node>
+    </node>
     <node concept="1sMRUJ" id="1yeaf2KAqmB" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KAqm_" resolve="tre" />
+      <ref role="1sMRUI" node="1yeaf2KAqm_" resolve="tree" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KAqmT" role="1sMO1Z">
       <ref role="1sMRUI" node="1yeaf2KAqmM" resolve="brenn" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhVO" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhVK" resolve="flamme" />
+      <ref role="1sMRUI" node="1yeaf2KJhVK" resolve="fire" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhW3" role="1sMO1Z">
-      <ref role="1sMRUI" node="1yeaf2KJhVX" resolve="aske" />
+      <ref role="1sMRUI" node="1yeaf2KJhVX" resolve="ash" />
     </node>
     <node concept="1sMRUJ" id="1yeaf2KJhWB" role="1sMO1Z">
       <ref role="1sMRUI" node="1yeaf2KJhWo" resolve="spre-brann" />
@@ -454,8 +462,11 @@
           <property role="ZOwrO" value="4ezY39QkQ$E/blue" />
         </node>
         <node concept="2WUdOh" id="4v_m0$pu$Vn" role="2W_r1q">
-          <node concept="2oK_Am" id="4v_m0$pu$Vp" role="2WUdOg">
-            <property role="2oK_Ap" value="50" />
+          <node concept="21jJIL" id="5gYgSY0b3hc" role="2WUdOg">
+            <property role="2rHBro" value="50" />
+            <property role="21jJIY" value="0" />
+            <property role="21jJIV" value="100" />
+            <property role="21jJI7" value="1" />
           </node>
         </node>
       </node>
@@ -665,10 +676,12 @@
       </node>
       <node concept="ZOwpH" id="22kbICds5pd" role="Qgzvn">
         <property role="TrG5h" value="stride-length" />
+        <property role="2QSBU6" value="How far the cows can move at every time step" />
         <node concept="ZOwps" id="22kbICds5pO" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="22kbICds5q8" role="Qgzvn">
         <property role="TrG5h" value="cooperative-probabilty" />
+        <property role="2QSBU6" value="how likely the initial cows are to be cooperative cows" />
         <node concept="354mTO" id="22kbICds5qZ" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="1" />
@@ -676,6 +689,7 @@
       </node>
       <node concept="ZOwpH" id="22kbICds5rx" role="Qgzvn">
         <property role="TrG5h" value="metabolism" />
+        <property role="2QSBU6" value="how much energy is consumed at every time step" />
         <node concept="354mTO" id="22kbICds5sK" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="99" />
@@ -683,6 +697,7 @@
       </node>
       <node concept="ZOwpH" id="22kbICds5tk" role="Qgzvn">
         <property role="TrG5h" value="reproduction-cost" />
+        <property role="2QSBU6" value="the energy cost of reproducing" />
         <node concept="354mTO" id="22kbICds5up" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="99" />
@@ -690,6 +705,7 @@
       </node>
       <node concept="ZOwpH" id="22kbICds5va" role="Qgzvn">
         <property role="TrG5h" value="reproduction-threshold" />
+        <property role="2QSBU6" value="the amount of energy required for a cow to reproduce" />
         <node concept="354mTO" id="22kbICds5wh" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="200" />
@@ -697,6 +713,7 @@
       </node>
       <node concept="ZOwpH" id="22kbICds5wT" role="Qgzvn">
         <property role="TrG5h" value="grass-energy" />
+        <property role="2QSBU6" value="how much energy is gained from eating grass" />
         <node concept="354mTO" id="22kbICds5y0" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="200" />
@@ -718,6 +735,7 @@
       </node>
       <node concept="ZOwpH" id="22kbICds5B3" role="Qgzvn">
         <property role="TrG5h" value="low-high-threshold" />
+        <property role="2QSBU6" value="if the length of the grass is greater than the threshold it has a chance to grow to it's max length" />
         <node concept="354mTO" id="22kbICds5CC" role="zGXb3">
           <property role="354mTX" value="0" />
           <property role="354mTV" value="99" />
@@ -725,6 +743,7 @@
       </node>
       <node concept="ZOwpH" id="22kbICdsbTe" role="Qgzvn">
         <property role="TrG5h" value="initial-cow-amount" />
+        <property role="2QSBU6" value="the initial number of cows" />
         <node concept="ZOwps" id="22kbICdsbUv" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="22kbICds53d" role="1XCrKs">
@@ -793,21 +812,21 @@
         <node concept="RFdHg" id="22kbICdD1iB" role="RFdH4" />
       </node>
       <node concept="2zkEhW" id="22kbICds4YY" role="2zXruJ">
-        <ref role="2CHb45" node="22kbICds4YP" />
+        <ref role="2CHb45" node="22kbICds4YP" resolve="greedy-cow" />
       </node>
       <node concept="2zkEhW" id="22kbICds50b" role="2zXruJ">
-        <ref role="2CHb45" node="22kbICds4ZY" />
+        <ref role="2CHb45" node="22kbICds4ZY" resolve="cooperative-cow" />
       </node>
       <node concept="q1XHF" id="22kbICds51l" role="2zXruJ">
-        <ref role="2CHb45" node="22kbICds51c" />
+        <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
       </node>
       <node concept="ZOwpH" id="22kbICds51S" role="25gc1v">
         <property role="TrG5h" value="energy" />
-        <property role="2QSBU6" value="food level of the cows" />
+        <property role="2QSBU6" value="how much energy the cows have stored. It is increased by eating grass and consumed at every time step to stay alive" />
         <node concept="ZOwps" id="22kbICds52X" role="zGXb3" />
       </node>
       <node concept="3Y$5KH" id="22kbICds525" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds51S" />
+        <ref role="3Y$5KI" node="22kbICds51S" resolve="energy" />
         <node concept="i7gn5" id="22kbICdscqn" role="3Y$5KK">
           <property role="i7gn4" value="1w00y4a7gvZ/multiply" />
           <node concept="2oK_Am" id="22kbICdscsf" role="i7gCG">
@@ -819,13 +838,13 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds53t" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds53d" />
+        <ref role="3Y$5KI" node="22kbICds53d" resolve="grass-length" />
         <node concept="26lliW" id="22kbICdscp7" role="3Y$5KK">
           <ref role="26lliz" node="22kbICds55o" resolve="max-grass-length" />
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds55D" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds55o" />
+        <ref role="3Y$5KI" node="22kbICds55o" resolve="max-grass-length" />
         <node concept="21jJIL" id="22kbICdsceU" role="3Y$5KK">
           <property role="2rHBro" value="10" />
           <property role="21jJIY" value="1" />
@@ -834,7 +853,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5px" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5pd" />
+        <ref role="3Y$5KI" node="22kbICds5pd" resolve="stride-length" />
         <node concept="21jJIL" id="22kbICdsc09" role="3Y$5KK">
           <property role="2rHBro" value="0.08" />
           <property role="21jJIY" value="0" />
@@ -843,7 +862,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5qv" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5q8" />
+        <ref role="3Y$5KI" node="22kbICds5q8" resolve="cooperative-probabilty" />
         <node concept="21jJIL" id="22kbICdsc1R" role="3Y$5KK">
           <property role="2rHBro" value="0.5" />
           <property role="21jJIY" value="0" />
@@ -852,7 +871,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5rV" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5rx" />
+        <ref role="3Y$5KI" node="22kbICds5rx" resolve="metabolism" />
         <node concept="21jJIL" id="22kbICdsc3$" role="3Y$5KK">
           <property role="2rHBro" value="6" />
           <property role="21jJIY" value="0" />
@@ -861,7 +880,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5tL" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5tk" />
+        <ref role="3Y$5KI" node="22kbICds5tk" resolve="reproduction-cost" />
         <node concept="21jJIL" id="22kbICdsc4W" role="3Y$5KK">
           <property role="2rHBro" value="54" />
           <property role="21jJIY" value="0" />
@@ -870,7 +889,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5vE" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5va" />
+        <ref role="3Y$5KI" node="22kbICds5va" resolve="reproduction-threshold" />
         <node concept="21jJIL" id="22kbICdsc6j" role="3Y$5KK">
           <property role="2rHBro" value="102" />
           <property role="21jJIY" value="0" />
@@ -879,7 +898,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5xs" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5wT" />
+        <ref role="3Y$5KI" node="22kbICds5wT" resolve="grass-energy" />
         <node concept="21jJIL" id="22kbICdscbd" role="3Y$5KK">
           <property role="2rHBro" value="51" />
           <property role="21jJIY" value="0" />
@@ -888,7 +907,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5zr" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5yP" />
+        <ref role="3Y$5KI" node="22kbICds5yP" resolve="high-growth-chance" />
         <node concept="21jJIL" id="22kbICdsccr" role="3Y$5KK">
           <property role="2rHBro" value="77" />
           <property role="21jJIY" value="0" />
@@ -897,7 +916,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5_R" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5_e" />
+        <ref role="3Y$5KI" node="22kbICds5_e" resolve="low-growth-chance" />
         <node concept="21jJIL" id="22kbICdscgc" role="3Y$5KK">
           <property role="2rHBro" value="30" />
           <property role="21jJIY" value="0" />
@@ -906,7 +925,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICds5BJ" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICds5B3" />
+        <ref role="3Y$5KI" node="22kbICds5B3" resolve="low-high-threshold" />
         <node concept="21jJIL" id="22kbICdscjj" role="3Y$5KK">
           <property role="2rHBro" value="5" />
           <property role="21jJIY" value="0" />
@@ -915,7 +934,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="22kbICdsbU3" role="3Y$b7i">
-        <ref role="3Y$5KI" node="22kbICdsbTe" />
+        <ref role="3Y$5KI" node="22kbICdsbTe" resolve="initial-cow-amount" />
         <node concept="21jJIL" id="22kbICdsbYB" role="3Y$5KK">
           <property role="2rHBro" value="20" />
           <property role="21jJIY" value="1" />
@@ -925,6 +944,14 @@
       </node>
     </node>
     <node concept="2lMhBk" id="22kbICds4YN" role="2J7coG">
+      <node concept="2lMhBi" id="5gYgSY0aY9r" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
+        <ref role="2I6lkX" node="22kbICds4ZY" resolve="cooperative-cow" />
+      </node>
+      <node concept="2lMhBi" id="5gYgSY0aY9x" role="2lMhBt">
+        <property role="3xNfbI" value="7y2oNwbJHp/NONE" />
+        <ref role="2I6lkX" node="22kbICds4YP" resolve="greedy-cow" />
+      </node>
       <node concept="1Svl6F" id="22kbICdJoog" role="250j5S">
         <ref role="1Svl6C" node="22kbICds5Hv" resolve="move" />
       </node>
@@ -945,6 +972,7 @@
       </node>
       <node concept="2lNc1x" id="22kbICds5Eq" role="2GyEu2">
         <property role="TrG5h" value="die?" />
+        <property role="2QSBU6" value="check if the cows are out of energy and supposed to die" />
         <node concept="2rRKAk" id="22kbICds5Fs" role="18tn1X">
           <node concept="26hFik" id="22kbICds5Fu" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWg/lt" />
@@ -963,7 +991,7 @@
       </node>
       <node concept="2lNc1x" id="22kbICds5EN" role="2GyEu2">
         <property role="TrG5h" value="reproduce?" />
-        <property role="2QSBU6" value="cows clone themselves" />
+        <property role="2QSBU6" value="cows clone themselves if above the reproduction threshold" />
         <node concept="2rRKAk" id="22kbICdsbPF" role="18tn1X">
           <node concept="26hFik" id="22kbICdsbPH" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWp/gt" />
@@ -990,6 +1018,7 @@
       </node>
       <node concept="2lNc1x" id="22kbICds5Hv" role="2GyEu2">
         <property role="TrG5h" value="move" />
+        <property role="2QSBU6" value="cows move in a random direction at every time step" />
         <node concept="rlEY6" id="22kbICdsbM0" role="18tn1X">
           <property role="2Q0YBs" value="3MYUuMaJfYl/random" />
           <node concept="26lliW" id="22kbICdsbM6" role="dGet1">
@@ -1082,6 +1111,7 @@
       </node>
       <node concept="2lNc1x" id="22kbICds5KB" role="2GyEu2">
         <property role="TrG5h" value="grow-grass" />
+        <property role="2QSBU6" value="grass grows at every time step." />
         <node concept="2rRKAk" id="22kbICds5Lm" role="18tn1X">
           <node concept="26hFik" id="22kbICds5Lo" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWv/ge" />
@@ -1156,70 +1186,70 @@
       </node>
     </node>
     <node concept="1sMRUJ" id="22kbICds4YW" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds4YP" />
+      <ref role="1sMRUI" node="22kbICds4YP" resolve="greedy-cow" />
     </node>
     <node concept="1sMRUJ" id="22kbICds508" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds4ZY" />
+      <ref role="1sMRUI" node="22kbICds4ZY" resolve="cooperative-cow" />
     </node>
     <node concept="1sMRUJ" id="22kbICds51h" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds51c" />
+      <ref role="1sMRUI" node="22kbICds51c" resolve="grass" />
     </node>
     <node concept="1sMRUJ" id="22kbICds520" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds51S" />
+      <ref role="1sMRUI" node="22kbICds51S" resolve="energy" />
     </node>
     <node concept="1sMRUJ" id="22kbICds53n" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds53d" />
+      <ref role="1sMRUI" node="22kbICds53d" resolve="grass-length" />
     </node>
     <node concept="1sMRUJ" id="22kbICds55y" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds55o" />
+      <ref role="1sMRUI" node="22kbICds55o" resolve="max-grass-length" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5pp" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5pd" />
+      <ref role="1sMRUI" node="22kbICds5pd" resolve="stride-length" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5qm" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5q8" />
+      <ref role="1sMRUI" node="22kbICds5q8" resolve="cooperative-probabilty" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5rL" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5rx" />
+      <ref role="1sMRUI" node="22kbICds5rx" resolve="metabolism" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5tA" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5tk" />
+      <ref role="1sMRUI" node="22kbICds5tk" resolve="reproduction-cost" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5vu" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5va" />
+      <ref role="1sMRUI" node="22kbICds5va" resolve="reproduction-threshold" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5xf" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5wT" />
+      <ref role="1sMRUI" node="22kbICds5wT" resolve="grass-energy" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5zd" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5yP" />
+      <ref role="1sMRUI" node="22kbICds5yP" resolve="high-growth-chance" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5_C" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5_e" />
+      <ref role="1sMRUI" node="22kbICds5_e" resolve="low-growth-chance" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5Bv" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5B3" />
+      <ref role="1sMRUI" node="22kbICds5B3" resolve="low-high-threshold" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5Ew" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5Eq" resolve="undefined action" />
+      <ref role="1sMRUI" node="22kbICds5Eq" resolve="die?" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5EU" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5EN" resolve="undefined action" />
+      <ref role="1sMRUI" node="22kbICds5EN" resolve="reproduce?" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5HI" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5Hv" resolve="undefined action" />
+      <ref role="1sMRUI" node="22kbICds5Hv" resolve="move" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5Jw" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5Jj" resolve="undefined interaction" />
+      <ref role="1sMRUI" node="22kbICds5Jj" resolve="eat-greedy" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5K2" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5JO" resolve="undefined interaction" />
+      <ref role="1sMRUI" node="22kbICds5JO" resolve="eat-cooperative" />
     </node>
     <node concept="1sMRUJ" id="22kbICds5KU" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICds5KB" resolve="undefined action" />
+      <ref role="1sMRUI" node="22kbICds5KB" resolve="grow-grass" />
     </node>
     <node concept="1sMRUJ" id="22kbICdsbTG" role="1sMO1Z">
-      <ref role="1sMRUI" node="22kbICdsbTe" />
+      <ref role="1sMRUI" node="22kbICdsbTe" resolve="initial-cow-amount" />
     </node>
   </node>
 </model>

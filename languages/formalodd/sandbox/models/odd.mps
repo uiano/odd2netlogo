@@ -81,7 +81,7 @@
         <child id="8985793055721061051" name="condition" index="2rRKAn" />
       </concept>
       <concept id="7351747083757432512" name="formalodd.structure.ScaledColour" flags="ng" index="rTCB5">
-        <child id="7351747083757432515" name="scalingValue" index="rTCB6" />
+        <child id="7351747083757432515" name="number" index="rTCB6" />
       </concept>
       <concept id="8985793055718208559" name="formalodd.structure.AssignAttribute" flags="ng" index="2rWCs3">
         <child id="8985793055718208560" name="rhs" index="2rWCss" />
@@ -813,20 +813,11 @@
         </node>
         <node concept="RFdHg" id="6F4sr4mAQqN" role="RFdH4" />
       </node>
-      <node concept="2zkEhW" id="6F4sr4mwNFc" role="2zXruJ">
-        <ref role="2zkEhU" node="6F4sr4mwNF8" resolve="wolf" />
-      </node>
-      <node concept="2zkEhW" id="6F4sr4mAQam" role="2zXruJ">
-        <ref role="2zkEhU" node="6F4sr4mAQae" resolve="sheep" />
-      </node>
       <node concept="3Y$5KH" id="6F4sr4mAQa_" role="3Y$b7i">
         <ref role="3Y$5KI" node="6F4sr4mAQat" resolve="energy" />
         <node concept="2oK_Am" id="6F4sr4mAQqP" role="3Y$5KK">
           <property role="2oK_Ap" value="100" />
         </node>
-      </node>
-      <node concept="q1XHF" id="6F4sr4mAQaL" role="2zXruJ">
-        <ref role="q1XHE" node="6F4sr4mAQaE" resolve="grass" />
       </node>
       <node concept="3Y$5KH" id="6F4sr4mAQbt" role="3Y$b7i">
         <ref role="3Y$5KI" node="6F4sr4mAQbj" resolve="grass-amount" />
@@ -877,6 +868,15 @@
       </node>
       <node concept="3Y$5KH" id="6c1M1NX$PLi" role="3Y$b7i">
         <ref role="3Y$5KI" node="6c1M1NX$PKU" resolve="breef" />
+      </node>
+      <node concept="q1XHF" id="7RoYKJmtDoV" role="2zXruJ">
+        <ref role="2CHb45" node="6F4sr4mAQaE" resolve="grass" />
+      </node>
+      <node concept="2zkEhW" id="7RoYKJmtDoZ" role="2zXruJ">
+        <ref role="2CHb45" node="6F4sr4mwNF8" resolve="wolf" />
+      </node>
+      <node concept="2zkEhW" id="7RoYKJmtDp9" role="2zXruJ">
+        <ref role="2CHb45" node="6F4sr4mAQae" resolve="sheep" />
       </node>
     </node>
     <node concept="2lMhBk" id="6F4sr4mwNET" role="2J7coG">
@@ -1096,7 +1096,7 @@
         <property role="XAmFg" value="m" />
       </node>
       <node concept="XAmFv" id="1yeaf2KVq3W" role="1BQTog">
-        <property role="XAmFg" value="nothing" />
+        <property role="XAmFg" value="n" />
       </node>
     </node>
     <node concept="ZOwpU" id="1yeaf2KAqmy" role="3$p12O">
