@@ -7903,19 +7903,8 @@
       <node concept="3F0ifn" id="6i7YH0kiLDF" role="3EZMnx">
         <property role="3F0ifm" value="set colour of " />
       </node>
-      <node concept="1iCGBv" id="7RoYKJmKtPO" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:6i7YH0kiK3N" resolve="turtle" />
-        <node concept="1sVBvm" id="7RoYKJmKtPQ" role="1sWHZn">
-          <node concept="1iCGBv" id="7RoYKJmKuis" role="2wV5jI">
-            <ref role="1NtTu8" to="86kt:64sxhBmSvNN" resolve="parameter" />
-            <node concept="1sVBvm" id="7RoYKJmKuiu" role="1sWHZn">
-              <node concept="3F0A7n" id="7RoYKJmKulP" role="2wV5jI">
-                <property role="1Intyy" value="true" />
-                <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-              </node>
-            </node>
-          </node>
-        </node>
+      <node concept="3F1sOY" id="6L5Q700D3dj" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6L5Q700D2A0" resolve="turtle" />
       </node>
       <node concept="3F0ifn" id="6i7YH0kiLQe" role="3EZMnx">
         <property role="3F0ifm" value=" to " />
@@ -8146,6 +8135,50 @@
         <property role="3F0ifm" value=" degrees" />
       </node>
       <node concept="l2Vlx" id="1rOaE9Un27f" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6l1hj6B$Dg5">
+    <property role="3GE5qa" value="ActionsAndProcedures" />
+    <ref role="1XX52x" to="86kt:6l1hj6B$Awh" resolve="LetParameter" />
+    <node concept="3EZMnI" id="6l1hj6B$E6f" role="2wV5jI">
+      <node concept="3F0ifn" id="6l1hj6B$Ebe" role="3EZMnx">
+        <property role="3F0ifm" value="the entity " />
+      </node>
+      <node concept="3F1sOY" id="6l1hj6BFsBK" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6l1hj6B$DhJ" resolve="parameter" />
+      </node>
+      <node concept="3F0ifn" id="6l1hj6B$EqK" role="3EZMnx">
+        <property role="3F0ifm" value=" is the " />
+      </node>
+      <node concept="3F0A7n" id="6l1hj6B$EHM" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6l1hj6B$D8C" resolve="criteria" />
+      </node>
+      <node concept="3F0ifn" id="6l1hj6B$EIQ" role="3EZMnx">
+        <property role="3F0ifm" value=" one in " />
+      </node>
+      <node concept="3F1sOY" id="6l1hj6B$EWi" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6l1hj6B$Czb" resolve="expression" />
+      </node>
+      <node concept="l2Vlx" id="6l1hj6B$E6i" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6l1hj6BMxKF">
+    <property role="3GE5qa" value="Expressions" />
+    <ref role="1XX52x" to="86kt:6l1hj6BMwQo" resolve="distance" />
+    <node concept="3EZMnI" id="6l1hj6BMy12" role="2wV5jI">
+      <node concept="3F0ifn" id="6l1hj6BMya8" role="3EZMnx">
+        <property role="3F0ifm" value="distance from " />
+      </node>
+      <node concept="3F1sOY" id="6l1hj6BMydW" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6l1hj6BMxjD" resolve="from" />
+      </node>
+      <node concept="3F0ifn" id="6l1hj6BMyn$" role="3EZMnx">
+        <property role="3F0ifm" value=" to " />
+      </node>
+      <node concept="3F1sOY" id="6l1hj6BMyqA" role="3EZMnx">
+        <ref role="1NtTu8" to="86kt:6l1hj6BMxyH" resolve="to" />
+      </node>
+      <node concept="l2Vlx" id="6l1hj6BMy15" role="2iSdaV" />
     </node>
   </node>
 </model>
