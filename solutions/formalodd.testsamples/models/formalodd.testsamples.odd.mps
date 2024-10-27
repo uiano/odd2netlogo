@@ -67,6 +67,7 @@
         <child id="7004962584162214778" name="stochasticityCode" index="1sOCcx" />
       </concept>
       <concept id="7308686357753326565" name="formalodd.structure.Action" flags="ng" index="2lNc1x">
+        <child id="7801879905036692498" name="acctiotior" index="2jJrhX" />
         <child id="3836572362087288385" name="activities" index="18tn1X" />
         <child id="3836572362087288387" name="acctiotor" index="18tn1Z" />
       </concept>
@@ -93,6 +94,7 @@
       <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
+        <child id="7801879905036695372" name="partner2" index="2jJqWz" />
       </concept>
       <concept id="8247773779785854958" name="formalodd.structure.Clone" flags="ng" index="2DBPlz">
         <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
@@ -320,6 +322,12 @@
         <node concept="q1XHF" id="1yeaf2KJhWH" role="18tn1Z">
           <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
         </node>
+        <node concept="q1XHF" id="eRVLmt9Dws" role="2jJrhX">
+          <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
+        </node>
+        <node concept="q1XHF" id="eRVLmt9Dww" role="2jJqWz">
+          <ref role="2CHb45" node="1yeaf2KAqm_" resolve="tree" />
+        </node>
       </node>
       <node concept="2lNc1x" id="1yeaf2KJhYU" role="2GyEu2">
         <property role="TrG5h" value="brenn-ut" />
@@ -337,7 +345,7 @@
             <ref role="2JNnW9" node="1yeaf2KJhVX" resolve="ash" />
           </node>
         </node>
-        <node concept="q1XHF" id="1yeaf2KJhZs" role="18tn1Z">
+        <node concept="q1XHF" id="eRVLmt9Dw$" role="2jJrhX">
           <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
         </node>
       </node>
@@ -351,7 +359,7 @@
             <property role="2oK_Ap" value="1" />
           </node>
         </node>
-        <node concept="q1XHF" id="1yeaf2KJhWP" role="18tn1Z">
+        <node concept="q1XHF" id="eRVLmt9DwP" role="2jJrhX">
           <ref role="2CHb45" node="1yeaf2KJhVK" resolve="fire" />
         </node>
       </node>
@@ -515,6 +523,7 @@
             <ref role="RLbTH" node="3_uAl3h8KQG" resolve="surrounding-blue" />
           </node>
         </node>
+        <node concept="QcY1Q" id="eRVLmt9Dze" role="2jJrhX" />
       </node>
       <node concept="1Svl6F" id="4ezY39PPbfP" role="250j5S">
         <ref role="1Svl6C" node="4ezY39PPaLz" resolve="Vote-Blue" />
@@ -549,6 +558,9 @@
         <node concept="q1XHF" id="4ezY39PPaLL" role="18tn1Z">
           <ref role="2CHb45" node="4v_m0$pu$Vi" resolve="blue_voter" />
         </node>
+        <node concept="q1XHF" id="eRVLmt9Dzj" role="2jJrhX">
+          <ref role="2CHb45" node="4v_m0$pu$Vi" resolve="blue_voter" />
+        </node>
       </node>
       <node concept="2lNc1x" id="4ezY39PPb99" role="2GyEu2">
         <property role="TrG5h" value="Vote-Green" />
@@ -561,6 +573,9 @@
           </node>
         </node>
         <node concept="q1XHF" id="4ezY39PPb9w" role="18tn1Z">
+          <ref role="2CHb45" node="4v_m0$pu$Ve" resolve="green_voter" />
+        </node>
+        <node concept="q1XHF" id="eRVLmt9Dzn" role="2jJrhX">
           <ref role="2CHb45" node="4v_m0$pu$Ve" resolve="green_voter" />
         </node>
       </node>
@@ -612,6 +627,7 @@
           </node>
         </node>
         <node concept="QcY1Q" id="4ezY39PPbcO" role="18tn1Z" />
+        <node concept="QcY1Q" id="eRVLmt9Dzr" role="2jJrhX" />
       </node>
       <node concept="1sOCfq" id="7i6raH6bUeh" role="1sOCcx">
         <ref role="1sOCfp" node="4ezY39PZoUj" resolve="count-blu" />
@@ -988,6 +1004,7 @@
           </node>
         </node>
         <node concept="Qbqaq" id="22kbICds5Fe" role="18tn1Z" />
+        <node concept="Qbqaq" id="eRVLmt9Dug" role="2jJrhX" />
       </node>
       <node concept="2lNc1x" id="22kbICds5EN" role="2GyEu2">
         <property role="TrG5h" value="reproduce?" />
@@ -1015,6 +1032,7 @@
           </node>
         </node>
         <node concept="Qbqaq" id="22kbICds5Fj" role="18tn1Z" />
+        <node concept="Qbqaq" id="eRVLmt9Duo" role="2jJrhX" />
       </node>
       <node concept="2lNc1x" id="22kbICds5Hv" role="2GyEu2">
         <property role="TrG5h" value="move" />
@@ -1034,6 +1052,7 @@
           </node>
         </node>
         <node concept="Qbqaq" id="22kbICds5I3" role="18tn1Z" />
+        <node concept="Qbqaq" id="eRVLmt9Duw" role="2jJrhX" />
       </node>
       <node concept="BZNO7" id="22kbICds5Jj" role="2GyEu2">
         <property role="TrG5h" value="eat-greedy" />
@@ -1069,6 +1088,12 @@
           <ref role="2CHb45" node="22kbICds4YP" resolve="greedy-cow" />
         </node>
         <node concept="q1XHF" id="22kbICds5Kr" role="hfX4z">
+          <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
+        </node>
+        <node concept="2zkEhW" id="eRVLmt9DuC" role="2jJrhX">
+          <ref role="2CHb45" node="22kbICds4YP" resolve="greedy-cow" />
+        </node>
+        <node concept="q1XHF" id="eRVLmt9DuG" role="2jJqWz">
           <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
         </node>
       </node>
@@ -1107,6 +1132,12 @@
         </node>
         <node concept="q1XHF" id="22kbICds5Kz" role="hfX4z">
           <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
+        </node>
+        <node concept="q1XHF" id="eRVLmt9DuK" role="2jJqWz">
+          <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
+        </node>
+        <node concept="2zkEhW" id="eRVLmt9DuO" role="2jJrhX">
+          <ref role="2CHb45" node="22kbICds4ZY" resolve="cooperative-cow" />
         </node>
       </node>
       <node concept="2lNc1x" id="22kbICds5KB" role="2GyEu2">
@@ -1172,6 +1203,9 @@
           </node>
         </node>
         <node concept="q1XHF" id="22kbICds5Lg" role="18tn1Z">
+          <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
+        </node>
+        <node concept="q1XHF" id="eRVLmt9DuS" role="2jJrhX">
           <ref role="2CHb45" node="22kbICds51c" resolve="grass" />
         </node>
       </node>

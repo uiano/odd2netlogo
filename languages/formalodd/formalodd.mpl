@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="formalodd" uuid="32c6af6f-c921-41d7-a19e-61a23bec1a47" languageVersion="1" moduleVersion="0">
+<language namespace="formalodd" uuid="32c6af6f-c921-41d7-a19e-61a23bec1a47" languageVersion="2" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
