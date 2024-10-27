@@ -286,6 +286,13 @@
       <property role="20lbJX" value="fLJekj5/_0__n" />
       <ref role="20lvS9" node="4C0fQ2O$6dd" resolve="AttributeInit" />
     </node>
+    <node concept="1TJgyj" id="eRVLmsu9qH" role="1TKVEi">
+      <property role="IQ2ns" value="267945578950334125" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="initCommonAttributes" />
+      <property role="20lbJX" value="fLJekj5/_0__n" />
+      <ref role="20lvS9" node="4C0fQ2O$6dd" resolve="AttributeInit" />
+    </node>
     <node concept="PrWs8" id="3kYfzLXhXMP" role="PzmwI">
       <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
     </node>
@@ -296,6 +303,11 @@
     <property role="3GE5qa" value="EntitiesAndAttributes" />
     <property role="34LRSv" value="General type attribute" />
     <ref role="1TJDcQ" node="5nRk$9GqLrd" resolve="GeneralAttribute" />
+    <node concept="1TJgyi" id="eRVLmsNPwd" role="1TKVEl">
+      <property role="IQ2nx" value="267945578956019725" />
+      <property role="TrG5h" value="individually_inited" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
     <node concept="PrWs8" id="64QC5GXZtVn" role="PzmwI">
       <ref role="PrY4T" node="64QC5GXZtS4" resolve="IRationaledConcept" />
     </node>

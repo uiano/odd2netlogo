@@ -104,6 +104,7 @@
         <child id="8985793055718208560" name="rhs" index="2rWCss" />
         <child id="524622041952477113" name="lhs" index="2OFgHe" />
       </concept>
+      <concept id="267945578944423713" name="formalodd.structure.commonAttributesBucket" flags="ng" index="2vEowO" />
       <concept id="1477363848331789035" name="formalodd.structure.TurtleEntityReference" flags="ng" index="2zkEhW" />
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="6060292198340340358" name="partner2" index="hfX4z" />
@@ -166,6 +167,7 @@
         <child id="7358906959151552188" name="entityAttributes" index="25gc1v" />
         <child id="3980028531024213381" name="syntheticModelAttributes" index="2kDtdp" />
         <child id="8985793055732069103" name="environmentEntities" index="2kDK73" />
+        <child id="267945578944430572" name="commonAttributes" index="2vEmVT" />
         <child id="1477363848325697848" name="entitiesInit" index="2zXruJ" />
         <child id="84585932965983650" name="modelParameters" index="Qgzvn" />
         <child id="3840659476812055819" name="entities" index="ZOwpT" />
@@ -915,6 +917,7 @@
       <node concept="2zkEhW" id="6UBJavcGrck" role="2zXruJ">
         <ref role="2CHb45" node="6UBJavcGrc4" resolve="red-turtle" />
       </node>
+      <node concept="2vEowO" id="eRVLmszyUL" role="2vEmVT" />
     </node>
     <node concept="2lMhBk" id="qdXC$ygXbL" role="2J7coG">
       <node concept="2prNyJ" id="3sVTHMz2qlv" role="2lMhBt">
