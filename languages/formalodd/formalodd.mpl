@@ -69,7 +69,7 @@
   </dependencies>
   <languageVersions>
     <language slang="l:31c91def-a131-41a1-9018-102874f49a12:de.slisson.mps.editor.multiline" version="0" />
-    <language slang="l:32c6af6f-c921-41d7-a19e-61a23bec1a47:formalodd" version="1" />
+    <language slang="l:32c6af6f-c921-41d7-a19e-61a23bec1a47:formalodd" version="2" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="12" />
     <language slang="l:443f4c36-fcf5-4eb6-9500-8d06ed259e3e:jetbrains.mps.baseLanguage.classifiers" version="0" />
     <language slang="l:fd392034-7849-419d-9071-12563d152375:jetbrains.mps.baseLanguage.closures" version="0" />

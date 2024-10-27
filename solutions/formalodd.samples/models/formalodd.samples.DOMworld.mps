@@ -2,7 +2,7 @@
 <model ref="r:8716d9e8-eb78-4a86-86af-0e2844b1eee6(formalodd.samples.DOMworld)">
   <persistence version="9" />
   <languages>
-    <use id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd" version="1" />
+    <use id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd" version="2" />
   </languages>
   <imports />
   <registry>
@@ -150,13 +150,11 @@
         <child id="5332331643385450162" name="attributesInit" index="3Y$b7i" />
       </concept>
       <concept id="3840659476812055822" name="formalodd.structure.Entity" flags="ng" index="ZOwpW">
-        <child id="3629783491437474269" name="userDefinedAttributes" index="2gUEk7" />
         <child id="267945578950334125" name="initCommonAttributes" index="2vNRAS" />
         <child id="7167542597237662016" name="initialisationDistribution" index="RFdH4" />
         <child id="7167542597236373246" name="initialisationNumberOfEntities" index="RIgNU" />
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
-        <child id="5332331643385450176" name="initAttributes" index="3Y$b6w" />
       </concept>
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
@@ -362,6 +360,24 @@
             <ref role="26lliz" node="5zgCSHjBF5c" resolve="MaxView" />
           </node>
         </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMt" role="2vNRAS">
+          <ref role="3Y$5KI" node="R_ShpQaOE4" resolve="IdleTime" />
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMu" role="2vNRAS">
+          <ref role="3Y$5KI" node="R_ShpQaOHF" resolve="MemDom" />
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMv" role="2vNRAS">
+          <ref role="3Y$5KI" node="6L5Q700RCBH" resolve="Dominance" />
+          <node concept="26lliW" id="eRVLmtbhTC" role="3Y$5KK">
+            <ref role="26lliz" node="5zgCSHjBFfP" resolve="initDomMale" />
+          </node>
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMw" role="2vNRAS">
+          <ref role="3Y$5KI" node="6L5Q700TI85" resolve="StepDom" />
+          <node concept="26lliW" id="eRVLmtbhX1" role="3Y$5KK">
+            <ref role="26lliz" node="5zgCSHjBFkv" resolve="StepDomMale" />
+          </node>
+        </node>
       </node>
       <node concept="ZOwpW" id="R_ShpQaOCR" role="ZOwpT">
         <property role="TrG5h" value="female" />
@@ -384,6 +400,24 @@
         <node concept="3dutcG" id="2mLRuaqFiw7" role="RFdH4">
           <node concept="26lliW" id="2mLRuaqFiyu" role="2WrfTx">
             <ref role="26lliz" node="5zgCSHjBF5c" resolve="MaxView" />
+          </node>
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMx" role="2vNRAS">
+          <ref role="3Y$5KI" node="R_ShpQaOE4" resolve="IdleTime" />
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMy" role="2vNRAS">
+          <ref role="3Y$5KI" node="R_ShpQaOHF" resolve="MemDom" />
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgMz" role="2vNRAS">
+          <ref role="3Y$5KI" node="6L5Q700RCBH" resolve="Dominance" />
+          <node concept="26lliW" id="eRVLmtbi0J" role="3Y$5KK">
+            <ref role="26lliz" node="5zgCSHjBFhZ" resolve="initDomFemale" />
+          </node>
+        </node>
+        <node concept="3Y$5KH" id="eRVLmtbgM$" role="2vNRAS">
+          <ref role="3Y$5KI" node="6L5Q700TI85" resolve="StepDom" />
+          <node concept="26lliW" id="eRVLmtbi4M" role="3Y$5KK">
+            <ref role="26lliz" node="5zgCSHjBFo$" resolve="StepDomFemale" />
           </node>
         </node>
       </node>
@@ -522,7 +556,7 @@
         </node>
       </node>
       <node concept="3Y$5KH" id="6L5Q700TI8W" role="3Y$b7i">
-        <ref role="3Y$5KI" node="6L5Q700TI85" />
+        <ref role="3Y$5KI" node="6L5Q700TI85" resolve="StepDom" />
       </node>
       <node concept="3Y$5KH" id="eRVLms1SDw" role="3Y$b7i">
         <ref role="3Y$5KI" node="6L5Q700RCBH" resolve="Dominance" />
@@ -1004,7 +1038,7 @@
             </node>
           </node>
           <node concept="1Svl6F" id="7mll56z6fzW" role="2rRKAh">
-            <ref role="1Svl6C" node="1rOaE9UiubF" resolve="win" />
+            <ref role="1Svl6C" node="1rOaE9UiubF" resolve="chase" />
             <node concept="2RZnKf" id="7mll56z6fzX" role="2QCFRE">
               <ref role="2RZnBE" node="1rOaE9Ue9Rc" resolve="victim" />
             </node>
@@ -1013,7 +1047,7 @@
             </node>
           </node>
           <node concept="1Svl6F" id="7mll56z6fGc" role="2rRKAh">
-            <ref role="1Svl6C" node="1rOaE9Ui__z" resolve="lose" />
+            <ref role="1Svl6C" node="1rOaE9Ui__z" resolve="flee" />
             <node concept="2RZnKf" id="7mll56z6fGd" role="2QCFRE">
               <ref role="2RZnBE" node="1rOaE9Ue9Rg" resolve="attacker" />
             </node>
@@ -1081,7 +1115,7 @@
             </node>
           </node>
           <node concept="1Svl6F" id="7mll56z6fWS" role="2R3hq3">
-            <ref role="1Svl6C" node="1rOaE9UiubF" resolve="win" />
+            <ref role="1Svl6C" node="1rOaE9UiubF" resolve="chase" />
             <node concept="2RZnKf" id="7mll56z6fWT" role="2QCFRE">
               <ref role="2RZnBE" node="1rOaE9Ue9Rg" resolve="attacker" />
             </node>
@@ -1090,7 +1124,7 @@
             </node>
           </node>
           <node concept="1Svl6F" id="1rOaE9UiyO7" role="2R3hq3">
-            <ref role="1Svl6C" node="1rOaE9Ui__z" resolve="lose" />
+            <ref role="1Svl6C" node="1rOaE9Ui__z" resolve="flee" />
             <node concept="2RZnKf" id="1rOaE9UizyA" role="2QCFRE">
               <ref role="2RZnBE" node="1rOaE9Ue9Rc" resolve="victim" />
             </node>
@@ -1301,16 +1335,16 @@
         <ref role="1Svl6C" node="7RoYKJmtCGP" resolve="colour-change-male" />
       </node>
       <node concept="1sOCfq" id="1rOaE9Ue9k4" role="1sOCcx">
-        <ref role="1sOCfp" node="1rOaE9Ue7MX" resolve="consider-attck" />
+        <ref role="1sOCfp" node="1rOaE9Ue7MX" resolve="consider-attack" />
       </node>
       <node concept="1sOCfq" id="1rOaE9UeaI2" role="1sOCcx">
         <ref role="1sOCfp" node="1rOaE9Ue9Ra" resolve="attack" />
       </node>
       <node concept="1sOCfq" id="1rOaE9Vcx32" role="1sOCcx">
-        <ref role="1sOCfp" node="1rOaE9Ui__z" resolve="lose" />
+        <ref role="1sOCfp" node="1rOaE9Ui__z" resolve="flee" />
       </node>
       <node concept="1sOCfq" id="7RoYKJmrl0a" role="1sOCcx">
-        <ref role="1sOCfp" node="1rOaE9UiubF" resolve="win" />
+        <ref role="1sOCfp" node="1rOaE9UiubF" resolve="chase" />
       </node>
     </node>
     <node concept="2kDK7K" id="R_ShpQaOCr" role="2kDK7a">
@@ -1388,16 +1422,16 @@
       <ref role="1sMRUI" node="3ZxsZnHpTDS" resolve="attack-calculation" />
     </node>
     <node concept="1sMRUJ" id="1rOaE9Ue7OY" role="1sMO1Z">
-      <ref role="1sMRUI" node="1rOaE9Ue7MX" resolve="consider-attck" />
+      <ref role="1sMRUI" node="1rOaE9Ue7MX" resolve="consider-attack" />
     </node>
     <node concept="1sMRUJ" id="1rOaE9Ue9SH" role="1sMO1Z">
       <ref role="1sMRUI" node="1rOaE9Ue9Ra" resolve="attack" />
     </node>
     <node concept="1sMRUJ" id="1rOaE9Uiueq" role="1sMO1Z">
-      <ref role="1sMRUI" node="1rOaE9UiubF" resolve="win" />
+      <ref role="1sMRUI" node="1rOaE9UiubF" resolve="chase" />
     </node>
     <node concept="1sMRUJ" id="1rOaE9Ui_CL" role="1sMO1Z">
-      <ref role="1sMRUI" node="1rOaE9Ui__z" resolve="lose" />
+      <ref role="1sMRUI" node="1rOaE9Ui__z" resolve="flee" />
     </node>
     <node concept="1sMRUJ" id="1rOaE9VczYH" role="1sMO1Z">
       <ref role="1sMRUI" node="1rOaE9VczY7" resolve="fleedistance" />
@@ -1409,99 +1443,13 @@
       <ref role="1sMRUI" node="7RoYKJmP8lD" resolve="colour-change-female" />
     </node>
     <node concept="1sMRUJ" id="6L5Q700RCBX" role="1sMO1Z">
-      <ref role="1sMRUI" node="6L5Q700RCBH" />
+      <ref role="1sMRUI" node="6L5Q700RCBH" resolve="Dominance" />
     </node>
     <node concept="1sMRUJ" id="6L5Q700TI8n" role="1sMO1Z">
-      <ref role="1sMRUI" node="6L5Q700TI85" />
+      <ref role="1sMRUI" node="6L5Q700TI85" resolve="StepDom" />
     </node>
     <node concept="1sMRUJ" id="2mLRuaqFe3v" role="1sMO1Z">
-      <ref role="1sMRUI" node="2mLRuaqFdZv" />
-    </node>
-  </node>
-  <node concept="ZOwpP" id="eRVLmshtwK">
-    <property role="TrG5h" value="wuhan" />
-    <node concept="3Ovhds" id="eRVLmshtwL" role="1BQTrk" />
-    <node concept="ZOwpU" id="eRVLmshtwM" role="3$p12O">
-      <node concept="ZOwpH" id="eRVLmsNOs9" role="25gc1v">
-        <property role="TrG5h" value="asd" />
-        <node concept="r$6SJ" id="eRVLmsNOsX" role="zGXb3" />
-      </node>
-      <node concept="ZOwpH" id="eRVLmsNOti" role="25gc1v">
-        <property role="TrG5h" value="llls" />
-        <node concept="ZOwps" id="eRVLmsNOug" role="zGXb3" />
-      </node>
-      <node concept="ZOwpW" id="eRVLmsu8JP" role="ZOwpT">
-        <property role="TrG5h" value="kkkkkk" />
-        <node concept="ZOwpH" id="eRVLmszXQT" role="2gUEk7">
-          <property role="TrG5h" value="ttribute" />
-          <node concept="ZOwps" id="eRVLmszXRI" role="zGXb3" />
-        </node>
-        <node concept="3Y$5KH" id="eRVLmszXRj" role="3Y$b6w">
-          <ref role="3Y$5KI" node="eRVLmszXQT" />
-        </node>
-        <node concept="3Y$5KH" id="eRVLmsNOsp" role="2vNRAS">
-          <ref role="3Y$5KI" node="eRVLmsNOs9" />
-        </node>
-        <node concept="3Y$5KH" id="eRVLmsNOt_" role="2vNRAS">
-          <ref role="3Y$5KI" node="eRVLmsNOti" />
-        </node>
-      </node>
-      <node concept="ZOwpW" id="eRVLmsCON8" role="ZOwpT">
-        <property role="TrG5h" value="llllll" />
-        <node concept="3Y$5KH" id="eRVLmsNOsq" role="2vNRAS">
-          <ref role="3Y$5KI" node="eRVLmsNOs9" />
-        </node>
-        <node concept="3Y$5KH" id="eRVLmsNOtA" role="2vNRAS">
-          <ref role="3Y$5KI" node="eRVLmsNOti" />
-        </node>
-      </node>
-      <node concept="ZOwpW" id="eRVLmsNPoS" role="ZOwpT">
-        <property role="TrG5h" value="lllllllllllllllllllllll" />
-        <node concept="3Y$5KH" id="eRVLmsNPpg" role="2vNRAS">
-          <ref role="3Y$5KI" node="eRVLmsNOs9" resolve="asd" />
-        </node>
-        <node concept="3Y$5KH" id="eRVLmsNPph" role="2vNRAS">
-          <ref role="3Y$5KI" node="eRVLmsNOti" resolve="llls" />
-        </node>
-      </node>
-      <node concept="2zkEhW" id="eRVLmsu8K3" role="2zXruJ">
-        <ref role="2CHb45" node="eRVLmsu8JP" />
-      </node>
-      <node concept="3Y$5KH" id="eRVLmszXRe" role="3Y$b7i">
-        <ref role="3Y$5KI" node="eRVLmszXQT" />
-      </node>
-      <node concept="2zkEhW" id="eRVLmsCONq" role="2zXruJ">
-        <ref role="2CHb45" node="eRVLmsCON8" />
-      </node>
-      <node concept="3Y$5KH" id="eRVLmsNOso" role="3Y$b7i">
-        <ref role="3Y$5KI" node="eRVLmsNOs9" />
-      </node>
-      <node concept="3Y$5KH" id="eRVLmsNOt$" role="3Y$b7i">
-        <ref role="3Y$5KI" node="eRVLmsNOti" />
-      </node>
-      <node concept="2zkEhW" id="eRVLmsNPpf" role="2zXruJ">
-        <ref role="2CHb45" node="eRVLmsNPoS" />
-      </node>
-    </node>
-    <node concept="2lMhBk" id="eRVLmshtwO" role="2J7coG" />
-    <node concept="2kDK7K" id="eRVLmshtwP" role="2kDK7a" />
-    <node concept="1sMRUJ" id="eRVLmsu8JY" role="1sMO1Z">
-      <ref role="1sMRUI" node="eRVLmsu8JP" />
-    </node>
-    <node concept="1sMRUJ" id="eRVLmszXRa" role="1sMO1Z">
-      <ref role="1sMRUI" node="eRVLmszXQT" />
-    </node>
-    <node concept="1sMRUJ" id="eRVLmsCONk" role="1sMO1Z">
-      <ref role="1sMRUI" node="eRVLmsCON8" />
-    </node>
-    <node concept="1sMRUJ" id="eRVLmsNOsj" role="1sMO1Z">
-      <ref role="1sMRUI" node="eRVLmsNOs9" />
-    </node>
-    <node concept="1sMRUJ" id="eRVLmsNOtu" role="1sMO1Z">
-      <ref role="1sMRUI" node="eRVLmsNOti" />
-    </node>
-    <node concept="1sMRUJ" id="eRVLmsNPp8" role="1sMO1Z">
-      <ref role="1sMRUI" node="eRVLmsNPoS" />
+      <ref role="1sMRUI" node="2mLRuaqFdZv" resolve="reduce-IdleTime" />
     </node>
   </node>
 </model>
