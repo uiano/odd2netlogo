@@ -1168,6 +1168,7 @@
       <property role="IQ2nx" value="4361115321892423118" />
       <property role="TrG5h" value="accessWho" />
       <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
+      <node concept="asaX9" id="4WALOze$SeD" role="lGtFl" />
     </node>
   </node>
   <node concept="25R3W" id="5yfUVbvM9VE">
@@ -1464,8 +1465,8 @@
     </node>
     <node concept="25R33" id="5zgCSHk5UQA" role="25R1y">
       <property role="3tVfz5" value="6399794889300094374" />
-      <property role="TrG5h" value="cone" />
-      <property role="1L1pqM" value="in cone in front of agent" />
+      <property role="TrG5h" value="sector" />
+      <property role="1L1pqM" value="in sector in front of agent" />
     </node>
     <node concept="25R33" id="OZ7wODJEYc" role="25R1y">
       <property role="3tVfz5" value="954514687909605260" />
@@ -1881,7 +1882,7 @@
   <node concept="1TIwiD" id="39v_dEy9jMj">
     <property role="EcuMT" value="3629783491428039827" />
     <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="FunctionCall" />
+    <property role="TrG5h" value="CalculationCall" />
     <property role="34LRSv" value="calculate" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyj" id="39v_dEy9jMm" role="1TKVEi">
@@ -1916,6 +1917,7 @@
       <property role="TrG5h" value="who" />
       <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
     </node>
+    <node concept="asaX9" id="1Zy6EEvHOdV" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="39v_dEytDLr">
     <property role="EcuMT" value="3629783491433372763" />
@@ -2831,11 +2833,6 @@
     <property role="3F6X1D" value="7296188950884028810" />
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <property role="TrG5h" value="selectionCriteria" />
-    <node concept="25R33" id="6l1hj6B$D6b" role="25R1y">
-      <property role="3tVfz5" value="7296188950884028811" />
-      <property role="TrG5h" value="nearest" />
-      <property role="1L1pqM" value="nearest" />
-    </node>
     <node concept="25R33" id="2mLRuaoQt53" role="25R1y">
       <property role="3tVfz5" value="2716196015577878851" />
       <property role="TrG5h" value="highest" />
@@ -2906,7 +2903,7 @@
     <node concept="1TJgyj" id="3Maou2QW7RC" role="1TKVEi">
       <property role="IQ2ns" value="4362406806831529448" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="left" />
+      <property role="20kJfa" value="range1" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
@@ -2920,10 +2917,24 @@
     <node concept="1TJgyj" id="3Maou2QW8Pt" role="1TKVEi">
       <property role="IQ2ns" value="4362406806831533405" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
-      <property role="20kJfa" value="right" />
+      <property role="20kJfa" value="range2" />
       <property role="20lbJX" value="fLJekj4/_1" />
       <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="JvAs2_NlMt">
+    <property role="EcuMT" value="855571506918153373" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="EnvEntity" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="JvAs2_Nmjq">
+    <property role="EcuMT" value="855571506918155482" />
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <property role="TrG5h" value="EntityType" />
+    <property role="R5$K7" value="true" />
+    <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
   </node>
 </model>
 

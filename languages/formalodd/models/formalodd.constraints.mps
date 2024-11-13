@@ -1407,7 +1407,7 @@
   </node>
   <node concept="1M2fIO" id="I1KRVZnzgE">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1M2myG" to="86kt:39v_dEy9jMj" resolve="FunctionCall" />
+    <ref role="1M2myG" to="86kt:39v_dEy9jMj" resolve="CalculationCall" />
     <node concept="1N5Pfh" id="I1KRVZnzgF" role="1Mr941">
       <ref role="1N5Vy1" to="86kt:39v_dEy9jMk" resolve="function" />
       <node concept="1dDu$B" id="I1KRVZnzgH" role="1N6uqs">
@@ -1864,6 +1864,28 @@
   <node concept="1M2fIO" id="2mLRuapovZd">
     <property role="3GE5qa" value="ActionsAndProcedures" />
     <ref role="1M2myG" to="86kt:6l1hj6B$Awh" resolve="LetParameter" />
+  </node>
+  <node concept="1M2fIO" id="JvAs2_NnUv">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1M2myG" to="86kt:JvAs2_NlMt" resolve="EnvEntity" />
+    <node concept="9S07l" id="JvAs2_NnVI" role="9Vyp8">
+      <node concept="3clFbS" id="JvAs2_NnVJ" role="2VODD2">
+        <node concept="3clFbF" id="JvAs2_No2e" role="3cqZAp">
+          <node concept="3clFbT" id="JvAs2_No2d" role="3clFbG" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="JvAs2_NokM">
+    <property role="3GE5qa" value="EntitiesAndAttributes" />
+    <ref role="1M2myG" to="86kt:JvAs2_Nmjq" resolve="EntityType" />
+    <node concept="9S07l" id="JvAs2_Nom1" role="9Vyp8">
+      <node concept="3clFbS" id="JvAs2_Nom2" role="2VODD2">
+        <node concept="3clFbF" id="JvAs2_NorH" role="3cqZAp">
+          <node concept="3clFbT" id="JvAs2_NorG" role="3clFbG" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

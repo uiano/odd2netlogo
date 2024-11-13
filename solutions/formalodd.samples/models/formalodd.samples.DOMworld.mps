@@ -24,11 +24,11 @@
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
       <concept id="4362406806831527099" name="formalodd.structure.range" flags="ng" index="2auxlr">
-        <child id="4362406806831529448" name="left" index="2auxK8" />
+        <child id="4362406806831529448" name="range1" index="2auxK8" />
         <child id="4362406806831530932" name="center" index="2auI9k" />
-        <child id="4362406806831533405" name="right" index="2auIMX" />
+        <child id="4362406806831533405" name="range2" index="2auIMX" />
       </concept>
-      <concept id="3629783491428039827" name="formalodd.structure.FunctionCall" flags="ng" index="2guEx9">
+      <concept id="3629783491428039827" name="formalodd.structure.CalculationCall" flags="ng" index="2guEx9">
         <reference id="3629783491428039828" name="function" index="2guExe" />
         <child id="3629783491428039830" name="actuals" index="2guExc" />
       </concept>
@@ -104,6 +104,9 @@
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="2339640501379512845" name="partner" index="3UFUyI" />
       </concept>
+      <concept id="8247773779785854958" name="formalodd.structure.Clone" flags="ng" index="2DBPlz">
+        <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
+      </concept>
       <concept id="2473444682900410212" name="formalodd.structure.Indices" flags="ng" index="2HyfYL">
         <child id="2473444682900410213" name="inner" index="2HyfYK" />
       </concept>
@@ -163,6 +166,7 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
+      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
@@ -217,6 +221,7 @@
         <child id="2036989786647822693" name="inner" index="SuHoe" />
       </concept>
       <concept id="2469205658733998634" name="formalodd.structure.ModelDescription" flags="ng" index="3Ovhds" />
+      <concept id="829158756587371510" name="formalodd.structure.SelectExpression" flags="ng" index="3RiFy8" />
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
         <child id="2146025148701641578" name="actuals" index="2QCFRE" />
@@ -389,9 +394,6 @@
             <ref role="26lliz" node="5zgCSHjBFkv" resolve="StepDomMale" />
           </node>
         </node>
-        <node concept="3Y$5KH" id="63gpVY3ss0P" role="2vNRAS">
-          <ref role="3Y$5KI" node="63gpVY3srXB" />
-        </node>
         <node concept="3Y$5KH" id="7DHLWGHStnu" role="2vNRAS">
           <ref role="3Y$5KI" node="7DHLWGHStmD" />
         </node>
@@ -436,9 +438,6 @@
           <node concept="26lliW" id="eRVLmtbi4M" role="3Y$5KK">
             <ref role="26lliz" node="5zgCSHjBFo$" resolve="StepDomFemale" />
           </node>
-        </node>
-        <node concept="3Y$5KH" id="63gpVY3ss0Q" role="2vNRAS">
-          <ref role="3Y$5KI" node="63gpVY3srXB" />
         </node>
         <node concept="3Y$5KH" id="7DHLWGHStnv" role="2vNRAS">
           <ref role="3Y$5KI" node="7DHLWGHStmD" />
@@ -1347,6 +1346,16 @@
           <node concept="Qbqaq" id="2mLRuaqFe4F" role="2jZikY" />
         </node>
       </node>
+      <node concept="2lNc1x" id="1Zy6EEvHJxI" role="2GyEu2">
+        <property role="TrG5h" value="lllll" />
+        <node concept="2DBPlz" id="1Zy6EEvHJB7" role="18tn1X">
+          <property role="2DBPly" value="1" />
+        </node>
+        <node concept="2jZikV" id="1Zy6EEvHJxJ" role="3UFU5O">
+          <property role="TrG5h" value="horsen" />
+          <node concept="Qbqaq" id="1Zy6EEvHJB0" role="2jZikY" />
+        </node>
+      </node>
       <node concept="1Svl6F" id="2mLRuaqFe9l" role="250j5S">
         <ref role="1Svl6C" node="2mLRuaqFdZv" resolve="reduce-IdleTime" />
       </node>
@@ -1472,6 +1481,9 @@
     </node>
     <node concept="1sMRUJ" id="7DHLWGHStmX" role="1sMO1Z">
       <ref role="1sMRUI" node="7DHLWGHStmD" />
+    </node>
+    <node concept="1sMRUJ" id="1Zy6EEvHJ_Y" role="1sMO1Z">
+      <ref role="1sMRUI" node="1Zy6EEvHJxI" />
     </node>
   </node>
   <node concept="ZOwpP" id="6dXUwhkZEX1">
@@ -2919,6 +2931,20 @@
           <node concept="Qbqaq" id="6dXUwhl7iEi" role="2jZikY" />
         </node>
       </node>
+      <node concept="2lNc1x" id="1Zy6EEvH_o4" role="2GyEu2">
+        <property role="TrG5h" value="sel" />
+        <node concept="RZfIr" id="1Zy6EEvH_v2" role="18tn1X">
+          <property role="TrG5h" value="sadd" />
+          <node concept="2gXKin" id="1Zy6EEvH_vg" role="RZfIc">
+            <node concept="3RiFy8" id="1Zy6EEvH_vk" role="2gXKil" />
+            <node concept="ZOwqL" id="1Zy6EEvH_$9" role="2gXKik" />
+          </node>
+        </node>
+        <node concept="2jZikV" id="1Zy6EEvH_o5" role="3UFU5O">
+          <property role="TrG5h" value="asd" />
+          <node concept="Qbqaq" id="1Zy6EEvH_uV" role="2jZikY" />
+        </node>
+      </node>
       <node concept="1sOCfq" id="6dXUwhl7hdy" role="1sOCcx">
         <ref role="1sOCfp" node="6dXUwhl7h25" resolve="consider-attack" />
       </node>
@@ -3025,6 +3051,9 @@
     </node>
     <node concept="1sMRUJ" id="7DHLWGHSumm" role="1sMO1Z">
       <ref role="1sMRUI" node="7DHLWGHSum4" />
+    </node>
+    <node concept="1sMRUJ" id="1Zy6EEvH_tT" role="1sMO1Z">
+      <ref role="1sMRUI" node="1Zy6EEvH_o4" />
     </node>
   </node>
   <node concept="ZOwpP" id="6dXUwhl7nfV">

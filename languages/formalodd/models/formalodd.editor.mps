@@ -3467,7 +3467,7 @@
   </node>
   <node concept="24kQdi" id="39v_dEy9jMx">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="1XX52x" to="86kt:39v_dEy9jMj" resolve="FunctionCall" />
+    <ref role="1XX52x" to="86kt:39v_dEy9jMj" resolve="CalculationCall" />
     <node concept="3EZMnI" id="39v_dEy9jMz" role="2wV5jI">
       <node concept="l2Vlx" id="39v_dEy9jM$" role="2iSdaV" />
       <node concept="3F0ifn" id="39v_dEy9jM_" role="3EZMnx">
@@ -3545,12 +3545,14 @@
       <node concept="l2Vlx" id="39v_dEywMS5" role="2iSdaV" />
       <node concept="3F0ifn" id="39v_dEywMS6" role="3EZMnx">
         <property role="3F0ifm" value="collect" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F1sOY" id="39v_dEywMSe" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:39v_dEywMRS" resolve="inner" />
       </node>
       <node concept="3F0ifn" id="39v_dEywMSf" role="3EZMnx">
         <property role="3F0ifm" value="using" />
+        <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F0A7n" id="39v_dEywMT4" role="3EZMnx">
         <ref role="1NtTu8" to="86kt:39v_dEywMSX" resolve="kind" />
@@ -3596,7 +3598,7 @@
       <node concept="3EZMnI" id="1rOaE9TZRNN" role="3EZMnx">
         <node concept="VPM3Z" id="1rOaE9TZRNP" role="3F10Kt" />
         <node concept="3F0ifn" id="1rOaE9TZS0F" role="3EZMnx">
-          <property role="3F0ifm" value=" with radius " />
+          <property role="3F0ifm" value=" with angle " />
           <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
         </node>
         <node concept="3F1sOY" id="1rOaE9TZS6x" role="3EZMnx">
@@ -3622,7 +3624,7 @@
                 </node>
                 <node concept="21noJN" id="1rOaE9TZUtN" role="2OqNvi">
                   <node concept="21nZrQ" id="1rOaE9TZUtP" role="21noJM">
-                    <ref role="21nZrZ" to="86kt:5zgCSHk5UQA" resolve="cone" />
+                    <ref role="21nZrZ" to="86kt:5zgCSHk5UQA" resolve="sector" />
                   </node>
                 </node>
               </node>
@@ -7186,7 +7188,7 @@
   </node>
   <node concept="22mcaB" id="I1KRVZkzhj">
     <property role="3GE5qa" value="Expressions" />
-    <ref role="aqKnT" to="86kt:39v_dEy9jMj" resolve="FunctionCall" />
+    <ref role="aqKnT" to="86kt:39v_dEy9jMj" resolve="CalculationCall" />
     <node concept="3XHNnq" id="I1KRVZkzhm" role="3ft7WO">
       <ref role="3XGfJA" to="86kt:39v_dEy9jMk" resolve="function" />
       <node concept="2h3Zct" id="I1KRVZkzhn" role="1WZ6hz">
@@ -8263,14 +8265,14 @@
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F1sOY" id="3Maou2QW9Tt" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3Maou2QW7RC" resolve="left" />
+        <ref role="1NtTu8" to="86kt:3Maou2QW7RC" resolve="range1" />
       </node>
       <node concept="3F0ifn" id="3Maou2QW9Z2" role="3EZMnx">
         <property role="3F0ifm" value=" to " />
         <ref role="1k5W1q" node="5yfUVbx0PFg" resolve="toolText" />
       </node>
       <node concept="3F1sOY" id="3Maou2QWa32" role="3EZMnx">
-        <ref role="1NtTu8" to="86kt:3Maou2QW8Pt" resolve="right" />
+        <ref role="1NtTu8" to="86kt:3Maou2QW8Pt" resolve="range2" />
       </node>
       <node concept="2iRfu4" id="3Maou2QW9ym" role="2iSdaV" />
     </node>
