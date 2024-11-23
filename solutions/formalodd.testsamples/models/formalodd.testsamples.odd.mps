@@ -21,6 +21,7 @@
       <concept id="6381578350482865934" name="formalodd.structure.AttributeAccess" flags="ng" index="26lliW">
         <property id="4361115321892423118" name="accessWho" index="1dr8U9" />
         <reference id="6381578350482865937" name="attribute" index="26lliz" />
+        <child id="6997614267051515708" name="parameter" index="2ROLC_" />
       </concept>
       <concept id="6400669868569568225" name="formalodd.structure.KillEntity" flags="ng" index="8shMO">
         <property id="6381578350475854331" name="killWho" index="26S2D9" />
@@ -122,6 +123,9 @@
       </concept>
       <concept id="84585932955613678" name="formalodd.structure.LetActivity" flags="ng" index="RZfIr">
         <child id="84585932955613689" name="value" index="RZfIc" />
+      </concept>
+      <concept id="6997614267052718358" name="formalodd.structure.ParameterReference" flags="ng" index="2RZnKf">
+        <reference id="6997614267052719347" name="parameter" index="2RZnBE" />
       </concept>
       <concept id="6930332985984393264" name="formalodd.structure.Density" flags="ng" index="2WUdOh">
         <child id="6930332985984393265" name="percentage" index="2WUdOg" />
@@ -529,6 +533,9 @@
         <node concept="8StVI" id="eRVLmtbgHq" role="18tn1X">
           <node concept="26lliW" id="eRVLmtbgHr" role="2OFgHe">
             <ref role="26lliz" node="4ezY39PPbb8" resolve="surrounding-blue-votes" />
+            <node concept="2RZnKf" id="cQjiEDchfP" role="2ROLC_">
+              <ref role="2RZnBE" node="eRVLmtbgHt" resolve="null1" />
+            </node>
           </node>
           <node concept="RLbTy" id="eRVLmtbgHs" role="2rWCss">
             <ref role="RLbTH" node="eRVLmtbgHk" resolve="surrounding-blue" />

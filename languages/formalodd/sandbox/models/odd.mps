@@ -795,7 +795,7 @@
       <node concept="ZOwrm" id="6F4sr4mAQaE" role="2kDK73">
         <property role="TrG5h" value="grass" />
         <node concept="rTCB5" id="6F4sr4mAQaP" role="21mi6N">
-          <property role="ZOwrO" value="22rmwLH$XpM/green" />
+          <property role="ZOwrO" value="4ezY39QkQzX/green" />
           <node concept="26lliW" id="6F4sr4mAQbz" role="rTCB6">
             <ref role="26lliz" node="6F4sr4mAQbj" resolve="grass-amount" />
           </node>
@@ -828,7 +828,7 @@
           <ref role="3Y$5KI" node="6c1M1NX$PKU" resolve="breef" />
         </node>
         <node concept="ZOwrR" id="3sVTHMyDE7I" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XmI/grey" />
+          <property role="ZOwrO" value="4ezY39QkQzD/gray" />
         </node>
         <node concept="3Y$5KH" id="eRVLmtbgM5" role="2vNRAS">
           <ref role="3Y$5KI" node="6F4sr4mAQat" resolve="energy" />
@@ -838,7 +838,7 @@
         <property role="TrG5h" value="sheep" />
         <property role="2QSBU6" value="sheep" />
         <node concept="ZOwrR" id="6F4sr4mAQap" role="3$oDj3">
-          <property role="ZOwrO" value="22rmwLH$XlP/white" />
+          <property role="ZOwrO" value="4ezY39QkQ$l/cyan" />
         </node>
         <node concept="ZOwo7" id="6F4sr4mAQar" role="ZOwpC">
           <property role="27hRln" value="5yfUVbvMa18/sheep" />

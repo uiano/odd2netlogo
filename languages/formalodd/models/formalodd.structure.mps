@@ -614,10 +614,12 @@
     <property role="R4oN_" value="make the entity die" />
     <property role="34LRSv" value="kill an entity" />
     <ref role="1TJDcQ" node="3mweh_A8dKi" resolve="Activity" />
-    <node concept="1TJgyi" id="5yfUVburW7V" role="1TKVEl">
-      <property role="IQ2nx" value="6381578350475854331" />
-      <property role="TrG5h" value="killWho" />
-      <ref role="AX2Wp" node="5yfUVburW9D" resolve="SpecialEntities" />
+    <node concept="1TJgyj" id="4VNfkNO1DKB" role="1TKVEi">
+      <property role="IQ2ns" value="5688958155019951143" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="killWho" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="64sxhBmSv$m" resolve="ParameterReference" />
     </node>
   </node>
   <node concept="1TIwiD" id="79PYCRrUEZI">
@@ -1156,6 +1158,12 @@
       <property role="IQ2ns" value="6997614267051515708" />
       <property role="20lmBu" value="fLJjDmT/aggregation" />
       <property role="20kJfa" value="parameter" />
+      <ref role="20lvS9" node="64sxhBmSv$m" resolve="ParameterReference" />
+    </node>
+    <node concept="1TJgyj" id="4Ku5LNTkrfv" role="1TKVEi">
+      <property role="IQ2ns" value="5484846809393247199" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="other" />
       <ref role="20lvS9" node="64sxhBmSv$m" resolve="ParameterReference" />
     </node>
     <node concept="1TJgyj" id="5yfUVbuQFWh" role="1TKVEi">
@@ -2897,7 +2905,7 @@
   <node concept="1TIwiD" id="3Maou2QW7iV">
     <property role="EcuMT" value="4362406806831527099" />
     <property role="3GE5qa" value="Expressions" />
-    <property role="TrG5h" value="range" />
+    <property role="TrG5h" value="Range" />
     <property role="34LRSv" value="in range" />
     <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
     <node concept="1TJgyj" id="3Maou2QW7RC" role="1TKVEi">
@@ -2935,6 +2943,59 @@
     <property role="TrG5h" value="EntityType" />
     <property role="R5$K7" value="true" />
     <ref role="1TJDcQ" node="3lcKR8aBGky" resolve="Type" />
+  </node>
+  <node concept="1TIwiD" id="4VNfkNO1vV1">
+    <property role="EcuMT" value="5688958155019910849" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="TimeExpression" />
+    <ref role="1TJDcQ" node="3lcKR8aBGn3" resolve="Expression" />
+    <node concept="1TJgyj" id="4VNfkNO1wkI" role="1TKVEi">
+      <property role="IQ2ns" value="5688958155019912494" />
+      <property role="20lmBu" value="fLJjDmT/aggregation" />
+      <property role="20kJfa" value="number" />
+      <property role="20lbJX" value="fLJekj4/_1" />
+      <ref role="20lvS9" node="3lcKR8aBGn3" resolve="Expression" />
+    </node>
+    <node concept="1TJgyi" id="4VNfkNO1wig" role="1TKVEl">
+      <property role="IQ2nx" value="5688958155019912336" />
+      <property role="TrG5h" value="when" />
+      <ref role="AX2Wp" node="4VNfkNO1we9" resolve="timeComparisons" />
+    </node>
+  </node>
+  <node concept="25R3W" id="4VNfkNO1we9">
+    <property role="3F6X1D" value="5688958155019912073" />
+    <property role="3GE5qa" value="Expressions" />
+    <property role="TrG5h" value="timeComparisons" />
+    <node concept="25R33" id="4VNfkNO1wea" role="25R1y">
+      <property role="3tVfz5" value="5688958155019912074" />
+      <property role="TrG5h" value="gt" />
+      <property role="1L1pqM" value="after" />
+    </node>
+    <node concept="25R33" id="4VNfkNO1web" role="25R1y">
+      <property role="3tVfz5" value="5688958155019912075" />
+      <property role="TrG5h" value="lt" />
+      <property role="1L1pqM" value="before" />
+    </node>
+    <node concept="25R33" id="4VNfkNO1wee" role="25R1y">
+      <property role="3tVfz5" value="5688958155019912078" />
+      <property role="TrG5h" value="ge" />
+      <property role="1L1pqM" value="starting from" />
+    </node>
+    <node concept="25R33" id="4VNfkNO1wei" role="25R1y">
+      <property role="3tVfz5" value="5688958155019912082" />
+      <property role="TrG5h" value="le" />
+      <property role="1L1pqM" value="until" />
+    </node>
+    <node concept="25R33" id="4VNfkNO1wen" role="25R1y">
+      <property role="3tVfz5" value="5688958155019912087" />
+      <property role="TrG5h" value="mod" />
+      <property role="1L1pqM" value="every X timesteps" />
+    </node>
+    <node concept="25R33" id="4VNfkNO1wet" role="25R1y">
+      <property role="3tVfz5" value="5688958155019912093" />
+      <property role="TrG5h" value="eq" />
+      <property role="1L1pqM" value="at exactly" />
+    </node>
   </node>
 </model>
 

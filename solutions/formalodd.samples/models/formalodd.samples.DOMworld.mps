@@ -23,7 +23,7 @@
         <child id="6997614267051515708" name="parameter" index="2ROLC_" />
       </concept>
       <concept id="6400669868562211259" name="formalodd.structure.SetAttribute" flags="ng" index="8StVI" />
-      <concept id="4362406806831527099" name="formalodd.structure.range" flags="ng" index="2auxlr">
+      <concept id="4362406806831527099" name="formalodd.structure.Range" flags="ng" index="2auxlr">
         <child id="4362406806831529448" name="range1" index="2auxK8" />
         <child id="4362406806831530932" name="center" index="2auI9k" />
         <child id="4362406806831533405" name="range2" index="2auIMX" />
@@ -104,9 +104,6 @@
       <concept id="472304604775893902" name="formalodd.structure.Interaction" flags="ng" index="BZNO7">
         <child id="2339640501379512845" name="partner" index="3UFUyI" />
       </concept>
-      <concept id="8247773779785854958" name="formalodd.structure.Clone" flags="ng" index="2DBPlz">
-        <property id="8247773779785854959" name="amountOfClones" index="2DBPly" />
-      </concept>
       <concept id="2473444682900410212" name="formalodd.structure.Indices" flags="ng" index="2HyfYL">
         <child id="2473444682900410213" name="inner" index="2HyfYK" />
       </concept>
@@ -149,6 +146,7 @@
         <child id="6529568716131235338" name="processAndScheduling" index="2J7coG" />
         <child id="7004962584163901476" name="rationales" index="1sMO1Z" />
         <child id="135681439422303791" name="submodels" index="3uwOuz" />
+        <child id="135681439422303784" name="input" index="3uwOu$" />
         <child id="7610748055951433660" name="entitiesAndVariables" index="3$p12O" />
         <child id="8277873572982783228" name="modelDescription" index="1BQTrk" />
       </concept>
@@ -166,7 +164,6 @@
         <child id="3840659476812055834" name="shape" index="ZOwpC" />
         <child id="7610748055951530955" name="colour" index="3$oDj3" />
       </concept>
-      <concept id="3840659476812056003" name="formalodd.structure.Expression" flags="ng" index="ZOwqL" />
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
@@ -194,6 +191,9 @@
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
+      <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
+        <child id="7004962584163900935" name="rationale" index="1sMRTs" />
+      </concept>
       <concept id="7004962584163901172" name="formalodd.structure.RationaleReference" flags="ng" index="1sMRUJ">
         <reference id="7004962584163901173" name="ratConcept" index="1sMRUI" />
       </concept>
@@ -213,15 +213,19 @@
         <child id="6465847136229864916" name="size" index="BjBxy" />
       </concept>
       <concept id="7244034297249331046" name="formalodd.structure.ChangeColour" flags="ng" index="1KNgQQ">
-        <reference id="7244034297249333491" name="turtle" index="1KNfCz" />
         <child id="7801879905047947648" name="turtle" index="1GSv7K" />
         <child id="7244034297249335691" name="toColour" index="1KNfdr" />
       </concept>
       <concept id="829158756634596762" name="formalodd.structure.Collection" flags="ng" index="3O7tr$">
         <child id="2036989786647822693" name="inner" index="SuHoe" />
       </concept>
-      <concept id="2469205658733998634" name="formalodd.structure.ModelDescription" flags="ng" index="3Ovhds" />
-      <concept id="829158756587371510" name="formalodd.structure.SelectExpression" flags="ng" index="3RiFy8" />
+      <concept id="2469205658733998634" name="formalodd.structure.ModelDescription" flags="ng" index="3Ovhds">
+        <property id="2469205658733998637" name="role" index="3Ovhdr" />
+        <child id="8277873572982783032" name="researchQuestion" index="1BQTog" />
+        <child id="8277873572982783034" name="targetGroup" index="1BQToi" />
+        <child id="8277873572982783040" name="purposeDescription" index="1BQTpC" />
+      </concept>
+      <concept id="2469205658733998766" name="formalodd.structure.Rationale" flags="ng" index="3Ovhfo" />
       <concept id="1786286396201728936" name="formalodd.structure.ActionCall" flags="ng" index="1Svl6F">
         <reference id="1786286396201728939" name="called" index="1Svl6C" />
         <child id="2146025148701641578" name="actuals" index="2QCFRE" />
@@ -239,10 +243,25 @@
   </registry>
   <node concept="ZOwpP" id="R_ShpQaOCn">
     <property role="TrG5h" value="DOMworld" />
+    <property role="2QSBU6" value="this is a formalODD implementation of the DomWorld(Hemelrijk, 1998) model" />
+    <node concept="XAmFv" id="4VNfkNO1pZB" role="3uwOu$">
+      <property role="XAmFg" value=" " />
+    </node>
     <node concept="XAmFv" id="2mLRuap3OPn" role="3uwOuz">
       <property role="XAmFg" value="&#10;" />
     </node>
-    <node concept="3Ovhds" id="R_ShpQaOCo" role="1BQTrk" />
+    <node concept="3Ovhds" id="R_ShpQaOCo" role="1BQTrk">
+      <property role="3Ovhdr" value="6Uof7aieThm/Explanation" />
+      <node concept="XAmFv" id="4VNfkNO1sqc" role="1BQTpC">
+        <property role="XAmFg" value="the purpose of the model is to explain and illustrate how hierarchies can occur as an aggregate result of discrete dominance interactions taken by monkeys in a group of monkeys.  " />
+      </node>
+      <node concept="XAmFv" id="4VNfkNO1sqa" role="1BQToi">
+        <property role="XAmFg" value="the model was initially designed for primatologists. " />
+      </node>
+      <node concept="XAmFv" id="4VNfkNO1sq8" role="1BQTog">
+        <property role="XAmFg" value="The DomWorld model (Hemelrijk, 1998) was proposed as an alternative model for explaining how different hierarchies can form in ape-troupes. It put forward the idea that the hierarchies were the aggregate result of dominance interactions. This model demonstrates how a hierarchy can form without a system-level equation guiding the actions of the monkeys, but rather as a result of the actions of individuals.  " />
+      </node>
+    </node>
     <node concept="ZOwpU" id="R_ShpQaOCp" role="3$p12O">
       <node concept="ZOwpH" id="5zgCSHjBEVz" role="Qgzvn">
         <property role="TrG5h" value="PopulationSize" />
@@ -313,22 +332,12 @@
         <node concept="ZOwps" id="65t887ASWBp" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="1rOaE9VczY7" role="Qgzvn">
-        <property role="TrG5h" value="fleedistance" />
+        <property role="TrG5h" value="fleeDistance" />
         <node concept="ZOwps" id="1rOaE9Vc$4U" role="zGXb3" />
       </node>
       <node concept="ZOwpH" id="R_ShpQaOE4" role="25gc1v">
         <property role="TrG5h" value="IdleTime" />
         <node concept="ZOwps" id="R_ShpQaOEC" role="zGXb3" />
-      </node>
-      <node concept="ZOwpH" id="R_ShpQaOHF" role="25gc1v">
-        <property role="TrG5h" value="MemDom" />
-        <property role="2QSBU6" value="memory of the power level of others" />
-        <node concept="1JriGl" id="5zgCSHjBEUq" role="zGXb3">
-          <node concept="26lliW" id="5zgCSHjBEW$" role="BjBxy">
-            <ref role="26lliz" node="5zgCSHjBEVz" resolve="PopulationSize" />
-          </node>
-          <node concept="ZOwps" id="5zgCSHjBEUX" role="SuHoe" />
-        </node>
       </node>
       <node concept="ZOwpH" id="6L5Q700RCBH" role="25gc1v">
         <property role="TrG5h" value="Dominance" />
@@ -379,9 +388,6 @@
         <node concept="3Y$5KH" id="eRVLmtbgMt" role="2vNRAS">
           <ref role="3Y$5KI" node="R_ShpQaOE4" resolve="IdleTime" />
         </node>
-        <node concept="3Y$5KH" id="eRVLmtbgMu" role="2vNRAS">
-          <ref role="3Y$5KI" node="R_ShpQaOHF" resolve="MemDom" />
-        </node>
         <node concept="3Y$5KH" id="eRVLmtbgMv" role="2vNRAS">
           <ref role="3Y$5KI" node="6L5Q700RCBH" resolve="Dominance" />
           <node concept="26lliW" id="eRVLmtbhTC" role="3Y$5KK">
@@ -397,6 +403,7 @@
         <node concept="3Y$5KH" id="7DHLWGHStnu" role="2vNRAS">
           <ref role="3Y$5KI" node="7DHLWGHStmD" />
         </node>
+        <node concept="3Ovhfo" id="4VNfkNO1pAG" role="1sMRTs" />
       </node>
       <node concept="ZOwpW" id="R_ShpQaOCR" role="ZOwpT">
         <property role="TrG5h" value="female" />
@@ -424,9 +431,6 @@
         <node concept="3Y$5KH" id="eRVLmtbgMx" role="2vNRAS">
           <ref role="3Y$5KI" node="R_ShpQaOE4" resolve="IdleTime" />
         </node>
-        <node concept="3Y$5KH" id="eRVLmtbgMy" role="2vNRAS">
-          <ref role="3Y$5KI" node="R_ShpQaOHF" resolve="MemDom" />
-        </node>
         <node concept="3Y$5KH" id="eRVLmtbgMz" role="2vNRAS">
           <ref role="3Y$5KI" node="6L5Q700RCBH" resolve="Dominance" />
           <node concept="26lliW" id="eRVLmtbi0J" role="3Y$5KK">
@@ -442,6 +446,7 @@
         <node concept="3Y$5KH" id="7DHLWGHStnv" role="2vNRAS">
           <ref role="3Y$5KI" node="7DHLWGHStmD" />
         </node>
+        <node concept="3Ovhfo" id="4VNfkNO1pKc" role="1sMRTs" />
       </node>
       <node concept="2zkEhW" id="R_ShpQaOC_" role="2zXruJ">
         <ref role="2CHb45" node="R_ShpQaOCs" resolve="male" />
@@ -459,9 +464,6 @@
             <property role="2oK_Ap" value="1" />
           </node>
         </node>
-      </node>
-      <node concept="3Y$5KH" id="R_ShpQaOI2" role="3Y$b7i">
-        <ref role="3Y$5KI" node="R_ShpQaOHF" resolve="MemDom" />
       </node>
       <node concept="3Y$5KH" id="5zgCSHjBEVQ" role="3Y$b7i">
         <ref role="3Y$5KI" node="5zgCSHjBEVz" resolve="PopulationSize" />
@@ -593,8 +595,10 @@
     <node concept="2lMhBk" id="R_ShpQaOCq" role="2J7coG">
       <node concept="2lNc1x" id="7RoYKJmtCGP" role="2GyEu2">
         <property role="TrG5h" value="colour-change-male" />
+        <property role="2QSBU6" value="the update of the colour of males" />
         <node concept="RZfIr" id="7RoYKJmtCKQ" role="18tn1X">
           <property role="TrG5h" value="maxDom" />
+          <property role="2QSBU6" value="highest dominance of the monkeys" />
           <node concept="2gRb$H" id="7RoYKJmtCLg" role="RZfIc">
             <property role="2gRbFB" value="52HbUMTYyP4/Max" />
             <node concept="26lliW" id="7RoYKJmtCLr" role="2gRb$y">
@@ -639,8 +643,10 @@
       </node>
       <node concept="2lNc1x" id="7RoYKJmP8lD" role="2GyEu2">
         <property role="TrG5h" value="colour-change-female" />
+        <property role="2QSBU6" value="the update of the colour of females" />
         <node concept="RZfIr" id="7RoYKJmP8qX" role="18tn1X">
           <property role="TrG5h" value="maxDom" />
+          <property role="2QSBU6" value="highest dominance of the monkeys" />
           <node concept="2gRb$H" id="6L5Q700CZrF" role="RZfIc">
             <property role="2gRbFB" value="52HbUMTYyP4/Max" />
             <node concept="26lliW" id="6L5Q700CZsF" role="2gRb$y">
@@ -649,7 +655,6 @@
           </node>
         </node>
         <node concept="1KNgQQ" id="6L5Q700CZuY" role="18tn1X">
-          <ref role="1KNfCz" node="21S4EfqIg18" />
           <node concept="rTCB5" id="6L5Q700HkW4" role="1KNfdr">
             <property role="ZOwrO" value="4ezY39QkQzF/red" />
             <node concept="26lliW" id="6L5Q700HkW6" role="rTCB6">
@@ -686,7 +691,7 @@
       </node>
       <node concept="2lNc1x" id="65t887AKccY" role="2GyEu2">
         <property role="TrG5h" value="observe" />
-        <property role="2QSBU6" value="check to see if there are any other monkeys around, where monkeys are and then what to do " />
+        <property role="2QSBU6" value="check to see if there are any other monkeys around, where the other monkeys are and then what to do based on this " />
         <node concept="8StVI" id="2mLRuaqFdT2" role="18tn1X">
           <node concept="26lliW" id="2mLRuaqFdT3" role="2OFgHe">
             <ref role="26lliz" node="R_ShpQaOE4" resolve="IdleTime" />
@@ -705,6 +710,7 @@
         </node>
         <node concept="RZfIr" id="65t887AKcei" role="18tn1X">
           <property role="TrG5h" value="visibleMonkeys" />
+          <property role="2QSBU6" value="the visible monkeys" />
           <node concept="2gXKin" id="65t887ARUlH" role="RZfIc">
             <property role="qxQ9u" value="5zgCSHk5UQA/cone" />
             <node concept="26lliW" id="65t887ARUm1" role="2gXKik">
@@ -723,6 +729,7 @@
         </node>
         <node concept="RZfIr" id="65t887ASWgG" role="18tn1X">
           <property role="TrG5h" value="number-of-visible-monkeys" />
+          <property role="2QSBU6" value="the number of visible monkeys" />
           <node concept="2gRb$H" id="65t887ASWhL" role="RZfIc">
             <property role="2gRbFB" value="39v_dEywMST/Count" />
             <node concept="RLbTy" id="65t887ASWhW" role="2gRb$y">
@@ -930,7 +937,7 @@
         <property role="TrG5h" value="attack-calculation" />
         <property role="2QSBU6" value="whether or not to attack" />
         <node concept="RZfIr" id="3ZxsZnHpTGk" role="2jZik7">
-          <property role="TrG5h" value="mathBit" />
+          <property role="TrG5h" value="relDom" />
           <node concept="i7gn5" id="3ZxsZnHpTKl" role="RZfIc">
             <property role="i7gn4" value="1w00y4a7gvD/divide" />
             <node concept="26lliW" id="6L5Q700RCsB" role="i7gCG">
@@ -963,7 +970,7 @@
           <node concept="Qbqaq" id="64sxhBmzK1C" role="2jZikY" />
         </node>
         <node concept="2jZikV" id="3ZxsZnHpTG2" role="2jZik2">
-          <property role="TrG5h" value="defensMonkey" />
+          <property role="TrG5h" value="defenseMonkey" />
           <node concept="Qbqaq" id="3ZxsZnHpTGe" role="2jZikY" />
         </node>
         <node concept="RLbTy" id="3ZxsZnHpTJe" role="2jZik0">
@@ -1173,6 +1180,11 @@
             <ref role="2RZnBE" node="1rOaE9UiubH" resolve="loser" />
           </node>
         </node>
+        <node concept="rlEY6" id="4VNfkNO1qAT" role="18tn1X">
+          <node concept="2oK_Am" id="4VNfkNO1qBi" role="dGet1">
+            <property role="2oK_Ap" value="1" />
+          </node>
+        </node>
         <node concept="2rRKAk" id="7RoYKJmrkY8" role="18tn1X">
           <node concept="26hFik" id="7RoYKJmrkYa" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWp/gt" />
@@ -1224,7 +1236,7 @@
           <node concept="Qbqaq" id="1rOaE9Ui_s9" role="2jZikY" />
         </node>
         <node concept="2jZikV" id="1rOaE9UiubL" role="3UFU5O">
-          <property role="TrG5h" value="wiener" />
+          <property role="TrG5h" value="winner" />
           <node concept="Qbqaq" id="1rOaE9Ui_qr" role="2jZikY" />
         </node>
       </node>
@@ -1338,22 +1350,15 @@
             </node>
             <node concept="26lliW" id="2mLRuaqFe8t" role="i7gCI">
               <ref role="26lliz" node="R_ShpQaOE4" resolve="IdleTime" />
+              <node concept="2RZnKf" id="JvAs2AuZsj" role="2ROLC_">
+                <ref role="2RZnBE" node="2mLRuaqFdZx" resolve="ape" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="2jZikV" id="2mLRuaqFdZx" role="3UFU5O">
           <property role="TrG5h" value="ape" />
           <node concept="Qbqaq" id="2mLRuaqFe4F" role="2jZikY" />
-        </node>
-      </node>
-      <node concept="2lNc1x" id="1Zy6EEvHJxI" role="2GyEu2">
-        <property role="TrG5h" value="lllll" />
-        <node concept="2DBPlz" id="1Zy6EEvHJB7" role="18tn1X">
-          <property role="2DBPly" value="1" />
-        </node>
-        <node concept="2jZikV" id="1Zy6EEvHJxJ" role="3UFU5O">
-          <property role="TrG5h" value="horsen" />
-          <node concept="Qbqaq" id="1Zy6EEvHJB0" role="2jZikY" />
         </node>
       </node>
       <node concept="1Svl6F" id="2mLRuaqFe9l" role="250j5S">
@@ -1397,9 +1402,6 @@
     </node>
     <node concept="1sMRUJ" id="R_ShpQaOEe" role="1sMO1Z">
       <ref role="1sMRUI" node="R_ShpQaOE4" resolve="IdleTime" />
-    </node>
-    <node concept="1sMRUJ" id="R_ShpQaOHV" role="1sMO1Z">
-      <ref role="1sMRUI" node="R_ShpQaOHF" resolve="MemDom" />
     </node>
     <node concept="1sMRUJ" id="5zgCSHjBEVH" role="1sMO1Z">
       <ref role="1sMRUI" node="5zgCSHjBEVz" resolve="PopulationSize" />
@@ -1481,9 +1483,6 @@
     </node>
     <node concept="1sMRUJ" id="7DHLWGHStmX" role="1sMO1Z">
       <ref role="1sMRUI" node="7DHLWGHStmD" />
-    </node>
-    <node concept="1sMRUJ" id="1Zy6EEvHJ_Y" role="1sMO1Z">
-      <ref role="1sMRUI" node="1Zy6EEvHJxI" />
     </node>
   </node>
   <node concept="ZOwpP" id="6dXUwhkZEX1">
@@ -1940,6 +1939,9 @@
             <property role="ZOwrO" value="4ezY39QkQ$E/blue" />
             <node concept="26lliW" id="6dXUwhkZFQV" role="rTCB6">
               <ref role="26lliz" node="6dXUwhkZEZW" resolve="Dominance" />
+              <node concept="2RZnKf" id="JvAs2ANg_f" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhkZFPB" resolve="male" />
+              </node>
             </node>
             <node concept="i8Uhg" id="6dXUwhkZFQZ" role="2FF_Am">
               <node concept="i7gn5" id="6dXUwhkZFR7" role="i8Uhj">
@@ -1983,6 +1985,9 @@
             <property role="ZOwrO" value="4ezY39QkQzF/red" />
             <node concept="26lliW" id="6dXUwhl7fFb" role="rTCB6">
               <ref role="26lliz" node="6dXUwhkZEZW" resolve="Dominance" />
+              <node concept="2RZnKf" id="JvAs2ANfJL" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhkZFSO" resolve="female" />
+              </node>
             </node>
             <node concept="i8Uhg" id="6dXUwhl7fFf" role="2FF_Am">
               <node concept="i7gn5" id="6dXUwhl7fFn" role="i8Uhj">
@@ -2433,6 +2438,9 @@
             <property role="26hFil" value="24yfUKsyf$I/eq" />
             <node concept="26lliW" id="6dXUwhl7gnJ" role="26hFir">
               <ref role="26lliz" node="6dXUwhkZFE6" resolve="?male" />
+              <node concept="2RZnKf" id="JvAs2ANeVx" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhl7gko" resolve="self" />
+              </node>
             </node>
             <node concept="2jp9$B" id="6dXUwhl7gsF" role="26hFip" />
           </node>
@@ -2923,26 +2931,15 @@
             </node>
             <node concept="26lliW" id="6dXUwhl7iHC" role="i7gCI">
               <ref role="26lliz" node="6dXUwhkZFhQ" resolve="IdleTime" />
+              <node concept="2RZnKf" id="JvAs2ANexp" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhl7i_5" resolve="self" />
+              </node>
             </node>
           </node>
         </node>
         <node concept="2jZikV" id="6dXUwhl7i_5" role="3UFU5O">
           <property role="TrG5h" value="self" />
           <node concept="Qbqaq" id="6dXUwhl7iEi" role="2jZikY" />
-        </node>
-      </node>
-      <node concept="2lNc1x" id="1Zy6EEvH_o4" role="2GyEu2">
-        <property role="TrG5h" value="sel" />
-        <node concept="RZfIr" id="1Zy6EEvH_v2" role="18tn1X">
-          <property role="TrG5h" value="sadd" />
-          <node concept="2gXKin" id="1Zy6EEvH_vg" role="RZfIc">
-            <node concept="3RiFy8" id="1Zy6EEvH_vk" role="2gXKil" />
-            <node concept="ZOwqL" id="1Zy6EEvH_$9" role="2gXKik" />
-          </node>
-        </node>
-        <node concept="2jZikV" id="1Zy6EEvH_o5" role="3UFU5O">
-          <property role="TrG5h" value="asd" />
-          <node concept="Qbqaq" id="1Zy6EEvH_uV" role="2jZikY" />
         </node>
       </node>
       <node concept="1sOCfq" id="6dXUwhl7hdy" role="1sOCcx">
@@ -3051,9 +3048,6 @@
     </node>
     <node concept="1sMRUJ" id="7DHLWGHSumm" role="1sMO1Z">
       <ref role="1sMRUI" node="7DHLWGHSum4" />
-    </node>
-    <node concept="1sMRUJ" id="1Zy6EEvH_tT" role="1sMO1Z">
-      <ref role="1sMRUI" node="1Zy6EEvH_o4" />
     </node>
   </node>
   <node concept="ZOwpP" id="6dXUwhl7nfV">
@@ -3452,11 +3446,13 @@
           </node>
         </node>
         <node concept="1KNgQQ" id="6dXUwhl7nhZ" role="18tn1X">
-          <ref role="1KNfCz" node="6dXUwhl7njG" />
           <node concept="rTCB5" id="6dXUwhl7ni0" role="1KNfdr">
             <property role="ZOwrO" value="4ezY39QkQzF/red" />
             <node concept="26lliW" id="6dXUwhl7ni1" role="rTCB6">
               <ref role="26lliz" node="6dXUwhl7ngz" resolve="Dominance" />
+              <node concept="2RZnKf" id="JvAs2ANkGX" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhl7ni8" resolve="female" />
+              </node>
             </node>
             <node concept="2oK_Am" id="6dXUwhl7ni2" role="2FF_pP">
               <property role="2oK_Ap" value="0" />
@@ -3490,6 +3486,9 @@
         <node concept="8StVI" id="6dXUwhl7nib" role="18tn1X">
           <node concept="26lliW" id="6dXUwhl7nic" role="2OFgHe">
             <ref role="26lliz" node="6dXUwhl7ngt" resolve="IdleTime" />
+            <node concept="2RZnKf" id="JvAs2ANdeS" role="2ROLC_">
+              <ref role="2RZnBE" node="6dXUwhl7nj7" resolve="self" />
+            </node>
           </node>
           <node concept="2jQCjV" id="6dXUwhl7nid" role="2rWCss">
             <node concept="2oK_Am" id="6dXUwhl7nie" role="2jQCjS">
@@ -3675,56 +3674,8 @@
       <node concept="1sOCfq" id="6dXUwhl7njh" role="1sOCcx">
         <ref role="1sOCfp" node="6dXUwhl7nia" resolve="observe" />
       </node>
-      <node concept="BZNO7" id="6dXUwhl7nji" role="2GyEu2">
-        <property role="TrG5h" value="consider-attack" />
-        <node concept="RZfIr" id="6dXUwhl7njj" role="18tn1X">
-          <property role="TrG5h" value="result" />
-          <node concept="2guEx9" id="6dXUwhl7njk" role="RZfIc">
-            <ref role="2guExe" node="6dXUwhl7nj$" resolve="attack-calculation" />
-            <node concept="2RZnKf" id="6dXUwhl7njl" role="2guExc">
-              <ref role="2RZnBE" node="6dXUwhl7njy" resolve="aggressor" />
-            </node>
-            <node concept="2RZnKf" id="6dXUwhl7njm" role="2guExc">
-              <ref role="2RZnBE" node="6dXUwhl7njw" resolve="defender" />
-            </node>
-          </node>
-        </node>
-        <node concept="2rRKAk" id="6dXUwhl7njn" role="18tn1X">
-          <node concept="26hFik" id="6dXUwhl7njo" role="2rRKAn">
-            <property role="26hFil" value="5yfUVbuMlWp/gt" />
-            <node concept="RLbTy" id="6dXUwhl7njp" role="26hFir">
-              <ref role="RLbTH" node="6dXUwhl7njj" resolve="result" />
-            </node>
-            <node concept="2jQCjV" id="6dXUwhl7njq" role="26hFip">
-              <node concept="2oK_Am" id="6dXUwhl7njr" role="2jQCjS">
-                <property role="2oK_Ap" value="0" />
-              </node>
-              <node concept="2oK_Am" id="6dXUwhl7njs" role="2jQCjT">
-                <property role="2oK_Ap" value="1" />
-              </node>
-            </node>
-          </node>
-          <node concept="1Svl6F" id="6dXUwhl7njt" role="2rRKAh">
-            <ref role="1Svl6C" node="6dXUwhl7njO" resolve="attack" />
-            <node concept="2RZnKf" id="6dXUwhl7nju" role="2QCFRE">
-              <ref role="2RZnBE" node="6dXUwhl7njy" resolve="aggressor" />
-            </node>
-            <node concept="2RZnKf" id="6dXUwhl7njv" role="2QCFRE">
-              <ref role="2RZnBE" node="6dXUwhl7njw" resolve="defender" />
-            </node>
-          </node>
-        </node>
-        <node concept="2jZikV" id="6dXUwhl7njw" role="3UFUyI">
-          <property role="TrG5h" value="defender" />
-          <node concept="Qbqaq" id="6dXUwhl7njx" role="2jZikY" />
-        </node>
-        <node concept="2jZikV" id="6dXUwhl7njy" role="3UFU5O">
-          <property role="TrG5h" value="aggressor" />
-          <node concept="Qbqaq" id="6dXUwhl7njz" role="2jZikY" />
-        </node>
-      </node>
       <node concept="2jZikd" id="6dXUwhl7nj$" role="2GyEu2">
-        <property role="TrG5h" value="attack-calculation" />
+        <property role="TrG5h" value="relative-dominance" />
         <property role="2QSBU6" value="whether or not to attack" />
         <node concept="RZfIr" id="6dXUwhl7nj_" role="2jZik7">
           <property role="TrG5h" value="mathBit" />
@@ -3957,6 +3908,11 @@
             <ref role="2RZnBE" node="6dXUwhl7nl9" resolve="loser" />
           </node>
         </node>
+        <node concept="rlEY6" id="4VNfkNO1vaO" role="18tn1X">
+          <node concept="2oK_Am" id="4VNfkNO1vjV" role="dGet1">
+            <property role="2oK_Ap" value="1" />
+          </node>
+        </node>
         <node concept="2rRKAk" id="6dXUwhl7nkT" role="18tn1X">
           <node concept="26hFik" id="6dXUwhl7nkU" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWp/gt" />
@@ -4022,6 +3978,11 @@
             <ref role="2RZnBE" node="6dXUwhl7nlD" resolve="winner" />
           </node>
         </node>
+        <node concept="rlEY6" id="6dXUwhl7nlB" role="18tn1X">
+          <node concept="26lliW" id="6dXUwhl7nlC" role="dGet1">
+            <ref role="26lliz" node="6dXUwhl7ngr" resolve="fleedistance" />
+          </node>
+        </node>
         <node concept="2rRKAk" id="6dXUwhl7nlh" role="18tn1X">
           <node concept="26hFik" id="6dXUwhl7nli" role="2rRKAn">
             <property role="26hFil" value="5yfUVbuMlWp/gt" />
@@ -4084,11 +4045,6 @@
             </node>
           </node>
         </node>
-        <node concept="rlEY6" id="6dXUwhl7nlB" role="18tn1X">
-          <node concept="26lliW" id="6dXUwhl7nlC" role="dGet1">
-            <ref role="26lliz" node="6dXUwhl7ngr" resolve="fleedistance" />
-          </node>
-        </node>
         <node concept="2jZikV" id="6dXUwhl7nlD" role="3UFUyI">
           <property role="TrG5h" value="winner" />
           <node concept="Qbqaq" id="6dXUwhl7nlE" role="2jZikY" />
@@ -4122,6 +4078,9 @@
             </node>
             <node concept="26lliW" id="6dXUwhl7nlQ" role="i7gCI">
               <ref role="26lliz" node="6dXUwhl7ngt" resolve="IdleTime" />
+              <node concept="2RZnKf" id="JvAs2ANcVI" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhl7nlR" resolve="ape" />
+              </node>
             </node>
           </node>
         </node>
@@ -4138,9 +4097,6 @@
       </node>
       <node concept="1Svl6F" id="6dXUwhl7nlV" role="250j5S">
         <ref role="1Svl6C" node="6dXUwhl7nhF" resolve="colour-change-male" />
-      </node>
-      <node concept="1sOCfq" id="6dXUwhl7nlW" role="1sOCcx">
-        <ref role="1sOCfp" node="6dXUwhl7nji" resolve="consider-attack" />
       </node>
       <node concept="1sOCfq" id="6dXUwhl7nlX" role="1sOCcx">
         <ref role="1sOCfp" node="6dXUwhl7njO" resolve="attack" />
@@ -4222,9 +4178,6 @@
     </node>
     <node concept="1sMRUJ" id="6dXUwhl7nmm" role="1sMO1Z">
       <ref role="1sMRUI" node="6dXUwhl7nj$" resolve="attack-calculation" />
-    </node>
-    <node concept="1sMRUJ" id="6dXUwhl7nmn" role="1sMO1Z">
-      <ref role="1sMRUI" node="6dXUwhl7nji" resolve="consider-attack" />
     </node>
     <node concept="1sMRUJ" id="6dXUwhl7nmo" role="1sMO1Z">
       <ref role="1sMRUI" node="6dXUwhl7njO" resolve="attack" />
@@ -4650,11 +4603,13 @@
           </node>
         </node>
         <node concept="1KNgQQ" id="6dXUwhl7osK" role="18tn1X">
-          <ref role="1KNfCz" node="6dXUwhl7out" />
           <node concept="rTCB5" id="6dXUwhl7osL" role="1KNfdr">
             <property role="ZOwrO" value="4ezY39QkQzF/red" />
             <node concept="26lliW" id="6dXUwhl7osM" role="rTCB6">
               <ref role="26lliz" node="6dXUwhl7ork" resolve="Dominance" />
+              <node concept="2RZnKf" id="JvAs2AN5DX" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhl7osT" resolve="female" />
+              </node>
             </node>
             <node concept="2oK_Am" id="6dXUwhl7osN" role="2FF_pP">
               <property role="2oK_Ap" value="0" />
@@ -4688,6 +4643,9 @@
         <node concept="8StVI" id="6dXUwhl7osW" role="18tn1X">
           <node concept="26lliW" id="6dXUwhl7osX" role="2OFgHe">
             <ref role="26lliz" node="6dXUwhl7ore" resolve="IdleTime" />
+            <node concept="2RZnKf" id="JvAs2AN51I" role="2ROLC_">
+              <ref role="2RZnBE" node="6dXUwhl7otS" resolve="self" />
+            </node>
           </node>
           <node concept="2jQCjV" id="6dXUwhl7osY" role="2rWCss">
             <node concept="2oK_Am" id="6dXUwhl7osZ" role="2jQCjS">
@@ -4948,6 +4906,7 @@
         </node>
         <node concept="RZfIr" id="3Maou2R6WCa" role="2jZik7">
           <property role="TrG5h" value="randomNumber" />
+          <property role="2QSBU6" value="a random number" />
           <node concept="2jQCjV" id="3Maou2R6WCo" role="RZfIc">
             <node concept="2oK_Am" id="3Maou2R6WCx" role="2jQCjS">
               <property role="2oK_Ap" value="0" />
@@ -4959,6 +4918,7 @@
         </node>
         <node concept="RZfIr" id="3Maou2R6WCB" role="2jZik7">
           <property role="TrG5h" value="complement" />
+          <property role="2QSBU6" value="the complement of the random number" />
           <node concept="i7gn5" id="3Maou2R6WCT" role="RZfIc">
             <property role="i7gn4" value="1w00y4a7gvQ/subtract" />
             <node concept="2oK_Am" id="3Maou2R6WD2" role="i7gCG">
@@ -4971,14 +4931,14 @@
         </node>
         <node concept="RZfIr" id="3Maou2R6WD8" role="2jZik7">
           <property role="TrG5h" value="result" />
-          <node concept="2auxlr" id="3Maou2R6WDu" role="RZfIc">
-            <node concept="RLbTy" id="3Maou2R6WDH" role="2auxK8">
+          <node concept="2auxlr" id="JvAs2ACFRJ" role="RZfIc">
+            <node concept="RLbTy" id="JvAs2AMZYC" role="2auxK8">
               <ref role="RLbTH" node="3Maou2R6WCa" resolve="randomNumber" />
             </node>
-            <node concept="RLbTy" id="3Maou2R6WDE" role="2auI9k">
+            <node concept="RLbTy" id="JvAs2AMZYd" role="2auI9k">
               <ref role="RLbTH" node="3Maou2QW6Wd" resolve="relative-dom" />
             </node>
-            <node concept="RLbTy" id="3Maou2R6WDK" role="2auIMX">
+            <node concept="RLbTy" id="JvAs2AN4GD" role="2auIMX">
               <ref role="RLbTH" node="3Maou2R6WCB" resolve="complement" />
             </node>
           </node>
@@ -4998,7 +4958,8 @@
       <node concept="BZNO7" id="6dXUwhl7ou_" role="2GyEu2">
         <property role="TrG5h" value="attack" />
         <node concept="RZfIr" id="6dXUwhl7ouA" role="18tn1X">
-          <property role="TrG5h" value="results" />
+          <property role="TrG5h" value="relDom" />
+          <property role="2QSBU6" value="relative dominance for updating dominance" />
           <node concept="2guEx9" id="6dXUwhl7ouB" role="RZfIc">
             <ref role="2guExe" node="3Maou2R6XwB" resolve="rank-change-calculation" />
             <node concept="2RZnKf" id="6dXUwhl7ouC" role="2guExc">
@@ -5399,6 +5360,9 @@
             </node>
             <node concept="26lliW" id="6dXUwhl7owB" role="i7gCI">
               <ref role="26lliz" node="6dXUwhl7ore" resolve="IdleTime" />
+              <node concept="2RZnKf" id="JvAs2AN5kS" role="2ROLC_">
+                <ref role="2RZnBE" node="6dXUwhl7owC" resolve="ape" />
+              </node>
             </node>
           </node>
         </node>
