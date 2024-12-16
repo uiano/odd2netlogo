@@ -6101,7 +6101,7 @@
     </node>
   </node>
   <node concept="18kY7G" id="63gpVY2YeLb">
-    <property role="TrG5h" value="check_AttributeAccess" />
+    <property role="TrG5h" value="check_param_one" />
     <property role="3GE5qa" value="Expressions" />
     <node concept="3clFbS" id="63gpVY2YeLc" role="18ibNy">
       <node concept="3clFbJ" id="63gpVY2YfKc" role="3cqZAp">
@@ -6414,7 +6414,7 @@
     </node>
     <node concept="1YaCAy" id="JvAs2_EeWs" role="1YuTPh">
       <property role="TrG5h" value="parameter" />
-      <ref role="1YaFvo" to="86kt:39v_dExCF7x" resolve="Parameter" />
+      <ref role="1YaFvo" to="86kt:39v_dExCF7x" resolve="AgentInstance" />
     </node>
   </node>
   <node concept="1YbPZF" id="JvAs2_EfVp">
@@ -6646,6 +6646,84 @@
     <node concept="1YaCAy" id="4VNfkNO1xQf" role="1YuTPh">
       <property role="TrG5h" value="timeExpression" />
       <ref role="1YaFvo" to="86kt:4VNfkNO1vV1" resolve="TimeExpression" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="cQjiEDFA4O">
+    <property role="TrG5h" value="check_network_to" />
+    <property role="3GE5qa" value="Expressions" />
+    <node concept="3clFbS" id="cQjiEDFA4P" role="18ibNy">
+      <node concept="3clFbJ" id="cQjiEDFAx9" role="3cqZAp">
+        <node concept="3clFbS" id="cQjiEDFAxb" role="3clFbx">
+          <node concept="3clFbJ" id="cQjiEDFCai" role="3cqZAp">
+            <node concept="3clFbS" id="cQjiEDFCak" role="3clFbx">
+              <node concept="2MkqsV" id="cQjiEDFDzb" role="3cqZAp">
+                <node concept="Xl_RD" id="cQjiEDFD$e" role="2MkJ7o">
+                  <property role="Xl_RC" value="other end of network not specified" />
+                </node>
+                <node concept="1YBJjd" id="cQjiEDFE0C" role="1urrMF">
+                  <ref role="1YBMHb" node="cQjiEDFA4R" resolve="aA" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="cQjiEDFCVE" role="3clFbw">
+              <node concept="2OqwBi" id="cQjiEDFCns" role="2Oq$k0">
+                <node concept="1YBJjd" id="cQjiEDFCbl" role="2Oq$k0">
+                  <ref role="1YBMHb" node="cQjiEDFA4R" resolve="aA" />
+                </node>
+                <node concept="3TrEf2" id="cQjiEDFCIr" role="2OqNvi">
+                  <ref role="3Tt5mk" to="86kt:4Ku5LNTkrfv" resolve="other" />
+                </node>
+              </node>
+              <node concept="3w_OXm" id="cQjiEDFDeh" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="cQjiEDFBdP" role="3clFbw">
+          <node concept="2OqwBi" id="cQjiEDFAIH" role="2Oq$k0">
+            <node concept="1YBJjd" id="cQjiEDFAyA" role="2Oq$k0">
+              <ref role="1YBMHb" node="cQjiEDFA4R" resolve="aA" />
+            </node>
+            <node concept="3TrEf2" id="cQjiEDFAXQ" role="2OqNvi">
+              <ref role="3Tt5mk" to="86kt:5yfUVbuQFWh" resolve="attribute" />
+            </node>
+          </node>
+          <node concept="2qgKlT" id="cQjiEDFBzk" role="2OqNvi">
+            <ref role="37wK5l" to="ljrj:1tTL0MknoVT" resolve="isNetworkAttribute" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="cQjiEDFA4R" role="1YuTPh">
+      <property role="TrG5h" value="aA" />
+      <ref role="1YaFvo" to="86kt:5yfUVbuQFWe" resolve="AttributeAccess" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="6M9k6yi8vuo">
+    <property role="TrG5h" value="typeof_Switch" />
+    <property role="3GE5qa" value="Initialization" />
+    <node concept="3clFbS" id="6M9k6yi8vup" role="18ibNy">
+      <node concept="1Z5TYs" id="6M9k6yi8vOK" role="3cqZAp">
+        <node concept="mw_s8" id="6M9k6yi8vT$" role="1ZfhKB">
+          <node concept="2ShNRf" id="6M9k6yi8vTw" role="mwGJk">
+            <node concept="3zrR0B" id="6M9k6yi8xjl" role="2ShVmc">
+              <node concept="3Tqbb2" id="6M9k6yi8xjn" role="3zrR0E">
+                <ref role="ehGHo" to="86kt:5JO4H90p7NX" resolve="Bool" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="6M9k6yi8vON" role="1ZfhK$">
+          <node concept="1Z2H0r" id="6M9k6yi8vzn" role="mwGJk">
+            <node concept="1YBJjd" id="6M9k6yi8vBH" role="1Z2MuG">
+              <ref role="1YBMHb" node="6M9k6yi8vur" resolve="switch" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6M9k6yi8vur" role="1YuTPh">
+      <property role="TrG5h" value="sw" />
+      <ref role="1YaFvo" to="86kt:6M9k6yi8uwj" resolve="Switch" />
     </node>
   </node>
 </model>
