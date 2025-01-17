@@ -23,33 +23,33 @@ ActionCalls are activities that call an Action. This means that you can call one
 
 
 ## ChangeColour:
-# Entity: ParameterRererence[1]
-# toColour: Colour[1]
+Entity: ParameterRererence[1] <br />
+toColour: Colour[1]<br />
 #Changes the colour of an Entity. Takes an argument Colour and an argument which can be either a solid colour or a shade of a colour.
 
 ## ChangeEnvironment:
-#toEnvironment: EnvironmentEntity[1]
-#Changes the colour of an Environment Entity. Takes an argument Colour which can be either a solid colour or a shade of a colour.
+toEnvironment: EnvironmentEntity[1]<br />
+Changes the colour of an Environment Entity. Takes an argument Colour which can be either a solid colour or a shade of a colour.
 
 
 ## Clone:
-#amountOfClones: integer
-#Creates a copy of an Entity. The copy is an exact clone with the same attributes and the same values for all attributes. 
+amountOfClones: integer
+Creates a copy of an Entity. The copy is an exact clone with the same attributes and the same values for all attributes. 
 
 ## ConditionalAction/”if”:
-# Condition: Comparison[1]
-# yesActivities: Activity[1..n]
-# noActivities: Activity[0..n]
-# Takes a comparison and two lists of activities, yesActivites and noActivties. If the comparison evaluates to true the yesActivites are performed. If it evaluates to false the noActivities are performed. The scopes of conditional activities are restricted as to only allow access to the appropriate variables. A variable created by a LetActivity that is among the yesActivities will only be accessible by the yesActivities. The same applies to the noActivities.
+Condition: Comparison[1]
+yesActivities: Activity[1..n]
+noActivities: Activity[0..n]
+Takes a comparison and two lists of activities, yesActivites and noActivties. If the comparison evaluates to true the yesActivites are performed. If it evaluates to false the noActivities are performed. The scopes of conditional activities are restricted as to only allow access to the appropriate variables. A variable created by a LetActivity that is among the yesActivities will only be accessible by the yesActivities. The same applies to the noActivities.
 
 ## DecrementAttribute:
-# Lhs: AttributeAccess[1]
-# Rhs: Expression[1]
-# Decreases a given attribute by an amount. The amount is passed to DecrementAttribute as an Expression. This means that you can decrement an attribute by number constant, a sum or product of a numerical binary operation or by the value of a variable. The DecrementAttribute activity is accessed by entering “set” followed by the name of the attribute you wish to set. 
+Lhs: AttributeAccess[1]
+Rhs: Expression[1]
+Decreases a given attribute by an amount. The amount is passed to DecrementAttribute as an Expression. This means that you can decrement an attribute by number constant, a sum or product of a numerical binary operation or by the value of a variable. The DecrementAttribute activity is accessed by entering “set” followed by the name of the attribute you wish to set. 
 
 ## Face:
-#Facer: ParameterReference[1]
-#Target: ParameterReference[1]
+Facer: ParameterReference[1]
+Target: ParameterReference[1]
 The Face activity makes an entity turn to face another entity. The first entity must be a Entity, while the second entity can be either a Entity or an environment entity.
 
 ## IncrementAttribute:
