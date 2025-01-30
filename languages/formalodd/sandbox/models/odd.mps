@@ -43,7 +43,9 @@
         <child id="3629783491417542690" name="from" index="2jQCjS" />
         <child id="3629783491417542691" name="to" index="2jQCjT" />
       </concept>
-      <concept id="3629783491419484641" name="formalodd.structure.Parameter" flags="ng" index="2jZikV" />
+      <concept id="3629783491419484641" name="formalodd.structure.AgentInstance" flags="ng" index="2jZikV">
+        <child id="3629783491419484644" name="type" index="2jZikY" />
+      </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
         <child id="8985793055732069087" name="defaultWorld" index="2kDK7N" />
       </concept>
@@ -106,6 +108,7 @@
       <concept id="84585932959116711" name="formalodd.structure.EntityReference" flags="ng" index="QamZi">
         <reference id="1769396717817076213" name="entity" index="2CHb45" />
       </concept>
+      <concept id="84585932960784899" name="formalodd.structure.AnyEnvironment" flags="ng" index="QcY1Q" />
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
         <child id="3980028531046012173" name="entity" index="2jOjfh" />
       </concept>
@@ -1463,6 +1466,7 @@
         <property role="TrG5h" value="count-blu" />
         <node concept="2jZikV" id="eRVLmtbgw1" role="3UFU5O">
           <property role="TrG5h" value="null1" />
+          <node concept="QcY1Q" id="d8RD7yPtUR" role="2jZikY" />
         </node>
       </node>
       <node concept="1Svl6F" id="4ezY39PPbfP" role="250j5S">

@@ -33,7 +33,7 @@
         <child id="3629783491433784701" name="positive" index="2g8R6B" />
         <child id="3629783491433372764" name="condition" index="2gagy6" />
       </concept>
-      <concept id="3629783491428039827" name="formalodd.structure.FunctionCall" flags="ng" index="2guEx9">
+      <concept id="3629783491428039827" name="formalodd.structure.CalculationCall" flags="ng" index="2guEx9">
         <reference id="3629783491428039828" name="function" index="2guExe" />
         <child id="3629783491428039830" name="actuals" index="2guExc" />
       </concept>
@@ -68,7 +68,7 @@
         <child id="3629783491419484632" name="parameters" index="2jZik2" />
         <child id="3629783491419484637" name="locals" index="2jZik7" />
       </concept>
-      <concept id="3629783491419484641" name="formalodd.structure.Parameter" flags="ng" index="2jZikV">
+      <concept id="3629783491419484641" name="formalodd.structure.AgentInstance" flags="ng" index="2jZikV">
         <child id="3629783491419484644" name="type" index="2jZikY" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
@@ -183,6 +183,9 @@
       <concept id="3840659476812055941" name="formalodd.structure.ColourConstant" flags="ng" index="ZOwrR">
         <property id="3840659476812055942" name="colour" index="ZOwrO" />
       </concept>
+      <concept id="1052357236764590661" name="formalodd.structure.DataCollection" flags="ng" index="34GfGh">
+        <property id="1052357236764615674" name="timesteps" index="34G1EI" />
+      </concept>
       <concept id="5732058420649734839" name="formalodd.structure.RangeType" flags="ng" index="354mTO">
         <property id="5732058420649734840" name="upper" index="354mTV" />
         <property id="5732058420649734846" name="lower" index="354mTX" />
@@ -200,8 +203,10 @@
       <concept id="8413181653841938094" name="formalodd.structure.Characterization" flags="ng" index="3gPaqd" />
       <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
         <property id="8413181653841938141" name="repetitions" index="3gParY" />
+        <property id="3905853525462002971" name="description" index="1JUGKd" />
         <child id="1649964688024323495" name="dataCollection" index="17hhY3" />
         <child id="8413181653841938167" name="simulationEnd" index="3gPark" />
+        <child id="3697639507051434356" name="dataCollections" index="1u4frY" />
         <child id="1784406337016390567" name="experimentWorld" index="3$4xYW" />
         <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
       </concept>
@@ -912,6 +917,7 @@
       <node concept="3gPary" id="3dcVgfnYOgh" role="2kDK7e">
         <property role="TrG5h" value="experiment 1" />
         <property role="3gParY" value="5" />
+        <property role="1JUGKd" value="wtf" />
         <node concept="3D9oHp" id="3dcVgfnYOgi" role="3D9rx_">
           <ref role="3D9oHq" node="3dcVgfnYOeL" resolve="attraction-change" />
           <node concept="3gPasJ" id="3dcVgfnYOgj" role="3D3j2x">
@@ -1045,6 +1051,9 @@
         <node concept="1g3uKF" id="1r_QyhhHrnk" role="3$4xYW">
           <property role="1jzKJm" value="100" />
           <property role="1jzt_n" value="2" />
+        </node>
+        <node concept="34GfGh" id="4UEy1Vd0ylf" role="1u4frY">
+          <property role="34G1EI" value="1" />
         </node>
       </node>
       <node concept="3gPary" id="3dcVgfnYOgL" role="2kDK7e">

@@ -165,7 +165,7 @@
       <concept id="1196866233735" name="jetbrains.mps.lang.quotation.structure.PropertyAntiquotation" flags="ng" index="2EMmih" />
     </language>
     <language id="32c6af6f-c921-41d7-a19e-61a23bec1a47" name="formalodd">
-      <concept id="3629783491419484641" name="formalodd.structure.Parameter" flags="ng" index="2jZikV">
+      <concept id="3629783491419484641" name="formalodd.structure.AgentInstance" flags="ng" index="2jZikV">
         <child id="3629783491419484644" name="type" index="2jZikY" />
       </concept>
       <concept id="7308686357753326565" name="formalodd.structure.Action" flags="ng" index="2lNc1x">
