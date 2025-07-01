@@ -131,7 +131,7 @@
       <concept id="2146025148705204581" name="formalodd.structure.Percentage" flags="ng" index="2QqdZ_">
         <property id="2146025148705204582" name="value" index="2QqdZA" />
       </concept>
-      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
+      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ngI" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
       <concept id="2146025148682299468" name="formalodd.structure.TimedCondition" flags="ng" index="2RyPVc">
@@ -300,7 +300,7 @@
       <concept id="7820870637964093459" name="formalodd.structure.Switch" flags="ng" index="3YEbxV" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

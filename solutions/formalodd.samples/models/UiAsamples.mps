@@ -120,7 +120,7 @@
       <concept id="2146025148705204581" name="formalodd.structure.Percentage" flags="ng" index="2QqdZ_">
         <property id="2146025148705204582" name="value" index="2QqdZA" />
       </concept>
-      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
+      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ngI" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
       <concept id="2146025148682299468" name="formalodd.structure.TimedCondition" flags="ng" index="2RyPVc">
@@ -222,7 +222,7 @@
         <property id="7590269384189550711" name="TODO_value" index="1jsyQX" />
         <property id="7590269384189550709" name="itemName" index="1jsyQZ" />
       </concept>
-      <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
+      <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ngI" index="1sMRTv">
         <child id="7004962584163900935" name="rationale" index="1sMRTs" />
       </concept>
       <concept id="7004962584163901172" name="formalodd.structure.RationaleReference" flags="ng" index="1sMRUJ">
@@ -285,7 +285,7 @@
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
         <property id="1156234966388" name="shortDescription" index="OYnhT" />
       </concept>
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

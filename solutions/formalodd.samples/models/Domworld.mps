@@ -115,7 +115,7 @@
       <concept id="2146025148706098368" name="formalodd.structure.EntityAccess" flags="ng" index="2QpFD0">
         <child id="3980028531046012173" name="entity" index="2jOjfh" />
       </concept>
-      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ng" index="2QSBU3">
+      <concept id="2146025148697430019" name="formalodd.structure.IDescribedConcept" flags="ngI" index="2QSBU3">
         <property id="2146025148697430022" name="description" index="2QSBU6" />
       </concept>
       <concept id="84585932957170711" name="formalodd.structure.LetAccess" flags="ng" index="RLbTy">
@@ -205,7 +205,7 @@
         <child id="3697639507051434356" name="dataCollections" index="1u4frY" />
         <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
       </concept>
-      <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
+      <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ngI" index="1sMRTv">
         <child id="7004962584163900935" name="rationale" index="1sMRTs" />
       </concept>
       <concept id="7004962584163901172" name="formalodd.structure.RationaleReference" flags="ng" index="1sMRUJ">
@@ -259,7 +259,7 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
-      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
+      <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ngI" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
     </language>

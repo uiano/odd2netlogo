@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="formalodd.sandbox" uuid="eee82fe3-3fa2-4d4a-8092-84faea13a6a3" moduleVersion="0" compileInMPS="true">
+<solution name="formalodd.sandbox" uuid="eee82fe3-3fa2-4d4a-8092-84faea13a6a3" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
   </models>
   <facets>
-    <facet type="java">
+    <facet type="java" compile="mps" classes="mps" ext="no">
       <classes generated="true" path="${module}/classes_gen" />
     </facet>
   </facets>
-  <sourcePath />
   <dependencies>
     <dependency reexport="false">89da5b47-b574-400d-8bdd-7dd0bd8d932f(formalodd.samples)</dependency>
   </dependencies>
