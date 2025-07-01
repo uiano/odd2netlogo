@@ -23,6 +23,7 @@ The tool includes some build-in ODDs apart from the ones your store in your new 
 ## Required plugins for MPS
 When working in MPS, the following plugins are required:
 1. MPS Multiline Property Editor Component.
+2. MPS Plaintext Generator.
 
 To install a plugin:
 1. Go to Settings.
