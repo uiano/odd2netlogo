@@ -66,6 +66,7 @@
         <child id="3629783491419484644" name="type" index="2jZikY" />
       </concept>
       <concept id="8985793055732069084" name="formalodd.structure.Experiments" flags="ng" index="2kDK7K">
+        <child id="8985793055732069090" name="experiments" index="2kDK7e" />
         <child id="8985793055732069087" name="defaultWorld" index="2kDK7N" />
       </concept>
       <concept id="7308686357753541200" name="formalodd.structure.ProcessOverviewAndScheduling" flags="ng" index="2lMhBk">
@@ -181,6 +182,9 @@
         <child id="231457276486934222" name="AgentExpression" index="2EA9f$" />
         <child id="7296188950884029551" name="parameter" index="32OX5u" />
       </concept>
+      <concept id="1052357236764590661" name="formalodd.structure.DataCollection" flags="ng" index="34GfGh">
+        <property id="1052357236764615674" name="timesteps" index="34G1EI" />
+      </concept>
       <concept id="5732058420649734839" name="formalodd.structure.RangeType" flags="ng" index="354mTO">
         <property id="5732058420649734840" name="upper" index="354mTV" />
         <property id="5732058420649734846" name="lower" index="354mTX" />
@@ -195,6 +199,12 @@
         <property id="3864151261535220431" name="worldSize" index="1jzKJm" />
         <child id="7777943843983741036" name="background" index="kpDVr" />
       </concept>
+      <concept id="8413181653841938113" name="formalodd.structure.ExperimentDefinition" flags="ng" index="3gPary">
+        <property id="8413181653841938141" name="repetitions" index="3gParY" />
+        <property id="3905853525462002971" name="description" index="1JUGKd" />
+        <child id="3697639507051434356" name="dataCollections" index="1u4frY" />
+        <child id="5813355112898795465" name="experimentValues" index="3D9rx_" />
+      </concept>
       <concept id="7004962584163900932" name="formalodd.structure.IRationaledConcept" flags="ng" index="1sMRTv">
         <child id="7004962584163900935" name="rationale" index="1sMRTs" />
       </concept>
@@ -203,6 +213,15 @@
       </concept>
       <concept id="7004962584162214785" name="formalodd.structure.CodeReference" flags="ng" index="1sOCfq">
         <reference id="7004962584162214786" name="myCode" index="1sOCfp" />
+      </concept>
+      <concept id="5813355112898798837" name="formalodd.structure.AttributeSampling" flags="ng" index="3D9oHp">
+        <reference id="5813355112898798838" name="attribute" index="3D9oHq" />
+      </concept>
+      <concept id="5813355112898418044" name="formalodd.structure.FixedValue" flags="ng" index="3DbZFg">
+        <child id="5813355112898418045" name="value" index="3DbZFh" />
+      </concept>
+      <concept id="5813355112899952696" name="formalodd.structure.Sampling" flags="ng" index="3DdQYk">
+        <child id="5813355112900337421" name="method" index="3D3j2x" />
       </concept>
       <concept id="1653993840477736119" name="formalodd.structure.Turn" flags="ng" index="1GE2ol">
         <property id="1653993840477744190" name="direction" index="1GE0qs" />
@@ -2187,6 +2206,7 @@
         <property role="2QSBU6" value="whether or not to attack" />
         <node concept="RZfIr" id="3Maou2QW6Wd" role="2jZik7">
           <property role="TrG5h" value="relative-dom" />
+          <property role="2QSBU6" value="relative dom" />
           <node concept="i7gn5" id="3Maou2QW6Wh" role="RZfIc">
             <property role="i7gn4" value="1w00y4a7gvD/divide" />
             <node concept="26lliW" id="3Maou2QW6Wq" role="i7gCG">
@@ -2241,7 +2261,7 @@
         </node>
         <node concept="RZfIr" id="3Maou2R6WD8" role="2jZik7">
           <property role="TrG5h" value="result" />
-          <property role="2QSBU6" value="if the relative dominance is in the range the agent does not attack" />
+          <property role="2QSBU6" value="whether to attack" />
           <node concept="2auxlr" id="JvAs2ACFRJ" role="RZfIc">
             <node concept="RLbTy" id="JvAs2AMZYC" role="2auxK8">
               <ref role="RLbTH" node="3Maou2R6WCa" resolve="randomNumber" />
@@ -2255,11 +2275,11 @@
           </node>
         </node>
         <node concept="2jZikV" id="6dXUwhl7ouw" role="2jZik2">
-          <property role="TrG5h" value="aggroMonkey" />
+          <property role="TrG5h" value="attacker" />
           <node concept="Qbqaq" id="6dXUwhl7oux" role="2jZikY" />
         </node>
         <node concept="2jZikV" id="6dXUwhl7ouy" role="2jZik2">
-          <property role="TrG5h" value="defensMonkey" />
+          <property role="TrG5h" value="defender" />
           <node concept="Qbqaq" id="6dXUwhl7ouz" role="2jZikY" />
         </node>
         <node concept="RLbTy" id="3Maou2R6WDP" role="2jZik0">
@@ -3732,14 +3752,8 @@
             <node concept="2RZnKf" id="6dXUwhl7nl0" role="1GE3Gg">
               <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="wiener" />
             </node>
-            <node concept="i7gn5" id="6dXUwhl7nl1" role="1GE30C">
-              <property role="i7gn4" value="1w00y4a7gvD/divide" />
-              <node concept="2oK_Am" id="6dXUwhl7nl2" role="i7gCG">
-                <property role="2oK_Ap" value="45" />
-              </node>
-              <node concept="2oK_Am" id="6dXUwhl7nl3" role="i7gCI">
-                <property role="2oK_Ap" value="2" />
-              </node>
+            <node concept="2oK_Am" id="65srL6na3Mh" role="1GE30C">
+              <property role="2oK_Ap" value="45" />
             </node>
           </node>
           <node concept="1GE2ol" id="6dXUwhl7nl4" role="2R3hq3">
@@ -3747,14 +3761,8 @@
             <node concept="2RZnKf" id="6dXUwhl7nl5" role="1GE3Gg">
               <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="wiener" />
             </node>
-            <node concept="i7gn5" id="6dXUwhl7nl6" role="1GE30C">
-              <property role="i7gn4" value="1w00y4a7gvD/divide" />
-              <node concept="2oK_Am" id="6dXUwhl7nl7" role="i7gCG">
-                <property role="2oK_Ap" value="45" />
-              </node>
-              <node concept="2oK_Am" id="6dXUwhl7nl8" role="i7gCI">
-                <property role="2oK_Ap" value="2" />
-              </node>
+            <node concept="2oK_Am" id="65srL6na3NJ" role="1GE30C">
+              <property role="2oK_Ap" value="45" />
             </node>
           </node>
         </node>
@@ -3763,7 +3771,7 @@
           <node concept="Qbqaq" id="6dXUwhl7nla" role="2jZikY" />
         </node>
         <node concept="2jZikV" id="6dXUwhl7nlb" role="3UFU5O">
-          <property role="TrG5h" value="wiener" />
+          <property role="TrG5h" value="winner" />
           <node concept="Qbqaq" id="6dXUwhl7nlc" role="2jZikY" />
         </node>
       </node>
@@ -3802,38 +3810,32 @@
               <node concept="2oK_Am" id="6dXUwhl7nlq" role="i7gCG">
                 <property role="2oK_Ap" value="180" />
               </node>
-              <node concept="i8Uhg" id="6dXUwhl7nlr" role="i7gCI">
-                <node concept="i7gn5" id="6dXUwhl7nls" role="i8Uhj">
-                  <property role="i7gn4" value="1w00y4a7gvD/divide" />
-                  <node concept="2oK_Am" id="6dXUwhl7nlt" role="i7gCG">
-                    <property role="2oK_Ap" value="45" />
-                  </node>
-                  <node concept="2oK_Am" id="6dXUwhl7nlu" role="i7gCI">
-                    <property role="2oK_Ap" value="2" />
-                  </node>
+              <node concept="2jQCjV" id="65srL6na3X5" role="i7gCI">
+                <node concept="2oK_Am" id="65srL6na46r" role="2jQCjS">
+                  <property role="2oK_Ap" value="0" />
+                </node>
+                <node concept="2oK_Am" id="65srL6na4bM" role="2jQCjT">
+                  <property role="2oK_Ap" value="90" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="1GE2ol" id="6dXUwhl7nlv" role="2R3hq3">
+          <node concept="1GE2ol" id="65srL6na4lO" role="2R3hq3">
             <property role="1GE0qs" value="1rOaE9Un2Ff/right" />
-            <node concept="2RZnKf" id="6dXUwhl7nlw" role="1GE3Gg">
+            <node concept="2RZnKf" id="65srL6na4lP" role="1GE3Gg">
               <ref role="2RZnBE" node="6dXUwhl7nlF" resolve="loser" />
             </node>
-            <node concept="i7gn5" id="6dXUwhl7nlx" role="1GE30C">
+            <node concept="i7gn5" id="65srL6na4lQ" role="1GE30C">
               <property role="i7gn4" value="1w00y4a7gvC/add" />
-              <node concept="2oK_Am" id="6dXUwhl7nly" role="i7gCG">
+              <node concept="2oK_Am" id="65srL6na4lR" role="i7gCG">
                 <property role="2oK_Ap" value="180" />
               </node>
-              <node concept="i8Uhg" id="6dXUwhl7nlz" role="i7gCI">
-                <node concept="i7gn5" id="6dXUwhl7nl$" role="i8Uhj">
-                  <property role="i7gn4" value="1w00y4a7gvD/divide" />
-                  <node concept="2oK_Am" id="6dXUwhl7nl_" role="i7gCG">
-                    <property role="2oK_Ap" value="45" />
-                  </node>
-                  <node concept="2oK_Am" id="6dXUwhl7nlA" role="i7gCI">
-                    <property role="2oK_Ap" value="2" />
-                  </node>
+              <node concept="2jQCjV" id="65srL6na4lS" role="i7gCI">
+                <node concept="2oK_Am" id="65srL6na4lT" role="2jQCjS">
+                  <property role="2oK_Ap" value="0" />
+                </node>
+                <node concept="2oK_Am" id="65srL6na4lU" role="2jQCjT">
+                  <property role="2oK_Ap" value="90" />
                 </node>
               </node>
             </node>
@@ -4905,7 +4907,7 @@
                     </node>
                     <node concept="2HyfYL" id="cQjiEE2pnd" role="2EA9tB">
                       <node concept="RLbTy" id="cQjiEE2qqH" role="2HyfYK">
-                        <ref role="RLbTH" node="3Maou2QVRfy" resolve="visibleNearViewFemales" />
+                        <ref role="RLbTH" node="3Maou2QVQFR" resolve="nearViewFemales" />
                       </node>
                     </node>
                   </node>
@@ -5482,7 +5484,56 @@
         <ref role="1sOCfp" node="6dXUwhl7hr_" resolve="attack" />
       </node>
     </node>
-    <node concept="2kDK7K" id="6dXUwhkZEX5" role="2kDK7a" />
+    <node concept="2kDK7K" id="6dXUwhkZEX5" role="2kDK7a">
+      <node concept="3gPary" id="4IVGiEbgnI4" role="2kDK7e">
+        <property role="TrG5h" value="high" />
+        <property role="1JUGKd" value="experiment with high aggression" />
+        <property role="3gParY" value="10" />
+        <node concept="3D9oHp" id="4IVGiEbgnIk" role="3D9rx_">
+          <ref role="3D9oHq" node="6dXUwhl7kke" resolve="stepDomMale" />
+          <node concept="3DbZFg" id="4IVGiEbgnIs" role="3D3j2x">
+            <node concept="2oK_Am" id="4IVGiEbgnIy" role="3DbZFh">
+              <property role="2oK_Ap" value="1" />
+            </node>
+          </node>
+        </node>
+        <node concept="3D9oHp" id="4IVGiEbgnIM" role="3D9rx_">
+          <ref role="3D9oHq" node="6dXUwhl7knO" resolve="stepDomFemale" />
+          <node concept="3DbZFg" id="4IVGiEbgnIX" role="3D3j2x">
+            <node concept="2oK_Am" id="4IVGiEbgnJ3" role="3DbZFh">
+              <property role="2oK_Ap" value="0.8" />
+            </node>
+          </node>
+        </node>
+        <node concept="34GfGh" id="4IVGiEbgnI5" role="1u4frY">
+          <property role="34G1EI" value="160" />
+        </node>
+      </node>
+      <node concept="3gPary" id="4IVGiEbgmSO" role="2kDK7e">
+        <property role="TrG5h" value="low" />
+        <property role="1JUGKd" value="experiment with low aggression" />
+        <property role="3gParY" value="10" />
+        <node concept="3D9oHp" id="4IVGiEbgmSW" role="3D9rx_">
+          <ref role="3D9oHq" node="6dXUwhl7knO" resolve="stepDomFemale" />
+          <node concept="3DbZFg" id="4IVGiEbgmT4" role="3D3j2x">
+            <node concept="2oK_Am" id="4IVGiEbgmTa" role="3DbZFh">
+              <property role="2oK_Ap" value="0.08" />
+            </node>
+          </node>
+        </node>
+        <node concept="3D9oHp" id="4IVGiEbgmTw" role="3D9rx_">
+          <ref role="3D9oHq" node="6dXUwhl7kke" resolve="stepDomMale" />
+          <node concept="3DbZFg" id="4IVGiEbgmTF" role="3D3j2x">
+            <node concept="2oK_Am" id="4IVGiEbgmTL" role="3DbZFh">
+              <property role="2oK_Ap" value="0.1" />
+            </node>
+          </node>
+        </node>
+        <node concept="34GfGh" id="4IVGiEbgmSP" role="1u4frY">
+          <property role="34G1EI" value="160" />
+        </node>
+      </node>
+    </node>
     <node concept="1sMRUJ" id="6dXUwhkZEXd" role="1sMO1Z">
       <ref role="1sMRUI" node="6dXUwhkZEX6" resolve="male" />
     </node>
