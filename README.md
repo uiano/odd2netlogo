@@ -10,7 +10,7 @@ The strength  of Agent-Based Modelling is the emergence of patterns. We use ABM 
 # Installation steps
 Make sure you have installed Java (Version at least 1.8)
 
-1. Install [JetBrains MPS 2022.2.2](https://www.jetbrains.com/mps/download/previous.html)
+1. Install [JetBrains MPS 2025.1](https://www.jetbrains.com/mps/download/)
 2. In MPS select VCS -> get from version control
 3. paste the URL from this GitHub repositories code-tab. 
 4. In MPS, right click formalodd and select "Make language formalodd"
