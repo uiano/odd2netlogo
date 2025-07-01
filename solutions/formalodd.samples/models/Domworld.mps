@@ -2212,7 +2212,7 @@
             <node concept="26lliW" id="3Maou2QW6Wq" role="i7gCG">
               <ref role="26lliz" node="6dXUwhl7ork" resolve="Dominance" />
               <node concept="2RZnKf" id="3Maou2QW6Wv" role="2ROLC_">
-                <ref role="2RZnBE" node="6dXUwhl7ouw" resolve="aggroMonkey" />
+                <ref role="2RZnBE" node="6dXUwhl7ouw" resolve="attacker" />
               </node>
             </node>
             <node concept="i8Uhg" id="3Maou2QW6Wx" role="i7gCI">
@@ -2221,13 +2221,13 @@
                 <node concept="26lliW" id="3Maou2QW6WK" role="i7gCG">
                   <ref role="26lliz" node="6dXUwhl7ork" resolve="Dominance" />
                   <node concept="2RZnKf" id="3Maou2QW6WP" role="2ROLC_">
-                    <ref role="2RZnBE" node="6dXUwhl7ouw" resolve="aggroMonkey" />
+                    <ref role="2RZnBE" node="6dXUwhl7ouw" resolve="attacker" />
                   </node>
                 </node>
                 <node concept="26lliW" id="3Maou2QW6WR" role="i7gCI">
                   <ref role="26lliz" node="6dXUwhl7ork" resolve="Dominance" />
                   <node concept="2RZnKf" id="3Maou2QW6WW" role="2ROLC_">
-                    <ref role="2RZnBE" node="6dXUwhl7ouy" resolve="defensMonkey" />
+                    <ref role="2RZnBE" node="6dXUwhl7ouy" resolve="defender" />
                   </node>
                 </node>
               </node>
@@ -3721,7 +3721,7 @@
         <property role="TrG5h" value="chase" />
         <node concept="1GJ$Xt" id="6dXUwhl7nkQ" role="18tn1X">
           <node concept="2RZnKf" id="6dXUwhl7nkR" role="1GJ$tK">
-            <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="wiener" />
+            <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="winner" />
           </node>
           <node concept="2RZnKf" id="6dXUwhl7nkS" role="1GJ__K">
             <ref role="2RZnBE" node="6dXUwhl7nl9" resolve="loser" />
@@ -3750,7 +3750,7 @@
           <node concept="1GE2ol" id="6dXUwhl7nkZ" role="2rRKAh">
             <property role="1GE0qs" value="1rOaE9Un2yG/left" />
             <node concept="2RZnKf" id="6dXUwhl7nl0" role="1GE3Gg">
-              <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="wiener" />
+              <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="winner" />
             </node>
             <node concept="2oK_Am" id="65srL6na3Mh" role="1GE30C">
               <property role="2oK_Ap" value="45" />
@@ -3759,7 +3759,7 @@
           <node concept="1GE2ol" id="6dXUwhl7nl4" role="2R3hq3">
             <property role="1GE0qs" value="1rOaE9Un2Ff/right" />
             <node concept="2RZnKf" id="6dXUwhl7nl5" role="1GE3Gg">
-              <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="wiener" />
+              <ref role="2RZnBE" node="6dXUwhl7nlb" resolve="winner" />
             </node>
             <node concept="2oK_Am" id="65srL6na3NJ" role="1GE30C">
               <property role="2oK_Ap" value="45" />

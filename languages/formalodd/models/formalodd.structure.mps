@@ -3054,7 +3054,7 @@
     <property role="EcuMT" value="1052357236764590661" />
     <property role="3GE5qa" value="Experiments" />
     <property role="TrG5h" value="DataCollection" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="UqIljaaEfU" role="1TKVEl">
       <property role="IQ2nx" value="1052357236764615674" />
       <property role="TrG5h" value="timesteps" />
@@ -3086,13 +3086,13 @@
     <property role="EcuMT" value="1052357236764592694" />
     <property role="3GE5qa" value="Experiments" />
     <property role="TrG5h" value="CollectionItem" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="UqIljaaAOV">
     <property role="EcuMT" value="1052357236764601659" />
     <property role="3GE5qa" value="Experiments" />
     <property role="TrG5h" value="CheatingString" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="UqIljaaAVQ" role="1TKVEl">
       <property role="IQ2nx" value="1052357236764602102" />
       <property role="TrG5h" value="string" />
