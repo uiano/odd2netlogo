@@ -1,0 +1,361 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{xcolor}
+\usepackage{algorithm2e}
+
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\usepackage{framed}
+
+
+\begin{document}
+
+
+\newlength\myindent
+\setlength\myindent{2em}
+\newcommand\bindent{%
+  \begingroup
+  \setlength{\itemindent}{\myindent}
+  \addtolength{\algorithmicindent}{\myindent}
+}
+\newcommand\eindent{\endgroup}
+
+
+\section{Overview: General Description}
+\subsection{What is the research question?}
+The DomWorld model (Hemelrijk, 1998) was proposed as an alternative model for explaining how different hierarchies can form in ape-troupes. It put forward the idea that the hierarchies were the aggregate result of dominance interactions. This model demonstrates how a hierarchy can form without a system-level equation guiding the actions of the monkeys, but rather as a result of the actions of individuals
+\subsection{How would you categorize the role of the model?}
+Explanation: Establishing a possible causal chain from a set-up to its consequences in terms of the mechanisms in a simulation.
+\subsection{For whom is the model designed?}
+the model was initially designed for primatologists. 
+\subsection{What is the purpose of the model?}
+the purpose of the model is to explain and illustrate how hierarchies can occur as an aggregate result of discrete dominance interactions taken by apes in a group of apes.
+%What is the research question?\\
+%<Press enter and write the model research question>
+%\hline
+%How would you categorize the role of the model?\\
+%<press control space to select the model role>
+%\hline
+%For whom is the model designed?\\                 
+%<Press enter and describe the target users of the model>
+%\hline
+%What is the purpose of the model?\\
+%<Press enter and describe the purpose of the model> \\
+%\hline
+%foreach InformalText in ModelDescription.descendants:
+% tabular{|c|}
+%    content  + \\
+%   \hline
+%\hline
+\section{Overview: Entities, state variables, and scales}
+%\begin{tabular}{|c|}
+%\hline
+%Entities \\  
+%The entities in this model are: {\color{blue}male}, {\color{blue}female} \\ 
+%The entity {\color{blue}male} has colour blue and shape square of size 3 and it describes a male ape \\
+%Entity {\color{blue}male} has the attributes \\
+%Press enter to add attribute to  male \\  
+\hline                  
+%The entity {\color{blue}female} has colour red and shape circle of size 3 and it describes a female ape\\
+%Entity {\color{blue}female} has the attributes\\
+%\hline 
+%\end{tabular}
+\parbox{\linewidth}{
+\subsection{Entities}\\  
+The entities in this model are: {\color{blue}male}, {\color{blue}female} \\ 
+The entity {\color{blue}male} has colour blue and shape square of size 3 and it describes a male ape \\
+Entity {\color{blue}male} has the attributes \\
+%Press enter to add attribute to  male \\  
+
+\hline               
+The entity {\color{blue}female} has colour red and shape circle of size 3 and it describes a female ape\\
+Entity {\color{blue}female} has the attributes\\
+\hline
+}
+
+%\begin{framed}
+%Entities \\  
+%The entities in this model are: {\color{blue}male}, {\color{blue}female} \\ 
+%The entity {\color{blue}male} has colour blue and shape square of size 3 and %it describes a male ape \\
+%Entity {\color{blue}male} has the attributes\\
+%Press enter to add attribute to  male \\  
+%The entity {\color{blue}female} has colour red and shape circle of size 3 and it describes a female ape\\
+%Entity {\color{blue}female} has the attributes\\
+%\end{framed}
+
+\subsection{Common Attributes of all Entities}
+The common entity attributes are:\\
+The attribute {\color{blue}IdleTime} is {\color{green}numerical}. The attribute describes the position of the ape in the queue\\
+The attribute {\color{blue}Dominance} is {\color{green}numerical range} from 0.1 to 9999. The attribute describes the rank of the ape\\                     
+The attribute {\color{blue}StepDom} is {\color{green}numerical}. The attribute describes the rate of aggression among the apes\\
+%Press enter to add another attribute  
+\subsection{Networks}
+%when generating LaTeX legally empty fields should give none or similar text. Press enter makes sense as a prompt in the IDE, but not in text
+The networks in this model are: None\\  
+\subsection{Environment entities}           
+The environment entities in this model are: None
+\subsection{Environment Attributes}                      
+The environment attributes in this model are: None  
+\subsection{Synthetic Attributes}
+The synthetic attributes are: None     
+\subsection{Model Attributes}
+The model attributes are:         
+The attribute {\color{blue}PopulationSize} is {\color{green}numerical}. The attribute describes the number of monkeys\\  
+The attribute {\color{blue}TimeStepLength} is {\color{green}numerical}. The attribute describes number of activations in a given timestep\\
+The attribute {\color{blue}InteractionDecay} is {\color{green}numerical}. The attribute describes how much the IdleTime is multiplied by to decrement it\\
+The attribute {\color{blue}MaxView} is {\color{green}numerical}. The attribute describes length of vision-cone\\
+The attribute {\color{blue}VisionAngle} is {\color{green}numerical}. The attribute describes angle of vision-cone\\
+The attribute {\color{blue}NearView} is {\color{green}numerical}. The attribute describes distance that determines comfort zone\\
+The attribute {\color{blue}initDomMale} is {\color{green}numerical}. The attribute describes the initial rank of males\\
+The attribute {\color{blue}initDomFemale} is {\color{green}numerical}. The attribute describes the initial rank of females\\
+The attribute {\color{blue}StepDomMale} is {\color{green}numerical}. The attribute describes male aggression-learning adjustment\\
+The attribute {\color{blue}StepDomFemale} is {\color{green}numerical}. The attribute describes female aggression learning adjustment\\
+The attribute {\color{blue}SearchAngle} is {\color{green}numerical}. The attribute describes how far the apes turn\\
+The attribute {\color{blue}PersonalSpace} is {\color{green}numerical}. The attribute describes how close other apes can get before an attack is considered\\
+The attribute {\color{blue}Memory} is {\color{green}boolean}. The attribute describes switch to determine if monkeys are percievers or estimators\\
+The attribute {\color{blue}percentWomen} is {\color{green}numerical}. The attribute describes the ratio of female apes in the troupe\\
+The attribute {\color{blue}fleedistance} is {\color{green}numerical}. The attribute describes the distance losers flee after a fight\\
+
+\subsection{Synthetic Model Attributes}
+The synthetic model attributes are: None
+%Add logic where if there are no children it says none.
+%Output should read "The synthetic model attributes are: None" if there are no children in the role
+\section{Overview: Process overview and scheduling}
+Scheduling
+\begin{enumerate}
+    \item Perform the action {\color{purple}observe} with select the lowest  by  {\color{blue}IdleTime}  from  any entity
+    \item Perform the action {\color{purple}reduce-IdleTime}
+    \item Perform the action {\color{purple}colour-change-female}
+    \item Perform the action {\color{purple}colour-change-male}
+\end{enumerate}
+\parbox{\linewidth}{
+Action {\color{purple}colour-change-male} describes update the colour of males according to their position in the hierarchy for visualization purposes\\
+It can be used of entity male of type entity {\color{orange}male}, performing the following actions\\
+\begin{algorithm}[H]
+    The synthetic attribute {\color{blue}maxDom} is defined as collect Dominance using max. It describes the highest dominance.\\
+     set colour of  {\color{blue}male}  to  blue scaled by {\color{blue}Dominance} of  {\color{blue}male}  in range from  ( {\color{orange}maxDom} * 2 )  to  0
+\end{algorithm}
+\hline
+}
+\parbox{\linewidth}{
+Action {\color{purple}colour-change-female} describes update the colour of females according to their position in the hierarchy for visualization purposes\\
+It can be used of entity {\color{orange}female} of type entity female, performing the following actions\\
+\begin{algorithm}[H]
+    The synthetic attribute {\color{blue}maxDom} is defined as collect Dominance using max. It describes the highest dominance.\\
+    set colour of  {\color{orange}female}  to red scaled by Dominance of  {\color{blue}female}  in range from  ( {\color{blue}maxDom} * 2 )  to  0
+\end{algorithm}
+\hline
+}
+\parbox{\linewidth}{
+Action {\color{purple}observe} describes check to see if there are any other apes around, where apes are and then what to do\\
+It can be used of entity {\color{orange}self} of type any entity, performing the following actions\\
+\begin{algorithm}[H]
+The attribute {\color{blue}IdleTime} of  self is set to a random value between 0 and 1\;
+The synthetic attribute {\color{blue}visibleMonkeys} is defined as select all elements from any entity at in sector in front of agent  with angle  VisionAngle  and length  MaxView.\;
+The synthetic attribute {\color{blue}number-of-visible-monkeys} is defined as collect {\color{blue}visibleMonkeys} using count.\;
+\eIf{{\color{blue}visibleMonkeys} $= 0$}
+{
+    \eIf{a random value between 0 and 1 $> 0.5$}
+    {
+        {\color{orange}self}  turns  left  by  {\color{blue}SearchAngle}  degrees
+    }
+    {
+        {\color{orange}self}  turns  right  by  {\color{blue}SearchAngle}  degrees
+    }
+}{
+    the entity {\color{orange}nearestMonkey} of type any entity  is the  lowest  by  distance  from  {\color{orange}self}  from  indices of {\color{blue}visibleMonkeys}\;
+    The synthetic attribute {\color{blue}nearestDist} is defined as distance  from  {\color{orange}self}  to  nearestMonkey.\;
+    \eIf{{\color{blue}nearestDist} $>$ {\color{blue}PersonalSpace}}
+    {
+    
+    \eIf{{\color{blue}nearestDist} $>$ {\color{blue}NearView}}
+    {
+        {\color{orange}self}  turns to face  {\color{orange}nearestMonkey}\;
+        Move ahead for a distance of 1 pixels.\;
+    }
+    {
+        Move ahead for a distance of 1 pixels.
+    }
+    }
+    {
+        Perform the interaction {\color{purple}consider-attack} with {\color{orange}self} and {\color{orange}nearestMonkey}
+    }
+    
+}
+\end{algorithm}
+\hline
+}
+
+\parbox{\linewidth}{
+Interaction {\color{purple}consider-attack} describes whether to attack\\
+The interaction involves a {\color{orange}aggressor} of type any entity (first partner) and a {\color{orange}defender} of type any entity (second partner), together performing the following activities.\\
+\begin{algorithm}[H]
+    The synthetic attribute {\color{blue}result} is defined as calculate using {\color{purple}attack-calculation} with {\color{orange}aggressor} and {\color{orange}defender} endcalc.\;
+    \If{{\color{blue}result} $>$ a random value between 0 and 1}
+    {
+        Perform the interaction {\color{purple}attack} with {\color{orange}aggressor} and {\color{orange}defender}
+    }
+\end{algorithm}
+\hline
+}
+
+\parbox{\linewidth}{
+Calculation {\color{purple}attack-calculation} describes whether or not to attack\\
+applicable to:\\
+{\color{orange}attacker} of type any entity\\
+{\color{orange}defender} of type any entity\\
+\begin{algorithm}[H]
+    The synthetic attribute {\color{blue}relative-dom} is defined as {\color{blue}Dominance} of  {\color{orange}attacker} / ( {\color{blue}Dominance} of  {\color{orange}attacker} + {\color{blue}Dominance} of  {\color{orange}defender} ). It describes relative dom\;
+    returns {\color{blue}relative-dom}
+\end{algorithm}
+\hline
+}
+
+\parbox{\linewidth}{
+Interaction {\color{purple}attack} describes a dominance interaction\\
+The interaction involves a attacker of type any entity (first partner) and a victim of type any entity (second partner), together performing the following activities.\\
+\begin{algorithm}[H]
+    The synthetic attribute {\color{blue}result} is defined as calculate using attack-calculation with attacker and victim endcalc. It describes relative dominance for updating dominance\;
+    Perform the action {\color{purple}reduce-IdleTime} with select all elements from any entity at within radius of agent  within radius  NearView
+    \eIf{results $<$ a random value between 0 and 1}
+    {
+    The synthetic attribute {\color{blue}update} is defined as 0 - ( results * StepDom of  attacker ). It describes update value for attacker loss 
+    The attribute {\color{blue}Dominance} of  attacker is incremented by update 
+    Attribute {\color{blue}Dominance} of  victim decreases by the amount of update 
+    Perform the interaction chase with victim and attacker 
+    Perform the interaction flee with attacker and victim 
+    }
+    {
+    The synthetic attribute {\color{blue}update} is defined as ( 1 - results ) * StepDom of  attacker. It describes update value for attacker win 
+    The attribute {\color{blue}Dominance} of  attacker is incremented by {\color{blue}update} 
+    Attribute {\color{blue}Dominance} of  victim decreases by the amount of {\color{blue}update}
+    Perform the {\color{purple}interaction} chase with attacker and victim 
+    Perform the {\color{purple}interaction} flee with victim and attacker 
+    }
+\end{algorithm}
+\hline
+}
+
+\parbox{\linewidth}{
+Interaction {\color{purple}chase} describes the winner chasing the loser\\
+The interaction involves a {\color{orange}winner} of type any entity (first partner) and a {\color{orange}loser} of type any entity (second partner), together performing the following activities.\\
+\begin{algorithm}[H]
+  {\color{orange}winner}  turns to face  {\color{orange}loser}\\
+  \eIf{0.5 > a random value between 0 and 1}
+    {
+        {\color{orange}winner}  turns  left  by  45 / 2  degrees
+    }
+    {
+        {\color{orange}winner}  turns  right  by  45 / 2  degrees
+    }
+  Move ahead for a distance of {\color{blue}fleedistance}
+  pixels.
+\end{algorithm}
+\hline
+}
+
+\parbox{\linewidth}{
+Interaction {\color{purple}flee} describes the loser fleeing\\
+The interaction involves a {\color{orange}loser} of type any entity (first partner) and a {\color{orange}winner} of type any entity (second partner), together performing the following activities.\\
+\begin{algorithm}[H]
+    {\color{orange}loser}  turns to face  winner\\
+  \eIf{0.5 $>$ a random value between 0 and 1}
+  {
+    {\color{orange}loser}  turns  left  by  180 + ( 45 / 2 )  degrees
+  }
+  {
+    {\color{orange}loser}  turns  right  by  180 + ( 45 / 2 )  degrees
+  }
+  Move ahead for a distance of {\color{blue}fleedistance} pixels.
+\end{algorithm}
+\hline
+}
+
+\parbox{\linewidth}{
+Action {\color{purple}reduce-IdleTime} describes decrementing the idle time\\
+It can be used of entity {\color{orange}ape} of type any entity, performing the following actions\\
+\begin{algorithm}[H]
+The attribute {\color{blue}IdleTime} of  {\color{orange}ape} is set to ( 1 - {\color{blue}InteractionDecay} ) * {\color{blue}IdleTime} of  {\color{orange}ape}
+\end{algorithm}                                                  
+Action {\color{purple}look\_for\_others} describes ape is alone and looks for others:
+It can be used of entity {\color{orange}ape} of type any entity, performing the following actions
+\begin{algorithm}[H]
+\eIf{a random value between 0 and 1 > 0.5}
+{
+{\color{orange}ape}  turns  left  by  {\color{blue}SearchAngle}  degrees 
+}
+{
+    {\color{orange}ape}  turns  right  by  {\color{blue}SearchAngle}  degrees
+}
+\end{algorithm}
+\hline
+}
+
+\section{Design Concepts}                               
+\subsection{Rationales}                          
+\subsection{Interaction}
+\begin{itemize}
+    \item interaction consider-attack                    
+    \item interaction attack                       
+    \item interaction chase                                
+    \item interaction flee
+\end{itemize}                          
+\subsection{Stochasticity}
+\begin{itemize}
+    \item attribute IdleTime is initialized with stochasticity
+    \item code observe uses stochasticity
+    \item code attack uses stochasticity                   
+    \item code flee uses stochasticity
+    \item code chase uses stochasticity
+    \item code attack-calculation uses stochasticity
+\end{itemize}
+
+\section{Details: Input}                           
+
+\section{Details: Manual Experiments}                                                                                               
+Initialize entities\\                                                                                     
+The initial amount of {\color{blue}male} is {\color{blue}PopulationSize} - {\color{blue}PopulationSize} * {\color{blue}percentWomen}\\                                          
+Entities {\color{blue}male} are on initialisation distributed within {\color{blue}MaxView}  units from the center\\                        
+Initialization of male attributes:\\                                  
+{\color{blue}male} has no unique attributes.\\                                                                                      
+Initialize common attributes for {\color{blue}male}\\                                                                                              
+The initial value of attribute {\color{blue}Dominance} is {\color{blue}initDomMale}\\                                                                   
+The initial value of attribute {\color{blue}StepDom} is {\color{blue}StepDomMale}\\ 
+\\
+The initial amount of {\color{blue}female} is {\color{blue}PopulationSize} * {\color{blue}percentWomen}\\                         
+Entities {\color{blue}female} are on initialisation distributed within {\color{blue}MaxView}  units from the center\\                             
+Initialization of {\color{blue}female} attributes:\\                                
+female has no unique attributes.\\
+%change ^this^ to "female has no unique attributes"
+Initialize common attributes \\
+%change ^this^ to "initialize common attributes of female"
+The initial value of attribute {\color{blue}Dominance} is {\color{blue}initDomFemale}\\                          
+The initial value of attribute {\color{blue}StepDom} is {\color{blue}StepDomFemale}\\
+\\
+\subsection{Initialize common attributes}                                                                      
+The initial value of attribute {\color{blue}IdleTime} is a random value between 0 and 1
+
+\subsection{Initialize model attributes}
+The initial value of attribute {\color{blue}PopulationSize} is 10 with the option to select a value between 1 and 40 with granularity 1\\
+The initial value of attribute {\color{blue}InteractionDecay} is 0.9\\                                                    
+The initial value of attribute {\color{blue}MaxView} is 50 with the option to select a value between 10 and 100 with granularity 1\\      
+The initial value of attribute {\color{blue}VisionAngle} is 120\\    
+The initial value of attribute {\color{blue}NearView} is 24\\                                                                       
+The initial value of attribute {\color{blue}initDomMale} is 16 with the option to select a value between 1 and 20 with granularity 1\\
+The initial value of attribute {\color{blue}initDomFemale} is 8 with the option to select a value between 1 and 20 with granularity 1\\  
+The initial value of attribute {\color{blue}StepDomMale} is 1 with the option to select a value between 0 and 1 with granularity 0.1\\ 
+The initial value of attribute {\color{blue}StepDomFemale} is 0.8 with the option to select a value between 0 and 1 with granularity 0.1\\
+The initial value of attribute {\color{blue}SearchAngle} is 120 with the option to select a value between 0 and 360 with granularity 1\\
+The initial value of attribute {\color{blue}PersonalSpace} is 2 with the option to select a value between 1 and 24 with granularity 1\\ 
+The initial value of attribute {\color{blue}percentWomen} is 0.5 with the option to select a value between 0 and 1 with granularity 0.1\\
+The initial value of attribute {\color{blue}fleedistance} is 2 with the option to select a value between 1 and 5 with granularity 1\\
+Visualization of Data in Manual Experiments\\                                  
+\subsection{Appearance}\\                                            
+The size of the world for the simulation is 100\\
+In the simulation the pixel size is 3\\
+The world should wrap horizontally true and vertically true   
+The simulation uses the background colour green\\                   
+\subsection{Simulation end}\\
+Any of the following conditions end the simulation:\\
+press enter to add end condition\\
+\end{document}
