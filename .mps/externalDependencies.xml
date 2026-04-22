@@ -3,6 +3,7 @@
   <component name="ExternalDependencies">
     <plugin id="com.dslfoundry.plaintextgen" />
     <plugin id="com.intellij" />
+    <plugin id="de.itemis.mps.extensions.build" />
     <plugin id="de.slisson.mps.editor.multiline" />
   </component>
 </project>
