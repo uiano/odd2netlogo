@@ -3,33 +3,25 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/odd2netlogo" />
   <property name="build.layout" location="${build.dir}/artifacts/odd2netlogo" />
-  <tstamp>
-    <format property="date" pattern="20260422" />
-  </tstamp>
-  <property name="build.number" value="253.28294.SNAPSHOT" />
   <property name="mps_home" location="${basedir}/../../generic_MPS/MPS 2025.3" />
   <property name="mps_extensions" location="${basedir}/../../mps_extensions/de.itemis.mps.extensions" />
-  <property name="artifacts.mpsStandalone" location="${mps_home}" />
-  <property name="artifacts.mpsMakePlugin" location="${mps_home}/plugins" />
-  <property name="artifacts.mpsCore" location="${mps_home}/plugins" />
-  <property name="artifacts.mpsVcs" location="${mps_home}/plugins" />
-  <property name="artifacts.mpsPlugins" location="${mps_home}/plugins" />
+  <property name="artifacts.mps" location="${mps_home}" />
   <property name="artifacts.de.itemis.mps.extensions" location="${mps_extensions}" />
-  <property file="${artifacts.mpsStandalone}/build.properties" prefix="import.mpsStandalone" />
+  <property file="${artifacts.mps}/build.properties" prefix="import.mps" />
   <property file="${artifacts.de.itemis.mps.extensions}/build.properties" prefix="import.de.itemis.mps.extensions" />
-  <property name="mpsBootstrapCore.version.major" value="${import.mpsStandalone.mpsBootstrapCore.version.major}" />
-  <property name="mpsBootstrapCore.version.minor" value="${import.mpsStandalone.mpsBootstrapCore.version.minor}" />
-  <property name="mpsBootstrapCore.version.bugfixNr" value="${import.mpsStandalone.mpsBootstrapCore.version.bugfixNr}" />
-  <property name="mpsBootstrapCore.version.eap" value="${import.mpsStandalone.mpsBootstrapCore.version.eap}" />
-  <property name="mpsBootstrapCore.version" value="${import.mpsStandalone.mpsBootstrapCore.version}" />
+  <property name="mps.build.number" value="${import.mps.mps.build.number}" />
+  <property name="mps.date" value="${import.mps.mps.date}" />
+  <property name="mps.build.vcs.number" value="${import.mps.mps.build.vcs.number}" />
+  <property name="mps.teamcity.buildConfName" value="${import.mps.mps.teamcity.buildConfName}" />
+  <property name="mps.idea.platform.build.number" value="${import.mps.mps.idea.platform.build.number}" />
+  <property name="mps.mps.build.counter" value="${import.mps.mps.mps.build.counter}" />
+  <property name="mps.runtimeBuild" value="${import.mps.mps.runtimeBuild}" />
+  <property name="mpsBootstrapCore.version.major" value="${import.mps.mpsBootstrapCore.version.major}" />
+  <property name="mpsBootstrapCore.version.minor" value="${import.mps.mpsBootstrapCore.version.minor}" />
+  <property name="mpsBootstrapCore.version.bugfixNr" value="${import.mps.mpsBootstrapCore.version.bugfixNr}" />
+  <property name="mpsBootstrapCore.version.eap" value="${import.mps.mpsBootstrapCore.version.eap}" />
+  <property name="mpsBootstrapCore.version" value="${import.mps.mpsBootstrapCore.version}" />
   <property name="de.itemis.mps.extensions.version" value="${import.de.itemis.mps.extensions.de.itemis.mps.extensions.version}" />
-  <property name="mps.build.number" value="${import.de.itemis.mps.extensions.mps.build.number}" />
-  <property name="mps.date" value="${import.de.itemis.mps.extensions.mps.date}" />
-  <property name="mps.build.vcs.number" value="${import.de.itemis.mps.extensions.mps.build.vcs.number}" />
-  <property name="mps.teamcity.buildConfName" value="${import.de.itemis.mps.extensions.mps.teamcity.buildConfName}" />
-  <property name="mps.idea.platform.build.number" value="${import.de.itemis.mps.extensions.mps.idea.platform.build.number}" />
-  <property name="mps.mps.build.counter" value="${import.de.itemis.mps.extensions.mps.mps.build.counter}" />
-  <property name="mps.runtimeBuild" value="${import.de.itemis.mps.extensions.mps.runtimeBuild}" />
   <property name="environment" value="env" />
   <property name="env.JAVA_HOME" value="${java.home}/.." />
   <property name="jdk.home" value="${env.JAVA_HOME}" />
@@ -37,100 +29,19 @@
   <property name="mps.ant.log" value="warn" />
   
   <path id="path.mps.ant.path">
-    <pathelement location="${artifacts.mpsStandalone}/lib/ant/lib/ant-mps.jar" />
-    <pathelement location="${artifacts.mpsStandalone}/lib/util-8.jar" />
+    <pathelement location="${artifacts.mps}/lib/ant/lib/ant-mps.jar" />
+    <pathelement location="${artifacts.mps}/lib/util-8.jar" />
   </path>
   
   <taskdef resource="jetbrains/mps/build/ant/antlib.xml" classpathref="path.mps.ant.path" />
   
   <generator-settings id="m2m-defaults" strictMode="true" parallelThreads="8" inplaceTransform="false" warnWrongChild="true" createStaticRefs="true" skipUnmodifiedModels="${mps.generator.skipUnmodifiedModels}" />
   
-  <target name="assemble" depends="classes, declare-mps-tasks, collect-tips-mps-tips, fetchDependencies">
+  <target name="assemble" depends="classes, declare-mps-tasks">
     <mkdir dir="${build.layout}" />
-    <mkdir dir="${build.layout}/languages" />
-    <copy todir="${build.layout}/languages">
-      <fileset dir="${artifacts.mpsStandalone}/languages" />
-    </copy>
-    <mkdir dir="${build.layout}/license" />
-    <copy todir="${build.layout}/license">
-      <fileset dir="${artifacts.mpsStandalone}/license" />
-    </copy>
-    <copy file="${artifacts.mpsStandalone}/LICENSE.txt" todir="${build.layout}" />
-    <mkdir dir="${build.layout}/bin" />
-    <copy todir="${build.layout}/bin">
-      <fileset dir="${artifacts.mpsStandalone}/bin">
-        <include name="log.xml" />
-      </fileset>
-    </copy>
-    <copy todir="${build.layout}/bin">
-      <fileset file="${mps_home}/bin/idea.properties" />
-      <filterchain>
-        <tokenfilter>
-          <replaceregex pattern="\.MPS(\w+)" replace="\.${build.number}" flags="g" />
-        </tokenfilter>
-      </filterchain>
-    </copy>
-    <mkdir dir="${build.layout}/lib" />
-    <copy todir="${build.layout}/lib">
-      <fileset dir="${artifacts.mpsStandalone}/lib">
-        <exclude name="jna/" />
-        <exclude name="pty4j/" />
-        <exclude name="MPS-src.zip" />
-        <exclude name="branding.jar" />
-        <exclude name="mps-tips.jar" />
-      </fileset>
-    </copy>
-    <jar destfile="${build.layout}/lib/mps-tips.jar" duplicate="preserve">
-      <fileset file="${build.tmp}/out/mps-tips/mps-tips/**" />
-    </jar>
-    <mkdir dir="${build.tmp}/default/branding.jar" />
-    <mkdir dir="${build.tmp}/default/branding.jar/idea" />
-    <echoxml file="${build.tmp}/default/branding.jar/idea/MPSApplicationInfo.xml">
-      <component>
-        <version major="1" minor="0.0" eap="false" />
-        <build number="${build.number}" date="${date}" />
-        <logo url="/splash.png" textcolor="FFFFFF" progressColor="FFFFFF" />
-        <icon svg="/odd2netlogo.svg" svg-small="/odd2netlogo_16.svg" />
-        <package code="code" />
-        <names product="odd2netlogo" fullname="odd2netlogo" script="odd2netlogo" />
-        
-        <welcome-screen logo-url="/logo.png" />
-        
-        <plugins url="https://plugins.jetbrains.com/" />
-        
-        
-      </component>
-    </echoxml>
-    <jar destfile="${build.layout}/lib/branding.jar" duplicate="preserve">
-      <fileset file="${basedir}/icons/odd2netlogo.svg" />
-      <fileset file="${basedir}/icons/odd2netlogo_16.svg" />
-      <fileset file="${basedir}/icons/logo.png" />
-      <fileset file="${basedir}/icons/splash.png" />
-      <fileset dir="${build.tmp}/default/branding.jar" />
-    </jar>
-    <mkdir dir="${build.layout}/plugins" />
-    <mkdir dir="${build.layout}/plugins/vcs-svn" />
-    <copy todir="${build.layout}/plugins/vcs-svn">
-      <fileset dir="${artifacts.mpsVcs}/vcs-svn" />
-    </copy>
-    <mkdir dir="${build.layout}/plugins/vcs-git" />
-    <copy todir="${build.layout}/plugins/vcs-git">
-      <fileset dir="${artifacts.mpsVcs}/vcs-git" />
-    </copy>
-    <mkdir dir="${build.layout}/plugins/mps-core" />
-    <copy todir="${build.layout}/plugins/mps-core">
-      <fileset dir="${artifacts.mpsCore}/mps-core" />
-    </copy>
-    <mkdir dir="${build.layout}/plugins/mps-make" />
-    <copy todir="${build.layout}/plugins/mps-make">
-      <fileset dir="${artifacts.mpsMakePlugin}/mps-make" />
-    </copy>
-    <mkdir dir="${build.layout}/plugins/mps-rcp" />
-    <copy todir="${build.layout}/plugins/mps-rcp">
-      <fileset dir="${artifacts.mpsPlugins}/mps-rcp" />
-    </copy>
-    <mkdir dir="${build.layout}/plugins/odd2netlogo" />
-    <mkdir dir="${build.layout}/plugins/odd2netlogo/lib" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo.zip" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo.zip/odd2netlogo" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/lib" />
     <mkdir dir="${build.tmp}/default/odd2netlogo.jar" />
     <mkdir dir="${build.tmp}/default/odd2netlogo.jar/META-INF" />
     <echoxml file="${build.tmp}/default/odd2netlogo.jar/META-INF/plugin.xml">
@@ -145,18 +56,17 @@
         <depends>de.itemis.mps.celllayout</depends>
         <depends>de.itemis.mps.selection</depends>
         <depends>de.slisson.mps.editor.multiline</depends>
-        <depends>jetbrains.mps.ide.vcs.metadata</depends>
         
         <extensions defaultExtensionNs="com.intellij">
           <mps.LanguageLibrary dir="/languages" />
         </extensions>
       </idea-plugin>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/odd2netlogo/lib/odd2netlogo.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/lib/odd2netlogo.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/default/odd2netlogo.jar" />
     </jar>
-    <mkdir dir="${build.layout}/plugins/odd2netlogo/languages" />
-    <mkdir dir="${build.layout}/plugins/odd2netlogo/languages/odd2netlogo" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages/odd2netlogo" />
     <mkdir dir="${build.tmp}/default/formalodd.jar" />
     <mkdir dir="${build.tmp}/default/formalodd.jar/META-INF" />
     <echoxml file="${build.tmp}/default/formalodd.jar/META-INF/module.xml">
@@ -247,7 +157,7 @@
         <sources jar="formalodd-src.jar" descriptor="formalodd.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/odd2netlogo/languages/odd2netlogo/formalodd.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages/odd2netlogo/formalodd.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/formalodd" />
       <fileset dir="${basedir}/languages/formalodd" includes="icons/**, resources/**" />
       <fileset dir="${basedir}/languages/formalodd/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
@@ -295,7 +205,7 @@
         <sources jar="formalodd-src.jar" descriptor="formalodd.mpl" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/odd2netlogo/languages/odd2netlogo/formalodd-generator.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages/odd2netlogo/formalodd-generator.jar" duplicate="preserve">
       <fileset dir="${build.tmp}/java/out/formalodd#01" />
       <fileset dir="${basedir}/languages/formalodd/generator/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
       <fileset dir="${build.tmp}/default/formalodd-generator.jar" />
@@ -306,7 +216,7 @@
     <copyModels todir="${build.tmp}/customProcessors/copyModels/languages-formalodd-generator-template">
       <fileset dir="${basedir}/languages/formalodd/generator/template" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/odd2netlogo/languages/odd2netlogo/formalodd-src.jar" duplicate="preserve">
+    <jar destfile="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages/odd2netlogo/formalodd-src.jar" duplicate="preserve">
       <fileset dir="${basedir}/languages/formalodd/generator/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
@@ -323,10 +233,10 @@
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-formalodd-models" prefix="module/models" />
       <zipfileset dir="${build.tmp}/customProcessors/copyModels/languages-formalodd-generator-template" prefix="module/generator/template" />
     </jar>
-    <mkdir dir="${build.tmp}/default/formalodd.samples.jar" />
-    <mkdir dir="${build.tmp}/default/formalodd.samples.jar/META-INF" />
-    <echoxml file="${build.tmp}/default/formalodd.samples.jar/META-INF/module.xml">
-      <module namespace="formalodd.samples" type="solution" uuid="89da5b47-b574-400d-8bdd-7dd0bd8d932f">
+    <mkdir dir="${build.tmp}/default/Demo.jar" />
+    <mkdir dir="${build.tmp}/default/Demo.jar/META-INF" />
+    <echoxml file="${build.tmp}/default/Demo.jar/META-INF/module.xml">
+      <module namespace="Demo" type="solution" uuid="a90a8254-b920-482b-84a3-130ff7b3a962">
         <dependencies />
         <uses>
           <language id="l:32c6af6f-c921-41d7-a19e-61a23bec1a47:formalodd" />
@@ -334,37 +244,31 @@
         <classpath>
           <entry path="." />
         </classpath>
-        <sources jar="formalodd.samples-src.jar" descriptor="formalodd.samples.msd" />
+        <sources jar="Demo-src.jar" descriptor="Demo.msd" />
       </module>
     </echoxml>
-    <jar destfile="${build.layout}/plugins/odd2netlogo/languages/odd2netlogo/formalodd.samples.jar" duplicate="preserve">
-      <fileset dir="${build.tmp}/java/out/formalodd.samples" />
-      <fileset dir="${basedir}/solutions/formalodd.samples/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
-      <fileset dir="${build.tmp}/default/formalodd.samples.jar" />
+    <jar destfile="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages/odd2netlogo/Demo.jar" duplicate="preserve">
+      <fileset dir="${build.tmp}/java/out/Demo" />
+      <fileset dir="${basedir}/solutions/Demo/source_gen" includes="**/trace.info, **/exports, **/*.mps, **/checkpoints" />
+      <fileset dir="${build.tmp}/default/Demo.jar" />
     </jar>
-    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-formalodd.samples-models">
-      <fileset dir="${basedir}/solutions/formalodd.samples/models" includes="**/*.mps, **/*.mpsr, **/.model" />
+    <copyModels todir="${build.tmp}/customProcessors/copyModels/solutions-Demo-models">
+      <fileset dir="${basedir}/solutions/Demo/models" includes="**/*.mps, **/*.mpsr, **/.model" />
     </copyModels>
-    <jar destfile="${build.layout}/plugins/odd2netlogo/languages/odd2netlogo/formalodd.samples-src.jar" duplicate="preserve">
-      <fileset dir="${basedir}/solutions/formalodd.samples/source_gen">
+    <jar destfile="${build.tmp}/default/odd2netlogo.zip/odd2netlogo/languages/odd2netlogo/Demo-src.jar" duplicate="preserve">
+      <fileset dir="${basedir}/solutions/Demo/source_gen">
         <exclude name="**/trace.info" />
         <exclude name="**/exports" />
         <exclude name="**/checkpoints" />
         <exclude name="**/*.mps" />
       </fileset>
-      <zipfileset file="${basedir}/solutions/formalodd.samples/formalodd.samples.msd" prefix="module" />
-      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-formalodd.samples-models" prefix="module/models" />
+      <zipfileset file="${basedir}/solutions/Demo/Demo.msd" prefix="module" />
+      <zipfileset dir="${build.tmp}/customProcessors/copyModels/solutions-Demo-models" prefix="module/models" />
     </jar>
-    <echo file="${build.layout}/build.number">build.number=${build.number}${line.separator}date=${date}${line.separator}version=1.0</echo>
-    <copy todir="${build.layout}">
-      <fileset file="${mps_home}/build.txt" />
-      <filterchain>
-        <tokenfilter>
-          <replaceregex pattern=".+" replace="${build.number}" flags="g" />
-        </tokenfilter>
-      </filterchain>
-    </copy>
-    <echo file="${build.layout}/build.properties">odd2netlogo.date=${date}${line.separator}odd2netlogo.build.number=${build.number}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.version=${de.itemis.mps.extensions.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mps.runtimeBuild=${mps.runtimeBuild}</echo>
+    <zip destfile="${build.layout}/odd2netlogo.zip">
+      <fileset dir="${build.tmp}/default/odd2netlogo.zip" />
+    </zip>
+    <echo file="${build.layout}/build.properties">mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mps.runtimeBuild=${mps.runtimeBuild}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.version=${de.itemis.mps.extensions.version}</echo>
   </target>
   
   <target name="buildDependents" />
@@ -378,7 +282,7 @@
     <delete dir="${build.layout}" />
   </target>
   
-  <target name="compileJava" depends="java.compile.formalodd, java.compile.formalodd#01, java.compile.formalodd.samples" />
+  <target name="compileJava" depends="java.compile.formalodd, java.compile.formalodd#01, java.compile.Demo" />
   
   <target name="processResources" />
   
@@ -397,18 +301,21 @@
       <plugin path="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.celllayout" id="de.itemis.mps.celllayout" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/de.slisson.mps.hacks" id="de.slisson.mps.hacks" />
       <plugin path="${artifacts.de.itemis.mps.extensions}/mps-multiline" id="de.slisson.mps.editor.multiline" />
-      <plugin path="${artifacts.mpsCore}/mps-core" id="jetbrains.mps.core" />
-      <plugin path="${artifacts.mpsStandalone}/lib/mps-workbench.jar" id="com.intellij.modules.mps" />
-      <plugin path="${artifacts.mpsVcs}/mps-git4idea" id="jetbrains.mps.git4idea.stubs" />
-      <plugin path="${artifacts.mpsVcs}/mps-vcs" id="jetbrains.mps.vcs" />
-      <plugin path="${artifacts.mpsVcs}/vcs-git" id="Git4Idea" />
-      <plugin path="${artifacts.mpsVcs}/vcs-svn" id="Subversion" />
-      <library file="${artifacts.mpsStandalone}/languages/editor/jetbrains.mps.ide.editor.jar" />
+      <plugin path="${artifacts.mps}/lib/mps-workbench.jar" id="com.intellij.modules.mps" />
+      <plugin path="${artifacts.mps}/plugins/mps-build" id="jetbrains.mps.build" />
+      <plugin path="${artifacts.mps}/plugins/mps-core" id="jetbrains.mps.core" />
+      <plugin path="${artifacts.mps}/plugins/mps-git4idea" id="jetbrains.mps.git4idea.stubs" />
+      <plugin path="${artifacts.mps}/plugins/mps-junit5" id="jetbrains.mps.junit5" />
+      <plugin path="${artifacts.mps}/plugins/mps-testing" id="jetbrains.mps.testing" />
+      <plugin path="${artifacts.mps}/plugins/mps-vcs" id="jetbrains.mps.vcs" />
+      <plugin path="${artifacts.mps}/plugins/vcs-git" id="Git4Idea" />
+      <plugin path="${artifacts.mps}/plugins/vcs-svn" id="Subversion" />
+      <library file="${artifacts.mps}/languages/editor/jetbrains.mps.ide.editor.jar" />
       <chunk>
         <module file="${basedir}/languages/formalodd/formalodd.mpl" />
       </chunk>
       <chunk>
-        <module file="${basedir}/solutions/formalodd.samples/formalodd.samples.msd" />
+        <module file="${basedir}/solutions/Demo/Demo.msd" />
       </chunk>
       <jvmargs>
         <arg value="-ea" />
@@ -432,61 +339,61 @@
         <path location="${basedir}/languages/formalodd/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-context.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-feedback-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-messages-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-references.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-persistence.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-generator.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.mpsVcs}/mps-vcs/lib/vcs-core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/app.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/app-client.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/lib.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/lib-client.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/util.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/util_rt.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/util-8.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/forms_rt.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/java-frontback.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/java-impl.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/jps-model.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/testFramework.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/stats.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/platform-loader.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.libraries.asm.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.libraries.gson.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.libraries.miglayout.swing.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.platform.vcs.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.platform.vcs.core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.xml.parser.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-core.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/app.jar" />
+        <fileset file="${artifacts.mps}/lib/app-client.jar" />
+        <fileset file="${artifacts.mps}/lib/lib.jar" />
+        <fileset file="${artifacts.mps}/lib/lib-client.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/util_rt.jar" />
+        <fileset file="${artifacts.mps}/lib/util-8.jar" />
+        <fileset file="${artifacts.mps}/lib/forms_rt.jar" />
+        <fileset file="${artifacts.mps}/lib/java-frontback.jar" />
+        <fileset file="${artifacts.mps}/lib/java-impl.jar" />
+        <fileset file="${artifacts.mps}/lib/jps-model.jar" />
+        <fileset file="${artifacts.mps}/lib/testFramework.jar" />
+        <fileset file="${artifacts.mps}/lib/stats.jar" />
+        <fileset file="${artifacts.mps}/lib/platform-loader.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.libraries.asm.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.libraries.gson.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.libraries.miglayout.swing.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.platform.vcs.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.platform.vcs.core.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.xml.parser.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.runtime.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/de.itemis.mps.celllayout/languages/de.itemis.mps.celllayout/de.itemis.mps.editor.celllayout.styles.jar" />
         <fileset file="${artifacts.de.itemis.mps.extensions}/mps-multiline/languages/mps-multiline/de.slisson.mps.editor.multiline.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.analyzers.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.dataFlow.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.descriptor.aspects.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.scopes.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/runtimes/jetbrains.mps.lang.smodel.query.runtime.jar" />
         <fileset dir="${artifacts.de.itemis.mps.extensions}/mps-multiline/lib" includes="diff_match_patch.jar" />
       </classpath>
     </javac>
@@ -504,54 +411,54 @@
         <path location="${basedir}/languages/formalodd/generator/source_gen" />
       </src>
       <classpath>
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-annotations.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-openapi.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-context.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-constraints-runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-problem.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-feedback-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-platform.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-messages-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-messages-for-rules.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-behavior-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-behavior-runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-closures.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-collections.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-tuples.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-references.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-api.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-editor-runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-persistence.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-generator.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-environment.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/mps-project-check.jar" />
-        <fileset file="${artifacts.mpsVcs}/mps-vcs/lib/vcs-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-openapi.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-context.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-constraints-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-problem.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-feedback-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-core.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-platform.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-messages-for-rules.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-behavior-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-closures.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-collections.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-tuples.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-references.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-api.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-editor-runtime.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-persistence.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-generator.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-environment.jar" />
+        <fileset file="${artifacts.mps}/lib/mps-project-check.jar" />
+        <fileset file="${artifacts.mps}/plugins/mps-vcs/lib/vcs-core.jar" />
         <pathelement path="${build.tmp}/java/out/formalodd" />
-        <fileset file="${artifacts.mpsStandalone}/lib/annotations.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/app.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/app-client.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/lib.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/lib-client.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/util.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/util_rt.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/util-8.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/forms_rt.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/java-frontback.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/java-impl.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/jps-model.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/testFramework.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/stats.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/platform-loader.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.libraries.asm.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.libraries.gson.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.libraries.miglayout.swing.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.platform.vcs.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.platform.vcs.core.jar" />
-        <fileset file="${artifacts.mpsStandalone}/lib/module-intellij.xml.parser.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
-        <fileset file="${artifacts.mpsStandalone}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
+        <fileset file="${artifacts.mps}/lib/annotations.jar" />
+        <fileset file="${artifacts.mps}/lib/app.jar" />
+        <fileset file="${artifacts.mps}/lib/app-client.jar" />
+        <fileset file="${artifacts.mps}/lib/lib.jar" />
+        <fileset file="${artifacts.mps}/lib/lib-client.jar" />
+        <fileset file="${artifacts.mps}/lib/util.jar" />
+        <fileset file="${artifacts.mps}/lib/util_rt.jar" />
+        <fileset file="${artifacts.mps}/lib/util-8.jar" />
+        <fileset file="${artifacts.mps}/lib/forms_rt.jar" />
+        <fileset file="${artifacts.mps}/lib/java-frontback.jar" />
+        <fileset file="${artifacts.mps}/lib/java-impl.jar" />
+        <fileset file="${artifacts.mps}/lib/jps-model.jar" />
+        <fileset file="${artifacts.mps}/lib/testFramework.jar" />
+        <fileset file="${artifacts.mps}/lib/stats.jar" />
+        <fileset file="${artifacts.mps}/lib/platform-loader.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.libraries.asm.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.libraries.gson.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.libraries.miglayout.swing.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.platform.vcs.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.platform.vcs.core.jar" />
+        <fileset file="${artifacts.mps}/lib/module-intellij.xml.parser.jar" />
+        <fileset file="${artifacts.mps}/languages/baseLanguage/jetbrains.mps.baseLanguage.logging.runtime.jar" />
+        <fileset file="${artifacts.mps}/languages/languageDesign/jetbrains.mps.lang.core.jar" />
       </classpath>
     </javac>
     <copy todir="${build.tmp}/java/out/formalodd#01">
@@ -559,46 +466,24 @@
     </copy>
   </target>
   
-  <target name="java.compile.formalodd.samples">
-    <mkdir dir="${basedir}/solutions/formalodd.samples/source_gen" />
-    <mkdir dir="${build.tmp}/java/out/formalodd.samples" />
-    <javac destdir="${build.tmp}/java/out/formalodd.samples" fork="true" encoding="utf8" includeantruntime="false" debug="true">
+  <target name="java.compile.Demo">
+    <mkdir dir="${basedir}/solutions/Demo/source_gen" />
+    <mkdir dir="${build.tmp}/java/out/Demo" />
+    <javac destdir="${build.tmp}/java/out/Demo" fork="true" encoding="utf8" includeantruntime="false" debug="true">
       <compilerarg value="-Xlint:none" />
       <src>
-        <path location="${basedir}/solutions/formalodd.samples/source_gen" />
+        <path location="${basedir}/solutions/Demo/source_gen" />
       </src>
       <classpath />
     </javac>
-    <copy todir="${build.tmp}/java/out/formalodd.samples">
-      <fileset dir="${basedir}/solutions/formalodd.samples/source_gen" excludes="**/*.java" />
+    <copy todir="${build.tmp}/java/out/Demo">
+      <fileset dir="${basedir}/solutions/Demo/source_gen" excludes="**/*.java" />
     </copy>
   </target>
   
   <target name="cleanSources">
     <delete dir="${basedir}/languages/formalodd/source_gen" />
     <delete dir="${basedir}/languages/formalodd/generator/source_gen" />
-    <delete dir="${basedir}/solutions/formalodd.samples/source_gen" />
-  </target>
-  
-  <target name="collect-tips-mps-tips">
-    <mkdir dir="${build.tmp}/out/mps-tips/mps-tips/tips/css" />
-    <mkdir dir="${build.tmp}/out/mps-tips/mps-tips/tips/images" />
-    <unjar src="${mps_home}/lib/mps-tips.jar" dest="${build.tmp}/out/mps-tips/mps-tips">
-      <patternset>
-        <include name="tips/**" />
-      </patternset>
-    </unjar>
-    <mkdir dir="${build.tmp}/out/mps-tips/mps-tips/META-INF" />
-    <fileset id="contents" includes="*.*" dir="${build.tmp}/out/mps-tips/mps-tips/tips" />
-    <property name="mps-tips.prop.contents" refid="contents" />
-    <echoxml file="${build.tmp}/out/mps-tips/mps-tips/META-INF/IdeTipsAndTricks.xml">
-      <idea-plugin>
-        <extensions defaultExtensionNs="com.intellij">
-          <tipAndTrick file="${mps-tips.prop.contents}" />
-        </extensions>
-      </idea-plugin>
-    </echoxml>
-    <replace file="${build.tmp}/out/mps-tips/mps-tips/META-INF/IdeTipsAndTricks.xml" token=";" value="&quot;/&gt;&#xD;&#x0009;&lt;tipAndTrick file=&quot;" />
-    <replace file="${build.tmp}/out/mps-tips/mps-tips/META-INF/IdeTipsAndTricks.xml" token="&lt;tipAndTrick file=&quot;&quot; /&gt;" value="" />
+    <delete dir="${basedir}/solutions/Demo/source_gen" />
   </target>
 </project>

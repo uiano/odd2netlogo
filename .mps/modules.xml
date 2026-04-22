@@ -9,6 +9,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/formalodd.samples/formalodd.samples.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/formalodd.test/formalodd.test.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/odd2netlogo.build3/odd2netlogo.builder.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/odd2netlogo.build_plugin/odd2netlogo.build_plugin.msd" folder="" />
     </projectModules>
   </component>
 </project>
