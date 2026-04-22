@@ -3,61 +3,92 @@
   <property name="build.dir" location="build" />
   <property name="build.tmp" location="${build.dir}/tmp/odd2netlogoDistribution" />
   <property name="build.layout" location="${build.dir}/artifacts/odd2netlogoDistribution" />
-  <property name="mps_home" location="${basedir}/../GenericMPS2020.1.2" />
-  <property name="version" value="1.0" />
+  <property name="mps_home" location="${basedir}/../../generic_MPS/MPS 2025.3" />
+  <property name="version" value="1.1" />
   <property name="artifacts.odd2netlogo" location="${build.dir}/artifacts/odd2netlogo" />
   <property file="${artifacts.odd2netlogo}/build.properties" prefix="import.odd2netlogo" />
   <property name="odd2netlogo.date" value="${import.odd2netlogo.odd2netlogo.date}" />
   <property name="odd2netlogo.build.number" value="${import.odd2netlogo.odd2netlogo.build.number}" />
+  <property name="mpsBootstrapCore.version.major" value="${import.odd2netlogo.mpsBootstrapCore.version.major}" />
+  <property name="mpsBootstrapCore.version.minor" value="${import.odd2netlogo.mpsBootstrapCore.version.minor}" />
+  <property name="mpsBootstrapCore.version.bugfixNr" value="${import.odd2netlogo.mpsBootstrapCore.version.bugfixNr}" />
+  <property name="mpsBootstrapCore.version.eap" value="${import.odd2netlogo.mpsBootstrapCore.version.eap}" />
   <property name="mpsBootstrapCore.version" value="${import.odd2netlogo.mpsBootstrapCore.version}" />
-  <property name="de.itemis.mps.extensions.versionNumber" value="${import.odd2netlogo.de.itemis.mps.extensions.versionNumber}" />
+  <property name="de.itemis.mps.extensions.version" value="${import.odd2netlogo.de.itemis.mps.extensions.version}" />
   <property name="mps.build.number" value="${import.odd2netlogo.mps.build.number}" />
   <property name="mps.date" value="${import.odd2netlogo.mps.date}" />
   <property name="mps.build.vcs.number" value="${import.odd2netlogo.mps.build.vcs.number}" />
   <property name="mps.teamcity.buildConfName" value="${import.odd2netlogo.mps.teamcity.buildConfName}" />
   <property name="mps.idea.platform.build.number" value="${import.odd2netlogo.mps.idea.platform.build.number}" />
   <property name="mps.mps.build.counter" value="${import.odd2netlogo.mps.mps.build.counter}" />
+  <property name="mps.runtimeBuild" value="${import.odd2netlogo.mps.runtimeBuild}" />
   
   <target name="assemble" depends="fetchDependencies">
     <mkdir dir="${build.layout}" />
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz" />
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz/bin" />
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz/bin">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo.vmoptions" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz/bin">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo64.vmoptions" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo64.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz_f755" />
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz_f755">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo.sh" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo.sh" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
     </copy>
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz_f7551" />
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz_f7551">
+      <fileset file="${mps_home}/bin/linux/mps" />
+      <globmapper from="*" to="odd2netlogo" />
+    </copy>
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz">
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/product-info-linux-amd64.json" />
+      <filterchain>
+        <tokenfilter>
+          <replaceregex pattern="\$version\$" replace="${version}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$build\$" replace="${odd2netlogo.build.number}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$path\.selector\$" replace="odd2netlogo1.0" flags="g" />
+        </tokenfilter>
+        <fixcrlf eol="lf" eof="remove" />
+      </filterchain>
+      <globmapper from="*" to="product-info.json" />
+    </copy>
     <tar destfile="${build.layout}/odd2netlogo-${odd2netlogo.build.number}.tar.gz" compression="gzip" longfile="gnu">
       <fileset dir="${artifacts.odd2netlogo}" />
-      <tarfileset dir="${mps_home}/bin/linux" prefix="bin" filemode="755" />
+      <tarfileset file="${mps_home}/lib/jna/amd64/libjnidispatch.so" prefix="lib/jna" />
+      <tarfileset file="${mps_home}/lib/pty4j/x86-64/libpty.so" prefix="lib/pty4j/linux/x86-64" />
+      <tarfileset dir="${mps_home}/bin/linux" prefix="bin" filemode="755">
+        <exclude name="mps" />
+      </tarfileset>
       <tarfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz_f755" filemode="755" prefix="bin" />
+      <tarfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz_f7551" filemode="755" prefix="bin" />
       <tarfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.tar.gz" />
     </tar>
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip" />
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip/bin" />
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip/bin">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo.vmoptions" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo.vmoptions" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
       <globmapper from="*" to="odd2netlogo.exe.vmoptions" />
     </copy>
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip/bin">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo64.vmoptions" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo64.vmoptions" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
@@ -65,10 +96,31 @@
     </copy>
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip_f755" />
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip_f755">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo.bat" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo.bat" />
       <filterchain>
         <fixcrlf eol="crlf" />
       </filterchain>
+    </copy>
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip_f7551" />
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip_f7551">
+      <fileset file="${mps_home}/bin/win/mps64.exe" />
+      <globmapper from="*" to="odd2netlogo64.exe" />
+    </copy>
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip">
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/product-info-windows-amd64.json" />
+      <filterchain>
+        <tokenfilter>
+          <replaceregex pattern="\$version\$" replace="${version}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$build\$" replace="${odd2netlogo.build.number}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$path\.selector\$" replace="odd2netlogo1.0" flags="g" />
+        </tokenfilter>
+        <fixcrlf eol="crlf" eof="remove" />
+      </filterchain>
+      <globmapper from="*" to="product-info.json" />
     </copy>
     <zip destfile="${build.layout}/odd2netlogo-${odd2netlogo.build.number}.win.zip">
       <fileset dir="${artifacts.odd2netlogo}" />
@@ -78,21 +130,48 @@
       </zipfileset>
       <zipfileset dir="${mps_home}/bin/win" prefix="bin" filemode="755">
         <include name="**/*.exe" />
-        <include name="**/append.bat" />
+        <exclude name="mps64.exe" />
       </zipfileset>
+      <zipfileset file="${mps_home}/lib/jna/amd64/jnidispatch.dll" prefix="lib/jna" />
+      <zipfileset file="${mps_home}/lib/pty4j/x86-64/cyglaunch.exe" prefix="lib/pty4j/win/x86-64" />
+      <zipfileset file="${mps_home}/lib/pty4j/x86-64/win-helper.dll" prefix="lib/pty4j/win/x86-64" />
+      <zipfileset file="${mps_home}/lib/pty4j/x86-64/winpty-agent.exe" prefix="lib/pty4j/win/x86-64" />
+      <zipfileset file="${mps_home}/lib/pty4j/x86-64/winpty.dll" prefix="lib/pty4j/win/x86-64" />
       <zipfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip_f755" filemode="755" prefix="bin" />
+      <zipfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip_f7551" filemode="755" prefix="bin" />
       <fileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.win.zip" />
     </zip>
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip" />
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app" />
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents/Resources" />
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents/Resources">
+      <fileset file="${mps_home}/bin/mac/Contents/Resources/mps.icns" />
+      <globmapper from="*" to="odd2netlogo.icns" />
+    </copy>
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents/Resources">
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/product-info-macos-amd64.json" />
+      <filterchain>
+        <tokenfilter>
+          <replaceregex pattern="\$version\$" replace="${version}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$build\$" replace="${odd2netlogo.build.number}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$path\.selector\$" replace="odd2netlogo1.0" flags="g" />
+        </tokenfilter>
+        <fixcrlf eol="lf" eof="remove" />
+      </filterchain>
+      <globmapper from="*" to="product-info.json" />
+    </copy>
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip_f755" />
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip_f755">
-      <fileset file="${mps_home}/bin/mac/Contents/MacOS/mps" />
+      <fileset file="${mps_home}/bin/mac/Contents/MacOS/mps-x64" />
       <globmapper from="*" to="odd2netlogo" />
     </copy>
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/Info.plist.xml" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/Info.plist.xml" />
       <filterchain>
         <tokenfilter>
           <replaceregex pattern="\$version\$" replace="${version}" flags="" />
@@ -100,42 +179,105 @@
         <tokenfilter>
           <replaceregex pattern="\$build\$" replace="${odd2netlogo.build.number}" flags="" />
         </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$platform\$" replace="x86_64" flags="" />
+        </tokenfilter>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
       <globmapper from="*" to="Info.plist" />
     </copy>
     <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents/bin" />
-    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip_f7551" />
-    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip_f7551">
-      <fileset dir="${mps_home}/bin/mac">
-        <include name="**/*.py" />
-      </fileset>
-      <filterchain>
-        <fixcrlf eol="lf" eof="remove" />
-      </filterchain>
-    </copy>
     <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip/odd2netlogo ${version}.app/Contents/bin">
-      <fileset file="${basedir}/solutions/formalodd.build/source_gen/formalodd/build/odd2netlogo64.vmoptions" />
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo64.vmoptions" />
       <filterchain>
         <fixcrlf eol="lf" eof="remove" />
       </filterchain>
       <regexpmapper from="odd2netlogo64.vmoptions" to="odd2netlogo.vmoptions" />
     </copy>
     <zip destfile="${build.layout}/odd2netlogo-${odd2netlogo.build.number}.macos.zip">
-      <zipfileset dir="${artifacts.odd2netlogo}" prefix="odd2netlogo ${version}.app/Contents" />
-      <zipfileset file="${mps_home}/bin/mac/Contents/Resources/mps.icns" prefix="odd2netlogo ${version}.app/Contents/Resources" />
-      <zipfileset dir="${mps_home}/bin/mac" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755">
-        <exclude name="**/*.dylib" />
-        <exclude name="**/*.py" />
+      <zipfileset dir="${artifacts.odd2netlogo}" prefix="odd2netlogo ${version}.app/Contents">
+        <exclude name="build.txt" />
       </zipfileset>
-      <zipfileset dir="${mps_home}/bin/mac" prefix="odd2netlogo ${version}.app/Contents/bin">
-        <include name="**/*.dylib" />
-      </zipfileset>
+      <zipfileset file="${artifacts.odd2netlogo}/build.txt" prefix="odd2netlogo ${version}.app/Contents/Resources" />
+      <zipfileset file="${mps_home}/bin/mac/libnst64.dylib" prefix="odd2netlogo ${version}.app/Contents/bin" />
+      <zipfileset file="${mps_home}/bin/mac/libmacscreenmenu64.dylib" prefix="odd2netlogo ${version}.app/Contents/bin" />
+      <zipfileset file="${mps_home}/bin/mac/amd64/restarter" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755" />
+      <zipfileset file="${mps_home}/bin/mac/fsnotifier" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755" />
+      <zipfileset file="${mps_home}/bin/mac/printenv" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755" />
+      <zipfileset file="${mps_home}/lib/jna/amd64/libjnidispatch.jnilib" prefix="odd2netlogo ${version}.app/Contents/lib/jna" />
+      <zipfileset file="${mps_home}/lib/pty4j/x86-64/libpty.dylib" prefix="odd2netlogo ${version}.app/Contents/lib/pty4j/darwin" />
       <zipfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip_f755" filemode="755" prefix="odd2netlogo ${version}.app/Contents/MacOS" />
-      <zipfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip_f7551" filemode="755" prefix="odd2netlogo ${version}.app/Contents/bin" />
       <fileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_.macos.zip" />
     </zip>
-    <echo file="${build.layout}/build.properties">odd2netlogoDistribution.version=${version}${line.separator}odd2netlogo.date=${odd2netlogo.date}${line.separator}odd2netlogo.build.number=${odd2netlogo.build.number}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.versionNumber=${de.itemis.mps.extensions.versionNumber}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}</echo>
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents" />
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents/Resources" />
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents/Resources">
+      <fileset file="${mps_home}/bin/mac/Contents/Resources/mps.icns" />
+      <globmapper from="*" to="odd2netlogo.icns" />
+    </copy>
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents/Resources">
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/product-info-macos-aarch64.json" />
+      <filterchain>
+        <tokenfilter>
+          <replaceregex pattern="\$version\$" replace="${version}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$build\$" replace="${odd2netlogo.build.number}" flags="g" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$path\.selector\$" replace="odd2netlogo1.0" flags="g" />
+        </tokenfilter>
+        <fixcrlf eol="lf" eof="remove" />
+      </filterchain>
+      <globmapper from="*" to="product-info.json" />
+    </copy>
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip_f755" />
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip_f755">
+      <fileset file="${mps_home}/bin/mac/Contents/MacOS/mps-aarch64" />
+      <globmapper from="*" to="odd2netlogo" />
+    </copy>
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents">
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/Info.plist.xml" />
+      <filterchain>
+        <tokenfilter>
+          <replaceregex pattern="\$version\$" replace="${version}" flags="" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$build\$" replace="${odd2netlogo.build.number}" flags="" />
+        </tokenfilter>
+        <tokenfilter>
+          <replaceregex pattern="\$platform\$" replace="arm64" flags="" />
+        </tokenfilter>
+        <fixcrlf eol="lf" eof="remove" />
+      </filterchain>
+      <globmapper from="*" to="Info.plist" />
+    </copy>
+    <mkdir dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents/bin" />
+    <copy todir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip/odd2netlogo ${version}.app/Contents/bin">
+      <fileset file="${basedir}/solutions/odd2netlogo.build3/source_gen/odd2netlogo/builder/odd2netlogo64.vmoptions" />
+      <filterchain>
+        <fixcrlf eol="lf" eof="remove" />
+      </filterchain>
+      <regexpmapper from="odd2netlogo64.vmoptions" to="odd2netlogo.vmoptions" />
+    </copy>
+    <zip destfile="${build.layout}/odd2netlogo-${odd2netlogo.build.number}-macos-aarch64.zip">
+      <zipfileset dir="${artifacts.odd2netlogo}" prefix="odd2netlogo ${version}.app/Contents">
+        <exclude name="build.txt" />
+      </zipfileset>
+      <zipfileset file="${artifacts.odd2netlogo}/build.txt" prefix="odd2netlogo ${version}.app/Contents/Resources" />
+      <zipfileset file="${mps_home}/bin/mac/libnst64.dylib" prefix="odd2netlogo ${version}.app/Contents/bin" />
+      <zipfileset file="${mps_home}/bin/mac/libmacscreenmenu64.dylib" prefix="odd2netlogo ${version}.app/Contents/bin" />
+      <zipfileset file="${mps_home}/bin/mac/aarch64/restarter" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755" />
+      <zipfileset file="${mps_home}/bin/mac/fsnotifier" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755" />
+      <zipfileset file="${mps_home}/bin/mac/printenv" prefix="odd2netlogo ${version}.app/Contents/bin" filemode="755" />
+      <zipfileset file="${mps_home}/lib/jna/aarch64/libjnidispatch.jnilib" prefix="odd2netlogo ${version}.app/Contents/lib/jna" />
+      <zipfileset file="${mps_home}/lib/pty4j/x86-64/libpty.dylib" prefix="odd2netlogo ${version}.app/Contents/lib/pty4j/darwin" />
+      <zipfileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip_f755" filemode="755" prefix="odd2netlogo ${version}.app/Contents/MacOS" />
+      <fileset dir="${build.tmp}/default/odd2netlogo-_dl__lbrace_build.number_rbrace_-macos-aarch64.zip" />
+    </zip>
+    <echo file="${build.layout}/build.properties">odd2netlogoDistribution.version=${version}${line.separator}odd2netlogo.date=${odd2netlogo.date}${line.separator}odd2netlogo.build.number=${odd2netlogo.build.number}${line.separator}mpsBootstrapCore.version.major=${mpsBootstrapCore.version.major}${line.separator}mpsBootstrapCore.version.minor=${mpsBootstrapCore.version.minor}${line.separator}mpsBootstrapCore.version.bugfixNr=${mpsBootstrapCore.version.bugfixNr}${line.separator}mpsBootstrapCore.version.eap=${mpsBootstrapCore.version.eap}${line.separator}mpsBootstrapCore.version=${mpsBootstrapCore.version}${line.separator}de.itemis.mps.extensions.version=${de.itemis.mps.extensions.version}${line.separator}mps.build.number=${mps.build.number}${line.separator}mps.date=${mps.date}${line.separator}mps.build.vcs.number=${mps.build.vcs.number}${line.separator}mps.teamcity.buildConfName=${mps.teamcity.buildConfName}${line.separator}mps.idea.platform.build.number=${mps.idea.platform.build.number}${line.separator}mps.mps.build.counter=${mps.mps.build.counter}${line.separator}mps.runtimeBuild=${mps.runtimeBuild}</echo>
   </target>
   
   <target name="buildDependents">
